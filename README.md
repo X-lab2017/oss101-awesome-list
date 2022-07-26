@@ -3,6 +3,8 @@ an awesome course list about open source software.
 
 this project also include the subtitle of course which about open source software. 
 
+Agenda:  [agenda.md](agenda.md) 
+
 
 ## awesome course list
 
