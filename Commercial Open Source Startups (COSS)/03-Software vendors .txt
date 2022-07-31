@@ -1,0 +1,2886 @@
+0
+00:00:02,790 --> 00:00:12,990
+大家好,欢迎回到我们的课程，此课程是关商业业开源软件创业以及如何将其从大学教育中抽离出来。
+Hello,
+everyone,
+and welcome back to course, our course on commercial open source software startups and how to spin them out of university.
+
+3
+00:00:12,991 --> 00:00:18,000
+我是Dirk Riehle，负责这门课程。这是 Dr. Thomas Otter。
+My name is Dirk Riehle,
+and I'm teaching this course was Dr. Thomas Otter.
+
+5
+00:00:20,670 --> 00:00:27,390
+今天我们将讨论软件供应商，之前我们已经讨论了软件产品，
+So today we will be talking about software vendors.
+We previously talked about products,
+
+7
+00:00:27,391 --> 00:00:34,830
+现在我们需要讨论一下软件供应商，软件供应商最终吧这些产品推向了市场。
+but we need to talk about vendors now.
+As those who actually bring a product to market.
+
+9
+00:00:34,831 --> 00:00:46,440
+我们或许需要对比一下软件供应商以及商业咨询公司，以此来了解他们之间的差别。
+We will have to contrast software product trumps said vendors with product at this project firms consulting firms,
+and to understand the differences.
+
+11
+00:00:46,441 --> 00:00:56,460
+我们需要看一下软件供应商的财务状况，以及软件供应商对不同种类公司的影响。
+we need to take a look at the financials of it and how they play out for these very different types of companies and then for software vendors,
+
+12
+00:00:56,461 --> 00:01:12,120
+我们还将讨论关键的业务功能，以及人们所扮演的角色，然后是构成软件供应商业的核心业务流程。
+We will also look at the key business functions, the roles or positions that people,
+the roles people play at the positions they hold and then the core business processes that constitute the business of software vendor.
+
+14
+00:01:14,460 --> 00:01:18,210
+在之前的课程中我们已经讨论了软件行业的主要参与者以及软件产品，   
+So in the previous sessions,
+
+15
+00:01:18,211 --> 00:01:38,730
+此时我们将集中讨论一下软件供应商，其实软件供应商是从一个产品初创公司发展而来的，
+we already talked about the main players of the software industry as well as work products. We will focus here on that particularly interesting type of industry player called a software vendor because that where
+start up,
+
+17
+00:01:38,731 --> 00:01:52,500
+基于较好软件产品的较大规模、或者成功的软件公司，有可能成就硅谷那些公司的声望吗？
+with a product
+startups are made from that,
+have that Silicon Valley cache of possibly, being large and successful companies based on the well software products?
+
+20
+00:01:52,501 --> 00:02:01,590 
+其中的关键就是软件供应商需要提供标准化的商业软件。
+The key is software vendors provide you with so called standardized software 
+Or commercial of the cell of the shelf software,
+
+22
+00:02:01,591 --> 00:02:10,500
+这意味着市场中的一个软件厂品应该能够为个体消费者实现定制化服务。
+meaning one product for a market as opposed to custom-made products for individual customers.
+
+23
+00:02:10,501 --> 00:02:16,770
+其实软件供应商有；两种变体，一种是传统的软件供应商，另一种就是软件生产者。
+There are two variants the classic software vendor, the producer of the software.
+
+24
+00:02:16,771 --> 00:02:27,660
+此外，这些天我们应该了解到产品不应该仅仅是传统的许可销售，
+And in addition,
+we have seen these days that
+there's also the provision of that product not as a traditional
+licensed sale any longer,
+
+28
+00:02:27,661 --> 00:02:30,390
+其应该作为一种服务，这就意味着软件就是服务。   
+but as a service,
+meaning software as a service,
+
+30
+00:02:30,391 --> 00:02:39,000
+同时也意味着，云服务提供商或互联网公司应该都是标准的软件提供商，
+meaning the cloud service providers or Internet companies.
+these are standard,
+standard product providers,
+
+33
+00:02:39,001 --> 00:02:44,430
+我们还会关注软件供应商和云计算公司。
+and we will look at software vendors also cloud computing firms.
+
+34
+00:02:44,431 --> 00:02:51,960
+在这两种情况下，软件就是一个面向市场的产品，而不是单个客户的定制化产品。         
+In both cases,
+it's always a product for a market,
+not a custom made product for a single customer.
+
+37
+00:02:53,550 --> 00:02:57,690
+回顾什么是软件产品，我们之前讨论过，如何把一个产品组成不同的组件？
+And when we look at what is a product, we previously discussed
+
+38
+00:02:57,691 --> 00:03:18,900
+并且与用户群体相关的软件产品有哪些拓展阶段呢？所以有时候我们可能会知道核心产品的一些种类，
+how we can structure a product into these different components, how these different extension stages of a product correspond with customer groups. So we know that there needs to be some sort of core product or later, we'll see how that is also called in the startup context
+
+39
+00:03:18,901 --> 00:03:34,410
+或者最小可行性产品的一些种类，以及如何从一个成长中的公司去构建多功能产品，用以满足用户需求。
+minimum viable product and how a growing company extends or builds that out into a basic product with more functionality that a broader array of customer needs all the way to a whole product
+
+40
+00:03:34,411 --> 00:03:45,570
+如果你的产品满足了清单上的款项，大企业可能会购买这些功能丰富的产品。
+with all the bells and whistles needed by large enterprises who are often reluctant to buy,
+unless every item on some checklist matched as met.
+
+42
+00:03:49,740 --> 00:03:58,530
+首先就是产品和产品的对比，以及产品公司与产品公司之间的对比，         
+So then first products versus projects and product firms versus project firms.
+
+43
+00:03:58,531 --> 00:04:04,470
+这些我们在上节课已经看到过了，
+So we already saw that in the previous lecture,
+
+44
+00:04:04,471 --> 00:04:15,300
+SAP需要咨询公司将产品付诸时间，因为这个产品是一个标准化产品，
+how say SAP,
+needs consulting firms to put the product into action because the product as a standardized project,
+
+46
+00:04:15,301 --> 00:04:23,160
+该产品作为一个商用现成软件太过通用，无法满足特定客户的需求。
+a product as a commercial off-the-shelf software is just too generic to satisfy the needs of a particular customer.
+ 
+47
+00:04:24,510 --> 00:04:29,160
+今天的这门课程就会补充相关知识，
+And this complementarity will be with us today for the whole lecture,
+
+48
+00:04:29,161 --> 00:04:34,080
+对于一个企业软件而言，总是如此。
+because for enterprise software this is almost always the case.
+
+49
+00:04:34,081 --> 00:04:41,850
+没有一个企业软件是如此优秀，以至于你不需要对它进行定制化操作或者对其进行调整。
+There's just no enterprise software that is so good that you don't need to customize it and adjust it.
+
+50
+00:04:41,851 --> 00:04:51,600
+在商业咨询公司中，软件提供商提供了标准化软件，正如所讨论的那样，各软件提供商之间存在差异。
+And that usually leads to a separation of work between a software vendor who provides the standardized product in a consulting firm,
+
+51
+00:04:51,601 --> 00:05:04,020
+其中，商业咨询公司可以在用户项目中，可以将标准化软件转化为符合特定用户需求的软件。
+which
+in the course of a project paid for by a customer project turns that standardized software to specific software for that, for that one customer.
+
+53
+00:05:05,220 --> 00:05:15,960
+我们需要意识到市场企业之间是存在差异的，比如在消费者领域、零售商领域。         
+The main difference or the main thing to realize is that this is how it is in the enterprise of the market,
+but that in the consumer space,
+a retail space,
+
+56
+00:05:15,961 --> 00:05:27,990
+消费者通常对于价格非常敏感，他们不愿为额外的咨询项目买单。
+the customers,
+consumers are price,
+usually so price sensitive that they would hate to have to pay for an expensive additional consulting project.
+
+59
+00:05:27,991 --> 00:05:31,350
+他们宁愿自己投入时间，也不愿意花钱，
+They are either willing to put in the time themselves,
+
+60
+00:05:31,351 --> 00:05:41,550
+他们总是简单地认为软件必须走出包装，这意味着大多数情况下供应商必须让它为他们开箱即用。
+or they simply assume that the software has to walk out of the box,
+which means that the vendor has to make it work out of the box for them
+most of the time.
+
+63
+00:05:44,430 --> 00:06:04,650
+这对于如何通过软件赚钱具有深远的影响。20年前的传统软件供应商创造了两种类型的收益，
+And this has profound implications on who earns how much money. Software products in the traditional context
+by tradition softeware vendor 20 years ago
+Would create revenue of two types.
+
+66
+00:06:04,651 --> 00:06:10,650
+第一笔收入是软件最初的一次性许可费，
+The first piece of revenue was the initial one-time license fee.
+
+67
+00:06:10,651 --> 00:06:17,430
+一位销售人员与一位顾客成功地完成了一笔交易，这样之后某些公司可能就变成了消费者。
+A sales person succeeded in closing a deal with a customer,
+or some company will then became a customer.
+
+69
+00:06:17,431 --> 00:06:27,930
+用户第一年在使用软件的时候会付出昂贵的费用，用户会去使用软件许可。      
+And for that initial dear clothing for that first year of providing the software,
+the user tries to use the software the license.
+
+71
+00:06:27,931 --> 00:06:34,830
+所以说，最初用户需要为开源许可付费，
+For that first year,
+there was a fair comparatively high license fee, initial license fee to be paid.
+
+73
+00:06:35,760 --> 00:06:44,490
+消费者不乐意为最初的许可付钱，他们也想要支付所谓的维护费，
+And come here to that customer would not be willing to pay that same initial license fee again,
+they would want to pay so called maintenance fees,
+
+75
+00:06:44,491 --> 00:06:49,890
+维护费的比率一般是15%到20%，25%。
+which generally hover around 15 to 20, 25.
+
+76
+00:06:49,891 --> 00:06:56,220
+有时候是30%的初始费用，有时候也是20%的初始费用。
+Sometimes 30% of the initial fee, usually lets you can assume it's 20% of the initial fee.
+
+77
+00:06:57,210 --> 00:07:06,150
+这对于软件供应商来说也是很好的建议，他们不需要再进行交易，建立的客户可能会留下来。
+It's still a great deal for the vendor because they don't have to close a deal again and establish customer is likely to stick around.
+
+78
+00:07:06,151 --> 00:07:18,030
+这就一位置你没有所谓的”获取用户“成本，我们之后会讨论到。你现在可以看到这个最初的费用，       
+and that means you don't have so called customer acquisition costs about we will talk later,
+but for now you see you have this initial again and then a much lower
+
+81
+00:07:18,031 --> 00:07:22,800
+然后消费者需要付更低的维护费用，
+but steady maintenance fee that customers pay.
+
+82
+00:07:24,480 --> 00:07:34,920
+比较好的一件事情是，你可能在第一年获取第一笔维护费用，之后在第二年、第三年你有稳定的收入来源，
+And the nice thing is that if you close one deal in the first year and a second year, in the second year and the third one thought he and so forth,
+
+83
+00:07:34,921 --> 00:07:45,210
+这些维护费用使得你的商业成功，你的用户得到堆积，他们不会离开。
+the maintenance revenue is actually what makes you a successful business over time, because it keeps piling up once you have that customer they don't leave.
+
+84
+00:07:45,211 --> 00:07:48,090
+你保证了收入的来源，
+You have this guaranteed stream of income,
+
+85
+00:07:48,091 --> 00:07:55,080
+并且这是养活你公司和花费的基础，
+and it is the base from which you can feed your company and the costs.
+
+86
+00:07:55,081 --> 00:07:58,080
+并且初始许可费用是一次性付费。
+And the initial license fee is only a one-time fee,
+
+87
+00:07:58,081 --> 00:08:05,460
+正是维护收入的不断增加，才使得软件供应商得以发展。  
+but it's the maintenance revenue that keeps on, keeps piling up and makes being a software vendor so nice.
+
+88
+00:08:07,410 --> 00:08:10,110
+今天仍是这样，
+This is still the case today,
+
+89
+00:08:10,111 --> 00:08:19,020
+即使目前的云服务不再谈及相关维护费用，而是使用“订阅服务”等。
+even if you are providing a cloud service where we don't talk about maintenance revenue any longer,
+but rather about subscription revenue.
+
+91
+00:08:19,021 --> 00:08:20,520
+在这种情况下，
+In this case,
+
+92
+00:08:20,521 --> 00:08:30,840
+供应商的收入是这样的，他们没有初始的许可收入。这对他们来说可不是一件好事。    
+the revenue for the vendor is such that there is no initial licensee fee,
+That's bad.
+
+94
+00:08:30,841 --> 00:08:32,070
+就像你了解的那样，
+If you will,
+so,
+
+96
+00:08:32,071 --> 00:08:39,420
+所以云提供商就没有对软件许可进行收费的过程。但是，现在我们在第一年仍然赚钱了。
+there's no that initial hump off while we made a deal,
+and now we get a lot of money in the first year.
+
+98
+00:08:39,421 --> 00:08:44,550
+我们所赚取的是用户的订阅费用。
+But rather it is just a steady subscription fee.
+
+99
+00:08:44,551 --> 00:08:49,410
+如果用户不改变自己的规划，那么他们每年都会支付相关的订阅费用。
+If the customer doesn't change their plan,
+that's just the fees they pay every year.
+
+101
+00:08:50,370 --> 00:08:57,660
+对软件维护进行收费，这也是每年收入的来源。
+The good thing is like maintenance revenue,
+it is revenue that comes in every year.
+
+103
+00:08:57,661 --> 00:08:58,890
+如果用户不放弃使用软件，
+If the customer doesn't leave,
+
+104
+00:08:58,891 --> 00:09:08,880
+那么用户就会一直支付软件的维护费用，这足以让一个软件供应商的生活过得滋润。
+so it has that exact nice same and nice property of it keeps piling up and makes your life as a vendor very nice. On top of that,
+
+105
+00:09:08,881 --> 00:09:15,870
+在订阅云服务的时候，额外的收入会比软件的维护费用更高。   
+because in subscription to a cloud service,
+at least if it's a cloud service that
+your customers are subscribing to. The extra revenue is higher than the maintenance fee.
+
+108
+00:09:22,381 --> 00:09:24,810
+毕竟，作为软件供应商，你有很多事情要做。
+After all,
+you have to do more as a vendor,
+
+110
+00:09:24,811 --> 00:09:36,030
+因为目前你是在云端为你的消费者操作软件，所以你每年都能从每个消费者身上赚钱。
+because it now you're operating,
+the software for your customers in the cloud. And so you actually make more every year on a single customer.
+
+112
+00:09:36,031 --> 00:09:37,110
+但是呢，你可能会有更高的成本，
+You have higher costs,
+
+113
+00:09:37,111 --> 00:09:49,770
+毫无疑问，你需要重构一下软件收费方式，这样你就能够从额外服务中赚取更多的利润。
+but obviously you will want to structure it in such a way, that you make more of the more avenue of the additional service that you are, that you are paying.
+you're getting paid, that you are providing.
+
+115
+00:09:52,290 --> 00:10:00,210
+这就是向用户提供标准化软件的软件供应商在市场中的工作方式，    
+So that's how software vendors, who provide a standardized product to a market work. Now software projects,
+
+116
+00:10:00,211 --> 00:10:07,020
+另一方面，我们讨论一下软件项目，一个项目应该觉有明确的开头和结尾。
+on the other hand,
+a project is an undertaking with a defined start and defined end.
+
+118
+00:10:07,021 --> 00:10:14,940
+软件项目不是一种产品，它具有明确的开始和结束。
+It's not a product,
+it's a product is or has a process with defined start and end date.
+
+120
+00:10:14,941 --> 00:10:24,270
+为什么一个软件经常没有截止日期呢？其实软件项目通常都是以这种形式存在的。
+Why a product has no end date usually, so a software project and then is such form of project,
+
+121
+00:10:24,271 --> 00:10:36,030
+其中最关键的事情就是，消费者需要了解他们需要为软件的特殊功能付费，
+and the key thing to understand is that in a project,
+the customer is almost always paying for some piece of work that's specific to them,
+
+123
+00:10:36,031 --> 00:10:38,640
+因此这是一个项目而不单单是一个产品。
+hence a project rather than a product,
+
+124
+00:10:38,641 --> 00:10:47,100
+所有换句话说，消费者为劳动力付费，劳动力即使那些为软件产品付出时间的人，             
+and so in some form or another,
+what the customers paying for is labor, labor means people applied over time.
+
+126
+00:10:47,101 --> 00:10:52,110
+即使肯能会是软件项目的提供者。
+Even if the provider of a software project,
+
+127
+00:10:52,111 --> 00:11:03,180
+软件咨询公司通常会固定收费，他们会将是继劳动力订价，这也造成了软件咨询公司的花费。
+The consulting firm,
+is offering a fixed price,
+they will have priced in the actual labor,
+it will cost them. So given a project,
+
+131
+00:11:03,181 --> 00:11:15,120
+所以对于一个给定的项目而言，消费者的成本、项目供应商以及软件咨询公司的收入都与劳动力紧密相关。
+the cost to the customer and the revenues to the project provider consulting firm always strongly correlates with the actual labor,
+put in.
+
+133
+00:11:16,230 --> 00:11:23,490
+我们所谈及的是收入而不是消费者对项目的花费，   
+And so this is also than the fee for a project is the revenue,
+
+134
+00:11:23,491 --> 00:11:29,880
+然后才是劳动力成本然后才是软件咨询公司的成本。
+and then the labor costs or the expenses of the consulting firm.
+
+135
+00:11:29,881 --> 00:11:39,270
+所以你需要了解你的项目，你的硕士论文也是一个项目，具有开始和截止日期。
+And so you know your projects very well,
+your bachelor
+master thesis is a project, has a start has an end date
+hopefully,
+
+139
+00:11:39,271 --> 00:11:50,490
+在软件世界里，更多情况下针对消费者的SAP才是一个项目，SAP的商业套装才是产品，
+but in the software world,
+more often again,
+it's like customizing SAP for a customer that would be a project.
+When SAP's business suite would be the product.
+
+144
+00:11:51,870 --> 00:11:55,650
+这也意味着资金的流动。
+So that means the flow of money.
+
+145
+00:11:55,651 --> 00:12:00,810
+然而咨询公司的收入却大有不同，
+The revenues is quite different for consulting firm.
+
+146
+00:12:00,811 --> 00:12:09,120
+如果你是一家软件咨询公司，针对软件项目对你的消费者进行收费，
+If you are a consulting firm which does software projects you charge your
+customers, the fee for the project,
+
+148
+00:12:09,121 --> 00:12:15,690
+这个费用应该要与实际投入在项目中的时间相对应。
+and that fee is due somehow close in time to the actual project.
+
+149
+00:12:15,691 --> 00:12:20,430
+一旦项目结束，则把费用支付完毕，正是如此。
+And once the project is over and the fees have been paid,
+that's it.
+
+151
+00:12:20,431 --> 00:12:24,960
+作为软件咨询公司，没有软件的维护收入，也没有其余堆积的收入。     
+There's no maintenance revenue,
+there's no piling up of something here.
+
+153
+00:12:24,961 --> 00:12:31,500
+它仅仅是劳动报酬，一旦使用劳动力，消费者就得付钱。
+It is money for labour,
+and once the labour is being provided,
+the money goes away.
+
+156
+00:12:32,940 --> 00:12:38,520
+但是这笔报酬也是相当可观的，
+The excellent amount of money for being paid is pretty nice.
+
+157
+00:12:38,521 --> 00:12:48,300
+这通常会比软件许可费用以及软件维护费用高得多。
+It's usually much higher than a software license fee and certainly the maintenance fees simply because well,
+
+158
+00:12:48,301 --> 00:12:55,260
+在与软件咨询公司打交道时，你对软件产品的付费其实就是劳动力成本。
+that's the cost of labour while in the fees for a software product.
+
+159
+00:12:55,261 --> 00:13:00,420
+除非该软件咨询公司是一家真正的垄断公司，这样就可以向消费者任意收费。
+Unless it's really a monopolist who can charge you whatever they want.
+
+160
+00:13:00,421 --> 00:13:21,780
+一个软件产品的使用费用通常要比开发软件所用到劳动力的成本低的多，劳动力成本会随着时间不断叠加。
+The fees for a product are usually such that they are much lower than the actual labor that went into developing the product， and these costs, the labor costs are being recouped over time by selling the same product to many different customers. For consulting firm charging,
+
+161
+00:13:21,781 --> 00:13:24,540
+当软件咨询公司向用户收取软件费用的时候，
+one customers,
+the fees for one project,
+
+163
+00:13:24,541 --> 00:13:41,160
+这是他们唯一一次因为劳动力而拿到钱，所以对于软件的花费要比购买软件许可所需的花费高得多。
+that's the only time they get money for that labour, so the fees for a project are much higher than the cost of purchasing a license for a product. In the SQP case enterprise software case,
+
+164
+00:13:41,161 --> 00:13:53,550
+在SQP企业软件案例中，相比于软件许可还存在而外的5-10因素可向用户收费。
+it's a factor easily of 5 to 10 more that the customer is charged for the implementation project
+than the actual license,
+
+166
+00:13:53,551 --> 00:13:57,660
+但是软件供应商每年都会进行软件维护的审核，
+but the vendor makes up for it with the maintenance review in year,
+
+167
+00:13:57,661 --> 00:14:04,530
+所以2，3家软件咨询公司基本都赚不到钱。
+two or three and four were the consulting firm makes no money. What the consulting firm does is
+
+168
+00:14:04,531 --> 00:14:09,270
+这些软件公司所做的就是今年卖一个项目，第二年、第三年再卖一个项目等。
+sell another project for the second year and yet another one for the third year.
+
+169
+00:14:09,271 --> 00:14:15,870
+所以如果一个软件咨询公司能一个接一个项目进行出售，
+So if a consulting firm sells a project and carries it out after one after another,
+
+170
+00:14:15,871 --> 00:14:23,460
+他们就会有一个稳定的收入，这取决于劳动力的数量。
+they have a steady revenue based on the number of people they have and whose labor they can sell to customers.
+
+171
+00:14:23,461 --> 00:14:30,990
+如你所见，这也是笔可观的收入。并且随着时间的推移，这笔收入是稳定的。   
+As you can see,
+ah,
+it's significant income revenues here,
+but it's steady over time.
+
+175
+00:14:30,991 --> 00:14:36,120
+但是如果你没有更多的劳动力，尽管卖出了很多的项目，你的收入仍然不会增长。
+If you don't hire more people and sell more project,
+you will not have revenue growth.
+
+177
+00:14:36,121 --> 00:14:41,100
+你将会有比较稳定的高收入，但是它们是静态的，
+You'll just have steady revenues like this
+At a high level.
+but they are steady,
+
+180
+00:14:41,101 --> 00:14:43,740
+这笔收入并不会像软件供应商那样持续增长。
+they don't keep growing like the software vendors did.
+
+181
+00:14:45,120 --> 00:14:54,300
+你可以在这儿看到，第一年的项目收入要比单纯售卖软件许可赚的多，       
+So here you can see it side by side.
+The project revenues in the first year are higher than a single license sale of a product,
+
+183
+00:14:54,301 --> 00:15:07,200
+但是随着时间的推移，产品收入会不断增长，这是基于软件的维护或者订阅费用。
+but over time the product revenue keeps catching up based on that socket or the base from the piling up of the maintenance or subscription revenue.
+
+184
+00:15:07,201 --> 00:15:13,410
+然而有些商业咨询公司，它们基于相同的劳动力资源售卖相同的软件产品，
+While the revenues of selling the same project over and over with the same labour force
+
+185
+00:15:13,411 --> 00:15:15,570
+但是该商业公司的收入没啥变化。
+simply stay, stay the same.
+
+186
+00:15:18,870 --> 00:15:22,410
+所以你可能会想，难道不是每个人都想成为软件供应商吗？
+So you may think,
+wouldn't everyone want to be a software vendor,
+
+188
+00:15:22,411 --> 00:15:29,160
+那么为什么有些人想创建商业咨询公司呢？其实对于两者来说，这两种角色都是有利有弊的。
+then why would anyone want
+to be a consulting firm. Well,
+there are advantages and disadvantages to both.
+
+191
+00:15:30,120 --> 00:15:37,410
+软件供应商如果把事做好那么就会有不错的收入，       
+The software vendor has this nice increasing revenues
+if they're doing things right.
+
+193
+00:15:37,411 --> 00:15:42,060
+事实也确实是这样，因为被锁定的消费者不会轻易离开。
+It's predictable because customers who are locked in don't easily leave.
+
+194
+00:15:42,960 --> 00:15:52,380
+这也为证券市场带来了好的改变，因此这也造就了软件供应商。
+And it makes for a nice variation in the stock market and hence makes its good companies. They're
+
+195
+00:15:52,381 --> 00:15:53,460
+但是他们在开始阶段还是很艰辛的，
+Hard to get started,
+though,
+
+197
+00:15:53,461 --> 00:16:01,200
+因为你首先需要先拿到哪个软件，这是需要前期投资的。
+because you need to make it to that software in the first place,
+which requires upfront investment. And
+
+199
+00:16:02,430 --> 00:16:05,610
+并且，这也并不能保证你能成功开发软件，
+it's not guaranteed that you succeed in developing that software,
+
+200
+00:16:05,611 --> 00:16:10,440
+这也并不能保证你所开发的软件能够真正满足客户和市场的需求，
+it's not guaranteed that you succeed in really meeting customer and market requirements.
+
+201
+00:16:10,441 --> 00:16:21,120
+这也并不能保证你能在竞争激烈的销售环境中战胜竞争对手，只有赢下消费者你才能赚钱。
+It's not guaranteed that you win against competitors in competitive sales situations and gain those customers that give you that nice piling up revenue.
+
+202
+00:16:21,121 --> 00:16:29,580
+所以那么多的软件供应商、初创公司都失败了，只有极少数的软件供应商存活下来了。     
+So many many software vendors,
+startups who want to be software vendors fail and few survive.
+
+204
+00:16:29,581 --> 00:16:38,970
+那么那些活下来的软件供应商就是传奇它们是非常成功的公司，直到今天我们可能都在依赖着它们。
+Those who survive are the legends that we well other
+highly successful companies, we all depend on these days,
+
+206
+00:16:38,971 --> 00:16:44,370
+相比之下商业咨询公司就不是资本密集型企业了，所以商业咨询公司很容易起步。
+Consulting firms,
+in contrast,
+are not capital intensive.
+There can be started easily.
+
+210
+00:16:44,371 --> 00:16:44,850
+你和你的几位朋友可以充当劳动力，然后把时间出租出去，以此来向消费者收费。
+It's you,
+
+211
+00:16:44,851 --> 00:17:01,830
+商业咨询公司相比软件供应商相对简单一点儿，你可能知道多少人需要项目，以及怎样向消费者收费。
+and a couple of friends are renting out your time meaning charging someone for the labor you provide. surprising is comparatively simpler because of that you know how many people maybe are needed for a project and you charge your customers for that.
+
+212
+00:17:03,450 --> 00:17:13,350
+事实情况是，如果我们的客户因为经济低迷而没有钱，或者他们想省钱，那么商业咨询公司的波动就会更大。         
+There's a fir bit, there's a higher volatility if customers don't have the money because they have have an economic downturn or they want to save money,
+
+213
+00:17:13,351 --> 00:17:18,480
+被咨询的项目一般都是要求扩展的项目，
+Consulting projects  are usually the first to go and scaling up.
+
+214
+00:17:18,481 --> 00:17:22,680
+这个生意挺难做的，因为你需要雇佣更多的人。
+Such a business is also harder because you need to hire more people.
+
+215
+00:17:22,681 --> 00:17:34,410
+这也是商业咨询公司扩大规模的主要方式，
+That's the main way of scaling up a consulting firm. And people are harder
+good people, capable people are harder to get and keep than say,
+
+217
+00:17:34,411 --> 00:17:37,620
+那么能花费时间成功销售出产品的人就更加难得，也很难留住他们。
+selling a successful product on more time.
+
+218
+00:17:42,090 --> 00:17:50,250
+现在我看一下这些公司的财务状况，
+So I want to take a look now at the financials of these companies so that you get a feeling for
+
+219
+00:17:50,251 --> 00:17:55,530
+这样你对软件供应商如何工作，以及如何考虑经济因素就会有所了解。
+how software vendors work or how to think about.
+ 
+221
+00:17:55,531 --> 00:18:07,170
+在财务报表和会计中有三个基本的文件，查看一下收支平衡表，
+Well,
+The financial side.
+There are three basic, three basic documents in financial statements in accounting. There's the balance sheet,
+
+224
+00:18:07,171 --> 00:18:12,330
+它显示了你所有的资产以及你必须支付的负债，
+which shows you all the assets you have, all the liabilities things,
+
+225
+00:18:12,331 --> 00:18:15,240
+然后就是你所抵押资产的净值。
+you have to pay and then your equity.
+
+226
+00:18:15,241 --> 00:18:21,840
+对于实际操作来说，是否了解软件供应商的操作不是很重要。
+It's usually not so important for the operations to understand the operations of a software vendor.
+
+227
+00:18:23,010 --> 00:18:36,360
+然后是一个收入声明，它展示了在给定的一年中你赚了多少钱，以及收入和花费都是什么。
+Well then,
+there is the income statement which shows for a given year or how much money was made and what the costs for that were so revenues and expenses.
+
+229
+00:18:36,361 --> 00:18:39,750
+这给了你一个更高层次的描述。
+And it gives you a high level overview.
+
+230
+00:18:39,751 --> 00:18:42,720
+如果需要的话，你还可以写很多细节，
+well,
+all the way down into the details if you need to,
+
+232
+00:18:42,721 --> 00:18:58,590
+比如可以对你所做的事情做一个总的概述，所以收入声明通常是对于一个成功的软件供应商来说，
+but it gives you that overview of how you are doing，because so the income statement is usually the most important statement for to understand a successful software vendor. Separate from the income statement,
+
+233
+00:18:58,591 --> 00:18:59,880
+最重要的声明。除了损益表，还有一份现金流表。
+there is the cash flow statement.
+
+234
+00:18:59,881 --> 00:19:08,700
+我们现在不讨论这些，现金流表所关注的是银行里的现金以及额外的进出现金。     
+we won't discuss those.
+The cash flow statement looks at the actual money in the bank or the extra money that came and left.
+
+236
+00:19:08,701 --> 00:19:17,490
+这不同于损益表中的收入和支出，因为损益表是一种逻辑观点。
+And that is different from revenues and expenses in the income statement,
+because the income statement is a logical view.
+
+238
+00:19:17,491 --> 00:19:24,630
+你做了笔交易，做了笔买卖，所以你想把用户的付款记录在账上。
+You make a deal you make a sale,
+and so you put on your books that you expect the payments from a customer.
+
+240
+00:19:26,160 --> 00:19:33,690
+除非客户没有过来付账，客户有60天的付款期，
+Except that sometimes they don't come. The customer may have had a 60 days period of paying,
+
+241
+00:19:33,691 --> 00:19:36,450
+与此同时客户破产也是很有可能的。
+and in the meantime they went bankrupt.
+
+242
+00:19:36,451 --> 00:19:41,250
+一旦你获得了产品，你就应该把它的销售价格写下来。
+Or they got your product and you put down the sales price.
+
+243
+00:19:41,251 --> 00:19:46,740
+但如果用户不认可产品的性能，那么问题就会变得棘手。
+But they disagree with the performance of the product and become tricky.
+
+244
+00:19:46,741 --> 00:19:49,590
+这些用户不想付钱，甚至无论如何都想重新谈判。
+Don't want to pay full, a want to renegotiate
+whatever.
+
+246
+00:19:49,591 --> 00:19:55,560
+所以很多事情都可能发生，你需要记录在会计账簿上，这会成为损益表的一部分。        
+So a lot of things can happen between what you put down in the accounting books,
+
+247
+00:19:55,561 --> 00:20:04,740
+这笔钱确实在银行里，或者作为你的薪水留在银行账户中。
+which becomes part of the income statement and when the money is actually in the bank or is leaving the bank as you pay your salaries.
+
+248
+00:20:04,741 --> 00:20:16,080
+然后我们所要继续看的就是现金流表，为了使我的表述更加清楚，所以我使用了这些术语。
+The latter is the cash flow statement. We will look at the income statement
+mostly. So I have used these terms, let me be more precise
+these terms,
+
+251
+00:20:16,081 --> 00:20:20,670
+这些术语包含收入、费用和利润的概念。如果你有商业背景的话，你应该知道，
+meaning revenues,
+expenses and profits.
+If you have a bit of a business background,
+
+254
+00:20:20,671 --> 00:20:28,770
+你的收入就是从客户那儿里赚的钱，包含销售收入等。
+you should know that revenues is the income of the money you make from customers, so
+sales,
+income,
+etc.
+
+258
+00:20:28,771 --> 00:20:34,590
+花费基本上就是你的花费，这可能包含不同的花费形式。
+Expenses are basically the costs you have, they're very different forms of expenses.
+
+259
+00:20:34,591 --> 00:20:41,040
+当然，值得注意的是，你所支出的钱可能就花在了你所操纵的电脑上，   
+Most notably,
+of course,
+the salaries you pay might also be computers you operate, conditions
+
+262
+00:20:41,041 --> 00:20:45,420
+你可以为各种场景、各种事物付费。
+you pay, all kinds of things,
+and profit,
+
+264
+00:20:45,421 --> 00:20:51,000
+然后是流入资金和流出资金之间的差额，
+Then is the difference between the incoming money and the outgoing money,
+
+265
+00:20:51,001 --> 00:20:53,310
+收入和输出之间的差额。
+the revenues and the expenses.
+
+266
+00:20:53,311 --> 00:20:57,750
+如果你想知道某人或者某公司是否在盈利，
+So if you want to know whether someone's some companies profitable,
+
+267
+00:20:57,751 --> 00:21:03,300
+你从收入中减掉支出，如果结果是正数，
+you subtract all the expenses from the revenues,
+and if it's a positive number,
+
+269
+00:21:03,301 --> 00:21:09,780
+则意味着在那个时间段内他是盈利的，如果是负数，那就表明他在亏损。
+its profit profitable in that time period,
+and if it's a negative number,
+it is losing money,
+
+272
+00:21:09,781 --> 00:21:25,950
+你所关注的时间周期通常是一年，也有可能是一个季度，那么哪些金融人士会查看这个数据呢？      
+the company is losing money. Time periods where you look at,
+this is usually the year,
+but also,
+the quarter,
+of course,
+
+278
+00:21:21,000 --> 00:21:25,950
+at which financial people take a look.
+
+279
+00:21:25,951 --> 00:21:31,380
+举个例子，这是Facebook的一个损益表。
+So here's an example income statement of Facebook,
+
+280
+00:21:31,381 --> 00:21:46,560
+在10年前的2011年，你可以看到绝对的数字，其也可能被转化为了百分比，
+I think,
+maybe 10 years old or so about 2011 so nearly 10 years old and you can see an absolute numbers but also then translated into percentages how the revenue
+
+282
+00:21:46,561 --> 00:21:56,610
+其表示了销售收入的下降，其中所有的花费都被扣除了。
+ah,
+the income from sales goes down,
+as expenses are being subtracted all the way to,
+
+285
+00:21:56,611 --> 00:22:01,650
+这种情况下，收入减去所有的支出，那么你就得到了利润数据。
+in this case actually, a profit here an operating profit.
+
+286
+00:22:01,651 --> 00:22:07,350
+所以阅读上面所展示的声明，你是在盈利的，通常情况下，这就是你的收入。       
+So the way to read these statements is at the top,
+you have the incoming money.
+the revenues
+
+289
+00:22:07,351 --> 00:22:15,570
+有时你会发现基本订阅和商业支持才是收入主要的驱动因素，
+usually. Sometimes you have it broken down， so you can see that the basic subscription and support is the main driver of revenues,
+
+290
+00:22:15,571 --> 00:22:17,340
+接近94%的收入都是这样。
+94% of the revenue.
+
+291
+00:22:18,390 --> 00:22:27,300
+但也有一些被称为“专业服务”的东西，我们要看一下究竟是哪一部分增加了收入。
+But then there are some,
+there's something called professional services,
+which we'll also look at which adds a small piece to the revenue.
+
+294
+00:22:27,301 --> 00:22:40,800
+收入的花费或者说花费，用户最直接的支出与订阅支持以及专业服务相关，
+The cost of revenue or the expenses, the direct expenses as they are related to providing subscription supported and professional services directly related to that
+
+295
+00:22:40,801 --> 00:22:54,060
+这些都与所谓的“可变服务”有关，都已经列在了这里。这部分支出占据了收入的20%。
+so-called variable expenses are listed here as well,
+and they are about 20% of the revenues.
+
+297
+00:22:54,061 --> 00:23:02,940
+当你进一步分解支出的时候，你或许会发现更多种类的花费与支出，     
+And as you break it down further,
+you discover more types of expenses or costs to a business.
+
+299
+00:23:02,941 --> 00:23:05,070
+现在就是所谓的“运营费用”，
+Now there are the operating expenses,
+
+300
+00:23:05,071 --> 00:23:09,270
+这对于软件供应商来说这就是很重要的信息。
+which is important to understand for a vendor. Operating expenses
+
+301
+00:23:09,271 --> 00:23:16,230
+运行费用与软件的“特定服务”无关，这些“特定服务”会满足特定用户。
+are those that are not tied to a specific,
+satisfying,
+a specific,
+a customer.
+
+305
+00:23:16,231 --> 00:23:17,070
+运行费用一般是相对稳定的。
+They are not variable.
+
+306
+00:23:17,071 --> 00:23:25,830
+如果你继续了解的话，运行费用就是指研究和开发的成本，
+If you will,
+they are.
+fixed costs in that you simply have these costs for research and development.
+
+309
+00:23:25,831 --> 00:23:31,110
+无论你的客户人数是多少，一般都不会影响软件的调研与开发。
+Whether you have one customer, more or less usually doesn't change head count and research and development.
+
+310
+00:23:32,250 --> 00:23:39,120
+你可以看到这里的运营费用，你可以看到软件的研究、开发是如何进行的。    
+When you look at the operating expenses here,
+you can see how research development
+
+312
+00:23:39,121 --> 00:23:45,810
+对于像我这样的工程师来说，我很惊讶，研究、开发所产生的费用竟然不是支出的主要部分。
+shockingly for an engineer like me is not the majority of expenses.
+
+313
+00:23:45,811 --> 00:23:56,010
+市场营销的支出竟然是研究、开发费用的5倍，其实，这也并不罕见。
+Rather,
+sales and marketing are substantially higher five times as much as research and development,
+and that is not uncommon.
+
+316
+00:23:56,011 --> 00:23:57,990
+因为，一般情况下会有一般部门和行政部门，
+There's even general and administrative,
+
+317
+00:23:57,991 --> 00:24:05,700
+它们都需要租赁建筑，在这些部门中可能还要雇佣职员。
+whatever renting buildings or so I assume might be in there and just other stuff.
+
+318
+00:24:05,701 --> 00:24:12,810
+也许人力资源部门的工资也不同忽视。
+That is maybe the salaries of the HR department, is also not to be neglected.
+
+319
+00:24:12,811 --> 00:24:16,680
+在这种情况下，Facebook实际上是盈利的，其并非是亏损的。       
+In this case,
+Facebook actually turns a profit,
+So it's not a loss.
+
+322
+00:24:18,780 --> 00:24:24,060
+下面是Otter博士所提供的一个有趣的测试，
+Here is a fun quiz provided by Dr. Otter.
+
+323
+00:24:24,061 --> 00:24:29,310
+我们来观察两家完全不同的公司，分别是Accenture，
+How about we Take a look at two very different companies,
+Accenture,
+
+325
+00:24:29,311 --> 00:24:39,210
+这是一家大型商业咨询公司；另一家公司是Salesforce，这是一家软件公司，也是一家软件服务公司。
+the large or a large consulting firm or in the software industry and Salesforce as software as a service company I think.
+
+326
+00:24:39,211 --> 00:24:44,340
+正是这两家公司最初创建了"软件即服务"的术语概念，
+The original they coined the term software as a service,
+
+327
+00:24:44,341 --> 00:24:53,310
+我们可以看到2019年损益表的相关数据。
+and here we can see some key data from the 2019 income statement,
+
+328
+00:24:53,311 --> 00:24:58,440
+例如，其中收入和净收入等相关数据，
+for example,
+the revenue and then the net income,
+
+330
+00:24:58,441 --> 00:25:04,500
+也就是说收入还要被减掉，
+meaning the revenue after pretty much everything,
+Was subtracted,
+
+332
+00:25:04,501 --> 00:25:08,040
+所以该公司最终可能是盈利，也可能是亏损。
+so that would be profit or loss.
+
+333
+00:25:08,041 --> 00:25:21,000
+所以在2019年Accenture的收入要比Salesforce公司的收入高得多，反正来说，越多越好。    
+So the revenues of Accenture are much higher than those of Salesforce were much higher than those of Salesforce in 2019. Revenues, in general, the more, the better.
+
+334
+00:25:21,001 --> 00:25:27,150
+几乎没有理由去拒绝高收入。
+Well, there's almost no reason, not to want to have more revenues.
+
+335
+00:25:27,151 --> 00:25:34,350
+如你所见，Accenture的盈利情况很好，
+And as you can see,
+the profits of Accenture
+is pretty nice.
+
+338
+00:25:34,351 --> 00:25:43,590
+但是Salesforce知有很低的利润，利润几乎为零。
+But 10% of the revenue,
+while Salesforce has a much lower
+profit, close to zero profit.
+
+341
+00:25:46,380 --> 00:25:52,440
+利润会根据你的投资逐年变化，
+Profit can change from year to year based on how you invest your money,
+
+342
+00:25:52,441 --> 00:25:55,530
+这意味着你可以有不同的投资选择。
+meaning you could have very different investments.
+
+343
+00:25:55,531 --> 00:26:07,110
+在前几年，实际上Salesforce是获利的，
+So Salesforce,
+actually in the year before and year thereafter
+turned more of a profit and in this particular year,
+in that particular year into the books,
+
+347
+00:26:07,111 --> 00:26:12,450
+在将额外的投资记入账簿的时候，这就拉低了Salesforce的利润。
+And made extra investments made it into the books which push down
+their profits.
+
+349
+00:26:12,451 --> 00:26:14,910
+Saleforce已经存在20年了，
+Saleforce
+has been around for 20 years now.
+
+351
+00:26:14,911 --> 00:26:17,730
+所以它绝对是一家盈利的公司。    
+So they are definitely a profitable company.
+
+352
+00:26:19,560 --> 00:26:28,350
+所以这里有个有趣的问题，就是股市怎么看待这些公司呢？
+So the interesting question here is to ask, to ask what does the stock market think about these companies?
+
+353
+00:26:29,550 --> 00:26:37,950
+哪儿的股市一直利润下滑？哪家公司的盈利会一直下滑呢？
+Whose
+stock
+would you rather own,
+or which company would you rather own? could be,
+
+357
+00:26:39,330 --> 00:26:48,840
+所以，Accenture相比salesforce有更高的盈利能力。
+could say,
+well,
+43 billion was a 17 billion,
+a higher profitability,
+was Accenture rather than say salesforce.
+
+362
+00:26:48,841 --> 00:26:55,470
+显然就是Accenture更赚钱，就像你在幻灯片中所看到的这样。    
+Obviously,
+Accenture,
+Or not?
+So you see in a slide,
+
+366
+00:26:55,471 --> 00:27:03,060
+还有一个需要注意的的点，雇员数量也是很重要的。
+what else is noteworthy
+to see here, is perhaps to take a look at the number of employees that's also important.
+
+368
+00:27:03,061 --> 00:27:08,400
+Accenture的员工数量是Salesforce雇员数量的10倍，
+You can see that Accenture has 10 times as many employees as Salesforce,
+
+369
+00:27:08,401 --> 00:27:21,930
+这确实是人印象深刻。但是Accenture并没有创建出10倍于Salesforce的收入。
+that already
+should be impressive given then
+was ten times more employees.
+Accenture is not creating ten times more revenue,
+
+373
+00:27:21,931 --> 00:27:31,020
+所以，Salesforce的雇员的能力或许比Accenture雇员的能力更强，            
+so definitely,
+the power of a single employee at Salesforce is higher than that
+at Accenture.
+
+376
+00:27:32,250 --> 00:27:34,650
+你是什么看法呢？
+So what do you think?
+
+377
+00:27:34,651 --> 00:27:46,470
+你可能会屏住呼吸，驻足此地，然后考虑Accenture和Salesforce的市值都是多少呢？
+Oh,
+maybe hold,
+hold your breath or stop here for a second and wonder
+what would be the market capitalization of Accenture versus Salesforce?
+
+381
+00:27:46,471 --> 00:27:59,910
+在我翻到下一张幻灯片之前，在2009年两者的市值几乎是一样的。
+before I turn the leaf to the next slide.
+So in 2019 they were nearly the same.
+
+383
+00:28:01,980 --> 00:28:13,410
+股票市场认为这些公司都是相当有价值的公司，他们也为投资者创造了回报。
+So the stock market as a whole thought these are equivalently priced companies,
+and they would create the same return
+
+385
+00:28:13,411 --> 00:28:24,090
+Salesforce的市值可能会高一些，但是波动也是更大一些。
+for the investor. The value for Salesforce actually has gone up significantly, it's also a bit more volatile,
+
+386
+00:28:24,091 --> 00:28:31,830
+有意思的是，我们可以看到销售价格到销售比率的数据，
+and so the interesting thing is to sales price to sales ratio,
+
+387
+00:28:31,831 --> 00:28:40,260
+根据数据显示，你所赚的钱都被用于促使市场资本化了。
+meaning the
+factor that lets you go from the revenues,
+
+389
+00:28:40,261 --> 00:28:49,770
+所以你可以看到对于Salesforce所赚的每一块钱，     
+so the money being made to the market capitalization. So multiple here and you can see that for every dollar
+
+390
+00:28:49,771 --> 00:29:03,270
+证券市场都会使这笔钱更有价值，大约是比Accenture的相关价值高两倍。
+Salesforce makes the stock market values it and higher more than twice as high than for Accenture.
+So they look companies,
+
+392
+00:29:03,271 --> 00:29:08,160
+所以股票市场观察这些公司，股市投资者看到了Accenture和Salesforce的收入，
+so stock market investors look at the revenue for Accenture
+and Salesforce,
+
+394
+00:29:08,161 --> 00:29:14,940
+其中Accenture的总价值等于Accenture的收入*4，
+so it's times four roughly to get to the total value of the company,
+
+395
+00:29:14,941 --> 00:29:18,000
+而Salesforce的总价值等于Salesforce的收入*9。
+while it's times nine for Salesforce.
+
+396
+00:29:18,001 --> 00:29:32,520
+从更高层次来说，这也影响了软件供应商以及“软件即服务”的公司就像Salesforce公司一样。
+So there's a much higher level, leverage that software vendor or a software as a service companies like Salesforce has, meaning also your own stock
+
+397
+00:29:32,521 --> 00:29:39,780
+如果你是一位早期的投资者或者是一位早期的雇员，你就会有更高的等级，    
+if you were an initial investor or an early employee,
+has a much higher lever
+or level,
+
+400
+00:29:39,781 --> 00:29:43,230
+然后就是商业咨询公司，
+then for a consulting company,
+
+401
+00:29:43,231 --> 00:29:49,290
+更不用提像Accenture这样的500，000人公司。
+not to mention again that.
+A 500,000 person company
+like Accenture,
+
+404
+00:29:49,291 --> 00:30:02,160
+需要很多时间来构建或者到达规模如此大的公司，而不是所谓的50,000人雇员的“小型Salesforce”。
+needed to be, needed much more time to be built up or to reach these numbers and is much more of a tanker than they certainly not
+
+406
+00:30:08,130 --> 00:30:24,120
+所有这些都证明了我的观点，软件供应商往往比较优秀，以及是更加有吸引力的商业公司，       
+All of this goes to my point that unless you really are a consulting person,
+software vendors tend to be the
+nicer or more attractive businesses and we saw that in the comparison where
+
+409
+00:30:26,760 --> 00:30:33,990
+我们也将软件供应商与商业咨询公司做了一个比较，软件供应商可以获得风险资本投资，而商业咨询公司不行。
+we noted that software vendors are the type of companies that gets venture capital investments while consulting firm sellers who don't.
+
+410
+00:30:38,130 --> 00:30:54,120
+现在我来看看软件供应商是如何组成的，我们首先会看到业务功能，之后就是构成软件供应商业务链的关键流程。
+So now I will look at
+how software vendors are structured and for that we will look at both business functions first，and then the key processes that constitute the business of a software vendor.
+
+412
+00:30:54,121 --> 00:30:58,920
+所谓的商业功能就是公司所决定的角色或者定位，就像销售人员或者市场商人等。
+So business function is
+the role or the position that companies have, that defines their job,
+like being a sales people or being a marketing
+personal or marketeer,
+etc.
+
+417
+00:31:11,401 --> 00:31:18,780
+所以这就是所谓的“商业功能”，可以依据技能类型进行活动的相关分组。 
+So that's called,
+that's what you usually call the business function
+the type of activities grouped by a set of skills.
+
+420
+00:31:18,781 --> 00:31:26,730
+你需要能够成功地执行这些活动，无论如何，
+You need to be able to successfully carry out those activities.
+And in one way or another,
+
+422
+00:31:26,731 --> 00:31:39,030
+你也听过公司中有不同的部门，其也可以被进一步分解。
+you have heard about how companies have this different departments
+which like say it's a marketing, which could be broken down further
+like say
+it's marketing
+customer success and so forth.
+
+428
+00:31:39,031 --> 00:31:44,430
+比如，SAS公司中的工程，该公司是一家云服务提供商，   
+Engineering definitely for a SAS company,
+a cloud service providers as development,
+
+430
+00:31:44,431 --> 00:31:48,660
+其提供开发以及技术支持等服务。这有HR部门以及金融部门，
+but also operations and support and so forth. There's a HR and finance.
+
+431
+00:31:48,661 --> 00:31:50,670
+所有的这些都是商业功能。
+All of these are business functions.
+
+432
+00:31:52,980 --> 00:31:57,120
+临近商业功能，我们需要的是过程。
+Next to the business functions,
+we need processes,
+
+434
+00:31:57,121 --> 00:32:11,850
+两者不同之处就是这些过程是跨功能的，所以几个不同的功能可以组合成一个工作流，即连接起来。
+and the distinguishing characteristic is that these processes are cross-functional, meaning they tie together as workflows across they tie together multiple business functions typically.
+
+435
+00:32:11,851 --> 00:32:24,510
+举个例子，通常首先就是构建产品，产品的构建需要产品管理与开发等相互协作，    
+So,
+for example,
+building the product in the first place
+that requires product management to work with development and operations,
+
+439
+00:32:24,511 --> 00:32:27,930
+通常财务部门也会估计产品构建的花费，
+and usually also finance say you need the money,
+
+440
+00:32:27,931 --> 00:32:34,080
+财务部门会为产品构建提供预算。构建产品需要开发步骤以及技术支持，
+the budget to build the product. Operating it needs development operations and support,
+
+441
+00:32:34,081 --> 00:32:43,410
+销售产品，获取用户，市场和产品管理需要携手并进才能获得成功。
+selling your product,
+acquiring customers need sales, and marketing and product management to work hand in hand to be successful.
+
+443
+00:32:45,630 --> 00:32:52,950
+你或许想知道公司为什么不是围绕流程构建的，那么它为什么会起作用呢？       
+You may wonder why companies are not structured around processes.
+Why is it functions?
+
+445
+00:32:52,951 --> 00:32:57,990
+从传统观点来看，这是一种商业功能的等级观念，
+I think in this traditional view here it's a hierarchical view of business
+
+446
+00:32:57,991 --> 00:33:06,480
+这都是基于技能和能力的。在商业功能中人们必须被雇佣。
+function based on the skills and capabilities. People have to bring to the table, to be employed in those business functions.
+
+447
+00:33:06,481 --> 00:33:14,250
+我认为这些角色和职位都是相对稳定的，而不像商业流程和工作流那样一直在变化。
+I think these roles and positions are more stable, than the business processes and the underlying workflows they keep changing,
+
+448
+00:33:14,251 --> 00:33:22,950
+但可以肯定的是，在本课程的范围之外，公司的组织可以有不同的方式。
+but sure enough,
+and outside the scope really of this course,
+there are different ways of organizing companies.
+
+451
+00:33:22,951 --> 00:33:36,270
+今年非常经典的组织方式是以职能为导向的，其包含着上下级之间的管理关系。    
+This year's the very classic hierarchical business function oriented view with the implied line reporting managerial relationship between subordinates and super and superior,
+
+452
+00:33:36,271 --> 00:33:40,050
+而有些公司会采取矩阵结构。
+and but some companies have a matrix structure.
+
+453
+00:33:40,051 --> 00:33:53,300
+举个例子，当你在这个层次结构图上叠加项目时，关于这部分是有独立的商业课程的。
+For example,
+where you overlay projects on top of this hierarch,
+hierarchical structure and so forth.
+This is for this
+you need to go to have a separate business course.
+
+458
+00:33:54,901 --> 00:34:03,060
+但这里我想看一下，软件供应商那里你做了什么？     
+But here I want to look at it,
+What,
+what do you do it in a software vendor,
+company now a software vendor.
+
+462
+00:34:03,061 --> 00:34:10,230
+也许这是最重要的，这就是我的观点，我喜欢它。
+So perhaps the most important,
+well, that's my opinion because I like it so much.
+
+464
+00:34:10,231 --> 00:34:14,460
+这也许有最重要的一个功能，商业功能就是产品管理。
+But perhaps there are one of the most important functions, business functions is product
+management.
+
+466
+00:34:17,100 --> 00:34:26,190
+既是公司的最高职位，并且在公司中负责软件产品管理的职位就是首席产品官，
+The top job and software product management at a company is often called the chief product officer,
+
+467
+00:34:26,191 --> 00:34:28,920
+有时也会是产品副总裁。
+sometimes vice president of product.
+
+468
+00:34:28,921 --> 00:34:36,450
+这已经是c-level的CPO头衔了，很棒的职位。     
+But increasingly it has the c-level CPO title
+and that's pretty nice.
+
+470
+00:34:36,451 --> 00:34:46,260
+我们所讨论的这些可能超出了本次课程的范围，但是在一个成熟的产品管理事业中会被讨论。
+You can distinguish
+it's also outside the scope, really of this course,
+but would be discovered, discussed in a full-blown product management course.
+
+473
+00:34:46,261 --> 00:34:57,780
+其实你可以对战略产品经理与技术产品经理实现区分，战略产品经理更多地考虑市场、产品定位和合作伙伴等， 
+You can distinguish between a strategic product manager，,who thinks more about the market and positioning the product and who to partner with and all of that,
+
+474
+00:34:57,781 --> 00:35:11,280
+而技术产品经理则负责在细节上满足或理解客户需求，并与工程团队进行沟通，以此来正确实现这些需求。
+and a technical product manager was in the details of satisfying or understanding customer needs and communicating them to the engineering teams so that the they are implemented,
+implemented right.
+
+476
+00:35:11,281 --> 00:35:20,670
+这或许不是一个完美的搭配，技术产品经理与“敏捷开发”所做的工作非常相似，    
+It's not a perfect match,
+but a technical product manager is close to what an agile method, so in
+
+478
+00:35:20,671 --> 00:35:22,710
+所以在scrum中你也可以称技术产品经理为产品所有者，
+scrum you would call a product owner,
+
+479
+00:35:24,060 --> 00:35:25,860
+至少是一个被授权的产品所有者。
+at least an empowered product owner.
+
+480
+00:35:27,420 --> 00:35:37,710
+战略产品经理所做的事情就是探寻新的商业机会并为其制定预算， 
+What they do is the strategic product Manager,
+identifies new business opportunities and justifies the budget to go after them.
+
+482
+00:35:37,711 --> 00:35:41,940
+他们为此商业机会定义了产品愿景，
+They define the product vision for that opportunity
+
+483
+00:35:41,941 --> 00:35:48,510
+战略产品经理绘制了一份路线图，其中列出了技术产品的所有特性，直至工作细节。  
+lay out a road map define features all the way down to the nitty-gritty work of a technical product manager.
+
+484
+00:35:50,010 --> 00:35:59,220
+这是打磨产品并且满足用户，确保用户满意的关键。
+And they are really key for building the product and acquiring customers and even ensuring customer satisfaction.
+
+485
+00:35:59,221 --> 00:36:09,270
+产品经理对很多事情都很重要，产品经理必须是一个善于沟通的人。    
+A product manager is really essential for a lot of things,
+and a product manager has to be a highly communicative person.
+
+487
+00:36:09,271 --> 00:36:23,430
+出于这个原因，因为产品经理与很多人交流过，产品经理并没有纯粹的组织权利，      
+For that reason,
+because they talked to a lot of people,
+they often do not have.
+pure organizational power,
+
+491
+00:36:23,431 --> 00:36:26,460
+他们也不是非得有很多人要向他们汇报。
+they don't necessarily have a lot of people reporting to them.
+
+492
+00:36:26,461 --> 00:36:27,600
+一个产品经理，
+A product manager,
+
+493
+00:36:27,601 --> 00:36:36,450
+一个好的产品经理能够左右人们的行动选择，并使人们相信他们的计划就是正确的。
+a good product manager cajoles or convinces people that their suggested choice of action.
+
+494
+00:36:36,451 --> 00:36:47,430
+但是产品经理通常不会遇到执行力很高的客户。
+Their plan is the right thing to do,
+but they usually don't have the person, the people power to actually carry it out.
+
+496
+00:36:47,431 --> 00:36:58,560
+大量职工所跟随的人通常就是工程管理者，或者也有可能是个销售人员。     
+The people with the
+large staff,
+or hat count that's usually the engineering manager,
+or the sales side of things.
+
+500
+00:36:58,561 --> 00:37:02,880
+所以这就是工程发展或者说软件发展。
+So here's the engineering side or software development.
+
+501
+00:37:02,881 --> 00:37:09,330
+公司中存在着不同的角色和称呼，有一般的开发者、工程师，
+So there are different roles and titles， there's regular developer or engineer.
+
+502
+00:37:09,331 --> 00:37:19,590
+有时候也有软件架构师，软件架构师之前也是软件工程师，现在是软件架构师了。
+Sometimes you have a software architect that is someone who probably used to be an engineer but now has more oversight about how pieces fit together,
+
+503
+00:37:19,591 --> 00:37:25,170
+软件架构师主要是负责软件的架构，这是一种技术担当，
+so they are responsible for the software architecture.
+and that is a technical responsibility,
+
+505
+00:37:25,171 --> 00:37:30,300
+需要确保软件的各个组件都能够协调使用，软件工程师可能会站在各软件工程师的立场上。
+making sure that the pieces fit together.
+and then there are on the people's side.
+
+507
+00:37:30,301 --> 00:37:40,140
+工程管理员对工程资源是要负责任的，就比如HR就要对人力资源负责一样，          
+The engineering managers who are responsible for as the human research resources speak goes,
+the resources，
+
+509
+00:37:40,141 --> 00:37:50,490
+程管理员需要利用工程资源，并且分配使用工程资源，其中使用了不同的开发方式，
+meaning the engineers to put them to use, to assign them or to allocate tasks to them in a classic development or getting their back
+
+510
+00:37:50,491 --> 00:37:53,160
+比如传统开发或者敏捷开发。
+and more agile development.
+
+511
+00:37:53,161 --> 00:37:58,890
+所以在开发过程中你所要做的就是设计、构建、发展产品，这样才能赚钱。
+So what would you do in development is you design,
+build and evolve that product
+that brings in the money.
+
+514
+00:37:59,970 --> 00:38:02,370
+你需要参与其提供相关支持。
+You are also involved in third level support.
+
+515
+00:38:02,371 --> 00:38:07,800
+如果出现了问题，消费者就会失落绝望，这时就没有什么关于软件的可奏效的好方法，           
+So if everything goes wrong and the customers is desperate and nothing's working,
+
+516
+00:38:07,801 --> 00:38:12,870
+然后事态就会不断严重、升级。
+and that escalates to the developers as serious bugs usually,
+
+517
+00:38:12,871 --> 00:38:15,090
+所以软件开发者所需要做的就是构建产品。
+so what they do is they build the product.
+
+518
+00:38:16,470 --> 00:38:19,500
+在云服务提供商和云计算公司中，
+In cloud service providers and cloud computing companies,
+
+519
+00:38:20,470 --> 00:38:28,460
+我们也会进行相关操作，比如为用户操作相关软件，也会有其他的一些必要的操作。
+we also have operations as we are operating on the software for customers and there are necessarily operations,
+
+520
+00:38:28,501 --> 00:38:32,670
+参与人员有项目管理者、运营商、还有可靠的工程师。
+managers and operators.
+There are side reliability engineers.
+
+522
+00:38:32,671 --> 00:38:35,340
+这是最近才发展起来的，
+That's a fairly recent development, well,
+
+523
+00:38:35,341 --> 00:38:49,410
+近20年来这种模式快速发展，云服务提供商已经确保了服务、网站的可靠启动与运行。   
+not so recent make it 20 years but are responsible for ensuring that the service, the sites, the websites,
+the services are up and running reliably. And their job is to operate
+
+525
+00:38:49,411 --> 00:38:53,130
+这些企业人员的工作就是操作服务，有时候可能会提供一些技术支持，
+that service,
+including sometimes third level support,
+
+527
+00:38:53,131 --> 00:38:54,810
+就像软件工程师、项目工程师所做的那样。
+like engineers itself.
+
+528
+00:38:57,240 --> 00:39:12,480
+技术、服务支持需要能够帮助消费者正确使用产品，支持是一直是活跃的，      
+Support every company needs support so that where support is to help the customer use the product right.
+Support is.
+reactive,
+
+531
+00:39:12,481 --> 00:39:19,440
+一但用户使用产品过程中遇到了什么问题， 
+usually in that customers come with an issue,
+something is not working,
+
+533
+00:39:19,441 --> 00:39:24,420
+技术、服务支持工程师以及管理者就会立即行动，
+and that's then when support engineers and the managers jumpe into action,
+
+534
+00:39:24,421 --> 00:39:27,660
+工程师从用户那里获得请求信息。问题可能是用户在使用产品中遇到了麻烦，然后用户就去寻求支持，
+they get support request,
+this is not working.
+that is not working. 
+
+537
+00:39:27,661 --> 00:39:35,400
+期望产品服务提供商可以提供解决方案，即为客户修复问题。
+Something broke down and they will look into it and hopefully provide solutions,
+fixes to customers.
+
+539
+00:39:38,700 --> 00:39:44,340
+这既是工程方面的事情，也是销售、市场方面的事情。    
+That was the engineering side of things now on the sales and marketing side.
+
+540
+00:39:44,341 --> 00:39:49,110
+首先，我们是有市场部的，其中有营销人员、销售人员。
+First,
+we have marketing,
+so there's the marketing people on marketeers,
+
+543
+00:39:49,111 --> 00:39:57,030
+有时候管理者显然是想让市场了解自己的产品，
+sometimes and the managers and obviously they want the market to know about their products, about your products.
+
+544
+00:39:57,031 --> 00:40:15,120
+以需要将个人产品推广到市场，并建立品牌知名度，推向市场的产品也可以是你的产品套装或者产品组合，
+so all the way from bringing an individual product to market to creating broad brand awareness as an umbrella or as about your company and as an umbrella,
+maybe for your whole product suite or portfolio,
+
+546
+00:40:15,121 --> 00:40:17,520
+这样人们就能注意到你们。
+they make people aware of you.
+
+547
+00:40:17,521 --> 00:40:24,630
+这些人应该提出需求，这是比较关键的事情。   
+They actually are supposed to generate demand,
+that's the key thing they are supposed to stuff.
+
+549
+00:40:24,631 --> 00:40:32,610
+在几张幻灯片中我们可能会看到所谓的“销售漏斗”，
+What we will see in a few slides is the so-called sales funnel where they find people who might be customers,
+
+550
+00:40:32,611 --> 00:40:36,720
+在其中我们可以找到消费者，消费者从入口进入最终从另一端走出来，
+stick it in there and hopefully come out at the other end,
+
+551
+00:40:36,721 --> 00:40:39,510
+这就是真正的用户，还可能是付费用户。
+real customers paying customers.
+
+552
+00:40:39,511 --> 00:40:45,300
+所以“将产品推向市场”的做法是为了获取消费者。
+And so they help,
+ultimately,
+their goal is to help acquire customers.
+
+555
+00:40:46,800 --> 00:40:55,950
+真正促成交易的人是销售人员，当然，销售人员周围也是有售前销售人员的。
+The actual people who closed the deal are
+the sales people,
+of course, so their sales reps or sales people near support was pre-sales people.
+
+558
+00:40:55,951 --> 00:41:06,990
+如果是技术产品类的销售人员，你需要从技术层次上来了解产品，这不是一般销售人员所能做的。    
+If it's a technical product,
+you often need to really ah, 
+demonstrate more deeply on a technical level,
+what the product can and often a sales person can't do
+
+562
+00:41:06,991 --> 00:41:18,510
+所以有时候需要一个售前工程师去提前访问用户，可以和额外的销售人员，销售管理员一同前往。
+that. So you
+Need a pre-sales engineer to do that
+Who goes out to customer visits or customer sites 
+with the extra sales person, your sales managers,
+etc.
+
+567
+00:41:18,511 --> 00:41:25,770
+销售管理与时间的销售有很大的不同，实际的销售是完全不同的技能组合。   
+Sales management is very different from actually actual selling,
+these are
+quite different skill sets.
+
+570
+00:41:25,771 --> 00:41:32,730
+其中可能会涉及顶级客户经理，这与其的目标相关。
+There's also the term account manager,
+which relates to a person who is watching,
+
+572
+00:41:32,731 --> 00:41:41,820
+顶级客户经理也是一个销售人员，它所关注的是一些大客户、一个长期用户，
+who is sales person, who is watching, a large account
+where a large account means a customer,
+a long-time customer
+
+575
+00:41:41,821 --> 00:41:49,590
+该用户可能会在你所销售的产品上花费一大笔钱，对于他们来说，你的产品具有很多不同的方面。  
+with substantial budget to spend where you've been selling,
+perhaps many different aspects of your product to them.
+
+577
+00:41:49,591 --> 00:41:57,630
+因为这些客户是很重要的，所以这些客户需要特别地对待、管理。
+And because these customers are big and important, there
+they need to be managed particularly well,
+
+579
+00:41:57,631 --> 00:42:12,390
+这就是销售管理员所做的事情，他们从市场收集优质的索引线索，他们把潜在的顾客变成用户，    
+and that's what account managers are for and so sales people turn qualified leads which they receive from marketing,
+they turn them into customers.
+
+581
+00:42:12,391 --> 00:42:14,760
+这就是初始销售。
+And so that's the initial sell,
+
+582
+00:42:14,761 --> 00:42:19,260
+然后销售管理员可能会继续推销、解释产品，
+and then they drive upsell or tried to drive upcell meaning
+
+583
+00:42:19,261 --> 00:42:25,410
+这样目前现有的顾客可能就会多买点，可能会购买更昂贵的产品，也可能会买一些小功能。
+an existing customer buys a little more, buys the more expensive product, buys small functionality.
+
+584
+00:42:25,411 --> 00:42:28,980
+所以，更多的收入可能来自软件供应商，以及跨产品销售。
+Hence more revenue from the vendor or cross-sell sells
+
+585
+00:42:28,981 --> 00:42:31,050
+跨产品销售就是销售与之前产品相关的产品，
+a different product that's related,
+
+586
+00:42:31,051 --> 00:42:37,680
+因为你的客户已经购买了你的产品，所以他们也会喜欢你产品组合中的其他产品。
+but because they're already are a customer,
+they like that other product as well from your portfolio,
+etc.
+
+589
+00:42:38,520 --> 00:42:48,270
+所以销售人员就是帮助你获取客户的工作人员，在软件供应商看来，     
+So sales people
+obviously help you acquire or acquire the customers for you.
+Then in software vendors,
+
+592
+00:42:48,271 --> 00:42:54,540
+消费者完成购买这是一个成功的销售。
+there is customer success,
+it's one thing to close a deal,
+
+594
+00:42:54,541 --> 00:43:01,110
+这样销售人员会对此感到满意，因为他们可能赚取了一笔佣金。
+and then usually a sales person is satisfied,
+they probably earned a commission and they are very happy.
+
+596
+00:43:01,111 --> 00:43:04,710
+但是从软件供应商以及软件公司的角度来看，
+But from the vendor's perspective from the company's perspective,
+
+597
+00:43:04,711 --> 00:43:08,700
+他们希望保持客户的持续满意，
+they want that customer to stay a happy customer.
+
+598
+00:43:08,701 --> 00:43:19,890
+令人惊讶的是，消费者完成购买与消费者无障碍使用软件根本不是一回事儿。
+And surprisingly enough,
+closing a deal,
+but then making the software work really well for the customer is not at the same thing.
+
+601
+00:43:19,891 --> 00:43:36,060
+你需要确保你的客户购买了产品并实际使用，而并不是购买了产品却不使用。    
+Rather,
+you need to make sure that your customers actually succeed in putting the product to use but not unheard of actually it's rather common that products are bought and never used.
+
+603
+00:43:36,900 --> 00:43:41,850
+这样的话，当该消费者使用该软件的时候，他们可能不知道如何使用，
+And then,
+as customers used, the software,
+they may not be that good at using it,
+
+606
+00:43:41,851 --> 00:43:46,710
+他们很可能错误地使用了他们，所以客户不满意，他们可能就不用这个软件了。
+and they are using it the wrong way.
+and they are never satisfied and hence they might drop off.
+
+608
+00:43:46,711 --> 00:44:02,880
+所以之前的销售成功只是一个前期的成功，你需要帮助用户使用你的产品，需要让他们满意。    
+So customer success
+proactively
+unlike support,
+which only which is reactive customer success proactively,
+tries to help customers succeed in using your product so that they are happy customers.
+
+613
+00:44:03,870 --> 00:44:18,240
+因此，你就能深入推销并且实现交叉销售了。这样客户就会留下来，并且不断完成购买。
+So that,
+for example,
+upcells and cross-sells become possible for your sales department.
+And so that the customer stick around and renew and renew and renew and so forth,
+
+617
+00:44:18,241 --> 00:44:22,830
+这就是所谓的“筛选”，提前放弃购买商品的用户是低潜质的消费者，
+so that the so-called churn,
+meaning those who drop out is low,
+
+619
+00:44:22,831 --> 00:44:31,080
+你所需要的是需要专业服务的消费者，可能是需要一个功能，也可能是需要一个服务。
+that's what you need
+customer successful for.
+Professional services is another services,
+
+622
+00:44:31,081 --> 00:44:41,370
+这就好像是软件供应商的咨询部门所干的事，所以，乍一听，你可能会觉得惊讶。  
+function or is another, this is if you will the consulting arm of a software vendor,
+so that may now sound surprising at first
+
+624
+00:44:41,371 --> 00:44:48,480
+所以我说过软件供应商就是一个软件供应商，商业咨询公司就是一个商业咨询公司。
+why am I saying consulting arm if a vendor is a vendor and consulting firms are consulting firms.
+ 
+625
+00:44:48,481 --> 00:44:50,880
+两者是可以明确区分的，这是正确的观点。
+Well,
+that is correct.
+
+627
+00:44:50,881 --> 00:45:04,320 
+举个例子，SAP会与很多会使用使用SAP软件的公司合作，但是SAP也有自己的较小的咨询部门。
+SAP,
+for example,
+collaborates with a lot of consulting firms who implement SAP for customers.
+But SAP also has a small consulting arm.
+
+631
+00:45:04,321 --> 00:45:20,490
+原因是因为这些软件供应商内部的咨询部门在收集用户信息，以及如何推行项目工作方面是很重要的，
+And the reason here is that these
+vendor internal consulting arms, are critical in gathering information on how well implementation projects work,
+
+633
+00:45:20,491 --> 00:45:23,250
+所以这个咨询部门更像是常规的顾问。
+so they are like regular
+consultants.
+
+635
+00:45:23,251 --> 00:45:28,470
+他们将与外部的咨询公司竞争，
+They even compete with actual outside consulting firms,
+
+636
+00:45:28,471 --> 00:45:38,820
+但供应商通常保持低调，不会试图与其他咨询公司主动竞争。
+but a vendor typically keeps it low key and does not try to compete big time with the other consulting firms,
+
+637
+00:45:38,821 --> 00:45:47,190
+但是商品供应商也是需要其他的商业咨询公司来了解产品、企业软件的具体情况，
+but they do still need disconcerting arm to learn about the specifics of how well their product,
+
+638
+00:45:47,191 --> 00:45:54,030
+以此来更好地为消费者提供服务。
+their enterprise software then usually actually works for customers and how easy it is to implement them,
+etc.
+
+640
+00:45:55,020 --> 00:46:00,120
+与此同时，你需要了解这些实施过程，其中也会涉及定制化过程。   
+At the same time,
+so you need to understand these implementation processes.
+
+642
+00:46:00,121 --> 00:46:06,720
+这是因为真正的咨询公司需要让你，你的合作伙伴了解这些咨询公司究竟在做什么。
+The customization process is because the real consulting firm are your partners, you need to understand what they are doing.
+
+643
+00:46:06,721 --> 00:46:12,330
+你需要评估它们，举个例子，你或许想把某个人赶出去。
+You need to be able to evaluate them.
+For example,
+you may want to kick someone out.
+
+646
+00:46:12,331 --> 00:46:17,910
+一些咨询公司做的是劣质的工作而且还可能损害了你的声誉，
+Some consulting firm who's doing shoddy work and who's hurting your reputation,
+etc.
+
+648
+00:46:17,911 --> 00:46:25,350
+所以要与专业的服务公司合作，它们可以确保用户满意度，
+So they are professional services firms,
+key stakeholders in ensuring customer satisfaction,
+
+650
+00:46:25,351 --> 00:46:33,240
+但它们也会对产品管理产生影响，也可以让产品符合市场和顾客的需求。
+but they also feed into product management
+and making the product right for a market and the customers inside.
+
+652
+00:46:35,760 --> 00:46:45,330
+好的，他们作为人力资源管理很重要，但是他们并不是专门针对软件供应商的。   
+All right,
+and then they're as human resources super important to have the right people,
+but not specific to software vendors as much,
+
+655
+00:46:45,331 --> 00:46:47,400
+好吧，这也不一定是正确的。
+well,
+that's not necessarily true.
+
+657
+00:46:47,401 --> 00:46:55,260
+招聘是一个很重要的过程，但是人力资源只负责招聘，
+Hiring is a non-trivial process,
+but human resources only supports hiring,
+
+659
+00:46:55,261 --> 00:47:01,710
+所以招聘工作通常是由工程管理员、销售管理员所做出的决定。
+usually the hiring decision is made by say in engineering or sales manager. Finance,
+
+660
+00:47:01,711 --> 00:47:11,310
+当然，金融部门在筹款方面也很重要，如果有必要的话，确保服从公司条规，
+of course,
+always also important in helping fundraising,
+if necessary,
+managing the book, ensuring compliance,
+all of that.
+
+665
+00:47:11,311 --> 00:47:17,430
+所以这也仅仅属于一个成功、完整的公司。
+So this also simply belongs to a successful and complete company.
+
+666
+00:47:20,490 --> 00:47:21,960
+这个想法是很庞大的，Thomas Otter发现了这一点。      
+And this can get quite large,
+
+667
+00:47:21,961 --> 00:47:33,090
+Otter发现了IBM的前身，tabulating machine company，
+so Thomas Otter found this here. Rr. Otter found
+this old IBM,
+back then still
+called the tabulating machine company.
+
+672
+00:47:35,190 --> 00:47:39,060
+这个公司结构是等级森严的，
+The structure of a company so very hierarchical,
+
+673
+00:47:39,061 --> 00:47:48,540
+你可以看到，即使在一百年前，销售部门和系统部门在制造部门中是分开的。
+but you can see even 100 years ago, there was separate a sales department from a systems department in a manufacturing department,
+
+674
+00:47:48,541 --> 00:47:50,520
+还有Office这个软件，
+and there was something called office.
+
+675
+00:47:50,521 --> 00:47:58,230
+让我们来看一下Office，它的结构也是面向细节的层次结构。
+basically back office,
+I assume,
+and so forth.
+So detail-oriented hierarchical,
+
+679
+00:47:58,231 --> 00:48:00,870
+在1917年office的层级结构就是这样，
+that's how it used to be in 1917,
+
+681
+00:48:02,190 --> 00:48:13,830
+正如你前几张幻灯片所展示的那样，这种等级结构仍然存在 而且在很多方面仍然占主导地位。
+and
+as you saw a couple of slides ago,
+that hierarchical structure is still around and still pretty dominant in many respects,
+
+684
+00:48:13,831 --> 00:48:18,480
+这虽然不是看待公司结构的唯一视角，但仍然是一个很重要的视角。  
+it's not the only view of looking at a company structure,
+but still an important one.
+
+686
+00:48:19,740 --> 00:48:24,120
+你们可能在想象我在这个图中的位置。
+So as you might be thinking about where am I in this whole picture.
+
+687
+00:48:24,121 --> 00:48:30,060
+我在这里列出了一些标题来帮助你们选择职业道路，
+Here are the titles to understand which career path you might be on.
+
+688
+00:48:31,560 --> 00:48:35,160
+作为一名工科学生，你可以成为一名开发者。
+As an engineering student,
+you can typically become a developer,
+
+690
+00:48:35,161 --> 00:48:44,820
+所以你可以加入软件供应商参与开发，然后你就走上了技术、管理的道路。
+so you join development inside a software vendor and there you can have a technical or managerial career. If you are a developer and you are just happy,
+
+691
+00:48:44,821 --> 00:48:46,590
+如果你是一名开发人员，并且很开心，那么你就应该成为一名开发者，没什么毛病。
+you are developer,
+nothing wrong with that.
+
+693
+00:48:46,591 --> 00:48:49,560
+如果你想从事管理工作，     
+If you want to have a managerial career,
+
+694
+00:48:49,561 --> 00:48:59,640
+然后你可以成为一名高层的工程经理，其也通常被称为工程副总裁，可以聆听其他工程经理的汇报。
+then you can become an engineering manager and at the top that's usually called a vice president of engineering to who the other engineering managers report,
+etc.
+
+696
+00:49:00,780 --> 00:49:04,650
+作为一名开发者，你可能会成长为一名软件架构师。
+A Technic career as a developer,
+you might become a software architect,
+
+698
+00:49:04,651 --> 00:49:15,930
+然后你就可以对产品的技术选型有更多的决策权，
+having more oversight and decision rights on the technical structure of products，and at the top of a software
+
+699
+00:49:15,931 --> 00:49:20,070
+软件架构师的下一步就是CTO，首席技术官。
+architecture is usually the CTO,
+the chief technology officer.
+
+701
+00:49:22,560 --> 00:49:27,270
+在美国，工程副总裁与CTO之间则是存在明显差别的。   
+In the U.S,
+there's a very clear distinction and say,
+
+704
+00:49:27,271 --> 00:49:32,310
+比如，硅谷公司的工程副总裁是很多人员的管理者，CTO也是技术人员
+a Silicon Valley company between a VP of engineering who is a people,
+
+705
+00:49:32,311 --> 00:49:43,200
+也是管理者一部分职工，但是所管理的员工的数量比工程副总裁所管理的员工数量少得多，
+person and manager of people, and a CTO who is a technical person also has staff but much much less than a VP of engineering,
+
+706
+00:49:43,201 --> 00:49:46,830
+CTO则关注产品的技术方面。
+and his concern was the technical aspects of the product.
+
+707
+00:49:48,210 --> 00:49:57,930
+在德国，也是如此，这两个词也是经常被搞混，所以这两个词合并在了一块儿。CTO听起来更好一些，   
+In Germany,
+still,
+these two titles are confounded and put into one and because CTO sounds nicer.
+
+710
+00:49:57,931 --> 00:50:11,550
+他通常只是担任CTO职位。如果CTO同时担任着工程管理的副总裁，那么他必须管理所有的员工，
+It's usually just a CTO present,
+and that CTO
+is both a VP of engineering science,
+he or she has to manage all the staff and also then,
+
+714
+00:50:11,551 --> 00:50:14,490
+并且仍然要负责软件架构。
+is still responsible for the architecture, which
+
+715
+00:50:14,491 --> 00:50:18,990
+你可能会认为，这可能扩大了CTO所要管理的职员规模，并且也带来了管理的复杂性，
+as you might guess,
+as soon as there is some size involved or complexity involved
+
+717
+00:50:18,991 --> 00:50:21,180
+所以可能会干扰CTO的工作。
+doesn't really work. Well,
+
+718
+00:50:21,181 --> 00:50:29,250
+所以在这种情况下CTO就会名不副其实，实际上已应该是工程部副总裁。     
+so under these circumstances then the CTO quickly
+is just the wrong title,
+but is actually a vice president of engineering,
+
+722
+00:50:29,251 --> 00:50:35,010
+工程副总裁会管理职员，并会对每个独立的产品都进行技术的考虑。
+managing people and delegates
+the actual technical considerations to separate architects.
+
+724
+00:50:36,870 --> 00:50:40,620
+工程专业的学生也可以成为产品经理，
+Engineering students can also become product managers,
+
+725
+00:50:40,621 --> 00:50:47,850
+如果你是一名产品经理，
+and if you're a product manager then you could usually upgrade to,
+
+726
+00:50:47,851 --> 00:50:55,230
+你也可以继续升级为技术产品经理，然后是战略产品经理，最终可以成为首席产品官。
+you start maybe as a technical product manager and you could upgrade to a strategic product manager and ultimately a chief product officer,
+
+727
+00:50:55,231 --> 00:50:56,250
+所以这里有依据人们所经常会使用的一段话，    
+So this is a,
+
+728
+00:50:56,251 --> 00:50:59,010
+these are the common terms that people use.
+
+729
+00:50:59,011 --> 00:51:03,060
+如果你来自商业领域，你可以成为一个产品经理，
+If you're coming from the business side,
+you can also become a product manager
+
+731
+00:51:03,061 --> 00:51:07,470
+在那儿你可以走自己的路。或者你也可以去做销售和市场相关的工作。
+and make your way there or you can go into sales and marketing.
+
+732
+00:51:08,970 --> 00:51:09,540
+其实最好刚开始以商学生的身份进入公司，
+Weather,
+
+733
+00:51:10,560 --> 00:51:18,420
+如果你是一名工科的学生，那么我不太确定你能否进入一家高科技创业公司。
+it's better to start as a business student, or an engineering student and get into a high-tech startup is unclear.
+
+734
+00:51:18,421 --> 00:51:26,220
+对于商学院学生来说，产品的技术性越强，他们就越难理解产品。
+The more technical the product,
+the harder it is for the business students to really understand the product,
+
+736
+00:51:26,221 --> 00:51:33,480
+但是他们可能会在销售和市场方面做出比较好的工作。
+and so they will do well
+probably,
+in sales and marketing,
+but not necessarily and product management.
+
+740
+00:51:35,820 --> 00:51:53,760
+商科学生了解技术领域比工科学生理解技术领域更加困难，工科学生可以更好地理解产品，
+The learning curve to with a business background to learn about the technical domain is much harder and higher than if you are an engineering student was sufficient technical background to understand the product and now to become a product manager.
+
+741
+00:51:53,761 --> 00:51:56,370
+可以成为一个产品经理。你可能会学习商业方面的知识。  
+You're picking up the business side of things.
+
+742
+00:51:56,371 --> 00:52:04,590
+所以产品以及产品提供商越专业，你就越有可能得到更好的服务。
+So the more technical,
+the products and the vendor,
+the more likely you're better served,
+
+745
+00:52:04,591 --> 00:52:09,300
+如果你想做产品经理，你可以学习工程学。
+starting out as an engineering student,
+if you want to get into a product management.
+
+747
+00:52:16,650 --> 00:52:22,770
+好的，我们刚才讨论过了业务功能，    
+All right,
+and now we just talked about
+the business functions.
+
+750
+00:52:23,700 --> 00:52:29,010
+其中包含了不同种类的实践活动以及能力节能，以及企业中不同人员所处的位置。
+And the kind of activities and capabilities，and what they do and what posts and positions proposes they hold.
+
+751
+00:52:29,970 --> 00:52:39,480
+现在我想谈软件供应商工作时的关键过程，即让软件供应商较好工作。
+Now I want to talk a little about the key processes that make a software vendor tick.
+Ah,
+make a software vendor work, well.
+
+754
+00:52:41,760 --> 00:53:04,080
+当我说关键过程的时候，这就意味着这些过程可以赚钱。从职业角度来看，这一点很重要。
+And when I say,
+key processes,
+then it's those processes that help make money.
+Which is important to understand from a career perspective,
+
+758
+00:53:04,081 --> 00:53:19,680
+因为通常情况下，你希望你自己能为公诉赚钱而不是省钱支持公司的运行，  
+because usually you want to be in a position where your work helps the company make money as opposed to save money or just support the operations of the company.
+
+759
+00:53:19,681 --> 00:53:29,760
+几乎总是这样，你为公司赚钱了，你就会升职，然后职业生涯上一帆风顺。
+Almost always,
+if you bring in money,
+you are better positioned and within the company to have a career
+then not. So,
+
+763
+00:53:29,761 --> 00:53:36,150
+举个例子，在一家银行工作，成为一名银行经理比成为银行中的IT人员要好的多。
+for example,
+if you work for a bank and it's much better to be a banker than an IT person in banking,
+
+765
+00:53:36,151 --> 00:53:41,040
+因为作为一名IT工作人员，你会被认为是所谓的费用中心，你的工作很烧钱。
+because as an IT person,
+you're considered a so-called cost center,
+you costs money.
+
+768
+00:53:41,041 --> 00:53:44,940
+但是，银行肯定是需要你的，你的薪水也不错。    
+you're definitely needed and you may have a nice salary,
+
+770
+00:53:44,941 --> 00:53:49,920
+但你永远不会仅因为这家公司是一家银行就成为它的CEO，
+but you're never going to become the CEO of the company simply because it's a bank,
+
+771
+00:53:49,921 --> 00:54:01,530
+银行的CEO总是银行经理，所以只有你在软件供应商中工作时，你才有可能成为CEO。
+and the CEO would always be a banker. So only in software vendors can software engineers possibly become ah,
+become CEOs.
+
+773
+00:54:04,050 --> 00:54:18,120
+我们之前已经讨论过了，这有一个简化版的术语表达，层次管理结构。
+We talked about it already,
+here's a
+stratified simplified with all the right terms,
+hierarchical managerial structure.
+
+777
+00:54:18,121 --> 00:54:26,700
+我再说一下，这是典型的层级汇报体系，不同的部门的人员都在其中。   
+So again,
+it's the classic line reporting hierarchy with the different departments and the types of people who run them.
+
+779
+00:54:26,701 --> 00:54:39,630
+所以你可以思考一下怎样才能成为食物链顶端的CEO？作为CEO需要怎样的努力奋斗？这就是所谓的c-level的职位，
+And so you can look at this and you can see how the CEO, of courses, at the top of the food chain and how there's a struggle if you will for so-called c-level positions.
+
+780
+00:54:42,240 --> 00:54:52,800
+除此之外，还有CRO, CTO,CHRO，人力资源职员等，CFR金融职员等。
+There's a CRO, CTO, chief CHRO, chief Human Resources officer,
+CFR financial
+guy person,
+and so forth.
+
+787
+00:54:54,300 --> 00:54:59,730
+所以就过程而言，这就是确保你赚钱的过程。    
+So,
+in terms of processes,
+these are the processes that ensure you're making money.
+
+790
+00:54:59,731 --> 00:55:07,320
+这就是软件供应商得以繁荣的关键，不只是为了生存，而是为了繁荣。
+so these are key for the vendor to thrive,
+not just to survive but to thrive.
+
+792
+00:55:07,321 --> 00:55:15,270
+构建产品，获取用户，操作产品，为用户提供支持，确保用户满意，
+Building the product,
+acquiring customers,
+operating the product,
+supporting customers and ensuring customer satisfaction,
+
+796
+00:55:15,271 --> 00:55:19,470
+这就意味着软件供应商想从中得到些东西？那么他们渴望得到什么呢？
+meaning they actually do get out of it,
+what they intended to get out of it.
+
+798
+00:55:21,390 --> 00:55:26,610
+所以说产品开就是发是产品管理、金融支持和资源管理的互动。      
+So product development again is an interaction of product management
+
+799
+00:55:26,611 --> 00:55:30,540
+with engineering and support by finance and hr.
+
+800
+00:55:31,710 --> 00:55:40,230
+产品经理通常会被组织，又可能不止一个产品经理成长为战略产品经理，
+Product managers are structured into a larger situation,
+if there's more than one
+product manager into strategic product manager,
+
+803
+00:55:40,231 --> 00:55:54,510
+战略产品经理会去寻找商机。然后将商机委派给技术产品经理，技术产品经理负责技术的详细规格和要求。
+who are defined or is responsible for meeting the market opportunity. And who delegate or coordinates to technical product managers, who are responsible for the details specifications or requirements.
+
+804
+00:55:55,410 --> 00:56:06,810
+这儿确实没有很多的产品经理，通常情况下每10到20个工程师中就有一个产品经理。
+There is not a lot of line reporting and product management here really. Usually there's one product manager for every 10 or 20 engineers.
+
+805
+00:56:06,811 --> 00:56:11,730
+如果你是一家初创公司，通常会有一个微型产品，    
+So if you are a startup,
+there will be one product miniature and often
+
+807
+00:56:11,731 --> 00:56:19,830
+以及会有一个临时的产品经理，在初创公司中他们可能也扮演着c-level的角色。
+it's only a part-time product manager because they also have another c-level role, also
+inside the company.
+
+809
+00:56:19,831 --> 00:56:27,600
+有软件工程的地方就有工程经理，可能有很多的开发者需要向他们报告，
+Engineering is where the head count is, where there is an engineering manager,
+with multiple developers reporting to them.
+
+811
+00:56:27,601 --> 00:56:38,100
+这就是构建产品的方式。在销售方面，这就是他们所谓的，更正式一些，而不仅仅是销售。
+And that's how you built the product.
+On the sales side,
+there is the so-called
+more formally,
+not just selling.
+
+816
+00:56:38,101 --> 00:56:45,600
+其中包含“获取客户”过程，显然，这是很重要的步骤，然后你就可以进行销售了，  
+There's the customer acquisition process.
+Obviously, it's critical for this to work,
+so you're selling.
+
+819
+00:56:45,601 --> 00:56:48,720
+你完成了销售获得了收收入。
+Ah,
+you're closing deals and have revenues，
+
+821
+00:56:48,721 --> 00:57:07,680
+销售漏斗开始发挥作用，销售漏斗就是“获取客户“过程以及消费者所经历不同阶段的可视化展示。
+and here the concept of the sales funnel comes into play.
+The sales funnel is exactly this
+customer acquisition process or a visualization of that process where customers go through different stages where in the beginning,
+
+824
+00:57:07,681 --> 00:57:14,940
+在最开始，他们刚了解你的产品，然后了解地越来越多，直到最后，
+they just barely got aware of your product,
+so awareness has been raised and where at the end,
+
+826
+00:57:14,941 --> 00:57:21,900
+如果他们最终还在，那么他们就会买你的产品。
+if they are still there,
+they actually sign the deal and buy the product
+
+829
+00:57:21,901 --> 00:57:27,540
+其中”客户获取“阶段也是包含了被定义的几个阶段，    
+and this customer acquisition process has stages that are well defined,
+
+830
+00:57:27,541 --> 00:57:35,010
+比如为不同的活动所支持和理解，这些活动由不同的人所发起。
+well understood and are supported by different activities, which are carried out by different people.
+
+831
+00:57:35,011 --> 00:57:40,470
+这就是“销售漏斗”模型的最初阶段。
+The initial
+stages or phases of the sales funnel.
+
+833
+00:57:40,471 --> 00:57:47,130
+让产品为大家所发现的这一过程是由营销人员管理和推动的，
+Awareness and discovery are managed and driven forward by marketing people.
+
+834
+00:57:48,510 --> 00:58:00,570
+这样营销人员就提高了你的产品在市场上的知名度，可以把你的产品带到潜在的用户面前。
+So it's marketeers or marketing people who raise awareness of your product in the market,
+who bring it in front of the eyes of potential customers.
+
+836
+00:58:00,571 --> 00:58:01,860
+目前还不是顾客，
+So not yet customers,
+
+837
+00:58:01,861 --> 00:58:16,590
+潜在的顾客会被引入“销售漏斗”模型中，潜在的消费者一直被引导，
+potential customers who are then fed into this funnel because of the form. And once they're in there they're called leads.
+So potential customers are called leads,
+
+839
+00:58:16,591 --> 00:58:20,340 
+我们也不确定他们能否坚守到最后。
+because we don't know whether they will make it all the way to the end.
+
+840
+00:58:20,341 --> 00:58:28,560
+就像你看到的那样，“销售漏斗”模型收缩了，然后有一部分潜在的消费者退出了。
+As you can see
+the sales funnel narrows.
+hence there is leads dropping out.
+
+843
+00:58:28,561 --> 00:58:42,600
+所以对于营销而言，在“销售漏斗”模型中前两个阶段非常重要，销售人员负责后三个阶段。
+So marketing is responsible for the first two stages
+in this illustration of the sales funnel,
+and sales people, sales representatives are
+responsible for the last three stages.
+
+847
+00:58:42,601 --> 00:58:45,900
+“销售漏斗”模型的描述有所不同，我们会审查一下。  
+They are different dipictions of the funnel and we will revisit that.
+
+848
+00:58:45,901 --> 00:58:50,010
+有时候该模型有4个阶段，有时候有6个阶段，
+and sometimes it's only four, sometimes at six stages.
+
+849
+00:58:50,011 --> 00:58:51,330
+但是关键阶段都是相同的。
+The key is always the same.
+
+850
+00:58:51,331 --> 00:58:54,960
+最初的步骤被采取，并获得了市场营销的支持，  
+The initial steps are taken and supported by marketing,
+
+851
+00:58:54,961 --> 00:59:00,900
+剩下的阶段由销售人员完成，并且他们最终会推动交易的进行。
+and the remainder is done by sales people who drive the deal at the end.
+
+852
+00:59:00,901 --> 00:59:11,100
+所以销售人员可以通过对商品进行评估然后引导消费者。
+So sales people guide leads to become customers through an evaluation to the actual buying of the product.
+
+853
+00:59:12,630 --> 00:59:14,610
+产品经理很重要，产品经理需要通知市场营销经理一些信息。   
+Product managers are important here too,
+
+854
+00:59:14,611 --> 00:59:26,730
+但是如果两者都不知道交流什么，那么他们也不会进行明智地沟通。
+because product managers inform marketing managers about what's coming down the road, marketing managers need something to work with. If they don't know what to communicate they can't communicate anything sensible.
+
+855
+00:59:26,731 --> 00:59:34,980
+因此市场营销经理需要和产品经理聊产品，产品是什么？我们能告诉客户什么？
+Hence they need to talk to product managers to learn what is in the making,
+what is the product about?
+What can we tell customers?
+
+858
+00:59:34,981 --> 00:59:37,410
+如何满足客户的需求？
+how does it meet customer needs?
+etc.
+
+860
+00:59:37,411 --> 00:59:41,130
+在他们将该部分疑问转化为消息之前，他们就把相关消息传递给了市场。
+Before they turn that into a message, they get out to the market.
+
+861
+00:59:43,860 --> 00:59:51,300
+当你的产品在云端上时，你需要软件，甚至进行软件开发工作。  
+As you have a product in the cloud,
+potentially,
+you need to operate it and for that,
+software
+development works with operations.
+
+866
+00:59:51,301 --> 00:59:59,340
+这都是不同部门的工作，使用Devops促进产品的开发，并且划分职员的角色。
+So these are different departments,
+Dev and Ops. Development
+does develops the product and operations and separate people,
+
+869
+00:59:59,341 --> 01:00:06,030
+但为了使这个工作可靠，你需要进行可靠性工程的混合工作，所以他们需要交流，
+but to make it reliable,
+you need to have this hybrid job of a site
+reliability engineer.
+
+872
+01:00:06,031 --> 01:00:15,120
+产品经理没有显示在这里，可靠性也需要被定义。     
+So they need to communicate,
+product managers not shown here figure in as well,
+of course,
+because the reliability needs to be defined,
+
+876
+01:00:15,121 --> 01:00:26,100
+对于用户来说，某些工作应该重要到什么程度呢？也需要支持用户使用软件，
+to what level is that important to customers and so forth. And also support needs to support customers as they use the operated software,
+
+877
+01:00:26,101 --> 01:00:28,920
+所以它们在此是相关的。
+so they are also relevant here.
+
+878
+01:00:32,910 --> 01:00:45,420
+客户支持就是用户的付费内容，它们缴纳了订阅的费用，技术、服务支持也是包含在订阅中的，
+Customer support
+is what customers pay for, they pay a subscription and all
+most certainly support is in that subscription,
+
+881
+01:00:45,421 --> 01:00:49,560
+这意味着我们要从产品管理中学习。
+meaning support learns from product management.
+
+882
+01:00:49,561 --> 01:00:56,850
+什么类型的支持正在被出售？这些技术、服务支持可以提供什么？软件供应商怎样为用户提供支持呢？
+what type of support is being sold and they can provide and how to provide it is their thing of course,
+
+884
+01:00:56,851 --> 01:01:02,280
+因此，软件供应商需要对用户的需求快速做出反应。
+and so they react to any incoming support request by customers.
+
+885
+01:01:02,281 --> 01:01:06,810
+他们需要与开发和操作部门合作，以防出现问题。有时用户的请求可能是开发、操作方面的严重软件故障。
+They need to work with development and operations in case something goes wrong.
+
+886
+01:01:06,811 --> 01:01:24,240
+So sometimes support requests have to be escalated as serious bugs to development and operations.
+正如前面所讨论的那样，我需要重申一下，   
+And then,
+as discussed previously,
+but
+important to reiterate,
+perhaps,
+
+892
+01:01:25,350 --> 01:01:27,570
+如果用户购买了软件，
+if a customer buys,
+
+893
+01:01:27,571 --> 01:01:32,070
+这并不意味着他们会立刻成为一个对产品满意的客户。
+it doesn't mean they become a happy customer instantaneously.
+
+894
+01:01:32,071 --> 01:01:45,720
+相反，还有很多步骤要做，因为只有产品得到很好的使用，该用户才会满意。
+Rather,
+there is still steps to take because until the product is in good use and proper use and successful use with a customer until you reach that stage,
+
+896
+01:01:45,721 --> 01:01:47,760
+在这两个阶段之间可能会出现很多问题。
+a lot of things can go wrong in between.
+
+897
+01:01:47,761 --> 01:01:50,460
+这就是成功获取了消费者，     
+So that's customer success
+
+898
+01:01:50,461 --> 01:02:05,220
+那么软件供应商需要积极主动地与客户交流,以确保用户刚刚购买的产品确实在恰当地用着。
+who proactively tried to work with customers to make sure that what they just purchased is actually used.
+What they just purchased and are using is used right, is used correctly,
+
+900
+01:02:05,221 --> 01:02:16,860
+在最开始，用户购买软件确实可以帮助消费者实现商业目标。
+and it's set up in such a way that it actually helps
+the customer achieve a business goal while they bought the software in the first place.
+
+902
+01:02:16,861 --> 01:02:18,450
+如果没有成功的用户，
+And without customer success,
+
+903
+01:02:18,451 --> 01:02:23,040
+那么慢慢你就会有很多失败的产品交易，以及会有很多消费者对产品不满意，
+you would have lots of failed purchases and unhappy customers,
+
+904
+01:02:23,041 --> 01:02:26,910
+最终这些交易也不能被重新建立。
+and hence ultimately no renewals.
+
+905
+01:02:26,911 --> 01:02:35,940
+那么随着时间的推移，对产品满意且已经被锁定的用户就不能为软件供应商带来收入。
+None of that nice piling up of revenue over time by happy,
+satisfied and locked-in customers.
+
+907
+01:02:38,100 --> 01:02:50,760
+接着这个话题，我简要介绍一下软件供应商，了解软件供应商很重要。         
+So with that,
+I'm at the end of giving you a short overview of the software vendor does.
+It's important to understand again that vendors go, sell
+
+910
+01:02:52,560 --> 01:03:04,350
+他们会出售一些标准化的产品，以及会基于产品提供标准化的服务，
+standardized products or offer a standardized service based on a product as opposed to doing custom projects for specific customers.
+
+911
+01:03:04,351 --> 01:03:06,660
+而不是为特定用户进行产品的定制化设计，这对这对经济会有很多影响。
+This has a lot of financial consequences.
+
+912
+01:03:06,661 --> 01:03:13,170
+一般来说，软件供应商中人员数量越少越好。
+It's usually much nicer to be a software vendor where with a much lower head count.
+
+913
+01:03:13,171 --> 01:03:26,580
+销售额外的产品许可或许比销售另一个协同项目更简单，也有助于软件供应商规模的扩大。
+You can acquire revenue because selling that one additional product license is so much easier than selling another consulting project, and so much nicer and easier to scale.
+
+914
+01:03:26,581 --> 01:03:29,880
+这样的话，所有的支出都可以转移。
+So all of the expenses are moved,
+
+915
+01:03:29,881 --> 01:03:36,000
+所以商业咨询公司中的支出大多数都是因为实际项目的劳动力。
+so most of the expenses of the consulting firms are in the labor of the actual projects.
+
+916
+01:03:36,001 --> 01:03:51,300
+对于软件供应商而言，大多数支出都是部分支出，而不是针对特定用户的核心产品。
+While more of the expenses for a software vendor are in the general, are part and not in the delivery of a specific
+of the core product to a specific customer
+part of the expenses.
+
+919
+01:03:52,350 --> 01:03:58,020
+然后我们查看了业务功能和核心业务流程，
+Then we looked at the business functions and the core business processes,
+
+920
+01:03:58,021 --> 01:04:10,410
+我们在下节课可能会回顾更多的细节，在下节课中我们将会讨论软件供应商的商业模型。
+and we will revisit some of them in more detail, in the next lecture on the business model underlying the software vendor and so.
+
+921
+01:04:11,340 --> 01:04:16,860
+感谢大家的关注，我们下节课再见。
+Let me say thank you for your time and attention and see you in the next lecture.

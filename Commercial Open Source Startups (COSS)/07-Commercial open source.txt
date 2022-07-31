@@ -1,0 +1,3004 @@
+ 0
+00:00:02,250 --> 00:00:11,460
+大家好，欢迎回到我们的课程，此课程是关商业业开源软件创业以及如何将其从大学教育中抽离出来。 
+Hello,
+everyone,
+and welcome back to course, our course on commercial open source software startups and how to spin one off from university.
+
+3
+00:00:12,480 --> 00:00:18,420
+我们刚好处在此次系列课程的中间。
+We are squarely in the middle or just beyond the middle of this course.
+
+4
+00:00:18,421 --> 00:00:28,080
+对于这节课，这是商业开源中间部分的第三次课。
+In terms of lectures,
+this is the third lecture in the middle part on commercial open source.
+
+7
+00:00:28,081 --> 00:00:33,870
+下节课我们将研讨商业开源策略并且以“云计算”作为重点。
+The next lecture
+will also be on commercial source strategies with a specific focus on cloud computing.
+
+9
+00:00:35,070 --> 00:00:45,540
+但是今天我想介绍一下商业开源，我所考虑的是三种商业模型的策略与模式。  
+But today I would like to introduce commercial open source and
+What I consider the three core strategies or patents for business models
+
+11
+00:00:46,500 --> 00:00:50,700
+其中单一供应商开源公司是最重要的一个。
+of these single vendor open source firms are the most important one,
+
+12
+00:00:50,701 --> 00:00:55,050
+或许从数字上来看是这样，然后就是开源经销商公司，
+perhaps at least by numbers and then the open source distributor firms,
+
+13
+00:00:55,051 --> 00:00:57,630
+最后就是服务支持公司。
+and finally
+their services support firms.
+
+15
+00:00:58,500 --> 00:01:05,430
+为了理解公司为什么选择商业开源战略，
+To understand why companies choose a commercial open source strategy,
+
+16
+00:01:05,431 --> 00:01:15,450
+我们还需要看下该策略给公司不同业务功能所带来的有效性。
+we also need to look at the benefits that this strategy brings to the effectiveness of different business functions.
+
+17
+00:01:15,451 --> 00:01:19,860
+所以接着这个话题，我们讨论一下什么是商业开源？
+So with that,
+what is commercial open source?
+
+19
+00:01:21,960 --> 00:01:26,250 
+想要给它下个定义并不容易，我对其的定义就是，商业开源软件就是开源软件，
+It's actually not that easy to come up with a definition, mine is commercial
+
+20
+00:01:26,251 --> 00:01:39,870
+其被一个或多个软件供应商所发展，以至于在该开源项目后面的公司可以间接获利。
+open source software is open source software that is being developed by one or more vendors so there are companies behind it for the purposes of deriving indirect revenues from it.
+
+21
+00:01:40,770 --> 00:01:49,230
+这个定义的关键在于开源软件本身，因为开源许可证总是可以免费使用的，
+The crux of this definition is open source software itself because of the open source license is always free to use,
+
+22
+00:01:49,231 --> 00:01:52,380
+所以你不能从中赚钱。
+so you can't make money off it
+really.
+
+24
+00:01:52,381 --> 00:01:56,430
+你只能通过一些兼容性服务赚钱，   
+You can only make money of something complimentary to it,
+
+25
+00:01:56,431 --> 00:02:06,960
+比如可以提供软件下载，可以把软件放在CD或者DVD上然后进行软件的分发。
+and yet as basic as providing the software for download or putting them on a CD or DVD and distributing it like that.
+
+26
+00:02:06,961 --> 00:02:12,510
+我发现开源软件所产生的收入总是间接的，
+So the revenues generated from the open source software are always indirect,
+
+27
+00:02:12,511 --> 00:02:15,960
+可能是某些兼容性的东西在起作用。
+something
+complimentary to it.
+
+29
+00:02:16,890 --> 00:02:19,890
+这就是我们的商业开源所面临的挑战。
+And that will be the challenge of our commercial
+open source so
+
+31
+00:02:19,891 --> 00:02:34,050
+用户仍然要为我们过去的基本产品或整个产品付费，通过这些产品，可能造就商业开源软件供应商。
+users still pay for what we've called a basic or a whole product in the past that is being provided then by what becomes the commercial open source software vendor.
+
+32
+00:02:34,051 --> 00:02:36,870
+但这并不是开源软件本身。
+But it is not the open source software itself.
+
+33
+00:02:38,790 --> 00:02:43,410
+展望一下，公司为什么要这么做？
+To look ahead,
+why do companies do that?
+
+35
+00:02:43,411 --> 00:02:47,160
+这里开源软件的含义就是被开发的软件，
+The implication here is developed software and give it a free,
+
+36
+00:02:47,161 --> 00:02:50,640
+然后这个软件作为开源软件供别的开发者使用。
+give it away for free as open source software.
+
+37
+00:02:50,641 --> 00:03:06,390
+这一战略举措的目的就是推动市场对于软件或者潜在产品的接受，   
+The purpose of this strategic move is to drive adoption of the software and implicitly then the underlying product in its markets,
+
+38
+00:03:06,391 --> 00:03:14,400
+也可以推动用户接受这些产品并最终将这些用户转变为付费用户。
+to drive adoption with users and turn those users eventually into paying customers.
+ 
+39
+00:03:15,420 --> 00:03:22,260
+使用开源的策略来推动市场或者用户对于产品的接受，这一方式即是“无摩擦分发”。
+Using open source to drive 
+adoption has also been called frictionless distribution.
+
+41
+00:03:22,261 --> 00:03:25,890
+对于新用户来说进行这个推销还是很容易的，
+You make it really easy for initially users,
+
+42
+00:03:25,891 --> 00:03:33,480
+但是之后客户必须先熟悉该软件才能开始使用该产品。
+possibly later
+customers to get acquainted to the software to start using it.
+
+44
+00:03:33,481 --> 00:03:40,890
+然后我们就会看到令美元，这就是开发者个软件的预算，
+They are as we will see,
+a zero dollar,
+line item in a budget to develop some software or 
+
+47
+00:03:40,891 --> 00:03:45,810
+或者运行这个软件的预算，因为这个软件使用起来没有什么障碍。
+just run some software because there are no barriers to using it.
+
+48
+00:03:45,811 --> 00:03:56,160
+开源软件与付费软件有很大的不同，即使付费软件有免费的模式，与开源软件还是有很大不同的。
+Quite differently from or to pay for software or even for software that has a freemium model,
+
+49
+00:03:56,161 --> 00:04:00,390
+其中付费软件的免费模式可能是允许用户先免费使用三个月，然后才会转为收费模式。
+or has a trial that expires after three months or something like it.
+
+50
+00:04:01,290 --> 00:04:16,230
+一旦你建立了或者已经建立了这样的用户基础，竞争对手就很难进入用户和潜在客户所在的市场。  
+And once you are establishing or have established such a base with those users, it will be harder for competitors to possibly get their foot in the door with the users and the potential customers.
+
+51
+00:04:17,370 --> 00:04:20,880
+我们将会看到收入来源，消费者就是那些最终会变成消费者的用户，
+As we will see,
+the revenue sources,
+what customers,
+
+54
+00:04:20,881 --> 00:04:25,050
+该部分用户为产品付费。
+those users who eventually become customers actually pay for.
+
+55
+00:04:25,051 --> 00:04:30,660
+这种情况并不新鲜。这些都是我们之前已经讨论过的典型的收入来源。
+That is not new.
+These are the classic revenue sources that we have already discussed.
+
+57
+00:04:31,680 --> 00:04:39,240
+围绕着收入来源，以及商业功能如何生效，商业功能有何变化，这与我们之前讨论的不一样。
+But then the business functions around it and how to be effective and then at them changes is different.
+
+58
+00:04:39,241 --> 00:04:44,610
+有时候它是扩展已存在的商业功能，有可能是线性扩展。
+Sometimes it's extensions,
+extensions,
+linear extensions of what's already there,
+
+61
+00:04:44,611 --> 00:04:46,830
+有时候可能造成扩展前与扩展后的功能完全不同，
+sometimes it's drastically different,
+
+62
+00:04:46,831 --> 00:04:49,020
+我们今天也会讨论这个问题。
+and we will also discuss this today.
+
+63
+00:04:51,360 --> 00:04:55,290
+现在有很多商业开源公司，其中有些你可能也知道，
+There are lots of commercial open source firms these days,
+some of which you may know.
+
+65
+00:04:55,291 --> 00:05:03,930
+我很确定你已经想到了MySQL和MongoDB，直到最近它们还都是开源产品。
+So I'm pretty sure you've thought of MySQL or MongoDB,
+recently it was an open source commercial, open source file.
+
+67
+00:05:05,160 --> 00:05:13,620
+这里展示了四个数据柱子，每条数据柱上都有三个公司。出于某种分类方式，每个数据柱子彼此独立。  
+These four pillars here so three companies on top of each other,
+A pillar belonged to each other
+for different reasons.
+
+70
+00:05:13,621 --> 00:05:19,410
+在左边，是MysQL, MuleSoft,和pentaho。它们也是非常不同的商业开源公司。
+On the left,
+MysQL, MuleSoft, pentaho,
+they're just very different
+commercial opensource firms.
+
+74
+00:05:19,411 --> 00:05:29,220
+其中MySQL是数据库公司，MuleSoft是数据集成公司。
+So MySQL at the database company
+will solve this or was the database company. MuleSoft was a data integration company and so forth.
+
+76
+00:05:30,330 --> 00:05:38,910
+不同类型的产品使用不同颜色标注，另一个数据柱上展示了cloudera, mapr和HORTONWORKS。
+So just different types of products are the second color,
+a column or pillar cloudera, mapr and HORTONWORKS,
+
+78
+00:05:38,911 --> 00:05:50,130
+正如我们所了解到的那样，有一家商业开源公司专注于相同的基础软件。
+They are as we will learn.
+Ah,
+there's a commercial source firms focused on the same base software here,
+hadoop.
+
+82
+00:05:50,131 --> 00:05:57,300
+在之后我们会称它们为多供应商的商业开源，因为它是很多供应商提供服务，   
+so we will call them later on multivendor commercial
+Open source because it's multiple vendors servicing and
+
+84
+00:05:58,470 --> 00:06:05,340
+并且从一个社区开源软件中获得产品，获得收入。
+deriving products and revenues from one shared community open source software.
+
+85
+00:06:05,341 --> 00:06:13,950
+在这儿我们可以看到第三根数据柱，它包含了不同的开源软件产品，但都是在相同领域的。
+Here,
+hadoop.
+A third pillar is different products,
+different open source software,
+but same domain.
+
+90
+00:06:13,951 --> 00:06:20,550
+这三家数据库公司mongoDB, yugabyteDB, ArangoDB都是商业开源数据库，
+it's three database companies mongoDB, yugabyteDB, ArangoDB are commercial open source
+
+91
+00:06:21,600 --> 00:06:24,180
+商业开源软件公司。
+database, open source software companies.
+
+92
+00:06:25,500 --> 00:06:31,620
+第一根数据柱中所包含的产婆都是独立的产品，
+What's common to the first three pillars or columns here is it's all individual products that
+
+93
+00:06:32,970 --> 00:06:36,840
+或多或少都属于这些类型公司。
+more or less are owned by these companies,
+
+94
+00:06:36,841 --> 00:06:41,310
+但是最后一列是不同的，其中所涉及的公司都是开源软件供应商。
+and the last column is different in that it's open source distributors.
+
+95
+00:06:41,311 --> 00:06:44,010
+其中RedHat公司、
+So these companies Red Hat,
+
+96
+00:06:44,011 --> 00:06:52,860
+univention以及MIRANTIS公司都没有自己的软件，它们都在使用社区开源软件。
+univention and MIRANTIS really don't ow n much about the software they're using its true community open source,
+
+97
+00:06:52,861 --> 00:07:08,010
+当我们使用公司的服务时，我们就是消费者。公司会集成组件，然后为消费者提供可替代方案。  
+but they put them together and what customers as we will learn, pay for or what's attractive to customers is that these companies take away the integration pain of many different components.
+
+98
+00:07:08,011 --> 00:07:13,140
+在软件行业中，商业开源就在你身边，
+So commercial open source is all around you
+in the software industry,
+
+100
+00:07:13,141 --> 00:07:18,750
+你所知道的比如商标，公司、产品都是与开源有关的。
+many of these logos and marks and companies and products you probably knew.
+
+101
+00:07:20,190 --> 00:07:23,010
+事实证明，这是一个有利可图的方法。
+And it turns out it's a lucrative approach,
+
+102
+00:07:23,011 --> 00:07:30,420
+基于oss.cache网站，我们可以发现这份电子表格，
+so here based on oss.cache
+where you can find this spreadsheet,
+
+104
+00:07:30,421 --> 00:07:38,010
+我们可以看到很多公司都变成了独角兽，很多初创公司也成为了独角兽。
+we can see that lots of companies have become unicorns.
+Startups have become unicorns,
+
+106
+00:07:38,011 --> 00:07:45,420
+这意味着商业开源战略对于获得这些公司目前的地位实际上是有帮助的。
+making or suggesting that a commercial open source strategy is actually helpful.
+
+107
+00:07:44,131 --> 00:07:45,420
+achieve that status or
+
+108
+00:07:45,421 --> 00:07:58,470
+基本上只要是一个成功的商业供应商，他们可能会推出投资担保，然后将软件供应给软件供应商。
+basically just be a successful company with successful exits warranting the initial investment by venture capitalists into the software product stared up into the vendor.
+
+109
+00:08:00,780 --> 00:08:06,390
+我对于开源商业、开源这些属于很好奇，让我们回顾10年前，  
+But Term open commercial, open source.
+I was curious and a while back well
+10 years ago.
+
+112
+00:08:06,391 --> 00:08:13,770
+我经过询问确认了我是在2004年知道这些术语的。
+I asked or confirmed what I knew that this term had been coined in 2004,
+
+113
+00:08:13,771 --> 00:08:23,520
+“商业开源”这个术语是2004年有商业开源软件sugar CRM所提出来的，
+The term commercial open source had been coined in 2004 by the commercial open source software from sugar CRM,
+
+114
+00:08:23,521 --> 00:08:31,020
+这是一个商业开源企业专注于消费者关系管理。
+an enterprise, software commercial open source enterprise software for CRM customer relationship management.
+
+115
+00:08:31,021 --> 00:08:34,770
+当时它们主导着这个领域，但是现在它们貌似已经放弃了。
+They got the initial domain.
+I think they dropped it by now.
+
+117
+00:08:34,771 --> 00:08:39,630
+这是一个太宽泛的术语，并且因为太长而不实用。
+It's too generic a term anyway and too long to be useful,
+
+118
+00:08:39,631 --> 00:08:45,390
+所以“商业开源”的术语还是回到了sugar CRM。
+and so this term commercial open source goes back to sugar CRM.
+
+119
+00:08:45,391 --> 00:08:48,120
+通过它们也产生了很多新的术语。“职业开源”是由商业开源所造就的。
+They're competing terms like professional
+open source,
+
+121
+00:08:48,121 --> 00:08:55,290
+商业上也存在着很多挑战与矛盾，
+But the one
+That stuck was commercial open source,
+The challenge,
+
+124
+一方面，商业开源意味着免费可用，
+00:08:55,291 --> 00:09:06,600
+then,
+is because of that
+seeming contradiction between commercial
+on the one hand,
+an open source meaning freely available
+
+129
+00:09:06,601 --> 00:09:11,310
+另一方面就是如何解决这个问题所带来的挑战。
+on the other hand.
+The challenge will be how to resolve that.
+
+131
+00:09:11,311 --> 00:09:22,770
+软件供应商销售产品，我们会划分结构，将其分成了三个阶段，分别是核心产品、基础产品、完整产品。   
+So what we know is that software vendors sell products and that we can structure products into these three stages or extensions called basic and whole product.
+
+132
+00:09:23,730 --> 00:09:34,050
+我们将看到 商业开源供应商出售的实际上是基本的或完整的产品，
+And what we will see is that what commercial open source vendors sell is indeed a basic or whole product,
+
+133
+00:09:34,051 --> 00:09:36,720
+就像我们之前所介绍的那样。
+as we have previously introduced it.
+
+134
+00:09:36,721 --> 00:09:38,400
+所以软件供应商会卖给用户某些产品，
+So they will sell customers
+
+13 5
+00:09:38,401 --> 00:09:48,060
+其中包含了满足用户需求的使用保证，以及关于产品的培训及咨询操作。
+something which may include fitness for use or certification guarantees, training and consulting operations of the product.
+
+136
+00:09:49,260 --> 00:09:54,900
+但是核心软件本身也是开源的。
+But the core software itself will also be available as open source,
+
+137
+00:09:54,901 --> 00:10:04,530
+所以对于核心软件来说这是一个传统的许可，或许是其他特性的组合。
+so it's not a traditional license sale for the core software only. Maybe in combination with these other features,
+
+138
+00:10:04,531 --> 00:10:08,010
+然后就会促进产品的创建，然后顾客需要为产品付费。
+that becomes a proper product to pay for product.
+
+139
+00:10:08,011 --> 00:10:17,670
+但是在这儿的核心软件，因为开源许可的存在该软件又被称为开源软件可免费获得。
+But the core of the product hence core product here, that is open source software available freely because of the open source license.
+
+140
+00:10:19,650 --> 00:10:25,350
+然后软件供应商可以添加相关功能，使得自助服务可获得。
+Then vendors can add some functionality,
+make self- help services available,
+
+142
+00:10:25,351 --> 00:10:27,930
+软件供应商可能会通过这些自助服务表明自己的态度与立场，   
+they may shout through it, often don't.
+
+143
+00:10:28,830 --> 00:10:33,270
+这都只是偶尔的商业行为。
+But this is only sometimes commercial,
+
+144
+00:10:33,271 --> 00:10:39,000
+软件供应商我那个基本产品中添加功能与特性，然后得到完整产品，这算是免费开源软件的赠品。
+adding to a basic and whole product,
+as complimentary things to the free and open source software.
+
+146
+00:10:40,020 --> 00:10:42,090
+但是情况并非总是如此。
+But it doesn't always.
+
+147
+00:10:42,091 --> 00:10:46,260
+这些软件可能不总是商业性质的，所以你需要更详细地看看这个。
+It isn't always commercial,
+so you'll need to look at this in more detail.
+
+149
+00:10:47,760 --> 00:11:00,990
+举个例子，Jaspersoft作为一个智能开源商业软件供应商，
+Um,
+here's an example that is Jaspersoft has been acquired by typical jaspersoft,
+business intelligence,
+commercial open source software vendor.
+
+153
+00:11:01,920 --> 00:11:15,660
+他们会通过“产品直售”的方式销售产品，举个例子，它们会像企业用户出售产品。
+And they sold a product consisting of multiple features through a direct sales channel,
+for example,
+to enterprise customers.
+
+156
+00:11:15,661 --> 00:11:26,610
+对于核心产品，该软件供应商在销售许可下进行销售，然后用户会获得增值服务，比如产品更新。     
+So the core, the product they sold was on premise license sale was an update service meaning we'd get the update fixes.
+
+157
+00:11:26,611 --> 00:11:32,880
+首先你需要在获取软件许可之前你需要初始化许可，
+So first year you initialize license after that maintenance of classic or license sale,
+
+158
+00:11:32,881 --> 00:11:40,500
+并且还要添加相关商品的功能。这样的话核心开源软件就诞生了，并且附带有很多额外的功能，
+plus added utilities, added from the perspective. There's the core open source software then there's additional functionality,
+
+159
+00:11:40,501 --> 00:11:48,960
+也会加上相关的文档说明以及24*7的热线支持。
+plus documentation and training
+in 24*7 or 
+5 by 9 by 5, hotline and support.
+
+162
+00:11:50,100 --> 00:11:54,090
+对于需要创建软件的企业消费者来说，
+And to enterprise customers who would operate
+
+163
+00:11:54,091 --> 00:11:55,470
+BI软件可能是一个市场，另一个市场可能就是ISV。对于ISV，它会把BI工具嵌入到产品中，
+the software, the BI software
+
+164
+00:11:55,471 --> 00:12:08,790
+如此一来他们就无需更新产品服务了，否则这些产品就需要永久许可了。
+was one market, another one were ISV, would embed the BI engine in their own products so they wouldn't need update services as much as they would need a perpetual license.
+
+165
+00:12:08,791 --> 00:12:16,020
+所以这只是同一个产品或者是某产品的变体，这些产品创建了不同的功能。
+So that was as the same product or variant of the product simply bundling these features differently.
+
+166
+00:12:16,021 --> 00:12:17,730
+这就是一种“直接销售”。
+and that is also a direct sale.
+
+167
+00:12:19,560 --> 00:12:25,170
+这也是jaspersoft与众不同的原因，这也是我在这里提及它的原因。
+What was unusual about Jaspersoft,
+which is one of the reasons why I'm bringing it up here,
+
+169
+00:12:25,171 --> 00:12:36,600
+它是针对开源社区的网络销售，你可能想要讨论加载消费者的问题，
+is that they by way of a web store also targeted the open source community,
+the free loading users as you might argue,
+
+171
+00:12:36,601 --> 00:12:51,360
+开源社区其实是一个潜在的消费者群体，可以根据购买文档对市场进行划分。
+they targeted the open source community as a potential customers base or a market that particular market or market segment might be willing to buy documentation,
+
+172
+00:12:51,361 --> 00:12:57,450
+也许我持有额外的软件功能，这是不能为别的免费开源软件所获得的。   
+and maybe the
+withheld additional utilities that are not available for free and open source software.
+
+174
+00:12:58,860 --> 00:13:04,200
+所有使用该软件的开源社区可能都会遇到这个问题，
+All the open source community using the software might run into problems with using it,
+
+175
+00:13:04,201 --> 00:13:10,590
+因为Jaspersoft会销售基于事件的支持，
+and then jaspersoft sold them incident based support, so an incident based support,
+
+176
+00:13:10,591 --> 00:13:22,500
+所以你拿起电话的那一刻，就开始付费了，但这不是订阅，这只是你为服务付费。
+you pick up the phone and you are charged for the time or just in the moment,
+so it's not a subscription.
+it's just a pay-as-you-go 
+Service.
+
+181
+00:13:23,820 --> 00:13:34,170
+商业开源公司会迎合开源社区，但是在如何获取利益上，这也是一个值得讨论的问题。
+And its unusual actually that this commercial open source firms cater to the open source community and in terms of revenue, it's also a questionable,
+
+182
+00:13:34,171 --> 00:13:45,810
+当我们10年前采访他们的时候，Jaspersoft只有不到5%的收入来自于开源社区。
+I think jaspersoft has less than 5% of its revenue from the open source community
+when we interviewed them about ten years ago.
+
+184
+00:13:52,080 --> 00:14:00,570
+所以接下来我想讨论关于商业开源的三个核心策略，
+So then there are three core strategies to a commercial open source that I want to discuss.
+
+185
+00:14:02,070 --> 00:14:07,080
+从之前的课程中我们可以知道，开源是可持续的。
+Open source has become sustainable,
+as we know from the previous lectures,
+
+187
+00:14:07,081 --> 00:14:19,080
+从传统的社区项目中走出来的开源社区目前都是非盈利的组织、基金会，   
+by moving on from the traditional community projects,
+open source community, community open source projects to all these non-profit organizations,
+the foundations.
+
+190
+00:14:19,081 --> 00:14:20,880
+但这些都不是真正商业化的，
+But these are not commercial.
+
+191
+00:14:20,881 --> 00:14:26,670
+它们都只是在做一些基础性的工作，然后为了实现可能的商业化，
+They only lay the groundwork
+arguably for possible commercialization,
+
+193
+00:14:26,671 --> 00:14:34,110
+但是这些基金会本身是关于定义规则的，而不是帮助特定的人。
+but the foundations itself are all about getting along with each other under defined rules and not giving anyone a leg up.
+
+194
+00:14:35,970 --> 00:14:44,610
+这就是我们今天所要讲的，下次我们会再讲一下商业开源，那些公司都会去追求利益，
+Now we want to look today and next time at commercial open source
+which are for-profit firms,
+
+196
+00:14:44,611 --> 00:14:51,390
+但是某些基金会是非营利性的，正是这些基金会使得开源成为了一种可持续现象。
+the foundations are non-profit and which have also made open source a sustainable phenomenon,
+
+197
+00:14:51,391 --> 00:15:00,360
+目前存在三种从开源获利的商业公司。
+and there are three different types of for-profit open source,
+commercial opensource firms.
+
+199
+00:15:00,361 --> 00:15:07,410
+它们分别是单一供应商开源公司，开源供应商，以及软件服务咨询公司。
+I call them single vendor open source firms,
+open source distributor firms and services and support firms.
+
+201
+00:15:07,411 --> 00:15:09,720
+我们一步步地看下这些公司，  
+I want to look at them in steps.
+
+202
+00:15:11,610 --> 00:15:23,880
+区分这三种商业公司的方法是专利或者与知识产权所绑定的商业模型模版，
+One way of distinguishing these three types,
+which come with a kind of patent,
+or templatized  business model by intellectual property.
+
+205
+00:15:23,881 --> 00:15:28,200
+这些是帮助你区分这些模型的关键部分。
+That is a key differentiator that helps you tell these models apart.
+
+206
+00:15:29,640 --> 00:15:41,580
+所以单一供应商的开源软件公司，通常只是拥有商业所基于的软件，
+So single vendor open source firms,
+usually exclusively own the software that the business
+is based on.
+
+209
+00:15:41,581 --> 00:15:44,670
+你或许不会注意到这一点，
+You may not
+have been aware of it,
+
+211
+00:15:44,671 --> 00:15:55,890
+对于Mysql数据库公司经常被Oracle公司所需要，通常拥有mySQL数据库软件。
+but mySQL,
+the database company then acquired by oracle, always owned mySQL the database software. They owned it,
+
+213
+00:15:55,891 --> 00:15:58,680
+它们只是被许可了一部分，
+and they just licensed part all of it 
+
+214
+00:15:58,681 --> 00:16:05,460
+MySQL相关软件在开源许可下完成了开源认证，这些软件仍然是拥有开源许可的。
+in the case of MySQL, all of it,
+they licensed it out under an open source license,
+but they still owned it.
+
+217
+00:16:05,461 --> 00:16:13,440
+这些软件也持有相关版权，并且这些版权是与开源许可分开的，但都是商业许可下的软件，  
+They held the copyright,
+and they were selling separately from the open source license,
+the same software under a commercial license.
+
+220
+00:16:13,441 --> 00:16:15,270
+这叫做双重许可。
+It's called dual licensing,
+
+221
+00:16:15,271 --> 00:16:27,930
+一个软件供应商拥有部分软件，并且拥有一些与商业相关的软件。
+so single vendor
+open source firms are those which
+Own the software and strive to be the single sole vendor who bases a business on that software.
+
+224
+00:16:29,100 --> 00:16:39,930
+正如所显示的那样，软件供应商还是比较吸引用户的，这就意味着它可以吸引风险投资。
+And as the oss cash spreadsheet showed,
+it can be very attractive,
+and this means it can attract venture capital.
+
+227
+00:16:41,910 --> 00:16:45,360
+第二种类型的商业软件供应商，
+The second type of commercial open source vendor,
+
+228
+00:16:45,361 --> 00:16:51,630
+能够吸引风险投资，，并获得巨大回报的是开源软件供应商公司。
+which can attract venture capital and have outsized returns are the open source distributed firms.
+
+229
+00:16:53,490 --> 00:17:00,270
+其与单一软件开源软件供应商不同，它们没有商业软件的所属权，
+Unlike single vendor open source,
+they don't own the software that businesses based on.
+
+231
+00:17:00,271 --> 00:17:05,910
+但是它们拥有相关组件的知识产权。
+But they own the intellectual property around those components,
+
+232
+00:17:05,911 --> 00:17:12,330
+其中比较突出的组件就是数据库以及相关配置数据，  
+most notably knowledge and databases and configuration data that makes a large,
+
+233
+00:17:12,331 --> 00:17:21,660
+这使得开源软件组件可以相互协作，但是这些开源商业公司本身是没有这些软件的，
+otherwise disparate high array of open source software components work with each other well. They don't own the software itself,
+
+234
+00:17:21,661 --> 00:17:29,880
+但是该公司知道把不同的组件组合起来，所以这些组件可以协同工作，这是很重要的一件事。
+but they know how to fit pieces together.
+So that they
+work with each other nicely,
+that is important.
+
+238
+00:17:29,881 --> 00:17:36,300
+可以考虑一下如果是Linxu操作系统者要这样的软件应该怎么组成呢？
+or happens if it's a large piece of software
+like the linux operating system.
+
+240
+00:17:36,301 --> 00:17:42,450
+Linux操作系统由大量组件所组成，其中最值得注意的就是Linux内核，  
+The linux operating system consists of a large number of components,
+most notably the kernel,
+
+242
+00:17:42,451 --> 00:17:52,830
+当然也有很多其他的软件组件，子系统，文件系统管理工具等。
+but then any a lot of other additional pieces of software,
+Subsystems,
+file system tools around it,
+etc.
+
+246
+00:17:54,750 --> 00:18:03,300
+除了单一软件供应商以及开源软件经销商，商业服务支持公司也是没有自己的软件的。
+Separate from single vendor and open source firms and open source distributor firms,
+their service and support firms they don't own the software.
+
+248
+00:18:03,301 --> 00:18:08,070
+但是他们可能会和其余的开发者一同工作。所以有时候他们会共享资源。
+Ah,
+they may be working on the software with others,
+so they share the IP,
+
+251
+00:18:08,071 --> 00:18:13,980
+但是商业服务支持公司没有主导权，他们只是为付费用户提供软件服务。
+they don't dominate it.
+and they just service the software to paying customers. They support
+
+253
+00:18:13,981 --> 00:18:15,030
+他们通常会支持那些有用的软件。
+useful software.
+
+254
+00:18:16,320 --> 00:18:22,350
+它们通常不会吸引风险投资，因为它们不容易扩大规模，
+They typically don't attract venture capital because they don't scale easily,
+
+255
+00:18:22,351 --> 00:18:24,420
+而且对于规模的扩大通常都是扩展人员数量的。
+they only scale with people usually.
+
+256
+00:18:26,490 --> 00:18:37,320
+就像商业咨询公司不太能吸引风险投资。所以，可以看到这些公司还是面临着很多挑战的。
+Like consulting firms and 
+that's not something that attracts venture capital.
+So,
+looking at these companies,
+the challenge is always,
+
+261
+00:18:38,250 --> 00:18:47,490
+如果你把产品提供给大家免费使用，那么为什么会有人成为付费用户？
+If you give,
+the product away for free.
+Why would anyone become a paying customer?
+
+264
+00:18:47,491 --> 00:18:49,620
+这些用户是在为什么付费呢？
+What would they be paying for?
+
+265
+00:18:50,970 --> 00:18:57,900
+所以你对于权利的把控方面可能会面临一些挑战，你需要对产品以及用户个进行结构化设计，
+And hence the challenges is to use your power, to the extent that you have it, to structure
+
+266
+00:18:57,901 --> 00:19:05,760
+可以最大限度地促成用户到消费者的转变。
+product and services in such a way, that you maximize that conversion from user to paying customer.
+
+267
+00:19:05,761 --> 00:19:17,430
+如果你拥有这个软件，你免费提供给大家使用，那么你应该怎么吸引用户成为付费用户呢？
+So if you own the software,
+but you give it away for free,
+how,
+what is it that you use to entice your freeloading
+Users, to become paying customers.
+
+272
+00:19:19,320 --> 00:19:23,940
+当然你需要采取某些措施，我们之后会讨论这件事的。
+You do that.
+Of course,
+in their ways,
+and we'll discuss it,
+
+276
+00:19:23,941 --> 00:19:32,580
+与此同时，你需要确保没有竞争者出现并使用你的开源软件与你竞争，
+and at the same time you need to make sure that no competitor shows up and uses your open source software to compete with you.
+
+277
+00:19:32,581 --> 00:19:39,840
+所以你需要远离竞争。你所做的这一切都是有目的的，
+So you need to keep the competition away or at bay.
+And you do that for a purpose,
+
+279
+00:19:39,841 --> 00:19:47,970
+你可能会考虑为什么在开源中我就像是一个单一软件供应商呀？可我仅仅是一个软件开发者啊。
+you might wonder
+why even open source and particular,
+if I'm like in single vendor open sauce, I'm the only, I'm the main developer,
+
+282
+00:19:47,971 --> 00:19:55,440
+为什么我要把我的软件免费提供给大家使用，你想做这件事的原因就是你想从用户社区获利。
+why would I give my software away for free and you do that because you want to benefit from the user community,
+
+283
+00:19:55,441 --> 00:20:01,260
+那么应该如何实现这一点呢？这就是商业开源的整症结所在。
+so how to achieve that?
+So this is the crux of commercial open source.
+
+285
+00:20:01,261 --> 00:20:11,340
+这是关于商业开源产品管理中的关键挑战，我们需要好好研究一下。  
+This is the key strategic challenge are the key product management challenge of commercial open source.
+And we need to look at it.
+
+287
+00:20:16,260 --> 00:20:18,420
+我们来探讨一下第一种商业开源模型，
+So let's discuss the first and
+
+288
+00:20:18,421 --> 00:20:27,270
+这是三种商业开源软件模型中起主导作用的一个模型，我称之为单一软件开源供应商。
+the dominant model of the three of commercial open source software,
+which I call single vendor open source software firms.
+
+290
+00:20:28,800 --> 00:20:37,740
+单一供应商开源软件是一种商业开源软件，并且其被单一的供应商所拥有与管理。
+So single vendor open source software is commercial open source software that is managed and owned and developed by a single vendor,
+
+291
+00:20:37,741 --> 00:20:45,090
+其中只涉及一个开源软件供应商，这样他们就会让用户远离其他的开源软件供应商，
+so just one,
+and they keep everyone else away every other commercial vendor away,
+
+293
+00:20:45,091 --> 00:20:49,560
+这就是所谓的单一开源软件供应商。
+and that's why it's single vendor open source.
+
+294
+00:20:49,561 --> 00:20:56,130
+所以这个公司会提供软件，或者单一供应商开源软件。
+Ah,
+so that's the firm then which provides such software or 
+the single vendor open source software.
+
+297
+00:20:58,950 --> 00:21:03,330
+其中的关键就是单一开源软件供应商自己开发了软件。
+The key here is that they developed the software.
+
+298
+00:21:03,331 --> 00:21:05,340
+单一开源软件供应商为用户提供产品，用户可以免费使用这个产品，
+Ah,
+they make available for free,
+
+300
+00:21:05,341 --> 00:21:08,610
+但是软件供应商不能对产品失去控制。
+but they 
+do not lose control.
+
+302
+00:21:08,611 --> 00:21:15,660
+事实上，软件供应商拥有相关的软件控制机制，这也是我前几节课所介绍或的，   
+In fact,
+they own all the control mechanisms that I've introduced a couple of lectures ago,
+
+304
+00:21:15,661 --> 00:21:17,250
+而且他们不会放弃这些管控机制。
+and they will never let go of it.
+
+305
+00:21:18,120 --> 00:21:23,130
+最重要的是，他们仍然是版权的唯一拥有者。
+Specifically or most importantly,
+they remain the sole copyright owner.
+
+307
+00:21:25,950 --> 00:21:32,700
+这些软件供应商一开始就发展了这些软件版权，所以这些公司拥有着这些版权。
+They develop it in the first place,
+so the company of the firm owns the copyright and,
+
+309
+00:21:32,701 --> 00:21:35,700
+你可以看到，这些软件供应商接受任何来自外部的贡献，
+as you will see,
+if they accept any outside contributions,
+
+311
+00:21:35,701 --> 00:21:39,600
+然后这些供应商就会请求将版权转移到公司。
+they will request a copyright transfer to the company.
+
+312
+00:21:41,040 --> 00:21:47,880
+因为这个软件是软件，所以这个策略的运作方式就是，
+The way this strategy works is that it really is proprietary software.
+
+313
+00:21:47,881 --> 00:21:56,310
+如果在单一供应商开源公司中只有一个版权的所有者，那么这并不意味着他们要放弃这个权利。
+in the sense of there's a single proprietor,
+the single vendor open source firms that there's a proprietor, doesn't mean they don't give rights away,
+
+315
+00:21:56,311 --> 00:22:01,590
+所以私有闭源与闭源的概念还是不同的。
+so it's not closed
+proprietary and close does not mean the same.
+
+317
+00:22:01,591 --> 00:22:09,660
+我想说的是单一软件供应商成为私有软件供应商倒是蛮贴切的，
+I would argue that single vendor open source firms are perhaps better called new proprietary software vendors,
+
+318
+00:22:09,661 --> 00:22:17,520
+因为最初的闭源软件供应商发现对所有的产品进行闭源也不是很合理的。
+meaning the original closed source software vendors who got smarter,
+realize they don't need to close off all software
+
+320
+00:22:17,521 --> 00:22:21,870
+事实上，不闭源所有的软件还是有很多好处的， 
+In fact,
+there are benefits from not closing off all software,
+
+322
+00:22:21,871 --> 00:22:25,800
+但是这些单一软件供应商还是想成为这些软件背后的所有者，
+but they still want to be the only proprietor behind the software.
+
+323
+00:22:28,680 --> 00:22:37,800
+其实这种模型已经存在了，现在正处在它的第三阶段中。
+This model has been around.
+it's in its third incarnation or its third stage,
+in my opinion,
+Or third generation.
+
+327
+00:22:38,940 --> 00:22:51,060
+第一代的模型是很多先驱研究出来的，这些先驱是思想超前的，
+The first generation were the pioneers who figured out the model they they figured it out as they went along properly.
+They probably thought ahead,
+
+329
+00:22:51,061 --> 00:22:56,460
+我怀疑他们可以完美地预测未来。
+but I doubt they had a master plan and could perfectly predict the future.
+
+330
+00:22:56,461 --> 00:23:06,750
+这是MySQL的一代版本，还有SLEEPYCAT数据库，还有伯克利数据库TROLLTECH，其为我们提供了QT以及其他。
+This is the generation of MySQL, it was the same name database or SLEEPYCAT, with the Berkeley databases TROLLTECH which gave us qt and so forth.
+
+331
+00:23:08,610 --> 00:23:21,630
+第二波浪潮开始于2000年初，一些聪明的企业家和风险资本家
+There's a second wave starting in the early 2000s where smart entrepreneurs an venture capitalists realized this commercial open source thing was a real,
+
+332
+00:23:21,631 --> 00:23:27,48
+意识到商业开源是一个真实可行的策略，可以颠覆现有市场。
+viable strategy to disrupt existing incumbents and markets.
+
+333
+00:23:27,481 --> 00:23:32,040
+因此，第二次开源公司的浪潮专注于企业软件。
+And that second wave therefore focused on enterprise software.
+
+335
+00:23:32,041 --> 00:23:40,230
+商业软件中某些有缺陷的地方会被针对，所以我们有了SUGARCRM软件，  
+In particular,
+if there was a somewhat limping
+incumbent that could be beaten.
+And hence we got SUGARCRM,
+
+338
+00:23:40,231 --> 00:23:43,290
+以及JASPERSOFT软件的使用，
+Use of JASPERSOFT and so forth,
+
+339
+00:23:43,291 --> 00:23:48,630
+人们对于CRM的关注度很高，这不仅仅是因为siebel可能会被打败，
+so a lot of focus on CRM,
+not just because siebel could possibly be beaten,
+
+341
+00:23:48,631 --> 00:23:52,260
+还因为CRM是一块很大的市场。
+but because it was also still a large market,
+
+342
+00:23:52,261 --> 00:23:57,180
+BI, JASPRESOFT, pentaho这些软件产品都是一样的，当然也还有一些其他的软件产品。
+same thing with BI, JASPRESOFT, pentaho
+there were others.
+
+344
+00:23:57,181 --> 00:24:04,410
+BI也是一个巨大的市场，在2009的经济衰退之后，
+BI was also big market.
+After the last recession 2009,
+
+346
+00:24:04,411 --> 00:24:14,940
+我们看到了商业开源公司的第三代，或者说第三次浪潮，他们转向了云的方面。
+we saw another set of third wave or third generation of commercial open source firms come about and they are marked by moving into the cloud.
+
+347
+00:24:15,960 --> 00:24:23,730
+所以我们可以看到单一软件供应商开源公司有是那种不同的动机或者特征，
+So we can see there are three distinct motivations or characteristics to each way for generation.
+
+348
+00:24:23,731 --> 00:24:26,730
+第一种公司是发现了这些特征，然后相关公司开始创建。
+The first one just figured it out and was all over the place.
+
+349
+00:24:26,731 --> 00:24:36,420
+第二种公司则是考虑这在企业软件空间，应用程序空间中是存在破坏机制的，
+The second one thought about it as a disruptive mechanism for incumbents in the enterprise software space, application space.
+
+350
+00:24:36,421 --> 00:24:43,620
+而当前开源的趋势就会死将云作为跳板去做云服务相关的市场服务，当然用户需要为相关云服务付费。
+and the current breed is using open source as an on-ramp to the cloud pave to pay for cloud service
+
+351
+00:24:43,621 --> 00:24:53,220
+我们将会在下节课详细讨论这一块儿内容，因为我比较喜欢商标，   
+as we will discuss in more detail in the next lecture.
+So here just start because I like logos,
+
+353
+00:24:53,221 --> 00:24:58,830
+第一、二代的单一软件供应商都会给你很多想法，
+first and second generation single vendor open source firms to give you some ideas,
+
+354
+00:24:58,831 --> 00:25:05,430
+其中一些你们可能也清楚，并且很多软件供应商已经被收购了。
+some of which you may know,
+many of which have been acquired.
+
+356
+00:25:05,431 --> 00:25:09,810
+这些软件供应商中的大多数都是成功的，但是也不乏失败者。
+Most of them,
+or many of them
+were successors,
+some were failures.
+
+360
+00:25:09,811 --> 00:25:14,820
+其实无论是成功还是失败，这个经历还是很有意思的。
+It will be interesting to look both at successes and failures.
+
+361
+00:25:17,040 --> 00:25:24,960
+第三代单一软件供应商开源公司也是更有意思的，目前有很多实践可以去做。
+The third generation is perhaps more interesting because that's where the action now is.
+
+362
+00:25:24,961 --> 00:25:33,330
+我们看到了很多数据库，因为云数据库市场非常庞大，市场规模高达数十亿欧元。
+We see a lot of databases because the cloud database market is so huge far into the billions of euro.
+
+363
+00:25:34,380 --> 00:25:39,630
+所有的云服务公司都以这样或那样的形式存在。
+And all of these in one form or another,
+
+364
+00:25:39,631 --> 00:25:47,730
+这些公司试图将用户引入云服务，然后将其变成付费用户，
+Try to bring users into the cloud as paying customers
+
+365
+00:25:47,731 --> 00:25:52,980
+这几乎是所有这些项目的核心策略。
+that's the core strategy of almost all of these.
+
+366
+00:25:52,981 --> 00:25:59,430
+与之前的单一供应商开源公司不同之处在于，第二代单一供应商商业开源公司是关于企业应用的，
+Unlike the previous generation, the second generation,
+which was about enterprise applications,
+
+368
+00:25:59,431 --> 00:26:03,240
+而这一代的单一供应商开源公司，即现在的第三代是关于基础设施的，
+this generation,
+the third generation,
+
+370
+00:26:03,241 --> 00:26:11,430
+基本上是关于构建应用程序的组件、工具。
+the current generation,
+is about infrastructure,
+so components for building applications and a little bit of tools
+
+373
+00:26:11,431 --> 00:26:23,640
+举个例子，作为开发人员或者计算机科学的学生，你或许会知道Gradle这个工具，   
+tooling for applications, an example of tooling would be a greater which many of you,
+
+374
+00:26:18,541 --> 00:26:19,680
+as developers,
+
+375
+00:26:19,681 --> 00:26:21,540
+computer science students,
+
+376
+00:26:21,541 --> 00:26:22,470
+will know
+
+377
+00:26:22,471 --> 00:26:23,640
+that's a tool,
+
+378
+00:26:23,641 --> 00:26:32,070
+目前该工具正在向云端靠拢，并且该工具正在向它的用户出售云服务。
+but even Gradle is moving, you know, has moved into the cloud and now is selling its customers
+a cloud service.
+
+380
+00:26:36,120 --> 00:26:43,020
+如前所述，我们关键是要弄清楚顾客在为什么付费，
+The key to unlocking or understanding what it is that customers pay for is
+
+381
+00:26:43,021 --> 00:26:53,940
+可能是基础产品或者完整产品的附加功能，而不是能免费获取的某些东西。
+as stated, the additional functionality provided by a basic or a whole product over something that's available for free.
+
+382
+00:26:54,990 --> 00:27:02,340
+对于免费提供给用户的软件，其被称为软件的社区版本，
+What is available for free is or has been traditionally called the community edition of the software,
+
+383
+00:27:02,341 --> 00:27:11,850
+这也就意味着软件是一种产品，其可在开源软件许可下免费提供。
+meaning that is the software as an artifact,
+provided under an open source software license for free.
+
+385
+00:27:13,140 --> 00:27:28,110
+软件供应商的相关支持公司可能会提供一些免费的组件，不一定是在开源许可下的组件，
+The supporting company of vendor usually would provide some complimentary materials,
+usually also for free,
+not necessarily under an open license and usually also self-help services like forums
+
+388
+00:27:28,111 --> 00:27:29,580
+也有可能是类似于论坛邮件列表的自主服务。
+mailing lists,
+etc,
+
+390
+00:27:29,581 --> 00:27:33,180
+在相关软件论坛上用户可以相互交流、互相帮助。
+Where users could talk to each other and help each other.
+
+391
+00:27:34,620 --> 00:27:41,220
+与软件的社区版本相互补充的就是软件的商业版本，用户可以为之付费。
+Complementary to the community edition is the commercial edition that customers now pay for.
+
+392
+00:27:42,390 --> 00:27:49,110
+它就是在开源许可下的核心软件。
+And it's at its core the same software.
+But under a commercial license.
+
+394
+00:27:50,160 --> 00:27:58,440
+在这儿再次强调一下，单一供应商的开源软件公司拥有软件，也有软件版权。 
+Again here in single vendor open source the company owns
+the software, owns the copyright.
+
+396
+00:27:59,430 --> 00:28:04,350
+所以可以在多个开源软件许可下为软件提供多个许可。
+And therefore can multi-license provide the software under multiple licenses.
+
+397
+00:28:05,910 --> 00:28:11,850
+实上，如果开源供应商拥有软件，那么开源供应商就可以为软件添加功能，
+In fact,
+if it's the owner,
+it can add functionality to the software that it
+
+400
+00:28:11,851 --> 00:28:18,420
+并且可以依据开源许可获取社区版本的开源软件。
+witholds from the community edition from the open source license,
+
+401
+00:28:18,421 --> 00:28:29,070
+所以商业版本的核心软件可以提供额外的功能，额外的组件，
+licensed software. So the core product could contain,
+could provide in the commercial edition
+additional functionality,
+important artifacts,
+
+405
+00:28:29,071 --> 00:28:36,570
+以及社区开放版本软件所不能提供的重要代码。
+important code that the open source version or the community edition does not provide.
+
+406
+00:28:37,560 --> 00:28:45,600
+像往常一样，最基本的产品就是核心产品的免费使用版本，
+And then it's just business as usual,
+so the basic product is that core product
+with possibly some fitness of use, for use
+
+409
+00:28:45,601 --> 00:28:56,280
+但是需要为某些硬件、培训、咨询提供担保，
+guarantees,
+certification guarantees on some hardware or some processes and the whole shebang,
+or training and consulting.
+
+412
+00:28:56,281 --> 00:28:59,280
+并且操作就对应着云服务商。
+and,
+of course operations,
+meaning the cloud servers.
+
+415
+00:29:02,280 --> 00:29:08,190
+这里解释一下，目前的核心挑战就是把可获得的产品变成免费的，   
+As explained,
+the core challenge will become now that you make something available for free.
+
+417
+00:29:08,191 --> 00:29:20,580
+作为软件社区版本，你可能没有顾客，那么你应该怎样吸引你的顾客呢？
+As the Community edition that applies,
+you have no customers.
+So how do you get your users,
+free loading users,
+
+421
+00:29:20,581 --> 00:29:25,860
+你是否愿意从社区版的产品中跳出来然后去购买商业版本的产品，成为一个付费用户呢？
+if you will from the community edition to buy into the commercial edition, become paying customers.
+
+422
+00:29:27,480 --> 00:29:30,510
+是一个很大的挑战，我们需要从细节上进行探讨。
+And that is a challenge to be discussed in detail
+
+423
+00:29:30,511 --> 00:29:37,770
+这一般情况下，选择使用社区版本软件的用户，
+what it usually means is that you have stuck with the community edition home users,
+
+424
+00:29:37,771 --> 00:29:42,750
+一般是更加在乎产品的价格而不是自己所要花费的时间，
+people who value their time less than their wallet.
+
+425
+00:29:42,751 --> 00:29:50,610
+这些用户宁可自己投入时间去发现问题、解决问题，他们也不想去购买企业版本的软件。
+So they are willing to invest the time to figure out problems and solve them themselves and they are unlikely to ever buy
+
+426
+00:29:50,611 --> 00:29:55,230
+这点儿与企业是相反的，企业用户可能也是从社区版入手，
+as opposed to the enterprise
+which may have started with the community edition,
+
+428
+00:29:55,231 --> 00:30:00,570
+但是企业更加注重时间以及产品的可靠性，
+but values time and reliability
+much more than the home user.
+
+430
+00:30:00,571 --> 00:30:07,530
+所以企业用户对于软件的额外功能以及供应商对软件的操作支持，企业用户愿意花钱买这些服务、功能。
+therefore is willing to pay for the commercial edition with the additional features and the support of the operations by the vendor.
+
+431
+00:30:08,490 --> 00:30:25,950
+企业客户也可能需要软件额外的特性，这样我们就可以将一个免费的企业用户变成一个付费用户。  
+That enterprise customer is also the one which may require additional features.
+And here we are getting a hint at how to upset or how to move
+users,
+company uses using companies from freeloading to paying customer.
+
+435
+00:30:25,951 --> 00:30:28,380
+这些软件可能需要企业的相关功能，
+Ah,
+they may require enterprise features.
+
+437
+00:30:28,381 --> 00:30:39,990
+所以你以及职工持有认证功能。当然，你也可以继续持有、使用免费版本的软件。
+So authentication, authorization what have you, stuff that you can withhold possibly,
+I'm not saying you should but can possibly withhold from the free version.
+
+439
+00:30:41,910 --> 00:30:55,470
+软件的社区版本通常会为商业用户所使用，这部分商业用户喜欢这个软件，并且可以获取组件更新。
+The community edition often also is used by line of business users who like it that they have to pay nothing for their own innovative application or for a component in there.
+
+440
+00:30:55,471 --> 00:31:03,780
+但是这些用户可能对于使用这个免费软件所带来的操作风险一无所知，
+And they may be kind of ignorant at the operating of the operating risks that come with using software for free,
+
+441
+00:31:03,781 --> 00:31:06,810
+这种做法与内部的IT部门有很大的差别。
+which will be very different from an internal IT department,
+
+442
+00:31:06,811 --> 00:31:12,900
+对于公司内部的IT部门，他们可能会说我们不会使用这个开源软件，
+which looks at the software and says like
+now we're not going to operate open source software,
+
+444
+00:31:12,901 --> 00:31:17,640
+我们将要购买这个软件的商业版本，因为我们想要获取到支持。
+we are going to buy the commercial edition because we want support,
+
+445
+00:31:17,641 --> 00:31:25,740
+我们想要在某个时间给某人打电话能解决问题，
+we want to be able to call someone up and get resolution of problems in a within a defined time, time scope.
+
+446
+00:31:26,820 --> 00:31:32,430
+IT部门经常需要专业的支持，并且对于这部分商业支持也是有预算的。
+The IT department wants that professional support and usually has a budget to pay for it.
+
+447
+00:31:36,240 --> 00:31:41,970
+这没有什么好说的，理解这一点很重要的。
+One more thing to discuss,
+which is important,
+is to understand that,
+
+450
+00:31:43,320 --> 00:31:51,630
+很多事情取决于该单个软件供应商是否是底层软件的所有者，  
+A lot of this hinges on the single vendor really being the owner of the underlying software.
+
+451
+00:31:51,631 --> 00:31:56,370
+成为底层软件的所有者则意味着他们可以对软件产品进行双许可或者多许可认证。
+Being the owner means they can dual or multi-license.
+
+452
+00:31:56,371 --> 00:32:05,940
+作为软件所有者会很清楚他们的竞争对手，因为如果他们没有源代码他们在竞争中就会处于劣势，
+Being the owner means it's clear to potential competitors that the fight would be hard because they are at a disadvantage when they don't own the code,
+
+453
+00:32:05,941 --> 00:32:09,480
+他们只能在开源许可下使用这个代码。
+they only could use it to the open source license.
+
+454
+00:32:09,481 --> 00:32:21,960
+因此对于单一供应商的开源公司来说保持版权、知识产权的单一所有者是重要的。
+and hence it is important for single vendor open source firms to remain the sole owner of the copyright and other important associated intellectual properties.
+
+455
+00:32:23,760 --> 00:32:29,850
+这也是单一供应商在开源方面对知识产权所必须要去做的事情，
+It has led to what I call the intellectual property rights imperative of single vendor open source
+
+456
+00:32:29,851 --> 00:32:39,630
+作为一个供应商你应该或者需要总是这样去做。
+which is that you should or must always act in such a way that you,
+the vendor and only you possess the right to
+
+458
+00:32:39,631 --> 00:32:48,270
+然后你就可以在不同开源许可下使用开源项目，可以在不同的开源许可下进行相关操作。
+provide the open source project under a different commercial license of your choice, could also be another open source licenses.
+We'll see about that.
+
+460
+00:32:48,271 --> 00:33:01,470
+但关键是只有一家公司，并且公司也应该保持对于软件进行多许可认证的可能性。
+But the key is there should only be one company,
+and the company must maintain that possibility to
+multi-license the software.
+
+464
+00:33:01,471 --> 00:33:05,100
+或者因为这个软件是免费的开源软件，   
+Or because the software is available for free and open source software,
+
+465
+00:33:05,101 --> 00:33:11,130
+你可能会收到用户的请求，这些用户要求将他们的更改合并到你的代码中。
+you might get requests by users to incorporate their changes to your code.
+
+466
+00:33:12,150 --> 00:33:14,310
+这些用户对于代码所做的更改可能是好的，
+And these changes may be good,
+
+467
+00:33:14,311 --> 00:33:20,970
+对bug的修复可能是对的，有些可能是实质性的功能增强或新功能。
+bug fixes all right,
+but maybe even or sometimes even substantial feature enhancements or new features.
+
+469
+00:33:22,440 --> 00:33:29,730
+如果有人来自社区，并想要做出这样的代码贡献。
+If someone from the community,
+comes and wants to make such a code contribution.
+
+471
+00:33:31,200 --> 00:33:41,280
+那么软件供应商必须要服从知识产权，
+The vendor
+absolutely in order to comply with intellectual property rights imperative must acquire the at a minimum,
+
+473
+00:33:41,281 --> 00:33:45,090
+并且也需要在最小限度获取对于一个糟糕代码贡献的重新认证许可。
+the re-licensing right to a sad contribution,
+
+474
+00:33:45,091 --> 00:33:50,550
+但是通常他们会获得对于潜在贡献的所有版权，
+but usually they will acquire the full copyright to that potential contribution.
+
+475
+00:33:50,551 --> 00:33:59,730
+因此所有单一供应商开源公司都由社区成员所提供。
+Hence all single vendor open source firms,
+when offered by a community member.
+
+477
+00:33:59,731 --> 00:34:15,900
+有些产品的新功能需要社区成员将版权转移给公司，以保证公司对于知识产权的100%所有权。
+Some new functionality will require a copyright transfer to the company from that community member to maintain full 100% ownership of the intellectual property
+their business is based on.
+
+479
+00:34:18,300 --> 00:34:25,830
+所以我说，对于单一供应商开源，有时会变成多供应商开源， 
+So I talk about single vendor open source.
+Sometimes you also run into multivendor
+open source
+
+482
+00:34:25,831 --> 00:34:37,950
+这两个软件供应商可能做着类似的工作，也具有相同的逻辑，但是因为都是多供应商开源也还是存在差异的。
+which is mostly the same works, the same along, the same logic but is slightly different because multivendor open source.
+
+483
+00:34:37,951 --> 00:34:44,100
+没有单独的核心软件所有者或者所谓的核心软件，
+There is no single sole owner of the core software or
+what's considered the core software.
+
+485
+00:34:45,150 --> 00:34:50,970
+其实所谓的核心软件实际上就是社区开源软件，
+Rather,
+There it's that core software is actual community open source software,
+
+487
+00:34:50,971 --> 00:35:04,650
+因此很多公司很提供免费的软件和服务，这样这些公司可以在这些免费的软件上创建产品，
+and hence it's possible for multiple companies to provide complimentary software and services, complimentary software such that they built their products on it,
+
+488
+00:35:04,651 --> 00:35:07,650
+与此同时，还会有很多竞品。
+and then there are multiple competing products.
+
+489
+00:35:07,651 --> 00:35:09,240
+Hadoop就是一个例子，
+So Hadoop is an example,
+
+490
+00:35:09,241 --> 00:35:12,450
+cloudera, MAPR, 和HORTONWORKS都是单独的公司，
+cloudera, MAPR, and HORTONWORKS were separate
+
+491
+00:35:12,451 --> 00:35:20,580
+但是它们都是围绕Hadoop提供服务。
+companies I think they emerged by now are to provide services around Hadoop products, and services around Hadoop.
+
+492
+00:35:20,581 --> 00:35:22,440
+它们之间的竞争很是激烈，
+They competed well,
+
+493
+00:35:22,441 --> 00:35:26,490
+但是它们这样做对用户和消费者都有好处，然后它们可能会再次合并。
+which was good for customers and the market,
+but again they merged now.
+
+495
+00:35:26,491 --> 00:35:33,420
+Kafka，aiven，instaclustr都在竞争，    
+Kafka had confluent, aiven, instaclustr
+competing
+
+497
+00:35:33,421 --> 00:35:38,280
+所以这个时候一个多供应商公司就成立了，kafka是一个Apache项目,
+so that was a multi-vendor setup because Kafka is an Apache project,
+
+498
+00:35:38,281 --> 00:35:39,750
+就像Hadoop一样。
+actually like Hadoop,
+
+499
+00:35:39,751 --> 00:35:42,720
+在这儿又很多Apache项目，
+These are all Apache projects here.
+
+500
+00:35:42,721 --> 00:35:51,600
+这些都是真正的社区项目，很多公司在这些项目之上进行构建，所以这些公司没有核心软件。
+So these are true community projects and companies building on top of it, would not own the core of the software.
+
+501
+00:35:51,601 --> 00:35:54,540
+另一方面，就是用于搜索的Lucene和Solr，
+Another one,
+yet is was Lucene and Solr for search,
+
+503
+00:35:54,541 --> 00:36:01,230
+所以Lucidworks，elastic，swiftype这些独立的产品最终可能会被淹没。
+so Lucidworks, 
+elastic and swiftype where a separate vendors actually submerged.
+
+505
+00:36:01,231 --> 00:36:05,610
+我认为elastic会收购swiftype。
+I think elastic bought swiftype,
+
+506
+00:36:05,611 --> 00:36:13,020
+所以你就会看到多供应商的场景，虽然通常这种情况是不稳定的。
+so you see that you can have a multi-vendor situation,
+though often it's not entirely stable,
+
+508
+00:36:13,021 --> 00:36:14,100
+最后，
+and then in the end,
+
+509
+00:36:14,101 --> 00:36:22,620
+说明一下，核心产品是否是社区开源软件不重要，
+it doesn't actually matter that the core is community open source software because the main product
+
+510
+00:36:22,621 --> 00:36:27,720
+因为它的主要产品来自于占主导地位的供应商。
+based on top of it will come from a dominant vendor
+soon again.
+
+512
+00:36:27,721 --> 00:36:36,060
+你需要联想一下控制机制，版权是唯一一种主导软件的方式，这是一个很好的例子。    
+You need to think back to the control mechanisms.
+Copyright is only one way of dominating software.
+It's a very nice one,
+
+515
+00:36:36,061 --> 00:36:46,920
+因为版权以及排他权是很难去执行的，在竞争中可能会在法庭上被执行。
+because copyright and the associated exclusion right is very hard and easily lead to enforce
+And the competitively it can be enforced in the courts.
+
+517
+00:36:46,921 --> 00:36:54,270
+但是还有其他的机制，比如，社会的领导，公司雇佣全部的committer，
+But there are these other mechanisms,
+for example,
+social leadership.
+the company employs all the committers,
+
+521
+00:36:54,271 --> 00:37:00,630
+或者公司可以锁定一个项目，或者一个开源产品，甚至是一个社区开源项目，
+or it can lock down a project,
+open source product,
+even a community open source project,
+
+524
+00:37:00,631 --> 00:37:04,050
+公司这样操作是要遵循公司的相关战略的。
+to comply with its strategy as well.
+
+525
+00:37:10,380 --> 00:37:23,220
+所以无论是单个供应商还是多供应商的开源，这都是商业开源公司的一种基本模式。
+So whether a single vendor and the occasional multi-vendor open source,
+that's one type or one basic pattern of commercial open source firms.
+
+527
+00:37:23,221 --> 00:37:29,850
+现在我想谈论一下什么会吸引风险资本商业开源公司。
+Now I want to talk about the second one that attracts venture capital source
+distributor firms.
+
+529
+00:37:32,610 --> 00:37:42,570
+一个软件、产品的开源发行版，对应之前的一个术语名词，即开源应用组件的集成。   
+An open source distribution, that's the established term is a well-integrated
+collection of open source components and applications.
+
+531
+00:37:42,571 --> 00:37:59,280
+所以重点就是组件的集合。这个开源软件、产品的发行版可能变成了包含不同组件的集合，
+So the focus is it's this collection potentially large set of components.
+Ah,
+that
+has been turned into something while these different pieces,
+the elements of the set of all the collection,
+
+536
+00:37:59,281 --> 00:38:01,860
+这些组件都能相互协作。
+work together really well.
+
+537
+00:38:01,861 --> 00:38:04,380
+但是，要想让这些组件相互配合工作，
+and if this works together really well,
+
+538
+00:38:04,381 --> 00:38:11,160
+也是不容易实现的，因为它是一个庞大的组件集合，这些组件很有可能会被错误配置。
+it's not so easy to achieve because it's a large set of components and because they are easily misconfigured.
+
+539
+00:38:12,090 --> 00:38:16,980
+但是让这些组件下相互协作也是很有价值的一件事情，
+Then there is significant value in making the pieces work together well,
+
+540
+00:38:16,981 --> 00:38:19,050
+所以创造了软件发行版。
+hence creating a distribution.
+
+541
+00:38:20,400 --> 00:38:26,850
+如果一个公司或者供应商提供了开源的贡献那么这个组织就是开源软件分销商公司。
+And a company or a vendor which provide such an open source distributed distribution is an open source distributor firm.
+
+542
+00:38:28,020 --> 00:38:33,390
+对应的典型例子就是Linux供应商。
+The classic examples are the Linux distributors,
+
+543
+00:38:33,391 --> 00:38:56,700
+当然，Linux还是很复杂的，其中包含了很多组件，这种复杂性导致了公司对多个组件的使用。   
+of course,
+and Linux is complex was just a lot of components of that made a lot of sense.
+This complexity that motivates a distribution and then a distributor of firm,
+comes from the individual that simply the sheer number of components,
+
+547
+00:38:56,701 --> 00:39:02,310
+这些组件很多可能是独立的组件，所以还是要了解Linux中单个组件的复杂性。
+but also the complexity of a single component that you need to know about. So a Linux distributor
+
+548 
+00:39:02,701 --> 00:39:06,310
+所以作为一个Linux经销商你必须要掌握Linux内核的实际内部工作方式，
+absolutely needs to have competence in the actual inner workings of the Linux kernel
+
+549
+00:39:07,171 --> 00:39:14,700
+可能是众多组件中的一个。然后就是这些组件是如何相互协作的？
+even though that's just one component of many.
+And then how the components work with each other,
+
+551
+00:39:14,701 --> 00:39:16,260
+这如何让这些组件不断更新？
+how to keep them up to date,
+
+552
+00:39:16,261 --> 00:39:18,990
+哪些版本的组件是兼容的？
+which versions are compatible,
+etc.
+
+554
+00:39:18,991 --> 00:39:25,800
+商业开源供应商向用户隐藏了这个复杂性，
+The commercial open source distributor hides this complexity from the user for pay
+
+555
+00:39:25,801 --> 00:39:34,380
+如果用户自己去解决相关问题，那么用户可能会失败。
+and if a user were to solve all of this by themselves,
+they would probably fail.
+
+557
+00:39:34,381 --> 00:39:39,540
+当然，用户自己如果可以轻易解决这些问题，那么软件供应商在市场上就没必要存在了。
+Otherwise the distributor wouldn't survive in the market if it was that easy.
+
+558
+00:39:41,400 --> 00:39:47,280
+开源软件经销商与单一供应商开源软件公司不同，   
+Distributors are different from single and open source firms so the set of those is different because
+
+559
+00:39:48,660 --> 00:39:54,870
+开源软件经销商使许多单一供应商开源软件的集合，
+there are a large number of very different single vendor open source firms,
+
+560
+00:39:54,871 --> 00:40:04,530
+但是开源软件经销商的数量和类型就小得多，当人们听到经销商的时候，
+but the number and type of open source distributor firms is much smaller. Most notably, when people hear a distributor,
+
+561
+00:40:04,531 --> 00:40:07,380
+人们总是想起Linux软件经销商。
+they will always think Linux distributors,
+
+562
+00:40:07,381 --> 00:40:09,180
+因为这是最重要的部分，
+because that's the biggest part,
+
+563
+00:40:09,181 --> 00:40:18,630
+所以我们有Linux经销商公司，从最初的SUSE，然后是Red hat，最终就是CANONICAL。
+and so we have Linux distributor firms,
+the original suse then Red Hat today CANONICAL
+which gives ubuntu 
+
+566
+00:40:18,631 --> 00:40:26,340
+还有一些利基分销商，比如基于univention的German Bremen，
+but also niche 
+distributors,
+like the German Bremen based univention,
+
+569
+00:40:26,341 --> 00:40:32,430
+它为学校以及政府部门提供了Linux发行版。
+which provides the Linux distribution for schools and public government,
+
+570
+00:40:32,431 --> 00:40:34,410
+German Bremen是会有一个利基重点的。
+Well they simply have a niche focus there.
+
+571
+00:40:35,820 --> 00:40:44,430
+除了Linux，其实还有很多开源软件经销商，其中最著名的就是OpenStack。  
+Beyond Linux,
+there isn't actually that much,
+but there are some,
+so it's not just Linux
+for a while,
+the most notable example was OpenStack,
+
+577
+00:40:44,431 --> 00:40:51,990
+其包含很多类似MIRANTIS，VSCALER，
+distributions so there are a couple like MIRANTIS,
+VSCALER,
+
+579
+00:40:51,991 --> 00:40:57,210
+FUJITSU, windriver组件，所以OpenStack是一个经销商。
+FUJITSU, windriver. OpenStack are distributions.
+
+580
+00:40:57,211 --> 00:41:04,230
+为什么呢？因为OpenStack也是非常复杂的，就像Linux操作系统一样，
+Why?
+Because OpenStack is also really complicated and complex like the Linux operating system,
+
+582
+00:41:04,231 --> 00:41:14,940
+这需要花费很大努力才能让很多组件一起协同工作。
+and it needed a lot of competence to make the whole stack,
+components in the stack work together.
+
+584
+00:41:14,941 --> 00:41:18,780
+整合的挑战实在是太大了，所以我们构建了OpenStack经销商。
+Integration challenge was so big that we got OpenStack
+distributors.
+
+586
+00:41:20,190 --> 00:41:23,460
+然后对于不同的组件进行不同领域的划分。
+And then different domains,
+and for different software,
+
+588
+00:41:23,461 --> 00:41:33,810
+因为这些组件一般只有一两个不同的分布，所以市场不是很大。
+there are different distributions,
+often just one or two,
+so not necessarily a large market,
+
+591
+00:41:33,811 --> 00:41:41,520
+ACQUIA提供了组件的分布，并还提供了额外的功能。
+so ACQUIA provides a distribution,
+but also provides additional functionality.
+
+593
+00:41:41,521 --> 00:42:03,690
+Easy eclipse使得eclipse IDE 更容易地为人使用，并且eclipse中的组件可能属于不同领域，    
+Easy eclipse made the eclipse IDE programming IDE easy to use because as everyone whoever tried to use eclipse knows the plugins that you would load into eclipsed to focuse on a particular domain would easily contradict each other,
+
+594
+00:42:03,691 --> 00:42:14,610
+所以两者可能会引起冲突，这样两者均不会起作用了，所以有15个组件分布时才有意义。
+and nothing would work, so even the 15 component
+distribution sometimes makes sense.
+
+596
+00:42:14,611 --> 00:42:24,240
+如果整合组件的工作对于你来说如此痛苦，那么你就想让某个人把你的痛苦移除。
+If the integration is so honorous and hard to make work that you are really just want to pay someone to take the pain away from you.
+
+597
+00:42:24,241 --> 00:42:30,120
+HelloBelt是一家基于rigging sport的媒体wiki经销商，   
+Hallo Welt is a rigging sport based distributor of media wiki,
+
+598
+00:42:30,121 --> 00:42:33,480
+也就是媒体wiki软件，
+meaning the Media Wiki software that runs,
+
+599
+00:42:33,481 --> 00:42:39,000
+比如Wikipedia，其实针对开源商业实体而言的。
+for example Wikipedia,
+but for commercial entities for businesses.
+
+601
+00:42:39,001 --> 00:42:42,840
+那就是媒体wiki的相关课程，并且还增加了许多插件。
+Ah,
+that's the course of the media wiki
+plus lots of plugins.
+
+604
+00:42:44,670 --> 00:42:53,910
+对于经销商公司，我们通常也会有个区分，比如商业版与社区版的划分。
+And for distributor firms,
+we also usually have a distinction,
+Or separation of a community edition from a commercial edition.
+
+607
+00:42:53,911 --> 00:43:06,180
+你并不是总需要商业版本，因为你可能会说人们可以使用我们现有的发行版。
+You don't always need that community edition,
+because you can argue people can use existing distributions.
+
+609
+00:43:06,181 --> 00:43:11,070
+在Linux例子中一会有很多类似Debian的发行版，
+There are always some like Debian in the case of Linux.
+
+610
+00:43:11,071 --> 00:43:18,600
+但是软件经销商经常会利用社区版本去了解一些问题，
+But often these distributor firms utilize community editions
+
+611
+00:43:18,601 --> 00:43:35,130
+也可以让社区整合问题、解决问题，这样的公司不得不少雇些人来做这件事。
+To utilize a community to learn about problems,
+and to also have a community figure out integration,
+those and such that the company has to employ less people to do that.
+
+614
+00:43:35,131 --> 00:43:43,590
+关于Linux的另一个社区版本的例子就是针对Red Hat的fedora,    
+An example for such community editions would be fedora for Red Hat
+
+615
+00:43:43,591 --> 00:43:45,570
+尽管这是一个独立的软件，
+even though 
+it's a separate,
+really
+
+618
+00:43:45,571 --> 00:43:58,050
+Cononical，Ubuntu，开源版本的Suse，Linux企业版本Suse这都是独立的软件。
+A separate piece of software, Cononical, Ubuntu, open Suse versus Suse Linux enterprise server and so forth.
+
+619
+00:43:58,051 --> 00:44:05,940
+其中的关键就是经销商像你出售开源软件。
+Key here is that the distributors will sell you the core open source software.
+
+620
+00:44:08,130 --> 00:44:09,270
+因为经销商没有软件，
+Because they don't own it,
+
+621
+00:44:09,271 --> 00:44:12,150
+所以他们不可能在商业许可下卖给你核心开源软件，
+they can't sell it to you under a commercial license,
+
+622
+00:44:12,151 --> 00:44:16,920
+但是他们可以卖给你商业许可。所以那就不是开源软件。
+but they sell your commercial license for anything else.
+That is not the open source software.
+
+624
+00:44:17,790 --> 00:44:18,210
+So,
+
+625
+00:44:18,211 --> 00:44:22,440
+举个例子，如果经销商提供了额外的软件，之后可能是这些经销商自己的开源软件，   
+for example,
+if they provide additional software, later open source themselves,
+
+627
+00:44:22,441 --> 00:44:23,640
+他们会进行商业化销售。
+they'll give you a commercialized sell,
+
+628
+00:44:23,641 --> 00:44:29,580
+经销商会向你销售商业学科，然后就是与其开源软件相关的补充性产品与服务，
+your commercial license for that and then the whole thing of complementary products and services,
+
+629
+00:44:29,581 --> 00:44:32,070
+以及他们的基础产品和完整产品。
+basic product and whole product.
+
+630
+00:44:32,071 --> 00:44:35,460
+但是也有很多额外的东西要去出售，
+There's just a lot of additional things to sell,
+
+631
+00:44:35,461 --> 00:44:37,320
+这就是我们崩溃的原因。
+which is why we broke down.
+
+632
+00:44:37,321 --> 00:44:41,310
+在之前的课程中，什么构成了你的软件产品呢？
+What constitute software products for you
+in previous lectures.
+
+634
+00:44:42,510 --> 00:44:48,450
+关键是经销商没有代码的版权，
+Key again is that distribute firms do not exclusively own the copyright to the code.
+
+635
+00:44:49,950 --> 00:45:01,740
+但是经销商掌握着各种知识，比如软件、服务如何编码？如何从组件中构建服务？
+But they do exclusively own all that knowledge in whatever way it gets encoded on how to build the distribution from its components,
+
+636
+00:45:01,741 --> 00:45:08,070
+如何配置并使这些组件兼容，以便它们能很好地一起工作？
+how to configure and make compatible these components so that they work together well,
+
+637
+00:45:08,071 --> 00:45:12,600
+如何回应用户的请求？以及如何测试整个过程？   
+how to react, to the support requests etc.
+and how to test the whole thing.
+
+639
+00:45:13,530 --> 00:45:26,340
+除此之外，还有一些东西，比如经销商所拥有的组件，以及独特和专有的知识产权。
+Among other things,
+it's what's in between the components that these distributors own and that constitutes the unique and exclusive intellectual property.
+
+641
+00:45:27,630 --> 00:45:35,760
+有时，这种情况不是很明显，但是会嵌入他们所雇佣的人身上。
+Sometimes,
+this doesn't become explicit and it's just embedded in people they employ.
+
+643
+00:45:35,761 --> 00:45:42,000
+大多数公司会遇到了这种情况，公司把这些东西整理成文档。
+The most companies hit that and they will try to get it out of people into documentation
+and what have you.
+
+645
+00:45:48,510 --> 00:46:00,210
+那么,三种商模型的第三种形式就是商业咨询服务公司。   
+So then,
+the final of the three version of the three patent business models is service and support firms.
+
+647
+00:46:00,211 --> 00:46:14,340
+这些公司不能被支持，或者经常不能简单获得风险投资，因为它们更像是咨询公司。
+These are not
+supported usually or
+cannot acquire venture capital simply because they're more like consulting firms.
+
+650
+00:46:14,341 --> 00:46:27,990
+他们服务于社区开源软件，并参与其中，但是通常情况下与竞争公司之间没有界限。
+They service community open source software, they participate in its development,
+but,
+there are no barriers to entry for competing firms
+usually.
+
+654
+00:46:30,030 --> 00:46:35,340
+如果有的话他们这些商业咨询服务公司最终都会滑向单一供应商开源。
+If there were,
+they would be sliding over into single vendor open source.
+
+656
+00:46:35,341 --> 00:46:41,610
+所以在这个领域，不会有哪一个商业咨询服务公司占主导地位。
+country,
+the domain, and hence they will not dominate.
+
+658
+00:46:41,611 --> 00:46:50,370
+这些公司的committer或者他们所雇佣的committer以及他们所赚取的收入通常与劳动力成比例    
+the committers or own or
+employ all the committers and all the revenues they can make in some form or another usually scales with the labor,
+
+660
+00:46:50,371 --> 00:46:54,660
+这些劳动力是那些被雇佣过来为消费者提供服务的人。
+the people they employ to service customers,
+
+661
+00:46:54,661 --> 00:46:59,460
+那么这就意味着项目越多，消费者就会越多，劳动力就会越多。
+meaning more projects,
+more customers only with more people.
+
+663
+00:46:59,461 --> 00:47:10,800
+这样一来，好的方面就是这样使得开源是可持续发展的，因为他们对商业所基于的开源项目做出了贡献，
+What's good,
+and they is that they make help,
+make open source sustainable because they contribute to the open source projects that the business is based on,
+
+666
+00:47:10,801 --> 00:47:14,640
+这显然是一件好事，并且它还成功了。
+and that is of course good and makes it successful.
+
+667
+00:47:21,060 --> 00:47:30,240
+我最后想了解一下，当然你也可能会问你自己，
+So I finally would like now to take a look at
+why and you may have asked yourself that why or
+
+669
+00:47:30,241 --> 00:47:37,020
+为什么商业咨询服务公司像其他开源公司一样都需要风险投资呢？
+why do companies who acquire venture capital like the signal vendor open source firms?
+
+670
+00:47:37,021 --> 00:47:44,250
+为什么他们要去开发自己所拥有的开源软件呢？
+Why do they open source the software they own because they developed it,
+
+671
+00:47:44,251 --> 00:47:49,740
+因为他们所开发的这个开源软件是由风险投资所支付的，也可能是一其他的方式提供花费。
+paid for by venture capital or other through other ways. They own that software
+
+672
+00:47:49,741 --> 00:47:52,230
+此外，为什么商业开源公司自己拥有开源软件，但是还要将该软件供大家免费使用呢？
+why do they make it available for free?
+
+673
+00:47:52,231 --> 00:47:59,850
+那么与传统软件供应商相比，该商业咨询服务公司的开源战略背后究竟隐藏着什么原因呢？
+So what's the reasoning behind the commercial open source strategy
+as opposed to being a classic traditional software vendor.
+
+675
+00:48:01,890 --> 00:48:11,130
+实际上，每个单一商业功能的改变都会被软件供应商所影响，
+And the reality is that really,
+every single business function changes somehow affected by the
+
+677
+00:48:11,131 --> 00:48:20,160
+软件供应商会将他的知识产权像开源软件一样供大家免费获得使用。
+software vendor making a core of its intellectual property available for free,
+as open source software.
+
+679
+00:48:21,750 --> 00:48:27,810
+市场营销可以产生很多商业线索，这样可以很快很便宜地发掘商业线索。
+Marketing can generate leads more broadly faster,
+cheaper. There's this whole
+
+681
+00:48:27,811 --> 00:48:38,430
+你会有规模更大的消费者社区，可能是之前的10倍，100倍，1000倍，就可以深度销售以及跨产品销售了。
+user community a factor multiple 10 or 100 times larger, 1000 times larger sometimes than the actual customer base that you could possibly upsell or cross-cell,
+
+682
+00:48:38,431 --> 00:48:54,930
+这样可能会带来更大的商业线索，之后可以反馈销售。
+so marketing can, has a large treasure trove of potential of leads
+users that are leads to fish in and feed to sales, sales actually
+then,
+
+685
+00:48:54,931 --> 00:49:03,990
+如果你发现商业线索基于开源战略你可以有效进行产品的销售，  
+if you identified or have qualified leads from that user community can sell more efficiently because of the open source strategy,
+
+686
+00:49:03,991 --> 00:49:08,580
+我会在几张幻灯片中进行详细的讲解。 
+and I will actually look at that in more detail in a few slides.
+
+687
+00:49:08,581 --> 00:49:15,990
+商业拓展可以更快更好地寻找合作伙伴，
+Business development can identify partners
+ah,
+faster or better.
+
+690
+00:49:15,991 --> 00:49:18,030
+产品经理也能很快地得到想法。
+Product management gets ideas faster.
+
+691
+00:49:18,031 --> 00:49:27,120
+软件开发人员也获获取工作中的一部分，不是全部工作，不是编程，而是要为用户所做的一些工作。
+Software development gets some of its work,
+not all,
+not the coding,
+but some of it done by users and so forth.
+
+695
+00:49:27,121 --> 00:49:33,120
+让我们来看一下第一次市场营销，但是更重要的是销售环节。
+So let me take a look at
+first marketing,
+but then
+more importantly,
+sales.
+
+700
+00:49:34,050 --> 00:49:35,280
+所以在市场营销中要去查看“销售漏斗”模型，在模型中市场营销负责最初的环节，
+So in marketing,
+
+701
+00:49:35,281 --> 00:49:40,260
+looking at the sales funnel where marketing is responsible for the initial
+
+702
+00:49:41,310 --> 00:49:53,760
+然后某些人员、客户就会成为又价值的商业线索，然后这部分潜在客户就会被移交给销售环节，
+stages until initially unknown, people or companies become qualified leads when they're handed over to sales marketing,
+
+703
+00:49:53,761 --> 00:49:56,070
+销售环节管理着初始环节。
+which manages the initial stages.
+
+704
+00:49:56,071 --> 00:50:09,690
+“销售漏斗”模型可以有效做到这一点，因为它有这些消费者并且他们很可能都是有价值的商业线索，  
+The broad stages of the sales funnel can do so more effectively because it has these users out there who first of all are themselves potentially qualified leads,
+
+705
+00:50:09,691 --> 00:50:13,380
+他们有助于推销产品。
+but they help market the product,
+
+706
+00:50:13,381 --> 00:50:16,050
+如果你的用户不是付费用户，
+if you have users not paying customers,
+
+707
+00:50:16,051 --> 00:50:31,200
+而是某些愿意推广你产品的用户，你可以帮助他们或引导他们推广你的产品从而让你的产品更为人们所熟知，
+just users who are happy when they will help evangelize or you can help them or lead them to evangelize your product and make it even more widely known and get your free software open source software into more people's hands，
+
+708
+00:50:31,201 --> 00:50:35,520
+直到把这些产品推广到最初只使用免费版本产品的那些公司。
+into more companies who are initially just using the free version.
+
+709
+00:50:36,720 --> 00:50:45,630
+这样就提升了市场部门的力量。
+And that multiplies the power of, otherwise also always resource constrained marketing department.
+
+710
+00:50:45,631 --> 00:50:58,740
+这是“无摩擦分发”的好处，开源软件为开源许可所支持，所以这些软件也被称为开源许可软件。
+It's that benefit of frictionless distribution of the open source line
+afforded by the open source license for the so licensed software.
+It drives adoption by,
+
+713
+00:51:00,330 --> 00:51:07,470
+在市场上，用户一开始不会收费，但是最后可能会收费。   
+in the market place,
+where users may not be paying in the beginning,
+but may be paying later.
+
+716
+00:51:08,790 --> 00:51:14,910
+但是无论如何，我们要去了解一下市场营销部门确定了潜在客户。
+How later,
+well,
+let's see,
+let's say marketing identified qualified leads.
+
+720
+00:51:14,911 --> 00:51:23,010
+那么你怎么知道某个公司是合格的商业线索的呢？
+So how would you know that some company as a qualified lead and that sales maybe,
+
+721
+00:51:23,011 --> 00:51:24,660
+然后你觉得是时候进行销售了。
+should kick in.
+
+722
+00:51:24,661 --> 00:51:33,810
+也许某个公司，也许某个人在你的论坛中问了你很多的问题，
+Well,
+perhaps a company or someone with a company email addresses is asking lots of questions in your forums.
+
+724
+00:51:33,811 --> 00:51:36,390
+这些人或者有用户可能没有使用商业版本的软件，
+They may not be using the commercial edition.
+
+725
+00:51:36,391 --> 00:51:42,030
+他们可能正在使用开源软件，但是他们遇到了很多的问题。
+They may be using the open source software,
+but maybe they have lots of questions.
+
+727
+00:51:42,031 --> 00:51:49,200
+然后你可以看到他们是如何提出问题，你可以建议他们使用你的商业版本软件。  
+Maybe you can see how they are asking questions that suggest they would be better served by your commercial version.
+
+728
+00:51:51,150 --> 00:52:00,000
+这可能就是你用于识别潜在用户之后能否成为消费者的一种方法。
+And that's how you idea that's one reason of how one way of identifying qualified leads that could possibly become customers.
+
+729
+00:52:00,001 --> 00:52:03,330
+让我们退后一步，让我们查看一下一月份的销售情况。
+But let's take a step back.
+Let's look at the sales in January.
+
+731
+00:52:03,331 --> 00:52:12,210
+首先一个商业开源软件，借助于单一供应商或者经销商进行销售那么这就是一个产品，
+First of all,
+a commercial open source software,
+via
+single vendor or a distribution is just the product,
+
+735
+00:52:12,211 --> 00:52:15,120
+所以你就有了最初的销售源。
+and hence you have a classic sales source,
+
+736
+00:52:15,121 --> 00:52:21,840
+通常会以已有的方式进行产品的销售，
+usually which will try to sell the product in established ways.
+
+737
+00:52:21,841 --> 00:52:28,050
+已有的方式意味着你或许可以获得有价值的商业线索。
+Established ways means you go to fares and you acquire qualified leads then,
+
+738
+00:52:28,051 --> 00:52:29,010
+然后你可以给这些公司打电话，
+and you call them up or
+
+739
+00:52:29,011 --> 00:52:30,180
+销售人员也可以打电话给那些出现在你展位上的公司，
+sales people call up
+
+740
+00:52:30,181 --> 00:52:36,630
+并且这些公司对杂志上你产品相关的广告感兴趣。
+the companies who showed up at your booth or who reacted to some advertisement in a magazine what have you.
+
+741
+00:52:36,631 --> 00:52:43,440
+这都是与消费者建立联系或者与用户取得了联系。
+And these are all traditional ways of how you get in touch with customers or they get in touch with users.
+
+742
+00:52:43,441 --> 00:52:54,630
+感兴趣的各方如何与作为软件供应商的你取得联系？或者你如何说服潜在用户他们购买你的产品？  
+How interested parties get in touch with you, the vendor or how you get in touch with potentially interested leads and convince them to buy.
+
+743
+00:52:54,631 --> 00:53:02,610
+有时公司会有个提议来寻求产品。
+Sometimes companies will have a request for proposal out, looking for a product,
+
+744
+00:53:02,611 --> 00:53:03,240
+对于一个新的数据库软件，那么所有的供应商或者部分软件供应商都会出现，
+For example,
+
+745
+00:53:03,241 --> 00:53:18,750
+然后你就会单一供应商开源软件公司、商业开源公司进行竞争，此外，还会竞争销售策略，
+A new database software and then all the vendors or some vendors will show up and you will compete with them on the single and open source firm, the commercial open source firm, will compete with them in a competitive sales situation like a classic, like in the old days,
+
+746
+00:53:18,751 --> 00:53:22,320
+有时候你可能会赢，有时候你可能会输。
+and sometimes you may win,
+sometimes you may lose.
+
+748
+00:53:23,760 --> 00:53:33,510
+然而，如果有个公司正在寻求购买，那么竞争与销售场景还是很有意思的。
+However,
+that competitive,
+sales situation is particularly interesting
+if
+the company is seeking to buy,
+
+753
+00:53:34,740 --> 00:53:40,110
+这个公司已经是你开源软件的用户了，即你的免费开源软件，
+it's already a user of your open source software, free open source software,
+
+754
+00:53:40,111 --> 00:53:42,420
+这个用户不为你的软件付费，而是在使用它。
+not paying,
+but is using it,
+
+756
+00:53:42,421 --> 00:53:52,710
+例如，在商业中，IT部门想要购买某种类型的软件，想去填补这个类别。  
+for example,
+in a line of business.
+And now the IT department wants to buy such a type of software
+wants to fill the category.
+
+760
+00:53:52,711 --> 00:53:56,430
+那我们就需要CRM软件，或者我们需要一个新的数据库软件。
+We need a CRM software,
+Or we need a new database
+software.
+
+763
+00:53:57,540 --> 00:54:06,330
+然后，开源策略就会得到发展，那么发生什么事情了呢？
+Then,
+Ah,
+ah,
+the open source kicks strategy kicks into full gear,
+so what's happening here?
+
+768
+00:54:06,331 --> 00:54:11,460
+我们退一步来看，你为软件的免费软件成为开源软件打下了基础，
+Again, let's take a step back,
+you laid the groundwork by making available for free,
+
+770
+00:54:11,461 --> 00:54:23,310
+你可以巧妙地追踪到谁在使用这个软件？你可以询问谁是你的用户？
+good software as open source software. You smartly are kind of tracking who is using it,
+you ask users who are you?
+
+772
+00:54:23,311 --> 00:54:25,410
+你的用户可能会问你你会关心更新吗？
+would you care about updates?
+
+773
+00:54:25,411 --> 00:54:26,790
+为什么不把你的邮箱地址给我们呢？
+Why don't you give us your
+
+774
+00:54:27,630 --> 00:54:34,590
+如果是公司成员的话，他不会把个人邮箱给你的。
+Email address and if someone from a company comes,
+they probably won't give you the personal email address.
+
+776
+00:54:34,591 --> 00:54:39,600
+他们只会把公司邮箱给你，因为他们只是关心你的软件，  
+They'll give you their company email address because they care about your software,
+
+777
+00:54:39,601 --> 00:54:43,710
+他们只是从商业的角度来看待，所以这是他们的日常工作。
+only from a business perspective so it's daily work,
+
+778
+00:54:43,711 --> 00:54:48,030
+他们在银行的话会使用他们自己的邮箱自地址，
+and hence they use their whatever email address at a bank,
+
+779
+00:54:48,031 --> 00:54:48,630
+举个例子，
+for example,
+
+780
+00:54:48,631 --> 00:54:54,780
+他们在为一家银行工作，然后你正在追踪你的用户，然后你就对于你的用户有最基本的了解。
+if they work for a bank now you are tracking your users, you have at least the information about it.
+
+781
+00:54:54,781 --> 00:54:57,960
+如果你足够聪明的话，你会进行一些基础工作。
+If you are smart,
+you lay the groundwork,
+
+783
+00:54:57,961 --> 00:55:04,500
+很快你就会从你的某个大型潜在客户组织那里了解到这一点，
+as soon as you learn that save from a large potential customer organization,
+
+784
+00:55:04,501 --> 00:55:12,750
+使用您的软件的用户可能来自不同的业务领域。
+there are multiple users, may be in different lines of business who are using your software,
+
+785
+00:55:12,751 --> 00:55:20,220
+然后你会问他们，你想知道在你的组织中有哪些人正在使用我们的软件吗？
+then you will ask them.
+would you like to know about other people in your organization who are using our software?
+
+787
+00:55:20,221 --> 00:55:24,480
+你愿意告诉我这件事情吗？你能把你的电子邮箱给他们吗？
+Would you be willing?
+Would you let us give them your email address?
+
+789
+00:55:24,481 --> 00:55:30,750
+所以你把这些用户联系起来，目的就是是让他们互相交流，互相帮助，
+So you connect these users with the goal of making them talk to each other,
+helping each other.
+
+791
+00:55:30,751 --> 00:55:33,720
+之后创建一个用户社区。
+creating a community of users,
+
+792
+00:55:33,721 --> 00:55:37,800
+这些用户不仅仅是潜在客户组织中的个人。
+not just individuals in that potential customer organization.
+
+793
+00:55:40,320 --> 00:55:46,620
+之前我也提及过，当你追踪用户时，你会看到他们是怎么在一个论坛中建立联系的？  
+As I also mentioned,
+as you track users,
+you see how they are engaged with you in 
+your forums,
+
+797
+00:55:46,621 --> 00:55:48,870
+举个例子，他们可能是为了免费的软件版本。
+for example,
+for the free version.
+
+799
+00:55:48,871 --> 00:55:58,230
+所有的这些工作都有助于你确定你的潜在用户，潜在消费者组织，这些潜在的用户支持你的软件，
+all of that helps you to identify who in the potential customer organization might be championing,
+
+800
+00:55:58,231 --> 00:56:04,200
+或许认为这是一个好软件，知道怎样去使用这个软件，也知道这个软件的缺点，
+championing your software might like it think it's great software, knows how to handle it, knows its weaknesses,
+
+801
+00:56:04,201 --> 00:56:08,550
+但是也知道这个软件的优点，并且乐意为您的软件做出担保。
+but also knows its strength and might be willing to vouch for you.
+
+802
+00:56:09,540 --> 00:56:14,460
+当处在竞争激烈的销售环境中时，  
+Why and when,
+while exactly when
+in a competitive sales situation,
+
+805
+00:56:14,461 --> 00:56:24,630
+有很多相互竞争的公司，而你就是其中之一，因为你是商业开源供应商，并有一定的领先地位。
+there are multiple competing companies and you're the one now because you are the commercial open source vendor who identified the champion in the business organization,
+
+806
+00:56:24,631 --> 00:56:29,760
+你可以说对于对于我的这些软件，你们一无所知，
+you're the one who can say, well these other folks,
+they are unknown to you,
+
+808
+00:56:29,761 --> 00:56:33,510
+尊敬的潜在客户，我们可以帮你引见内部人员，
+dear potential customer,
+but we can give you
+
+810
+00:56:35,100 --> 00:56:42,750
+这样你就可以对我们的公司了解更多，我们公司的人员会告诉你我们的产品到底怎么样。
+addresses internal people, internal to your company who know us, who can tell you whether you're good or not so good.
+
+811
+00:56:43,770 --> 00:56:50,100
+然后，当然，这样在采购组织中的成员就会为你发声。
+And then,
+of course,
+you name them, your champion so and you will have someone inside
+
+814
+00:56:50,101 --> 00:56:58,530
+我们总结一下，目前所讲述的是开源的方式，   
+the buying organization who may vouch for you. So effectively summarizing here,
+what's happening is that by way of open source,
+
+816
+00:56:58,531 --> 00:57:05,910
+你目前是一个潜在的消费者，因为你在免费使用相关组件并且对某个部门的项目设置了预算，
+you get a foot in the door
+of potential customers broadly and widely because you are free to use your
+
+818
+00:57:05,911 --> 00:57:19,980
+这个预算最终会被IT部门所控制，然后这个部门就不知道应该使用什么产品了，
+zero dollar line item and a budget for some departmental project that eventually gets reigned and by
+IT
+and then they won't want to figure out which product to use,
+
+821 
+00:57:19,981 --> 00:57:27,420
+但是他们现在也是有了商业业务，与其他竞争对手相比，谁才是为消费者完全未知的？
+but now they have the lines of business,
+which watch for you as opposed to other competitors who are completely unknown.
+
+823
+00:57:27,421 --> 00:57:32,580
+所以你通过“无摩擦分发”，潜在的消费者公司就知道了你，
+So you get the foot in the door by way of frictionless distribution,
+companies know you,
+
+825
+00:57:32,581 --> 00:57:40,770
+你知道这些客户之前你可能还没意识到这会带来大量的销售，
+you know them long before the actual sales situation emerges on a grants on a large scale,
+
+826
+00:57:40,771 --> 00:57:48,690
+当销售竞争的场景出现时，你反倒准备好好销售你的产品了。
+and when the sales competitive sales situation happens,
+you're prepared to sell better and more effectively.
+
+828
+00:57:48,691 --> 00:57:59,160
+这是为什么呢？举个例子，MySQL公司的Martin Mikos经常讲述关于银行的事情，  
+So this is how,
+for example,
+Martin Mikos of MySQL used to tell the story about a big bank,
+
+831
+00:57:59,161 --> 00:58:00,990
+MySQL赚了很多，
+where MySQL won big,
+
+832
+00:58:00,991 --> 00:58:09,780
+当IT部门想去购买MySQL时已经有5个不同的部门在使用MySQL了，
+because it was already in use by five different lines of business when IT finally wanted to buy MySQL,
+
+833
+00:58:09,781 --> 00:58:22,020
+所以当与早已创立的闭源供应商竞争时，此闭源供应商在购买组织中没有任何优势，
+and they just won hands down
+when competing with much more established close source vendors who did not have the advantage of being in the buying organization
+
+835
+00:58:22,021 --> 00:58:22,530
+所以在竞争中MySQL胜券在握。
+already.
+
+836
+00:58:24,720 --> 00:58:30,660
+我曾经在销售部门待过一段时间，这是我自己的选择，
+So I dwelled a little bit on sales it's really just was my pick,
+
+837
+00:58:30,661 --> 00:58:35,610
+这是很有意义的一段经历，具体好处是什么我也不多说了。
+because that's kind of instructive
+what the benefits are and I don't have to talk about.
+
+839
+00:58:35,611 --> 00:58:39,600
+常规的软件开发工作是很显然的，
+Regular software development as much work may be more obvious.
+
+840
+00:58:39,601 --> 00:58:42,150
+每一个商业功能都能受益。
+It's really every business function that benefits,
+
+841
+00:58:42,151 --> 00:58:49,230
+举个例子，一旦你把你的软件推出去了，那么你的商业发展战略伙伴就会受益，  
+for example,
+business development strategic partnering benefits because your software is out,
+
+843
+00:58:49,231 --> 00:58:54,330
+因为这些开源用户可以使用它。
+therefore as open source users use it and they use it in their context.
+
+844
+00:58:54,331 --> 00:59:01,260
+一些用户反复将你的产品与其他供应商的产品结合，
+And if some users repeatedly combine your product with some other vendors' product,
+
+845
+00:59:01,261 --> 00:59:06,090
+这可以帮助你确定你的战略合作伙伴。
+and it's also open source that helps you identify strategic partners.
+
+846
+00:59:06,091 --> 00:59:08,490
+所以，举个SUGARCRM的例子，
+So,
+for example,
+SUGARCRM,
+
+849
+00:59:08,491 --> 00:59:17,340
+jaspersoft和SUGARCRM选择对方为商业战略伙伴，
+hear him and jaspersoft identified each other as potential strategic partners because there were non-trivial number of
+
+850
+00:59:18,330 --> 00:59:26,790
+因为使用它们开源版本软件的用户数量相差不大，所以这两家公司开始合作了。
+users who combined these two products using the free versions,
+but they combined it,
+
+852
+00:59:26,791 --> 00:59:34,530
+他们认为他们合作的话会为用户提供更好的服务。
+and so these two companies identified that maybe they could work together and provide a stronger offering to customers.
+
+853
+00: 00 --> 00:59:40,830
+产品管理真的是可以从有创意的用户身上学到很多，
+Product management can learn so much from creative users.
+
+854
+00:59:40,831 --> 00:59:49,290
+这些有创意的用户可以更广泛地识别需求，因为他们所要求的东西比现有客户更广泛。
+The users identify the requirements more broadly because they request things more broadly than just existing customers
+
+855
+00:59:49,291 --> 01:00:01,140
+这些用户愿意花时间免费为你探索潜在的细分市场以及功能空间。
+could do the users are willing to pay with the time they explore potential market segments for you for free or they explore the feature space,
+etc.
+
+857
+01:00:01,141 --> 01:00:08,610
+所有的这些过程没有成本，或者说成本很低，这意味着产品经理会关注这些事情。 
+All of this for
+no cost or very little cost,
+meaning your attention,
+the product managers' attention to them.
+
+861
+01:00:10,530 --> 01:00:12,840
+软件开发还是有些好处的，
+Software development has some benefits,
+
+862
+01:00:12,841 --> 01:00:20,730
+这并不是说社区开发代码，他们做的并不多，
+it's not that the community develops code， they do so sometimes
+but it's not a lot, because
+
+864
+01:00:21,840 --> 01:00:23,820 
+因为用户不是傻瓜，
+Users aren't stupid.
+
+865
+01:00:23,821 --> 01:00:30,180
+他们知道你是一个商业项目，因此得到的贡献比之前的社区开源项目少得多。
+They know that you're a commercial endeavor that gets much less contributions than a real community open source project,
+
+866
+01:00:30,181 --> 01:00:34,530
+如果某些代码出现了问题，那么他们会找到bug。
+but they will fire bugs,
+if something wrong,
+they will find bugs.
+
+869
+01:00:34,531 --> 01:00:38,640
+他们可能会被解雇，他们告诉你你可以获取免费的报告。
+They were fired, them tell you about them
+so you get back reports for free.
+
+871
+01:00:38,641 --> 01:00:46,950
+编程实际上只是整个软件开发费用的一部分，只是消耗了用户的时间。  
+The coding is really just a part of the overall software development expense and just the time of the users,
+
+872
+01:00:46,951 --> 01:00:54,660
+免费用户对你的成本效率和我们的开发效率都非常有利，
+free users can be very beneficial to your cost efficiency and development effectiveness.
+
+873
+01:00:56,880 --> 01:01:02,310
+ 这些用户可以从其他的帮助者那里学到东西。
+Support can learn from users who helped themselves,
+
+874
+01:01:02,311 --> 01:01:12,570
+他们探索问题并记录你自己无法处理的事情，因为雇佣更多的人太贵了。
+Ah,
+who explore issues and document things that your own support can't handle,
+because it's too expensive to hire
+more people maybe.
+
+878
+01:01:14,880 --> 01:01:24,690
+然后你可能会想，全部都是免费的，尽管你也不是必须非得聪明人来获取这些好处，
+And then you may wonder all of this for free,
+while not entirely on you need smart people who can take advantage of these benefits.
+
+880
+01:01:24,691 --> 01:01:28,590
+他们需要了解这些商业功能是如何被商业开源策略所改变的，
+They need to understand how these business functions,
+
+881
+01:01:29,640 --> 01:01:36,300
+这也不是什么高深的科学，他们是可以理解的。
+are being changed by a commercial open source strategy. That's not rocket science,
+they can understand it,
+
+883
+01:01:36,301 --> 01:01:43,650
+但它是新的，所以他们或许不能像在传统闭源供应商那种情况下有效。 
+but it's new,
+so they may not be as effective as they might be
+in the traditional closed source vendor situation.
+
+886
+01:01:44,760 --> 01:01:51,900
+更重要的是，你需要一个新的业务功能，叫做社区管理，
+More importantly,
+though,
+you do need a new business function called community management,
+
+889
+01:01:51,901 --> 01:01:57,270
+很可能在每节课上都会提到这个概念。
+and most likely so in every class,
+when I run this course,
+
+891
+01:01:57,271 --> 01:02:04,410
+我们将有一个社区经理讨论如何在社区中与社区开源项目一起工作？
+we will have a community manager had talked about how to work with community open source projects and a  community.
+
+892
+01:02:04,411 --> 01:02:11,490
+但是你必须需要把这个社区规模进行缩小，这或许是一个额外的成本。
+But you need to have that community a miniature,
+and that is an additional cost that you incur.
+
+894
+01:02:13,170 --> 01:02:20,550
+现在让我来总结一下，我们讨论了什么是商业开源，以及三个核心的战略。  
+So with that,
+now let me close,
+We discussed what commercial open source is and how there are three core strategies,
+
+897
+01:02:20,551 --> 01:02:29,430
+其中两个策略可以在风险投资中赚到钱，那么公司如何去做以及为什么这样做？
+two of which can make real money in a venture capital funded and how and why companies do this.
+
+898
+01:02:29,431 --> 01:02:39,300
+我们通过业务功能讨论了业务功能是如何变化的，从而如何从商业开源战略中获益？
+Ah,
+we discussed by business function how the business functions change and which benefits resigned from the commercial open source strategy.
+
+900
+01:02:39,301 --> 01:02:44,610
+今天我就讲到这里，非常感谢你的关注，我们下次见。
+So that's it for me for today.
+Thank you very much for your attention as always,
+and see you next time.

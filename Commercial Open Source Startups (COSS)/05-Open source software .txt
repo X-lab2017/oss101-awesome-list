@@ -1,0 +1,2419 @@
+0
+00:00:01,880 --> 00:00:02,320
+大家好，
+Hello, everyone.
+
+1
+00:00:03,200 --> 00:00:11,440
+欢迎回到我们的课程，此课程是关商业业开源软件创业以及如何将其从大学教育中抽离出来。
+And welcome back to course our course on commercial open source software startups and how to spin them off from university.
+
+2
+00:00:12,230 --> 00:00:14,710
+我叫Dirk Riehle,我负责这门课程。
+My name is Dirk Riehle, and I did this course.
+
+3
+00:00:16,180 --> 00:00:22,460
+今天我们开始第二节课，此系列课程的中间部分。
+So today we are starting the second, the middle part of the lectures on this topic.
+
+4
+00:00:23,400 --> 00:00:28,640
+在第一部分中，我们已经讨论了软件行业的总体情况，现在我们将讨论
+In the first part, we discuss the software industry in general, and now we will be discussing
+
+5
+00:00:29,600 --> 00:00:37,400
+开源软件，开源软件社区和商业开源初创公司及其战略。
+open source software, open source software communities and commercial, open source startups and strategies.
+
+6
+00:00:39,000 --> 00:00:45,560
+今天的课程是关于开源软件的，是相关四次课程的的第一节课。
+Today it is open source software. The first of these four lectures of the middle part.
+
+7
+00:00:46,520 --> 00:00:51,960
+我将主要讨论开源软件，以及相关软件的设计，
+And I will be talking mostly about software as open source software, as an artifact.
+
+8
+00:00:53,420 --> 00:00:54,540
+即你所创建的东西。
+Meaning something you build.
+
+9
+00:00:55,450 --> 00:01:03,010
+在下一节课我们将讨论这些软件背后的项目社区。
+And then next session, next lecture will be about the project communities behind these artifacts.
+
+10
+00:01:05,060 --> 00:01:05,540
+这将会包含很多信息
+It will be
+
+11
+00:01:07,030 --> 00:01:11,470
+我有一门关于开源软件的课程，
+a lot of information, I have a course on open source software of
+
+12
+00:01:12,540 --> 00:01:19,820
+总共15节课，我将该课程的大部分内容都压缩在这一小时里，所以请原谅我。
+15 total lectures, and I'm squeezing much of it into this one hour. So bear with me.
+
+13
+00:01:22,590 --> 00:01:31,150
+什么是开源软件？开源软件的前身是自由软件，
+What is open source software? Well, open source software has a predecessor called free software,
+
+14
+00:01:32,120  --> 00:01:35,520
+“自由软件”是在上个世纪的八、九十年代被定义的。
+defined in the 80s and 90s of the last century.
+
+15 
+00:01:36,410 --> 00:01:36,770
+并且，
+And then,
+
+16
+00:01:37,870 --> 00:01:41,950
+开源软件是一个基本术语
+open source software as a term for something that's basically the same.
+
+17
+00:01:42,680 --> 00:01:49,720
+在90年代后，用户在自由软件时可以获得相应的权益。
+In the late 90s, free software is simply software where the user gets certain rights.
+
+18
+00:01:50,670 --> 00:01:53,310
+当然，这些权利是有所定义的，
+Ah, and these rights are defined.
+
+19
+00:01:54,030 --> 00:01:58,710
+用户必须被允许使用、学习、修改和传播分发软件的使用。
+The user must be allowed to use，study, modify and distribute the software.
+
+20
+00:01:59,480 --> 00:02:04,360
+即使用户与软件的交互形式有所改变，软件也是免费的，当然，也存在着一些其他的限制。
+Even in changed form, free of charge. And any other restrictions.
+
+21
+00:02:06,230 --> 00:02:20,220
+开源软件，反映了许多哲学观点，但是对于自由软件的开发者以及自由软件本身来说，毫无意义。
+Open source software, which was a reaction to a lot of
+philosophy, that didn't make sense to many of the very pragmatics of the developers developing free software and then open source software.
+
+23
+00:02:21,310 --> 00:02:38,840
+开源软件是对这种情况又有所回应，开源软件需要满足10个标准，但从核心来看，这些标准大同小异。
+Open source software was coined in reaction to that, but basically means the same, open source software, by way of the open source software definition
+is software which fulfills 10 criteria, but when those have been being distilled down, it's exactly the same.
+
+25
+00:02:39,670 --> 00:02:47,830
+如果用户有权使用一款软件对其进行修改并分发该软件，或者以一种“分布式”的形式使用软件
+If a user has the right to use a piece of software to modify it and to distribute that software,
+distributed,
+
+27
+00:02:48,650 --> 00:02:57,090
+，软件是免费的并且存在一定的使用限制，那么这个软件就是”开源软件“。
+in a modified form, even all of that, free of charge and other restrictions. Then the software is open source software.
+
+28
+00:02:58,760 --> 00:03:06,240
+更实际地说，开源软件只有在获得许可的情况下才被认为是开源的。
+More pragmatically, open source software is considered open source only if it has a license.
+
+29
+00:03:07,640 --> 00:03:12,360
+它明确规定了这些权利，但也说明了一些义务, 
+Uh, which spells out exactly these rights, but also some obligations.
+
+30
+00:03:13,290 --> 00:03:17,530
+需要用户、软件的受众、以及相关协议所要履行的义务。
+that are given to the users, the recipient, the licenses.
+
+31
+00:03:18,610 --> 00:03:30,470
+如果该软件具有相应的的开源许可，并且被开源软件计划所定义和接受，那么就是开源软件。
+And then some piece of software becomes open source software, if it has such an open source license, as defined and
+accepted by the open source software Initiative.
+
+33
+00:03:31,990 --> 00:03:36,430
+自由软件和开源软件的实际用途是相同的。
+Free software and open source software for all practical purposes are the same.
+
+34
+00:03:37,350 --> 00:03:41,710
+自由软件的宿主或定义者或自由开放源码是
+The host or definer or free open source of free software is
+
+35
+00:03:42,600 --> 00:03:50,480
+自由软件基金会以及得到开源软件计划认可的凯源软件，我们经常把这些术语合并起来讨论，
+the Free software Foundation and of open source software with the Open source Initiative, and we often just merge these terms and talk about
+
+36
+00:03:51,330 --> 00:03:59,690
+在这里，总的来说，我将把“开源”作为总的讲述基调。
+foss or free and open source software, though, I in general just talk about open source, uh, as the general term.
+
+37
+00:04:01,480 --> 00:04:08,480
+我们了解开源软件，有很多这样的软件，有很多好的开源软件，并且存在对应的终端用户，
+And we know open source software, there's a lot of it, and there's a lot of good software that is open source software, and there's an end user.
+
+38
+00:04:09,520 --> 00:04:17,840
+你可能已经见到过很多开源软件以及其对应的终端用户了。如果没有领域的需求，就没有开源软件。
+You may have seen many of it already. There is no demand domain, really, where open source software is not present, whether it's.
+
+39
+00:04:19,520 --> 00:04:25,720
+比如像Blender这样的视频编辑软件，或者像Apache web server的他们的技术软件以及类似
+Video editing software like Blender or technical software like Apache  web server or office software, like the 
+
+40
+00:04:26,880 --> 00:04:34,840
+open office和LibreOffice的办公软件这样的办公软件,
+open office or LibreOffice suite of office tools, but processes and so forth, and so forth.
+
+41
+00:04:35,620 --> 00:04:40,420
+或者类似sugar CRM或JasperSoft这样的企业软件。
+Or whether it's enterprise software like SUGARCRM or Jasper Soft.
+
+42
+00:04:41,870 --> 00:04:49,710
+开源无处不在，适用于每一个领域和可能的用途，开源软件也在持续发展。	
+Open source is everywhere for every domain and conceivable use. Open source software is being developed.
+
+43
+00:04:50,590 --> 00:04:56,350
+这使得它成为一种重要的力量,因为如果有高质量并且免费的软件可供使用，
+And that makes it an important force to reckon with, because if there is high quality,
+
+44
+00:04:57,690 --> 00:05:04,050
+潜在的竞争者，以及非开源的竞争者，
+free to use software available, then potential competitors, non open source competitors.
+
+45
+00:05:05,240 --> 00:05:08,280
+所以这些开源软件必须需要持续努力才能生存下去。
+Usually have to fight hard to survive.
+
+46
+00:05:13,020 --> 00:05:16,180
+让我们来看看开源的历史，
+So let's take a look at the history of open source.
+
+47
+00:05:17,330 --> 00:05:26,410
+在最开始，当软件被创造出来的时候其被认为是独立的产物，是独立于硬件的。
+Um, in the beginning, when software was being coined and recognized as an independent artifact, separate from hardware,
+
+48
+00:05:27,580 --> 00:05:34,540
+最初，人们对软件本身是有少许认识的，但对开源软件肯定没有具体的认识，
+There was a little recognition initially of all software itself, but certainly not of open source software.
+
+49
+00:05:35,160 --> 00:05:38,160
+对’开源或免费软件‘的概念，术语认识也很很少，人们甚至没有认识到它的存在。
+The term, the concept of open or free software,
+
+50
+00:05:39,590 --> 00:05:47,030
+但是，人们经常免费共享源代码，
+later time wasn't even recognized as such. However, people were often freely sharing source code.
+
+51
+00:05:48,050 --> 00:05:51,250
+因为源代码几乎没有任何的商业附加价值。
+Because the little value of commercial value was attached to it.
+
+52
+00:05:52,690 --> 00:05:59,890
+在80年代 这种情况发生了变化，因为公司认识到了软件的商业价值，因此不再共享源代码。
+In the 80s, that changed because companies recognizing the commercial value of software, closing it down.
+
+53 
+00:06:00,940 --> 00:06:04,860
+这使得Richard Stallman非常烦恼，
+Upsetting in particular person called Richard Stallman, who
+
+54
+00:06:06,120 --> 00:06:14,160
+因此他决定通过创造免费软件来对抗“人们不再共享源代码”的趋势，
+decided to fight this trend of closing software by inventing free software, the idea of free software,
+
+55
+00:06:14,960 --> 00:06:18,440
+这就是“免费软件”的理念，这也是使用许可证来确保软件使用的初始想法。
+and the idea of licenses to ensure
+
+56
+00:06:19,610 --> 00:06:25,770
+在Richard Stallman看来，软件仍免费的，他的这项工作的成果是GNU许可协议，
+Software. In his words, would remain free. The outcome of this work is the family
+
+57
+00:06:26,840 --> 00:06:31,160
+该许可协议就是开源免费软件的使用许可。
+of open source of free software license called the GNU Licenses.
+
+58
+00:06:32,680 --> 00:06:39,600
+在90年代，对于免费软件而言，推广、传播免费软件的这个做法是关乎哲学的，甚至是激进的。
+In the 90s, in reaction, partly to storm and being philosophical, even aggressive, about
+
+59
+00:06:41,210 --> 00:06:45,570
+proposing and marketing and evangelizing the idea of free software.
+
+60
+00:06:46,980 --> 00:06:54,100
+因此开源计划应运而生，这背后是实用主义者意识到了免费软件的价值，
+The open source initiative came into being,
+by pragmatists who realize the value of free software.
+
+62
+00:06:54,830 --> 00:07:03,350
+但是这些实用主义者也不太想让哲学的相关理念围绕在这个协议许可家族上。
+But didn't want any of the philosophy of brohaha around the particular new
+family of licenses.
+
+64
+00:07:04,430 --> 00:07:09,510
+协议许可家族的一个重要创新是，我们马上讨论这一点，
+An important innovation in the new family of licenses was, as we will discuss
+
+65
+00:07:10,570 --> 00:07:13,690
+就是著佐权在软件许可上的影响，
+the copyleft effect or a clause in the license.
+
+66
+00:07:14,730 --> 00:07:20,130
+这使得任何传递许可代码的人可以公开许可代码。
+That would require anyone who passes on such license code to lay it open.
+
+67
+00:07:20,910 --> 00:07:25,950
+与此同时，在许可证的背景下，这些用户可以对软件进行任何补充或者修改。
+As well, under that license, even any additions or changes they may have made.
+
+68
+00:07:27,030 --> 00:07:35,190
+但是这可能会导致一场风暴，这不符合90年代实用主义者的胃口，
+And that may have been to a storm's taste. It was not to the taste of the pragmatists of the 90s who
+
+69
+00:07:36,560 --> 00:07:40,400 
+这些实用主义者创造了新的术语“开源与免费软件的竞争”，他
+coined the new term open source to compete with free software
+
+70
+00:07:41,220 --> 00:07:48,260
+们也提出了他们自己对开源的定义以及与此开源定义相匹配的许可证，
+and came up with their own definition of open source, and the licenses that would match that definition.
+
+71
+00:07:49,330 --> 00:07:52,970
+通常情况下不讨论著佐权。
+Usually without that copyleft clause to be discussed in a bit.
+
+72
+00:07:54,360 --> 00:08:01,880
+早在2000年，专业化开源就出现了，相关公司也应运而生了。
+In the early 2000s, professionalization of open source setting, companies came into being who realized.
+
+73
+00:08:02,910 --> 00:08:09,270 
+在90年代开源的商业价值已经存在了，但是对于如何实现商业化
+Not only the commercial value that was already present in the 90s, but who templetized or can't
+
+74
+00:08:10,270 --> 00:08:17,320
+并且如何从开源软件中进行商业化的获益并没有定义相关方法、准则。
+define repeatable ways of how to
+commercialize and commercially benefit from open source.
+
+76
+00:08:18,550 --> 00:08:20,270
+从今天来看，开源，
+And today, open source,
+
+77
+00:08:21,570 --> 00:08:30,010
+在2000年及以后的时间里，开源已经成为发展的主流，通常情况下开源的理念体现在各个方面,
+in the 2010s and onward, open source is just mainstream, if you will present in every piece of software, usually.
+
+78
+00:08:30,960 --> 00:08:38,520
+并且任何软件供应商的相关策略工具都是可以获得、可以使用的。
+And all around available and part of the tool chest, strategic tool chest of any software vendor.
+
+79
+00:08:40,120 --> 00:08:48,320
+从商业角度来看，开源已经向“云”靠拢，或者说开源已经向”云服务“靠拢。
+From a commercial prospective, open source has very much become, as I call it an on-ramp to the cloud, or to cloud services.
+
+80
+00:08:51,090 --> 00:08:57,210
+所以我们需要区分不同类型的开源来理解“开源”标签下的一系列丰富的现象。
+So then we need to distinguish different types of open source to understand how this is a
+
+81
+00:08:58,330 --> 00:09:01,050
+rich set of phenomena under one label.
+
+82
+00:09:02,350 --> 00:09:08,110
+最初的开源是志愿者自发的开源，
+The original open source, there was volunteer open source.
+
+83
+00:09:08,890 --> 00:09:12,170
+比如有Stallman所创造的的一个编辑器GNU Emacs,
+That was GNU emacs by a Stallman and a text editor,
+
+84
+00:09:12,890 --> 00:09:18,170
+以及Linus Torvalds所创建的Linux系统，当然之后也是有更多的人参与进来了。
+and Linux by Linus Torvalds, but always then, with many contributors.
+
+85
+00:09:18,170 --> 00:09:18,290
+嗯
+Um,
+
+86
+00:09:19,360 --> 00:09:25,680
+这些项目都是由能力很强的人所发起的，一方面，
+These projects were held together by strong people, on the one hand, and just a license 
+
+87
+00:09:27,210 --> 00:09:35,010
+可能是在原始代码的基础上放置许可证，然后新的软件开发者会把贡献放在该项目下面。
+that was put on the original code, and that new developers put their own contributions under, as well.
+
+88
+00:09:36,020 --> 00:09:41,300
+因此,一些传统的开源软件比如Linux Kernel可以说都是为社区所公有的，
+As a consequence, traditional open source software like the Linux Kernel is communally owned
+
+89
+00:09:42,340 --> 00:09:46,460
+因为很多人随着时间的推移对其做出了贡献，
+arguably, because a large number of people who contributed over time,
+
+90
+00:09:47,370 --> 00:09:55,490
+这部分人持有Linux kernel的相关版权，这意味着他们自己作出了相关贡献。
+hold copyright in parts of the source code of that kernel are meaning their own contributions.
+
+91
+00:09:56,770 --> 00:10:01,770
+理解这是共享所有权的作品是很重要的，
+And it's important to understand that this is the artifact with shared ownership,
+
+92
+00:10:02,730 --> 00:10:09,370
+并且该软件作品是对应相关社区的，社区成员即是那些推动项目、软件发展的开发者。
+around which there is a project community, meaning people who drive the project, the software forward.
+
+93
+00:10:10,660 --> 00:10:14,390
+如果说没有了社区中的这些开发者，那么这个软件就有可能早已夭折了。
+And,
+without people, software is dead. So.
+
+95
+00:10:15,100 --> 00:10:19,660
+所以我们今天再度回首，我们会看到艺术效果，
+We also so today again, we will look at the art effect, the software that's
+
+96
+00:10:20,550 --> 00:10:27,670
+这些软件是非常具有挑战性的，之后我们将关注开源软件所对应的项目社区。
+challenging enough, but next time we will look at the project communities around set of software, around set of artifact.
+
+97
+00:10:31,600 --> 00:10:35,560
+这就是我对开源历史的看法。
+Here is my view of the history of open source.
+
+98
+00:10:36,490 --> 00:10:43,050
+我喜欢把东西分成几类，这意味着类别以及它们是如何进化的。
+And I like to split things into bands, meaning categories and how they evolved over time.
+
+99
+00:10:44,960 --> 00:10:51,640
+比较传统的社区开源项目是GNU Emacs，GNU编译器，
+Traditional community open source projects were their GNU Emacs, the GCC, the GNU compiler.
+
+100
+00:10:52,510 --> 00:10:54,790
+以及Linux Kernel等，
+then the Linux kernel and so forth.
+
+101
+00:10:56,830 --> 00:11:05,780
+还有第一家商业公司，即针对开源软件提供服务以及技术支持的公司。
+The first commercial
+company, first company to commercialize something about open source for service and support Firms.
+
+103
+00:11:06,460 --> 00:11:13,700
+我认为Cygnus Solutions，其为消费者客户提供服务，这是值得注意的，
+I think Cygnus Solutions, which service the GCC for customers, is noteworthy here.
+
+104
+00:11:14,650 --> 00:11:21,570
+他们通过针对类似GNU编译器这样的开源软件提供服务以及相关技术支持来实现盈利。
+So they made money by providing services and supporting important open source software like the CNU compiler.
+
+105
+00:11:23,360 --> 00:11:31,160
+另一类软件建立在开源基础上的软件公司是开源软件分销商，
+The next type of software firm built on open source are the open source distributors, companies who
+
+106
+00:11:33,420 --> 00:11:40,420
+该公司制作大量的开源软件，比如Linux Kernel以及与Linux Kernel的工具，
+make a large amount of open source software here, usually the Linux kernel, and the tools around it 
+
+107
+00:11:41,520 --> 00:11:50,150
+然后会有用户将成千上万的软件、服务组件整合起来，使其协同工作，
+to who make these different
+thousands of pieces and components work together, well, so that customers offset distributor, then
+ 
+109
+00:11:50,860 --> 00:11:51,780
+消费者用户就可以较为方便舒服地使用相关服务了。
+feel comfortable using
+
+110
+00:11:52,640 --> 00:11:57,360
+1992年的Suse，1994年的Red Hat都是 
+this product in operations. So Suse, 1992 and Red Hat 1994 were the 
+
+111
+00:11:58,040 --> 00:12:04,240
+最初的Linux发行版商，但是与它们类似的其他公司，比如德国的Univention,	
+original Linux distributors, but their niche players, like the German Univention,
+
+112
+00:12:05,690 --> 00:12:12,210
+其作为Linux的供应商、发行厂商，专注于公共管理空间，比如企业级管理等，
+Linux provider, linux distributor, focusing on the public governmental space，
+
+113
+00:12:14,860 --> 00:12:17,300
+其可提供相应技术支持。
+distributors and support forms for commercial then
+
+114 
+00:12:18,180 --> 00:12:23,900
+值得注意的是1999年的Apache Software Foundation,它是一个非营利组织。
+came in 1999 with the Apache Software Foundations,  non-profits, notably,
+
+115
+00:12:24,960 --> 00:12:34,460
+其实，无论是公司还是个人开发者，他们都是需要在某个规则下开发、发展软件，
+Um,
+Developer led foundations where companies and individuals who wanted to develop software came together under one roof to
+
+117
+00:12:35,240 --> 00:12:36,720
+这样开发者才能引导基金会、软件的发展。
+have rules they all abide by.
+
+118
+00:12:38,170 --> 00:12:45,130
+因此某些原始的、传统的项目可能会受到冲突的影响， 
+The original, traditional projects could suffer from strife. And then there was no
+
+119
+00:12:46,400 --> 00:12:53,240
+解决这些问题的方法就是创建非盈利的组织，比如类似基金会的这种组织。
+way of solving problems by creating non-profit organizations like the foundations. You would get by laws, you would get
+
+120
+00:12:53,800 --> 00:13:00,720
+然后软件开发者通过遵守法律，将会得到问题的解决措施，这样的话，某些软件将会变得尤其重要
+problem resolution processes, all of that, and if some software became so important that it was important for
+
+121
+00:13:01,520 --> 00:13:09,400
+以至于某些公司会经常参与到软件的开发过程中，因为他们需要寻求问题的解决方案。
+the companies usually involved, then they would want such a space for resolution, more on that later.
+
+122
+00:13:10,650 --> 00:13:16,940
+与此同时，1995年的MySQL项目也是如此，
+Um,
+In 1995, maybe MuSQL, but also, at the same time, other.
+
+124
+00:13:17,740 --> 00:13:22,460
+其他的单一供应商的开源公司不断建立起来了。
+What I call single vendor open source firms came into being. These were companies who,
+
+125
+00:13:23,260 --> 00:13:27,460
+这些公司自己发展开源、开源软件等，不再是以社区的形式。
+um, developed open source themselves. It was not a community.
+
+126
+00:13:28,620 --> 00:13:33,780
+但是谁会去市场上销售这些需要更新的软件服务订阅呢？
+But who then went to market and sold subscriptions to updates and so forth from it.
+
+127
+00:13:36,370 --> 00:13:43,730
+这就是我们接下来所要探索的基础，我们将深入研究单一供应商以此来了解开源公司及细节，
+And this is what this causes based upon, so we will dive into the single vendor, open source firms and more detail,
+
+128
+00:13:44,410 --> 00:13:46,330
+之后也会有更多的课程来讲解这个方面。
+and full lectures later on.
+
+129
+00:13:47,840 --> 00:13:53,040
+最后，还有一种新奇的现象或者说软件开发的组织形式，即是用户主导的工会，这些人都是软件的用户。
+Finally, there's a new phenomenon around the block called user led consortia. These are the users of software。
+
+130
+00:13:53,780 --> 00:13:58,700
+这些软件公司联合起来创建一个生态系统，
+User companies of software who join forces to create an ecosystem,
+
+131
+00:14:00,080 --> 00:14:04,920
+他们管理着开源软件的发展，
+providers of software to them, so they manage the development of open source software and then create
+
+132
+00:14:05,820 --> 00:14:14,500
+并且创建了供应商体系，并且根据这些软件公司的发展喜好，他们也创建了针对开源软件的咨询公司。
+the ecosystem of vendors and consulting firms around that open source software for, according to their liking.
+
+133
+00:14:18,200 --> 00:14:26,000
+正是因为这些没有联系的现象，
+An open source because of these separate phenomena, or course patterns of how legal entities like
+
+134
+00:14:26,630 --> 00:14:30,150
+以及类似非盈利组织、软件公司组织等相关法律实体的存在，开源才得以可持续发展。
+non-profits, or companies organize has become sustainable .
+
+135
+00:14:31,830 --> 00:14:36,350
+如果没有这些模式 开源可能无法持续发展下去。
+If it wasn't for these models, open source might not be sustainable.
+
+136
+00:14:37,480 --> 00:14:44,680
+非营利组织既有社区引导的某些组织，比如Mozilla，也有供应商引导的组织，比如Linux Foundation，
+The non-profit organizations are community-led ones like Mozilla, vendor-led, ones like the Linux Foundation.
+
+137
+00:14:45,250 --> 00:14:49,050
+还有用户所主导的比如Kuali基金会这种针对高校软件的组织。
+And user-led ones like the Kuali Foundation for university software.
+
+138
+00:14:50,840 --> 00:14:55,600
+之前的开源软件盈利模型是单一供应商， 即一家开源公司完全主导或者完全拥有一个开源软件。
+Before profit models are single vendor, open source firms where one company dominates
+
+139
+00:14:56,360 --> 00:15:02,600
+开源供应商的操作模式即是 针对消费者而言，
+or outright owns a piece of open source software. The distributor forms were
+
+140
+00:15:03,860 --> 00:15:11,060
+开源软件服务的价值在于这些开源供应商的分配模型, 其可确保成千上万个组件可以协同工作。
+the value to customers is in that distributer, making sure tens of thousands, sometimes components work together Well.
+
+141
+00:15:11,890 --> 00:15:15,250
+此外，众所周知，开源软件服务以及支持资金是很重要的，社区也是有开源软件的。
+As well as finally, service and support funds, which serve as
+
+142
+00:15:16,280 --> 00:15:20,760
+well known, important but community owned open source software.
+
+143
+00:15:26,530 --> 00:15:30,890
+我已经说过狭义上的开源软件了，概念即是开源软件是一个软件，
+So I already said that open source software, in the narrow sense,
+
+144
+00:15:32,050 --> 00:15:40,090
+如果在相应的开源软件许可下其是可获得的，那么它将变成了一个开源软件。
+is software or becomes a software, becomes open source software, if it's put or made available under an open source license.
+
+145
+00:15:41,590 --> 00:15:47,350
+如果你去开源倡议的相关网站，你会发现这十个要求，
+And if you go to the website of the open source Initiative, you will find these 10 requirements of
+
+146
+00:15:48,480 --> 00:15:54,000
+这些要求是关于一个软件许可究竟要满足什么要求，才是能被认可。
+what a license needs to fulfill, to be considered. An open source License could can then go
+
+147
+00:15:55,360 --> 00:16:01,000
+一个开源软件许可的认证需要经历一个批准流程，就像在网站上列出的那样。
+through an approval process at the Open Source Initiative to be lifted, listed on their website as such. 
+
+148
+00:16:02,280 --> 00:16:10,080
+在这里我们可以了解下开源软件许可的具体组成部分，
+Here we want to take a look, closer look at what constitutes what the constituents parts of an open source license are.
+
+149
+00:16:10,770 --> 00:16:16,970
+这样我们就可以更好理解开源软件许可对于知识产权的影响，
+So that we better understand those, understand the effects it has on intellectual property.
+
+150
+00:16:18,010 --> 00:16:23,130
+并且我们也可以知道最终怎样利用类似开源软件许可的相关工具来创建一个业务。
+And ultimately, how to build a business around this using a tool like a license.
+
+151
+00:16:24,860 --> 00:16:31,150
+对于开源软件许可，一方面来说，这是一个工具，一把锋利的工具，一个有用的工具。
+Open source licenses are
+in the right hands, a tool, a sharp tool, a useful tool.
+
+153
+00:16:31,860 --> 00:16:39,740
+开源软件许可不是一种哲学，只有当人们努力把它变成哲学时，它们才会成为一种哲学。
+They are not a philosophy, they only become a philosophy if people try to make it one. Here we will see how open source licenses are
+
+154
+00:16:40,710 --> 00:16:45,110 
+在这里，我们将看到开源许可具体是怎样的。开源软件对于社区、公司来说是一个工具。
+a tool for communities as much as for firms.
+
+155
+00:16:46,310 --> 00:16:50,910
+任何的开源软件许可都具有某些不同的部分，
+So any open source license, um, has these.
+
+156
+00:16:51,840 --> 00:17:02,920
+它经常包含版权声明，比如在哪儿所陈述的？是谁所表述的该软件许可？
+different, uh, parts. It usually has, contains a copyright notice where it says.
+Who is that? Ah, who is that?
+
+158
+00:17:04,640 --> 00:17:09,440
+是谁许可了这项工作？然后这个软件许可说明了软件创建者对软件接受者所赋予的权利，
+creator who is licensing out this work, then the license
+
+159
+00:17:11,380 --> 00:17:18,220
+即软件许可提供了什么？软件创建者又提供给软件许可了什么？
+spells out the rights that creator gives the recipient, so what the license or provides to the license.
+
+160
+00:17:19,140 --> 00:17:20,580
+以下的某些权利都是常见的，
+And these are the usual ones,
+
+161
+00:17:23,040 --> 00:17:30,120
+比如允许免费使用软件，修改软件，甚至可以在所修改的软件上进行软件的发布。
+permission to use for free, to modify so to receive and source form to modify and to distribute on even a modified form.
+
+162
+00:17:32,440 --> 00:17:39,360
+然后是软件许可所赋予的软件接受者所要履行的义务，Then there are the obligations to fulfill by the licensee, the recipient of the rights grant.
+
+163
+00:17:40,150 --> 00:17:46,710
+如果软件的接受者真的想拥有软件的相关有效的权利，那么这些义务是绝对不能忽视的。
+If they want to actually have that rights grant become valid, so that is often overlooked.
+
+164
+00:17:47,750 --> 00:18:01,410
+因此作为开源软件的接受者，在使用开源软件之前需要先履行某些义务。
+You may have, as a recipient of open source software to fulfill certain obligations before you can,
+well, pass on set open source software as part of products.
+
+166
+00:18:02,990 --> 00:18:06,310
+通常情况下，如果你只是使用开源软件，
+Usually if you're only using open source software,
+
+167
+00:18:07,090 --> 00:18:12,890
+在家中或者公司中，而并没有将该软件分发出去，那么你是无需履行相关义务的。
+and the quietness of your home or in the data set of a company, but you're not distributing it on.
+
+168
+00:18:13,660 --> 00:18:16,820
+但是如果你是一个软件的供应商，
+There are no obligations to fulfill, but if you are a vendor,
+
+169
+00:18:17,970 --> 00:18:22,930
+并且你融合使用了开源软件以及你的产品，
+and you are including open source software and your products, and who isn't.
+
+170
+00:18:24,140 --> 00:18:27,300
+那么你必须履行相关义务，你必须履行国家许可所规定的义务。
+Then you have to fulfill the obligations spelled up by the national license.
+
+171
+00:18:29,430 --> 00:18:36,830
+然后你在使用开源软件的时候是有一些禁忌操作的，即你所不能进行的相关操作，
+Then there are the prohibitions or things you are simply not allowed to do, usually that's just claiming endorsement by the
+
+172
+00:18:37,550 --> 00:18:42,710
+通常情况下这些禁忌说明就是原始开源软件许可创建者所声明的批注，这是合法许可。
+creator of the original license text, which is a legal text as a creator itself. So if
+
+173
+00:18:43,430 --> 00:18:51,710
+所以如果你使用了MIT软件许可，你不能说MIT认可你的软件。
+you use the MIT license, you are not allowed to say, um, that MIT endorses your software.
+
+174
+00:18:52,540 --> 00:18:55,500
+最后，所有软件许可通常都这么说，
+And finally, all licenses usually say that
+
+175
+00:18:56,560 --> 00:19:04,520
+你没有得到任何关于软件功能的保证或保证，毕竟它是免费的，所以没有人愿意为此开源软件挺身而出。
+you are not given any warranties or guarantees about the functioning of the software, after all, it's free, so nobody wants to stand up for the software.
+
+176 
+00:19:06,860 --> 00:19:14,100
+有些开源软件许可非常复杂，但是也它们可以很简单。这又一个MIT软件许可的例子，And some licenses are very complex, but they can also be simple. Here's an example, this is the MIT license.
+
+177
+00:19:15,370 --> 00:19:18,530
+它包含了刚才所提及的软件许可的四个组成部分。
+It has of the four components that are just explained.
+
+178
+00:19:19,320 --> 00:19:24,680
+它有开源软件许可五个组成部分中的四个，该开源软件许可不包含“禁止声明”。
+It has four of the five components, it has four. It does not include a
+
+179
+00:19:26,390 --> 00:19:26,510
+prohibition.
+
+180
+00:19:27,570 --> 00:19:33,410
+但它确实有版权声明，它也确实有许可通知，也就是权利基础， 
+But it does have the copyright statement. It does have the permission notice, meaning the rights grant.
+
+181
+00:19:34,320 --> 00:19:40,000
+然后这里的第3条，你所要履行的义务。
+Then it has number 3 here, the obligations to fulfill If you pass on.
+
+182
+00:19:40,940 --> 00:19:46,860
+这样，开源软件又变成了另一种形式。此处的第5条，该开源软件许可是具有免责声明的。
+This, so license software to yet another party. And number 5, it has the disclaimer.
+
+183
+00:19:48,750 --> 00:19:55,430
+这是律师提供的合法税金，显然是针对MIT学院所提出的。
+This is a legal tax created by a lawyer, probably for the MIT or obviously for MIT, the University.
+
+184
+00:19:56,450 --> 00:19:58,130
+因此，该开源软件是客供免费使用的，
+And as such, it's free
+
+185
+00:19:58,730 --> 00:20:06,210
+因此你可以使用这个开源软件许可并且你可以将此开源软件运用到你自己的源代码中。
+to use, so the lawyer or MIT said you can freely use this license, so you're allowed to use this license and apply it to your source code.
+
+186
+00:20:07,130 --> 00:20:16,210
+这是一个模板，你必须在此基础上修改，这样它才是真正的许可，在这个例子中需要填写版权状态。
+It is actually a template, because you have to modify it to become a real license, in this case to fill in the copyright state.
+
+187
+00:20:17,100 --> 00:20:24,460
+信或者不信，许多人从来没有费心写下年份和他们的名字，
+Believe it or not, many people never bother to put down the year and their name, or as they license out some.
+
+188
+00:20:25,840 --> 00:20:29,240
+所以你必须与版权所有者进行推断。
+And so you have to infer with the copyright holders.
+
+189
+00:20:31,560 --> 00:20:33,480
+所以从软件产品的角度来看的话，
+So from an artifact perspective,
+
+190
+00:20:34,350 --> 00:20:40,150
+对于软件许可中所涉及的义务的挑战中，每个软件开发者都喜欢权利的扩大。
+the challenges in the obligations, everyone likes the rights gland, the rights grand.
+
+191
+00:20:41,650 --> 00:20:43,410
+通常情况下对于软件许可中的禁忌操作，对你而言是没有问题的，
+Usually you have no problems with
+
+192
+00:20:44,760 --> 00:20:50,960
+MIT不会说对你这个开发者有好感，除非你有更好的理由解释软件许可中的禁忌操作与你的关系。
+the prohibitions, because they're not going to claim that MIT loves you unless you have good reason too.
+
+193
+00:20:51,740 --> 00:20:58,700
+免责声明也是很明显的，如果它是免费的，你就不能期待这个软件许可对你有任何的保证。
+And the disclaimer is also kind of obvious that if it's free, you can't expect any guarantees，
+
+194
+00:21:00,560 --> 00:21:03,520
+对于软件开发人员在义务方面的挑战，
+the challenges again, in the obligations,
+
+195
+00:21:04,910 --> 00:21:11,190
+某些软件学科所声明的义务看起来是很简单的，MIT许可声明了这些义务，
+some of these obligations are seemingly simple, and the MIT license the obligations
+
+196
+00:21:11,940 --> 00:21:19,300
+即你必须包含这些软件许可、许可通知的福报，
+that you must include in all copies of the so licensed code, this permission notice, the license.
+
+197
+00:21:20,610 --> 00:21:27,530
+与此同时应该包含软件版权这一行，这就是所谓的"归属"。
+And that includes the copyright line, so that's called attribution, um,
+
+198
+00:21:29,150 --> 00:21:37,670
+如果你使用的是MIT许可或一个不完整的软件版本，这是2个软件许可,这就是所谓的“许可”。
+If you're using MIT license code or a patchy software version, 2 license code, or any of these licenses, so called permissive licenses.
+
+199
+00:21:38,870 --> 00:21:45,590
+通常情况下你必须包含版权声明和所有完整的许可文本，包括免责声明。
+You usually have to include the copyright statement and all the full license text, including the disclaimers.
+
+200
+00:21:46,560 --> 00:21:54,840
+有时这些都是整齐地包装在一段文本中，有时也分布在源代码中，需要对这些声明以及许可文本进行仔细寻找。
+Sometimes that's all neatly packaged in one piece of text, sometimes it spread around the source code, and you've got a hunt and pack for it.
+
+201
+00:21:56,310 --> 00:21:56,750
+这些针对软件接受者的规定条款通常会被放在法律声明中，
+And these
+
+202
+00:21:58,540 --> 00:22:08,610
+所以你需要在你的脑海中有一个比较完整的两个步骤。
+provision of this texture information to your own recipients is usually put into the legal notices.
+So you need to have in your mind two-step.
+
+204
+00:22:09,950 --> 00:22:17,190
+比如，你现在恰巧是是别人的开放源码的接收者，你正要把它传递给第三方。
+You are the recipient right now of open source code from someone else, and you're passing it on to a third party.
+
+205
+00:22:18,160 --> 00:22:23,840
+你是处于中间的位置，要想把该开放源码传递给第三方，你要去履行相关义务，
+You in the middle, passing on to a third party, have to fulfill the obligations of
+
+206
+00:22:24,820 --> 00:22:34,060
+其中包括创建这些法律通知，包括归属、许可文本、税务免责等等。
+the original creator, including creating these legal notices, including attribution license texts, disclaimers, and so forth.
+ 
+207
+00:22:36,810 --> 00:22:39,530
+在这些义务中也是会有很多变化的，
+And there's a lot of variation in these obligations.
+
+208
+00:22:40,660 --> 00:22:46,700
+其中有一个特殊的义务阻碍了开源。
+There is one specific obligation that for the longest time, has held open source back.
+
+209
+00:22:48,080 --> 00:22:59,660
+因为某些开源的反对者认为这是在摧毁商业，这个特殊的义务就是著佐权条款。
+Because,
+foes of open source argued that
+it's trying to destroy commerce, and that is the copyleft clause.
+
+212
+00:23:00,940 --> 00:23:08,860
+因此包含著佐权条款的软件许可才能被称为著佐权许可，这是因为这个条款非常重要。 
+So licenses who have a copyleft clause are called copyleft licenses, because that clause is so important.
+
+213
+00:23:10,240 --> 00:23:17,480
+著佐权条款众所周知，但是这个这样说对于著佐权条款又不太公平，
+The copyleft clause is also known, not so fairly, but it is also known as
+
+214
+00:23:18,320 --> 00:23:27,160
+即著佐权条款被称为病毒条款或病毒许可。你作为中间人，你是持有代码许可的，
+A viral clause or a viral license, and what it means is that as you, that you, as an intermediary who takes
+
+215
+00:23:28,860 --> 00:23:36,660
+你可以在开源软件上进行操作，你可以修改它、增强它，并且可以将它传递给第三方。
+Code license to you under a copyleft license works on it, changes it, enhances it, and pass it on to the third party.
+
+216
+00:23:37,590 --> 00:23:43,950
+你只被允许这样做，所以你只有权使用原始的著佐权许可代码。
+That you are only allowed to do so you only have the rights to use the original copyleft license code.
+
+217
+00:23:44,500 --> 00:23:49,580
+如果你在相同的许可下通过了修改，
+If you pass on your modifications under that same license, meaning you cannot
+
+218
+00:23:50,330 --> 00:23:54,730
+这意味着你不能在你所修改后的开源软件中增加一个商业许可。
+put a commercial license onto your modifications of the whole work.
+
+219
+00:23:55,880 --> 00:24:00,240
+这里你可以看到与该过程相关的一个例子，  
+So here you can see the an illustration of how this plays out.
+
+220
+00:24:01,190 --> 00:24:07,070
+此处的‘P’字母即是'programmer'，一个最初的开源软件开发者，
+There's a P, programmer, an original open source developer who licenses out
+
+221
+00:24:07,850 --> 00:24:10,330
+其在一个开源软件许可下进行工作。
+his or her work under an open source license.
+
+222
+00:24:11,460 --> 00:24:17,140
+‘V’即是供应商，其可以使用组件或者开源代码作为商业产品的一部分。
+You, V, are the vendor who uses the component or the open source code as part of a commercial product.
+
+223
+00:24:18,980 --> 00:24:23,140
+所以开源代码只是你工作的一部分，你也可以做你自己的工作，
+So that open source code is just part of your work. You do your own work, too.
+
+224
+00:24:23,850 --> 00:24:27,330
+甚至你可以将不同的开源组件组合起来，
+And maybe even put together many different open source components.
+
+225
+00:24:28,040 --> 00:24:32,360
+然后你可以在一个商业许可下出售该组合服务,将其出售给消费者或者客户，
+And then you sell it on under a commercial license, or that's what you want to do,
+
+226
+00:24:33,160 --> 00:24:38,600
+或许这就是作为供应商的你所想要做的事情，所以你需要这个权利来做相关的工作。
+to a customer or a client, and so you need to have the rights to do that.
+
+227
+00:24:39,560 --> 00:24:41,400
+有关开源组件的规定条款，从'P'到'V',即从软件开发者到作为供应商的你。
+The provision of the
+
+228
+00:24:42,260 --> 00:24:46,460
+open source component, from P to V, from the programmer to you, the vendor.
+
+229
+00:24:47,020 --> 00:24:56,260
+它被称为原始的发行版，当你传递你产品的一部分时，即开放的源码，你这就是在重新发行它。
+It's called the original distribution, and as you pass on as part of your product, the open source code, you are redistributing it.
+
+230
+00:24:56,990 --> 00:25:04,070
+这不仅仅是产品或者说开源代码的分发，
+And that's not just distributing it. Now if the license of the original
+
+231
+00:25:05,320 --> 00:25:10,400
+现在的源码许可也可以被称为许可，然后你可以将其与你自己的代码进行混合、组合，
+code is also a so called permissive license. Then you can mix and match
+
+232
+00:25:10,320 --> 00:25:17,400
+并在源码的基础上的放置一个商业的、专有的许可。
+your own code with it and put a commercial, proprietary license on it.
+
+233
+00:25:18,130 --> 00:25:23,170
+因此，当你必须履行MIT许可所规定的义务时， 
+And hence, while you have to fulfill the obligations of the MIT license, so，
+
+234
+00:25:24,170 --> 00:25:29,610
+比如说归属，许可文本，免责声明等等。
+Attribution, so provision of attribution, license  text and so forth, disclaimer.
+
+235
+00:25:30,600 --> 00:25:35,610
+但是你仍然可以在你的商业许可下售卖合并后的更改后的工作，
+Um, you can still sell
+the combined work
+
+237
+00:25:36,330 --> 00:25:44,170
+你必须在你的法律声明中满足MIT许可所规定的义务。
+under your commercial license, you just have to provide in your legal notices things that fulfill the MIT license obligations.
+
+238
+00:25:45,270 --> 00:25:51,070
+但是，如果原程序员的许可是一个著佐权许可， 
+If however, the license of the original programmer is a copyleft license.
+
+239
+00:25:52,160 --> 00:26:01,710
+那么著佐权条款住允许你合法有效地传递你自己的通知或者衍生作品。
+Then the copyleft clause requires that you can only, only legally validly pass on
+your own notifications or a
+
+241
+00:26:04,160 --> 00:26:11,880
+如果该原程序员的许可是在相同通许可下的，就像你所收到的代码许可那样。
+derived work, if it is under the same license, like that code, yet that you received. So,
+
+242
+00:26:12,790 --> 00:26:17,150
+所以这就是为什么将‘著佐权许可’成为‘病毒许可’的原因，因为原始许可可以继续传播。
+that's why they call it a viral license. The original license keeps propagating.
+
+243
+00:26:18,410 --> 00:26:24,250
+因为供应商不喜欢这样，他们希望在自己的商业许可下销售产品，并且客户必须为此付费。
+And because vendors don't like that, they want to sell a product under their own commercial licenses for which customers have to pay.
+
+244
+00:26:25,230 --> 00:26:29,350
+商业赢家几乎完全避免著佐权许可，
+Winners avoid copyleft licensed code almost entirely.
+
+245
+00:26:30,630 --> 00:26:38,230
+虽然在某些业务模式下著佐权许可是不能起作用的，但是总的来说，
+Not always the business models where it can work, but in general, most vendors will simply say it's not acceptable to use
+
+246
+00:26:38,850 --> 00:26:41,250
+大多数供应商拒绝在他们的产品中使用著佐权许可，
+copyleft license code in their products.
+
+247
+00:26:43,480 --> 00:26:50,160
+这在很长一段时间内都是一个真正的挑战。
+And that was a real challenge for the longest time, because the GNU public license and
+
+248
+00:26:51,790 --> 00:26:58,470
+对于GNU公共许可2.0版本，它是开源软件中占主导地位的许可。
+its version 2, at least, was long the dominant license by developers of open source software.
+
+249
+00:27:00,360 --> 00:27:05,920
+因为它是最早的许可，因此它是第一选择。之后Linux Kernel选择了GNU许可，
+Probably because it was the earliest license here, it was the first choice. And then the Linux kernel chose it and hence
+
+250
+00:27:06,550 --> 00:27:09,230
+因此使用该许可的时候可能会考虑如果使用了该许可，会不会出现什么问题。
+people thought what can go wrong if I use that license.
+
+251 
+00:27:10,460 --> 00:27:16,060
+随着时间的推移，这种情况已经发生了改变，
+Over time, that has changed, though, and the GPL version 2.0 still has a high market share.
+
+252
+00:27:16,670 --> 00:27:23,270
+但是GPL2.0仍占据较高的市场份额。随着旧软件、新软件以及开源软件项目的不断增长，
+But it's increasingly the old software and newer software, new open source software project,
+
+253
+00:27:24,270 --> 00:27:31,310
+尤其是许可声明，以及其他的许可或者相对简单的MIT许可也是在不断增长的。
+permissively licensed in particular, and other very simple or comparatively simple MIT license.
+
+254
+00:27:32,560 --> 00:27:38,440
+观察右侧的第二个和第三个，你也可以看到Apache许可，
+And you can see number two and three on the right side, the Apache license as well,
+
+255
+00:27:39,260 --> 00:27:51,310
+如果你在自己的商业软件中放置了相关组件，你无需公开你对源代码的所做的修改。
+both permissive licenses that don't require
+you to lay open your own modifications to the source code If you put some open source components into your commercial product.
+
+257
+00:27:53,570 --> 00:27:58,090
+这是一个很深奥的话题，在这里我就不多讲了。
+This is a deep topic, I will not go too much into it.
+
+258
+00:27:58,790 --> 00:28:04,710
+大约有50到80个许可，或者说是最初的开源软件许可模版。
+But there are 50 to 80 licenses, or original open source license templates.
+
+259
+00:28:05,630 --> 00:28:14,070
+这些许可模板有5000种商业上相关的变体，因为人们可能篡改了相关文本，
+There are 5000 variations that are commercially relevant of these license templates, because people fiddled with the text,
+
+260
+00:28:15,130 --> 00:28:22,450
+你所要知道的就是你需要尽可能理解如何在你的产品中使用开放的源码。
+all of which you need to understand as you possibly use open source code in your products. Here You can see how
+
+261
+00:28:23,690 --> 00:28:32,810
+在这里你将看到某些许可之间是兼容的，但某些许可之间是不兼容的。
+some licenses interact or are compatible with each other or are incompatible. The most well known incompatibility is between the popular Apache2.0
+
+262
+00:28:33,560 --> 00:28:41,760
+最为大家所熟知的许可不兼容就是Apache2.0与GPL2.0及其之后的版本了，这就是专门的原因，
+and GPL2.0 or later licenses, I will leave that to dedicated causes, because it's
+
+263
+00:28:42,760 --> 00:28:46,560
+ 有很多棘手但丰富的话题可以讨论。
+tricky and detail-rich topic, to be discussed separately.
+
+264
+00:28:52,280 --> 00:29:08,770
+目前来看，没有软件公司或者初创公司能够真地不使用开源软件，
+So then, um,
+No company
+and certainly no startup these days
+in the software space, no software startup can really not use open source software.
+
+268
+00:29:09,660 --> 00:29:16,780
+这需要从头构建所有东西，或者从闭源供应商那儿购买许可证一次来构建自己的产品。
+It would be crazy to build everything from scratch, or purchase licenses from closed source vendors to build your product.
+
+269
+00:29:18,370 --> 00:29:23,930
+所有开源创业公司，商业创业公司，不管开源与否，
+All open source startups, commercial startups, whether open source or not,
+
+270
+00:29:24,690 --> 00:29:27,810
+这些公司通常将构建在开源技术系统上。
+will usually build on an open source technology stack.
+
+271
+00:29:28,430 --> 00:29:30,910
+看看一般的网站，
+You look at the average website out there.
+
+272
+00:29:31,720 --> 00:29:38,280
+它有95%是开源的 然后在开源技术系统上有一些商业代码。
+It's 95% open source, and then a thin layer of veneer of commercial code on top of it.
+
+273
+00:29:39,420 --> 00:29:47,580
+因此，开源使得初创公司得以诞生，大大减少了创建软件初创公司的障碍。
+So open source makes startups happen, has significantly reduced the barriers to creating a software startup.
+
+274
+00:29:48,410 --> 00:29:51,610
+这很好，但是于此同时它也是带来了很多的问题，
+And that's good, but it also comes with problems.
+
+275
+00:29:52,680 --> 00:30:05,260
+比如需要服从开源源码的所有义务。
+The problems are to be compliant and to be compliant with the
+obligations of all the open source code that you are using.
+
+277
+00:30:07,280 --> 00:30:14,240
+从我们刚才关于开源许可所对应的义务的讨论中，  
+So from the discussion we just had about license obligations, you may think that the problem is in 
+
+278
+00:30:15,390 --> 00:30:17,670
+你可能认为问题就是避免著佐权许可的代码。
+avoiding copyleft licensed code.
+
+279
+00:30:19,650 --> 00:30:22,170
+这确实是一个问题，但这并不是主要问题。
+That is a problem, but it's actually not the main problem.
+
+280
+00:30:23,610 --> 00:30:28,970
+通过培养开发者不要使用著佐权许可的代码，
+You can avoid copyleft license code by educating your developers that they should not
+
+281
+00:30:29,890 --> 00:30:36,930
+比如，不要从StackOverflow复制代码等，这样你就可以避免著佐权许可的使用。
+use so licensed code, which includes a lot of things, for example, not copying from stack overflow.
+
+282
+00:30:38,100 --> 00:30:45,980
+你可以教给人们这些，希望他们会遵守，这样你就可以保证你的产品独立于著佐权许可。
+And you can teach people that, and then hopefully they will comply with that, and you will keep your product copyleft licensed free.
+
+283
+00:30:47,570 --> 00:30:54,690 
+这个问题实际上是另一个问题，即开源软件的巨大复杂性。 
+The problem is actually a different one, which is the large complexity of open source software that you are including.
+
+284
+00:30:55,770 --> 00:30:58,530
+因为依赖关系图，
+Because of the dependency graph,
+
+285
+00:30:59,750 --> 00:31:08,270
+在这儿你可以阐明，比如你有一个产品，那就是你的代码，它处于大量开放源码的基础上。
+so here you can see it illustrated, you have a product, that's your code, which sits, which sits on top, a large amount of open source code.
+
+286
+00:31:09,170 --> 00:31:19,280
+所以你可以直接包含有价值的、高质量的、开源的UI库或数据库组件，以及你所拥有的其他组件。
+Um, so you directly
+include valuable, quality, open source components for a UI library or for a database what have you.
+
+288
+00:31:19,990 --> 00:31:23,550
+所以，你知道自己在做什么？这是第一行，
+And so you know what you're doing, so that's tier 1 here.
+
+289
+00:31:24,740 --> 00:31:33,460
+你也可以从某人那里许可一个闭源代码组件 因为没有可用的开源组件来为你完成这项工作。
+You may also license a closed source component from someone, maybe, because there's no open source component available that does the job for you.
+
+290
+00:31:34,740 --> 00:31:36,820
+你也知道那个闭源组件，  
+And you also know about that closed source component.
+
+291
+00:31:38,760 --> 00:31:40,240
+这样你就需要深入挖掘了，
+You have to dig in, though,
+
+292
+00:31:41,350 --> 00:31:49,710
+以此来了解开源组件以及实际上依赖于自己的开源组件。
+to learn what those open source components and closed source components actually depend on themselves.
+
+293
+00:31:51,420 --> 00:31:56,220
+所以依赖关系不仅仅是依赖的第一层关系，
+So the dependencies are not just your first layer of the dependencies.
+
+294
+00:31:57,400 --> 00:31:59,840
+你的代码声明在所创建好的文件中。
+Your code declares in its built files.
+
+295
+00:32:00,570 --> 00:32:08,250
+现在所展示的这个依赖关系是一个图，依赖关系越来越复杂，包含越来越多的组件。
+Now the dependencies are a whole graph, are going into much depth, including more and more and more components.
+
+296
+00:32:10,200 --> 00:32:14,040
+这不是字面意思，而是一个比喻，
+It's literally not so literally, it's metaphorically,
+
+297
+00:32:15,860 --> 00:32:22,660
+打个比方来说，我们进行一个类比，冰山的很大一部分是在水面以下的。
+analogically, let's think it's an analogy, um, the iceberg with a big part under the waterline.
+
+298
+00:32:23,480 --> 00:32:27,400
+你的产品有自己的组件，这些组件可能还会包含一些子组件，
+Your product has its components, you include components which have sub components
+
+299
+00:32:28,130 --> 00:32:35,570
+你的组件可能会引用其他的组件，这样就会包含上百个组件甚至上千个组件，组件会失去控制。
+and reference other components, and it quickly gets out of hands and that you have hundreds, if not thousands of other
+
+300
+00:32:37,210 --> 00:32:44,010
+其中这些组件是由不同的人所提供的并包含在你的产品中，你最终会将其卖给消费者。
+open source components by different people that become included in your product that you sell to customers.
+
+301
+00:32:45,570 --> 00:32:46,250
+那么这样会有什么问题吗？ 
+Why is that a problem?
+
+302
+00:32:47,610 --> 00:32:54,570
+是的，你必须遵守你所使用的每个开放源码的许可，
+Well, you have to comply with the license of every piece of open source code that you're using.
+
+303
+00:32:56,150 --> 00:33:03,410
+因此你必须能够识别这张图片，你需要了解每一个组件。
+And you therefore have to identify this full graph,
+know every single component.
+
+305
+00:33:04,270 --> 00:33:12,430
+对于每一个组件，你都需要了解其许可，有时一个组件可能伴随着多个许可。
+And for every single component, understand the license, and sometimes multiple licenses that the component is
+
+306
+00:33:13,430 --> 00:33:17,030
+有趣的是， 
+coming with. And interestingly enough,
+
+307
+00:33:18,950 --> 00:33:26,830
+其中最讨厌的部分，也是最困难的部分，就是没有关于其著佐权的任何说明。通常情况下这是归属条款，
+the annoying part, and the hard work is again, nothing about its copyleft. It is often the attribution clause, attribution
+
+308
+00:33:28,940 --> 00:33:32,420
+ 如果你记得很清楚的话，这就是版权声明。
+if you may remember, is that copyright statement.
+
+309
+00:33:33,030 --> 00:33:39,310
+对于每个版权声明，你必须在整个依赖关系图找到相关的版权说明，
+So for every copyright statement, in that whole component dependency graph.
+
+310
+00:33:40,160 --> 00:33:45,280
+你必须将各个组件对应的版权声明放到你的法律声明中。
+You have to find it, and you have to put it into your legal notices next to all the licensed texts.
+
+311
+00:33:47,340 --> 00:33:53,260
+如果你想了解这是多少工作，    
+And if you want to know how much work that is, because these copyright statements may hide
+
+312
+00:33:54,750 --> 00:33:56,190
+因为这些版权声明可能会隐藏在你所使用代码的任何位置。
+anywhere in the code you're using.
+
+313
+00:33:57,240 --> 00:34:02,080
+你甚至可能没有使用源代码，你甚至也没有可能从头构建。
+Um, and you may not even be using source code, you may not even be building from scratch. You may be
+
+314
+00:34:02,770 --> 00:34:07,850
+你所使用的开源带代码或者开源软件可能包含二进制文件，你
+including binaries, so then you have to look at the source code behind those binaries that you download from 
+
+315
+00:34:09,130 --> 00:34:16,370
+你必须查看这些二进制文件背后的源码，然后寻找版权声明。如果你想了解一下工作量有多大，
+
+the web and look at the source code and identify the copyright statements, if you want to get a feeling for how much work that is,
+
+316
+00:34:17,740 --> 00:34:27,560
+你可以使用你的安卓手机或者第三方许可系统，
+open up your, uh, your, android, um,
+Mobile phone and go to third-party licenses under system.
+
+318
+00:34:29,410 --> 00:34:33,400
+你将会发现针对各个组件的法律声明，
+There you will find
+the legal notices for
+
+320
+00:34:34,610 --> 00:34:42,770
+从供应商的角度来看，这个法律声明包含了一个开源软件，开源组件，
+third parties, which includes open source software from a vendor perspective, an open source component, is and indeed should be treated
+
+321
+00:34:43,580 --> 00:34:46,300
+它应该被作为一个第三方组件进行对待。
+as a third party. And,
+
+322
+00:34:47,750 --> 00:34:55,670
+有关这个工作，谷歌公司就做得很好，你可以获得所有不同组件的一个列表或者索引。
+Google here does it pretty well. You get an list or an index into all the different components.
+
+323
+00:34:56,530 --> 00:34:58,530
+另一半的组件在安卓生态中。
+That half being included in android.
+
+324
+00:34:59,470 --> 00:35:04,390
+对于每个组件，都有需要开发者或者说使用者需要履行的许可义务。
+And for each component, there are the license obligations being fulfilled.
+
+325
+00:35:05,180 --> 00:35:11,780
+我在这里再描述一下，法律声明也就意味着版权声明，也意味着许可文档以及其他。
+As far as this is possible to the Express, as legal notices, meaning the copyright statement, the license text and so forth.
+
+326
+00:35:13,280 --> 00:35:15,720
+你可以滚动一下这个列表，
+Um, scroll through that list,
+
+327
+00:35:16,670 --> 00:35:20,110
+你将不能很快地滚动结束，因为这是一个很长的列表。
+You will not finish scrolling quickly, and it's a long list.
+
+328
+00:35:20,880 --> 00:35:29,400
+如果你想与所有的开源代码保持兼容，需要编辑列表。这些开源代码是你正在使用的，
+And compiling that list is a must if you want to be legally compliant with all the open source code you're using and can take a lot of time, therefore.
+
+329
+00:35:30,330 --> 00:35:35,970
+我们会很容易忽略一些问题，如果你想在法律角度保持正确，
+And it's easy to overlooks something. Now how is that a problem, well, you,
+
+330
+00:35:37,390 --> 00:35:41,950
+那么这将会是一个问题，但是呢，你可能会说，
+it's a problem if you want to be legally correct, but maybe you are saying, whatever.
+
+331
+00:35:42,850 --> 00:35:45,770
+随便吧，我是一个学生，没有人去起诉我的。
+No student, so nobody is suing me, doesn't matter.
+
+332
+00:35:46,300 --> 00:35:52,540
+但是，也有人可能会起诉你，然后这就变成了一个商业风险决策。  在
+Well, there are people out there who are suing you, and then it becomes a business risk decision.
+
+333
+00:35:53,580 --> 00:36:00,140
+所以你应该遵守所有的软件许可，如果你犯了错误，
+So you should obviously comply with all the licenses. If you make a mistake, what's the
+
+334
+00:36:00,920 --> 00:36:04,160
+你就会承担着被发现的风险，这样的话某些人可能会起诉你。
+risk of discovery by someone who might sue you for it.
+
+335
+00:36:05,230 --> 00:36:10,710
+消费者和企业的角度来看，这个风险可能会更高，因为消费者多是开源的爱好者，
+Well, it's higher in the consumer space and in the enterprise space, because consumers might be
+
+336
+00:36:11,800 --> 00:36:19,520
+相比于高价的产品他们更愿意追求高风险但是便宜的开源代码，因为你需要得到这个开源软件。
+more open source enthusiasts, low price, has a higher risk than high price, because you need to get your hands on the software.
+
+337
+00:36:20,270 --> 00:36:24,630
+一个设备包含了某些软件或者说组件，这些软件应该是具有法律声明的。 
+Or say a device which includes the software which then should have the legal notices.
+
+338
+00:36:25,650 --> 00:36:30,530
+如果该软件是嵌入式的，那么人们就可以更容易地访问它，而不是一个在云上的软件服务。
+If it's embedded, it's more easily accessible to people, rather than if it's in the cloud.
+
+339
+00:36:31,540 --> 00:36:36,900
+并且，即使是一个网络服务，其著佐权也是有很多副本的，
+And just the service over the web, and of course, a copyleft license has those extra,
+
+340
+00:36:38,230 --> 00:36:49,760
+但是也带来了额外的挑战，因为被授予著佐权许可的这些人更喜欢使用自己的权利。
+extra challenges, because people who license out under a copyleft license are often more interested in
+enforcing their rights than other people.
+
+342
+00:36:51,480 --> 00:36:58,960
+所以你必须考虑你的具体情况，以此来评估任何可能违反许可可能会被发现的风险，
+So you have to look at your specific situation and assess the risk of discovery of any license violation.
+
+343
+00:36:59,870 --> 00:37:02,750
+然后你就可以具体做些关于开源软件的工作了。
+And then you can decide how to go about it.
+
+344
+00:37:06,680 --> 00:37:08,000
+不过，具体来看，
+Better yet, then, though,
+
+345
+00:37:08,920 --> 00:37:15,000
+与其在时候解决问题倒不如将其扼杀在摇篮中。
+then fixing problems after the fact is to make sure they don't occur in the first place.
+
+346
+00:37:15,860 --> 00:37:16,980
+所以，如果你是一个软件供应商， 
+So if you're a software vendor,
+
+347
+00:37:18,210 --> 00:37:25,370
+你应该要有一个开源办公室，
+these days you should have a so called open source program office, or someone who is responsible for
+
+348
+00:37:26,110 --> 00:37:32,190
+然后有人专门负责你软件产品中的开源管理，这就是所谓的开源治理领域。
+managing open source in your products, and that's the so called domain of open source governance.
+
+349
+00:37:34,070 --> 00:37:39,590
+所做的工作具体就是治理，实践，
+Governances, the set of processes and practices, etc, that you used to
+
+350
+00:37:40,580 --> 00:37:48,740
+然后你要去管理社会系统，然后进行开源的管理。在这个过程中，
+manage a social system, and then open source governance and companies is that set of processes for the purposes of
+
+351
+00:37:49,960 --> 00:37:56,520
+公司就是为产品选择合适组件的一系列流程的集合，其会管理因引入开源组件而带来的一些依赖问题。
+selecting components for use in products, managing the introduced dependency on their open source component
+
+352
+00:37:57,690 --> 00:38:04,730
+在这里，我提供了两个有关治理规则的说明文档，
+and so forth. I provide two examples of documents that spell out governance rules.
+
+353
+00:38:06,070 --> 00:38:08,950
+加州大学就有这样一份文档，
+The University of California has one such document.
+
+354
+00:38:10,300 --> 00:38:17,740
+它主要是关注专利，我在这里提及这份文档主要是因为它是非常有趣的。
+It's heavily focused on patents, though, and so I think I'm providing it here because it's interesting.
+
+355
+00:38:19,170 --> 00:38:24,770
+但是，我自己的研究小组，我们的管理学院所整理的文档会更加的务实一些。   
+But uh, my own research groups, our governance schools, are a bit more pragmatic, if you will.
+
+356
+00:38:25,470 --> 00:38:30,430
+从工程师的角度来看，我提出了自己的管理理念。
+Looking at it from an engineer s perspective. So I provide my own governance awards.
+
+357
+00:38:31,770 --> 00:38:40,450
+这是一个简短的总结，如果你不了解代码许可，那么你不要使用它。
+Here's a quick summary, um, first of all, if you don't know the license of some code, don't use it.
+
+358
+00:38:41,610 --> 00:38:43,930
+对于Github上的代码，
+Just because there's code on GitHub.
+
+359
+00:38:45,040 --> 00:38:50,320
+并不意味着就可以免费使用它。事实上，Github上的代码如果没有任何的许可声明，
+Doesn't mean it's free to use. In fact, if there's no license for that code on GitHub.
+
+360
+00:38:51,210 --> 00:38:59,250
+然后对于它的专有代码你就没有使用权限，这个软件权限的持有者的排外权限开始生效。
+Then its' proprietary code, you do not have any usage rights, the exclusion rights of the copyright holder kick in.
+ 
+361
+00:39:01,000 --> 00:39:09,240
+不要去复制源代码，这就是著佐权许可，这也是在大多数公司中的一个基本的管理准则，
+Do not copy source code. That's copyleft license, there's a common governance rule in most companies, because nobody wants that
+
+362
+00:39:10,310 --> 00:39:14,950
+没有人想要代码中的著佐权许可，
+a copyleft license in that code, because they don't want their own product to
+
+363
+00:39:16,070 --> 00:39:21,110
+因为这样可能会使得公司自己的产品失去灵活性。
+lose the licensing flexibility for their own product. And,
+
+364
+00:39:22,360 --> 00:39:27,040
+因此，你需要理解著佐权。对于来自GPL2.0的代码，    
+for that, you need to understand the copyleft license. Code comes from that would obviously be
+
+365
+00:39:27,830 --> 00:39:35,310
+而不是来自StackOverflow的代码，如果是来自StackOverflow的代码，很多人就会忽略某些问题。
+GPL2.0 license code, but stack Overflow, for example, if there is code on Stack Overflow, most people ignore that.
+
+366
+00:39:35,860 --> 00:39:41,980
+但是在StackOverflow上的代码，这个代码是符合著佐权许可的，所以你不能使用在产品中。
+But code on Stack Overflow, copyleft licensed, so you can't actually use that in your product or if you do,
+
+367 
+00:39:43,230 --> 00:39:50,510
+如果你在你自己的产品中使用这个代码了，那么你必须遵从某些繁琐的许可。
+you have to comply with pretty cumbersome Creative Commons Sharing like license, I think.
+
+368
+00:39:52,200 --> 00:39:58,170
+不要在你的产品中复制和粘贴相关开源代码，这会是你的产品失去相关的灵活性与血统。  
+Do not copy and paste without and lose, lose lineage, etc.
+
+
+370
+00:39:59,290 --> 00:40:03,410
+你通常应该做的就是使用许可组件，
+What you should do is usually use permissively licensed components.
+
+371
+00:40:04,740 --> 00:40:21,680
+所以这个规则应该是，一个开源办公室应该将你的开发者与相关否定者分隔开来，
+So the rules, an open source program office should give its developers, is that you basically have, um,
+your allow list, separately from your denial list. And then some sort of must ask
+
+373
+00:40:22,520 --> 00:40:26,200
+这样就会有一些问题，比如在开源代码的使用方面就会有一些迟疑。
+list where it's not clear whether it's allowed right away.
+
+374
+00:40:27,730 --> 00:40:34,610
+通常情况下公司有限制，如果该开源代码来自Apache并获得了许可，那么这个代码就是可以使用的。
+Usually companies are restrictive, so if it's Apache licensed and from the Apache website, then it's OK.
+
+375
+00:40:35,540 --> 00:40:41,260
+但是如果该开源代码符合Apache许可，但是该段代码来自Github网站，那么使用就有问题。
+But if it's a Apache license, and from github, it may not be okay, because you just don't know what people do on github.
+
+376
+00:40:42,010 --> 00:40:50,450
+代码在外部获得Apache许可，不意味着内部也获得了Apache许可。没人担保Github上的代码。
+Just because it says apache on the outside doesn't mean it's got a Apache on the inside. So no, nobody ensures that on github.
+
+377
+00:40:51,030 --> 00:40:59,830
+所以说，Github可能会导致一些问题，除非该段代码有某个公司管理, 从而了解代码。
+So GitHub in general is a problem, unless the repository is governed and managed by a company that knows what it's doing.
+
+378
+00:41:02,080 --> 00:41:05,000
+这就是我们小组对于相关开源代码的管理、使用的一个概述，大家可以看到， 
+So here's an overview of how it could look like, um,
+
+379
+00:41:06,400 --> 00:41:15,320
+这是非常直接的，基于我们研究小组的管理规则，为对不同的项目实现区分，
+This is straightforward, from my own research groups governance rules, distinguish so name specific projects, if they are common, put them into a local
+
+380
+00:41:16,240 --> 00:41:21,840
+那么需要把这些项目放到仓库中。你可以编辑一个列表，列出相关子软件许可等，
+Repository. You can allow list, uh, sub licenses  and some sources.
+
+381
+00:41:22,970 --> 00:41:32,670
+但还是你需要明确出那些资源是使用不便的。
+But also clearly identify which sources are not okay.
+
+383
+00:41:34,220 --> 00:41:37,100
+所以说，如果基于某些好的因素，你的产品使用了开源资源，   
+So now that you're using open source in your products
+
+384
+00:41:38,190 --> 00:41:45,270
+并且没有开源软件供应商的干扰，你就可以根据自己的需要修改问题。
+for good reasons, because it's high quality software for no vendor login, you can modify as needed and fix the problems
+
+385
+00:41:46,120 --> 00:41:52,520
+你也可能会遇到这样的问题，使用开源软件会有什么缺点吗？
+yourself, you might encounter question is, there any downsides to using open source software.
+
+386
+00:41:53,750 --> 00:41:55,670
+毫无疑问，当然有。
+And sure enough, there are.
+
+387
+00:41:57,120 --> 00:42:01,240
+在我们即将开始讨论的时候，
+So when we discussed, you need to be very clean
+
+388
+00:42:02,330 --> 00:42:07,450
+你之前可以对知识产权的相关规则毫无了解。但是呢，你必须要遵守相关的许可。
+about the intellectual property rules. Well, make sure you comply with the license.
+
+389
+00:42:09,920 --> 00:42:17,200
+此外，你还需要注意因引用开源组件而引入的安全问题，
+Also, you need to watch out for any security vulnerability introduced by an open source component.
+
+390
+00:42:18,780 --> 00:42:25,700
+你可能会想，好吧，这是一个第三方软件，这是一个闭源的软件，使用起来可能有安全问题。
+You may think, well, it's a third party, closed source software, there might be security problems too.
+
+391
+00:42:26,620 --> 00:42:32,220
+这也给开源带来了挑战，这可能会导致一些问题，  
+Well, the challenge with open source, on top of that, there simply might be problems, is that.
+
+392
+00:42:33,040 --> 00:42:37,690
+这些漏洞可能会为公众所熟知，
+well,
+these vulnerabilities become publicly known
+
+394
+00:42:38,460 --> 00:42:44,460
+如果某些人发现你在使用相关的组件，他们可能会基于这些漏洞来对付你。
+and if someone can find out that you're using these components, they will, you can possibly use it against you.
+
+395
+00:42:45,380 --> 00:42:49,580
+为什么他们会发现你正在使用这个包含一定安全漏洞的组件呢？  
+And why might they find out that you are using sad component.
+
+396
+00:42:51,640 --> 00:42:57,360
+是这样的，如果你遵守了该软件许可，那么在相关法律声明中就会明确指出你正在使用该组件。
+Well, if you're complying with the license, it says so straight in the legal notices that you're using this component.
+
+397
+00:42:59,360 --> 00:43:02,320
+并且，直到最后，如果你依赖于开源组件，
+Finally, if you're depending on an open source component.
+
+398
+00:43:03,680 --> 00:43:10,420
+那么你就有了技术上的依赖，你要小心此类情况的发生。
+Um, then you have a technical dependency, so you need to make sure that
+the come, the
+
+400
+00:43:11,350 --> 00:43:17,190
+因为该开源项目可能会偏向其他的发展方向，
+Open source project supporting the software doesn't suddenly take a left turn on a right turn.
+
+401
+00:43:17,930 --> 00:43:21,330
+开源软件就会以这种方式变化，这样的话该开源软件可能就对你毫无用处了。
+And the software changes in such a way that it becomes unusable to you.
+
+402
+00:43:23,770 --> 00:43:28,890
+当然，如果你要在此开源软件的基础上上建立业务的话，这都是一些基本的问题，  
+These are fundamental problems, if you are building a business on top of it.
+
+403
+00:43:29,720 --> 00:43:35,320
+你需要确保自己能够访问源代码。
+You also need to make sure that you actually can keep access to the source code.
+
+404
+00:43:36,110 --> 00:43:39,470
+这样的话，如果你依赖于某些开源项目，那么没人能突然地撤去商标，
+That nobody can suddenly pull away trademarks, if you rely on them.
+
+405
+00:43:40,390 --> 00:43:48,950
+因为每个人都知道你不会同意，这样它们便不能获取专利认可了。
+And nobody has any patent rights in the software that are unknown to you that you might not agree to or might not get a patent license too.
+
+406
+00:43:51,520 --> 00:43:56,070
+这一切都需要流程，
+So um.
+You need processes for all of this, um,
+
+408
+00:43:57,150 --> 00:44:04,190
+Eclipse基金会就有很好的管理流程，你需要确保你自己的知识产权。
+The Eclipse Foundation has a nice governance process, and you need to ensure that your own intellectual property.
+
+409
+00:44:05,320 --> 00:44:11,760
+因为它建立在开源软件之上，所以在此我仅仅在开源管理流程下讨论这个话题。
+As it builds on the open source software remains clean. And I just discussed this under
+
+410
+00:44:13,120 --> 00:44:20,440
+目前来看，安全漏洞的存在是相当普遍的， 
+the open source governance processes. Security vulnerabilities are quite prevalent, quite
+
+411
+00:44:22,520 --> 00:44:22,640
+strong.
+
+412
+00:44:24,150 --> 00:44:26,110
+这是来自一个网站的截图，
+Here's a screenshot from a website provided by 
+
+413
+00:44:27,200 --> 00:44:35,560
+在该网站上有很多代码被下载，
+Sonar type provider of Maven Central, where lots of code gets downloaded all the time, because people download
+
+414
+00:44:36,650 --> 00:44:44,330
+但是有时候人们可能会下载一个带有安全漏洞的老版本的二进制文件。
+binaries, and they sometimes download old versions of binaries with known vulnerabilities. So,
+
+415
+00:44:45,490 --> 00:44:59,150
+可以观察下载来了解究竟有多少包含缺陷或者安全漏洞的软件被下载，这里就是1和8。
+Sonar type can
+
+measure by looking at the downloads how often
+faulty of honorable components are
+downloaded. It's one and eight.
+
+419
+00:45:00,040 --> 00:45:08,320
+那么这样看来，1/8的开源软组件的下载是包含了安全漏洞的，所以这是相当真实的。
+Here, 1/8 open source component downloads contain a known security vulnerability, so this is quite quite real.
+
+420
+00:45:11,300 --> 00:45:19,860
+如果你下载了错误的项目，比如包含安全漏洞的项目，可能有的人会有不好的商业意图，
+And then if you choose the wrong project, um, and for example, someone has commercial intentions with it.
+
+421
+00:45:20,800 --> 00:45:27,340
+比如基于安全漏洞对你发难，这样你就会陷入困境。
+And may uh try
+to lock you in and they try to upsell you. Then you might be
+
+423
+00:45:28,250 --> 00:45:37,970
+这里有几个例子，因原始供应商的愿意此类情况确实发生了。 
+in trouble. Here are a couple of examples of where,
+
+424
+00:45:33,370 --> 00:45:37,970
+this happened and actually went wrong for the original vendor.
+
+425
+00:45:38,810 --> 00:45:42,170
+Twiki是一个开源版本的wiki，
+So Twiki is an open source wiki.
+
+426
+00:45:43,090 --> 00:45:48,330
+当社区或者开发者想将其商业化的时候，它让失去十分生气，它转向成为了FOSWIKI。
+And when they tried to commercialize it, it so upset the community that it forked to FOSWIKI.
+
+427
+00:45:49,470 --> 00:45:53,670
+同样的事情也发生在Nagios上，一个数据中心的监控工具，  
+Same thing happened with Nagios, the data center a monitoring, monitoring tool.
+
+428
+00:45:54,470 --> 00:46:04,230
+当它对需求修改迟疑的时候，一个Nagois的新的分支得到发展，
+When they became so slow to react to
+change requests. A single was forked from Nagios and has been redeveloped from the ground now.
+
+430
+00:46:05,490 --> 00:46:11,570
+并且该分支对应的项目给予一个开源商业公司得到的了发展，这是另一个例子。
+It's a Nuremberg based commercial open source startup by Singer, and so that is another example.
+
+431
+00:46:12,290 --> 00:46:17,250
+最后，另一个例子就是owncloud的nextcloud的分支， 
+And finally, another neuronberg example is the nextcloud fork of own cloud.
+
+432
+00:46:18,320 --> 00:46:24,400
+正是因为人们在owncloud上的工作出现了分歧，所以才促使了nextcloud的诞生，
+There was disagreement between people working on own cloud, they spun off next cloud
+
+433
+00:46:25,480 --> 00:46:27,520
+目前两者均在市场上竞争。
+both are competing in the marketplace now.
+
+434
+00:46:34,410 --> 00:46:40,770
+基于这些例子，我所要探讨的就是，  
+With that, um, we want to, I want to take a look at how
+
+435
+00:46:42,990 --> 00:46:50,990
+开源软件是在哪些方面帮助了你，你将开源软件应用到你的产品中，
+open source software is useful to you as you are including it in your products, but also as
+
+436
+00:46:52,900 --> 00:47:04,940
+你使得产品成为开源软件。你可以使用普遍的控制和转向机制来对你的产品获取控制权，
+
+how you might make your product available as open source. You can maintain control using um,
+well known control and steering mechanisms.
+
+438
+00:47:06,090 --> 00:47:14,410
+所以你需要意识到，在这个阶段，实际上是有两个角度来看待问题的。其中一个就是
+So you need to realize that at this stage, really there are really two perspectives here. One is the perspective of
+
+439
+00:47:15,900 --> 00:47:25,180
+从开源组件供应商的角度，这个开源供应商可以是一个商业的、开源公司或者是一个之前的供应商。
+any vendor
+using open source components in its products, so that can be a commercial, open source startup or an established vendor.
+
+441
+00:47:27,840 --> 00:47:31,000
+或者说，你是一个商业的开源公司，
+Or if you're a commercial, open source startup, specifically.
+
+442
+00:47:32,300 --> 00:47:41,060
+你使得你的产品可用，在开源许可下你自己的知识产权是可获得的，并且你还有一定的商业意图。
+And you made your product available, your own intellectual property available under open source license, and you have commercial intentions.
+
+443
+00:47:41,780 --> 00:47:48,900
+你可能想要定义人们可以用它做什么，或许考虑人们在使用它的过程中存在什么限制。   
+You may want to define what people can do with it and possibly restrict that.
+
+444
+00:47:49,780 --> 00:47:52,980
+那么，你现在需要控制机制。
+And for that, you need control mechanisms. Now,
+
+445
+00:47:54,330 --> 00:48:01,530
+如果你是一个开源爱好者，那么目前你应该会有些想法，有所反应。
+if you who is listening is an open source enthusiast, um, you may already have an allergic reaction.
+
+446
+00:48:02,700 --> 00:48:10,900
+因为很多人都是在强调开源价值以及社区价值，
+Because to many who emphasize the openness value and the community value and open source.
+
+447
+00:48:12,290 --> 00:48:18,090 
+因此如果有人具有控制开源、社区的想法是很罕见的。
+The idea of someone might want to control it is very foreign or an athem.
+
+448
+00:48:19,970 --> 00:48:24,170
+在下节课我们将会讲到项目社区，  
+Um, we will look at project communities In the next lecture.
+
+449
+00:48:25,240 --> 00:48:31,280
+你可能会对此感兴趣也可能没什么兴趣。
+Here whether you like it or not. UM, I will simply look at mechanisms.
+
+450
+00:48:32,170 --> 00:48:37,370
+嗯，在这里我们简单看一下相关机制，从业务角度来看，这可能有用也可能没用。
+That may or may not be useful to you from a business perspective. And of course.
+
+451
+00:48:38,570 --> 00:48:53,780
+当然，无论你在什么时候使用控制机制，机制的使用都是因人而异的。
+It's up to everyone, arguably, to use this poison,
+kitchen cabinet of potential poisons or not, whenever you use such a control mechanism.
+
+453
+00:48:55,510 --> 00:49:02,510
+但是呢，控制机制使用结果可能是，人们可能会因此感到不安，所以要谨慎选择。
+The consequences could be that people notice and are upset about it, so arguably choose wisely.
+
+454
+00:49:03,940 --> 00:49:11,300
+在开源中我所了解的控制点以及转向机制就是这些，
+So with that, um, the control points and steering mechanisms in open source that I'm aware of, are these
+
+455
+00:49:12,500 --> 00:49:17,060
+就像这里所展示的6个转向机制，其中的4个非常难操作的。
+6, um, 4 of them arguably are hard.
+
+456
+00:49:18,640 --> 00:49:24,240
+法律的基础是法律制以及对于知识产权的控制机制，   
+Legal are based in the legal systems, intellectual property control mechanisms.
+
+457
+00:49:25,880 --> 00:49:32,640
+第二个就是社会领导机制，你可以通过它来施加影响以及进行方向的变化，
+And two are social leadership mechanisms by which you can exert influence
+
+458
+00:49:33,740 --> 00:49:40,980
+这个可以说并不是太多的控制，而是根据兴趣引导人们。
+and steer, arguably so not so much control, but steer people according to your interests.
+
+459
+00:49:43,070 --> 00:49:51,710
+当谈及控制的时候，我们可以使用知识产权以及其他相关的条款。
+When talking about control, using intellectual property rights, or the relevant intellectual property rights come into play.
+
+460
+00:49:53,040 --> 00:50:00,760
+如果你完全拥有代码，正如我们所看到的那样，作为一个商业的、开源的软件初创公司，
+If you own the code outright, and as we will see as a commercial open source software startup, you usually should own
+
+461
+00:50:01,500 --> 00:50:04,420
+你通常应该拥有代码本身，以及对于代码的版权声明。
+your code, you have a copyright to your code.
+
+462
+00:50:05,400 --> 00:50:07,480
+当然了，你可以进行争辩，  
+And of course you could argue, then,
+
+463
+00:50:08,270 --> 00:50:18,970
+你可以使用某些方式改变软件许可，但是但不能改变那些为争夺控制权想要和你进行博弈的人。
+you may change the license in ways that favor you, but not those who you are trying to wrestle or who you are wrestling
+for control with.
+
+465
+00:50:20,660 --> 00:50:23,140
+如果你有开源软件项目背后的商标，
+If you own the trademarks behind
+
+466
+00:50:24,830 --> 00:50:38,210
+你通常会为该商标提供使用者可获得的用户权利，但是你也可以撤销这些用户权利。
+some open source software project, um, you can threaten to, so you might, you usually make available 
+Usage rights to the trademark, but you can also threaten to withdraw it.
+
+468
+00:50:39,150 --> 00:50:42,870
+这也是最近发生的一个例子，   
+This is, this may sound so a recent example,
+
+469
+00:50:44,170 --> 00:50:52,770
+Google对于一个受欢迎的开源软件项目，
+is, um, google, and the open usage are commons who for a popular open source software project, never
+
+470
+00:50:53,570 --> 00:51:05,700
+从来不会提供相关商标权给社区。
+really
+provided,
+provided the trademark rights to the community. So other companies very much were, um.
+
+473
+00:51:06,920 --> 00:51:11,600
+所以其他的某些公司可能会担心该项目名称的使用，
+were worried that they would build on istio That's the project's name.
+
+474
+00:51:12,360 --> 00:51:17,400
+Google突然告诉这些公司不可以再使用这个商标，因为这是Google的商标。
+And Google would suddenly tell them that they can't use that term any longer, because it's trademark by Google.
+
+475
+00:51:18,730 --> 00:51:23,010
+那么谁来承担Google公司所造就的这些压力呢，
+So that
+pressure on Google mounted and
+
+477
+00:51:24,250 --> 00:51:32,330
+所以这些公司为了舒缓相关压力，创建了Open Usage Common，一个非营利组织。
+To get some of that pressure away from them, they created the Open Usage Commons, a nonprofit organization into which they gave
+
+478
+00:51:33,240 --> 00:51:39,920
+它们为ISTIO授予商标，也为Angular授予商标。
+The trademarks for ISTIO, but also for Angular, I think. In the third component,
+
+479
+00:51:40,870 --> 00:51:48,470
+除此之外，该组织还会安抚其他公司对谷歌可能退出的愤怒或恐惧。
+trying to soothe the the anger or the fears by other companies that Google might withdraw.
+
+480
+00:51:49,320 --> 00:51:55,400
+Google正在进行营销或者通过撤销贸易使用权来扼杀这些公司的营销能力，
+Um, they are marketing or kill their marketing ability by withdrawing the right to use the trademark.
+
+481
+00:51:56,250 --> 00:52:00,050
+所以Open Usage Commons这个组织它所做的就是管理商标。
+So Open Usage Commons, all it does manage the trademark, right?
+
+482
+00:52:00,770 --> 00:52:08,890
+所以对于Google的职工，他们会尽力去回避这些问题，不会为某些人解决问题。
+And at staff with Google people basically, so in the eyes of some Google really sidestepped the problem, and didn't solve it for them.
+
+483
+00:52:11,610 --> 00:52:20,530
+专利所有权是另一回事，在代码中使用了专利，就无需有专利条款的开源许可来进行专利的许可认证。  
+Patent ownership is another one, if there are patent in the code, and you don't license out the patent by way of an open source license with a patent clause.
+
+484
+00:52:21,420 --> 00:52:26,860
+你可以威胁要收取专利许可费，某些用户可能会同意。
+You can threaten to charge patent license fees, and that might keep people in line.
+
+485
+00:52:28,610 --> 00:52:36,530
+你可以通过自己的相关资产，比如域名、网站、社交媒体渠道、推特账户等
+You may own the relevant properties, domains, websites, social media channels, twitter accounts, all of that.
+
+486
+00:52:37,330 --> 00:52:45,210
+将讨论引向你所喜欢的方向。
+And dominate discussion and steer it in a direction that's to your liking. All of these things,
+
+487
+00:52:46,700 --> 00:52:54,060
+在某人得逞之前你需要进行这样的控制。
+things to secure if you want to exert such control before he'll let someone else get a hold of it.
+
+488
+00:52:55,810 --> 00:52:59,350
+哦，然后是社会领导力，
+Uh,
+Then there is social leadership.
+
+490
+00:53:00,650 --> 00:53:07,850
+如果你是项目的核心成员，你在项目社区中具有很高的的权威。
+If you are, for example, a core team member, you have high visibility to the project community.
+
+491
+00:53:08,720 --> 00:53:15,040
+那么你可能会引起冲突，甚至可能分裂社区，削弱其整体力量。
+And you might create strife. You might even split the community, diminishing its total power.
+
+492
+00:53:15,700 --> 00:53:20,260
+当然，如果你反对某些人的加入，  
+And certainly if you are arguing against the inclusion of certain people,
+
+493
+00:53:21,280 --> 00:53:25,520
+你可以成为一个committer从而拒绝接受其他人的commit，
+Um, and you can do that by being a committer who does not
+
+494
+00:53:26,990 --> 00:53:34,190
+这就意味着你作为项目的核心贡献者控制着这些用户对于代码仓库的访问、修改等权限。
+accept other people becoming committees meaning core contributors with access rights, change, rights to the code repositories.
+
+495
+00:53:35,610 --> 00:53:37,690
+这样的话你就可以把某些人挡在外面。
+That's way you can keep people out.
+
+496
+00:53:38,960 --> 00:53:43,600
+具体来说，committer权利是很重要的也是很有价值的，
+Specifically, committer rights are important or valuable because you can
+
+497
+00:53:44,570 --> 00:53:51,770
+因为你可以将其他开发者的代码控制在外面，换句话说，就是你不接受这些代码贡献。
+just keep code contributions out of the main line of a project, because, well, you're just not accepting them.
+
+498
+00:53:53,040 --> 00:53:58,840
+在开放源码中， 
+In open source as people contribute to an open source project.
+
+499
+00:54:00,320 --> 00:54:01,800
+人们对开放源码项目做出贡献需要经历两个步骤。
+It's a two-step process.
+
+500
+00:54:03,760 --> 00:54:10,520
+开发者提交贡献，仅仅是改变代码仓库。这个submission操作被committer所审查，
+They make a submission, they cant just change the code repository. That submission gets reviewed by a committer.
+
+501
+00:54:11,530 --> 00:54:19,930
+如果committer不接受贡献，committer不理睬贡献，实际上这是一种拒绝。
+And if that committer does not accept the contribution, but rejects it or just never says anything, which effectively is a rejection.
+
+502
+00:54:20,990 --> 00:54:25,710
+这样的话，这个代码贡献就不会进入项目的主线。
+Then that code contribution doesn't make it into the main line of the product or the project.
+
+503
+00:54:26,720 --> 00:54:34,120
+因此，对你来说，开源软件与某些硬件的特殊兼容性是很重要的，但在项目中，不会被实现，
+And hence, if to you, it's important that that particular compatibility with some hardware or so, is in the project, but it never gets there, because
+
+504
+00:54:34,810 --> 00:54:37,170
+因为一旦实现相关的兼容性那么竞争对手就拿到了控制权，
+it's a competitor of users keeping your control.
+
+505
+00:54:37,820 --> 00:54:45,500
+你因此气恼，推门而出。
+Well, then, um, you're annoyed and you might go away. And the owner of that control point, the
+
+506 
+00:54:46,580 --> 00:54:51,740
+这些竞争对手可能是控制点的拥有者，或者说雇佣雇员的公司。
+company which employs the committers. Um, won a small battle.
+
+507
+00:54:53,320 --> 00:54:58,720
+除此之外，committer也引导着技术方向，因此他们集中了开源项目的发展力量。 
+Committers also lead the technical direction, so they must and direct development forces.
+
+508
+00:55:00,340 --> 00:55:04,900
+对于真正的开源人士来说这是不可忍受的，
+All of this is highly annoying to
+
+509
+00:55:06,190 --> 00:55:11,510
+因为你不是基于开源项目的想法出发，
+true open source people, if you were to do this because you are obviously not necessarily
+
+510
+00:55:12,800 --> 00:55:18,360
+而是基于商业供应商的利益出发，你这样做完全没有必要。
+acting in the interest of the open source project, but in the interest of a commercial vendor.
+
+511
+00:55:19,190 --> 00:55:27,070
+有关开源项目背后的事物，这正是我们接下来几节课要讨论的内容，这将涉及到如何构建商业。 
+Behind the open source project, but that's exactly what we will be talking about in a couple of lectures, because that's how you build a business.
+
+512
+00:55:27,970 --> 00:55:39,070
+如果你使用控制或者转向机制，一定要谨慎明智，否则你将失去失去的信任。
+If you use any such
+
+513
+00:55:31,110 --> 00:55:39,070
+control or steering mechanisms use them sparingly, use them wisely, or you will lose the trust of your community.
+
+514
+00:55:39,900 --> 00:55:46,660
+从商业角度来看，这也是一笔宝贵的资产，你不应该离开，我也不应该输。
+Which, from a commercial perspective again, is a valuable asset that you should not leave. I should not lose.
+
+515
+00:55:48,360 --> 00:55:59,520
+这就是今天的课程，我对开源进行了简单的概述，也介绍了相关定义及它的历史。  
+So with that in today's session, I've gave a
+short overview for open sources, the definition and its history. We looked at licenses very
+
+517
+00:56:00,910 --> 00:56:08,950
+我们要从很高的层面关注一下开源许可，之后我们也是进行了更深层次的讨论。
+high level, and again, that warrants a deeper analysis and discussion at some other point of time. But then,
+
+518
+00:56:09,930 --> 00:56:12,210
+这之后，我们压也是研究了公司怎样成为供应商
+We also looked at how companies are vendors.
+
+519
+00:56:13,480 --> 00:56:16,280
+从而确保他们的产品是经过许可的，是符合标准的。
+Make sure that their products are license compliant.
+
+520
+00:56:17,990 --> 00:56:23,390
+与此同时，我们也是研究了使用开源产品过程中可能存在的一些问题，  
+And we looked at problems with using open source and products or ways of how
+
+521
+00:56:25,500 --> 00:56:30,100
+以及开源供应商以及开源公司是如何掌控开源产品的。
+vendors or companies who own open source, possibly also control it.
+
+522
+00:56:30,850 --> 00:56:41,400
+如果你是一个开源供应商，你要知道你正在使用其他人的开放代码。
+And that might be you,
+if you're such a vendor, or this is something you need to know about if you're using somebody else's open source code, because if you use
+
+524
+00:56:42,310 --> 00:56:46,590
+如果你使用了其他人的商业开源代码，
+other peoples' commercial open source. And they eventually try to
+
+525
+00:56:47,270 --> 00:56:56,110
+他们会把你变成付费用户，你可能没有钱，那么在最一开始你就不应该选择该开源产品。
+turn you into a paying customer at a point of time where you don't want that or don't have that money, then maybe you should not have chosen that open source in the first place.
+
+526
+00:56:58,170 --> 00:57:10,890
+好的，非常感谢大家今天的关注，下节课我们将继续介绍开源软件项目社区。
+So with that, um, thank you very much for your time and attention today.
+And we will continue next time with a look at open source software project communities.

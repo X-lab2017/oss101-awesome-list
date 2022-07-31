@@ -1,0 +1,2904 @@
+0
+00:00:02,910 --> 00:00:09,990
+大家好，欢迎来到FLOSS,关于开源软件行业的课程。
+Hello,
+everyone and welcome to Floss - 
+our course on an open source software and the industry.
+
+3
+00:00:11,160 --> 00:00:22,590
+我们仍在关于开源的第一部分，现在我们所要讨论的是开源以及开源背后的工程过程。
+We're still in the first part about open source and general,
+and in particular now open source and the engineering processes behind it.
+
+5
+00:00:22,591 --> 00:00:30,690
+我们谈到了知识产群以及社区过程。这次我们将要谈论工程过程，
+We talked about intellectual property
+and the community processes. This time,
+it's engineering processes,
+
+8
+00:00:30,691 --> 00:00:38,820
+这是我们转向公司治理和开源软件战略之后所要谈论的工具。
+next tools,
+after which we will switch to corporate governance and strategic open sourcing of open source software projects. 
+
+10
+00:00:41,640 --> 00:00:48,120
+开源的工程部分将会提供给我们一些创新。
+The engineering part of open source will provide us with a few innovations that we will look at.
+
+11
+00:00:48,121 --> 00:00:59,100
+但是我们会将我们的开源软件工程与最后的实践进行比较，这些时间是关于非开源软件的开发。
+But mostly we will compare our open source software engineering with the best practices 
+we know from regular non open source software development.
+
+12
+00:01:02,430 --> 00:01:10,410
+所以在这里我会总结一下我们对于开源项目的想法。
+So let me recap here some of the thoughts we already had about open source projects. First of all,
+
+13
+00:01:10,411 --> 00:01:31,410
+首先，开源项目有一个社区开源项目，该开源项目会有项目社区其中包含了很多参与这个软件的人。显然软件正在被开发，
+an open source project has a community open source project, has a project community which includes the people and companies by way of people who were engaged with the software in one  way or another. Obviously, software is being developed.
+
+14
+00:01:31,411 --> 00:01:37,620
+这个软件不是市场上的传统产品。
+that software isn't really a classic product for a market.
+
+15
+00:01:37,621 --> 00:01:43,230
+但是该软件也还是有一些特点，因为它是没有竞争差异性的软件。
+But it has some of that because it's usually not competitively differentiating software,
+
+16
+00:01:43,231 --> 00:01:49,740
+这也就是说，公司不会因为使用软件而竞争。
+meaning companies do not compete for that software because otherwise are using that software so much.
+
+17
+00:01:49,741 --> 00:01:54,300
+如果情况不是这样的话，这些公司或者项目贡献者也不会合作，也不会存在软件的协作开发。
+Because otherwise they would not be collaborating and its development.
+
+18
+00:01:56,070 --> 00:02:09,390
+然后那些真正使用这些开源组件的人会成为开源项目的一部分。用户可能是独立的开发者，去自己的解决问题。
+And then those who actually use these open source components being developed as parts of open source projects.
+We have users which might be individual developers,
+natural people scratching their itch,
+
+21
+00:02:09,391 --> 00:02:23,160
+就像所说的那样，有些公司会将开源软件嵌入到他们的产品中，所以开源软件会作为产品的一部分提供给用户使用。
+As the saying goes, companies embedding the software in their products, so the open source software is used as part of products of some purpose to its users.
+
+22
+00:02:24,120 --> 00:02:35,790
+认为我们需要你更好地去看待开源组件，这样就会产生很多更加丰富、更加经典的经济术语，
+And I think that means we need to best view
+open source components as feeding into something rich and more classic economic terms,
+
+24
+00:02:35,791 --> 00:02:44,640
+就意味着开源项目会成不同消费者或者用户项目的供应商。
+meaning an open source project as a supplier to our various customer or user projects that make use of it.
+
+25
+00:02:44,641 --> 00:02:53,550
+在这张图中，某个特定的开源组件不仅会使用其他的组件，这个时候该开源组件就充当一个用户了，
+So in this graphic you can see how a particular open source component not only uses other components of which it's a user,
+
+26
+00:02:53,551 --> 00:02:56,220
+其他的组件就是该开源组件的供应商了，
+and these other components are its suppliers,
+
+27
+00:02:56,221 --> 00:03:03,900
+但是该组件实际上也会被闭源产品或者开源产品所使用。
+but actually is being used by closed source products or other open source projects as well.
+
+28
+00:03:03,901 --> 00:03:10,650
+因此，应用服务提供商实际上是一个特定开源项目的角色。
+So being a supplier is actually a role that is attributed to a particular open source projects.
+
+29
+00:03:12,150 --> 00:03:23,010
+这就导致了一个结果，开源软件项目最好被视为组件，这些组件也可以共同开发。
+And that has a consequence,
+which is that open source software projects are best viewed as components.
+Ah,
+jointly developed or not.
+
+33
+00:03:23,011 --> 00:03:29,700
+这些组件都是有市场的，不仅仅有单独的用户，还有市场。
+But components that have a market,
+and not just a single user but a market.
+
+35
+00:03:29,701 --> 00:03:43,710
+所以本次课程的学生都应该清楚地明白不同项目之间的差异，在这些项目中有单独的客户
+So students of my courses know quite well how to make a clear and 
+important distinction between client specific projects where you have a singer
+custom, its  
+
+38
+00:03:43,711 --> 00:03:44,880
+有时这些用户会要求定制化开发。
+custom development.
+
+39
+00:03:45,750 --> 00:03:58,260
+针对市场的产品优势也会被称为商业产品，这些产品具有潜在的大量的消费者。
+And products for a market sometimes also called commercial off-the-shelf software where there
+is really a large number of potentially large number of users customers,
+
+41
+00:03:58,261 --> 00:04:10,110
+因此，你需要迎合市场而不是个人用户。开源组件不仅仅有多个用户，
+and hence you need to cater to a market rather than an individual user.
+And open source components are just that they usually have more than one user and as a consequence,
+
+43
+00:04:10,111 --> 00:04:13,530
+可能还会有多方用户参与项目社区。
+more than one party engaging in the project community.
+
+44
+00:04:15,060 --> 00:04:26,310
+这所导致的结果就是，我们所感兴趣的不是用户定制的软件开发而是产品开发，
+Now the consequence of that is,
+It's not client's specific software development we are interested in,
+but it's rather product development
+We are interested in,
+
+48
+00:04:26,311 --> 00:04:34,320
+以及为市场所开发商品的关键功能以及开发过程。
+and the key functions of the development and engineering processes of products for a market,
+
+49
+00:04:34,321 --> 00:04:44,490
+我们的产品管理，工程管理，软件管理以及质量保证，而不是项目管理与商业分析。
+our product management,
+engineering management,
+software development and QA Quality Assurance and not so much project management and business analysis,
+etc.
+
+53
+00:04:44,491 --> 00:04:49,020
+这就是像是在进行针对特定用户的软件开发。
+It would be the case in
+client specific software development.
+
+55
+00:04:50,460 --> 00:04:59,430
+考虑到这一点，我们能够审查开源项目的工程过程。
+So with that in mind,
+we will be able to review the engineering processes of open source projects much better than without it.
+
+57
+00:05:00,690 --> 00:05:06,150
+在这里让我们回顾一下再有6个阶段的职业道路所组成的开源项目中人们所扮演的角色。
+So here's another reminder or recap of the roles that people play in
+
+58
+00:05:06,151 --> 在这里让我们回顾一下再有6个阶段的职业道路所组成的开源项目中人们所扮演的角色。
+open source projects are made up of a 6 stage career path.
+
+59
+00:05:14,041 --> 00:05:24,690
+这有一些我们所一直关注的社区开源项目，前面3个项目与用户、项目贡献者相关,
+Ah,
+here for barebones community open source projects that we've been looking at.
+Only the first 3 are really relevant
+being a user or a contributor,
+
+63
+00:05:24,691 --> 00:05:30,900
+以及与开源项目的committer相关，相关基金会我们之后会探讨。
+or a committer to an open source project and the foundation of career stages are discussed later again.
+
+64
+00:05:32,460 --> 00:05:47,310
+所以当你看到针对软件开发过程中的不同角色时，你会看到有产品管理、工程管理、软件开发和质量保证。
+So when you look at the classic roles and processes of software development for a full of products for a market,
+you have a product management,
+engineering management,
+software development and quality assurance.
+
+68
+00:05:47,311 --> 00:05:56,670
+当你试图映射着四个角色的时候，每一个角色均对应一个过程，就像在传统软件工程中所定义的那样。
+And when you try to map the four roles, one for each of these process,
+domains
+as defined in classic software engineering.
+
+71
+00:05:56,671 --> 00:06:03,720
+当你试图将它们映射到3个开源工程角色的时候，开源工程角色即是对项目做出贡献的角色，
+When you try to map them to the three open source engineering roles which are committed contributing user,
+
+72
+00:06:03,721 --> 00:06:05,250
+你会发现这些角色到处都是。
+you will see it's all over the place.
+
+73
+00:06:05,251 --> 00:06:12,030
+在开源中没有单一角色的产品经理。
+There is no product manager of
+single role product manager in open source.
+
+75
+00:06:12,031 --> 00:06:20,670
+工程经理也不知道一个纯粹的软件开发人员或者一个测试人员的角色。
+Nor is there for an engineering manager knows that a pure software developer,
+or tester role.
+
+77
+00:06:20,671 --> 00:06:36,090
+项目的贡献者以及用户均是以项目社区的方式参与项目，并且这四个关键角色与他们的活动以及相关实践密切相关。
+It's again committed contributor and user and they all participate by
+way of the project community and these four main key roles which come with their activities and practices,
+etc.
+
+80
+00:06:37,950 --> 00:06:39,420
+所以我们现在看来，
+So when we look at it now,
+
+81
+00:06:39,421 --> 00:06:46,530
+某些实践领域确实没有开发，
+we will see that some of these practice areas, processes are really under developed,
+
+82
+00:06:46,531 --> 00:06:55,380
+开源项目中也没有开源软件开发以及具体的产品管理。
+an open source software development,
+specifically product management,
+basically does not exist in open source projects itself.
+
+85
+00:06:55,381 --> 00:07:04,500
+举个例子，也就是说没有战略产品管理，没有寻找商机的市场调查。
+There is,
+for example,
+no strategic product management.
+There is no going for,
+There's no market research or going for a market opportunity.
+
+90
+00:07:04,501 --> 00:07:18,150
+当然，也会有一些公司会为开源项目做贡献，但是产品管理确实超出了开源项目的范围。
+There is,
+of course,
+some of that associated with the companies who might be contributing to open source projects.
+but then product management really is outside the scope of the open source project.
+
+94
+00:07:18,151 --> 00:07:23,310
+开源项目可能是因为某些公司做的市场调查而创建的，
+Open source projects may be created because of market research done by some company.
+
+95
+00:07:24,360 --> 00:07:26,730
+但这并不是开源项目的一部分。
+But it's not done as part of the open source project,
+
+96
+00:07:26,731 --> 00:07:34,230
+所以基本上没有战略产品管理和开源项目、科技产品管理。
+so there is basically no strategic product management and open source projects.
+Technical product management,
+
+98
+00:07:34,231 --> 00:07:37,530
+所以列出产品管理路线，
+so mapping out a product road map,
+
+99
+00:07:37,531 --> 00:07:42,360
+写下产品规格说明就可以跟踪产品的发布进度。
+writing down product specification tracking the progress towards releases.
+
+100
+00:07:42,361 --> 00:07:52,860
+所有的这些均存在于开源中，但是开源似乎又没有做些什么。
+All of that somewhat exists in open source,
+but it's very bare bones and ad hoc open
+source really doesn't do much there.
+
+103
+00:07:52,861 --> 00:07:57,960
+如果存在产品规格的话，那就是一个典型的待办事项清单。
+The product specifications
+if there is any, it's typically a to-do list.
+
+105
+00:07:57,961 --> 00:07:59,340
+指导我们这样做，指导我们那样做。
+Let's do this,
+Let's do that.
+
+107
+00:07:59,341 --> 00:08:06,690
+这里有几个需要实现的特性，待做清单上的事项基本都不是很关键。
+Here's a couple of features that need implementation,
+and that's basically it so very,
+very little,
+very low
+Key.
+
+112
+00:08:08,100 --> 00:08:20,340
+工程管理而并非产品管理，工程管理没有详细的发布计划。
+Engineering management,
+now there is a little bit more,
+but not much like with product management is really no detailed release planning going on.
+
+115
+00:08:20,341 --> 00:08:27,030
+如果有的话通常是这样形式，如果开源项目注意项目的未来而不是质量
+It's if there is some,
+it's often of the kind.
+Ah,
+if the future's than of quality,
+
+119
+00:08:27,031 --> 00:08:39,330
+我们并不这样认为，但这就是目前大多数社区开源项目的态度。
+we'll take it otherwise,
+we don't have it.
+So if it's their great,
+if it's not there who cares well,
+not quite,
+but that is the attitude still of most Community open source projects.
+
+125
+00:08:40,440 --> 00:08:47,040
+开源项目中没有资源分配，这基本上是开源的相关属性。因此在开源项目中没有老板，
+There's also no resource allocation,
+and that's basically a property of cause of open source because there is no big boss,
+
+127
+00:08:47,041 --> 00:08:52,290
+也没有产品经理可以为人们分配工作。
+no engineering manager who could allocate tasks or features to people.
+
+128
+00:08:52,291 --> 00:09:01,620
+所以一个开源项目committer可能会欺骗项目贡献者去做这件事情，或者去做那件事情，
+so an open source and community open source projects committers
+ah,
+can prod contributors to maybe do this or that feature,
+
+131
+00:09:01,621 --> 00:09:05,400
+但这些committer不能为项目贡献者真正分配任务。
+but they can't really allocate or assign a task to people.
+
+132
+00:09:06,750 --> 00:09:15,600
+更多情况下我们的贡献者或许会选择他们想要去实现的功能，然后去实现这些功能。
+More often,
+then,
+our contributors actually pick up of the feature or any feature they like to implement and go do it.
+
+135
+00:09:16,770 --> 00:09:21,540
+所以这是工作的自我选择，而不是由工程经理分配任务。
+So it's again,
+it's self selection, it's not an engineering manager assigning tasks.
+
+137
+00:09:22,470 --> 00:09:33,120
+我在开源项目中基本上也没有看到任何结构化的流程改进过程。
+And that's basically I've no,
+I have yet to see any any structured process for process improvement in open source
+software projects.
+
+140
+00:09:33,990 --> 00:09:38,970
+当然，人们有时候也会这样去做，但是这种情况还是比较少的。
+People do it,
+of course,
+but it's pretty rare and usually I think at work.
+
+143
+00:09:41,700 --> 00:09:49,200
+所以在开源中的软件开发工作还是很忙碌的，并且其对于任何管理都是轻量级的。
+So software development,
+then that's of course,
+with open source as much more busier,
+It's very lightweight on any management.
+
+147
+00:09:49,201 --> 00:09:59,340
+其实开源软件开发有时候也很类似闭源的软件开发，
+Software development is the actual programming or much similar to regular
+closed source software development.
+
+149
+00:09:59,341 --> 00:10:06,450
+但是当人们去完成这些任务的时候就很少有计划和反馈。
+Ah,
+but there's much less planning and feedback as to when people were or are expected to complete the tasks.
+
+151
+00:10:07,410 --> 00:10:17,670
+现在“质量保证”是一个有趣的话题，因为开源项目中的很多人会对开源项目投资，
+Quality assurance.
+That is an interesting topic now.
+Ah,
+there is a fair bit of quality assurance because people in open source are invested in the project.
+
+155
+00:10:18,720 --> 00:10:28,200
+以至于有时候这个项目贡献者对开源项目的忠诚度比他自己的雇主还要高。
+So much so that sometimes the loyalty of a person is more with an open source project than their employer.
+
+156
+00:10:28,201 --> 00:10:34,050
+在任何情况下，开源项目的代码审查一直都在做。
+In any case,
+open source performs code review all the time.
+
+158
+00:10:34,051 --> 00:10:43,020
+就像我们所看到的一样，项目结构已经融入了项目贡献者以及项目committer角色之间的区别中了，
+It's a baked into the project structure into the roles of the distinction of contributor and committer,
+as we already saw,
+
+160
+00:10:43,021 --> 00:10:43,830
+我们之后也会看到这种情况。
+and we'll see again.
+
+161
+00:10:44,760 --> 00:10:52,380
+开源项目会进行一些自动化测试，或者至少它已经在Java领域已经获得了成功。
+Open source these states does a fair bit of automated testing,
+or at least it has picked up in the Java space certainly.
+
+163
+00:10:52,381 --> 00:11:06,090
+关于自动化测试框架Junit，其已经可以和项目实现完全集成了。开源项目使用Junit做了很多工作，
+All the good things about automated testing frameworks from JUnit onto a full-blown integration.
+Open source also does a lot,
+
+165
+00:11:06,091 --> 00:11:11,790
+甚至比传统闭源软件开发所做的工作还多。
+and maybe more so than 
+traditional closed software development.
+
+167
+00:11:11,791 --> 00:11:23,580
+当然其中也是设计了很多人为测试，因为你已经获得了很多用户，这些用户需要发挥一些作用。
+There's a lot of manual testing.
+After all,
+you've got these users and they need to be put to good use,
+so you let the banana as they say the green banana ripe with the user.
+
+171
+00:11:23,581 --> 00:11:31,950
+因为开源项目是免费的，所以人们也是乐意这样去做的。用户愿意忍受的远比他们为软件付的钱要多。
+and because it's free, people are willing,
+users are willing to put up with much more than if they were paying for the software.
+
+173
+00:11:34,050 --> 00:11:47,820
+最后，这个产品管理在产品工程以及质量保证之间，所以经常会有人员使用电脑完成项目的发布管理工作，
+Finally,
+this release management that is somehow distributed between product engineering and quality assurance of engineering management and Quality Assurance . Usually someone picks up A computer picks up the release
+management job,
+
+176
+00:11:47,821 --> 00:11:51,360
+与传统软件相比这个管理工作很轻量级。
+and does it fairly lightweight when compared with traditional software.
+
+177
+00:11:52,830 --> 00:11:57,720
+很有趣的一件事就是，开源软件开发与传统软件开发有很大的不同。
+So it's really really interesting how this is different from traditional software development.
+
+178
+00:11:57,721 --> 00:11:59,880
+你可以进行争论，一方面，
+You could argue that on the one hand,
+
+179
+00:11:59,881 --> 00:12:04,440
+这对于开源来说有些尴尬，因为存在很多的最佳实践，
+it's embarrassing for open source because there are all these best practices,
+
+180
+00:12:04,441 --> 00:12:09,060
+比如怎样进行好的产品管理？这样进行更改昵称管理？其实开源经常会忽略这些问题。
+how to do good product management, how to do good engineering management and open source ignores it.
+
+181
+00:12:09,061 --> 00:12:12,060
+所以开源中的相关人员还是又很多东西需要学习一下的。
+So these guys,
+You may argue have a lot to learn.
+
+183
+00:12:13,740 --> 00:12:19,710
+另一方面，你可能会说，这些都是最佳实践。
+On the other hand,
+you could argue,
+Oh,
+wow,
+there are all these best practices,
+
+188
+00:12:19,711 --> 00:12:29,310
+源软件项目或多或少都会与重要的项目保持一致，持续展示着高质量的软件项目。
+and they apparently told matter much because open source somehow is able to more or less consistently with important projects, consistently showed high quality software.
+
+189
+00:12:29,311 --> 00:12:39,030
+所以这些高质量的实践可能不是很重要，真相在于，
+So maybe all those best practices don't really matter as much.
+The truth is probably in between in that,
+
+191
+00:12:39,031 --> 00:12:46,680
+开源项目中负责人的人总是比过程工具更加重要。
+as always people, good people matter much more than a processes tools. Still,
+
+192
+00:12:47,031 --> 00:13:00,680
+我相信通过借鉴闭源软件开发的相关实践开源软件会受益良多，并且开源软件会参考这些实践。
+I believe that open source actually could benefit a lot by looking more at the best practices of closed source software development and combining them with them. Certainly in software development itself 
+
+193
+00:13:01,621 --> 00:13:09,060
+我们发现很多开源软件的开发仍在使用VI工具然后在命令行上完成相关工作。
+Where we can observe how a lot of open source software development is still being done on the command line,
+using VI.
+
+195
+00:13:09,061 --> 00:13:12,870
+所以项目贡献人员很有可能陷入困境，或许突然就有了改善，
+It's trap.
+There are suddenly improvements waiting.
+
+197
+00:13:14,940 --> 00:13:19,950
+那么在开源软件工程上有什么新的变化呢？
+So then,
+what's new in an open source software engineering?
+
+199
+00:13:19,951 --> 00:13:27,030
+就像之前讨论的那样，并没有唯一的开源过程，
+Well again,
+as previously discussed,
+we can't say there is that single open source process.
+
+202
+00:13:27,031 --> 00:13:36,450
+我们只掌握了一半的原则，开源项目社区有三四五模型，就像上次所讨论的那样。
+we only have the principles,
+the three four five model of open project communities,
+as discussed in the last session.
+
+205
+00:13:36,451 --> 00:13:48,780
+所以当你参与开源软件开发过程时可以设置一组约束参数，但是不会给你单独的工作流，
+so we can set up a set of parameters constraints if you will principles that good open source software development adheres to,
+but not give you a single work flow,
+
+207
+00:13:48,781 --> 00:13:50,970
+也不会给你单独的过程模型。
+A singer process model.
+
+208
+00:13:52,320 --> 00:13:58,740
+这些过程模型可能在开源中是新的，有趣的以及有创新的
+What is new and interesting in innovative and open source is how it has set up the contribution process,
+
+209
+00:13:58,741 --> 00:14:03,600
+因为这是关于开源软件开发的关键。
+because that is key and centerpiece of software development and open source.
+
+210
+00:14:03,601 --> 00:14:13,290
+人们如何以保证质量的方式做出贡献，使项目向前发展而不是停滞不前？
+How do people make their contributions in such a way that quality is assured and the project moves forward rather than stumbling?
+
+211
+00:14:14,670 --> 00:14:21,210
+与此同时，我很少提及类似贡献过程的版本控制，
+Also,
+I will shortly mentioned
+distributed version control like the contribution process.
+
+214
+00:14:21,211 --> 00:14:24,960
+当然，这也不是必要的。
+not necessarily ah,
+that's not necessary.
+
+216
+00:14:24,961 --> 00:14:33,660
+开源发明了版本控制的一切，但也正是开源使得版本控制发挥了作用。
+That open source invented all of it,
+but it's the main popularizer and the main force that made it really work and practice.
+
+218
+00:14:35,400 --> 00:14:44,970
+所以我们上次讨论的3-4-5模型，我们获取可以实现社区协作过程的简化，其中包含工程过程。
+So the three four five model we discussed last time and we can save of community processes,
+including the engineering processes,
+
+220
+00:14:44,971 --> 00:14:54,420
+工程过程涉及开放协作的3个原则，这意味着每个人都可以参与进开源项目并做出贡献。
+that they follow,
+the three principles of open collaboration,
+meaning everyone,
+everyone can join and contribute.
+
+224
+00:14:54,421 --> 00:14:59,700
+开源社区中决定基本都是基于辩论本身的价值以及社区的自组织性做出的，
+Its meritocratic decisions are made based on the merits of an argument and its self-organizing.
+
+225
+00:14:59,701 --> 00:15:02,250
+项目贡献人员会选择自己的工作过程。
+People choose their processes.
+
+226
+00:15:03,270 --> 00:15:16,560
+我们还注意到了四种交流的最佳方式，这意味着要开源合作，沟通是开放性的。
+We also observed that the four best practices of the communication are being followed,
+meaning open source collaboration,
+communication is opened as soon as open,
+
+229
+00:15:16,561 --> 00:15:22,410
+其中我们要将这些交流的内容记录保存下来。
+which means that it's a public written complete an archived with all the benefits discussed last time.
+
+230
+00:15:23,340 --> 00:15:32,640
+最后，我们观察了5个志愿过程，人们如何加入开源项目以及如何领导一个开源项目？
+And finally,
+we observed a five state volunteering process of how people join and contribute and lead open source projects.
+
+232
+00:15:34,710 --> 00:15:43,350
+现在我们基于会讨论针对开源的软件工程的相关方面，
+Now on to the new aspects specifically in engineering or software engineering for open source.
+
+233
+00:15:43,351 --> 00:15:51,300
+你会注意到如何对开源项目做贡献，其实针对开源项目我们可以做的事情有很多。
+You'll notice how contributions I had.
+Contributions to open source software projects can be lots of things,
+
+235
+00:15:51,301 --> 00:15:59,940
+其中最重要也是最值得注意的就是源代码，有可能就是一个针对bug追踪器的bug报告。
+mostly most notably,
+of course,
+it's the source code,
+but it's also bug reports that you put into an issue tracker,
+a bug tracker.
+
+241
+00:15:59,941 --> 00:16:02,790
+用户也可以在论坛中与你交流，你会针对邮件回复相关项目贡献者，
+Forum posts you and
+answer
+
+243
+00:16:02,791 --> 00:16:11,580
+除此之外你还会进行相关演示推广，当然这些推广都是为给开源项目创建市场。
+the same on mailing lists or even conference presentations that you make to market a particular open source projects.
+
+244
+00:16:11,581 --> 00:16:18,090
+这些都是很有价值的贡献，也会为开源项目所在的社区所喜爱。
+These are all valuable.
+Our contributions,
+cherished by the community of an open source project.
+
+247
+00:16:20,250 --> 00:16:30,570
+但是最重要的可能还是实际的源代码贡献，因为那才是最终产品的意义所在。
+But again of most of the highest importance probably is the actual source code contribution because that's what the ultimate product is about.
+
+248
+00:16:30,571 --> 00:16:40,170
+所以让我们看一下如何将代码放入开源项目的代码库？
+So let's take a look at how contributions make it into an open source project's codebase.
+
+249
+00:16:40,171 --> 00:16:49,140
+让我们记住这些角色以及他们为开源项目发展所提供的架构。
+So again,
+let's be reminded of these roles and the structure they provide to the development process of an open source project
+
+251
+00:16:49,141 --> 00:17:01,020
+具体来说，开源软件发展不同与传统的闭源软件发展。
+specifically.
+And that is where open source software
+development is really very different from classic traditional
+company internal closed source software development.
+
+255
+00:17:02,040 --> 00:17:08,850
+并非这个项目中的每个人对与代码仓库都有更改的权限，commit的权限，
+Not everyone has changed who's on
+the project,
+has changed rights,
+commit rights,
+to the repository,
+
+260
+00:17:08,851 --> 00:17:10,740
+这就是开源与众不同的地方。
+but rather open source distinguishes.
+
+261
+00:17:10,741 --> 00:17:18,360
+来自committer的项目贡献者，没有写入代码仓库的权限，只有committ的权限。
+Contributors from committees, contributors do not have changed
+rights to the code repository,
+only committed to.
+
+264
+00:17:18,361 --> 00:17:28,470
+因此项目贡献者必须得到committ的相关认可，这样相关代码贡献才能放入代码仓库，
+And hence a contributor has to get a committed to accept their contribution and put it into the code repository.
+
+265
+00:17:28,471 --> 00:17:34,620
+这就是源码贡献阶段的补丁提交。
+and that's the patch submission of the source codes contribution process.
+
+267
+00:17:34,621 --> 00:17:51,690
+所以在我看来这个过程有4，5个步骤，如果贡献者聪明的话，他们参与开源项目的第一步不是写代码，
+So this process in my observation has four five or five steps , if the contributor, potential contributor is smart because the first step is not to write code.
+
+268
+00:17:51,691 --> 00:17:56,520
+而是计划如何做出贡献。
+The first step is to plan the contribution.
+
+269
+00:17:56,521 --> 00:18:04,530
+一个想要为项目做出贡献的优秀贡献者首先会查看项目，项目目前的状态，
+The smart contributor who wants to make a contribution.
+first looks at the project, the projects'
+
+271
+00:18:04,531 --> 00:18:11,070
+并试图使他们的利益与项目的利益相一致。
+current state and tries to align their interests with that of the project,
+
+272
+00:18:11,071 --> 00:18:16,950
+所以他们可能会提出他们想要实现的功能，
+so they may suggest a feature that they want to implement because they needed,
+
+273
+00:18:16,951 --> 00:18:23,700
+因为有时候他们只是简单地提供帮助以及获取建议。
+sometimes they simply offer the help and get something suggested to them.
+
+274
+00:18:23,701 --> 00:18:25,710
+但在这两种情况下，
+But in both cases,
+
+275
+00:18:25,711 --> 00:18:41,040
+担任项目贡献者角色的开发人员会首先考虑他们要做什么？如何与项目相匹配？以及如何做贡献？
+the developer,
+who will play the contributor role here,
+Will think first about what they're going to do and how it could match the project and how the contribution could make it into that project.
+
+278
+00:18:41,041 --> 00:18:42,060
+这就是所谓的软件开发。
+It's software development,
+
+279
+00:18:42,061 --> 00:18:50,610
+所以他们必须讨论这个项目的意义，如果符合现在的代码库的话，他们会想为其做贡献，
+so they have to discuss what it means that the program at the way they wanted to,
+wanted to program it,
+and if that actually fits
+
+282
+00:18:50,611 --> 00:18:55,920
+并且不会违反任何架构约束，也不会惹怒任何人。
+the existing code base, doesn't violate any architectural constraints,
+doesn't upset anyone.
+
+284
+00:18:55,921 --> 00:18:59,100
+如果违反了相关架构约束，或者惹怒了任何人，这个开源项目可能就不会接受该开发者的贡献。
+Because if it does,
+it may not get accept.
+
+286
+00:19:00,750 --> 00:19:08,220
+所以我们需要理解开发人员的意图，并收集现在的开发人员的反馈，
+So contributed things hard explains the intentions,
+gathers feedback from the existing set of developers,
+
+288
+00:19:08,221 --> 00:19:13,590
+也只有到那时候如果所有明显的障碍才会被清除。
+and only then,
+if all the apparent obstacles have been removed,
+
+290
+00:19:13,591 --> 00:19:24,600
+如果所有风险都被考虑到，并且都被认为是可管理的，只有到那时候，贡献者才会开发代码。
+if all risks are understood and are considered manageable,
+only then will the contributor, a start  for the run of the code.
+
+292
+00:19:24,601 --> 00:19:36,690
+所以，举个例子，让我们假设一下，他们是否能够轻松且快速地完成一个功能的开发？
+So,
+for the sake of example,
+let's assume they get this done easily and speedily so they finish the development of a feature that works well for them?
+
+295
+00:19:36,691 --> 00:19:44,310
+那么，就是因为他们是没有committ权限的项目贡献者吗？
+So then,
+because they are contributors who do not have commit rights?
+Who doesn't have a commit right?
+
+298
+00:19:44,311 --> 00:19:57,360
+我们在这里讨论的贡献者需要提交他们的贡献，需要把这些贡献提交到项目。
+The contributor we are talking about here needs to submit
+their proposed contribution,
+needs to submit that to
+the project.
+
+302
+00:19:57,361 --> 00:20:07,320
+一般来说，一个committer应该是审核贡献以及归档贡献的一个非常合适的人选，
+Typically a particular committer who seems the right person to
+review and put into a place that contribution.
+
+305
+00:20:08,610 --> 00:20:17,340
+所以代码贡献者只能说，你好，这是我的贡献，请审核它。
+So the contributor all they can do is say,
+Hi,
+here is my potential contribution,
+please review it,
+
+309
+00:20:17,341 --> 00:20:21,720
+如果你还算满意，那么就把它放到实际的代码库中。
+and if you're satisfied,
+please put it into the actual code base.
+
+311
+00:20:21,721 --> 00:20:24,720
+记住了！代码贡献者没有对代码仓库进行更改的权限。
+Remember again!
+Contributors do not have changed right
+
+313
+00:20:24,721 --> 00:20:28,320
+另外一个关键的事情就是，不是所有的代码贡献者对于开源项目都可以进行版本控制，
+so the code repository, this is critical,
+
+314
+00:20:28,321 --> 00:20:40,920
+这些项目相关的贡献直至项目的核心开发者都是很重要的，影响也都是很大的。
+critically important for open source projects they are not free for all a practice stringent quality control because these projects are important till to existing core developers.
+
+315
+00:20:42,360 --> 00:20:48,900
+无论如何，项目贡献者通常都会有两种提交贡献的方式。
+Anyway,
+there are two ways of how contributor typically submits their contribution,
+
+317
+00:20:48,901 --> 00:20:52,830
+一种方式是通过提交补丁，另一种方式就是通过email。
+and that is by submitting a patch, by email,
+
+318
+00:20:52,831 --> 00:21:00,270
+其中对于补丁的提交方式，我们可能需要使用命令行工具。
+using the command line tools, different patch or just've and patch will be what the committed us.
+
+319
+00:21:00,271 --> 00:21:15,180
+但是最近，项目贡献者可能会在Github上使用pr或者在分布式版本控制系统中使用类似的形式，
+But more recently these days contributors will use perhaps pull requests on Github or the equivalent form for other forges or distributed version control systems,
+
+320
+00:21:15,181 --> 00:21:18,360
+所以要去阅读项目相关的信息而不是发送邮件。
+so reading rather than sending email.
+
+321
+00:21:19,890 --> 00:21:26,280
+现在项目的committer会收到项目贡献者潜在的贡献，我们会收集这些贡献，
+Now the committer
+receives the potential contribution and we'll pick them up,
+
+323
+00:21:26,281 --> 00:21:41,760
+这些贡献可能来自于邮件，我们将会审查这些贡献，除非是那些很小或微不足道的贡献。
+may be from the mailing list and will review them, review that potential contribution. This is likely unless it's small or very trivial contribution,
+likely perhaps to be a shot back and forth
+
+325
+00:21:41,761 --> 00:21:45,810
+在这个过程中committer会询问几个问题，这是committer工作的一部分。
+where the committer asks some questions as part of their job,
+
+326
+00:21:45,811 --> 00:21:53,580
+现在就会进行同行评审，代码评审，以及对所提交的内容进行质量控制。
+Now of doing a peer review,
+a code review, ultimately quality control of what has been submitted.
+
+328
+00:21:54,510 --> 00:22:08,550
+所以，如果最初的贡献者没有回答我们的问题，或者回答得非常糟糕，这些贡献最终可能会被遗弃。
+So if the original contributor doesn't answer or answers unsatisfactorily well then potential contribution will not lead, will not amount to anything that might just get dropped.
+
+329
+00:22:08,551 --> 00:22:19,380
+项目的committer没有权利确保某些贡献一定能进去代码仓库。
+There is no,
+there is no right that a committer has to request or make sure the contribution gets into the codebase.
+
+331
+00:22:19,381 --> 00:22:24,690
+因为项目committer只能提议，但是这个贡献可能会因为质量差或其他原因被拒绝。
+It's really just an offer and it might get rejected for poor quality or other reasons.
+
+332
+00:22:24,691 --> 00:22:33,510
+事实上，贡献经常会被遗弃，我们之后就会看到。
+and in fact,
+patches code submissions as intended,
+contributions often get dropped and we'll see that a little bit later.
+
+335
+00:22:34,980 --> 00:22:41,970
+我们假设，在这种情况下，项目贡献者做得很好，并且对于他所看到的都很喜欢，
+Well,
+let's assume,
+in this case, the contributor did well and become at a like spot here she saw, sees,
+
+338
+00:22:41,971 --> 00:22:52,140
+然后就是最后一步了，committer需要将更改提交到代码库中，以使项目真正发生改变。
+and then in the final step,
+the committer simply commits the proposed change to the codebase,
+making it a real change.
+
+341
+00:22:52,141 --> 00:23:00,660
+项目相关的工具可能会跟踪最初的贡献者以及committer，所以我们可以在项目中看到贡献者以及committer。
+Tools were usually track who the origin contributor was and with a committer was, so we will see both names in the project
+history.
+
+343
+00:23:03,240 --> 00:23:05,910
+就像我说的那样，在实际应用中或多或少会存在对于贡献浪费的情况。
+As I said,
+there are more or less to waste
+both in practical use.
+
+346
+00:23:07,741 --> 00:23:18,240
+目前，是有一些手动的方法比如使用命令行工具，命令行可以实现代码的比较，
+These days,
+there's the kind of by hand approach of using command line towards, the command line towards diff and patch using
+
+348
+00:23:18,241 --> 00:23:41,250
+以及开发者如何修改代码并将最后的修改进行合并，
+diff developer determines how they changed the code of
+
+349
+00:23:26,070 --> 00:23:39,600
+然后将这些更改发送给commiter，或者使用邮件通知cmmitter的相关信息，
+the project to incorporate their suggested changes and the default put is and sent to a committer or a mailing list for committers with the relevant information
+as the default output,
+
+351
+00:23:41,251 --> 00:23:52,710
+新修改的新的代码要添加到代码库中。然后项目委员会会创建一个项目的工作副本，
+the newly changed of the new source code to be added.
+The committee then creates a working copy of the projects, applies
+
+353
+00:23:52,711 --> 00:23:57,720
+然后使用相关命令对这些更改进行审查。
+the changes using the patch command and reviews.
+
+354
+00:23:57,721 --> 00:24:04,710
+他们就或许会使用可视化工具，
+these changes
+perhaps using a visual much tool or just by trying the source of that of the project,
+
+356
+00:24:04,711 --> 00:24:15,270
+或者使用不同的方式进行质量审查。如果一切顺利，committer将会提交更改后的工作副本。
+many different ways of doing quality assurance here. And if that everything is fine,
+then the committer will commit the changed working copy,
+
+358
+00:24:15,271 --> 00:24:22,320
+这其中包括了提交，贡献者的贡献，以及这些贡献会被提交到代码库中。
+which includes now the submission, the contribution by the contributor and were committed to the code repository there
+
+359
+00:24:22,321 --> 00:24:30,360
+这需要committer接受项目贡献者的贡献，然后对这些贡献进行相关操作，比如将其提交到代码库中。
+by accepting officially the contribution made by the contributor and putting it, by putting it into action.
+
+360
+00:24:32,430 --> 00:24:36,180
+项目贡献者以及项目committer是不一样的，两者之间存在很多差别。
+This clear distinction between contributor and committer,
+
+361
+00:24:36,181 --> 00:24:41,040
+当然，也存在一个人担任这两种角色的情况。
+of course,
+gets to solve that
+it's the same person,
+he served two roles.
+
+365
+00:24:41,041 --> 00:24:44,730
+所以他可能即是一个committer，
+So it is possible that a committer,
+
+367
+00:24:44,731 --> 00:24:50,490
+然后又是一个软件开发者。他可能是一个项目的committer，进行着软件开发的工作，
+that a developer who's both, who is a committer, does also do software development
+
+368
+00:24:50,491 --> 00:24:55,830
+与此同时又扮演着代码贡献者的角色。
+playing the contributor role and then shot circuits,
+
+371
+00:24:55,831 --> 00:25:00,900
+代码的质量保证过程也包含将项目贡献放到代码库中。
+The Quality Assurance process
+by simply putting it into the code repository.
+
+373
+00:25:02,400 --> 00:25:08,070
+出于这个原因，一些开源项目实际上需要另一位committer来查看相关贡献。
+For that reason,
+some open source projects actually require another committer to look at it.
+
+375
+00:25:08,071 --> 00:25:13,650
+再次说明一下，有的开源项目是需要进行同行评审的，但不是所有的项目都需要这样做。
+So again,
+it's peer review of code but
+clearly,
+not all
+do that.
+
+380
+00:25:14,640 --> 00:25:17,610
+在这儿我们可以看到在命令行中如何显示项目相关的信息？
+So here is how it looks like on a command line,
+
+382
+00:25:17,611 --> 00:25:26,790
+你如何使用diff命令寻找项目树中两个文件之间的差异并且保存相关文件呢？
+how you would use the diff command
+to determine, to determine the differences between two files to
+
+384
+00:25:28,110 --> 00:25:32,850
+此处称这个文件为补丁文件。
+project trees saving it and what's called a patch file here.
+
+385
+00:25:32,851 --> 00:25:37,230
+当你看到输出时，你就可以看到我们是如何基于文本进行标记的？
+When you see the output,
+you can see how it's textually based marks,
+
+387
+00:25:37,231 --> 00:25:53,730
+输出会显示与源代码相关的删除操作，以及与原文件之间的差异，收到补丁文件的人
+the distinction here in addition of the actually deletion of some source code and then another person who receives the patch file by email will apply it to their own copy,
+
+388
+00:25:53,731 --> 00:25:57,180
+会把这个文件应用到自己的项目副本中，然后我们就可以看到最终的结果了。
+and then we view the resulting.
+
+389
+00:25:59,460 --> 00:26:10,590
+现在一种更常见的方法是GitHub的使用并且使用Ui界面来发送“拉取项目”的请求，
+A more common way is, these days to use,
+say,
+GitHub and use UI for sending out pull requests but really just tell 
+
+392
+00:26:11,760 --> 00:26:15,030
+通常情况下项目的贡献者需要向项目committer发送一个“项目拉取”请求，
+the contributor sends a pull request to a committer,
+
+393
+00:26:15,031 --> 00:26:33,540
+使得项目贡献者可以拉取到目前他们项目副本中的更改，然后项目committer检查项目的更改，
+asking them to pull the changes from their working copy of the repository of the proposed contribution and then the committer in their own working copy branch basically will check out these proposed changes,
+review them,
+
+395
+00:26:33,541 --> 00:26:34,740
+并进行软件测试，
+try the software test,
+
+396
+00:26:34,741 --> 00:26:40,080
+最终如果出了更改一切都很好的话，
+and ultimately,
+if everything's fine except the proposed changes.
+
+398
+00:26:42,270 --> 00:26:48,360
+那么这个项目贡献者的代码就可以进入开源项目中。
+So it turns out that getting your code into an open source project is easy
+
+399
+00:26:48,361 --> 00:26:51,750
+但是如果你是一名项目committer，那么这些工作对于你来说可能会有点儿难。
+if you're a committer.
+Oh,
+it's pretty hard.
+
+402
+00:26:51,751 --> 00:26:55,260
+如果你不了解这些项目的话，他们为什么要相信你？
+If you are not known to the project,
+why would they trust you?
+And so?
+
+405
+00:26:57,240 --> 00:27:05,190
+由贡献者提交的贡献，特别情况就是这个贡献者是一个不知名的贡献者，
+Submissions by contributors in particular unknown contributors often don't make it.
+
+406
+00:27:05,191 --> 00:27:07,590
+那么相关贡献可能会被遗弃，
+The work is wasted,
+
+407
+00:27:07,591 --> 00:27:13,920
+这并不是说现有的项目committer要故意要浪费别人的工作，
+it's not that the existing committers deliberately want to waste other people's work.
+
+408
+00:27:13,921 --> 00:27:15,750
+有可能只是太麻烦了。
+It may just be too much of a hassle.
+
+409
+00:27:15,751 --> 00:27:17,670
+那么会出现什么问题呢？
+so what could go wrong?
+
+410
+00:27:17,671 --> 00:27:25,050
+那些不是很智慧的贡献者所做的事情可能和项目不是很匹配，
+Well,
+not so smart contributor will not coordinate with the project in advance,
+ah,
+what they are up to.
+
+414
+00:27:25,051 --> 00:27:35,370
+所以令人惊讶的是为什么这个项目贡献者所做的工作不再适合这个项目。然后项目贡献者就会有很多疑问，
+So it will come as a surprise, it may not fit the project any longer what have you all kinds of reasons why the work really doesn't make any sense to be included any longer.
+
+415
+00:27:36,900 --> 00:27:41,400
+不那么聪明的贡献者可能会违反所有的实践，
+The not so smart contributor might simply violate all kinds of practices.
+
+416
+00:27:41,401 --> 00:27:45,540
+有很多事情需要考虑。
+There are so many things that need to be considered.
+
+417
+00:27:45,541 --> 00:27:50,910
+所以开源项目相关的代码权限，
+So to the code right for the open source projects,
+
+418
+00:27:50,911 --> 00:28:03,030
+你可能只有机会提交贡献给项目的committer，就像在Linux内核项目中那样。
+including missing windows during which you have actually only the chance to submit contributions,
+get them in.
+like the Linux kernel,
+sinfulness large window.
+
+422
+00:28:04,230 --> 00:28:08,430
+即使是项目的committer,如果代码的贡献者做得不错，
+Well,
+but even if the committer,
+if the contributor does everything right,
+
+426
+00:28:08,431 --> 00:28:22,260
+那么项目committer可能会依然拒绝我们做的贡献，因为项目committer没有理由相信我们做得还不错。
+the committer might reject our contribution because the contributor doesn't convince them that the work is good and you might argue well,
+
+427
+00:28:22,261 --> 00:28:27,480
+然后你或许就会争论，难道项目committer看不出来这是一份干的不错的工作吗，是的，他们确实看不出来。
+can't they see that the work is good and the answer to that is yes,
+
+428
+00:28:27,481 --> 00:28:31,230
+如果只有几行代码那么可还能看得出来对错，那如果有上千行代码呢？
+if it's a few lines of code,
+but if it's thousands lines,
+
+430
+00:28:31,231 --> 00:28:35,190
+一千行代码可能都没有经过测试
+a thousand lines of code may be without tests.
+
+431
+00:28:35,191 --> 00:28:36,270
+那你又怎么知道这些事情呢？
+How would you know?
+
+432
+00:28:36,271 --> 00:28:39,090
+所以你害怕成为一个社区committer，
+And so you fear as a community committer,
+
+433
+00:28:39,091 --> 00:28:46,230
+很重要的任务就是确保项目的质量以及发展，你可能会感到不悦，
+having the quality and longevity of the project at heart, may feel rather unhappy and 
+
+434
+00:28:46,231 --> 00:28:55,590
+或许你不能确定一个比较长的贡献，然后你可能会告诉项目的贡献者你不能接受这个贡献，
+unsure about such a lengthy contribution and may rather decides to tell the contributor that they can't take it,
+
+435
+00:28:55,591 --> 00:28:57,690
+因为这个更改实在是太庞大了。
+because it's just too large.
+
+436
+00:28:57,691 --> 00:29:03,000
+如果有什么可取之处的话，那么也许贡献者可以对其进行分割，
+If there's a saving grace,
+then perhaps the contributor can chop it up,
+
+438
+00:29:03,001 --> 00:29:06,180
+将其变成一系列较小的贡献，
+make it a sequence of smaller contributions,
+
+439
+00:29:06,181 --> 00:29:08,820
+这实际上是进行更改的最佳实践。
+which is actually a best practice to get your changes in.
+
+440
+00:29:10,110 --> 00:29:21,480
+最后，如果没有人愿意去做这些工作的话，就没有什么有价值的事情会发生，到时候就没人在乎核心贡献了。
+Well,
+ah and finally,
+and one not to until the good thing that could happen is that nobody has time to take care of the core contribution.
+
+443
+00:29:21,481 --> 00:29:26,640
+觉得每个人都很高兴做出贡献，但是人们可能非常的忙碌，
+I would think everyone's happy for any contribution but
+of course,
+people are,
+people are busy.
+
+447
+00:29:27,660 --> 00:29:34,770
+所以对于那些突然出现的，被提交的补丁可能会被忽略，
+so simply any submitted patch in particular
+if it comes out of the blue might just be ignored,
+
+449
+00:29:34,771 --> 00:29:46,500
+最终可能这些补丁就不能用了，因为开源项目是在不断前进的，此时与当时的项目可能存在差异。
+brought and ultimately be unusable because the project moved on and it's too different already from all that state where the patch the death was taken for the patch(where the catch that this was taking for the patch).
+
+450
+00:29:48,210 --> 00:29:57,480
+所以我们看一下3个不同的项目并且3个项目均对应不同的开发过程，
+OK,
+so ah,
+we will now look at three very quite,
+very different our projects with very different processes
+for that reason.
+
+455
+00:29:57,481 --> 00:30:04,920
+分别是Linux内核，PostgreSQL数据库以及wiki内容管理系统。
+And it's the Linux kernel,
+the PostgreSQL database and particularly wiki content management system group web software.
+
+457
+00:30:05,880 --> 00:30:13,890
+我之所以选择这3个项目是因为它们在很多方面都是截然不同的。
+And the reason why I chose these three is again because they are so different, pull opposites on many aspects.
+
+458
+00:30:13,891 --> 00:30:21,630
+具体来说就是Linux内核项目庞大，覆盖面广，是大型项目。
+Specifically,
+the Linux kernel is huge but these are all large projects.
+None of these are small.
+
+461
+00:30:21,631 --> 00:30:30,480
+我没有特别针对尺寸去寻找项目，因为我们想要一个好理解的开源项目开发过程。
+I didn't make look for different projects in terms of size because we want well,
+well-understood processes.
+
+463
+00:30:30,481 --> 00:30:36,630
+Linux内核项目是独特的，因为它需要一个操作系统的内核。
+But the Linux kernel is unique as it wants an operating system's kernel.
+
+464
+00:30:36,631 --> 00:30:44,490
+它的独特之处在于它有一个相当严格的等级制度，或者可能比任何技术项目都严格。
+It's unique in that it has a fairly strict hierarchy,
+or perhaps stricter than any technical.
+
+466
+00:30:44,491 --> 00:30:47,730
+我会在技术上说明这一点，
+Technical necessity would suggest.
+
+468
+00:30:47,731 --> 00:30:52,050
+这就要聊到Linux相关的历史了。以你为Linux项目最初是由一个人开发的，
+but that's historic because it grew out of what a single person saw.
+
+469
+00:30:53,010 --> 00:30:58,410
+与之相反的就是PostgreSQL数据库，它是由一群人开发出来的，
+Quite the opposite with the PostgreSQL database,
+which has a peer group,
+
+471
+00:30:58,411 --> 00:31:04,710
+其对应着软件工程师所组成的核心团队，
+a core team of software developers or members of a core team,
+
+473
+00:31:04,711 --> 00:31:08,550
+正是这些人掌握着PostgreSQL的命运。
+who managed the fate of a PostgreSQL database.
+
+474
+00:31:08,551 --> 00:31:13,260
+在PostgreSQL数据库项目中既没有等级制度也没有严格的等级制度，而是一个人人平等的群体。
+So no hierarchy, no strict hierarchy here,
+but rather a peer group.
+
+476
+00:31:14,310 --> 00:31:23,130
+此外，Tiki，即Wiki CMS Groupware系统很有趣，因为它会给人们一些针对代码库的修改权限，
+And to keep
+Tiki
+Wiki CMS Groupware
+system of particular interest because it's on the extreme of letting, giving people change
+
+480
+00:31:23,131 --> 00:31:29,460
+其实不需要做太多工作就可以获得它们。
+Rights, commit rights to the code repository because you don't really have to do much to get them.
+
+481
+00:31:29,461 --> 00:31:35,760
+所以从传统开源的角度来看，Tiki是一个无政府主义软件。
+So Tiki is almost an anarchic from classic open source perspective,
+
+482
+00:31:35,761 --> 00:31:42,210
+我们会用几张幻灯片来演示该软件是如何进行工作的？这是Linux内核，
+and we will see how that works out and a few slides.
+So here's the Linux kernel.
+
+484
+00:31:42,211 --> 00:31:47,340
+最初，UNIX派生于类unix操作系统内核，
+Originally,
+UNIX derived unix-like operating system kernel.
+
+486
+00:31:47,341 -->00:31:52,170
+显然很长时间以来这就是unix自己的东西。
+Obviously very much
+its own thing has been for a long time,
+
+488
+00:31:52,171 --> 00:31:59,550
+对于行业来说这个系统非常重要，因为每个独立的设备都需要操作系统，
+and it's very important for the industry because as an operating system,
+every single device out there needs one,
+
+490
+00:31:59,551 --> 00:32:03,900
+因为该系统是开源免费的，并且质量也是很高，所以其被广泛使用。
+and because it's open source and free and high quality that's wildly,
+
+491
+00:32:03,901 --> 00:32:13,410
+Linux内核现在是Linux的核心。Linux操作系统就是Linux系统加上一些工具，还有一些许可，
+used. The Linux kernel
+has really just the core. The Linux operating system
+is Linux plus all the glue tools and then some.
+
+494
+00:32:14,760 --> 00:32:26,070
+当然，当我们谈到开源的公司治理时，GPL v2许可也是面临着许可的挑战，
+It's GPL version 2
+licensed with 
+which is its own unique challenges that will address later,
+when we talk about corporate governance of open source.
+
+498
+00:32:27,540 --> 00:32:37,050
+所以Linux内核是由专业人士开发的，他们都是在上班时间开发的。
+So the Linux kernel is being developed by professionals through all on company time,
+
+499
+00:32:37,051 --> 00:32:45,600
+这是因为公司与Linux内核之间的经济相关性，因此公司会对Linux内核进行投资。
+and that is because of the high economic relevance, companies invest into the Linux kernel.
+
+500
+00:32:45,601 --> 00:32:48,450
+这些公司确定会使用Linuxn内核，
+They want to make sure because they use it, they
+
+501
+00:32:48,451 --> 00:32:58,230
+因此他们需要管理他们的产品对Linux内核的依赖，而其中最好的办法就是参与Linux内核的开发。
+need to manage the dependency that their products have on the Linux kernel on the best way to do that is to be engaged in its development,
+
+502
+00:32:58,231 --> 00:33:04,470
+这样就可以尽早了解Linux发展路线，然后就可以确保产品符合架构了。
+learn early about the roadmap and make sure that things fit the architecture.
+
+503
+00:33:04,471 --> 00:33:12,960
+如果Linux内核的体系结构发生了变化，那么他们就会意识到潜在的问题，这样就可以调整产品。
+If their architectural changes that they know early on what are potential, problems are waiting for them and so that they can adjust their products.
+
+504
+00:33:13,980 --> 00:33:26,040
+所以很多企业和产品都建立在Linux内核上，然后公司需要管理其对Linux内核的投资以及依赖，
+So lots and lots of businesses and products built on the Linux kernel and companies need to manage their dependency and investment into the Linux kernel and if they do that by
+
+505
+00:33:26,041 --> 00:33:27,210
+如果他们共同参与了Linux内核的开发，他们就能去做这些事情。
+joining development.
+
+506
+00:33:28,410 --> 00:33:42,630
+其实除了公司所想获得、贡献其他特性，这些公司基于Linux内核进行工作，之后进入Linux内核。
+There are power peculiarities next to this general reasons why companies try to get, say, any contribute, any work they do based on the Linux kernel, try to get it into the Linux kernel.
+
+507
+00:33:42,631 --> 00:33:48,090
+首先，这些不太喜欢在Linux内核之外开发东西。
+For one,
+they don't like developing things outside the kernel too much.
+
+509
+00:33:48,091 --> 00:33:51,870
+如果这样的话，这些公司必须一直回复对Linux内核的相关变化，
+If it means that they have to reply that changes all the time,
+
+510
+00:33:51,871 --> 00:33:56,490
+所以他们实际上是相对Linux内核进行更安全地开发。
+so they actually want to get their changes into the Linux kernel to safe development.
+
+511
+00:33:57,660 --> 00:34:00,840
+一方面，在开发过程中会涉及到相关的政治问题；
+On the other hand,
+and that's a political problem,
+
+514
+00:34:00,841 --> 00:34:03,540
+was to default development process.
+
+515
+00:34:03,541 --> 00:34:04,170
+另一方面，
+On the other hand,
+
+516
+00:34:04,171 --> 00:34:15,180
+这些公司可能会隐藏一些改变，因为他们不想太早向竞争对手公布他们苦苦工作的产品。
+they often hold back any potential changes because they don't want to show the world particular
+competitors what they are working on too early,
+
+518
+00:34:15,181 --> 00:34:22,050
+举个例子，drivers USB，这是任何新型USB设备所必需的驱动程序，
+for example,
+drivers USB, drivers for any new USB device
+
+521
+00:34:22,051 --> 00:34:24,780
+如果公司提前发布了这款驱动程序，
+if they were to develop it openly,
+
+522
+00:34:24,781 --> 00:34:31,860
+那么对于其他的USB制造商来说这又意味着什么呢？
+Would signal to the competitors of some USB gadget manufacturer, what the new USB
+
+523
+00:34:31,861 --> 00:34:34,770
+这是一个公司一直在做的产品，
+gadgets of the company is working on,
+
+524
+00:34:34,771 --> 00:34:37,200
+所以这存在一定的挑战。
+so it's a real challenge that,
+
+525
+00:34:37,201 --> 00:34:37,950
+一方面，
+on the one hand,
+
+526
+00:34:37,951 --> 00:34:47,430
+他们想把自己的东西放进内核，即做贡献，并以最快的速度将其加入到Linux内核中。
+they want to get their stuff marched into
+the kernel,
+submitted,
+contributed and made it into the Linux kernel as fast as possible.
+
+530
+00:34:47,431 --> 00:34:59,190
+尽管没有放弃任何东西，也没有发出任何的信号，因为他们想避免任何战略信息的泄露。
+While also not giving away any,
+not showing any signals to the market of their walking on beacause
+they want to avoid any leaking of strategic information.
+
+533
+00:35:01,230 --> 00:35:07,560
+所以，如果你对Linux内核开发感兴趣的话，公司就要积极Linux内核合作，
+So but companies do actively work with the Linux kernel,
+
+534
+00:35:07,561 --> 00:35:21,540
+当然，一旦讨论到开源基金会，那么其中必然包含Linux基金会。
+of course,
+and as part of the discussion of open source foundations,
+which will include the Linux Foundation,
+the host,
+if you will of the Linux kernel development,
+we will.
+
+540
+00:35:21,541 --> 00:35:23,880
+我们会在之后回顾这一点，
+We will review that in a later session.
+
+541
+00:35:23,881 --> 00:35:31,440
+Linux基金会是Linux内核的法律庇护所，它是一个商业协会，而不仅仅是一个财团，
+The Linux Foundation is the legal home of the Linux kernel 
+really an industry association,
+more than a consortium which
+
+544
+00:35:31,441 --> 00:35:35,610
+其以推进Linux内核开发作为目标。
+as a goal of furthering their development of the Linux kernel,
+
+545
+00:35:35,611 --> 00:35:36,120
+举个例子，
+for example,
+
+546
+00:35:36,121 --> 00:35:48,390
+如果要雇佣Linux原始的开发者，可能是公司想雇佣，也有可能是你想雇佣，去雇佣Linus Torvalds。
+It employs little installers, that's some kind of truth,
+if you will,
+between companies,
+because everyone,
+of course,
+would like so.
+employ Linus Torvalds,
+
+553
+00:35:48,391 --> 00:35:52,530
+因为那些人持有着Linux内核的最高权限。
+because then they had the highest wielding power over the kernel.
+
+554
+00:35:52,531 --> 00:36:02,820
+事情也可以很微妙，比如有些人比公司还忠于项目。
+Also,
+One would think well powers,
+of course,
+Would be more loyal to the project than any company.
+but things can be very subtle.
+
+559
+00:36:02,821 --> 00:36:08,610
+在任何情况下，我们都想通过雇佣Linus Torvalds来为某些工作打下基础。
+In any case,
+all of us was settled by employing Linus Torvalds by a foundation.
+
+561
+00:36:08,611 --> 00:36:18,390
+所以IBM, Red Hat，以及Fujitsu都想要雇佣Linux内核的掌舵人。
+So no.
+IBM,
+Red Hat or Fujitsu employees us as that person at the helm of the Linux kernel.
+
+564
+00:36:21,450 --> 00:36:24,210
+正如我之前提到的那样，这是完全商业的。
+As I mentioned already,
+It's all of commercial,
+
+566
+00:36:24,211 --> 00:36:35,160
+这可能涉及到65%的Linux内核的开发也有可能是100%的linux内核的开发，
+This figure here 65% is very
+certainly the lower bound, most
+most likely 100% of the Linux kernel development.
+
+569
+00:36:35,161 --> 00:36:43,500
+也有可能是99.9%。Linux一直在稳步增长。
+Really,
+this 99.9%.
+Linux
+has been growing steadily.
+
+576
+00:36:43,501 --> 00:36:53,400
+事实上，Android最近在设备数量上已经赶上来了，与Window以及其他操作系统相比，
+In fact,
+Android recently overtook in terms of pure numbers on devices or Windows and any other operating systems.
+
+578
+00:36:53,401 --> 00:36:59,040
+Linux是当今使用最广泛的操作系统。
+Linux today is the most
+widely used software operating system.
+
+581
+00:37:00,000 --> 00:37:04,710
+让我们来了解一下软件产品开发的核心功能。
+So let's look at the core functions of software
+product development,
+
+583
+00:37:04,711 --> 00:37:13,050
+就产品管理来说，并非是集中计划也不是传统的产品管理。
+first product management to
+my knowledge,
+there is no centralized planning or traditional product management going on in the Linux kernel.
+
+586
+00:37:14,880 --> 00:37:23,910
+个人开发者或许会决定和社区成员进行合作，当然他们会讨论需要做什么。
+Individuals decide what they work on the Community members do collaborator,
+of course, they talk about what needs to be done,
+
+588
+00:37:23,911 --> 00:37:31,410
+但这不是一般意义上的产品管理，一般意义上的产品管理是把产品带到市场。
+but it's not in the sense of general.
+product management, as we know it from products being brought to market,
+
+590
+00:37:31,411 --> 00:37:48,150
+尽管如此，公司会雇佣工作在Linux内核上的人员，并且公司会支Linux内核进行工程管理，
+even though of course,
+from the companies employing the people who work on the Linux kernel and favor of that,
+Linux kernel needs to go.
+Engineering management,
+
+595
+00:37:48,151 --> 00:37:56,250
+而时间线是由掌舵人所决定的，这都是一个社区过程的，
+while the timeline is determined by the person at the helm of autonomous robots,
+all of that is a Community process,
+
+597
+00:37:56,251 --> 00:38:02,970
+但是最终Linus Torvalds会做出决定。这个过程可能有些特别，
+but ultimately,
+Linus Torvalds can and  does decide. The process is a little bit peculiar,
+
+599
+00:38:02,971 --> 00:38:14,340
+它可能这些天内会改变很多次，每两到三个月就会有内核的发布，
+if you will,
+it has changed over times a couple of times these days,
+there's a major release of the kernel every two to three months,
+
+602
+00:38:14,341 --> 00:38:20,400
+在发布期间会有非常明确的节奏。
+and there's a very well defined rhythm to it well during release.
+
+603
+00:38:20,401 --> 00:38:29,010
+基本上在最开始的时候，会对那些所谓的稳定代码进行更更改。
+There is basically at the beginning, a large window where new code changes of so called stable code.
+
+604
+00:38:29,011 --> 00:38:33,810
+我在之后会提到这一点，只有稳定的代码才能被合并到项目的主分支
+I'll come to that in a second. Stable code is marched into the main line,
+
+605
+00:38:33,811 --> 00:38:45,390
+直至项目最后的问题。然后开发过程就结束了，
+all the way up to the stable. And then and then ah,
+the march window is closed and the rest of the three month from week
+
+607
+00:38:45,391 --> 00:38:50,160
+在剩下的3个月中，等待新版本的发布，
+three on till the end of, until the releases,
+
+608
+00:38:50,161 --> 00:38:53,520 
+可能会解决一些问题。
+basically fixes any problems.
+
+609
+00:38:53,521 --> 00:38:55,470
+也可能在新版本中问题的修复已经被使用过，
+Probably fixes are applied.
+
+610
+00:38:55,471 --> 00:39:06,480
+问题是现在广泛使用测试，尽管在这之前会有很多繁琐的工作。
+Problems are reported because that is now the most widely applicable testing and it will
+despite all hard work beforehand and of more issues.
+
+612
+00:39:06,481 --> 00:39:11,070
+在2-3月窗口快要结束的时候，项目的最终版本就会发布。那么所谓的稳定代码就会进入主分支，
+And at the end of that,
+two to three months window,
+
+615
+00:39:11,071 --> 00:39:40,020
+从而作为发行版本的一部分。所以在代码提交到主分支之前以及最终发布版本之前一定要确保质量。
+the final release for that major releases cut， The so called stable code that makes it into the main line as part of the first two weeks of this release period or the March window is actually stabilized outside the mainland so there's significant Quality Assurance going on before code submissions make it into the main line and might possibly become part of a release.
+
+616
+00:39:41,370 --> 00:39:43,350
+为了理解这个过程，
+And to understand that process,
+
+617
+00:39:43,351 --> 00:40:02,040
+我们需要看看代码流动的流动结构，最终可能会流动到顶级管理员Linux towards，
+we need to look at the hierarchical structure of how code flows through the tree from the leaves of a tree to the repository at the top manager by Linux towards themselves himself.
+
+618
+00:40:02,041 --> 00:40:09,360
+所以在这里你可以看到Linux内核组件的结构分解。
+So here you can see basically a structure breakdown of the components of the Linux kernel,
+
+619
+00:40:09,361 --> 00:40:18,210
+这就是代码的基础，然后就是各种子系统不同的子部分。
+that's the base our code maintained below.
+and then there were various subsections of subsystems
+
+622
+00:40:18,211 --> 00:40:22,530
+如果你愿意，举个例子，对于网络设备，一个针对应用程序驱动的设备，
+If you will one,
+for example,
+for networking, one for device drivers,
+
+625
+00:40:22,531 --> 00:40:25,470
+另外一个就是内存管理。
+another one for memory management and so on.
+
+626
+00:40:25,471 --> 00:40:31,440
+这是作为设备驱动基础的深层次树结构。
+and it's a mighty level deep tree
+or hierarchy as the device driver base,
+
+628
+00:40:31,441 --> 00:40:37,410
+举个例子，这会支持不同类型的设备驱动，比如SCSI Driver，
+for example,
+supports various types of device drivers, for example,
+SCSI Driver,
+
+631
+00:40:37,411 --> 00:40:39,210
+Graphics Driver和USB Driver等。
+Graphics Driver, USB Driver, etc.
+
+632
+00:40:40,770 --> 00:40:49,230
+对于其中的每一个子系统来说，这都是子系统主题的一一对应关系，
+And to each of these.
+Subsystems,
+it's all one-to-one map from subsystem topic,
+
+635
+00:40:49,231 --> 00:40:54,870
+对于特定人对代码仓库是有一定责任的。
+repository to a particular person responsible for it,
+
+636
+00:40:54,871 --> 00:41:04,740
+举个例子，Greg Kroah-Hartman负责设备驱动程序，是SCSI Driver驱动的基础结构，
+so one Greg Kroah-Hartman,
+for example,
+is responsible for the device driver,
+framework of base which the  SCSI Driver,
+
+641
+00:41:04,741 --> 00:41:10,680
+并且Graphics Driver，USB Drivers均建立在该应用程序之上，
+and the Graphics Driver, and the USB Drivers are built on which in turn are managed,
+
+642
+00:41:10,681 --> 00:41:19,410
+该驱动的开发是由其他人进行管理的，所有的代码流均来自这棵树的根节点。
+development of which is managed by other people,
+and all code again flows from the leaves to the root of the tree.
+
+644
+00:41:21,060 --> 00:41:30,450
+所以现在如果你想给Linux内核打个补丁，这里有个关于如何去做的简短过程。
+So now,
+if you want to get a patch into the Linux kernel,
+then here's a short process for how it's done.
+ 
+647
+00:41:30,451 --> 00:41:36,690
+所有这些都可以在网上读到，对于Linux的开发过程有比较好描述。
+All of this can be read up on the web,
+There's a reasonably good description of the Linux development process.
+
+649
+00:41:36,691 -->  00:41:44,910
+因为很多人都对此感兴趣，所以某人想做某件事的话第一步就是设计。
+Because many people are interested.
+Um,
+so first of all,
+the design, if someone wants to do something,
+
+653
+00:41:44,911 --> 00:41:58,320
+比如关于USB驱动，那么他们就需要提出他们想做什么，并与负责USB驱动子系统的人交谈。
+say about USB drivers then they would have to smartly would propose what they want to do and talk with their guy responsible for the USB driver subsystem,
+etc.
+etc.
+
+656
+00:41:58,321 --> 00:42:05,550
+所以在理想情况下，任何尚未实现的设计可以在开源中实现。
+So ideally,
+any design of any not yet implemented feature
+is done out in the open,
+
+659
+00:42:05,551 --> 00:42:12,090
+所以贡献者可能会想到这个功能，然后去实现。
+So the person wants to pick, do it.
+
+663
+00:42:12,091 --> 00:42:19,020
+他们进行开发工作，然后在各个阶段会对相关工作进行重新审核。
+And they do that development and then in the stages they have people reviewed it
+in particular.
+
+665
+00:42:19,021 --> 00:42:29,220
+果是更加复杂的东西，就意味着他们需要分阶段提交代码，
+if it's something of higher complexity,
+in particular,
+It's of higher complexity,
+it means they need to stage, so in stages submit their code,
+
+669
+00:42:29,221 --> 00:42:31,110
+他们需要有一个大的项目蓝图，
+they need to have a big picture,
+
+670
+00:42:31,111 --> 00:42:36,960
+但是每次提交的补丁都是很小的增量，
+but each patch submission is only small and incremental in that the person,
+
+671
+00:42:36,961 --> 00:42:45,930
+然后项目的committer，会对贡献进行理解、审查，并对审查感到满意。
+the committer, that it is being submitted to can actually understand and review it and feel good about the review.
+
+672
+00:42:47,190 --> 00:42:58,800
+所以早期就是一个小社区的一小撮人对USB驱动真的感兴趣。
+So there's an early review are with a small community of smallish community of people were really interested and say new USB drivers.
+
+673
+00:42:58,801 --> 00:43:03,300
+最终会有更广泛的审查，并会将该驱动放一定的场景中，
+There's ultimately wider review as it will be put into context
+
+674
+00:43:03,301 --> 00:43:13,890
+然后就可以观察一个系的驱动是否与现有的USB启动有交互。尤其是在Linux内核中。
+to see whether say a new driver has any interactions with existing drivers,
+And it's all in
+particularly, in the case of the Linux kernel,
+
+679
+00:43:13,891 --> 00:43:28,920
+通过使用git实现分布式版本控制系统的管理，一直某些小工具将工作做得蛮好，
+managed through our git asked the distributed version control system of choice.
+If it makes it all the way to little robots,
+which if things are done right,
+
+682
+00:43:28,921 --> 00:43:31,050
+那么它会一直做下去。
+it will eventually will do.
+
+683
+00:43:31,051 --> 00:43:46,020
+然后它就会进入行进窗口的主线，所以最初是在子系统的级别，之后就是comitter的级别。
+Then it will be entered into the mainline during the March window. So first on the level of the subsystem maintainer then these maintainers
+that's the committers
+
+685
+00:43:46,021 --> 00:43:58,470
+然后Linux会要求高级维护者拉取项目，并将对项目所做的更改推送给上一级，
+and Linux terminology will ask their superior, maintainer to pull this
+and they will pass these to top.
+
+687
+00:43:58,471 --> 00:44:06,690
+在等级数中不断往上传递请求。所以会有越来越多的变化在等级树中不断上升，
+It's bubbles up the hierarchy.
+Of course,
+then it's more and more changes bubbling up
+
+690
+00:44:06,691 --> 00:44:18,780
+所以Linus Torvalds就不再关注那些对项目所进行的小的更改。
+the hierarchy so Linus Torvalds regularly then does not pull small changes,
+like the original submission for one contribution but the whole boatload of things.
+
+692
+00:44:18,781 --> 00:44:27,540
+所以我们几乎没有办法把它作为一个大的代码贡献来评审，
+So there really is almost no way that this could be consistently reviewed as one large code contribution,
+
+693
+00:44:27,541 --> 00:44:37,830
+这就是为什么在它到达层次结构的根之前要对它进行充分的准备和讨论和注释。
+which is why it still more important that this is well prepared and discussed annotated before it reaches the root of the hierarchy.
+
+694
+00:44:40,230 --> 00:44:50,460
+这就意味着层次结构会减少你所在做的，你所合并的工作，你正在做与项目相关的质量保证。
+It means,
+though,
+that the hierarchy,
+the ultimately 
+less programming you're doing, you merging,
+you're doing Quality Assurance,
+
+701
+00:44:50,461 --> 00:44:58,950
+举个例子，某个时候，Linus Torvalds可能是Linux内核中产出最多的程序员。
+and so,
+for example,
+Linus Torvalds 
+at one point of time,
+probably was the most prolific programmer of the Linux kernel,
+
+706
+00:44:58,951 --> 00:45:06,630
+但是基于目前根据所写代码的行数来进行位置的排序的话，很多人都应该排在Linus Torvalds的前面。
+is now on position three or four in terms of the total amount of lines of code written and others are ahead of him.
+
+707
+00:45:06,631 --> 00:45:08,550
+这并不是解决问题的措施，
+Not that this is a relevant measures for anything.
+
+708
+00:45:10,320 --> 00:45:17,490
+举个例子，举个关于SCSI Driver驱动的例子，我们要为SCSI Driver添加一些特性，
+So you can see here an example, something about the
+SCSI Driver,
+some feature needs to be added to the SCSI Driver
+
+711
+00:45:17,491 --> 00:45:31,680
+某些计算机和用户可能提交给Dario Ballabio一些补丁，或者使用邮件完成补丁的提交。
+,some random hacker did that they probably submit to a responsible maintainer Dario Ballabio here. They submit their patch,
+perhaps using email. Dario Ballabio
+
+713
+00:45:31,681 --> 00:45:50,010
+Dario Ballabio将根据步骤审查，之后会将其放入仓库，最终Greg Kroah-Hartman会将其放在主分支中，
+will review it in steps, have it 
+entered and made it into his repository, ultimately, into the main line forwarded to Greg Kroah-Hartman over the pull request asked,
+
+715
+00:45:50,011 --> 00:45:55,470
+并且还会要求用户去拉取项目。
+asking to have it pulled who will eventually pass it on to 
+let us talk.
+
+717
+00:45:57,120 --> 00:46:10,230
+所以这里存在严格分级的基本工程流程，有很多项目使用了这种模式，
+So that's the basic engineering process strictly hierarchical,
+A very unique by there are projects we have copied this model.
+
+719
+00:46:10,231 --> 00:46:16,230
+这实际上不是最常见的开源软件开发模型。
+It's actually not the most common model of how open source software development takes
+place.
+
+721
+00:46:17,610 --> 00:46:26,610
+同伴工作组，PostgreSQL模型就是比较一般的模式。我们回到Linux内核，也没有什么好说的，
+The group of peers,
+the PostgreSQL model is the more common one. Anyway, back to the Linux kernel,
+There isn't so much to be said about.
+
+724
+00:46:26,611 --> 00:46:31,410
+有很多要说的东西，但是我不想说太多，我想在这里花点时间。
+Well,
+there's probably a lot to be said,
+But I don't.
+want to take the time here.
+
+728
+00:46:31,411 --> 00:46:41,850
+最基本的就是统一并坚持编程准则，这也是很容易被忽视的事情，否则你的贡献将会被拒绝。
+They are the basics,
+unity and stick to the programming guidelines that would be the obviously, most stupid thing to ignore,
+because your contribution will be rejected right way.
+
+731
+00:46:41,851 --> 00:46:58,650
+它也是有自己特性的，如果你愿意的话，你不用进行格式化或者编码工作，因为那样只会浪费时间。
+It has its.
+Peculiarities,
+if you will ah,
+you don't reformat or code,
+for example,
+because that would just be wasting time.
+Yeah,
+
+738
+00:46:58,651 --> 00:47:09,390
+因为这可能会导致你打断所有的交互，你将所要提交的东西进行切分可以方便管理。
+so on because of all the interactions you break
+your submission into small pieces make it easily manageable,
+etc.
+
+741
+00:47:09,391 --> 00:47:12,120
+这些都是激发你激情的最佳实践，
+These are best practices for how to get your passion.
+
+742
+00:47:14,070 --> 00:47:22,830
+，Linux社区的质量保证是社区所要进行的第一步，然后就是商业化以及专业化，
+Quality assurance in the Linux community is community based and the first step and then commercial or professional,
+
+743
+00:47:22,831 --> 00:47:27,090
+这都是关于Linux内核的构建业务。
+because of the businesses that build of the Linux kernel.
+
+744
+00:47:27,091 --> 00:47:35,610
+所以社区测试意味着开发者版本，维护者版本，最后就是内核发行版本。
+So community testing means that the developer version,
+the maintainer version, and finally,
+the kernel release.
+
+747
+00:47:35,611 --> 00:47:43,740
+在这些阶段中的任意阶段人们都会使用软件，我认为他们已经在进行组件功能的测试了，
+And at each of these stages there are people who take the software and simply try it.
+I think they're testing suites,
+
+749
+00:47:43,741 --> 00:47:50,430
+而不仅仅是相关测试工作，Linux内核已经在使用了并且回去观察某些潜在的问题，
+but a lot of testing and the Linux
+kernel is just using it and observing any potential problems.
+
+751
+00:47:51,990 --> 00:47:53,640
+这些问题可能是Linux内核所感兴趣的问题。
+of interest to the Linux kernel,
+
+752
+00:47:53,641 --> 00:47:57,870
+有很多商业可能建立在这些问题之上，然后我们就有了很高的热情，
+are the businesses built on top of which we have the highest motivation
+
+753
+00:47:57,871 --> 00:48:08,430
+进而去进行保证项目质量以及寻找bug，比如Linux经销商SUSE,Red Hat。
+if you will the highest motivation to make sure quality is good and bugs are caught early.
+and that would be the Linux distributors.
+Like as SUSE or
+Red Hat.
+
+757
+00:48:09,300 --> 00:48:24,450
+现在他们有了自己的内部测试过程，不仅针对Linux内核，会在真实系统的场景下进行测试。
+Now they have their own internal testing processes, they actually are based on the larger notion of not just taking the kernel but putting the kernel into the context of a real system,
+
+758
+00:48:24,451 --> 00:48:36,000
+这就是Linux发行版，然后加上各种应用程序，比如Apache Web serverd的服务共享功能等。
+a whole system which is the Linux distribution, so they will add all kinds of applications. The Apache Web server,
+sharing service,
+etc.
+
+762
+00:48:36,001 --> 00:48:43,500
+Apache Web server会于Linux内核一块儿进行组件测试。
+and put it together with the Linux kernel and then run test suites. The intellectual property of its distributors,
+
+763
+00:48:43,501 --> 00:48:44,670
+因此相关Linux经销商的知识产权都是独特的，
+that's unique to them,
+
+764
+00:48:44,671 --> 00:48:47,130
+并且这些Linux经销商通常情况下不会公开分享这些测试，
+That's usually not openly shard. 
+
+765
+00:48:47,131 --> 00:48:51,810
+其中很多的测试涉及到组件功能的测试。
+the tests of many are
+for example,
+test Suites,
+
+768
+00:48:51,811 --> 00:48:57,210
+进行这些测试是去定义和是被潜在的bug。
+and they will identify hopefully any potential remaining bugs.
+
+769
+00:48:58,080 --> 00:49:04,800
+所以发布者在开发过程中很活跃，他们审查代码，
+So the distributors are active in development. They review code,
+
+770
+00:49:04,801 --> 00:49:13,110
+他们运行自己的组合测试，消除任何潜在的问题。
+but then they have their own test suites that they use and run against
+kernel release, thumb off any potential problems.
+
+772
+00:49:15,360 --> 00:49:19,050
+我在这里再提一下编码规则，当然，这是很重要的一件事。
+So again,
+coding guidelines are,
+of course,
+important.
+
+776
+00:49:19,051 --> 00:49:25,950
+Linux内核社区使用了一些代码检查的做法，这种做法可能不是很好，
+The Linux kernel community does use some of the non best practices like code
+
+777
+00:49:25,951 --> 00:49:30,390
+并且不忽略编译警告。
+checking towards and not ignoring compiler warnings.
+
+778
+00:49:30,391 --> 00:49:36,150
+这或许是一个很好的启发。由于我不是Linux内核开发人员，
+Ah,
+but that's probably a fair bit of heuristics.
+And since I am not a Linux kernel developer,
+
+781
+00:49:36,151 --> 00:49:41,460
+我很确定现在发生了很多。
+I'm pretty sure a lot of things are going on that I'm not aware of.
+All right,
+
+783
+00:49:41,461 --> 00:49:48,780
+我们来看第二个例子，PostgreSQL，关系数据库系统。
+so let's move on to the second example.
+the PostgreSQL, relational database system.
+
+785
+00:49:49,860 --> 00:50:00,480
+它已经存在很长一段时间了，在开源关系数据库中处于领先的地位。
+It's been around for a long time, is leading perhaps open source
+relational database,
+for a while.
+
+788
+00:50:00,481 --> 00:50:08,130
+主要是和MySQL进行竞争，现在不知怎么Oracle受够了MySQL，
+It was in competition 
+mostly with my sql.
+Now that mysql somehow is being downgraded by Oracle,
+
+791
+00:50:08,131 --> 00:50:10,080
+现在PostgreSQL或许与MariaDB竞争，
+maybe it's competing with Maria DB.
+
+792
+00:50:10,081 --> 00:50:13,680
+但实际上现在没有那么多数据库。
+but really there are just many databases out there now.
+
+793
+00:50:13,681 --> 00:50:25,350
+PostgreSQL是一个传统的经典的开源软件，关系型数据库。
+PostgreSQL is simply a traditional classic,
+enterprise great 
+open source software,
+Relational database system,
+
+797
+00:50:25,351 --> 00:50:33,720
+它有一个庞大的社区，它具有广泛的授权，这或许也是它的一广泛使用的原因。
+It got a large community which support it, its permissively licensed and which is probably one reason for its wide use,
+
+798
+00:50:35,160 --> 00:50:48,000
+Postgresql的产品管理还是由核心团队来完成的，这是一个六到七人的核心团队。
+commercial wide use. So product management of the PostgreSQL database is done by the core team.
+So there's a core team of six or seven people.
+
+800
+00:50:48,001 --> 00:50:51,540
+其中并非所有人都是软件开发人员。
+Not even all of them are developers.
+
+802
+00:50:51,541 --> 00:51:16,050
+他们有产品规划路线，任何比较优先的功能都来自于那些可能需要看到公司未来的用户，
+they have a roadmap,
+but and I have a product backlog,
+but it's very,
+very lightweight.
+It's basically a to-do list.
+Product management does not involve any prioritization.
+Really.
+people picked the future they want to work on,
+so any prioritization of features comes really from the users who perhaps have some need to see the future of the company.
+
+811
+00:51:17,310 --> 00:51:26,610
+他们可能会做出一些震惊社区的事情，你是可以在网上看到这些信息的。
+They do some things like polling the community,
+so you will see on the website,
+Pools what do you think is more important,
+and that works 
+
+816
+00:51:26,611 --> 00:51:34,410
+因为这样软件的存在，所以总是有些人不知道他们自己在做什么，要做什么。
+because the such an established software,
+there are always people who are kind of agnostic to what it is they're doing.
+
+818
+00:51:34,411 --> 00:51:50,610
+他们只是愿意为项目做任何需要做的事情，PostgreSQL开发相关的工程管理与项目最初的6个人相关，
+They're just willing to pick up whatever needs to be done, to help the project.
+The engineering management of PostgreSQL development is rooted again with his core team long term stable
+
+820
+00:51:50,611 --> 00:51:59,970
+这会促进共识的创建，这些过程均与项目的主要管理者有关
+Six people who coordinate releases, who facilitate the consensus building process but do have ultimate decision 
+
+821
+00:51:59,971 --> 00:52:06,390
+项目可能会是代码仓库的网站。
+power who hold and administer the major assets like the website of the code repository,
+etc.
+
+823
+00:52:08,670 --> 00:52:20,130
+目前有二十多个主要贡献者以及项目的committer，这就是传统意义上的PostgreSQL的贡献者。
+There are twenty or something are major contributors,
+committers and traditionally,
+in the user terminology that's called major contributors for PostgreSQL.
+
+826
+00:52:20,131 --> 00:52:28,200
+这些人显然就是将代码提交到代码库的那些人，还有一些没有这些提交权限的贡献者，
+These are obviously the people who can commit code to the codebase.
+There are regular contributors who do not have these rights,
+
+828
+00:52:28,201 --> 00:52:33,090
+或者这些项目的committer必须通过这些主要的项目项目贡献者来进行贡献。
+or they have to contribute through these major contributors.
+that it's the committers.
+
+830
+00:52:35,490 --> 00:52:47,700
+所以这就是一个经典的项目，符合我之前所讲述的路线，开发者决定他们想要做些什么，
+So this is actually a classic project that walks along the lines that I explained earlier.
+Developers decide that they want to do something.
+
+832
+00:52:47,701 --> 00:52:53,310
+他们设计了贡献然后去收集用户的反馈，
+They designed the contribution
+ideally in public so that they gather feedback,
+
+834
+00:52:53,311 --> 00:52:56,700
+这些用户有可能会使用邮件进行反馈
+and they submitted as a mailing list for that,
+
+835
+00:52:56,701 --> 00:53:05,070
+但是补丁的审查工作还是由一些主要的项目贡献者来做，
+but if to and then Patch Review takes place by some major contributor,
+
+836
+00:53:05,071 --> 00:53:09,630
+主要的项目committer会拿到补丁文件并对其进行审查
+committers
+picking up the patch file and reviewing it.
+
+838
+00:53:09,631 --> 00:53:18,900
+如果这些贡献合理有效，然后这些贡献就会被提交到代码仓库。
+and if it,
+if it works,
+if it works,
+then it's being committed to the code repository.
+
+843
+00:53:21,180 --> 00:53:24,750
+社区可能会有一些特别的实践，
+One particular practice of the
+
+844
+00:53:26,190 --> 00:53:40,680
+某些人可能会一直检查审核补丁文件，以此来确保这些补丁文件能够很快地合入到代码仓库。
+posthaste  care community is committed fast, these guys noticed how they are often, were often falling behind in terms of accepting patches, making sure they make it into the code base,
+
+845
+00:53:40,681 --> 00:53:48,930
+但是某些项目贡献者可能会失去贡献意图，有可能只是看着项目中的补丁而不去进行相关的工作，
+thereby losing that intention
+contributors who would just see that patch 
+
+847
+00:53:48,931 --> 00:54:03,300
+然后项目的管理人员就发明了相关的实践框架，以使得这些人可以完成很好的补丁工作。
+so for that they invented or used the concept of commit fast a particular time frame during which they worked through the backlog of outstanding patches.
+
+848
+00:54:03,301 --> 00:54:07,590
+我们查看这些补丁文件并将它们放入代码库中，
+We view them and get them into the code base.
+Ah,
+
+850
+00:54:07,591 --> 00:54:29,670
+他们有一个软件在其中你可以看到bug的修复，补丁以及每个人对于补丁的反馈信息等,确保补丁存在
+they have a software for it where you can see all the bug fixes, the patches, get collected and how other than everyone or just one person picks, one works on it, and make sure it's actually through this process outlined here on the screen of a patch.
+
+851
+00:54:29,671 --> 00:54:32,610
+之后如果确定这些补丁文件是合理的，那么这些补丁修改就会被添加到代码仓库。
+Assuming it's reasonable,
+makes it into the code base.
+
+853
+00:54:35,220 --> 00:54:38,820
+所以对于任何一个合理的代码仓库，
+As any reasonable open source projects,
+
+854
+00:54:38,821 --> 00:54:47,880
+它们都会有相关的编程指南以及编程模式，可以实现对于开源个项目的检查。
+they have coding guidelines and patterns of how to program they used the compiler warnings and caught checking towards like any other open source project.
+
+855
+00:54:49,950 --> 00:54:51,630
+质量保证也是很重要的事情，
+Quality assurance is interesting,
+
+856
+00:54:51,631 --> 00:54:59,130
+当然开发人员自己也会进行测试，主要的代码贡献者也会进行测试工作，
+of course the developers test themselves, the major contributors test again,
+
+857
+00:54:59,131 --> 00:55:04,350
+以及会发布一些管理测试，会一直进行用户测试。
+the release manager tests, user tests all the time and,
+
+858
+00:55:04,351 --> 00:55:06,420
+其中最重要的就是，
+most importantly,
+
+859
+00:55:06,421 --> 00:55:13,770
+确实存在很多使用PostgreSQL数据的用户，这些用户也会操作很多数据中心，
+they do have large users with which operate PostgreSQL and large data centers,
+
+860
+00:55:13,771 --> 00:55:24,210
+这些用户会新的版本在各种应用程序上使用去观察这些版本项目的执行效果。
+who will put new versions to use on other applications in the data centers to see how the new version performs,
+
+861
+00:55:24,211 --> 00:55:30,390
+这对于寻找bug是很有帮助的，毕竟在单独的开发中的系统上寻找bug还是比较困难的，
+and that is quite helpful to find bugs that are really hard to find on a single develop setup.
+
+862
+00:55:30,391 --> 00:55:41,010
+所以这些最终都是作为基准以及我们会对这些组合测试进行整合来去确定任何潜在的问题。
+so these ultimately serve as benchmarks and our integration
+test suites to identify
+any potential problems.
+
+865
+00:55:42,870 --> 00:55:49,200
+这就是发布过程，你试图想进行快速commit，
+This is the release process.
+you tried to catch up with a commit fast,
+
+867
+00:55:49,201 --> 00:55:53,640
+从而去寻找更好的发行版本，最终就会进行产品发布。
+have you all found better release.
+and ultimately the final product release.
+
+869
+00:55:55,110 --> 00:56:04,380
+好吧，现在我们来了解一下第三个软件Tiki, Wiki CMS grouper系统。
+All right,
+and now the third,
+a process,
+the somewhat anarchic Tiki Wiki CMS grouper system.
+
+873
+00:56:06,900 --> 00:56:14,610
+这个系统拥有数以百万计的下载，并且用途广泛，已经被使用了15年以上。
+Millions of downloads as well,
+broad use, broadly used in an active development for over 15 years.
+
+875
+00:56:14,611 --> 00:56:27,270
+它有很多Wiki或者CMS的特性，显然不确定到底是什么语言。
+and it's just has a huge number of features for a Wiki or CMS, obviously doesn't even quite know for sure what it is any language longer,
+
+876
+00:56:27,271 --> 00:56:33,630
+不过，你可以使用Tiki构建网络应用程序。
+except that you can build any web application, you can possibly conceive with Tiki.
+
+877
+00:56:33,631 --> 00:56:40,560
+所以Tiki产品管理不同以往，在该项目中产品管理很少。
+So Tiki product management there isn't any as usual and open source,
+there's very very little product management here.
+
+879
+00:56:40,561 --> 00:56:47,070
+这里有一个每个人都可以操作的任务清单。任何人都可以挑选相关功能，并进行开发。
+That is a shout to do list anyone can add something to it.
+Anyone can pick up a feature and work on that.
+
+881
+00:56:47,071 --> 00:56:48,690
+在其中工作是真正自由的。
+Ah,
+it's really a free for all here.
+
+883
+00:56:50,010 --> 00:57:00,360
+有趣的是，如果你能写一封没有太多拼写错误的电子邮件，
+Now the interesting thing about the Tiki process is that if you can write an email and it doesn't have too many spelling mistakes,
+
+884
+00:57:00,361 --> 00:57:05,520
+你可以请求访问代码存储库，他们可能就会给你这个访问权限。
+you can just ask to get access to the code repository,
+and they may give it to you.
+
+886
+00:57:05,521 --> 00:57:20,850
+所以与我们之前所讲的其他项目的过程相比，Tiki并不介意对其代码仓库的写入权限。
+so.
+In contrast to all the other processes and process in general that we have talked about.
+Tiki does not jealously guide write access to the code repository,
+
+889
+00:57:20,851 --> 00:57:31,440
+但它基本上对人有一个非常积极的看法，你应该被授权，从而你会被激励去做好工作。
+but it has a basically very positive view of people that you should be empowered and thereby you will be motivated to do good work.
+
+890
+00:57:31,441 --> 00:57:43,110
+但你是否有能力做好工作是另一回事，你将会被给一个提交工作的机会，并且最终进行commit。
+When you are capable of doing good work or not as different thing,
+but you will be given the chance to provide a good work you can actually then commit.
+
+892
+00:57:43,111 --> 00:57:58,350
+你提交更改以后，你可能会得到一个提交审核。
+you are your code to the repository.
+Now, What happens,
+of course,
+is that basically you get a post
+commit review,
+you commit, you break the system.
+
+898
+00:57:58,351 --> 00:58:04,020
+一旦你有可能会破坏系统，那么这个问题很快就会被检查出来，因为这部分更改可能会给系统带来某些问题。
+A few seconds led that gets pulled because he brought the system some unnoticed.
+
+899
+00:58:04,021 --> 00:58:15,900
+所以在我看来，如果你的更改真的是有效的，那你就确实为项目做出了贡献，
+So the way my understanding is that it works, is that it really,
+really.
+Ah,
+let's you do things.
+
+903
+00:58:15,901 --> 00:58:22,170
+但是这可能会依赖一个强大的配置管理系统，版本控制系统。
+But relying on a strong configuration management system version control system. People
+
+904
+00:58:22,171 --> 00:58:29,340
+人们不要担心拉取到不好的代码
+do not hesitate to pull that code
+both bad code that someone submitted right away.
+
+906
+00:58:31,650 --> 00:58:45,570
+尽管如此，有将经验的开发者以及项目贡献者开发出合理的代码，所以他们不会经经常破坏原有的项目，
+So.
+Still,
+they would and of course,
+experienced developers and contributors develop reasonable code so they don't break things too often,
+
+910
+00:58:45,571 --> 00:58:55,620
+但是，Tiki有一个单片机架构，
+but ah,
+yes,
+so Tiki has a monolithic software architecture in that everyone can ah,
+
+913
+00:58:55,621 --> 00:59:12,960
+你就可以访问所有东西并且不太复杂地去进行改变，但这也并不是说每个插件都不使用。
+you can pretty much access everything and change any code so no complex,
+a plugin architecture.
+But also since not every plugin isn't used,
+
+916
+00:59:12,961 --> 00:59:17,310
+可能很快就会发现bug，
+There may be bugs that are discovered any time soon.
+
+917
+00:59:17,311 --> 00:59:25,710
+Tiki项目相关人员认为用户使用Tiki的频率越高，那么人们对于Tiki的关注就会越高，
+The way the Tiki people think about it is that the higher the frequency of use,
+the more eyeballs, there are
+
+919
+00:59:25,711 --> 00:59:28,050
+所以bug可能就会被很快地修复。
+the faster they were fine box.
+
+920
+00:59:28,051 --> 00:59:32,490
+所以对于使用频率较低的插件，修复bug的代价挺高的
+Hence the background is high for highly infrequently used plugins,
+
+921
+00:59:32,491 --> 00:59:39,810
+但是也没有人担心，这同样也适用于经常使用的插件以及核心插件，
+but nobody worries,
+and also for highly often use plugins, core plugins.
+
+923
+00:59:39,811 --> 00:59:44,130
+那么bug就会很快出现。
+then ah box will surface quickly.
+
+924
+00:59:44,131 --> 00:59:50,820
+常言道，“关注越多，问题越容易被发现”，
+It's the common adage,
+'Given enough eyeballs,
+
+927
+00:59:50,821 --> 01:00:08,400
+因为有个庞大的社区在观察着软件，并能够快速发现bug。这就是Tiki。
+All bugs are shallow', because there is a large community, which is watching the software and identifying bugs quickly.
+So that was Tiki,
+
+930
+01:00:08,401 --> 01:00:19,020
+我们将会处在这些过程中，或许对于者3个过程的理解不是很准确。
+we will be and that's set on these processes and was rather quick and probably not super precise on these three processes.
+
+931
+01:00:19,021 --> 01:00:19,650
+Ah,
+
+932
+01:00:19,651 --> 01:00:25,170
+因为它们实在是太复杂了，无法覆盖所有的细节，我知只是给你们举个例子。
+because they are just too elaborate to be covered in any detail,
+and I just wanted to give examples.
+
+934
+01:00:26,340 --> 01:00:31,800
+尽管如此，总的来说，对于一个开源软件而言，我们也可以说是产品管理，
+Still,
+an open source in general,
+we can say that product management,
+
+937
+01:00:31,801 --> 01:00:36,210
+最终都是在市场上为用户提供的商品。
+even though ultimately,
+it's delivering products to users in the market.
+
+939
+01:00:36,211 --> 01:00:43,050
+现在在项目中没有总的管理者或者产品经理，他们没有什么管理策略，
+Now there is no central control or single responsible product managers certainly no strategy within the project,
+
+940
+01:00:43,051 --> 01:00:52,260
+但是人们的贡献与他们的兴趣是一致的，组件符合用户的目的，并且为用户所用。
+but rather people contribute in line with the interests they make the component work for their purposes as users of the component.
+
+941
+01:00:53,400 --> 01:01:00,000
+很多问题都会为issue所承载，
+A lot of the work of anything goes through the back tracker as the main place for issues are managed.
+
+942
+01:01:01,410 --> 01:01:11,580
+并且工程管理是一个协作的过程，这可以根据我们的3-4-5协作过程。
+The engineering management process is really a collaborative process,
+following our three four five model of open collaboration,
+communication and the volunteering process.
+
+945
+01:01:13,170 --> 01:01:22,350
+软件开发无处不在，但是总的来说，人们之间是开放合作的，
+Software development is all over the place,
+but in general because its collaborative among many people open
+
+947
+01:01:22,351 --> 01:01:32,280
+开源项目使用严格的编码准则并且他们会使用代码检查工具。
+source projects use stringent coding guidelines and they do use their code
+checking tools and heuristics. In general,
+
+949
+01:01:32,281 --> 01:01:36,600
+总的来说，其他人会去接触开源项目，开源项目应该保持精简。
+Other try to be open
+source projects, try to be as slim as possible.
+
+951
+01:01:36,601 --> 01:01:43,260
+对于那些不能增加新功能的项目，人们对其的容忍度很低，
+They have low tolerance for anything that doesn't really add new functions to the project,
+
+952
+01:01:43,261 --> 01:01:50,040
+包括不能为人员重新定义角色，并且还不能从项目功能的角度进行重写。
+including don't reformat staff,
+don't rewrite stuff if there's no need 
+for it from a functional perspective.
+
+955
+01:01:52,050 --> 01:02:02,730
+而质量保证是有所不同的，这是开源软件开发重要的地方，这是2阶段或者多阶段的步骤，
+Quality assurance is both different and a stronghold of open source software development because of the two stage or multi stage career path,
+
+956
+01:02:02,731 --> 01:02:13,320
+其中项目committer会对贡献进行质量控制，项目的committer会使用同行审查以及补丁提交控制。
+where committers do quality control on any contributions by contributors using peer review and the patch submission process and,
+
+957
+01:02:13,321 --> 01:02:22,320
+他们也有强大的社区测试，因为开源项目就是基于测试才有比较强大的社区。
+Of course,
+they have strong Community testing because open source projects have strong community based testing.
+
+959
+01:02:22,321 --> 01:02:25,980
+因为所做的一切都是为了保持软件的良好状态。
+Because of all the interests of keeping the software in good shape.
+
+960
+01:02:26,880 --> 01:02:39,570
+这就是我这节课的内容，我们谈到了开源个项目基本上都是组件，
+So then that's it from me for this session,
+we talked about how open source projects basically are components, how
+
+962
+01:02:39,571 --> 01:02:43,260
+这些项目是某些组件的供应商，正是用户
+the projects are suppliers of components to their users,
+
+963
+01:02:43,261 --> 01:02:51,420
+以及对组建感兴趣的人对项目的持续贡献，才推动了开源软件的发展。
+and it's the users and those interested in the components who contribute the most to its development and because of that,
+
+964
+01:02:51,421 --> 01:02:56,910
+其中比较重要的一点就是对产品发展，功能性产品管理、
+the point of comparison is classic product development with the functional product management,
+
+965
+01:02:56,911 --> 01:03:00,300
+工程管理、软件开发、质量保证之间的比较，
+engineering management,
+software development and Quality Assurance.
+
+968
+01:03:00,301 --> 01:03:12,660
+当我们观察开源项目时，有4个排序，很多角色被映射到用户、项目共贡献者、项目committer。
+But when we look at it in open source projects, we find that these four classic factions as they are mapped on the three key roles of user contributor and committers,
+
+969
+01:03:12,661 --> 01:03:16,290
+其中项目并不是由单一的角色完成的，
+are really not done in any one to one fashion,
+
+970
+01:03:16,291 -->  01:03:32,880
+我们所使用的是3-4-5模式以及开源协作。最后，开源工程、工程过程中会有一些独特的东西，
+but distributed using the collaborative process that we touched upon with the three four five model and open collaboration.
+Finally,
+then,
+there are few things unique to the open source process, engineering processes,
+in particular, 
+again.
+
+976
+01:03:33,840 --> 01:03:40,650
+特别其中涉及到补丁提交，以及居于补丁提交的同行评审，
+The patch submission, the peer review based patch submission
+and inclusion process.
+
+979
+01:03:40,651 --> 01:03:45,780
+我们之后看了3个例子。这些例子其实没有覆盖整个空间，
+We looked at three examples. These examples don't cover the whole space.
+
+980
+01:03:45,781 --> 01:03:47,970
+他们都是有自己的特点。
+They were unique in their own way.
+
+981
+01:03:47,971 --> 01:03:53,730
+它们只是用来说明开源软件开发社区是多么多样化，
+They only serve to illustrate how diverse the open source software development community is.
+
+982
+01:03:53,731 --> 01:03:55,920
+就像我在课程刚开始所提到的那样。
+As I mentioned early on in this course,
+
+983
+01:03:55,921 --> 01:04:05,040
+这是一个百花齐放的场景。这就是为什么对于软件开发过程来说是一个很好的研究课题，
+it's a thousand flowers bloom.
+And that's why open source is such a great subject of study for new and interesting software development processes.
+
+985
+01:04:06,240 --> 01:04:06,960
+对我来说就是这样。
+That's it for me,
+for now.
+
+987
+01:04:07,381 --> 01:04:10,500
+非常感谢你的关注，下次见。
+thank you very much and see you in the next session.
+Bye.

@@ -1,0 +1,513 @@
+0
+00:00:03,470 --> 00:00:09,990
+大家好，欢迎来到FLOSS,关于开源软件行业的课程以及它是和改变软件行业的，
+Hello, everyone, and welcome back to Floss, our course, on open source software and how it's changing the software industry.
+
+1
+00:00:11,720 --> 00:00:19,240
+上一节课，我们要讨论了在开源项目中工程过程的创新之处。
+Our last session, we talked about, uh, the innovative aspects of the engineering processes we find in open source projects.
+
+2
+00:00:20,080 --> 00:00:32,720
+在这节课中，我们会快速看一下，开源所带给我们的工具创新，或者说是针对开源过程的相关工具，
+And this, in this short session, we will take a quick look at the
+tooling innovation that open source has brought us, or the tools that are specific to open source processes and different from
+
+4
+00:00:33,330 --> 00:00:37,530
+并且这与我们之前所了解的闭源软件开发有所不同。
+what we know so far from traditional classic closed software development.
+
+5
+00:00:38,560 --> 00:00:47,320
+再次强调，这就是软件工具的创新，其中主要是software forge以及分布式版本控制。
+So again, it's software tool innovation, and the two main innovations that come out of open source are software forges and distributed version control.
+
+6
+00:00:48,300 --> 00:00:57,580
+并不是说其他人没有这些想法，而是这两个开源项目已经得到了的广泛的使用。
+It's not that others haven't had those thoughts, but it's really open source software projects, these two
+concepts have come to
+fruition and embedded
+
+9
+00:00:58,500 --> 00:01:05,540
+进一步说，这些开源项目回归了企业，并且回归到了闭源软件开发中。
+and been put to broad use, to the extent that they've actually made it back into enterprises, into close source software development.
+
+10
+00:01:07,550 --> 00:01:14,270
+让我们从第一个概念开始，software Forge，这是一个基于web的工具平台，帮助协作软件开发。
+So let's start with the first one, uh, as software Forge, it is a web-based tools platform for collaborative software development.
+
+11
+00:01:16,290 --> 00:01:23,350
+它通常有很多不同的项目，这只是其中比较关键的一个，而并不是唯一。
+Um,
+It usually has many different projects, honor, that's a key aspect, not just one.
+
+13
+00:01:24,010 --> 00:01:31,010
+所以对于你所要探索的地方有两种视角，并且可为你的项目提供工具，
+So they are these two perspectives of a place where you go to, to have all the tools for your project.
+
+14
+00:01:31,790 --> 00:01:35,870
+当然你也可以在那里探索其他的开源项目。
+And a place where you go to, to see all the other open source projects that out there.
+
+15
+00:01:36,770 --> 00:01:43,090
+所以最终看来，他就是一个为开源软件开发者所使用的服务。
+So ultimately, then it's obviously a service that is being used by open source software developers.
+
+16
+00:01:44,910 --> 00:01:50,750
+我相信你们都知道这里所展示的一些例子，这就是两个典型的关于source forge的例子。
+And I'm sure you all know these examples here. The two classic examples now are source forge.
+
+17
+00:01:51,430 --> 00:01:57,230
+source forge是其他开源软件forge的鼻祖，也是最原始的一个。
+Well, source forge is the mother of all open source software forges, the original one.
+
+18
+00:01:58,120 --> 00:02:03,080
+现在最出名的就是Github，
+And, the most well known one these days is, uh, GitHub.
+
+19
+00:02:03,900 --> 00:02:08,460
+在Github之前还有很多其他的软件，比如berliOS, RubyForge，
+Before GitHub, there were plenty of others, there were berliOS, RubyForge,
+
+20
+00:02:09,370 --> 00:02:12,770
+但是一些软件现在已经发生变化了。
+but some are now different.
+
+21
+00:02:13,580 --> 00:02:19,580
+一些软件是针对社区发布的，比如Ubuntu社区。
+Some are highly community specific launched that, obviously, for the Ubuntu community. Um.
+
+22
+00:02:20,660 --> 00:02:24,580
+就好比是在游戏中的“赢家通吃”现象，
+But because there's 'a winner takes all'  dynamic here
+
+23
+00:02:26,140 --> 00:02:39,200
+目前占主导地位的software Forge就是GitHub，它赢得了software Forge的头衔。
+in play. These days perhaps now the dominant software Forge is actually GitHub
+Which won this title, or grab this title of the hands of source forge.
+
+25
+00:02:40,650 --> 00:02:51,110
+这是在某个时间点下software Forge的截图，你可以看到他为你展示了各种各样的项目，
+It's a screenshot, the front page of sauce forge at some point of time,
+and you can see how it shows you various projects. It offers
+
+27
+00:02:51,870 --> 00:02:58,150
+他提供功了很多功能。你可以选择一个项目，然后对于一个给定的项目，
+things like that, so you can choose a project, and then for a given project, you would be able to
+
+28
+00:02:59,550 --> 00:03:04,750
+你能够检查它，并且在项目的基础上进行开发，你可以使用开源协作相关的各种软件开发工具。
+inspect it, and if you develop on that project, use any of the tools for collaborative software development.
+
+29
+00:03:06,300 --> 00:03:12,300
+这是首页，你可以一看到GitHub的首页是这样的。
+Here's the front page, sometime, the front page screen shot of the GitHub,
+
+30
+00:03:12,970 --> 00:03:21,410
+你可以看到项目的类别，你可以参与这些项目。
+front page, and you can see what also shows you categories of projects, et that you can work with. So,
+
+31
+00:03:22,610 --> 00:03:30,850
+所以，software Forge的创新之处就在于使用传统软件工具不太可能轻易到达。
+Software forges are innovative in that they make things possible that weren't easily possible with traditional tools.
+
+32
+00:03:31,990 --> 00:03:40,030
+software Forge帮助社区过程，志愿工作过程。这其实是一配对工具，
+Software forge helps the community process, the volunteering process. It's actually a matchmaking tool
+
+33
+00:03:40,650 --> 00:03:52,230
+可以帮助想做贡献的那些开发者去寻找项目，即为人们寻找他们所感兴趣的项目。
+which helps volunteers find projects that could volunteer, they help to or simply helps people find projects.
+They're interested in, for what reason, or whatever reason.
+
+35
+00:03:53,630 --> 00:03:59,150
+software Forge还可以帮助你提供代码质量并可以分享最后的实践过程。
+Source forge also helps you improve code quality and share best practices.
+
+36
+00:04:00,100 --> 00:04:05,620
+关键是要理解software Forge怎样帮助开源项目的开发过程，
+The key thing is, though, is to understand how a forge helps the open source volunteering project
+
+37
+00:04:07,060 --> 00:04:18,920
+在这里再说明一下，社区过程就是这些观点，就会开源志愿服务的5个阶段流程。
+process, so here, again, from the session on Community processes are the 
+the views, is the five stage process of open source volunteering.
+
+39
+00:04:20,180 --> 00:04:25,980
+你可能还记得志愿者们是如何寻找项目的，
+And you may remember how volunteers are searching for projects.
+
+40
+00:04:27,200 --> 00:04:34,360
+这些项目其实都在推销自己，
+And the projects are marketing themselves, and that's only possible or efficient that was made efficient
+
+41
+00:04:35,350 --> 00:04:43,870
+这其实都是在software Forge的帮助下发现项目，software Forge参与其中。
+with the help of software forges, and for each step along this process, software forges offer somehow, so let's look at that in detail.
+
+42
+00:04:45,290 --> 00:04:46,690
+software Forge提供支持的第一步就是，
+The forge Support for,
+
+43
+00:04:48,790 --> 00:05:00,270
+从项目的角度去推销软件就是software Forge支持项目的搜寻。
+Step one, from the project's perspective to market the project is that the software forge supports
+Stumbling as well as searching, as recorded by volunteers.
+
+45
+00:05:01,470 --> 00:05:06,790
+如果一个项目志愿者足够聪明的话，就可以找到forge，进而找到Github。
+If a volunteer is smart enough to find forge, find GitHub.
+
+46
+00:05:07,810 --> 00:05:14,970
+之后可能会看到目前项目所展示的特征信息，
+They will run into features where there are random displays of current projects or project of the month.
+
+47
+00:05:15,780 --> 00:05:24,300
+除了使用目标进行直接搜索，还可以使用关键词进行分层次浏览，
+In addition to the goal, directed searching, by key words, hierarchical browsing in a  classification hierarchy that will lead the
+
+48
+00:05:25,050 --> 00:05:29,010
+最终会知道一个项目开发者到达相关的项目，可能就是项目开发者所寻找的项目。
+developer to the project, any project they're looking for.
+
+49
+00:05:29,960 --> 00:05:35,280
+如果没有software Forge提供的这些支持，
+And without these supports, all it would be left would be 
+
+50
+00:05:36,480 --> 00:05:39,360
+那么GitHub所剩下的就是类似Google或者Yahoo这种通用的搜索服务。
+generic, search services like Google or Yahoo.
+
+51
+00:05:40,080 --> 00:05:40,960
+因为它是一种特殊的搜索引擎，
+On such engines.
+
+52
+00:05:41,660 --> 00:05:49,820
+如果你愿意的话，你可以为开源编程提供特殊支持，可能也会为Github提供支持，
+But because it's specialized search engines, if you will, specialized support for open source programming, of course, to GitHub
+
+53
+00:05:51,230 --> 00:05:55,870
+这比通用的搜索引擎更加有效。
+features, the software for features, are more effective than the generic search engines.
+
+54
+00:05:56,970 --> 00:06:03,170
+在这里你可以看到，全部forge上的特征都是很明显的，
+Here you can see it as features that are really prevalent or very visible on all the forges.
+
+55
+00:06:04,150 --> 00:06:13,070
+那么你如何在South Forge上通过关键词进行搜索呢？有些项目的层次分类信息在左边，
+How you can search by keyword here on South Forge, how there is a hierarchic classification of projects to the left,
+
+56
+00:06:13,880 --> 00:06:16,240
+显示了当月的相关项目。
+A project of the month, etc.
+
+57
+00:06:17,480 --> 00:06:25,960
+对于Github也是类似，在顶部进行相关搜索，在中间进行探索，
+Um, same here, for GitHub, search at the top, explore in the middle, and some trending by chance.
+
+58
+00:06:27,430 --> 00:06:30,590
+在底部支持进入某些有意思的项目。
+Supporting stumbling into interesting projects at the bottom.
+
+59
+00:06:33,250 --> 00:06:41,930
+第二步就是解释项目，forge会提供不同的工具然后项目需将项目相关的信息
+For step two, explaining the project, the forge, provides the various tools that a project needs to explain itself to
+
+60
+00:06:42,610 --> 00:06:43,490
+为前来寻找项目的人进行解释。
+anyone who comes looking.
+
+61
+00:06:44,510 --> 00:06:50,830
+所以在项目主页上有一个摘要，会提供文档以及提供相关下载，
+So makes it easy to have a summary on the project home page, provide documentation, provide downloads,
+
+62
+00:06:51,790 --> 00:06:53,710
+这也方便了与项目的沟通交流。
+give easy access to
+
+63
+00:06:54,870 --> 00:07:02,470
+所以寻找项目的人可以看到这个项目是很容易参与进来的。
+ways of communicating with the project. So that, uh, anyone who comes by 
+
+64 
+00:07:03,680 --> 00:07:15,950
+第二步我想问个问题，这是一个完整项目的例子，这是Source Forge上的一个主页面。
+will find it almost frictionless to engage. And the second step and I'll say, ask a question.
+So here's an example of a well done project, homepage on Source Forge.
+
+66
+00:07:17,070 --> 00:07:27,850
+可以看到简短说明，你可以看到各种可获得的工具，如果你想要学习项目就可以使用工具了。
+when 
+the short designation explains it allows for download, and you can see all the tools that are available and that you could use if you want to learn.
+
+68
+00:07:30,250 --> 00:07:35,290
+与项目贡献者一块儿参与项目，这是5阶段模型中的第三步。
+So for engaging with volunteers, our step three in the 5 stage model.
+
+69
+00:07:36,330 --> 00:07:43,370
+所以需要使得安装软件更简单一点，使用邮件询问问题。
+Um, would be to make it easy to install the software, ask questions and forms and mailing lists, etc.
+
+70
+00:07:44,160 --> 00:07:51,960
+或者可以简单打开所有的工具，比如bug追踪器，
+And simply open up all tools like the bug trackers so that, ah, people who want to use the software can
+
+71
+00:07:52,960 --> 00:07:55,920
+这样开发者就可以看到找到他们所真正想找的issue了。
+find an issue if they really found.
+
+72
+00:07:57,570 --> 00:08:05,170
+所以GitHub参与起来还是蛮简单的，所以你可以看到代码，
+And so such simple engagement on Github that looks like this, um, you get to see the code,
+
+73
+00:08:06,140 --> 00:08:07,220
+你可以在wiki中浏览代码，你可以对项目进行fork操作，
+you can, 
+
+74
+00:08:09,440 --> 00:08:16,480
+如果你是一个项目开发人员，你可以下载软件，下载下来的会许是一个zip文件。
+browse the wiki, you can fork it. If you're a developer, download other software, perhaps as a zip file.
+
+75
+00:08:19,040 --> 00:08:30,860
+就目前与项目贡献者的工作来看，这些工具，这些forge，会提供邮件列表以及轮论坛。
+So stage for working with a contributor,
+these tools, obviously, these forges, obviously provide mailing lists, forums, etc.
+
+77
+00:08:31,730 --> 00:08:36,410
+有了这些工具之后，你可能需要结果，需要相关通知。
+With all the belts and with us, you need results, you need notifications, etc.
+
+78
+00:08:37,570 --> 00:08:45,930
+他们让你建立了自己的画像，这样人们就可以找到你。并且在GitHub上给了你star和勋章。
+They let you set up your profile, people can find you. They gave me follows, giving you stars and badges, and what have you.
+
+79
+00:08:48,340 --> 00:08:54,380
+好的，这就是关于software forge的简单介绍，对于开源项目来说也是这样。
+All right, and well, that was a short rundown of what software forges to, for open source projects, again.
+
+80
+00:08:55,090 --> 00:09:02,930
+开发者通过一个可找到的、方便记忆的URL寻找服务，
+They are matchmaking service at one singer, well findable, very memorable URL.
+
+81
+00:09:03,780 --> 00:09:13,430
+人们会找到所有的开源项目。
+People will find the open source projects, all the open source projects, almost all of the open source projects they are.
+might, be looking for.
+
+83
+00:09:14,250 --> 00:09:21,770
+这些开发则会将通过forge所提供的不同特征信息去寻找项目，
+And uh, they will literally be driven to find those by way of the various features that the forges offer.
+
+84
+00:09:22,590 --> 00:09:25,950
+然后跟着志愿者的相关流程走就行了。
+And then be guided along this process of volunteer.
+
+85
+00:09:26,980 --> 00:09:32,940
+所以software forge可以提升软件质量，
+Okay, so, uh, in addition, a software forge improves code quality, because all the projects are on
+
+86
+00:09:33,590 --> 00:09:35,990
+因为所有的项目都在一个地方，所以项目相关的冗余就减少了。
+Uh, one place, and we get less redundancy.
+
+87
+00:09:37,090 --> 00:09:47,140
+在公司中的关键问题就是如果没有被收入项目庇护的话，你就不知道其他人在做什么。
+Um, key problem
+in companies is that you just don't know what the other people are doing if you're strictly confined to asylum.
+
+89
+00:09:47,920 --> 00:09:52,520
+因此，在任何公司，在给定的时间下，你可能会有一个被开发六次的组件。
+And hence, in any company, at any given point of time, you have the same component being developed six times.
+
+90
+00:09:53,560 --> 00:10:00,280
+但情况本不应该如此，你可以对任何的组件进行搜索，
+Not supposed to be like that, but that's how it is in open source projects. You can actually search, as we just noted,
+
+91
+00:10:01,120 --> 00:10:05,000
+如果这个项目符合你的需求，你就可以使用这个项目或者组件。
+For any component, and if it fits your needs, you can use it.
+
+92
+00:10:06,350 --> 00:10:14,670
+所以开源促使人们重用组件，而不是重复开发这些组件。
+It fits your context, you can use it. so open source drives people to reuse components rather than to redundantly develop them again.
+
+93
+00:10:15,240 --> 00:10:22,640
+因此 组件的使用频率越高,bug被发现地就会越快。
+And thereby, components get used, more often, the higher the use, the faster the bugs are found.
+
+94
+00:10:23,510 --> 00:10:29,110
+最终，这个组件就会成熟的很快，组件的质量就会提升。
+And ultimately, the faster a component matures and the quality goes up.
+
+95
+00:10:30,860 --> 00:10:33,820
+因为人们都处在相同的forge中，人们可以参与很多其他的项目，
+Because everyone's on the same forge, and people easily
+
+96
+00:10:34,890 --> 00:10:43,050
+我们就可以看到类似GitHub的forge。
+engaged with multiple projects, we really can see that on places like Github. People also share best practices more easily.
+
+97
+00:10:43,590 --> 00:10:48,310
+人们也更容易分享最佳实践，之后你就会看到分享最佳实践的集中的方式，
+You see other ways later of how best practices are shared, for example, by way of
+
+98
+00:10:49,510 --> 00:10:54,590
+举个例子，这就是在打基础，像GitHub那样人们可以在不同项目中进行切换，
+foundations, uh, but here, um, the, on a forge, like GitHub,
+
+99
+00:10:55,260 --> 00:10:59,260
+他们进行实践
+people move between projects, they take best practices with them 
+
+100
+00:10:59,770 --> 00:11:06,210
+他们还可以看到其他人是怎么的做的。而不是说项目会隐藏在别的地方，
+or they can see how others are doing things. It's not hidden from them at some other place.
+
+101
+00:11:06,780 --> 00:11:10,420
+在GitHub中很容易看到正在发生什么事情，以及可以从其他人上学到什么东西。
+It's easy to see what is going on and learn from others.
+
+102
+00:11:12,560 --> 00:11:19,760
+这些都是forge，还有很多事情要说，但是这里我简单说一下。
+All right, these were the forges, pretty short rundown. There's much more to be said, but let me stay short and sweet here.
+
+103
+00:11:21,090 --> 00:11:27,810
+同样的事情，闭去版本控制系统，其被引进到开源软件开发中，
+Same thing, short and sweet for distributed version control, which was introduced to
+
+104
+00:11:29,110 --> 00:11:33,750
+因为开源软件开发是高度分布式的，
+open source software development, because of open source software development, it's highly distributed
+
+105
+00:11:34,730 --> 00:11:41,690
+很多组件都是面向软件开发的，其余的版本控制还有Gits，
+nature of component oriented software development but distributed version control like Gits and Mercurial
+
+106
+00:11:42,100 --> 00:11:49,620
+此外Mercurial允许用户独立工作，
+allow developers to do, is to work independently of each other, not to step on each other's toes.
+
+107
+00:11:50,400 --> 00:11:55,160
+样也是加快了软件的开发速度。你只能集成你想要做的事情，
+And thereby pick up speed of development much faster. You only integrate
+
+108
+00:11:56,170 --> 00:12:01,210
+当然，你可以进行相关贡献的继承，因为很多贡献者不想面对集成的噩梦。
+When you want to, of course, you want to integrate often because they don't want to run into an integration nightmare.
+
+109
+00:12:01,740 --> 00:12:07,020
+当你想做的时候，当你需要去做的时候，你就可以去做这件事，这样你就不会干扰别人的工作。
+But you do it exactly when you wanted them, when you needed, and so you don't have anyone else stepping on your toes all the time.
+
+110
+00:12:08,680 --> 00:12:16,800
+好的，这就是要讲内容，开源工具创新，其包括software forge以及分布式版本控制。
+All right, that's it for this short and sweet Session, open source tool innovation, comprises software forges and distributed version control.
+
+111
+00:12:18,200 --> 00:12:24,120
+software forge帮助社区开发过程以及开源项目，
+Software forges help the community process and open source projects, but they also help improve
+
+112
+00:12:25,020 --> 00:12:27,740
+也可以帮助提升代码质量以及分享最佳实践。
+code quality and the sharing of this practice.
+
+113
+00:12:29,230 --> 00:12:37,070
+分布式版本控制加速了开发过程。好的，这就是本次课的内容，感谢你的倾听，我们下次课再见。
+Distributed version control speeds up development. All right, that's it from me. Thank you very much for your attention and see you in the next session.

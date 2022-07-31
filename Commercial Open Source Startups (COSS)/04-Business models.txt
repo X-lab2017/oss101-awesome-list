@@ -1,0 +1,3342 @@
+0
+00:00:01,200 --> 00:00:11,460
+大家好,欢迎回到我们的课程，此课程是关商业业开源软件创业以及如何将其从大学教育中抽离出来。
+Hello,everyone,
+and welcome back to course on commercial open source software startups and how to spend them off from university.
+
+3
+00:00:12,630 --> 00:00:24,120
+这是关于软件商业业务的一门课，这是此次系列课程第一部分中的第四次课程。
+This is the fourth lecture in the first of three parts of this of the lectures of this course or about software businesses in general.
+
+4
+00:00:24,121 --> 00:00:30,030
+我们之前讨论过软件行业，比如什么是软件产品啊？软件提供商是怎么样的啊？
+We previously discussed the software industry,
+what software products are and how software vendors,
+
+6
+00:00:30,031 --> 00:00:33,660
+软件提供商是软件行业的一个参与者。
+one particular player in the industry function.
+
+7
+00:00:34,770 --> 00:00:40,800
+现在我们来看看这些软件供应商的基本商业模型，
+Now we will look at the underlying business models of such software vendors,
+
+8
+00:00:40,801 --> 00:00:45,390 
+通常软件提供商都是从所谓的软件初创公司发展而来的。
+from which usually,
+ah,
+software startups called.
+
+11
+00:00:46,980 --> 00:00:59,910
+我在这里要讨论商业模型，但是真正要讨论的是商业模型画布以及商业模型的不同组件。
+I say business models here,
+but what it really will be about is a discussion of the business model canvas and hence the different components of a business model.
+
+13
+00:01:01,050 --> 00:01:10,170
+在这儿我们被给了一些可能有用的信息，这并不是让我们去探寻开源模型的专利以及模版。       
+So we were given what's possible here not really go into patents or templates for business models as a whole,
+
+14
+00:01:10,171 --> 00:01:16,470
+我们还是探讨商业模型。
+and we will leave that to the Business Model.
+Generation book. Rather
+
+16
+00:01:16,471 --> 00:01:25,560
+我们先查看一下与商业模型相关的等级信息，以及你可以操作的组件的信息。
+we will look at the levels and the different things and components of what you do and can do.
+
+17
+00:01:25,561 --> 00:01:37,620
+也许在以后，在某个关于商业模型模版的讲座上，可能会问，什么是商业模型？
+And maybe at some later point of time,
+at a lecture on patents or templates of business models.
+So what is a Business Model?
+
+20
+00:01:38,910 --> 00:01:46,350
+它实际上描述了一个组织如何创造、交付和获取价值。
+Well,
+it's a description of how an organization creates, delivers and captures the value.
+
+22
+00:01:46,351 --> 00:01:55,140
+这是一个很笼统的说法，其中的关键在于经济方面，比如“创造价值”。
+That's a pretty general or thing to say.
+The key here really is in economic terms,
+the creation of value.
+
+25
+00:01:55,141 --> 00:01:58,500
+所以回出现新的事物，   
+so something that is new, that
+
+26
+00:01:58,501 --> 00:02:06,720
+如果没有你的工作这个事物就不可能诞生。消费者愿意为你的工作买单，然后就获取到了价值。
+did not exist without your work and that customers are willing to pay for. And then the capture of that value,
+
+27
+00:02:06,721 --> 00:02:17,130
+也就是说，有些人确实是赚到钱了，他们通常抓住创新、创造的价值。
+meaning someone actually makes money usually offered or captures the value of that innovative or otherwise,
+creation.
+
+29
+00:02:18,270 --> 00:02:21,330
+在这之间还有一个"交付"的步骤，
+And so in between,
+there's a delivery.
+
+31
+00:02:21,331 --> 00:02:27,270
+但核心还是创造、获取价值。
+But the core is creation and capture of value.
+
+32
+00:02:29,010 --> 00:02:32,640
+因为这是一个商业模型，
+And since this is a model,
+
+33
+00:02:32,641 --> 00:02:36,480
+我们还是要讨论下组件之间的关系。
+we will also talk about the relationships of the components,
+
+34
+00:02:36,481 --> 00:02:43,740
+我们需要深入研究这个模型并理解它的组件。
+because we need to dig into the depth of that model or that description and understand it's components.
+
+35
+00:02:43,741 --> 00:02:53,910
+否则，我们便不能创建新的商业模型，比如重新设计、创造新的组件、整合组件。
+Otherwise,
+we can't create new ones which usually consist of refiguring things, inventing new components,
+putting them together.
+
+38
+00:02:54,900 --> 00:03:00,270
+因为这是一个商业模型，它必须被实例化，     
+Since it's a model, it has to be instantiated so a model is kind of static,
+
+39
+00:03:00,271 --> 00:03:05,550
+如此一来一个静态的模型就可以转化为可以与人们进行交互的动态模型了。
+but it comes to life by people actually turning that model into action.
+
+40
+00:03:05,551 --> 00:03:09,480
+这就是指导一个公司怎样运行的蓝图，
+so it's a blueprint for a company how to operate.
+
+41
+00:03:09,481 --> 00:03:18,330
+但是并没有这家公司如何实际运作的指导，也就是说没有指出如何运行一个商业模型。
+But without the actual operations of that company, also,
+meaning the execution of the business model,
+there is no business.
+
+44
+00:03:22,410 --> 00:03:29,880
+所以我们将使用业务模型画布来描述和讨论业务模型。   
+So we will use the business model canvas to describe and discuss business models,
+
+45
+00:03:29,881 --> 00:03:31,650
+现在你也知道了，
+and you know it by now.
+
+46
+00:03:31,651 --> 00:03:35,100
+该商业模型画布有9个不同的组件，
+it's got these nine different components.
+
+47
+00:03:35,101 --> 00:03:39,390
+这是在the Business Model Generation book这本书中所提及的，
+Ah,
+that are laid out primarily in the Business Model Generation book.
+
+49
+00:03:39,391 --> 00:03:42,780
+当然，现在也是有了很多其他的书籍。
+but now many other textbooks
+as well.
+
+
+51
+00:03:43,800 --> 00:03:50,310
+对于基本的商业模型画布而言，有9个组成部分，这些部分会相互作用。       
+To that basic canvas,
+these nine components and their interactions,
+
+53
+00:03:50,311 --> 00:03:57,930
+ 我在这里添加了一些内容来说明“价值创造”和“价值获取”。
+I have added here to illustrate the value creation side and the value capture side.
+
+54
+00:03:58,860 --> 00:04:11,160
+“价值创造”在左边，此部分是用户为操作的产出付费，
+The value creation happens on the left,
+where there is the creation of what customers actually are paying for the production of the operations and then on the right.
+
+56
+00:04:11,161 --> 00:04:21,210
+在右边儿就是“价值获取”，其将包含价值主张的产品推向市场并由此产生收益。
+There is the capture,
+the going to market with with a product of value proposition and generating revenues of it.
+
+58
+00:04:22,170 --> 00:04:29,100
+在中间部分就是实际的价值主张，它与其他事物联系密切。
+In the middle nicely in the middle is the actual value proposition which ties these things together.
+
+59
+00:04:29,101 --> 00:04:41,460
+价值创造用于创造价值主张以及创建相关产品，现在你可以使用产品来获取收入。
+Value creation serves to create the value proposition or products,
+and now you capture ourselves to turn those into revenues income for the company.
+
+61
+00:04:42,510 --> 00:04:49,770
+最初的教科书并没有真正把这两方面分为“价值创造”和“价值获取‘，  
+And the original textbook does not really labour these two sides as value creation and value capture,
+
+62
+00:04:49,771 --> 00:04:58,950
+考虑到模型画布可以从中间进行划分。
+though,
+given how neatly this canvas can be split in the middle,
+I imagine this was on the mind of sterwalder.
+
+65
+00:05:00,660 --> 00:05:11,550
+所以对于模型画布有九个关键的组件，这些组件都伴随着价值主张以及价值获取。
+So we have these nine components with essential linchpin,
+the value proposition, value capture.
+
+67
+00:05:11,551 --> 00:05:16,950
+你如何赚钱取决于你如何划分市场以及划分用户。
+How you make money is the customer segments of market segments,
+
+68
+00:05:16,951 --> 00:05:17,670
+渠道、客户关系、收入、价值创造，这些资源都是关乎关键合伙人、关键活动以及关键资源的，
+channels,
+
+69
+00:05:17,671 --> 00:05:31,620
+以及与潜在的成本架构也是有关联的。
+custom relationships and revenue streams and value creation is about key partners, key activities, key resources and the underlying cost structure of creating that value.
+
+70
+00:05:31,621 --> 00:05:45,180
+在接下来的时间中，我们从软件供应商的角度着重讨论这些不同的组件，   
+And now,
+in the remainder of this lecture,
+we will mostly go over these different components and discuss them and discuss them,
+in particular from a software vendor's perspective.
+
+74
+00:05:50,370 --> 00:06:00,630
+所以，如上所述，商业模型的核心就是价值主张。
+So,
+as stated,
+the core, the essence or at the center of any business model arguably,
+is the value proposition.
+
+78
+00:06:00,631 --> 00:06:16,830
+价值主张就是召集客户并为客户创造价值，这就是你公司存在的理由，
+What it is that you are proposing to summon your customers would create value for them,
+and that justifies that's the rationale for the existence of your company,
+
+80
+00:06:16,831 --> 00:06:27,630
+在公司中你的目标、目的就是为客户实现价值。价值主张就是其它东西的来源。
+your goal,
+your purpose in life as a company is to deliver value to customers,
+and that's where everything else derives from.
+
+83
+00:06:28,650 --> 00:06:34,020
+所以价值主张是关于某种东西对顾客的价值，   
+So the value proposition is well the value of something to customers,
+
+84
+00:06:34,021 --> 00:06:40,800
+所以他们就会买，他们会为此付费，但他们通常会将其转化为一种产品或服务。
+so they buy,
+they pay for it, typically turned into a product or a service.
+
+86
+00:06:40,801 --> 00:06:48,780
+价值还是很抽象的，所以价值主张听起来也是有点儿抽象的。
+So value is pretty abstract.
+and hence value proposition
+sounds a bit of an abstract.
+
+89
+00:06:48,781 --> 00:07:04,440
+它是为顾客减轻痛苦或创造利益，你可以把它变成实实在在的产品或服务。
+It is the relieving of a pain or other creating of a benefit or gain for a customer,
+and it becomes tangible as you can it into something you can call a product or a service.
+
+91
+00:07:04,441 --> 00:07:12,960
+因此，为将某种抽象的价值概念转化为有形的产品，你必须要卖东西，
+And so by way of turning and somewhat abstract idea of value into a tangible product,
+you have something to sell,
+
+93
+00:07:12,961 --> 00:07:20,880
+那就是顾客花钱买的东西。产品或服务两者之间会有很大的不同，
+and that's what customers pay for.
+What that product or service is can vary drastically.
+
+95
+00:07:20,881 --> 00:07:26,640
+你可以说它们至少是两个维度的值。
+You can argue that they're at least these two dimensions to it that the value.
+
+96
+00:07:26,641 --> 00:07:35,850
+但该产品可从客户那里获取一定的收益，或者是一些定性和定量的东西。   
+but the product has some quantitative gain or benefit to customers,
+or some qualitative and quantitative means.
+
+98
+00:07:35,851 --> 00:07:44,370
+你的产品发展很快，你产品的价格比竞品的价格便宜因此受到了消费者的追捧。
+Your product really speeds things up,
+or it's just cheaper than the competitors but needed by customers,
+
+100
+00:07:44,371 --> 00:07:52,560
+你的产品可能是新奇有趣的东西，然后就为生活带来了更多的方便，减缓了生活中的无聊。
+it could be breaking qualitative barriers by making life much more convenient or really being novel and intriguing,
+relieving boredom and what have you.
+
+102
+00:07:54,000 --> 00:08:01,680
+所以价值主张可以非常广泛，我们这之后会讨论初创公司相关的事情。     
+So value proposition can be quite broadly,
+and usually that's what we will talk about when we talk about
+
+104
+00:08:01,681 --> 00:08:12,000
+我们要弄清楚顾客愿意支付的实际价值是什么，这个工作不简单。
+startups later. It is an intriguing and not so easy process to figure out what the actual values that customers are willing to pay for.
+
+105
+00:08:14,520 --> 00:08:25,860
+The Business Model Generation book以及the customer development book structure这两本书
+The Business Model Generation book and the customer development book structure not to help you understand value proposition
+
+106
+00:08:25,861 --> 00:08:30,120
+帮助你更好地整合了你的问题。
+better structured into these different aspects are you solving?
+
+107
+00:08:30,121 --> 00:08:36,750
+你是在减轻客户或潜在客户的痛苦吗？还是你要在他们的伤口上撒盐？
+are you relieving a pain of a customer or potential customer,
+or you're giving them a gain?
+
+109
+00:08:36,751 --> 00:08:42,780
+正是痛苦才使得节省成本或使得某事顺利运行，      
+It's pain,
+is saving costs or making something run smoothly.
+
+111
+00:08:42,781 --> 00:08:56,670
+然后就会吸引大量的关注和收益。这就需要你大幅提升自己的产品从而为老顾客带来更优质的体验。
+That otherwise would draw a lot of attention and gain means improving significantly some output so that they are deliver better quality to their own old customers.
+
+112
+00:08:56,671 --> 00:08:58,290
+所有你开辟了一个新的市场。
+Or you open up a new market.
+
+113
+00:08:59,220 --> 00:09:09,210
+这就会使你的想法产生分歧，当一个问题比较合理的时候，那么你是在解决问题还是在满足需求？
+And resources also distinguish between you are solving a problem or fulfilling a need where a problem is probably more rational.
+
+114
+00:09:09,211 --> 00:09:14,280
+需求是更加情感化的东西，可以消除无聊。
+while need is more emotional like removing boredom.
+
+115
+00:09:15,150 --> 00:09:21,480
+最后，这只是一个关于付出和收获，问题和需求的简单模型。
+In the end,
+this is just a simple model of pains and gains, problems and needs,
+
+117
+00:09:21,481 --> 00:09:27,510
+这对你的企业来说可能是非常独特的，这才是对客户而言的实际价值。
+and it may be very unique to your business what it is.
+that is the actual value to customers.
+
+119
+00:09:29,760 --> 00:09:42,150
+迟早有一天，你需要将付出和收获量化，举个例子，这个问题多久发生一次？  
+Sooner or later,
+however,
+you have to quantify that gain or pain,
+and that would be,
+for example,
+by how often does this problem occur
+
+125
+00:09:43,860 --> 00:09:47,280
+或者换个说法，如果这个问题发生了，那么问题发生的频率是多少？
+Or if it occurs so not just frequency, it
+Occurs
+
+127
+00:09:47,281 --> 00:09:49,680
+问题的严重程度是怎样的？
+how intense, what's the amplitude？
+
+128
+00:09:49,681 --> 00:09:52,560
+如果你了解这个问题，或者了解了收获、付出，
+if you will 
+of the problem or the gain,
+
+130
+00:09:53,490 --> 00:10:00,060
+那么对该问题进行资格认证就是很重要的了,
+pain to the customer and such qualification is important because ultimately,
+
+131
+00:10:00,061 --> 00:10:04,800
+以你为最终你的产品或服务的定价将取决于此。
+the pricing of your product or service will depend on that.
+
+132
+00:10:04,801 --> 00:10:12,120
+你得给给这个问题加上数字，即你需要量化事物，否则你就是在盲目前进。
+You need to put numbers to it.
+You need to quantify things,
+otherwise you are flying blind.
+
+135
+00:10:12,121 --> 00:10:15,780
+你不知道如何收费，你也不知道如何处理，
+You don't know how much to charge.
+You don't know how to manage it.
+
+137
+00:10:15,781 --> 00:10:19,920
+你还得为其指定数字，最终你需要建立商业模型。
+You need to put numbers to it.
+You need to model
+ultimately,
+
+140
+00:10:19,921 --> 00:10:26,340
+那么你应该做些什么工作去了解你的产品以及你需要消费者做些什么呢？    
+what it is that you're doing and to understand your product and know what you can ask your customers for.
+
+141
+00:10:29,790 --> 00:10:35,940
+所以价值主张是商业模型和商业模型画布的核心，
+So value proposition is at the centre of a business model and the business model canvas.
+
+142
+00:10:35,941 --> 00:10:41,430
+现在假设你已经有了这个价值主张并且你也知道如何创造它。
+And now let's assume you have that value proposition already and you know how to create it.
+
+143
+00:10:41,431 --> 00:10:42,930
+我们稍后也还会讲到，
+We'll talk about that later,
+
+144
+00:10:42,931 --> 00:10:45,870
+但是假设你现在已经知道了如何去创建价值主张，
+but for now assume you know how to create it.
+
+145
+00:10:45,871 --> 00:10:49,860
+也知道了如何销售它并获取它的价值，
+How do you actually sell it and capture its value,
+
+146
+00:10:49,861 --> 00:10:56,520
+这就意味着你所创造的价值不会流失，其他人也会从中受益。
+meaning the value that you created is not escaping and somebody else benefits from it.
+
+147
+00:10:57,720 --> 00:11:04,410
+在经济相关教科书中，“价值捕获”通常被称为“价值占有”，   
+In economic textbooks,
+value capture is actually usually called value appropriation.
+
+149
+00:11:04,411 --> 00:11:09,660
+"价值捕获"这个学术术语还是比较奇特的，
+So that is a little bit of 
+academic term,
+
+151
+00:11:09,661 --> 00:11:16,080
+实践者更倾向于“捕获”而并非“占有”。
+a fancy term. Practitioners tend to talk about value capture rather than appropriation.
+
+152
+00:11:16,081 --> 00:11:22,170
+这记忆起来很容易。
+It may be a simple a bit nicer or easier
+to remember.
+
+154
+00:11:22,171 --> 00:11:31,020
+价值捕获是对从你所销售的产品、服务中获取收入这一复合过程的称呼，
+Value capture
+is the comprehensive process of
+deriving that revenue stream from 
+
+157
+00:11:32,040 --> 00:11:40,260
+你所销售的产品、服务，包含了针对市场中客户的价值主张。
+products or services that you sell，that incorporate a value proposition to customers in a market or a market segment.
+
+158
+00:11:41,250 --> 00:11:48,840
+你可以通过相关渠道接触到消费者，然后管理你与消费者之间的关系。
+And you reach those customers through a channel and you manage your relationship.
+
+159
+00:11:48,841 --> 00:11:53,250
+我希望那些消费者能保持和我的关系，并进一步发展关系。
+I wish those customers to keep them and to grow them.
+
+160
+00:11:54,540 --> 00:11:59,220
+这些不同的组件、收入流、市场化划分、价值渠道以及消费者关系造就了价值主张，        
+And these different components, revenue stream, market segments,
+
+161
+00:11:59,221 --> 00:12:21,750
+每一个商业模型都是与众不同的，组件以不同方式组合，组件之间进行交互。
+value channels and customer relationship make up the value capture side of the business model canvas plus the value proposition. And every business model is different in that these components made of concrete or specific in different ways and they interact in different ways.
+
+162
+00:12:21,751 --> 00:12:27,450
+所以每个商业模型都是不同的，   
+So this is different
+by each business model,
+
+164
+00:12:27,451 --> 00:12:33,510
+因此你的市场的组成结构也会有所不同。
+and then it is also different by how you structure your market.
+
+165
+00:12:33,511 --> 00:12:43,290
+你会发现市场被分割成了不同的部分，不同组件就会包含变化，
+You will see that markets are split into segments and these variations.
+There will be variations on these different components,
+
+167
+00:12:43,291 --> 00:12:45,720
+这依赖于你在划分后的市场中如何进行销售。
+depending on what market segment you are selling to.
+
+168
+00:12:47,040 --> 00:12:57,720
+我们来看一下，在最初的商业模型画布中，右边就是用户划分的组件，   
+So let's take a look at that.
+In the original business model canvas,
+to the right,
+there is the component of customer segment.
+
+173
+00:12:57,721 --> 00:13:04,020
+我不太喜欢这个词，因为你没有对客户进行细分，你只是对市场进行了仔细的划分。
+I don't quite like that term because you don't really segment customers,
+you segment markets,
+
+175
+00:13:04,021 --> 00:13:15,360
+所以你们所有的顾客都在你们产品所处的市场上。然后你对市场进行理想的划分，
+and so all your customers are in the market of your product.
+and then as you split a market and into
+ideally disjoint,
+
+178
+00:13:15,361 --> 00:13:22,800
+这意味着划分后的两部分市场是互斥，互不重叠。
+meaning mutually exclusive segments that don't overlap,
+
+179
+00:13:22,801 --> 00:13:30,810
+然后你把消费者分成不同的子集，你这并不是对顾客本身进行划分，     
+you also split your overall set of customers into these different subsets that's meant by segments,
+so it's not customers,
+
+181
+00:13:30,811 --> 00:13:35,640
+而是对市场进行划分,
+you are segment your market, segmenting a market and hence a market segment
+
+182
+00:13:35,641 --> 00:13:41,550
+所以市场划分后的结果就是客户集合中相似客户群体的类簇。
+is a cohesive class cluster of similar customers from your overall set of customers,
+
+183
+00:13:41,551 --> 00:13:48,630
+所以市场本身就是顾客群，所以市场会对你的价值主张做出反应。
+so the market itself is just the cluster of customers that somehow will react to your value proposition.
+
+184
+00:13:48,631 --> 00:13:56,250
+然后，当你对市场进行细分的时候，你会发现顾客群更具有凝聚力。
+and then,
+as you segment it,
+you find clusters with that overall set of customers which are somehow more cohesive.
+
+187
+00:13:56,251 --> 00:14:02,100
+其中重要的一点是你要明白什么么因素使得这个顾客簇中的顾客聚集在一起。
+And it is important that you understand what ties clustered together,
+
+188
+00:14:02,101 --> 00:14:08,820
+这样的话，你就可以定制你的价值主张，就可以准备下相关的课程。
+because then you can customize your value proposition or your journal about your proposition to that particular class cluster.
+
+189
+00:14:12,210 --> 00:14:25,230
+这就意味着商业模型画布存在于商业模型之上，存在于许多不同的变量之上。    
+So this implies that this one business model canvas exists on this business mode, exists in many different variations that are all somehow similar,
+
+190
+00:14:25,231 --> 00:14:28,170
+因此你有一个核心价值主张，
+since you have a core value proposition.
+
+191
+00:14:28,171 --> 00:14:36,420
+但是这个价值主张之间会因为消费者集群的不同而存在差异，
+But then that value proposition varies by segment because each cluster,
+
+192
+00:14:36,421 --> 00:14:51,600
+消费者集群间是存在差异的，这是因为不同的消费者集群是存在不同需求的。
+a group of customers that you can clearly distinguish from another cluster cohesive cluster of customers obviously is somewhat different than that other cluster,
+meaning they have somewhat different needs. Again, in total,
+
+194
+00:14:51,601 --> 00:14:55,410
+总体来说，这也是能够吸引整个市场的价值主张。  
+it's the same value proposition that appeals to your overall market.
+
+195
+00:14:55,411 --> 00:15:00,270
+但是我们仔细查看细分市场和每个细分市场的客户群体，    
+but looking at the market segment and the respect of customer groups in each market segments,
+
+196
+00:15:00,271 --> 00:15:02,130
+我们是可以发现差异的。
+there is variation,
+
+197
+00:15:02,131 --> 00:15:11,100
+这就意味着你必须改变你的商业模型，以为特定的市场提供更好的服务。
+and that means you have to vary your business model to serve that particular segment best so you can literally,
+
+198
+00:15:11,101 --> 00:15:21,300
+你可以通过商业模型画布对市场划分进行相关计算，
+you can effectively calculate backwards from your market segmentation through the whole business model canvas.
+
+199
+00:15:21,301 --> 00:15:30,360
+当你传递你的价值主张，你的客户对于不同需求的价值主张。
+As you deliver your value proposition,
+your customers value proposition to the needs of their particular customer segment.
+
+201
+00:15:30,361 --> 00:15:37,050
+这就是你在这里看到的，似乎有多个商业模型。     
+That's what you can see illustrated here as if there were multiple business models on top of each other.
+
+202
+00:15:37,051 --> 00:15:41,580
+这些商业模型都是更加普遍的商业模型的变体。
+These are really variations of the same underlying more general business model.
+
+204
+00:15:44,340 --> 00:15:57,240
+你回过头来再看消费者，你并不在乎你的产品是卖给约翰还是简。
+Now you're looking at customers and you don't really care whether you are selling to someone called John or Jane.
+
+205
+00:15:57,241 --> 00:16:06,960
+你销售产品，需要理解消费者划分。
+You simply want to sell to them and for that you need to understand the customer segment and then,
+
+206
+00:16:07,950 --> 00:16:09,000
+然后对于每一个消费者，
+at each customer,
+
+207
+00:16:09,001 --> 00:16:19,080
+如果这个客户在企业软件列表中，那么他就是企业用户，你就要去了解他，
+which often in the case of enterprise software list is a company, you need to understand the people inside those customer companies and again,
+
+208
+00:16:19,081 --> 00:16:20,310
+无论他是Jane还是Joe。
+it's not Jane or Joe.
+
+209
+00:16:20,311 --> 00:16:28,440
+你是John，你需要关注Jane。这是你需要了解的用户类型，这样你才能进行有效的销售。
+You're John and Jane you care about.
+It is the type of people you need to understand so that you can sell effectively.
+
+211
+00:16:28,441 --> 00:16:39,750
+在这里，人们谈论人物角色，只是为了把约翰和简抽象成一个基本的原型。        
+And here,
+people are talking about personas to abstract from John and Jane into basically an underlying archetypal person.
+
+214
+00:16:40,920 --> 00:16:48,600
+这些人可能会在公司中扮演不同的角色，因为角色的不同因此他们之间可能会有很大的不同。
+And these are the type of people in customer companies, can be quite different because they play different roles.
+
+215
+00:16:48,601 --> 00:16:52,710
+到目前为止，最明显的人就是你产品的用户，
+So for
+the most obvious one is the user of your product,
+
+217
+00:16:52,711 --> 00:16:58,530
+但是这个用户对于是否要购买你的产品犹豫不决。
+and the user may have an important sale, may not have an important sale on whether the product is bought.
+
+219
+00:16:59,490 --> 00:17:04,980
+在销售方面，用户经理可能比用户有更多发言权。
+The user's manager may have more to say in terms of your sales success than the user,
+
+220
+00:17:04,981 --> 00:17:11,250
+因为相比用户，用户经理显然是高级用户，并且很有能力。
+because maybe they're obviously the superior of the user and maybe more powerful.
+
+221
+00:17:11,251 --> 00:17:18,270
+但用户经理似乎不是能很好地管好钱包的人，所以我们讨论另一个人，CIO。
+But even the user's manager may not be the one who's holding the purse strings that might be a separate person, the CIO.
+
+222
+00:17:18,271 --> 00:17:23,430
+举个例子，CTO或者说是一个所谓的经济买家，  
+For example, the CTO or whoever are the so-called economic buyer.
+
+223
+00:17:26,400 --> 00:17:32,130
+我们和其他人都用这个通用术语“经济买家”，因为你不知道谁隐藏了实力。
+We and everyone else uses this generic term economic buyer because you don't know who hiding the prostrates.
+
+224
+00:17:33,750 --> 00:17:40,470
+与用户和用户经理相比，该经济买家显然是一个截然不同的人物角色。
+But it is clearly a distinct persona often are than the actual user or the manager of the user.
+
+225
+00:17:42,510 --> 00:17:47,730
+所以，最终，用户和用户经理需要你某些东西。
+Finally,
+so user and user manager,
+they want something.
+
+228
+00:17:48,750 --> 00:17:56,280
+他们需要新的软件来改善生活，用户希望该软件产品是友好的、易于使用的。
+They need new software to make life better.
+The user wants it to be nice and easy to use.
+
+230
+00:17:56,281 --> 00:18:07,470
+经济买家想让软件更便宜一些，经济买家是了解企业的，他们知道企业想要某些软件。
+The user manager wants to squeeze out more from the user's perhaps,
+and the economic buyer wants it to be cheap,
+but understands the business wants some software.
+
+233
+00:18:07,471 --> 00:18:15,600
+其中也不乏批评者，这些人不想让你的潜在用户公司购买。
+There are also detractors,
+possibly people who don't want the company,
+your potential customer company to buy.
+
+236
+00:18:15,601 --> 00:18:16,530
+通常情况下，     
+And more often than not.
+
+237
+00:18:16,531 --> 00:18:28,710
+IT部门会操作软件，如果他们不喜欢这个软件，他们就会拒绝购买，他们有否决权。
+it may be the IT department which has to operate the software and if they don't like operating the software then they will veto its purchase so they might have a veto.
+
+238
+00:18:28,711 --> 00:18:32,340
+购买决定，
+Be all right to an a purchasing decision,
+
+239
+00:18:32,341 --> 00:18:42,030
+以及各种类型的人都是原型，他们会有不同需求，这个需要以不同的方式在销售过程中讨论。
+and all of these types of people or personas are archetypes and that they have different needs and need to be talked to in a sales
+process in a different way.
+
+241
+00:18:43,110 --> 00:18:54,900
+所以当公司考虑市场、市场划分以及市场中的消费者时，那些就是潜在消费者公司中的人物原型。
+So whenever a company thinks about its markets,
+the market segments and the customer companies or customers in the market segment,
+
+243
+00:18:54,901 --> 00:19:06,870
+如果你想了解真正的销售，以及想要理解潜在消费者公司中的人们，任务原型的时候你必须深入了解。
+it has to drill even deeper if it wants to make an actual sale and understand the people,
+the archetypal people or personas in those potential customer companies.
+
+245
+00:19:08,520 --> 00:19:13,530
+在某些市场划分下，整个市场和你的价值主张之间的匹配可能会出现问题，    
+So it's a breakdown from the overall market that matches,
+
+246
+00:19:13,531 --> 00:19:25,290
+这个故障可能会一直延伸到某些市场划分中潜在用户公司的每个人身上。
+or that stands for your value proposition all the way down to personals in a given potential customer company
+in some market segment.
+
+248
+00:19:26,280 --> 00:19:29,730
+然后，你可以在这里看到它。
+And,
+so you can see it here.
+
+250
+00:19:29,731 --> 00:19:32,250
+如果你是卖车的呢？
+How maybe if you're selling cars?
+
+251
+00:19:32,251 --> 00:19:42,960
+你可能有些不同的潜在用户，你也可能遇到比较直接的买家。
+Ah,
+you have very different customers who you're selling to, you have the
+direct car buyers you need to appear to,
+but you may have that.
+
+255
+00:19:42,961 --> 00:19:54,720
+子公司或者经销商都是卖家，他们应该存在于汽车供应商与汽车买家之间。
+subsidiary or the
+dealerships were which are the car sellers,
+at least in between the automotive vendor and the car buyers.
+
+258
+00:19:54,721 --> 00:20:05,940
+你需要根据汽车类型划分市场，比如你可能会有针对卡车的特定市场划分，  
+You segment your market,
+for example by type of car,
+and then,
+as you have a particular market segment like those in the market for a truck,
+
+262
+00:20:05,941 --> 00:20:12,840
+也会有不同的人会去驾驶卡车，那么谁将管理卡车驾驶员呢？
+you have different personas who's striving that will be driving the truck,
+Who will be managing the drivers,
+
+264
+00:20:12,841 --> 00:20:16,290
+谁是买家？谁将跟踪用户呢？
+who are the buyers, who have to maintain the track all of that.
+
+265
+00:20:17,580 --> 00:20:25,080
+所以如果你想成功卖掉你的产品，你就需要了解这些东西。
+So you need to understand all of these things if you want to be successful in selling your product.
+
+266
+00:20:27,750 --> 00:20:31,290
+你如何接触到人呢？你如何接近这些用户原型呢？这些人物原型可能存在于消费者公司，
+How do you reach people?
+How do you reach those personas
+
+268
+00:20:31,291 --> 00:20:51,870
+可能存在于市场划分之中，你可以通过商业模型画布所提出的方式去接近这些人物原型。 
+in customer companies in customers and market segments of your overall market while you reach them by way of what the business model canvas calls.  Channels, a channel is a concrete way of reaching the elements of a market segment.
+
+269
+00:20:51,871 --> 00:20:55,170
+渠道，这些渠道就是到达市场元素的具体方式。 渠道即是市场部门的潜在客户公司，
+that is the potential customer companies in a market sector.
+
+270
+00:20:56,640 --> 00:21:06,780
+这些渠道之前都是物理上的、但现在更多的都是数字化的，不同渠道之间是有差异的。
+The channel used to be physical,
+these days it's more of digital than not,
+and but channels have a different.
+
+273
+00:21:08,280 --> 00:21:15,420
+它们是针对不同用途的渠道，其中的一个用途就是与人交流。     
+They're different purposes for channels,
+so one is to just communicate to people.
+
+275
+00:21:15,421 --> 00:21:20,970
+另一个渠道就是有效地卖产品。
+Another one is to
+effectively sell to them.
+
+277
+00:21:20,971 --> 00:21:28,290
+所以社区沟通是首要的。但是你把产品卖给他们之后，渠道可能就变化了，
+So community
+communication comes first.
+But then,
+as you might sell to them,
+that could be a different channel,
+
+282
+00:21:28,291 --> 00:21:36,900
+一旦你把产品卖给了消费者，那么潜在客户就变成了实际客户。
+and once you have sold to customers or turned leads, turn potential customers into actual customers.
+
+283
+00:21:36,901 --> 00:21:43,080
+你仍然需要和这些客户保持联系，所以你需要分发渠道。
+He also still have to deliver to them.
+So you needed distribution channel.
+
+285
+00:21:46,890 --> 00:21:53,520
+分发渠道可以构建，所以你可以使用小模型来理解处境。
+This can be structured so again you can have small models that help you understand a situation.
+
+286
+00:21:53,521 --> 00:21:57,750
+如果你有物理的产品，   
+If you have a physical product,
+then you also,
+
+288
+00:21:57,751 --> 00:22:07,470
+然后你需要与其进行物理上的交流，你可以传单和优惠券放进人们的邮箱。
+have to communicate it physically or about it by putting flyers and coupons into people's mailboxes.
+
+289
+00:22:07,471 --> 00:22:12,840
+他们还得去超市买些食物，这都是物理上的。
+And they still have to go to the supermarket and pick up the food 
+So that's all physical.
+
+291
+00:22:12,841 --> 00:22:15,870
+在软件领域，这些都是数字化的，或者大多数都是数字化的，
+In software,
+it's all pretty digital,
+
+293
+00:22:15,871 --> 00:22:20,640
+其不仅作为实际的产也需要进行产品交付。
+or much of it is digital not only as the actual product and product delivery,
+
+294
+00:22:20,641 --> 00:22:23,130
+分发渠道通常都是数字化的，
+the distribution channel,
+usually digital,
+
+296
+00:22:23,131 --> 00:22:33,060
+与企业交流，与企业中的人交流，通常都是数字化的交流，也不完全。
+but even the communication channel reaching enterprises, reaching
+people in enterprises is often digital,
+not exclusively.
+
+299
+00:22:33,061 --> 00:22:40,650
+如果你去博览会或参加其他活动，你需要亲自到场，    
+if you go to,
+if you go to a fair or some physical event,
+you go there in person.
+
+302
+00:22:40,651 --> 00:22:43,170
+所以在交流时数字化交互和物理交互式混合使用的。
+so that is still part of the mix.
+
+303
+00:22:43,171 --> 00:22:50,310
+但是软件行业的很多领域现在已经完全数字化了，
+But a lot in the software industry has turned digital completely digital by now.
+
+304
+00:22:52,320 --> 00:22:59,580
+也有很多的数字化渠道例子特别是分发渠道。
+And so here are more examples of the digital channels in particular distribution channels.
+
+305
+00:22:59,581 --> 00:23:03,420
+你应该怎样向你的客户交付产品呢？
+How you might deliver your product to customers.
+
+306
+00:23:03,421 --> 00:23:10,020
+用户可能从你的卖方市场购买，可能通过网络商店或者应用商店交付，
+they might buy it from your seller and deliver it from a web store, from an app store,
+
+307
+00:23:10,021 --> 00:23:11,400
+你也可能会有零售商。
+and you might have retailers.
+
+308
+00:23:11,401 --> 00:23:18,180
+仍然存在数字零售商，他们可能出于所谓的中间商之间，
+So there still exists digital retailers, people who go in between the so called middleman,
+
+309
+00:23:18,181 --> 00:23:25,740
+尽管这类数字零售商会越来越多，他们也会离开，你可以直接销售。
+even though maybe increasingly,
+They go away and you have a direct tool, oh, sale.
+
+312
+00:23:25,741 --> 00:23:30,360
+尽管如此，直接销售还是挺有效的。你将产品直接卖给用户，   
+Still,
+Both distinction is valid in a direct channel,
+
+314
+00:23:30,361 --> 00:23:41,190
+你可以获得最大的利润 因为没有人从中抽取佣金。
+A sale you directly sell to the customer and you do make the maximum profit because there is nobody taking a cut in between.
+
+315
+00:23:41,191 --> 00:23:51,540
+如果有一种间接的销售渠道，意思就是存在一个中间人，中间人会抽成，
+If,
+however,
+there's an indirect channel sale,
+meaning there are a middle man or a middle woman,
+Middle people,
+they will try to take a cut.
+
+321
+00:23:51,541 --> 00:23:56,580
+但是他们会使你的生活更加轻松。出于这个原因，也许你希望这种间接的销售渠道存在。
+they may make your life easier,
+so you want them
+for that reason,
+perhaps.
+
+325
+00:23:56,581 --> 00:24:08,580
+可能中间商会被要求存在，我相信他们会削减你潜在的收入和利润。  
+or they may be in a position that they are required to be used in case of which I'm sure they will take a big cut of your potential revenues and profits,
+
+326
+00:24:08,581 --> 00:24:11,040
+但它们让你的生活更轻松。
+but they all may make your life easier.
+
+327
+00:24:11,041 --> 00:24:15,930
+如果你是小公司，公司刚起步，那你们做直销不容易。
+So if you are small and start up and it's not easy to do a direct sale,
+
+328
+00:24:15,931 --> 00:24:18,750
+你可能需要一个间接销售渠道。
+maybe you need an indirect channel sale.
+
+329
+00:24:18,751 --> 00:24:22,440
+随着软件的增长，很多事物于其他事物之间都是直达，
+But increasingly the software,
+of course everything is direct
+
+331
+00:24:22,441 --> 00:24:26,430
+中间人环节已经被剪掉了。
+To something and the middle person is being cut out.
+
+332
+00:24:30,000 --> 00:24:41,220
+所以，你知道你的客户是谁，你知道如何接触他们。那么现在你把你的产品卖给他们吗？
+So,
+You know who your customers are and you know how to reach them.
+And now you
+want to sell to them.
+
+336
+00:24:42,870 --> 00:24:49,40
+这意味着你正在和他们建立联系，这不仅仅是最初的销售。
+And that means you're building relationships with them.
+and it's not just the initial sale.
+
+338
+00:24:51,060 --> 00:24:58,050
+一旦有人可能成为你的客户，你应该先把东西卖给他们，        
+Once you have someone who could potentially be a customer,
+yes,
+you first have to sell something to them,
+
+341
+00:24:58,051 --> 00:25:00,540
+但是你又想和他们保持联系，
+but then you want to keep them.
+
+342
+00:25:02,070 --> 00:25:14,040
+你和他们潜在地提升关系。所以这就是所谓的，获取客户、留住客户、不流失客户、发展客户。
+And you want to potentially grow them in terms of resume, in terms of revenue,
+so getting customers keeping them so not losing them and growing them.
+
+344
+00:25:14,041 --> 00:25:25,350
+获取健康的收入是很重要的，那么最初的时候你如何把软件产品卖出去呢？参考我们的人物角色讨论。
+ah,
+It's important to maintaining healthy revenues.
+For the initial,
+how to sell to them?
+Please refer to our personas
+discussion.
+
+350
+00:25:27,810 --> 00:25:35,820
+现在我想关注一下额外的销售过程，我们在上节课已经提到过了，
+I want to focus now here on the extra sales process.
+We touched on it in the last lecture already,
+
+352
+00:25:35,821 --> 00:25:40,320
+额外的销售过程以高雅的方式获取用户。
+which in a bit more highbrow way is called customer acquisition.
+
+353
+00:25:41,250 --> 00:25:49,860
+用户获取通常会被放在“销售漏斗”中进行观察，在“销售漏斗”中，  
+So customer acquisition is usually viewed in terms of a so called sales funnel. In a sales funnel,
+
+354
+00:25:49,861 --> 00:26:04,980
+你建立了一大批潜在客户，他们都了解你的产品，随着时间的推移，你尽可能快地把他们转化为付费用户。
+You
+build up a large number of potential customers who you make aware of your products,
+and then you try to convert them over time or as fast as possible into paying customers.
+
+357
+00:26:04,981 --> 00:26:11,070
+问题在于销售漏斗，你尝试着往里拉用户。  
+The problem is the sales funnel
+is that
+as you 
+try to pull in.
+
+361
+00:26:11,071 --> 00:26:15,510
+所谓的引导就意味着潜在用户，你可能会失去他们，
+Ah,
+so called leads
+meaning potential customers,
+
+364
+00:26:15,511 --> 00:26:21,780
+因为他们只是出于某些原因不感兴趣。也有可能是这个产品太贵了，
+you might be losing them because they are just not interested
+for whatever reason.
+Maybe a product is too expensive.
+
+367
+00:26:21,781 --> 00:26:24,450
+也许这并不是他们真正想要的。
+Maybe it doesn't do what they actually want.
+
+368
+00:26:25,470 --> 00:26:38,280
+所以“销售漏斗”模型包含多阶段步骤，每个阶段都会损失消费者，最招的步骤就是损失最小的地方。
+So it's a multi stage process where there is a loss at each stage and of course,
+the best processes where the loss is kept smaller.
+
+370
+00:26:38,281 --> 00:26:45,210
+这些阶段是创造最初的意识，这就是营销人员的工作，他们为你的产品做广告，      
+The stages are creating initial awareness.
+That's what marketing people do.
+they advertise your products,
+
+373
+00:26:45,211 --> 00:26:46,860
+他们有一个很好的网站。
+they have a nice website.
+
+374
+00:26:46,861 --> 00:26:55,320
+销售人员寻找了解你产品的人，销售人员会得到潜在用户的名片或电子邮件地址。
+they go to fares and and found people about your products.
+They get the business card or their email address,
+
+376
+00:26:55,321 --> 00:26:59,700
+这意味着潜在用户会针对你的产品做出反应，
+meaning the potential customers somehow reacted
+
+377
+00:26:59,701 --> 00:27:00,780
+顾客的转变是会有一定的信号显示的，
+there was a blip,
+
+378
+00:27:00,781 --> 00:27:15,270
+比如一个刚了解你产品的人可能是一个对你的产品非常感兴趣的人，然后成为了一个合格的消费者。
+a signal which indicated that maybe this person who now just got aware of your product is actually a potential, potentially interested so that turns them into a so called qualified leads,
+
+379
+00:27:15,271 --> 00:27:24,150
+之后，营销人员通常会把潜在的合格消费者名单交给销售部门。
+after which the marketing of folks will typically hand over their list of qualified leads to the sales organization,
+
+380
+00:27:24,151 --> 00:27:33,690
+销售部门就会试图联系这些可能的潜在的消费者，并在这些潜在的消费者身上投放相关时间和精力。
+which will try to get the which will possibly call up the qualified lead, which will work and who will work on them,
+
+381
+00:27:33,691 --> 00:27:47,670
+消费部门会让这些潜在的消费在发现阶段近距离了解产品信息，      
+trying to get them to take a closer look
+At the actual product and in discovery in the discovery stage, the potential customer.
+just looked at the product and thought
+
+384
+00:27:47,671 --> 00:27:50,340
+或许这对于我们来说是一件好事。
+maybe that's good for us.
+
+385
+00:27:50,341 --> 00:27:57,030
+在评估阶段，软件供应商会让潜在的用户近距离接触产品，
+While in the evaluation phase,
+the vendor is trying to get them to really take a close look.
+
+387
+00:27:57,031 --> 00:28:09,180
+这意味着你必须出现在这些可能的用户面前，并为他们展示产品。
+so that might imply you have to show up at the customer and demonstrate your product and if things go well or
+at least it used to be like that.
+
+389
+00:28:09,181 --> 00:28:14,520
+你必须为他们创建客户原型，或者对你的客户进行一个可能的评估。
+You would have to develop a prototype with them or have a proof of concept evaluation.
+
+390
+00:28:15,870 --> 00:28:28,710
+如果客户认为你的产品能够满足他他们的需求，并且还能为他们提供很好的服务，
+And then ah,
+if everything's green meaning,
+the customer thinks that the product does what they need and are and would serve them well,
+
+393
+00:28:28,711 --> 00:28:32,670
+那么这些潜在的客户可能就会有购买意向了。
+the customer has an intent to buy.
+
+394
+00:28:32,671 --> 00:28:34,800
+但是潜在用户即使有了购买意向，这也不意味着他们最终会购买你的产品。      
+Intent doesn't mean sale yet.
+
+395
+00:28:34,801 --> 00:28:42,810
+购买欲望意味着他们认为值得为你的产品投入时间， 
+Intent means that they think it's worth
+that time they may be made a return on investment calculation and think
+
+398
+00:28:42,811 --> 00:28:44,880
+并且认为这是一件还不错的事儿，
+this would be a good thing to have.
+
+399
+00:28:44,881 --> 00:28:49,050
+但仍然有很多事情可能会出错。比如，可能产品定价太高了。
+but still many things can go wrong.
+Still,
+the price could be too high.
+
+402
+00:28:49,051 --> 00:28:55,590
+比如，你的产品可能具有关键功能的缺失，或者这些潜在的用户只是单纯不喜欢你的公司，   
+Still,
+some key feature could be missing.
+Or maybe they just don't like you or your company,
+
+405
+00:28:55,591 --> 00:29:03,750
+也有可能你的公司之前名声不好。这都是有可能发生的事情，
+or you have the wrong partners or the wrong reputation in whatever. Things can still go, still go wrong are even if
+
+406
+00:29:03,751 --> 00:29:09,630
+所以即使潜在的客户具有购买意向，也不一定会导致最终的购买决定。
+after evaluation there's positive intent,
+it doesn't necessarily lead to a purchase decision.
+
+408
+00:29:10,890 --> 00:29:19,350
+举个例子，IT部门可能会因为某个人而拒绝产品的购买，但是如果你是一位优秀的销售人员，    
+For example,
+the IT department could veto it right to think back to personas, so
+but if you have good sales,
+people are ultimately,
+
+412
+00:29:19,351 --> 00:29:21,510
+顾客可能会为你所说服，并且最终会顾买你的产品。
+the customer will be convinced and will buy,
+
+413
+00:29:22,380 --> 00:29:27,810
+因此，“客户获取”过程中应该关注如何去获取一个用户。
+hence the customer acquisition process has delivered what it was supposed to acquire a customer.
+
+414
+00:29:32,010 --> 00:29:37,140
+想必你也应猜到了，这个"获取客户"的过程可能很费劲。
+As you might have guessed now,
+this customer acquisition process can be laborious.
+
+416
+00:29:38,310 --> 00:29:47,010
+你甚至可以计算一下，销售人员要面临者许多数字。
+You can actually put some math to it because their numbers,
+sales people not only.
+the various numbers involved,
+
+419
+00:29:47,011 --> 00:29:54,780
+其中销售人员会接触到“漏斗模型”，可用于观察消费者是如何退出潜在购买的，    
+but one is the leaky sales funnel and how people are drop out,
+
+420
+00:29:54,781 --> 00:30:01,380
+但是所有的这些工作都增加了获取客户的成本，
+and all of that creates an increasing cost for acquiring a customer.
+
+421
+00:30:01,381 --> 00:30:03,540
+即所谓的CAC。
+So the so called CAC
+
+422
+00:30:03,541 --> 00:30:09,780
+用户取成本是许多企业的关键指标，
+customer acquisition cost is a key metric for many businesses,
+
+423
+00:30:09,781 --> 00:30:11,820
+对于软件供应商而言，
+certainly for software vendors,
+
+424
+00:30:11,821 --> 00:30:22,650
+在用户为你的产品自一次付费之前你必须投入相关成本。但是显然，你想要的更多。
+because that is the cost you have to acquire a customer before they even make the first payment.
+Obviously you want to make more
+
+426
+00:30:23,580 --> 00:30:28,620
+最终的收入应该要比你获取用户所花的成本多。   
+Money of them generate more revenue than the customer acquisition costs you
+
+427
+00:30:28,621 --> 00:30:35,490
+在一开始，我们要看下这些个关键指标。
+in the beginning,
+so let's take a key look,
+Let's take a look at this key metric.
+
+430
+00:30:35,491 --> 00:30:41,730
+如果你们公司的营销人员去参加一个交易展，他们会有一个摊位。
+Let's assume your marketing people go to a trade show,
+so they have a booth.
+
+432
+00:30:41,731 --> 00:30:46,710
+你们的市场营销人员会在这个交易展览上投钱，我也收集了很多名片，  
+The people cost money,
+and but I collect a lot of business cards
+
+434
+00:30:46,711 --> 00:30:47,910
+这都会是一个商业引导或者说是商业线索，
+that would be a lead.
+
+435
+00:30:49,290 --> 00:30:57,360
+将所有的成本除以所获取的商业名片的数量，
+So here's the assumption is with all that costs divided by the number of business cards they get
+
+436
+00:30:57,361 --> 00:30:59,700
+这就是每条商业线索的成本价格，
+That's the cost per lead,
+
+437
+00:30:59,701 --> 00:31:12,060
+这就是市场营销人员所获得的商业线索的起点。
+and that's the starting point of a hundred per cent of leads that ah,
+that ah.
+that they acquired,
+
+440
+00:31:12,061 --> 00:31:25,890
+假设我们有10个这样的商业线索，那么我们就有10个潜在的用户，
+and so let's assume I'm calculating backwards from one sale that we look at.
+10 such leads,
+so ten potential customers.
+
+443
+00:31:25,891 --> 00:31:31,740
+获取这10个消费者的成本价格可能是数千欧元。
+so then we know
+the cost for that 10 customers for the 
+1000 euro.
+
+446
+00:31:33,660 --> 00:31:35,520
+现在让我们来评估一下，   
+Now comes an evaluation,
+
+447
+00:31:35,521 --> 00:31:43,530
+在“销售漏斗”模型中我们已经进行到了第三步，但是目前为止只有两家公司通过了评估，
+and so that's already step three maybe in that sales funnel and only two companies survive the evaluation,
+
+448
+00:31:43,531 --> 00:31:50,130
+之前是有8条商业线索的。
+8 companies or 8 leads.
+I wanted to say, 8 leads
+figure that.
+
+451
+00:31:50,131 --> 00:31:56,850
+可能对于其他企业来说，你的这个产品可能不适合他们，所以你的估价价格很高。
+ah,
+it's,
+this product is not for them,
+so valuations could be possible, could be expensive 
+
+456
+00:31:56,851 --> 00:32:03,750
+你必须让销售人员去用户公司，或者说是潜在的用户公司，进行产品的推销。
+you have to send your sales people repeatedly to the customer company, potential customer company.
+
+457
+00:32:03,751 --> 00:32:06,270
+也许你还需要做一些有关你产品的演示。
+Maybe you have to do demos,
+etc,
+etc.
+
+460
+00:32:06,271 --> 00:32:18,720
+所以这个阶段的成本可能会比较高，最终就到了销售阶段了。   
+so I just put a comparatively high number perhaps of the cost for that stage.
+here of 10,000.
+And finally, there is the sale.
+
+463
+00:32:18,721 --> 00:32:24,000
+就像“销售漏斗”模型中的这两家公司，他们都想购买产品。
+and of those two who evaluated positively for
+they want that product.
+
+465
+00:32:24,001 --> 00:32:30,300
+但是最终直接一家公司购买了你的产品。所以从消费者来看，是该公司没有购买产品，
+Only one made it past the purchasing process.
+So in one case a detractor derailed
+
+467
+00:32:30,301 --> 00:32:36,540
+但是从你的角度，即软件供应商的角度来看，你们是在销售的时候出现了问题。
+the actual purchasing decision from the client's perspective, derailed your sale
+from your perspective.
+
+469
+00:32:37,590 --> 00:32:49,830
+我们假设我们投入了2000欧元的成本才使得一位潜在的用户走到了购买阶段，我们最后还有一位顾客。
+And let's assume that that cost 2,000 euro ought to go through that process.
+So then we know with one remaining customer at the end.
+
+471
+00:32:50,730 --> 00:33:00,510
+对于那些么有没有购买需求的潜在用户，获取这样一个顾客的成本大约是13,000欧元，     
+But all of those who came before and were lost,
+the total cost of acquiring that one customer is 13,000 euro here.
+
+473
+00:33:00,511 --> 00:33:07,170
+这还是一个比较粗略的数字。这个成本可以变化很大，
+So this is a rough number.
+Obviously it can vary significantly.
+
+475
+00:33:07,171 --> 00:33:16,350
+这个成本只有在企业软件的销售中以及软件产品具有相对较高的售价才比较划算，
+How much it costs such a number only makes sense in the context of enterprise software and comparatively high sales prices.
+
+476
+00:33:16,351 --> 00:33:24,000
+如果微软使用这笔成本花费来销售office软件就没啥意义了，
+It wouldn't make sense if Microsoft needed that much money to sell your copy of office,
+
+477
+00:33:24,001 --> 00:33:28,590
+这个过程本身也就是微软的一个基本销售。
+but the process itself is actually very basic.
+
+478
+00:33:28,591 --> 00:33:40,260
+总的来说，这不仅关于软件产品的销售，获取开发人员也是一项关键的活动，
+and it's not just sales, in general that works like that,
+for example,
+acquiring developers as a key activity of software vendors,
+
+481
+00:33:40,261 --> 00:33:45,540
+开发人员的数量和成本是对等的。
+and they have equal numbers and costs associated with it.
+
+482
+00:33:45,541 --> 00:33:50,070
+所以你需要从财务的角度那这些事情想清楚，这实际上是一个比较准确的成本花费，        
+So you need to think these things through,
+from a financial perspective.
+
+484
+00:33:50,071 --> 00:33:54,660
+成本在5000以及15000欧元之间。
+It's actually a pretty accurate number between 5,000 and 15,000 euro
+
+485
+00:33:54,661 --> 00:33:58,380
+所以公司获取一名优秀的开发则会是要付出代价的。
+it costs a company today to acquire a good developer.
+
+486
+00:34:01,290 --> 00:34:03,900
+获取一位潜在的用户是第一步，
+Acquiring a customer is a first step.
+
+487
+00:34:03,901 --> 00:34:13,140
+这也是很重要的一步。就像在“获取顾客”成本中支出的那样，这是一个关键的指标。
+It's an important step and as we will see in a bit customer acquisition cost
+as already noted,
+a key metric.
+  
+490
+00:34:13,141 --> 00:34:19,530
+一旦你有了某些顾客，你想留住他们，因为获取这些潜在的顾客已经很昂贵了。
+but once you have customers,
+you want to keep them because it is so expensive to acquire them.
+
+492
+00:34:19,531 --> 00:34:27,990
+留住他们相比获取新的消费者要便宜很多，你需要在这些消费者身上投注精力，
+It's much cheaper to keep them.
+But you need to work on keeping them because, well, if they drop out.
+
+494
+00:34:27,991 --> 00:34:30,240
+因为如果他们对你的产品不满意，他们可能就不再使用你的产品，或者不会再购买相关产品。
+If they are unhappy,
+they will drop out.
+
+496
+00:34:30,241 --> 00:34:34,050
+但是留住这些消费者所花费的代价比获取他们所花费的成本低的多，   
+Keeping them,
+however,
+is much cheaper than acquiring them.
+
+499
+00:34:34,051 --> 00:34:38,610
+首先需要这些消费者承诺使用你的产品，
+and you first of all, the customer already committed to using your product.
+
+500
+00:34:38,611 --> 00:34:50,580
+这样他们就被锁定了。然后他们可能会购买与你的产品搭配使用的产品，你需要和这些消费者保持联系，
+So they are locked in arguably. Hence their switching costs to an alternative which have to be added to the price of that alternative.
+So if you lock them a nicely,
+
+502
+00:34:50,581 --> 00:34:57,720
+否则万一因为他们对你的产品不满意，他们就会离开你的产品。
+ah,
+and the switching costs are high then this will be a detriment for them to leave you.
+
+504
+00:34:57,721 --> 00:35:01,710
+当然，这不应该是你在这些消费者中投入大量精力的主要原因。
+Of course,
+that's not a main reason you should be working on.
+
+506
+00:35:01,711 --> 00:35:05,040
+你首先应该继续保持与这些消费者的交流，   
+You should be foremost working on keeping,
+
+507
+00:35:05,041 --> 00:35:12,600
+你还需要提供一个好的产品，这样你的产品才能对你的这些消费者有很高的使用价值。
+delivering a great product so that customers are happy because there's great value to them in your product,
+
+508
+00:35:12,601 --> 00:35:19,860
+此外，另外两个事情就是保持产品对于用户的满意度，并且增加用户与产品之间的黏度。    
+but really again,
+next to
+these two key things,
+keeping them happy and locking them in in between.
+
+512
+00:35:19,861 --> 00:35:21,900
+这个过程中是有很多技巧的，还需要很多实践。    
+There are lots of techniques and practices.
+
+513
+00:35:21,901 --> 00:35:30,600
+通过位用户提供好处可以增加用户对于产品的忠诚度。那么你应该做些什么呢？
+How you can increase their happiness by way of loyalty programs are added benefits that you can give them.
+What have you?
+
+515
+00:35:30,601 --> 00:35:43,170
+所以产品经理应该是要有创意的。这有一个图标，可以说明一下如果不留住用户会发生什么事情。
+So product managers can be quite creative.
+Here's an illustration of what happens if you don't keep your customers. Losing
+
+517
+00:35:43,171 --> 00:35:57,300
+客户流失也被称为消费者磨损，消费者丢失就是在一定时间段内你所失去的消费者的占比，    
+customers is called customer attrition or churn. So customer churn is the percentage of customers you'll lose in a given time period and then the inverse customer lifetime as well.
+
+518
+00:35:57,301 --> 00:35:58,860
+客户的生命周期也是如此。
+divided by churn.
+
+519
+00:36:00,120 --> 00:36:05,790
+所以要维护一个客户高丢失率的公司是很难的，
+And it's really hard to maintain a business with a high churn rate.
+
+520
+00:36:05,791 --> 00:36:14,760
+看下这些数字，如果你客户的流失率达到了20%，这就意味着一个月后你会失去20%的客户。
+So look at these illustrating numbers.
+If you have a churn of 20 per cent,
+meaning you lose 20 percent of your customers after one month,
+
+523
+00:36:14,761 --> 00:36:23,370
+一年后，只有当初客户中的7%流了下来，两年后可能就没有什么客户了。
+then after a year from only 7 percent of your original customer base are left after two years,
+nothing,
+
+525
+00:36:23,371 --> 00:36:26,850
+所以为了降低客户的流失率，
+so to fight a churn of 20 per cent,
+
+526
+00:36:26,851 --> 00:36:34,920
+你必须在“获取用户”阶段保持较好的准备，这样“获取用户”的成本就会降低。
+you have to be in high gear in terms of acquiring customers and hence costs of that need to below.
+
+527
+00:36:36,120 --> 00:36:39,300
+我们来看一下另一家公司，    
+Look at the other side of this a happy,
+
+528
+00:36:39,301 --> 00:36:44,460
+该公司每年仅有1%的客户流流失率，
+healthy customers with a churn of 1 per cent after a year,
+
+529
+00:36:44,461 --> 00:36:57,720
+其可能会在一个月的时间内客户的流失率达到10%或者11%，这其实可以通过获取新的用户来弥补。
+you lost 10 per cent or 11 per cent with a time period of one month,
+you lost 10 per cent.
+And that's much easier to compensate by new customer acquisition.
+
+532
+00:36:57,721 --> 00:37:10,530
+如果说有93%的客户流失率而不是20%，那么留住客户就显得尤为关键了。   
+Then say the 93% over 20% churn.
+So keeping churn low is key to maintaining your customers.
+
+534
+00:37:10,531 --> 00:37:16,080
+留住客户的成本会更低一些。
+And the cost of keeping John Lowe is much lower again.
+
+535
+00:37:16,081 --> 00:37:21,180
+如果可能的话，在最初的“客户获取”阶段就应该保持较低的客户流失率。
+Then the initial customer acquisition so focus on keeping churn low
+
+536
+00:37:21,181 --> 00:37:31,860
+为了获取新用户并留下客户，你也可以培养和用户之间的联系，  
+As
+if you can.
+In addition to acquiring new customers and keeping them,
+you may also want to grow them,
+
+540
+00:37:31,861 --> 00:37:44,730
+这并不是说你要增加用户的总数数量。现在你可能想从一个客户那儿提升收入。
+and not only do you want to grow the overall number of customers that's obvious.
+now you want to grow
+the revenue
+generated from one particular customer.
+
+544
+00:37:45,690 --> 00:37:52,110
+因为这些用户已经是我们的客户了，所以你就没有获取新用户的成本了。
+Because they are already our customers,
+so again,
+you don't have that new customer acquisition cost.
+
+547
+00:37:53,280 --> 00:37:59,790
+你也许能向这些客户卖出更多的产品，或者你还能卖些什么东西给这些用户呢？  
+But you may be able to sell them more.
+or what can you sell them?
+Well,
+you can up.
+sell your customers,
+
+552
+00:37:59,791 --> 00:38:10,020
+你可以将功能更丰富的产品或者更多的课程卖给这些消费者，这其实都取决于你的产品，
+which means that you sell them more advanced functionality or more seats,
+or more course,
+that depends on your product,
+
+555
+00:38:10,021 --> 00:38:13,680
+产品才是提升销售的关键。
+what it is that you can sell them a higher performing.
+
+556
+00:38:13,681 --> 00:38:22,980
+当然你所卖出的可能是一些更贵的产品，如果你有一个产品组合的话你可以进行产品的交叉销售，    
+But of course,
+they're also more expensive
+Product，
+Sometimes you can cross-sell them if you have a portfolio of products,
+
+560
+00:38:22,981 --> 00:38:29,370
+这些产品可以是和你的产品类似或者相关的产品，也可以是附赠的产品,
+and there are many different similar products or related products, complimentary products,
+
+561
+00:38:29,371 --> 00:38:32,520
+这样你就能向这些用户出售其他的产品了。
+then maybe you can sell them the other thing as well.
+
+562
+00:38:32,521 --> 00:38:36,420
+如果这些用户在电脑上看到了你的产品，你或许可以把产品卖给他们。
+if you already sold them on windows,
+maybe you can sell them,
+
+564
+00:38:36,421 --> 00:38:38,670
+如果他们在国外看到了你的产品，那么你应该怎么卖给他们呢？
+if you sold them abroad,
+
+565
+00:38:38,671 --> 00:38:46,080
+你仍然可以把你的产品卖给他们。这就是所谓的互补产品，然后你就有了全部的用户数据。
+maybe you can sell them too,
+meaning there are complementary products,
+and you have all your customer data.
+
+568
+00:38:46,081 --> 00:39:03,750
+你卖给这些用户的产品越多，你就可以赚越多的钱。这样，相比之下，获取用户的成本就显得很高昂了。  
+Maybe you can sell them more and make more money that way.
+The inverse on the counterpart to the cost of acquiring customer is ah,
+well,
+not the counterpart
+
+572
+00:39:03,751 --> 00:39:11,460
+实际上，我们通过客户终身价值来实现对于客户的全面了解。 
+actually,
+the comprehensive picture of looking at customers is done by
+a metric called the customer lifetime value.
+
+575
+00:39:12,450 --> 00:39:27,840
+所以客户终身价值是以特定客户所产生的价值的总量，那么利润就意味着收入，  
+So the customer lifetime value is the total amount of profits generated from a particular customer so again profits meaning revenues,
+
+576
+00:39:27,841 --> 00:39:36,180
+这些利润就是你从这些消费者身上赚的钱。这些钱高于你所花费的成本，所以用户终身价值是正数。
+the money you make of them,
+minus
+the costs they cost
+you and the customer lifetime value,
+obviously, it needs to be positive.
+
+581
+00:39:36,181 --> 00:39:36,630
+否则，
+otherwise,
+
+582
+00:39:36,631 --> 00:39:49,980
+如果你所赚的消费者的钱低于你在这个消费者身上投入的成本，    
+you don't have a business if the expenses for
+acquiring,
+keeping and growing a customer are more than the money you make of them,
+
+585
+00:39:49,981 --> 00:39:52,320
+那你很快就会破产。
+you'll be bankrupt in no time.
+
+586
+00:39:52,321 --> 00:39:57,930
+那么用户终身价值就是一段时间的利润，
+So the lifetime value is again the profit of a time in today's currency.
+
+587
+00:39:57,931 --> 00:39:59,010
+那么你应该怎么计算它们呢？
+how do you calculated it
+
+588
+00:39:59,011 --> 00:40:07,620
+如果你知道客户流失的平均周期那么你就知道了客户会与你的产品保持多久的联系， 
+well,
+you look at the average lifetime from customer churn,
+for example,
+you know how long the average customer is with you.
+
+592
+00:40:07,621 --> 00:40:10,320
+这个平均值是由我们计算得出的。
+so these are averages we are calculating.
+
+593
+00:40:10,321 --> 00:40:21,900
+然后你继续看一下每个时间周期内，我们能赚多少钱？所赚到的这些钱怎么抵消掉成本、花费？  
+Then you look at each time period,
+and look at how much revenue generate and how much this offsets the costs.
+
+595
+00:40:21,901 --> 00:40:33,840
+我们需要注意这些问题，特别是与特定客户或者一般客户相关的可变成本，平均收入以及平均成本花费。
+in particular,
+the variable costs associated with serving that particular customer for that particular or the average customer.
+for that average revenue with these average costs.
+
+598
+00:40:33,841 --> 00:40:42,060
+由于之后话会有很多资金流入中国，所以需要注意者折扣的问题，
+and since these are  money flowing in the future,
+he actually need to a discount it meaning
+
+600
+00:40:42,061 --> 00:40:48,270
+这就意味着按照如今的货币来看，收入越高，   
+bring it into today's currency,
+the farther out some revenue
+
+602
+00:40:48,271 --> 00:40:54,570
+产品的利润就可能会越低。如果你今天仍然持有着它们，可能就比较有价值，
+some profits are the less valuable they are.
+If you have them today,
+they are more valuable,
+
+605
+00:40:54,571 --> 00:41:00,690
+那么它们可能会更有价值，但之后可能会因为通货膨胀的问题而贬值。
+so you discount them.
+Oh.
+By
+the inflation.
+
+610
+00:41:00,691 --> 00:41:08,460
+所以需要去创建用户、创建用户终身价值，以及相关的成本，
+So then,
+that creates, lets you create the customer lifetime value
+the costs,
+
+614
+00:41:08,461 --> 00:41:11,370
+那么收入就很好理解了。
+so the revenues are usually pretty well understood,
+
+615
+00:41:11,371 --> 00:41:14,820
+有时候成本也是很难计算的，
+the costs are sometimes harder to calculate.
+
+616
+00:41:14,821 --> 00:41:21,750
+你可能从获取用户、留住用户的过程中得到了成本的平均值，
+But you just get averages anyway from your acquisition process,
+the customer retention,
+
+618
+00:41:21,751 --> 00:41:27,270
+这就意味着留住了客户，并且这些用户可以参与到进一步的销售以及交叉销售中。
+meaning keeping customers and the potential up-selling and cross-selling activities.
+
+619
+00:41:28,500 --> 00:41:37,380
+在这个成本核算中，可能包含了针对特定用户的可变成本，
+And in this costs you only include the variable costs for a particular customer.
+
+620
+00:41:37,381 --> 00:41:46,830
+你也没有排除固定成本，这些固定成本表示你仍然可能会盈利。
+You don't exclude what who has seen a bit are the fixed cost,
+which means that you still need to have a turn a profit here,
+
+622
+00:41:46,831 --> 00:41:52,890
+这个固定成本的费用可能是很高昂的，我们之后会讲到这个问题。
+and that is a substantial one to cover your fixed costs.
+but again,
+we'll come to that in a bit.
+
+625
+00:41:52,891 --> 00:42:01,260
+所以客户终身价值比获取客户所造成的花费重要的多，这给我们所带来的简单的启发就是，    
+so customer lifetime value should be much larger than the customer acquisition costs and this simplifying heuristic is such
+
+626
+00:42:01,261 --> 00:42:04,620
+获取客户的成本占主导地位，
+because customer acquisition cost dominates.
+
+627
+00:42:04,621 --> 00:42:09,120
+其他的成本花费比留住客户以及促进客户成长的花费高得多。
+the other costs is so much higher than retention and growth.
+
+628
+00:42:09,121 --> 00:42:16,440
+这也就是客户终身价值所存在的原因。
+So that's why it stands in for costs
+at least with the moderate majority of costs.
+
+630
+00:42:17,730 --> 00:42:19,710
+再次强调一下，具体情况因人而异。
+And again,
+specifics vary by domain.
+
+632
+00:42:21,480 --> 00:42:27,720
+所以目前我们仍处在“价值获取”方面，
+So we are still on the value capture side.
+
+633
+00:42:27,721 --> 00:42:40,140
+我们已经讨论了价值声明是如何被确立的？如何向消费销售产品？以及如何进行市场细分等。
+We talked about how the value proposition is communicated and sold to customers and market segments and how revenues are generated.
+
+634
+00:42:40,141 --> 00:42:47,340
+但我们还是没有谈到收入，收入就是从消费者哪里获取的收入，即消费者所付的钱。
+But we haven't talked about revenues yet.
+So what are revenues
+Well , it's the income received from a customer,
+the money they pay,
+
+638
+00:42:47,341 --> 00:42:55,230
+收入不包括成本，如果收入减去成本，那么就是利润了。
+It does not include the costs that would be if we include the costs of subtract the cross that would be profits. In industry,
+
+639
+00:42:55,231 --> 00:42:57,090
+在行业中，各种各样的术语正在被使用。    
+various terms are being used.
+
+640
+00:42:57,091 --> 00:43:11,010
+有时我们会听到“收入来源”这个词，这通常是指顾客购买产品，然后这一过程就是收入来源，
+Sometimes we hear about a revenue source,
+so that usually means a customer, or
+sometimes all the customers who bought a particular product so then the product,
+that's where the money, the revenues come from,
+
+644
+00:43:11,011 --> 00:43:15,840
+然后你可以把这笔钱集中起来，然后在这笔收入上就有了一个时间分量，
+and then you can aggregate it.
+so because there's a time component to it,
+
+646
+00:43:15,841 --> 00:43:16,800
+这就是收入来源。
+have a source.
+
+647
+00:43:16,801 --> 00:43:22,110
+每个时间周期都有与收入来源相关的收入与支出，
+But each time period there is a new input from that source or output from that source.
+
+648
+00:43:22,111 --> 00:43:28,200
+随着时间的推移，你就会从收入来源获取源源不断的收入。
+You have a stream of incoming revenue payments from a sauce over time,
+
+649
+00:43:28,201 --> 00:43:34,140
+你就可以把这些收入聚集起来，这不仅仅是一个用户或者产品。
+and you aggregate them,
+not just one,
+customer or one product.
+
+652
+00:43:34,141 --> 00:43:45,330
+你从消费者身上赚钱然后将商品推到市场中，然后就对市场进行划分，其实这都取决于你的收入流。     
+You aggregate them from single customer to product to market segment depending on how you want to look at your revenue streams.
+
+653
+00:43:45,331 --> 00:43:57,480
+只有通过收入流才能了解你的业务。有时候你真的不知道你的业务上出现了什么变化，
+The purpose of looking at revenue streams is to understand your business.
+Sometimes you don't really understand that sometimes you don't know what's changing on the grounds.
+
+655
+00:43:57,481 --> 00:44:07,470
+所以在公司中你可能会有类似“商务智能”的东西，这是公司自己的企业软件。
+So in companies you have something called business Intelligence,
+which is its own enterprise software.
+It would be business software
+
+658
+00:44:07,471 --> 00:44:11,730
+这是一个可以分析你现金流的软件，
+software which lets you analyze all your revenue streams.
+
+659
+00:44:11,731 --> 00:44:28,080
+你可以深入了解到，你在什么用户群体上赚钱？你在哪些地方赚到了钱？你赚到了多少钱？
+you can drill down into where is,
+which money being made in what demographics and watch what particular location,
+city or county or a state.
+are you making
+what amount of money?
+
+664
+00:44:28,081 --> 00:44:36,360
+所有这些分析都是由商业智能软件所完成的，这样你才能了解到是什么在起作用？    
+All of these analyses
+have become possible thanks to business intelligence software,
+and so you can understand what's working.
+
+667
+00:44:36,361 --> 00:44:37,320
+在获取收入中什么没起作用？
+what's not working?
+
+668
+00:44:40,560 --> 00:44:49,530
+当你销售产品的时候，你需要支持如何向顾客收费，你或许认为这是一种销售艺术，
+As you sell a product,
+you need to figure out what to charge customers,
+and you may think that's an art,
+
+671
+00:44:49,531 --> 00:44:59,790
+但这也可以是一种销售科学。商品价格通常是消费者所支付的钱，你必须构造它，
+but it can also be a science,
+so the price is usually, so price is
+what customers paid,
+but you have to structure it,
+
+675
+00:44:59,791 --> 00:45:23,340
+所以你必须找到产品或者服务的组成，然后创造它们的变化，以及需要了解消费者许可相关的事情。
+so you have to somehow to find that unit of product or service and then create variations of it.
+and that
+way of looking at it that one seat or one user license versus five user licensees versus unlimited user licenses.
+
+678
+00:45:23,341 --> 00:45:30,390
+这些都是在你所销售的产品或服务之上的结构，    
+All of this is a structure on top of the basic unit of your product or service that you're selling.
+
+679
+00:45:32,730 --> 00:45:42,390
+你在为产品定价时目标显然是从用户那儿获取最大收益。
+Your goal in defining a price is to maximize obviously the revenues you're getting from all your customers.
+
+680
+00:45:42,391 --> 00:45:45,330
+总的来说，你们的总收入是多少？
+So the big picture is
+What's the total revenue you have?
+
+682
+00:45:46,740 --> 00:45:51,870
+教科书上对于这个问题是有答案的，
+The problem is so there's a textbook answer to
+
+683
+00:45:51,871 --> 00:45:55,440
+你应该对顾客怎么收费？你的产品定价应该是多少？
+Ah,
+how much you should be charging, what your price should be,
+
+685
+00:45:55,441 --> 00:46:02,490
+对于每个客户来说，你的产品价值多少？     
+and that is,
+of course,
+for each customer,
+exactly how much it is worth to them.
+
+689
+00:46:02,491 --> 00:46:06,780
+所以当顾客看到你的产品，看到你的价值主张时，这些潜在的客户可能就会觉得，
+so a customer looks at your product,
+your value proposition and says,
+Okay,
+
+692
+00:46:06,781 --> 00:46:14,160
+如果我们买了这个，我们将会获得这些好处，这对于我们来说这将是很大一笔钱。
+if we buy this.
+Then we have this and that benefits,
+and that will be so and so much money to us.
+
+695
+00:46:14,161 --> 00:46:19,080
+他们投资获取回报的方式就是购买你的产品，       
+They do
+A return on investment
+calculation by the investment is buying your product,
+
+698
+00:46:19,081 --> 00:46:26,850
+然后你产品的定价应该和顾客从你的产品中所获取的价值对等。
+and then your price should be exactly that value your customers derived from your product
+
+700
+00:46:29,130 --> 00:46:31,950
+你可以立即发现问题。
+And you can promptly spot the problem right away.
+
+701
+00:46:31,951 --> 00:46:33,060
+首先，你不知道这个价值是什么？
+First of all,
+
+702
+00:46:33,061 --> 00:46:42,930
+因为你不知道你的客户是如何计算投资回报的，当然大多数情况下你的客户也不会与你分享这件事情。 
+you don't know what that value is because you don't know that return on investment calculation at your customers do and they would be fools to share it with you
+most of the time.
+
+704
+00:46:43,950 --> 00:46:52,200
+你不可能对不同用户进行不同的产品收费，这是不同的销售策略，可以指出对特定用户的收费应该是怎样的？
+And then it's different by each customer so you would have to charge each customer a different price,
+which may or may not be possible.
+
+706
+00:46:52,201 --> 00:47:14,130
+然后你需要组织一下如何使你们的产品出现在消费者面前？如何对不同的消费者进行不同的产品定价。
+So it's called the different techniques for a figuring out what's the value took to a particular customer and then structuring your product how they appear in front of customers in such a way that you can charge different customers at different prices.
+
+707
+00:47:14,131 --> 00:47:29,010
+通常情况下，你可以对不同的消费者群体收费，这样不同消费者在查看、使用产品时就有差别，
+Usually you can charge different customer groups, different prices because you vary the product in such a way that they looked different to customers but appeal to different groups of customers with Ah,
+
+708
+00:47:29,011 --> 00:47:32,280
+这样的话某些消费者可能就会觉得你产品的价值更高。
+who see a higher value in your product than others.
+
+709
+00:47:32,281 --> 00:47:40,530
+这就是所谓的价格歧视，在理想的情况下，你为客户定价。   
+It's called price discrimination,
+where in the ideal case you set prices specific to a customer.
+
+711
+00:47:40,531 --> 00:47:51,690
+实际上这种做法很常见，比如亚马逊在可能会为你设定单独的价格，
+This is actually.
+Pretty common on the web in that say Amazon tries to give you individual prices.
+
+713
+00:47:51,691 --> 00:47:53,370
+但是他们不能做得太过火。     
+they can't overdo it.
+
+714
+00:47:53,371 --> 00:47:58,800
+因为万一你和你的朋友交流，结果你的朋友获得了更大的优惠，你就会生气，
+Ah,
+because if you talk to your friend and your friend got a better deal than you do,
+you will be annoyed,
+ 
+717
+00:47:58,801 --> 00:48:00,150
+但是你的朋友确实获得了优惠。
+but they are still.
+
+718
+00:48:00,151 --> 00:48:04,350
+所以可能在亚马逊上就充满了各种不同的优惠以及交易价格。
+There are always filling with whatever sense and special deals and what have you.
+
+720
+00:48:05,460 --> 00:48:15,360
+无论如何，你不能通过价格来其实消费者，你或许可以找到产品代理。
+Anyway,
+you are.
+if you can't price,
+discriminate on customer basis,
+you find fine proxies for that.
+
+726
+00:48:15,361 --> 00:48:23,460
+那么怎么接触到产品代理呢？如何为产品划分市场呢？
+Ah,
+how you reach them,
+how your segment and how you frame a product for that segment.
+
+729
+00:48:24,780 --> 00:48:32,610
+这其中的关键就是要避免大多数新手都可能犯的“定价错误”。
+The key takeaway here is to avoid the beginner's mistake of pricing based on cost.
+
+730
+00:48:33,930 --> 00:48:39,990
+初入市场的软件供应商可能会说，这个软件花费了我们多少的成本呢？   
+So the beginner looks at their product and says,
+Well,
+how much did it cost us?
+
+733
+00:48:39,991 --> 00:48:45,810
+我们应该收回成本并在此基础上再加些价格。
+And now we should charge at least that plus some markup, markup over costs,
+
+734
+00:48:45,811 --> 00:48:51,330
+在市场竞争中，这可能是一个失败者的做法，
+Is loser's game or means you are in a really tough market,
+
+735
+00:48:51,331 --> 00:48:56,490
+其实不同公司间没有太大的差别。
+with not a lot of differentiation between different competing companies,
+
+736
+00:48:56,491 --> 00:49:00,210
+价格就是你软件供应商的成本，
+so the prices the costs to you,
+
+737
+00:49:00,211 --> 00:49:03,060
+这个价格的设置或者变化对于消费者来说是很明显的。
+the vendor,
+are very obvious to customers,
+
+739
+00:49:03,061 --> 00:49:09,330
+这些潜在的用户可能会在价格上不断压缩，使得产品的价格更加接近你的成本价。
+and they can squeeze you on those on prices and get your close to your own costs.
+
+740
+00:49:09,331 --> 00:49:09,930
+很明显，这不是一个很友好的市场，你需要尽力使你与你的消费者、竞争者做的不同，
+Obviously,
+
+741
+00:49:09,931 --> 00:49:25,890
+你要清楚地交流你的产品价值，然后观察你的产品对于消费者究竟有多大的价值？
+that's not a nice market to be in try to be very different from your customers and from your competitors and clearly communicate your value and see how much that value is actually valued to your customers and try to get there.
+
+742
+00:49:28,860 --> 00:49:37,740
+所以，就像我说的那样。你需要为你的产品定义基本的组成，然后根据你产品中的组成部分进行销售。 
+So,
+as I said,
+try to identify the basic unit of your product and then try to sell as many units by a price saw your individual sale,
+
+745
+00:49:37,741 --> 00:49:48,960
+然后你的销售收入就是单个产品的价格乘以所销售产品的数量。 
+sales revenue is the price of a unit times the number of units in the most simplest term
+of your product or service sort.
+
+748
+00:49:48,961 --> 00:49:53,010
+很明显随着所销售产品数量的增加，在该产品上的折扣力度也会加大。  
+Obviously there'll be increasing discounts as numbers go up.
+
+749
+00:49:53,011 --> 00:50:02,640
+这就是为什么我们的产品价格列表这么复杂，这也确实是销售的准则。
+That's why we sometimes are very complicated or complex price lists.
+but that is still the principals hold here.
+
+751
+00:50:10,110 --> 00:50:18,270
+我们之前讨论过“价值主张”以及这些价值是如何被软件供应商所获得的？
+So we talked about.
+Value proposition,
+and how that value is captured by the vendor.
+
+754
+00:50:19,260 --> 00:50:25,650
+当然，这都是有利可图的。这就是商业模型画布的右侧。
+To be profitable.
+And that was the right side of the business model canvas.
+
+756
+00:50:25,651 --> 00:50:31,410
+现在我们首先要看一下我们是如何创建价值主张的？   
+Now we need to look at how we create that value in the first place,
+
+757
+00:50:31,411 --> 00:50:39,930
+这意味着我们怎样进行设计、开发和创建产品、服务的工作？
+meaning how do we
+design, develop,
+build a product or a service.
+
+760
+00:50:39,931 --> 00:50:42,330
+以及之后我们应该如何操作它等？
+How do we operate it and so forth?
+
+761
+00:50:43,380 --> 00:50:51,780
+所以“价值创造”是你创建、操作产品及服务过程中的很复杂的一个步骤。
+So value creation is the comprehensive process of creating and operating your product and service,
+
+762
+00:50:51,781 --> 00:50:58,500
+并且，所有涉及到的这些因素并非都是一成不变的。这就是公司初创阶段所要做的事情。
+and,
+of course that's never standing still,
+so that's the initial creation on the company gets going,
+
+765
+00:50:58,501 --> 00:51:03,240
+在那儿之后就会就会一直进化以及扩展你所做的事情。 
+but after that it's the evolution and extension of what you've been doing.
+
+766
+00:51:04,440 --> 00:51:08,940
+商业模型画布给了我们几个关键的因素，比如核心合伙人，关键活动，
+The business model canvas gives us a couple of components here key partners,
+key activities,
+
+768
+00:51:08,941 --> 00:51:13,110
+关键资源以及成本结构等等，这都是我们要关注的几个地方。
+Key sources,
+cost structure and so forth,
+and we need to take a look at that.
+
+771
+00:51:14,460 --> 00:51:24,750
+你组织的主要合作伙伴是那些在业务中支持你的人，或者你与他们达成了某种交易。      
+The key partners of your organization are those which support you in your business,
+or you strike a deal with them,
+
+773
+00:51:24,751 --> 00:51:37,470
+然后他们为你提供了某些东西，这就有利于你为消费者创建“价值主张”，
+and they deliver something or provide something to you that is important for you to create your enriched value proposition or to your customers.
+
+774
+00:51:37,471 --> 00:51:48,180
+所有你需要那些关键的合作伙伴。举个例子，在特定市场进行消费工作的话就需要销售伙伴。
+so you need those key partners,
+for example,
+to sell into a particular market then there would be sales partners.
+
+777
+00:51:48,181 --> 00:51:53,760
+正是因为这个伙伴关系，他们就可以成为你的供应商。
+And so here's the rundown of these partnerships so they could be suppliers.
+
+778
+00:51:53,761 --> 00:51:57,690
+如果你正在开发一个复杂的产品，你不可能从头开始创造一切。
+If you're building a complex product,
+you can't really build everything from scratch.
+
+780
+00:51:57,691 --> 00:52:09,630
+另一个例子是，苹果公司外包了很多的开发，或者某些物理组件的开发，富士康不做软件。
+An example is
+Apple outsourcing much of its development,
+or the development of components at least the physical components not to Foxconn.
+Foxconn doesn't do the software.
+
+784
+00:52:09,631 --> 00:52:18,270
+所以apple把这些事情分得很开，这些供应商是你业务的关键合作伙伴。      
+So apple still keeps things separate,
+but suppliers are key partners to your business.
+
+786
+00:52:18,271 --> 00:52:24,810
+交互产品时的战略联盟有时需要合作伙伴，
+Strategic alliances,
+sometimes to deliver a product requires partners.
+
+788
+00:52:24,811 --> 00:52:33,750
+所以apple公司需要咨询系统来向它的消费者传递商业价值。
+So as if he needs its consulting ecosystem to make to successfully deliver the value to its customers.
+
+789
+00:52:34,920 --> 00:52:44,220
+有时候可能是联合产品开发，有时候你可能要和Intel这样的电脑制造商合作。
+And sometimes it's joint business development where you have complimentary products like Intel and the computer manufacturers.
+
+790
+00:52:44,221 --> 00:52:53,460
+Intel在我们的营销活动中取得了巨大成功，有时候确实可以学到东西。
+So Intel started the highly successful until inside our marketing campaign at some point of time.
+Sometimes it's to learn things.
+
+792
+00:52:53,461 --> 00:52:57,660
+Daimler公司拥有10%的特斯拉的股份，那时候我是Chrysler的职员，         
+Daimler actually own ten per cent of Tesla and I'm a Chrysler at that time,
+
+793
+00:52:57,661 --> 00:53:04,110
+那个时候10%的特斯拉的股份是原始投资。
+I believe to 10% of Tesla at some point of time due to some initial investment.
+
+794
+00:53:04,111 --> 00:53:07,110
+也许是原始投资，
+Perhaps to learn or not.
+
+795
+00:53:07,111 --> 00:53:09,300
+也许就是一个学习的过程。我不是很清楚，但是现在来看结果是显然的，那就是一笔原始投资。
+We don't know I think they are out by now.
+
+796
+00:53:10,800 --> 00:53:20,070
+所以，如果你的合作伙伴已经有了你所没有的某些东西，
+So.
+Such partnerships are key if your partners have something that you don't,
+but that you really need.
+
+799
+00:53:21,600 --> 00:53:22,980
+那么这个合作关系就很关键了，你也确实需要这个合作关系。
+But they can also be thicker.
+
+800
+00:53:24,870 --> 00:53:27,990
+这部分要讲的东西很多。在合作关系中促成成功的关键因素就是
+Success factors in making a partnership work
+
+801
+00:53:27,991 --> 00:53:36,930
+理解合作伙伴的价值主张以及你合作伙伴的价值主张如何与你的价值主张相适配。
+Are understanding,
+each other's core value proposition and how
+your partner's value proposition fits into yours.
+
+804
+00:53:38,610 --> 00:53:48,960
+你们显然不应该争夺同一批消费者，这样做的话可能会出现问题。
+And you should obviously not be competing for the same customers.
+That's just the number of so many different reasons why it could go wrong.
+
+806
+00:53:48,961 --> 00:53:59,730
+我很认可的一点就是，两家公司的文化以及运营方式不同，那么合作就是行不通的。   
+My favorite one is that the companies are just so different in their culture and operations that simply working with each other doesn't work out.
+
+807
+00:54:01,590 --> 00:54:09,060
+一个典型的例子是小型初创公司想要与大公司合作，
+A typical example is a small start up, a nimble startup which wants to work with a large company.
+
+808
+00:54:10,350 --> 00:54:22,800
+大公司的职员与小公司的人员所考虑的方面不同，因此两家公司对于时间的把握也是不同的，
+The thinking of people in large companies is so different from a startups that time frames in which they think is so different that the startup may have from three laps around the track already,
+
+809
+00:54:22,801 --> 00:54:27,330
+小公司可能早已完成相关工作，而大公司可能才刚起步。
+while the large companies just getting start at. It's a tanker, it can be a tanker,
+
+810
+00:54:27,331 --> 00:54:32,370
+因此两家公司之间无法达成相关协议，也无法快速采取行动。
+and hence you will just never reach a deal and act fast enough.
+
+811
+00:54:32,371 --> 00:54:41,820
+所以说与大公司协同工作时可能就缺少联合工作的机会，以至于你不可能完成相关工作。
+Say on joint opportunities because while the large companies too slow and hence there are no joint opportunities because you never get to the finish line together.
+
+812
+00:54:42,990 --> 00:54:49,350
+所以要小心你的合作伙伴，确保利益一致。
+So be careful who you partner with and make sure that the interests are aligned.
+
+813
+00:54:53,490 --> 00:55:01,710
+除了合作伙伴以外还有关键资源的因素，合作伙伴是能够独立行使权利的法人实体。
+Next to keep partners there are key resource,
+so key partners are of course,
+legal entities who can act in their own right.
+
+816
+00:55:01,711 --> 00:55:11,040
+而关键资源是无生命的，所以在某种程度上没有办法界定资源是否违法。  
+Key resources are inanimate,
+There so they are not legally acting or in any sense,
+
+818
+00:55:11,041 --> 00:55:20,460
+关键资源是一个重要的资产，为你公司所需要，你需要对资源进行差异化使用。
+a key resource as an important asset that you need for your business and it is somehow competitively differentiating you.
+
+819
+00:55:20,461 --> 00:55:31,320
+其他人大多数情况下不会这样。在经济学相关的书中，有很清晰的说明。     
+Others don't have it like that or most of the time.
+Don't have it like that.
+From the economic textbooks,
+that's clear,
+
+823
+00:55:31,321 --> 00:55:36,960
+资源有3种类别，分别是材料、资本和劳动力。
+there are three core categories of resources there called Materials,
+Capital,
+
+825
+00:55:36,961 --> 00:55:47,400
+其中材料可以进一步分为有形材料和无形材料。
+and Labor. materials can be split further into tangible and intangible materials,
+
+826
+00:55:47,401 --> 00:55:55,830
+有形资源即是真实的物质，可以作为组成部分。
+the tangible resources materials really physical things like parts to production.
+
+827
+00:55:55,831 --> 00:56:06,630
+如果你在盖房子，有形资源可能就是木梁、混凝土、石头，即盖房子所需的材料。
+If you're building a house,
+that's maybe the wooden beam or the concrete or
+the stone you build your house from, could also be.
+
+830
+00:56:06,631 --> 00:56:12,120
+你通常会使用到这些材料，并为他们付钱。
+And so you usually own them or use them or you pay for them,
+etc.
+
+832
+00:56:13,140 --> 00:56:15,510
+特别是在软件方面，    
+In software, in particular,
+
+833
+00:56:15,511 --> 00:56:22,980
+知识产权是一种重要的材料。之前我们已经也讨论过它了，我们将会回顾一下。
+intellectual property is an important material and we've discussed that and we will revisit it.
+
+834
+00:56:22,981 --> 00:56:30,480
+作为产品的一部分，知识产权可以是针对代码、专利、商标的产权，
+Ah,
+as part of products,
+intellectual property could be the copyright to code patents,
+trade marks,
+etc.
+
+839
+00:56:30,481 --> 00:56:32,070
+也可能是你与其他人共同持有的合同职位。
+could be contract positions
+
+840
+00:56:32,071 --> 00:56:40,890
+对于这些知识产权，你可以自己发明，你也可以买它们，
+you hold with other people. And these intellectual properties, you invent yourself or you buy them.
+
+841
+00:56:40,891 --> 00:56:48,690
+你可以从大学中获得他们，就像战略合作伙伴那样。这些都是无生命的东西。
+Ah,
+you acquire them from universities,
+for example or strategic partner.
+So these are the inanimate.
+
+845
+00:56:50,280 --> 00:56:55,590
+其实关于有形或无形的材料，你可以建立一个商业论坛。    
+Materials tangible or intangible,
+that you can build a business forum.
+
+847
+00:56:56,790 --> 00:57:07,200
+从原始输入中分离出材料然后创建价值主张，为客户创建产品或服务。
+Separate from these raw inputs to create a value proposition, create a value,
+create a product or service for customers.
+
+849
+00:57:07,201 --> 00:57:12,660
+在结构化的组织下，你需要钱。
+You need capital so money,
+but in a more structured way,
+
+851
+00:57:12,661 --> 00:57:25,710
+这些都是金融资源，可以支付你的薪水，可以给工厂付钱，并且为你的计算资源付费。
+These are the financial resources to keep you going to pay your salaries to pay a factory, your computing resources,
+etc.
+And this is the land,
+
+854
+00:57:25,711 --> 00:57:35,190
+当然，如果你是一家初创公司，这是根本。但在更传统的情况下 你可以向银行贷款。
+of course,
+if you're a startup of venture capital,
+but in more traditional terms you can require bank loans,
+etc.
+
+858
+00:57:37,020 --> 00:57:42,060
+最后，第三种资源就是劳动力。     
+And finally,
+the third type of resource to understand is labour.
+
+860
+00:57:42,061 --> 00:57:50,280
+随着时间的推移，一个普通人将因为劳动而不再是普通人。
+or,
+as I like to say,
+people applied over time because labor is not just people, it's people
+over time
+
+864
+00:57:50,281 --> 00:58:00,510
+随着时间的推移你会发现人其实才是关键，这对于你的商业来说这是一个重要的资源。  
+you need to understand that time is a key part here,
+and that can be a key resource to your business,
+
+866
+00:58:00,511 --> 00:58:10,140
+举个例子，如果你没有找到好的开发人员，如果没有好的销售人员，产品经理，那么你就不可能成功。
+because if you don't have good developers,
+for example,
+if you don't have good sales people,
+good product managers,
+then or you may not be successful.
+
+871
+00:58:10,141 --> 00:58:16,980
+所以人们工作的质量很重要，以及你可以有多少个这样的职员。  
+So the quality of the work that people do is important,
+but also how much of it you can have.
+
+873
+00:58:16,981 --> 00:58:25,020
+这也是对于时间的考虑，所以我们要对其进行计算，即使它是抽象的。
+That's the time aspect of it.
+That's why we calculate and person month,
+even though that abstraction.
+
+876
+00:58:25,021 --> 00:58:36,180
+这一点是很明显的，所以你要吸引别人。与你当地的大学保持良好的关系，
+ah,
+this,
+Dicey obviously,
+and so you draw on people.
+By being on good terms with your local university,
+
+881
+00:58:36,181 --> 00:58:39,360
+或许你可以支持面向全球的远程开源工作。
+maybe you can globally sourced
+remote work.
+
+883
+00:58:42,390 --> 00:58:42,870
+那么之前已经讲过了核心资源以及核心伙伴，
+So then,
+
+884
+00:58:42,871 --> 00:58:55,980
+接下来我们聊一下核心活动中的核心步骤，你需要将其组织到你的商业中。
+next to key resources and key partners that the core processes of the key activities that you need to master that make up your business.
+
+885
+00:58:55,981 --> 00:59:02,580
+这就是你，软件供应商，初创公司应该并且也有能力去做的事情。  
+so this is what you,
+the vendor, the startup,
+needs to be able to do.
+
+888
+00:59:02,581 --> 00:59:13,260
+举几个例子，如果你是一个软件供应商，显然你应该擅长软件开发。
+Well,
+there's some obvious examples.
+if you are a software vendor.
+Obviously you should be good at software development,
+though conceivably,
+
+893
+00:59:13,261 --> 00:59:18,150
+如果你能把它切分，那么你就可以将它外包出去。
+If you are able to cut it down to somehow production,
+you could outsource it.
+
+895
+00:59:18,151 --> 00:59:35,100
+比如，像Nike公司，其最出名的就是设计师，而不是那些卖鞋给你的鞋子制造商。
+So while some well-known examples from other domains say Nike is well known for really.
+being the designers,
+but not the manufacturers of shoes that they sell you for a lot of money.
+
+898
+00:59:36,270 --> 00:59:39,780
+对于软件供应商，确切地说对于SAS公司来说，   
+But for a software vendor and certainly for a SAS company,
+
+899
+00:59:39,781 --> 00:59:46,050
+这是很关键的部分，是你应该掌握的关键活动。
+it's these key, to key activities you need to master which is 
+
+900
+00:59:46,051 --> 00:59:50,070
+这需要理解你的业务领域，应用领域，
+understanding your business domain and understanding the 
+
+901
+00:59:50,970 --> 01:00:00,780
+在这些领域中你需要把商业价值提供给你的用户，然后使得用户你能够在云中对软件进行大规模的操作。
+Domain, the application domain that provides where the value is provided to your customers and then being able to operate that at scale in the cloud,
+
+902
+01:00:00,781 --> 01:00:06,420
+这是两个独立的两个工程活动，这些工程活动你是需要掌握的。
+these are two separate related but separate engineering activities
+you need to master.
+
+904
+01:00:08,160 --> 01:00:12,540
+如果你认为这件事情是重要的，或者说是关键的，那么你不应该将其外包出去。
+And if you consider something like this key,
+then you should not outsource it.
+
+906
+01:00:12,541 --> 01:00:18,270
+这可能会使你的销售过程，以及你募集资金的过程，  
+It could also be,
+of course,
+your sales and processes,
+the way of raising funds,
+etc.
+
+911
+01:00:20,130 --> 01:00:26,250
+就像在你的核心资源合作伙伴以及核心活动旁边儿所展示的这样。
+So next to these three key resources partners and activities.
+
+912
+01:00:26,251 --> 01:00:35,670
+你需要定义成本架构，理解并建立商业模型，
+Ah,
+you have the underlying cost structure that you need to define,
+understand and model so that you have
+
+915
+01:00:36,780 --> 01:00:42,990
+然后你就可以对你的“价值创造”有所把握，这也是商业模型的另一面。
+A grasp or a handle on your
+ah,
+value creation
+side of the business model.
+
+919
+01:00:44,040 --> 01:00:52,560
+所以企业模型的成本结构就是操作费用以及扩展你的商业规模所需的花费，   
+So the cost structure of a business,
+is well a model of the costly, the expenses you have that you need to operate and scale out your business.
+
+921
+01:00:53,400 --> 01:00:58,350
+这并不是商学院的课程，
+And here this is not a business school course,
+
+922
+01:00:58,351 --> 01:01:00,480
+但这些东西你们要注意一下。
+but as you notice,
+
+923
+01:01:00,481 --> 01:01:14,160
+我在这里在讲述一些基本知识，你首先需要对软件做区分，而不是让你去区分固定成本与可变成本。
+I'm covering some basics here
+you need to distinguish between first software than that distinguish between the fixed costs and 
+the variable costs that your business incurs.
+
+926
+01:01:15,120 --> 01:01:24,090
+固定成本就是你即使没有生意也会存在的成本。
+And the fixed cost is that cost,
+which is always there even if you have no business if you had no customers.
+
+928
+01:01:24,091 --> 01:01:29,550
+所以如果你是一家初创公司，你正在发展你的产品，但是你的产品还没有准备好，
+So if you are a start up and you're developing
+your product,
+but the product isn't ready yet,
+
+931
+01:01:29,551 --> 01:01:32,880
+所以你没有顾客，但是还是有成本的存在。
+so you have no customers,
+your fixed costs.
+
+933
+01:01:32,881 --> 01:01:41,100
+这就是目前你的商业成本，其中主要就是公司，在发展公司中就是这样。    
+That's what the cost of your business right now,
+and mostly that's then salaries,
+for example,
+of the development organization.
+
+937
+01:01:42,060 --> 01:01:47,550
+但是一旦你有了新的客户，就会产生额外的成本，
+If,
+however,
+you start having customers and adding a new customer,
+create some additional costs.
+
+941
+01:01:47,551 --> 01:01:58,620
+如果你是一个SAS软件供应商，云服务提供商，那么你就需要为这些计算资源付费。
+For example,
+you have to pay for a bit more computing resources now because you're a SAS vendor, cloud service provider
+
+943
+01:01:58,621 --> 01:02:07,260
+这就是可变成本，每增加一个用户该成本就会增加，这是一个变量。
+then that's the variable cost that varies by adding one more customer you have slightly increased costs.
+
+944
+01:02:07,261 --> 01:02:12,240
+这就是你商业过程中的变量、差异以及数据变量。
+and that's the variable, that difference, that data is the variable costs of your business.
+
+945
+01:02:13,410 --> 01:02:30,450
+在损益表你会发现，更接近收入的是可变成本，后面才是公司的固定成本。  
+You'll typically find that in the income statement,
+were closer to the revenues, the of the variable costs and farther down
+are the our fixed costs of your business.
+
+948
+01:02:31,800 --> 01:02:47,580
+你可以看到，当你销售大量产品时，你很想降低可变成本，从儿提高利润，扩大规定成本的占比，
+You can see here how,
+as you sell larger numbers units of your product,
+you really want to get variable costs down,
+to be more profitable and and scale up fixed costs.
+
+952
+01:02:47,581 --> 01:02:51,090
+因为这样做的话你会赚更多的钱。
+because,
+ah,
+this way you will be more profitable.
+
+955
+01:02:51,091 --> 01:03:03,510
+如果你只卖了一件物品，那么从软件供应商的角度来看，这就是完整的可变成本。
+If you only sell one, one item ever then it's all variable cost anywhere then it's
+100% are offered.
+In software development software vendors,
+
+958
+01:03:03,511 --> 01:03:12,690
+我想说的是，无论云服务提供商还是其他服务提供商，你通常会把是软件开发的实际成本减半。   
+I wanted to say whether a cloud service provider or not,
+you typically half as fixed costs the actual software development.
+
+960
+01:03:12,691 --> 01:03:21,150
+如果你是一家SAS公司，公司会将服务的运营作为固定成本。
+If you're a SAS company,
+you also have the operations of the service as a fixed cost mostly,
+
+963
+01:03:21,151 --> 01:03:24,690
+当然，你也有可变成本，比如客户支持。
+but then you have variable costs and that's
+of course customer support.
+
+965
+01:03:24,691 --> 01:03:30,990
+因为其中有固定组件的成本部分，所以你可以更好地将服务拓展到更多的用户。
+There are some fixed cost components to it,
+but it really scales nicely with more customers.
+
+967
+01:03:30,991 --> 01:03:36,150
+没有客户，就不需要商业支持，顾客越多，就需要更多的商业支持，当然，也还有一些额外的操作花费。
+No customers,
+no need to support anyone,
+more customers,
+more need for support,
+
+971
+01:03:36,151 --> 01:03:52,980
+成功的SAS软件供应商通常会这样操作，就是尽可能地降低在云中操作软件的可变操作成本，   
+and then also some additional operations costs. The trick in being a successful SAS vendor
+of course,
+is to keep the variable aspects of the operations costs for operating the software in the cloud as slow as possible.
+
+975
+01:03:52,981 --> 01:04:01,260
+通常情况下消费者越多就会消耗消耗更多的计算资源。
+But they usually will be some because having one more customer will consume a little bit more of computing resources.
+
+976
+01:04:01,261 --> 01:04:02,700
+而且，如果你不这样做的话，
+And,
+if not,
+ah,
+
+979
+01:04:02,701 --> 01:04:13,980
+你需要发送确认你的用户正在使用你的产品，这样可能会产生一些计算资源的损耗，
+you need to send in the customer success people to make sure that your customers are using your product and are generating some computing resource consumption that
+
+980
+01:04:15,060 --> 01:04:16,860
+这就是可变成本。
+make it into your variable costs.
+
+981
+01:04:19,470 --> 01:04:26,850
+所以在这节课上，我谈到了商业模式的组成部分，  
+So in this lecture,
+I really talked about the components of a business model,
+
+983
+01:04:26,851 --> 01:04:32,850
+并不是商业模型本身，商业模版或者商业模型的类型。
+not really the business model, templates or types of business models.
+
+984
+01:04:32,851 --> 01:04:41,970
+这也应该是你们工作的地方以及编写商业计划的地方。
+that is,
+of course where your homework comes in and where writing
+business plan comes in. The Business Model
+
+987
+01:04:41,971 --> 01:04:46,500
+Business Model Generation book这本书由很多专利的模版，
+Generation book has lots of templates of patents,
+
+988
+01:04:46,501 --> 01:04:53,250
+也有很多商业模型的模版，所以可以了解商业组件如何组合成商业模型，
+of business models to look at to get an idea of how these components that are just discussed of the business model
+
+989
+01:04:53,251 --> 01:04:57,030
+以及这些商业组件之间如何进行交互。
+canvas fit together, interact
+etc.
+
+991
+01:04:57,031 --> 01:05:00,660
+在这节课的最后部分，   
+Here,
+at the end of this lecture,
+
+993
+01:05:00,661 --> 01:05:13,230
+我想给你一个非常基本的概念，即关于如何看待不同的业务，以及它们讲如何影响商业模型画布中的组件。
+I want to give you a very basic idea of how to look at different businesses and how they affect the components and the business model canvas.
+
+994
+01:05:13,231 --> 01:05:20,310
+我引用一篇重要的论文，
+I'm using a famous paper by  who
+ 
+995
+01:05:21,390 --> 01:05:39,960
+研究人员将其分为3个方面。如果他们对产品创新、客户关系、基础设施很在行，
+classified who looked at companies and classified them into three dominant categories if you will.
+But they're strong on product innovation,
+customer relationships or infrastructure management type of a company.
+
+998
+01:05:39,961 --> 01:05:42,900
+如果你是一个软件供应商，
+So if you are a product innovator,
+
+999
+01:05:42,901 --> 01:05:50,070
+你所要做的就是推出新的产品然后打败你的竞争对手，
+then what you're doing is coming up with new and innovative products and beating your competition,
+
+1000
+01:05:50,071 --> 01:05:53,610
+这是因为你的产品更有创新性、更好、更有趣。
+because your product is more innovative,
+better,
+more interesting.
+
+1003
+01:05:54,720 --> 01:06:01,890
+如果你是一家客户关系管理公司，那么你就要和消费者保持关系，    
+If your customer relationship management company,
+then your business is in high customer intimacy,
+
+1005
+01:06:01,891 --> 01:06:08,220
+也就是说了解你的消费者并和他们进行由友好的交谈，从而让这些用户感觉良好。
+meaning knowing your customers really well talking to them,
+making them feel good.
+
+1007
+01:06:08,221 --> 01:06:10,620
+这是一个很显著的特征。
+That is the distinguishing characteristic.
+
+1008
+01:06:11,550 --> 01:06:16,050
+如果你是一家基础设施公司而不是一家管理公司，
+And if you're an infrastructure company than a management company,
+
+1009
+01:06:16,051 --> 01:06:24,390
+那么你很有可能需要大量的资本注入才能让基础设施运转起来。
+then you are probably in a domain where there was substantial capital investment into getting some infrastructure going.
+
+1010
+01:06:24,391 --> 01:06:36,810
+可要联想之前的电话线路以及原始铁路，现在的光纤和数据中心。
+Think,
+ah,
+the original telephone lines or the original railways,
+these days,
+it's obviously all the fiber in the ground and the data centers.
+
+1015
+01:06:36,811 --> 01:06:47,100
+这些东西是被创造出来的，那么维护成本也会很高，还有固定成本。    
+These things are created.
+A lot of costs and maintaining them also creates lots of costs,
+specifically fixed costs.
+
+1018
+01:06:48,120 --> 01:06:59,490
+所以你必须要达到所谓的规模经济，这意味着大量的客户可以弥补高昂的固定成本。
+So it's essential that you achieved so called economies of scale,
+meaning lots of customers to recoup for the high fixed costs.
+
+1020
+01:07:00,630 --> 01:07:04,260
+我再强调一下，经济学家认为，如果你是一个产品创新者，
+So again,
+the economic saw that if you're a product innovator,
+
+1022
+01:07:04,261 --> 01:07:09,240
+你可以为你的产品收取更高的价格，但关键是创新的速度。
+you can charge a premium price and what's key is speed to innovation.
+
+1023
+01:07:10,140 --> 01:07:19,170
+如果你是一家客户关系管理公司，那么比起“获取客户”，更重要的就是发展客户关系。
+If you're a customer relationship company,
+you're high on you're doing well on customer relationship than acquiring your customer.
+
+1025
+01:07:19,171 --> 01:07:27,390
+虽然可能会花很多钱，但是你仍然要保持客户关系，
+Ah,
+01:07:20,131 --> 01:07:21,990
+may have cost a lot of money,
+but it's key that you keep them so you retain them,
+
+1028
+01:07:27,391 --> 01:07:32,970
+并且进一步发展客户关系，这样你才能对他们进行产品的交叉销售。
+you grow them and hence you cross cell them.
+etc.
+
+1030
+01:07:32,971 --> 01:07:37,980
+所以产品创新者可以是软件公司，也可以是金融服务公司。    
+So product innovators could be software companies, could be financial services companies,
+
+1031
+01:07:37,981 --> 01:07:42,660
+一家客户关系管理公司也可以是一家金融服务公司，
+customer relationship management companies could also be financial services companies,
+
+1032
+01:07:42,661 --> 01:07:57,900
+比如可以为私人客户或者富豪客户服务，这些客户更加值得公司更好地对待。
+for example private clients or wealthy clients,
+with a high net worth high value obviously want to be pampered or the
+banks and financial services companies want to pamper them,
+etc.
+
+1036
+01:07:57,901 --> 01:08:08,370
+然后就是基础设施、产品效用等。当你看到这些不同的商业模型类型时，
+and again infrastructure.
+That's the utilities and so forth.
+When you look at these different business model types,
+
+1039
+01:08:08,371 --> 01:08:16,920
+这不仅是公司经济这也是他们所实现梦想的方式。
+it's not just the economies that the economics of these companies,
+it is also how they make it happen.
+
+1041
+01:08:16,921 --> 01:08:26,010
+因此，根据Hegel和Singer的说法，产品创新商的文化应该是以雇员为中心的，    
+So the culture,
+according to Hegel and Singer of a product innovator,
+for example,
+is employee centered,
+
+1045
+01:08:26,011 --> 01:08:29,160
+所以公司必须是一个适合员工的好地方。
+so it needs to be a nice place for employees.
+
+1046
+01:08:29,161 --> 01:08:39,420
+尤其是你想要某些真正有能力的人进入公司，那么公司愿意为人才开高工资。
+In particular,
+you want really come really capable.
+People are probably willing to pay a pretty penny,
+meaning high salaries,
+
+1050
+01:08:39,421 --> 01:08:48,210
+因为人才就是创新的源泉。Hegel和Singer将其称为"crate stars"，我不太认同。
+because your people are where the innovations come from.
+Hegel and Singer call it a crate stars.
+I'm not so happy about it,
+
+1053
+01:08:48,211 --> 01:08:57,660
+因为研究表明，如果一家公司有毒文化但是收到了很多人追捧，   
+because research has shown again and again that if you have a toxic culture of a few stars and people who support them,
+
+1054
+01:08:57,661 --> 01:09:01,980
+那么这样的一家公司更有可能会被其他的竞争公司打趴下，
+such a company will always be beaten by a more collaborative,
+
+1055
+01:09:01,981 --> 01:09:04,080
+竞争公司内部可能是合作友善的，
+a company in which everyone is happy,
+
+1056
+01:09:04,081 --> 01:09:08,820
+公司中的每个人都很快乐，除此之外还有团队的多样性，这才是创新的源泉。
+because in the diversity of the teams,
+that is where the innovation is coming from.
+
+1058
+01:09:10,350 --> 01:09:19,800
+但是话说回来，能力越高，这其中也包含了对他人的同情，那么产品创新者就会越优秀。       
+But that said,
+the higher the competence and capabilities,
+including empathy with other people,
+the better of the product innovator,
+is.
+
+1063
+01:09:21,150 --> 01:09:23,400
+如果你是一家客户关系管理公司，
+If you're a customer relationship company.
+
+1064
+01:09:23,401 --> 01:09:33,060
+那么你更希望你的员工以顾客为中心，保持高度同情、客户至上的思维方式。
+Obviously you want your folks to be customer centric highly empathy,
+driven thinking about the customer first and all of that,
+
+1066
+01:09:33,061 --> 01:09:37,140
+如果你是一家基础设施管理公司，那么你就会更多地关注成本。
+if you're an infrastructure management company,
+you focus a lot on costs.
+
+1068
+01:09:37,141 --> 01:09:42,840
+你可能需要压低职员薪水，那么职员就像是机器上的齿轮一样。
+You keep the salary down you standardize.
+People become cogs in a machine.
+
+1070
+01:09:44,610 --> 01:09:48,930
+所以竞争是针对产品创新者的，
+And so the competition is for the product innovators.
+
+1071
+01:09:48,931 --> 01:09:56,880
+这部分人有能力、有天赋。对于客户关系管理公司，   
+Is for the talent, for the capable people, for the customer relationship management companies,
+
+1072
+01:09:56,881 --> 01:09:58,650
+产品创新者还扩大了服务范围，
+its expanding the scope,
+
+1073
+01:09:58,651 --> 01:10:01,590
+比如交叉销售等。
+cross-selling,
+Upsetting,
+etc.
+
+1077
+01:10:01,591 --> 01:10:11,370
+对于基础设施管理公司而言，他们需要接受资本的注入，然后在此基础上发展。
+and for the infrastructure management companies,
+it's to take over the other big capital investments and recuperate based on that.
+
+1079
+01:10:13,410 --> 01:10:26,460
+所以今天我讲了商业模型的概念，然后我们要论了不同的组件。  
+So today I covered the idea of a business model as expressed by the business model canvas that we're using in this course,
+and then we discussed the different components.
+
+1081
+01:10:27,390 --> 01:10:31,710
+但商业模型画布的核心还是“价值主张”，
+Center told the business Model Canvas is the value proposition,
+
+1082
+01:10:31,711 --> 01:10:43,590
+它连接着左边的”价值创造“以及右边儿的“价值捕获”，
+which connects the creation of value.
+The left side of the canvas with the value capture or appropriation
+on the right side of the canvas.
+
+1085
+01:10:43,591 --> 01:10:48,810
+这也引导了9种不同的组件。
+Are all of it
+leading to a nine different components and their detections,
+
+1087
+01:10:48,811 --> 01:10:58,620
+最终，我们快速举研究了商业模型的基本分类，但还是有更多的要说。
+and at the end,
+We quickly looked at basic types of business models.
+But there's much more to be said so this was only rather shot.
+
+1090
+01:10:58,621 --> 01:11:08,130
+今天我就讲到这里，非常感谢你的关注，希望下次还能见到你，谢谢！
+That's it for me. Today,
+thank you very much for your time and attention,
+and I hope to see you around and next time back in class.
+Thank you.
