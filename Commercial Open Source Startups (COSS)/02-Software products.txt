@@ -1,0 +1,2271 @@
+0
+00:00:02,010 --> 00:00:11,190
+大家好,欢迎回到我们的课程，此课程是关商业业开源软件创业以及如何将其从大学教育中抽离出来。
+Hello, everyone, and welcome back to course, our course on commercial open source software startups and how to spin off such a startup from university.
+
+2
+00:00:12,130 --> 00:00:19,210
+我是Dirk Riehle,这是关于软件产业的第一部分课程的第二节课。  
+My name is Dirk Riehle, and this is the second lecture in the first part of the course on the software industry.
+
+3
+00:00:20,000 --> 00:00:25,720
+这门课程是关于软件产品的课程，
+This particular lecture then is on software products, because that's the
+
+4
+00:00:26,100 --> 00:00:35,700
+这是公司销售的基本支柱。我们对很多软件供应商很感兴趣，其中大部分都是刚起步的公司。
+bare backbone, the basic backbone of what companies sell.
+And since we're interested in software vendors which are most budding startups.
+
+6
+00:00:36,370 --> 00:00:42
+我们将不得不考虑到软件产品到底是什么，我们究竟可以出售什么来获取一个可持续的业务。
+We will have to look at what exactly it is, that we can actually sell to have a sustainable business.
+
+7
+00:00:43,500 --> 00:00:46,100
+所以在这里我要把软件作为一个产品来谈。
+So I will talk about software as a product.
+
+8
+00:00:47,010 --> 00:00:52,810
+特别是关于产品的基础知识产权，其阐述产品是如何创建、构建的。
+In particular about underlying intellectual property that products are created and structured from.
+
+9
+00:00:53,900 --> 00:00:58,740
+然后我会给你们讲解一下复杂的组成结构，   
+And then I will walk you through the complex structure of what makes up.
+
+10
+00:01:00,340 --> 00:01:03,780
+起初是核心代码，然后是基础代码，最后是一个完整的产品。
+Initially a core then a basic, and finally a whole product.
+
+11
+00:01:05,140 --> 00:01:10,140
+我们需要知道产品是从各个部分组合而成的，
+We also need to understand that products are made from parts, and this is not meant,
+
+12
+00:01:11,350 --> 00:01:15,750
+这主要是从工程的角度来看的，但是从知识产权的角度来看的话，
+primarily from an engineering perspective, but from an intellectual property perspective, because
+
+13
+00:01:17,740 --> 00:01:22,100
+因为不管你正在使用谁的工作服务，他们都会要求分一杯羹的。
+whoever else's work you're using, they'll get a cut of your revenue one way or another.
+
+14
+00:01:23,720 --> 00:01:37,150
+所以，那么什么是软件产品呢？我们可以简单回顾一下，我们已经知道软件产品就是产品，    
+So with that, what is software as a product?
+Well, we can recap a little bit, um, we already know that software products are products.
+
+16
+00:01:37,850 --> 00:01:41,490
+所以他们是人工制造的商品，可以在市场上卖给顾客。
+So they are goods man-made, sell to customers in the market.
+
+17
+00:01:42,770 --> 00:01:49,010
+软件指的是数字产品，它不会腐烂，不是有形的，也不是实体的。
+Software then specifically is a digital good, um, it doesn't rot. It's not not tangible, it's not physical.
+
+18
+00:01:49,830 --> 00:01:53,390
+它通过物理设备而变得有型，但是它本身是数据集合，
+But it does become tangible through physical devices, but itself
+
+19
+00:01:54,180 --> 00:01:59,340
+包含让计算机做事情的一系列计算机指令。
+is data, that's computer instructions that make a computer do something.
+
+20
+00:02:00,560 --> 00:02:07,040
+从经济学的角度来看，软件作为产品，也是一种知识产权。    
+From an economic perspective, a software or a software as a product, is intellectual property,
+
+21
+00:02:08,150 --> 00:02:14,630
+你通常可以通过许可的方式出售使用权，我们稍后会讲到这些。
+to which you usually sell usage rights by way of a license and we will cover all of that in a bit.
+
+22
+00:02:15,860 --> 00:02:20,740
+软件具有独特的特性，可以说是复制成本是零，这会导致奇怪的阶段流程，
+There are unique properties to software, the near zero copying cost, which
+
+23
+00:02:21,990 --> 00:02:28,030	
+其中需要较高投资来获取软件的第一份副本。之后不需要投资，无需花费可获得第二份软件拷贝。
+has leads to this weird step function where you have a high investment to get to that first copy of the software.
+
+24
+00:02:28,750 --> 00:02:35,830
+当然，你可以在之后的软件开发中保持持续的投资。   
+And then almost no invest, no costs to get to the second copy. Of course, you will keep investing in further developing the software, but, 
+
+25
+00:02:37,520 --> 00:02:43,080
+但是，从技术角度来看，创造更多副本的成本几乎为零。
+from a technical perspective, creating more copies has near zero cost.
+
+26
+00:02:44,200 --> 00:02:52,800
+软件从创建、发展到最终的消亡，这些阶段没有固定的时间日期。就像我们上次所看到的那样，
+Software was born, lives on, eventually dies, though there is no set end date. And as we also saw last time, it's
+
+27
+00:02:54,290 --> 00:03:01,130
+软件可以被很容易地改变，从某种意义上说，软件具有很强的可塑性，
+can be changed very easily, in the sense it's very malleable, giving us some significant innovation speed and
+
+28
+00:03:01,720 --> 00:03:03,920
+给我们带来了显著的创新速度和相较于传统实体产品的优势。
+advantages over traditional physical products.
+
+29
+00:03:05,030 --> 00:03:14,190
+虽然在你们工程师也想做出改变，可能很容易地实现更改，但这并不一定会带来好的结果，   
+While the engineers among you also know sometimes you want to make that change and can change things easily, but it doesn't necessarily lead to a good outcome. So software can also become
+
+30
+00:03:14,650 --> 00:03:18,960
+所以软件很难以一种持续性的方式改变。
+hard to change in a consistent
+way.
+
+32
+00:03:19,810 --> 00:03:29,250
+这个课程以及整个系列的课程都是基于这个思想，即产品都是有一定组织结构的。
+This lecture and the whole course really is based on the idea that products or involves the idea that products,
+have a structure.
+
+34
+00:03:30,320 --> 00:03:34,760
+你可以从一个较低的起点创造一个产品，   
+And that you can build out a product from humble beginnings.
+
+35
+00:03:35,890 --> 00:03:43,130
+你要从根本上将产品看作一个需要构建、扩展的事物，
+And that basically you then need to view a product as something that you start building and extend and expand.
+
+36
+00:03:44,630 --> 00:03:56,730
+这就是在这儿你所看到的东西，
+And this is what you can see here.
+
+37
+00:03:47,040 --> 00:03:56,730
+这其中的初始产品就是我们所说的核心产品，这个核心产品的本质就是一个最小化的可行性产品。
+where
+the initial product is typically what we call a core product, the essence straight from what we will learn later as a minimum, viable product.
+
+39
+00:03:57,780 --> 00:04:00,900
+这种核心产品通常都是最初的软件，     
+And that core product is usually the
+
+40
+00:04:01,810 --> 00:04:09,570
+基础的软件，或许带有一些附加功能，勉强能达到某些用户的购买需求。
+initial software, basic software, maybe with some additional functionality, barely enough that some customers will be buying.
+
+41
+00:04:10,750 --> 00:04:14,750
+但是很多人不会购买这个产品，因为这个软件还不足够好。
+And many won't be buying, because that's just not yet good enough.
+
+42
+00:04:16,130 --> 00:04:22,690
+之后，核心软件会被扩展，然后就变成了基础软件。通过软件许可的方式，
+Core product is extended and becomes the basic product. If by way of licenses, you can give
+
+43
+00:04:23,410 --> 00:04:31,210
+你可以向你的用户承诺一些保证，比如可以确保你的软件在某些特定硬件上运行良好，
+your customers some assurances like you certify the software that it really works well on some particular hardware. 
+
+44
+00:04:32,040 --> 00:04:33,640
+毕竟有的时候可能会这样要求。
+Some customers may require that.
+
+45
+00:04:34,450 --> 00:04:43,170
+在大型组织将该产品投入使用之前，需要为该产品提供支持服务，大型组织会为该产品付款使用，  
+And certainly you need support services for a basic product, before larger organizations typically put it, pay by and put it to use.
+
+46
+00:04:44,510 --> 00:04:51,070
+该基础产品将会成长为一个成熟的产品，你将会得到我所说的完整产品，不仅仅是我，
+Eventually, with a mature product, you will reach what I call the whole product, well, not just me, everyone calls it the whole product.
+
+47
+00:04:51,860 --> 00:04:54,780
+每个人都会称其为一个完整产品。在该过程中，你可以看到该软件产品的所有辉煌。
+Where you have the software itself in all its glory.
+
+48
+00:04:55,490 --> 00:05:06,920
+但是考虑到所有的额外的服务，实际上你需要一个大公司去购买该软件作品。  
+But all the additional complementary things and services and artifacts that you actually need for a large company to buy.
+Inter
+
+50
+00:05:07,840 --> 00:05:15,720
+这并不是说你一开始就要创建一个完整的作品，这样的话作为一个初创公司很难活下来。
+It's not that you have to start out with a whole product in the beginning, fortunately, otherwise there would probably barely a startup survive.
+
+51
+00:05:16,620 --> 00:05:23,140
+你其实是有不同的客户群的，他们所关注的产品的成熟期与你所售卖的产品的成熟期是一致的。
+No, you have different customer groups, and they are aligned with the maturity of the product you're selling.
+
+52
+00:05:24,110 --> 00:05:32,830
+其中最值得注意就是这个核心产品几乎是不可用的，但从本质上来说，该核心产品它可以完成任务的。   
+Most notably, that core product that bare bones are barely usable, but at the essence, does the job.
+
+53
+00:05:33,900 --> 00:05:39,660
+该核心软件不会被那些对其没有什么兴趣的人购买，
+Piece of software
+will not be bought by someone who has only remote interest in in your software.
+
+55
+00:05:40,440 --> 00:05:46,840
+但它将被看到其具体商业价值的创新者和早起使用者所购买。
+But it will be bought by innovators and early adopters who see a specific business value in it.
+
+56
+00:05:47,780 --> 00:05:53,740
+通常有些人为了能在各自的市场中获得优势, 或者在某些地方大幅削减成本，       
+Typically to gain an advantage themselves in their respective markets, or significantly cost cut costs somewhere.
+
+57
+00:05:55,460 --> 00:06:03,500
+所以即使某些产品还没有上市，就已经有一些人看到你产品背后的创新潜力，
+And so even though the product is barely there, there are some people who see so much innovation potential
+
+58
+00:06:04,130 --> 00:06:10,370
+他们是非常乐意购买的，即使这个软件产品还不是很成熟。
+in your software that they are willing to buy, even though your product is far from being made mature.
+
+59
+00:06:11,100 --> 00:06:16,700
+所以你必须找到这些顾客，即这些早期的创新者、或者早期的使用者，如果你找不到他们，你就没有顾客。
+And these customers, the innovators and earlier adopters, you have to find, if you don't find them, you have no customers.
+
+60
+00:06:18,480 --> 00:06:25,720
+该软件的销售周期、增长期和创业公司的成熟期、生命周期之间就存在着所谓的鸿沟，      
+Um, in the sales cycle or the growth and
+the maturity cycle, life cycle of startups.
+
+62
+00:06:27,110 --> 00:06:34,390
+之后对于这方面我可能不会讲述太多。这就是之后的初创公司的生命周期。
+there comes to so called chasm, after it, I won't dwell too much on it here. That is startup lifecycle later on.
+
+63
+00:06:35,430 --> 00:06:42,470
+在这期间，会出现一部分创新者，他们就是早期的大多数买家，他们是更理性的买家。
+Because after that, innovators who bought to reach the so called early majority, the more rational buyers.
+
+64
+00:06:43,450 --> 00:06:52,010
+你的产品需要从一个核心产品成长为基础产品，甚至是一个更好的、更加完整的一个产品。
+Your product needs to have advanced from just being a core product to at least a basic and usually much better, a whole product.
+
+65
+00:06:52,910 --> 00:06:59,510
+如果你要把你的产品卖给绝大多数人，你确实需要一个完整的产品，否则你的产品将会失去竞争力。    
+And to sell to the overall majority, you really need a whole product, no chance with the bar bones core.
+
+66
+00:07:01,650 --> 00:07:10,340
+是我所列出的一张表格，你可以在上面构建出产品的每个阶段或者每个部分。
+So here's my cheat sheet, if you will, which structures what belongs to each stage or
+part of a product.
+
+68
+00:07:11,600 --> 00:07:19,720
+这说的更清楚些，你可以知道软件产品是多么的丰富与强大，你最终所买到的产品究竟是什么样的？
+To spell that out, to give you an idea how varied and mighty facetted it is, what you can actually buy, but actually build 
+
+69
+00:07:20,420 --> 00:07:22,060
+如何实际构造这些产品，如何将这些产品卖给消费者。
+and sell so that customers buy.
+
+70
+00:07:23,070 --> 00:07:34,150
+最后，你可以看到核心产品，其包括软件，也包括核心软件，以及软件所包含的潜在的扩展。      
+Um, at the end at the core, you can see the core product here, which consists consists of software, the core software
+with potential extensions. So,
+
+72
+00:07:35,020 --> 00:07:43,700
+所以你可以展望业务模型 将软件拆分为不同的组件，并对不同的组件收费。
+looking forward in time to business models, you can split software into different components and charge money for different components.
+
+73
+00:07:45,000 --> 00:07:47,400
+你也可以拥有，
+You can also have, or you need to have
+
+74
+00:07:48,790 --> 00:07:57,390
+或者说你也需要某些原材料，你要去拿到这些原材料，比如用户文档、行政文档，
+and make available complimentary materials, certainly user documentation, administrations this admin documentation, etc, training materials to
+
+75
+00:07:58,590 --> 00:07:59,710
+可以有效使用这些材料的文档说明等。
+effectively use the software.
+
+76
+00:08:00,830 --> 00:08:14,360
+你可以通过自助服务对你的软件其加以补充，人们可以在论坛上提出问题以寻求你的帮助，   
+And you may compliment all of that with self-help services, forums and mailing lists where people can
+ask questions may reach your support, or just the
+
+78:08:18,590
+或者人们也可以在开源软件社区获取你的帮助。
+the community, in the case of open source software.
+
+79
+00:08:19,320 --> 00:08:21,560
+这是核心软件产品的重要组成部分。
+And that constitutes the core product.
+
+80
+00:08:22,580 --> 00:08:30,460
+再次说明，仅仅看到核心软件价值的创新者才愿意和你讨论。
+Again, this is so bare bones, only innovators who see a specific purpose are willing to talk to you about this, usually.
+
+81
+00:08:31,410 --> 00:08:36,170
+所以你需要完成从核心产品到基础产品的构建，    
+And so you need to build it out from core product to basic product.
+
+82
+00:08:37,940 --> 00:08:43,620
+我们将关注在核心软件、基础软件创建好之后如何对其定价。
+We will look at how to price this in a bit, for now, after core product comes, basic product,
+
+83
+00:08:44,520 --> 00:08:52,420
+这时客户会出现，他们想从你那里获取更多的保证。
+That's when customers show up who want a bit more of assurances from you.
+This can be guarantees.
+
+85
+00:08:53,460 --> 00:09:00,020
+如果你不能保证用户对于软件产品的合适使用，你很有可能会受到惩罚。
+Along the lines of fitness for use, if you can't guarantee a certain fitness for use and are possibly willing to accept penalties.
+
+86
+00:09:00,810 --> 00:09:03,850
+如果你失败了，一些消费者将不会购买你的产品了。         
+If you fail, then some customers won't buy.
+
+87
+00:09:04,920 --> 00:09:12,960
+更有趣的是，从附加价值的角度来看，对于消费者来说，正是你的投入才使得软件得到了认可。
+More interestingly, in the sense of adding value, really to customers, is if you put in the work to have your software certified.
+
+88
+00:09:13,940 --> 00:09:20,630
+比如你的软件可以支持特定的硬件以及用户案例，
+For particular, for particular.
+Um, hardware or use cases, etc.
+
+90
+00:09:21,530 --> 00:09:27,890
+这可能是客户对使用产品时的一些要求，所以你需要考虑用户场景使得你的软件可为用户所使用。
+And that may be a regulatory requirement for customers to put your product to use, so you need to have that.
+
+91
+00:09:29,460 --> 00:09:36,220
+然后就是基本产品了，然后是必要的支持服务，以及消费者可以拨打的用户热线，   
+The basic product then comes finally, with the necessary support services, hotline support customers can pick up.
+
+92
+00:09:37,510 --> 00:09:42,230
+用户可以打电话给你;你也可以发送邮件给用户，或者通过其他的交互方式。
+The phone and call you, or you send people to their site or email or what have you.
+
+93
+00:09:43,600 --> 00:09:50,120
+最后，对于你的最终软件版本，没必要非的是大公司才能作为第一个使用最终软件的用户。
+And finally, there's the whole product for the large companies you don't have to be the first to use your software.
+
+94
+00:09:50,760 --> 00:09:52,240
+但是要等它成为一个成熟的，或者说完整的产品，  
+But waiting until it's a mature and
+
+95
+00:09:52,710 --> 00:10:01,350
+所以他们可能需要你所能提供给他们的培训，他们需要你所提供的咨询服务，
+whole product, so they may need training that you can offer them. They may need consulting services that you offer them.
+
+96
+00:10:02,100 --> 00:10:09,340
+甚至在一些情况下你可以为他们操作投入软件，这意味着你是一个SAS公司或者云服务提供商。
+And maybe you are willing to even operate the software for them, meaning your are a SAS company or a cloud service provider.
+
+97
+00:10:11,070 --> 00:10:21,510
+以上我们讨论了“你所销售的究竟是什么”？我们在这里回顾一下，      
+So that was a quick 
+Rundown of what it is that you sell, we will revisit that in a few slides. But first let's talk about
+
+99
+00:10:23,100 --> 00:10:27,700
+我们首先讨论了潜在的知识产权，以及你的产品构建时的基础。
+the underlying intellectual property and what you build your product on.
+
+100
+00:10:34,030 --> 00:10:42,630
+从法律意义上来讲，某些有有形、或者无形的实体就是所有权，
+So intellectual property is legally speaking, property, or some sort of tangible or intangible entity, that's property
+
+101
+00:10:43,690 --> 00:10:51,810
+这是所有者拥有该所有权的法律声明，这就记录了拥有该所有权的持有者。
+with an owner who has a legal title to the property, so somewhere, it's documented or somehow it's documented, that there is an owner who owns that property.
+
+102
+00:10:52,890 --> 00:10:55,210
+随之而来的是对于该软件的使用权，知识产权是所有权的一种特殊形式，   
+And with it come the exploitation rights.
+
+103
+00:10:56,670 --> 00:10:59,470
+知识产权的是概念型的所有权形式，
+Intellectual property, then is a particular form of property.
+
+104
+00:11:00,610 --> 00:11:09,050
+我们处在一个虚拟的世界中，数据、知识产权都是概念性的，都是无形的，
+That is conceptual, so again, we are in the virtual world, it spits its data, intellectual property is conceptual, non-tangible,
+
+105
+00:11:09,790 --> 00:11:11,310
+它们具有不可替代性等。
+non-fungible, etc.
+
+106
+00:11:12,350 --> 00:11:15,950
+该软件通常是独一无二的，而不只是一种商品。
+And it is usually at it's clearly unique and not a commodity, etc.
+
+107
+00:11:16,690 --> 00:11:25,770
+该软件不必须是二进制，当然，传统的知识产权专利，不非得针对一个软件。
+So it doesn't have to be bits, of course, traditional intellectual property patens, for example, don't have to be a software at all.
+
+108
+00:11:27,000 --> 00:11:35,610
+产权权利也是如此，我刚才所提及的软件使用权，  
+So with property rights,
+and what I just call exploitation rights.
+Actually come specifically
+
+111
+00:11:36,650 --> 00:11:43,370
+实际上就是所谓的“排他权”，它通常是一个思考的过程，
+the so-called exclusion rights, it turns the thinking, usually a little bit on the head, but you need to realize the right
+
+112
+00:11:44,210 --> 00:11:55,080
+你必须意识到知识产权就是排除他人使用你的知识产权的一种权利，
+to property that you have in particular to intellectual property is
+the right to exclude anyone else from using that intellectual property that you own.
+
+114
+00:11:56,230 --> 00:12:01,990
+除非你放弃知识产权，否则没人能使用你的知识产权。
+And unless you waive those rights, nobody can use your intellectual property.
+
+115
+00:12:03,000 --> 00:12:10,480
+你使用着这些权利，通常是反对软件的付款，这意味着你正在在出售知识产权的使用权。      
+And you waive those rights, typically against payment, meaning you're selling a usage right to your intellectual property.
+
+116
+00:12:13,290 --> 00:12:19,490
+在软件领域，知识产权只要有四种形式。
+There are four main forms of intellectual property that are relevant in the software industry.
+
+117
+00:12:20,700 --> 00:12:29,860
+第一种呈现形式就是版权，这是一种展现软件作品的一种权利。
+The first one is copyright, that's your right to a texture or other artistic expression, specific expression.
+
+118
+00:12:30,460 --> 00:12:36,940
+在软件领域，版权通常意味着源代码，这也意味着接口设计等。
+And in software that usually means source code, but it could also mean user interface designs anything.
+ 
+119
+00:12:37,830 --> 00:12:42,870
+这也算是一个特殊的表达形式，它是平凡的、不明显的，需要花费一定时间去创建的。
+Else that is a specific expression that is non-trivial, non-obvious, and that took work to create.
+
+120
+00:12:45,220 --> 00:12:49,500
+知识产权的第二个重要类别是就是专利。    
+A second important category of intellectual property are patents.
+
+121
+00:12:50,450 --> 00:12:56,010
+在美国而并非是在德国，你可以为算法申请专利，
+So in the US, not so in Germany, but in the US, you can patent algorithms.
+
+122
+00:12:56,930 --> 00:13:09,100
+在专利申请注册之后，如果没有你的授权，其他任何人不能使用你的专利算法。
+And hence, you can, after registration of that patent.
+Gain the exclusive usage rights or the exclusion rights of anyone else to use that algorithm that you just patented.
+
+124
+00:13:10,120 --> 00:13:13,000
+所以你可以基于你的专利权来向专利算法的使用者收费。
+So you can then obviously waive again that right and earn money from that.
+
+125
+00:13:16,410 --> 00:13:20,490
+除了版权和专利，知识产权还包含商标。   
+In addition to copyright and patent, there are Trademarks,
+
+126
+00:13:21,270 --> 00:13:28,670
+所有的商标都是独一无二的，就像每一个公司或者产品都是与众不同的，
+So all kinds of marks that are uniquely identifying, uh, something like a company or a product.
+
+127
+00:13:29,600 --> 00:13:36,440
+因为获取顾客信任的某些价值是无形的。
+And because the value is intangible in the sense of customers have trust.
+
+128
+00:13:37,590 --> 00:13:41,750
+所以对于一个特殊的图标，它也是可以申请知识产权的。
+In a particular mark, it is defensible intellectual property.
+
+129
+00:13:42,740 --> 00:13:48,460
+ 因此，拥有该图标的公司有权禁止他人使用该图标，
+So a company which owns certain trademarks gets the right to exclude anyone else from using
+
+130
+00:13:49,470 --> 00:13:55,110
+因此公司可以保护该商标下的产品。
+those marks and thereby can protect its products. Because nobody else can put
+
+131
+00:13:56,200 --> 00:13:59,760
+比如，没有可以把人Kellogg's Corn Flakes的商标放在自己的产品包装上，
+Kellogg's Corn Flakes onto their, onto their packaging.
+
+132
+00:14:00,810 --> 00:14:04,010
+这种做法会引发冲突。
+Conflicts, though, I think, is too generic a term. But,
+
+133
+00:14:05,020 --> 00:14:14,220
+以Google商标为例，所有任何其他人不能使用Google商标，这就涉及到商标侵犯了。
+let's make, let's use Google. The term Google is obviously trademarked by the company Google, and nobody else can call their service Google, because then they would be violating the trademark rights 
+
+134
+00:14:14,950 --> 00:14:21,030
+显然Google不会允许用户使用Google商标去交易盈利，
+of Google. In that case, google is obviously not going to license out user trades to that trademark.
+
+135
+00:14:21,980 --> 00:14:27,340
+但是也有很多其他的商标供大家使用。
+But there are other trademarks that they very well might be willing to
+
+136
+00:14:28,250 --> 00:14:35,930
+最后就是商业机密，这也是知识产权的一种存在形式。     
+license out. Finally, there are trade secrets, secret knowledge to operate within your company.
+
+137
+00:14:37,010 --> 00:14:42,490
+这是公司运行所需的交易秘密，这些商业机密必须被很好的保护起来，
+And they are well, have to be secret, and thereby, they are protected to someone who
+
+138
+00:14:43,370 --> 00:14:51,610
+避免某些人将这些商业机密暴露给全世界，这样他们就侵犯了你的权利，你是有权起诉他们的。
+violates your trade secrets by playing them open to the world, just broke your rights, and you have a right to sue them.
+
+139
+00:14:52,650 --> 00:14:58,570
+我之前已经讲过了，版权是属于知识产权范畴的，    
+So, um, I think I just walked through this already, copyright again is the right to intellectual
+
+140
+00:14:59,440 --> 00:15:08,120
+是一个比较具体的表达，不同国家的版权法是不一样的。
+Property, a specific expression. It's noteworthy that copyright law varies by country.
+
+141
+00:15:09,540 --> 00:15:14,980
+比如，根据美国法律，版权可以转让给第三方。
+So under U.S. law, for example, copyright can be signed over to any third party.
+
+142
+00:15:15,990 --> 00:15:23,750
+根据德国法律，版权转移就有点复杂了，即使是这么多年了，我仍然不怎么理解它。
+And under German law, it's a bit more complicated, even after many years, I am still not sure I understand it.
+
+143
+00:15:24,540 --> 00:15:28,700
+根据德国法律，你可以签署文件转让使用权，
+Under German law, you can sign over exploitation rights.
+
+144
+00:15:29,790 --> 00:15:34,150
+ 简单来说，其中对应用户权利，完全使用或者独占使用的权利。
+User usage tribes, in a simpler case, or full exploit, exclusive exploitation rights.
+
+145
+00:15:34,760 --> 00:15:40,480
+但是你始终是具有道德上的权利陈述源代码的。
+But you'll always remain and were here with some moral rights to say source code.
+
+146
+00:15:41,690 --> 00:15:47,210
+这些决定版权的法律是有管辖权的，     
+Um, and these laws determining copyright are really specific to the jurisdiction.
+
+147
+00:15:48,080 --> 00:15:55,240
+就像我们将要看到的，当涉及到许可证时就会引出许多的问题，
+Which, as we will see, is really problematic when it comes to licenses, and then in particular open source licenses that have usually been
+
+148
+00:15:56,550 --> 00:15:59,710
+它别是在美国法律中所定义的开源许可，
+defined on the U.S. law and are now being applied
+
+149
+00:16:00,440 --> 00:16:05,720
+全世界范围内都在实施。在德国，开源许可也在实践，和美国的开源许可非常相似。
+all over the world. In Germany, where maybe in practice, that's sufficiently similar.
+
+150
+00:16:06,430 --> 00:16:09,510
+但是还有一些国家，比如非洲的某些国家，
+But then there are, say, African countries,
+
+151
+00:16:10,120 --> 00:16:18,640
+ 那里没有版权相关的法律，我们应该怎么办呢？因为他们没有版权法，
+which have no copyright law, so what to do there? Well, you are out of luck there because they have no copyright laws, so all the license clauses about copyright law don't apply
+
+152
+00:16:19,660 --> 00:16:19,780
+那你就不走运了，所以关于版权的许可条款并非可以适用所有国家。
+really.
+
+153
+00:16:21,450 --> 00:16:29,280
+但是在现实中，这不是什么大问题，因为凡初具规模的公司，
+In reality, then it is much less of a problem, because
+all right companies of relevant size.
+
+155
+00:16:33,120 --> 00:16:38,200
+都会涉及全球范围内的市场资本运营，
+Many companies have an exposure to all the markets are internationally operating, and hence they will,
+
+156
+00:16:38,980 --> 00:16:45,940
+只需确保他们遵守市场所在地的相关法律、权限即可。
+um, try to make sure that they comply with all the laws and all the jurisdictions they are, they are working in.
+
+157
+00:16:48,630 --> 00:16:56,990
+至于专利权，我刚才已经提过了这是一种非明显的工业发明，所以你需要好好考虑一下它，     
+So patent rights, I already mentioned that is the right to a non-obvious industrial invention. So there's intelligence that you needed to
+
+158
+00:16:57,850 --> 00:17:00,930
+想出一些新奇的东西。专利并不绑定到特定的表达式，
+spend on it and come up with something novel.
+
+159
+00:17:01,980 --> 00:17:09,780
+或者说特定的描述，专利背后是某些概念在支持，所以专利可以被实例化为知识产权。
+Patents are not tied to a particular expression, they are the concept behind it, so a pattern can be instantiated.
+
+160
+00:17:12,760 --> 00:17:17,280
+如果这个专利的本体是一个算法的话，那么这个算法可以被实例化多次，
+The intellectual property, the idea can be instantiated many times, if it's an algorithm.
+
+161
+00:17:18,130 --> 00:17:22,290
+可以使用python进行编程，
+Then that algorithm can be programmed in python,
+
+162
+00:17:23,080 --> 00:17:31,880
+与此同时，在Java中，这也是概念相似的专利，你可以基于该算法专利收取专利费。
+and in Java, and it's the same patent underlying it and potential patent, patent fees are due then. So
+
+163
+00:17:33,120 --> 00:17:43,490
+专利的历史由来已久，也是非常有趣的一个发明。专利权利一旦被创建，          
+historically, amusingly enough 
+patents, the idea of patent rights was created so that inventors would lay open thier
+
+165
+00:17:44,910 --> 00:17:48,750
+专利的创建者就可以将他们的创新向全世界公布，你可以去专利注册处注册专利，
+innovation to the world, you can go to the patent office where the patent was registered.
+
+166
+00:17:49,520 --> 00:18:01,950
+也可以从中学习。如此一来，有趣的创新就可以从商业秘密中剥离出来了。
+And look at it and learn from it, because the state, the countries wanted that
+interesting innovations were lifted out of the secrecy of trade secrets.
+
+168
+00:18:02,800 --> 00:18:07,480
+当然，其他人也可以从中学习，
+And became public so others could learn from, but an inventor would only lay open some
+
+169
+00:18:08,580 --> 00:18:12,260
+但是专利的创建者只会在他们自己获得了些许回报之后才会公开自己的专利，
+invention if they got
+something in return, which is the
+
+171
+00:18:13,100 --> 00:18:19,980
+这也从一定程度上避免了别人使用该专利对应的服务。所以，从本质上来讲，
+exclusion right for a time frame to exclude anyone else from using it. So it was a trade, originally, still is,
+
+172
+00:18:21,000 --> 00:18:26,920
+在其他用户申请专利使用的时候，专利一种交易模式，最初是这样，现在也是。 
+between a user tried exclusive usage, right for the pattern that you get before it expires.
+
+173
+00:18:27,890 --> 00:18:31,810
+这就是专利的申请者公开的原因，这样其他人就可以从中学习和发展。
+And that's why you laid it open, so others could learn on it and build on it.
+
+174
+00:18:33,530 --> 00:18:39,250
+经过探索发展之后，该项专利走进了人们的视野，每个人都可以使用这个专利对应的技术服务了。
+After expiration, the invention will enter the public domain, so anyone can use it for free.
+
+175
+00:18:41,590 --> 00:18:52,890
+商标也是很重要的，商标可以是视觉可见的文本式的标志，    
+Trademarks are also important, so, again, trademarks is marks or visual, or textual, even
+smell, amusingly enough called smell marks, then,
+
+177
+00:18:53,800 --> 00:18:58,920
+和其他知识产权一样，商标权也是具有“排他性”的。
+and like any other intellectual property, they give you exclusion rights.
+
+178
+00:18:59,560 --> 00:19:04,840
+商标权避免了其他人使用商标，除非你给这些用户明确的使用权限。
+They let you exclude anyone else from using it, unless you give them explicit permission.
+
+179
+00:19:05,840 --> 00:19:11,200
+与版权和专利相比，商标永不过期。
+Trademark, in contrast to copyright and patents never expire.
+
+180
+00:19:12,560 --> 00:19:20,840
+如果你注册并持有了它们，那么只要你想让它们继续发展那么它们就会继续为你所有。
+If you register them and enforce them, then they keep going as long as you want them to keep going and support them.
+
+181
+00:19:21,650 --> 00:19:29,760
+如果你停止了对于商标的支持，你这也是终止了你对商标所持有的权利。
+If you stop
+supporting them, if you stop enforcing your rights. Eventually, a term might make it into 
+
+183
+00:19:30,170 --> 00:19:37,210
+最终这个商标可能就沦为一般的用途，与此同时，你也是丧失了该商标的“排他权”。
+general use, and hence you lose your exclusion right to that term, classic example, I think a cellophane.
+
+184
+00:19:38,230 --> 00:19:41,390
+这让我想到了cellophane的例子，这是一个虚构的词，是一个品牌的名称，
+Um, which was a brand, obviously an invented word.
+
+185
+00:19:42,170 --> 00:19:48,370
+在cellophane例子中商标持有者的权利也没有得到很好的保护。
+But they did not properly protect it the owners and hand cellophane is a generic term.
+
+186
+00:19:51,240 --> 00:19:57,160
+最后来看商业机密，商业秘密是你没有公开的，公司所保密的信息。    
+Finally, trade secrets are intellectual property that you do not lay open that companies keep secret.
+
+187
+00:19:59,590 --> 00:20:07,590
+举个简单的例子，据说每个人都会引用，可口可乐的秘密配方。
+Primary example, everyone will typically quote, is supposedly the secret formula for Coca cola that was never
+
+188
+00:20:08,230 --> 00:20:14,390
+坦白地说，无论它是否存在，我其实不太清楚，但无论如何，
+laid open, whether that really exists, I have no idea, seems unlikely, but nevertheless, people believe
+
+189
+00:20:15,090 --> 00:20:21,970
+人们始终相信“可口可乐的秘密配方”是可口可乐公司所保守的商业秘密。
+whatever it is, that extra splits into your cola production process that is a trade secret by the Coca cola company.
+
+190
+00:20:23,150 --> 00:20:27,790
+商业秘密也可以以其他形式存在，比如市场关系数据、
+But trade secrets could be, could be databases of say marketing contacts.
+
+191
+00:20:29,090 --> 00:20:35,530
+合作伙伴关系关系数据，以及其他你所收集的各种类型的数据等。
+Partnership contacts, etc, knowing who to talk to, all kind of data that you collected and so forth.
+
+192
+00:20:37,790 --> 00:20:41,870
+这里有个小测试，看下这个Kindle电子阅读器，
+So here's a little quiz, um, look at this kindle.
+
+193
+00:20:42,720 --> 00:20:48,880
+让我们看下知识产权在这儿是怎样存在的。
+And let's take a look at what intellectual property is present here.
+
+194
+00:20:49,750 --> 00:20:57,590
+所以什么是知识产权？只是产权是关于什么的呢？我们思考一下，
+So how about copyright? what copyright do you see here, I'll think about it for a second, what is
+
+195
+00:20:59,230 --> 00:21:06,230
+一个可能会受到版权保护的艺术表述是怎样的？什么样的特殊表述是可以受到版权保护的？
+an artistic expression here that could be copyrighted, what is a specific expression that could be copyrighted, etc.
+
+196
+00:21:11,130 --> 00:21:20,130
+所以你可以看到在Kindle上是呈现了一本书，或者说是一个章节，更确切地说是一本书，    
+So you see that the kindle displays a book or 
+chapter one, so most likely that presented book
+
+198
+00:21:21,780 --> 00:21:27,780
+是某人受版权保护的一本书。正是这个特定文本信息就是没人所拥有的知识版权。
+is copyrighted by someone. It's that specific text that is the intellectual property that someone owns.
+ 
+199
+00:21:29,590 --> 00:21:32,430
+专利，专利是什么呢？你是否看到相关专利了呢？
+Patents, what about patents here, do you see any patterns?
+
+200
+00:21:37,590 --> 00:21:40,670
+所以专利是不可见的，它们是概念性的。
+So patents are not visible, they are conceptual.
+
+201
+00:21:42,220 --> 00:21:49,060
+你可以休息一下，在电子器件，微芯片中，
+But you can rest, assure that in the electronics, in the microchips, there will be lots of patterns of how to
+
+202 
+00:21:49,790 --> 00:21:58,830
+专利是如何安排数据的？如何安置晶体管？如何安置电子器件和电路？那么将会有很多专利出现。
+arrange data, how to arrange transistors, how to arrange the electronics and the circuits. That there will be lots of patents present.
+
+203
+00:21:59,700 --> 00:22:00,940
+当然了，大部分都是涉及到了专利，
+Most certainly, the
+
+204
+00:22:04,240 --> 00:22:09,880
+电子墨迹显示器是基于很多物理学方面的专利的，即如何在kindle上进行相关的显示。
+electronic ink display will be based on lots of patterns about physics and
+
+205
+00:22:10,970 --> 00:22:18,770
+接下来我们谈下商标，你在这个设备上看到任何商标了吗？   
+how to create such a display. Trademarks, which trademarks do you see in this device?
+
+206
+00:22:25,310 --> 00:22:32,510
+最明显的一个商标应该是底部的Kindle标志，这是亚马逊的商标。
+So the most obvious one you should have seen is the Kindle logo at the bottom, a trademark of Amazon.
+
+207
+00:22:33,960 --> 00:22:39,880
+当你去看一些薯条包装的时候，薯条包装上也会有厂商的名称，这些明显就是商标。
+And probably when you were to look at some of the chips or so they would
+
+208
+00:22:40,580 --> 00:22:49,140
+最后我们解释一下商业机密，你能看到商业机密吗？     
+have the company names, those certainly would be trademarked, and so forth. Finally, trade secrets, what trade secrets can you see.  
+
+209
+00:22:53,890 --> 00:22:56,690
+我没有看到任何的商业机密，因为这就是秘密。
+Well, I don't see any because they are secret.
+
+210
+00:22:57,910 --> 00:23:03,430
+我不知道制造过程中的具体商业秘密。这种商业机密信息怎么能传出去呢？
+And I don't know what specifically, what trade secrets say about manufacturing processes.
+
+211
+00:23:04,600 --> 00:23:11,040
+我们过去常常在使用kindle。
+How to get this out the door. We actually used to give us these kindle, I don't know.
+
+212
+00:23:12,900 --> 00:23:18,220
+这里你可以看到知识产权的类型以及权利的相关比较。商业机密所采取的形式是怎么样的呢？
+So here you can see the types of intellectual property and the rights to it in comparison.
+
+213
+00:23:18,940 --> 00:23:26,580
+作为法律结构它是怎样被发明？商业机密能持续多久呢？怎样才能获取到商业机密呢？
+The forms it takes, why it was invented as a legal construct, how long it endures and how to get it.
+
+214
+00:23:27,610 --> 00:23:37,990
+我认为，其中最值得注意的是版权以及专利，因为其最终会到期。
+And I think, most notably, most notable is that copyright, patent rights,
+expire eventually.
+
+216
+00:23:39,380 --> 00:23:49,240
+当然专利最终也需要为版权所注册，你可以通过创造来自动引导专利。
+And patents certainly have to be registered for that copyright, doesn't necessarily have to be registered.
+Um, you get an automatic leap by creation.
+
+218
+00:23:50,420 --> 00:23:55,820
+但是版权和专利最终将会过期，你可能已经注意到工业界       
+But copyright and patent rights will expire. You might have noticed how industry is fighting to 
+
+219
+00:23:57,580 --> 00:24:05,020
+它们正在努力延长这些权利的期限。这与消费者和竞争性的利益形成了鲜明对比。
+ever extend the duration of these rights. In contrast to customer and competitive interests.
+
+220
+00:24:06,380 --> 00:24:13,280
+商标，商业秘密，商业秘密的相关权利，它们将会永远存在，
+Trademark
+write trade secrets, rights to trade secrets, they keep on going forever, they will never
+
+222
+00:24:14,020 --> 00:24:20,820
+永远不会过期。对于商标权利，它意味着，
+expire as long as they are forced. For trademark rights, it means you need to, need to
+
+223
+00:24:22,570 --> 00:24:26,910
+你需要向违反者以及协助者发送邮件，或者诉诸于法庭。
+send
+violators and assist letters or go to court.
+
+225
+00:24:27,530 --> 00:24:34,690
+对于商业机密。 它意味着你必须真正保护你的商业秘密，如果你让它们到处泄漏，
+For trade secret, it means you have to really protect your trade secrets. If you leave them around, lying around openly, you have lost
+
+226
+00:24:35,540 --> 00:24:37,780
+你就会失去商业机密，便不再受你的保护了。
+them as a trade secret that you can protect.
+
+227
+00:24:40,420 --> 00:24:44,980
+软件产品就是从这些知识产权中构建出来的，    
+And software products are built from all of this intellectual property.
+
+228
+00:24:51,940 --> 00:24:56,420
+那么让我们在更多细节上了解一下软件产品究竟是怎样构成的？
+So then let's look at what constitutes products in more detail.
+
+229
+00:24:57,780 --> 00:25:03,940
+初创公司的第一步就是创建一个核心产品，
+The first step you take as a startup is to have a core product or
+
+230
+00:25:05,070 --> 00:25:11,310
+或者至少从逻辑上讲，即使你拥有了一个完备的产品，你仍然需要将其定义为一个核心产品，
+logically, at least, even if you have a whole product already, there's something you can identify as a core when you strip
+
+231
+00:25:12,050 --> 00:25:19,090
+其对应附加的一些产品服务、技术支持等。那些服务真是消费者最终所需要的。
+away all the additional things that customers need and want and try to distill your product to the essence.
+
+232
+00:25:20,390 --> 00:25:25,830
+这就是核心软件，给了用户使用机会，          
+So that is the core software, and to give users access to it.
+
+233
+00:25:27,480 --> 00:25:34,480 
+你不能将核心软件免费给人使用，你要与使用者达成协议。你要制定一个合同，这就是许可声明。
+You don't just give it away for free, now you strike a deal with them. You make a contract, and that contract is usually called a license.
+
+234
+00:25:36,010 --> 00:25:43,410
+在大多数国家，许可证是一种权利，
+A license is a rights grand, a specific form of contract in most component countries
+
+235
+00:25:44,370 --> 00:25:48,930
+一种宏大而具体的合同形式。那么许可证的所有者，也就是软件供应商，也就是初创公司，
+where the licensor or the owner, meaning the software vendor, meaning you as a startup
+
+236
+00:25:49,970 --> 00:25:55,410
+可以对外授予许可，也可以授予客户使用软件的权利。
+gives the licensee, the customer use certain rights to use the software.
+
+237
+00:25:56,850 --> 00:25:58,810
+这些权利是非常重要的，
+These rights can very significantly.
+
+238
+00:26:00,100 --> 00:26:06,420
+事实上，这是产品管理的一个分支，
+And in fact, it is a whole sub-disciplin of product management where you define
+
+239
+00:26:07,680 --> 00:26:14,160
+当你在定义你所销售的具体是什么？如何将你所销售的东西与你的收入联系起来？
+what you actually are selling specifically, and how it ties to the revenue, the money you're making.
+
+240
+00:26:15,300 --> 00:26:26,340
+在开源软件领域，你可以允许修改，但是在传统的闭源软件领域，你仅被允许使用。
+You can allow simple use.
+In the case of open source software, you may even allow modification, etc. But in traditional closed source software, you simply allow use.
+
+242
+00:26:27,980 --> 00:26:33,100
+但是你可以使用多长时间呢？你可以使用多少软件源码呢？
+But then for how long, for how many at what capacity.
+
+243
+00:26:33,880 --> 00:26:40,260
+对于这些问题的简答回答就是，你或许在出售开源软件或者代码的永久使用，以及使用权力等。
+So a simple answer to some of these questions as well, you might be selling perpetual use,
+usage rights.
+
+245
+00:26:41,190 --> 00:26:48,870
+或者仅仅购买一年的使用权限，此次购买之后你可能需要更新你的合同。
+Or just a year of usage rights after which you need to renew your contract, the customer needs to renew your contract and so forth. So we'll look at that,
+
+246
+00:26:49,520 --> 00:26:50,680
+我们看下这个，稍等，     
+A bit more in a second.
+
+247
+00:26:52,300 --> 00:27:00,500
+作为一个学生，你可能经历的最普遍的许可类型就是EULA，点击即可完成认证的许可。
+Um, as students, the most common license type, you may have experience as a so so-called EULA, they click-through license.
+
+248
+00:27:01,720 --> 00:27:12,430
+该许可会向你说明许可要求，并要求你在使用前签署这个许可认证，
+Often these days now, which basically
+spells out the license requirements to you and will require you to sign it before you can use the product.
+
+250
+00:27:14,460 --> 00:27:20,180
+所以你没有机会去谈判。这在针对B2B业务的公司中情况就会有所不同。
+So no chance for you to negotiate it. That would be different between companies in a B2B setting.
+
+251
+00:27:21,200 --> 00:27:25,570
+公司通常能够忽视许可认证，
+Companies may often be able to negotiate the license terms.
+
+253
+00:27:26,660 --> 00:27:33,420
+所以软件许可显然就是一个许可，直接已经讨论过了，其定义了使用该软件所需要的一些权利。
+So software license is obviously a license, has just discussed with, which defines the rights to
+
+254
+00:27:34,340 --> 00:27:43,370
+初创公司、软件供应商是有这些权利的，
+some software that you want to use, and the license, or
+meaning the startup, the vendor,
+
+256
+00:27:44,110 --> 00:27:53,510
+这些权利是基于知识产权的可以赋给用消费者用户的权利。就类似我们之前所说的，“重新许可”。
+has these, has the rights can give customers rights based on the intellectual property that they own.
+Uh, re-license, as discussed before.
+
+258
+00:27:55,540 --> 00:28:06,650
+所以让我举个例子，我只是选择了一个不太明显的例子，   
+So let's take an example here, um, I simply chose for maybe not so obvious
+products here, and, um, they would be
+
+260
+00:28:08,020 --> 00:28:14,980
+产品可以分成两个维度，一个是消费者零售空间，另一个就是企业空间。
+split into two dimensions, so there's the consumer or retail space, and there's the enterprise space.
+
+261
+00:28:15,760 --> 00:28:22,440
+然后是primise版本，这下面一行就是云服务。
+And then there is the on premise version, that's the lower row, and the as a cloud service, that's the upper room.
+
+262
+00:28:22,850 --> 00:28:30,090
+举个例子，俄罗斯方块是一款你可以下载到手机上玩的游戏，
+So for example, Tetris as a game you download to your mobile phone that is on premise for consumers.
+
+263
+00:28:31,020 --> 00:28:39,700
+Spotify在云端，但是对于消费者来说，就是音乐流媒体服务。Renderman是一个用于进行视频处理、
+Spotify is in the cloud, but for consumers, music streaming service, RenderMan as a software for
+
+264
+00:28:41,520 --> 00:28:47,560
+以及电影制作的软件，这可为企业、好莱坞电影工作室以及任何其他人所服务。
+video manipulation and movie making, that's for enterprises, the big Hollywood movie studios and everyone else.
+
+265
+00:28:48,520 --> 00:28:57,720
+这仍然是prmise层级上的，然后是hootsuite，这是一个社交媒体工具，可为公司管理他们的社交媒体。       
+And it's, I believe, still on premise, but then there's Hootsuite, that's a social media tool for companies to manage their social media presence. So that's
+
+266
+00:28:58,790 --> 00:29:00,790
+这是一个企业软件，但这是一个云上的服务。
+Enterprise software, but in the cloud.
+
+267
+00:29:02,950 --> 00:29:10,430
+所以这里的核心软件，以Tetris和Renderman为例，
+So then, um, the core software here is, in the case of Tetris and RenderMan
+
+268
+00:29:11,260 --> 00:29:15,660
+就是消费者所安装的基本的软件。而关于Spotify和Hootsuite软件，
+the basic software that customers install. And in the case of Spotify and Hootsuite.
+
+269
+00:29:16,300 --> 00:29:25,220
+这是由其背后的供应商所操作的软件，你可以购买额外的插件，
+It's the software that is being operated by the vendors behind it. And now you can buy additional
+
+270
+00:29:26,460 --> 00:29:33,260
+甚至可以拆分软件结构，之后我们将把这个操作成为IP模块化。
+plugins, or you can split out or can split the software structure, the software so you get to know this later as IP Modularity.
+
+271
+00:29:34,160 --> 00:29:42,480
+你可以通过某种方式将软件分成不同的组件，这样你可以让客户为额外的插件、扩展、功能付费。
+You can split software into different components in such a way that you make customers pay for extra plugins, extra extensions, extra functionality.
+
+272
+00:29:44,440 --> 00:29:52,120
+对于供应商，你可以把供应商框定从而给我们自己更多的选择，而不是像他们隐藏事情。
+The vendor, you may usually frame it as giving us more choice, rather than withholding things from them.
+
+273
+00:29:52,720 --> 00:30:00,960
+但也有所不同，比如Spotify，你可以专利中了解其他的专利信息，你可以规划所有事情。           
+But it could be, um different, for example, Spotify, different plants you have from a limited plant, and all you can eat plan.
+
+274
+00:30:01,910 --> 00:30:07,190
+就附加的可用性或功能而言，
+Um, in terms of, UM, additional availability or function and so forth.
+
+275
+00:30:08,250 --> 00:30:13,930
+你需要考虑一下如何组织构建你的产品这样才能促进一个核心软件的诞生，
+So just think about how to structure your products so that there's an essential core software, and then maybe
+
+276
+00:30:14,980 --> 00:30:20,060
+并且因为不是每个人都需要软件全部的功能，所以有些功能可以单独购买。
+since not everyone needs all the functionality, some functionality is available for separate purchase.
+
+277
+00:30:22,420 --> 00:30:29,700
+所有软件都需要相关的文档以及某些材料。在消费者软件层面，
+All of the software typically needs documentation and training materials. Um, in the case of consumer software,
+
+278
+00:30:30,620 --> 00:30:36,660
+文档、材料必须准备齐全，因为之前所探讨的软件就是开箱即用。
+it typically has to be there, but the software has mentioned before needs to work out of the box.
+
+279
+00:30:38,300 --> 00:30:49,530
+公司期望好的文档、好的培训资源，当然每个人都希望公司提供开箱即用的服务。
+Companies suddenly expect
+good documentation, training materials, though, of course everyone hopes that things even there for the company in the enterprise space work out of the box,
+
+281
+00:30:50,940 --> 00:30:54,740
+比如某些自主服务，显然你可以提供；
+self-help services, so you should obviously have,
+
+282
+00:30:55,890 --> 00:31:02,450
+当然对于客户付费才可使用的支持服务，
+um, have support services that customers pay for, but you can
+
+283
+00:31:03,720 --> 00:31:08,120
+你可以首先提供自助服务，然后为用户提供相关论坛讨论这件事情，
+start with self-help services, give users forums to talk about,
+
+284
+00:31:08,830 --> 00:31:19,330
+可为用户提供在线培训，可以使用网络虚拟聊天板等，这在某种意义上是可以保持低成本的。
+give users online training where they never face the person, make
+chatbots available, etc, that in some sense keeps the cost low for the vendor.
+
+286
+00:31:22,110 --> 00:31:28,710
+此外，更有趣的就是，现在我们要探讨这个问题，我们要如何收费？或者如何向客户收费？       
+So more interestingly, perhaps now the question, how do you actually charge, or what exactly do you charge customers for?
+
+287
+00:31:29,730 --> 00:31:32,570
+这是很多创造力产生的地方，
+And this is where a lot of creativity happens.
+
+288
+00:31:34,260 --> 00:31:40,580
+供应商努力思考，他们想尽一切可能从用户身上赚钱。
+Vendors think very hard, try to optimize how to make money off its users.
+
+289
+00:31:41,530 --> 00:31:46,290
+这也是一种平衡，你不想让供应商精疲力尽，也不想惹怒他们。
+And it's a balance to strike. You don't want to exhaust them, you don't want them to be angry,
+
+290
+00:31:46,980 --> 00:31:52,940
+这或许就是你的软件的锁定机制。但是愤怒的客户、愤怒的消费者从来都不是友好的。
+which may be a function of the lock-in into your software. But angry users, customers are never good.
+ 
+291
+00:31:53,640 --> 00:32:02,120
+但是从最基本的层面来定义收费，比如价格表，用户、顾客可以看到变化或者他们可以买些什么。
+So, but on the most basic level to define, for example, a price list, where users can see, customers can see the variations or what they could buy.
+
+292
+00:32:03,410 --> 00:32:11,650
+你可以通过消费来设计收费结构，比如该软件对应多少用户？是一个用户，还是一个团队或者一个公司，
+You can structure this by consumption, so how many users will the software have, just one user, or a whole team or the whole company,
+
+293
+00:32:12,830 --> 00:32:19,070
+这其实取决于软件本身。但很明显，用户越多，你就可以收费越高。
+depends on the software. But obviously, the more, the higher the number of users, are the more you will charge.
+
+294
+00:32:20,500 --> 00:32:24,900
+你可以基于软件服务的不同对用户进行收费，
+You could, uh, depends on the software, charge customers for
+
+295
+00:32:25,670 --> 00:32:31,430
+比去用户调用软件服务的数量，用户所使用的处理器的数量，以及用户所使用的机器的数量，
+the number of calls, use processors, use machines, use service, used, because, as,
+
+296
+00:32:32,980 --> 00:32:36,140
+用户所使用的服务等等，因为这样的话软件可能就会使用更多的计算能力。
+the software uses more computational power.
+
+297
+00:32:36,560 --> 00:32:42,920
+或许用户可以完成更快、更好地完成工作，所以更多的计算核心以及处理器则意味着更高的价格。   
+It might do jobs faster and be better, so maybe more cores and more processors means a higher price for you
+
+298
+00:32:43,580 --> 00:32:51,660
+在任何时间，以任何一种方式，资源都是在被消耗的。举个例子，
+as you sell it. In any general time, in any general way, resources is consumed. So for example,
+
+299
+00:32:52,910 --> 00:32:58,710
+如果你可以测量时间的话，你在这个软件应用上花费了多少时间。
+how long you spent anyone spent with the application of the software if you can measure it.
+
+300
+00:33:00,760 --> 00:33:04,000
+另一个需要考虑的方面是产品的价格，
+Another dimension to think about when your price, a product is,
+
+301
+00:33:05,190 --> 00:33:09,110
+无论你授予了软件产品使用使用者多少权限，这些权限能保存多久呢？
+that whatever rights you're giving, how long will they be available.
+
+302
+00:33:09,980 --> 00:33:15,700
+所以最简单的选择就是永久保存，但是也许你不想这样，你可能需要设计一个订阅模式，
+So the easy choice is perpetual, but maybe you don't want that. Maybe you want a subscription model where
+
+303
+00:33:16,330 --> 00:33:21,890
+你可以让消费者先使用一年的软件，然后他可以续拟、续签合同。
+you let customers use the software for a year, and then they need to renew a contract.
+
+304
+00:33:23,360 --> 00:33:29,560
+你可以发明任何奇怪的东西，比如设置特殊的时间节点等。
+You can invent any weird stuff, like only at a particular point in time, and that's it.
+
+305
+00:33:32,010 --> 00:33:36,690
+有趣的是，接下来我们将讨论软件供应商以及软件供应商的相关策略，       
+Of interest, we will see this when we talk about vendors and vendor strategies next time
+
+306
+00:33:37,420 --> 00:33:42,220
+以及你如何收取这些费用。
+is also how you receive these fees. So,
+
+307
+00:33:43,920 --> 00:33:51,320
+所以软件供应商的经典方法就是寻求初始许可，这个价格是很高的，这就是最初的销售，
+the classic approach of software vendors was to ask for an initial license fee which was high. That was the initial sale.
+
+308
+00:33:52,140 --> 00:33:56,060
+销售人员显然喜欢这种提成或者薪酬。
+And sales people would get a cut or a commission would obviously love that.
+
+309
+00:33:57,810 --> 00:33:58,570
+第一年之后，软件供应商仅仅收取维修费用，
+And after that,
+
+310
+00:33:59,330 --> 00:34:07,210
+在第二年，你的产品已经有用户的时候，你不能再向他们收取全额费用，
+only charge from maintenance. On the second year, when you already have that customer on board, you don't charge them again the full fee. Maybe you charge them 20% of 
+
+311
+00:34:07,670 --> 00:34:11,750
+或许你可以收取最初价格费用的20%，也就是维修费用。
+that initial fee to keep going as a so-called maintenance fee.
+
+312
+00:34:12,890 --> 00:34:13,010
+今天，
+Today,
+
+313
+00:34:14,250 --> 00:34:22,610
+最初许可证已经渐行渐远了，现在更多的用户选择订阅模式，所以软件供应商没有最初的输入增长。
+the initial license fee often has gone away, and customers just subscribe. So there is not that initial bump of revenue.
+
+314
+00:34:23,410 --> 00:34:32,050
+但我们有一个计划，每月都会收取一定的订阅费，这也是挺好的，
+But there is a plan, regular subscription fee coming in month after month, and that's also nice. You can run any other
+
+315
+00:34:33,580 --> 00:34:33,700
+当然你也可以采用任何其他的收费措施。
+approach here.
+
+316
+00:34:39,350 --> 00:34:50,100
+所以只有最为硬核的创新者会在没有任何支持的情况下购买核心产品，
+Uh,
+So only the most hardened
+innovators will buy that core product without any real support. So um,
+
+319
+00:34:51,170 --> 00:34:58,210
+所以你确实需要一个基础的产品来支持你的核心产品，
+you really need to get to a basic product where you can support your core product with
+
+320
+00:34:59,950 --> 00:35:04,910
+这样就会小规模的用户，你可以像他们承诺相关的软件使用。
+users at a minimum, as well as make assurances that any sane customer.
+
+321
+00:35:05,500 --> 00:35:20,720
+软件供应商会以各种形式售卖他们的产品，所以最基础的承诺就是卖家所保证的，
+In some form or another, will want to hear from a vendor trying to sell them products,
+So the basic idea of assurances is in any form a guarantee that
+
+323
+00:35:22,720 --> 00:35:28,840
+卖家、软件供应商保证软件可以实现基础的功能。
+the seller, the vendor guarantees the software will actually do what it's supposed to do.
+
+324
+00:35:29,670 --> 00:35:37,070
+这真的是一件非常棘手的事情，因为核心软件从未完成它应该要做的事情，它可能还会有一些错误。
+Which is really tricky, because of core software never fully does what it's supposed to do, because, well, it's got bugs.
+
+325
+00:35:38,080 --> 00:35:45,560
+所以软件的适合使用是一个普遍的承诺，所以消费者在使用过程中遇到了什么问题，
+So fitness for use is a general promise, and usually if the customer shows unfitness,
+
+326
+00:35:47,490 --> 00:35:48,730
+这就意味着软件的某些方面出现了问题。
+meaning something doesn't work.
+
+327
+00:35:49,910 --> 00:35:57,430
+那么理所当然，你不应该得到惩罚，你无需协商。消费者或许经常会想要协商，但是常常以失败告终。     
+Then it's not so much that a penalty becomes you, so you can't negotiate. Customers might want to negotiate that, but usually fail.
+
+328
+00:35:58,990 --> 00:36:07,420
+但是供应商所应该做的事情就是修复问题。
+But rather that the vendor gets a right
+to fix the problem with an attack defined time frame. So fitness for use means that
+
+330
+00:36:08,040 --> 00:36:17,120
+所以“软件适用”就意味着你要求供应商一段时间内解决问题，在此之后，软件供应商可能会遭遇处罚。
+you can badger the vendor and request a problem fix within a period of time, and only after that, maybe penalties will kick in.
+
+331
+00:36:18,440 --> 00:36:25,680
+有关软件服务的惩罚可能多种多样，卖家、软件供应商显然希望处罚更轻一些，
+Penalties can be staged in different ways, vendors, the sellers obviously want it as lightweight as possible, so.
+
+332
+00:36:26,380 --> 00:36:31,700
+这样就可以使得卖家的权益最大化，
+make it a maximum specific value, while the customers, of course want
+
+333
+00:36:32,580 --> 00:36:40,510
+然消费者想询问对于功能缺失的软件如何进行补偿，消费者想以商业损失程度来决定对于卖家的惩罚力度。
+the damages from the
+non-functioning software to be compensated, meaning very somehow want the loss of business to determine how
+
+335
+00:36:41,020 --> 00:36:50,100
+显然，这取决于许可证以及相关合同条款，没有哪家供应商真的愿意为客户的业务损失进行补偿。
+much the penalty is. Obviously, that's up to the license and the contract negotiations. No vendor really will want to compensate its customers for loss of business.
+
+336
+00:36:50,620 --> 00:37:07,050
+你永远不知道消费者谈判的结果，经典的软件产品使用初始许可费用进行售卖。    
+But you never know what customers can negotiate.
+So again, classic products
+are sold with this initial license fee. And then,
+
+339
+00:37:08,830 --> 00:37:14,830
+这样你就有了一个新的客户，在第一年，他们支付一大笔钱作为软件使用费用。
+then you have a new customer. So in the first year, they pay a fair bit of money for using your software.
+
+340
+00:37:15,680 --> 00:37:24,560
+在第二年，第三年或下一个时间段，如果这些用户继续使用相同软件他们只需支付该软件的维护费用即可。
+And in the second year or third year or the next time period, they only pay maintenance fee, usually if they keep using the same software.
+
+341
+00:37:25,930 --> 00:37:37,980
+对于软件的维护费用真的是最低级别的期望，软件供应商将提供“漏洞修复”服务。
+And that maintenance fee is, really has the expectation that
+on a minimum level, bug fixes will be provided by the vendor.
+
+343
+00:37:39,190 --> 00:37:43,670
+但是维护工作并不包含软件产品的下一代升级，
+It does not necessarily include an upgrade to the next main version of the software or the vendor
+
+344
+00:37:44,950 --> 00:37:47,110
+所以软件供应商仍然可以继续向客户推销。
+can still try to sell customers that.
+
+345
+00:37:47,980 --> 00:37:55,940
+当然，客户有可能不太想过早地结束旧版本的使用，某些客户可能还在使用着就版本的软件。
+But, of course, they also don't want to end of life too quickly, older versions that the customers are still using.
+
+346
+00:37:59,160 --> 00:38:16,820
+其中的一个经常被大家所忽视的地方，就是基础产品或者最终完整产品的初始特性，          
+One of the
+often overlooked, at least by novices aspects of making products
+basic and eventually whole is guarantees about our certification of
+
+349
+00:38:18,240 --> 00:38:25,480
+其可以保证软件可在特定的用途中使用，可与特定的硬件兼容，可以在特定操作环境下操作。
+the software for a particular use, for a particular hardware, for a particular operating context, etc.
+
+350
+00:38:27,020 --> 00:38:34,580
+这是很有价值的，对于客户来说也是很有价值的。如果你是一家医疗设备公司，
+That is a lot, that can be valuable a lot to our customers, because, say, if you're a medical device company.
+
+351
+00:38:35,720 --> 00:38:47,880
+医院可能会在使用软件之前要求你为完成那个具体的规范并获取特定的认证。
+And then the hospitals may require that you fulfill specific
+norms and have acquired certain certifications before they can even put you to use. So it's
+
+353
+00:38:48,740 --> 00:38:57,640
+所以说终止一个准则的执行是很难的，如果你没有进行某种认证，你可能会被禁止进入市场，
+A hard
+stop criterion. If you don't have a certain certification, you may be barred from entering certain markets, because that certification
+
+355
+00:38:58,330 --> 00:39:02,770
+因为那个认证就是一个“进入要求”，因为认证成为了一种购买需求。
+has an entry requirement, and hence it becomes a purchase requirement.
+
+356
+00:39:06,090 --> 00:39:13,250
+好的，接下来我们谈一下支持服务。       
+Ok, and now,
+maybe it should come earlier, the support services. So no
+
+358
+00:39:14,040 --> 00:39:22,760
+几乎没有一个头脑正常的公司，除非他们是真正的创新者，他们会购买一个没有支持的产品。
+almost no company in the right mind, unless they're really innovators, will buy a product where there is no support, so of course, you always have support, but
+
+359
+00:39:23,250 --> 00:39:30,290
+但是全面的支持意味着很多事情，这是个人支持，而不是自动聊天板，
+full-blown support can mean a lot of things. It's in person support, not some automated chatbot.
+
+360
+00:39:32,890 --> 00:39:39,850
+通过热线电话或者某些网站，你可以通过邮件进行聊天或在者论坛回复相关问题。
+Over the hotline or on site, you might have to go on site for servicing. You can answer by email in the chats and then forums.
+
+361
+00:39:40,660 --> 00:39:45,540
+有时候也需要回复付费用户的相关要求，
+But it needs to be people who answer to the specific requests of paying customers.
+
+362
+00:39:46,840 --> 00:39:50,560
+这并不奇怪，你可以通过很多种方式来定价。
+Not so surprising, and you can price that in many different ways.
+
+363
+00:39:51,500 --> 00:40:04,540
+咨询价格与用户的订阅周期以及维护周期相一致，他们购买了一定程度的支持，
+Um, you can, the basic pricing is usually
+in line with the subscription period or the maintenance period that customers pay for, they buy a certain level of support, 
+
+365
+00:40:05,480 --> 00:40:11,930
+比如工作日支持服务，24*7支持服务，这意味着每周的每个小时都可以提供支持服务。
+like weekday support or
+24 * 7, meaning every hour of every week support
+
+367
+00:40:12,940 --> 00:40:21,820
+可通过用户热线反馈问题，但是这经常会导致出现一些严重的错误，通常是软件的可用性方面。
+and they get full access to a hotline to call someone up as something's going badly wrong. That's usually the availability aspect of it.
+
+368
+00:40:23,520 --> 00:40:33,620
+然而有些公司并不要求这些常规收费，他们会根据事故级别来进行收费。     
+Some companies, however, do not ask for these
+general payments, they will let customers pay on an incident level,
+
+370
+00:40:34,030 --> 00:40:40,470
+这就意味着客户一旦没有任何服务支持的合同，客户要想获取支持服务，就得出钱。
+meaning the customer doesn't have any support contract, but the very moment they want support, they start paying.
+
+371
+00:40:41,350 --> 00:40:47,110
+在消费者领域，这是最常见的。
+This is most commonly known in consumer space, for example.
+
+372
+00:40:47,730 --> 00:40:55,130
+你或许不需要购买软件，但是你一旦想要获取支持服务，你就可以拨打热线电话寻求支持，
+Where you don't where you really just buy software, but if you want support, you call a hotline and the money starts
+
+373
+00:40:56,390 --> 00:41:01,630 	
+这个时候软件供应商就会根据你的咨询时长来扣除相应的费用。
+clickering, plunkering through meaning you pay by way of the time consumed on the phone.
+
+374
+00:41:03,850 --> 00:41:11,290
+当然这也取决于所得到的支持的水平，如果你获取了一级支持，
+Depends then on how good that support is, um, whether you get first level support, meaning people who
+
+375
+00:41:12,540 --> 00:41:17,660
+这也就意味着客服人员了解这个产品，他们将会通过最简单的教程指导用户。
+know the product, that's all right, but really, I'm just guiding you through simple tutorials.
+
+376
+00:41:18,810 --> 00:41:32,310
+二级支持通常是高级用户，客服人员了解产品的相信信息，可以帮助用户完成较为复杂的任务。       
+Second level support is typically advanced users who know the details of
+the product in an out and can help you with advanced tasks that you may want to perform. And third level support is often already the developers,
+
+378
+00:41:33,420 --> 00:41:39,020
+三级支持经常就已经是项目的开发者了，如果你遇到了软件使用故障，
+who, you talk to, if you've run into something that looks really like it's a bug.
+
+379
+00:41:39,620 --> 00:41:45,660
+那么只有工程师才能真正理解发生了什么以及为什么软件会出现这种意想不到的行为。
+And so only the engineers may actually understand what's going on and why the software is behaving in that unexpected
+
+380
+00:41:46,460 --> 00:41:50,540
+如果用户遇到了这样的问题，那么二级支持，比如产品使用层次，就不能解决用户的问题。
+way that the second level of support, the product export, could not explain.
+
+381
+00:41:56,680 --> 00:42:00,880
+最终，你将一个核心软件、基础软件变成了一个完整的软件，
+And finally, you move on from core and basic product to
+
+382
+00:42:01,850 --> 00:42:13,680
+大规模的消费者会不是创新者，他们只是从一系列相互竞争的软件供应商中间选择了你。
+A whole product, what large customers, um, who are not innovators but who really just
+want to pick you from perhaps a larger set of competitors. By then,
+
+384
+00:42:14,440 --> 00:42:24,020
+大公司需要基础的产品，他们也想购买培训服务。与此同时，他们可能需要咨询才能使软件满足他们的需要。
+what large companies want,
+they want that basic product, but they also want to buy training. They may need consulting to make the software work for their needs.
+
+386
+00:42:24,750 --> 00:42:32,830
+如果你把软件作为服务进行提供的话，这些公司可能仅仅让你托管一下这个软件。
+They may go so far to say that they just want you to host, the software, if you're offering your product as a service.
+
+387
+00:42:35,870 --> 00:42:38,990
+所以我要在这里讨论，      
+And so as discussed here.
+
+388
+00:42:40,200 --> 00:42:47,640
+在一个产品成长为一个完备的产品之间，软件产品的这些附加服务通常不会在消费者空间中发挥作用。 
+The whole before the whole product, these additional services usually don't play in the consumer space.
+
+389
+00:42:49,410 --> 00:43:07,750
+没有人会将一个截图软件作为游戏下载到手机中，也没有消费者愿意支付训练费用。
+No consumer who downloads captures as a game to the mobile phone
+will want to be able to call on,
+on training and pay for training, unless maybe it's a esports competition, which I don't think Tetras qualifies for.
+
+392
+00:43:09,030 --> 00:43:12,750
+所以在消费者领域，完备的产品是很单薄的，
+So in the consumer space, this whole product is much thinner.
+
+393
+00:43:13,480 --> 00:43:19,320
+也有很多的资自助服务。但是在企业空间中，你真的需要培训以及全力的支持。
+There is much more self service, but in the enterprise space, you really need that training and that full support.
+
+394
+00:43:20,350 --> 00:43:29,270
+这是Martin Mikos的一段话，我们在之后的开源课程中是可以看到的，他也说过某些人花费时间来省钱。
+Here is a nice quote by Martin Mikos, so we will see later in commercial open source again, who said that some people spend time to save money.
+
+395
+00:43:30,020 --> 00:43:38,420
+这是消费者空间，有些事企业空间，企业通常会选择花钱来节省时间。
+That's consumer space, and some that's the enterprise space. Enterprises spend money to save time.
+
+396
+00:43:42,150 --> 00:43:49,070
+为企业提供培训、思考如何构造产品或者如何向客户提出价值主张，这只是其中的一部分。           
+Training, straightforward as you think about how to structure product or a value proposition to customers. This needs to be part of it.
+
+397
+00:43:50,300 --> 00:43:59,020
+你可以提供内部培训 也可以提供在线培训，如果软件供应商邀请你的话你甚至可以去供应商那里等等。
+You can offer in-house training, you can offer online training, you can even go to the vendor's location if they invite you, and so forth.
+
+398
+00:43:59,730 --> 00:44:05,410
+你可以为培训定价，可以按照人数或者根据企业的体量来定价，
+You price, by fixed fee for a training, or by person or somehow by volume.
+
+399
+00:44:05,930 --> 00:44:18,110
+你所提供的其他材料或许是有价值的，培训就结束后训练材料的获取等。
+And anything in addition you may be providing in terms of additional materials that might be valuable,
+etc, access or duration of access to training materials after the event and so forth,
+
+401
+00:44:18,930 --> 00:44:27,110
+同样地，销售人员或者产品经理的创造性不应该局限于此。
+Again, no limits to a sales person or a product manager's creativity here.
+
+402
+00:44:27,490 --> 00:44:34,810
+如果你有一个企业产品的话，服务咨询是一个挑战，再次强调，这是在企业空间。
+Consulting is a challenge, um, if you have an enterprise product, so again, this is the enterprise space.
+
+403
+00:44:35,930 --> 00:44:39,650
+如前面所讲述的那样，
+Then, as mentioned and explained, customers need
+
+404
+00:44:40,320 --> 00:44:48,800
+消费者需要经常要咨询定制您的产品，你的标准化产品等，你也要为消费者的相关需求进行产品的定制化。
+often want consulting to customize your product, your standardized product, still to customize it for their specific solution situation.
+
+405
+00:44:49,810 --> 00:44:56,690
+这是一个问题，因为软件供应商一般会有生产产品的公司。
+And that's a problem, because the skills that a software vendor has a company that produces products.
+
+406
+00:44:57,660 --> 00:45:02,180
+产品工程技能并不是咨询技能，            
+Our product engineering skills, they are not consulting skills.
+
+407
+00:45:03,160 --> 00:45:09,600
+与客户一起运行定制项目以及为市场开发产品，这两者是有很大的不同的。
+Running custom projects with customers is very different from developing a product for a market.
+
+408
+00:45:11,320 --> 00:45:23,280
+尽管如此，如果你的经验不足，你可能需要咨询师来为你的产品实现定制化。
+Nevertheless, if you're small,
+you may need those consultants that take your product and customize it 
+for particular customer's needs.
+
+411
+00:45:24,140 --> 00:45:31,460
+现在你可能需要雇佣一些产品顾问，你的合伙人或许可以充当顾问。
+Now you may have to hire these consultants, employ them yourselves, or better yet, of course, your partner with a consultancy.
+
+412
+00:45:32,660 --> 00:45:37,500
+但是你需要找到那家咨询公司 ，因为他们不可能在一夜之间就完全了解你的软件。
+But you need to find that consultancy, because they don't get competent at your software overnight.
+
+413
+00:45:38,260 --> 00:45:44,380
+这是咨询公司的投资，你的战略合作伙伴是你的执行伙伴。
+It's an investment by any consultancy who you strategically partner with, to be your implementation partner.
+
+414
+00:45:45,130 --> 00:45:49,650
+对于他们来说这就是一项投资，他们也不知道会在哪儿获得回报，
+To them, it's an investment that they may not know where that's paying off. So you need to
+
+415
+00:45:50,510 --> 00:45:59,510
+所以你需要给他们带来项目，并做销售相关的工作。做为你销售工作的一部分，你必须要说，
+bring them projects, so you are doing the sales, and as part of your sale, you have to say, oh, and I have this consulting company, dear customer,
+
+416
+00:46:00,260 --> 00:46:04,980
+我有一家咨询公司，亲爱的消费者，这会让你的工作变得顺利，但是你也需要雇佣服务顾问。
+which will make things work out smoothly for you, but then you have to hire that consultancy, too.
+
+417
+00:46:06,100 --> 00:46:14,820
+所以有关咨询服务的定价，无论是在公司内部还是由合伙人进行，通常都与劳动力有关。
+So the pricing of consulting, whether you do it in house or it's done by a partner, is usually somehow related to labor.
+
+418
+00:46:15,800 --> 00:46:22,120
+这种劳动可能隐藏在员工在项目所花费的时间上，这就是劳动。
+That labor may be hidden behind the time employees spent on the project, that's labor.
+
+419
+00:46:23,810 --> 00:46:32,180
+关于所花费时间的总量，这可能会涉及一个固定的费用。显然，消费者喜欢这样的固定费用。                 
+And the amount of time and who,
+and that may be hidden behind a fixed fee. Customers like fixed fees, obviously.
+
+421
+00:46:32,890 --> 00:46:39,610
+或者该固定费用可能只是在不断发展的过程中建立起来的，
+Or it may simply be built as it keeps going on. Customers don't like that because they always fear it escalates beyond
+
+422
+00:46:40,560 --> 00:46:43,400
+因为客户总是担心事态会进一步恶化可能还要进一步协商，所以客户不喜欢这样。
+reasonable limits, but that's up for negotiation
+
+423
+00:46:44,540 --> 00:46:50,460
+消费者和软件供应商、外部的咨询公司之间存在着实际的合同。
+And actual contract between the customer and the vendor and the potential external consulting firm.
+
+424
+00:46:53,690 --> 00:47:02,570
+最后，在这里简短地说一下，这个话题有太多要说的了。之后，软件将作为服务进行提供。
+And now finally,
+only shortly, here, much, much more about it. Later, the provision of software as a service,
+
+426
+00:47:03,260 --> 00:47:15,060
+这就意味着服务、产品，这不再是一个传统的许可证销售了，用户尝试访问供应商所操作的服务。
+meaning the services, the product and
+it's not a classic license sale any longer, but just the access and user tried to service operated by the vendor itself.
+
+428
+00:47:16,790 --> 00:47:24,630
+从技术上来讲，这不难，但是不是很容易做到，因为我们知道在云中托管东西意味着什么。
+That, technically, that's straightforward, it's not necessarily easy to do, but we know what it means to host something in the cloud.
+
+429
+00:47:25,370 --> 00:47:29,290
+你对其如何定价，与如何为针对某些软件的软件许可本身定价类似。
+How you price it is similar to how you price the license
+
+430
+00:47:30,790 --> 00:47:38,110
+所以你可以基于一个实际的消费去软件的订阅服务，    
+itself for some piece of software that a customer might deploy on premise. So you go by actual consumption
+
+431
+00:47:40,210 --> 00:47:47,010
+你付出相关的费用然后可以将软件作为服务去使用软件，
+when it's set up, usually go for a subscription fee as you're offering something as a service, etc.
+
+432
+00:47:48,420 --> 00:47:55,670
+这非常类似软件许可的销售。
+So um, that is pretty straightforward and similar to
+the license sale.
+
+434
+00:47:56,660 --> 00:48:00,580
+有些用户可能认为这个订阅费用就是的单纯的维护费用，
+The subscription to some might feel like that's just the maintenance fee.
+
+435
+00:48:01,430 --> 00:48:15,090
+但是因为你也在为客户操作软件，其中所涉及的实际价值、金额要比纯粹的维护费用高得多，
+However, since you are also operating the software for customers, the actual value, the amount of money.
+For a subscription should be significantly higher than the pure maintenance fee, because you're providing that extra
+
+437
+00:48:16,110 --> 00:48:21,350
+因为你使用了软件服务，所以你应该负责相应的花费。
+service off operating the software for you, so you've got this costs, right? The servers, um,
+
+438
+00:48:22,150 --> 00:48:27,870
+服务器以及软件管理员操作软件所花费的时间，都涉及了花费。
+the computational time spent on operating the software your own administrators, that's all costs,
+
+439
+00:48:28,640 --> 00:48:36,080
+你可以这样理解，这样对于用户来说提高了价格，但是用户没有成本，你却有。
+which will understandably raise the price that the customers are saving. They don't have that cost themselves, but you have it.
+
+440
+00:48:36,640 --> 00:48:41,200
+当然，提高了订阅软件服务的价格，其超过了维修费用。
+And that raises, of course, the price of subscription fee, over the maintenance fee.
+
+441
+00:48:44,310 --> 00:48:48,150
+至此，我们结束了关于软件产品构成的一般性讨论。
+With that, we finished our discussion of
+
+442
+00:48:49,300 --> 00:48:58,480
+我们将在之后的商业开源领域针对这个话题作出更多的讨论。
+general discussion of what constitutes software products, we will revisit this in more detail in the commercial open source space later on, in
+this course.
+
+444
+00:49:03,510 --> 00:49:09,750
+当一个产品被售卖的时候，谁正在获取利益？         
+And now for who else is feeding, when a product is being sold.
+
+445
+00:49:10,870 --> 00:49:16,180
+我们需要看一下产品架构理解一下这个问题，
+So we need to take a look at a 
+product's architecture to understand that.
+
+447
+00:49:17,030 --> 00:49:23,270
+在最简单的情况中，你作为软供应商出售所有的知识产权，
+In the easiest case, all intellectual property that you are selling as a vendor.
+
+448
+00:49:24,170 --> 00:49:27,850
+这样这个利润就是属于你的，你是唯一一个赚钱的人。
+is owned by you, and hence, you are the only one making money.
+
+449
+00:49:28,760 --> 00:49:30,680
+在现实生活中，情况也确实如此。
+In real life, that's really the case,
+
+450
+00:49:32,350 --> 00:49:34,270
+因为产品都是有组件构建而成的，
+because products are built from components.
+
+451
+00:49:35,360 --> 00:49:42,320
+你或许需要从软件提供商那里购买软件，这样你就要付钱给软件提供商，
+You may be sourcing components where you don't feel competent yourself from suppliers, so you're paying suppliers.
+
+452
+00:49:43,300 --> 00:49:47,220
+这些软件提供商最终会从你的收益中受益。
+And they will ultimately benefit from your revenue because of that and so forth.
+
+453
+00:49:48,520 --> 00:49:55,280
+在软件领域，这些基本的组成部分需要被视为其他形式的知识产权。
+These components here embed need to be viewed in the case of software, as other forms of intellectual property.
+
+454
+00:49:57,100 --> 00:50:00,810
+它可能是第三方组件库，无论是免费获得，
+Um,
+It could be the third-party libraries
+
+456
+00:50:01,650 --> 00:50:10,130
+比如该软件是开源的；还是从软件提供商那里购买的，这些都不重要，该软件的获取都是基于版权。
+whether freely available, like open source or paid for from suppliers, by buying them from suppliers, does matter. It's Copyright that they are based on.
+
+457
+00:50:10,730 --> 00:50:23,730
+这也可能是已经获得专利的算法，因为信任你甚至可以向公司肤浅，并把该公司的商标放在你的软件上。        
+could be algorithms that have been patented. You could even be paying
+companies for trust that is being loaned to your software by you  putting their trademarks on it. Think,
+
+459
+00:50:24,560 --> 00:50:29,880
+你或许还记得英特尔内部的营销活动，
+You may remember the Intel Inside marketing campaign by which Intel
+
+460
+00:50:30,680 --> 00:50:38,240
+Intel试图把自己的商标借给个人电脑生产商等。
+was trying to loan its trademarks to PC producers, and so forth,
+
+461
+00:50:40,370 --> 00:50:50,880
+此外，为了能被客户接受并进入市场，软件产品必须遵守存储数据的各种标准，
+In addition,
+in order to even be accepted by customers and make it into markets, the software product may have to comply with all kinds of standards may have to
+
+463
+00:50:52,000 --> 00:50:57,200
+可能是一种定制化的标准的形式，也可能是遵循专利服务的某种形式。
+save data in a certain format that is standardized and possibly patented  what have you so.
+
+464
+00:50:58,140 --> 00:51:06,340
+一旦你满足并遵循了其他人的标准，那么这必然涉及到你的软件许可。
+As soon as you have to fulfill standards and be compliant, other peoples' IP is involved that you may have to license. So,
+
+465
+00:51:07,210 --> 00:51:14,890
+产品经理需要考虑产品的架构，以及需要把握一下对于第三方平台的依赖。
+the product manager thinking about the structure of a product needs to understand all these dependencies on third parties.
+
+466
+00:51:16,080 --> 00:51:23,640
+你需要考虑一下这个问题，并且思考一下谁持有你所需要的这些软件，这会促使你的购买决定。
+And that's what you need to think through, who owns all of these components you need and should you do them yourself. That's a make a buy decision.
+
+467
+00:51:24,410 --> 00:51:30,730
+如果你决定购买，你如何获得它，你如何获得许可，它的成本是多少？
+If you decide to just buy, how do you get it, how do you license it, what does it cost you, etc?
+
+468
+00:51:31,700 --> 00:51:36,570
+你一直尝试这种行事方式，那么你可能会有其他选择，         
+You will always try to.
+maneuver in such a way that there will be alternatives
+
+470
+00:51:37,400 --> 00:51:45,920
+这样你还没有被锁定，一旦你被锁定，即100%完全依赖于某个软件提供商，他将吃掉你的利润。
+and so you're not locked in, because if you are locked in, fully 100% dependent on a supplier, they will eat up your profit margin.
+
+471
+00:51:47,180 --> 00:51:50,100
+通常情况下，
+In the case of standards, 
+
+472
+00:51:51,470 --> 00:51:55,990
+会涉及到软件许可方面的专利，
+it's often patents that you need to license, and 
+
+473
+00:51:57,350 --> 00:52:04,350
+这些专利对于你来说是可获得的，因为他们也是标准的一部分，所以它们实际上需要被授权。
+patents who are available to you for licensing because they are part of a standard, so they actually required to be licensed.
+
+474
+00:52:05,720 --> 00:52:15,750
+他们需要一个所谓的跨许可制度，这意味着实际的许可费用应该是公平的、合理的、非歧视的。
+They need to
+have a so called friend licensing regime, which means that the actual license fee should be fair, reasonable and non-discriminatory.
+
+476
+00:52:17,130 --> 00:52:25,770
+公平和合理显然是有争议的，拥有和专利的人认为价格应该高, 而需要专利的人则认为价格应该更低。
+Fair and reasonable is obviously debatable, the one who owns the patent thinks the price should be high, the one who needs it thinks it should be low.
+
+477
+00:52:27,020 --> 00:52:31,420
+重要的就是持有者对待专利不应该有歧视，
+Um, important is also that the owner
+
+478
+00:52:32,390 --> 00:52:39,950
+他们不能说我的竞争对手不能使用它，要是这种情况法僧你的话，那么这就不符合跨许可制度了。
+of the patent may not discriminate, so they cannot say, my competitors are not allowed to use it, otherwise it wouldn't be freind.
+
+479
+00:52:41,260 --> 00:52:49,260
+实际上, 与之相关的法律是非常严格的，这也是是开源的，如果你需要的话我可以推荐给你，       
+We actually saw this codified much more stringently, an open source, so if you can, I obviously recommend you go with
+
+480
+00:52:50,340 --> 00:52:54,860
+即使是一个跨许可解决方案。
+open source rather than proprietary, even if friend solutions.
+
+481
+00:52:56,470 --> 00:53:03,590
+举个例子，看看这个物理设备，左上角是一个MP3播放器，就是一个音乐播放器。
+So here's an example, think, look at this physical device, top left corner an MP 3 player,  music player.
+
+482
+00:53:04,940 --> 00:53:11,850
+这个物理的产品就是实际出售的设备，
+And the physical thing is, uh,
+the actual device being sold.
+
+484
+00:53:13,080 --> 00:53:22,000
+对于那个设备提供商，Mp3内部还有一些歌曲，我不确定卖给你的是不是一部旧的Mp3播放器。
+And the vendor, some song, I'm not sure this is an old MP player sells that to you.
+
+485
+00:53:22,850 --> 00:53:29,570
+现在你是获得了所有权，你实际上可以从物理层面摧毁这个Mp3播放器，其与某些物理设备绑定。
+And you acquire ownership rights, you can actually physically destroy it. That's what's often tied to a physical devices.
+
+486
+00:53:31,530 --> 00:53:32,290
+在今天，这种情况日益增长，
+Increasingly, today,
+
+487
+00:53:33,920 --> 00:53:42,400
+对于一个为物理设备，软件供应商只卖给你一个用户，试图将其变成一个租赁，
+even for physical devices, vendors try to sell you only a user, tried basically turning it into a lease,
+
+488
+00:53:43,060 --> 00:53:53,620
+你对此可能抱有肯定或者否定的态度。因为作为一个实体设备，其是由其他软件部分所组成的。
+and you may or may not like that, because a physical product is, of course, built from
+or any software product as well as built from these parts, again. So,
+
+490
+00:53:54,380 --> 00:53:59,940
+所以回到我们刚才所举的例子，MP3播放器中有很多源代码，       
+going back to example, the MP3 player has a lot of source code in there, which
+
+491
+00:54:01,300 --> 00:54:07,060
+其可以播放音乐，也可以为用户提供接口。这是由大多数软件供应商所完成的工作，
+lets you play music, gives you the user interface, etc. So the vendor presumably wrote most of it.
+
+492
+00:54:07,880 --> 00:54:13,240 
+从权利角度来看，他们授权或者出售的东西是用户权益。因为软件许可的存在，  
+And what they're licensing out or selling in terms of rights are user trades, by way of
+
+493
+00:54:14,360 --> 00:54:23,360
+软件供应商不会把你的所有权出售给源代码，因为软件供应商只能有一个客户，
+licese, they don't sell your ownership to the source code, because then they could only have one customer who they just sold the ownership rights to the source code.
+
+494
+00:54:24,500 --> 00:54:26,460
+他们仅仅是把所有者权益卖给了源代码，所以他们只是向你出售了用户权益。
+So they only sell you user tribes.
+
+495
+00:54:27,510 --> 00:54:34,390
+Mp3音乐播放器也是具有相应专利的，这个专利所有权不属于软件供应商，  
+And in there in the MP3 player, there is the MP3 patent. So there's a patent owned not by the vendor,
+
+496
+00:54:35,130 --> 00:54:39,910
+二是属于Forschung学会，他们发明了Mp3的相关算法。
+But by Forschung Institute
+who invented the MP3 algorithm
+
+498
+00:54:40,540 --> 00:54:51,340
+很久以前，Forschung学会把用户权限给了软件提供商，软件提供商将这些用户权利传递给了最终用户。
+A long time ago. And so Forschung, licenses out user rights to the vendor,
+who then passes on those users rights to the final customer.
+
+500
+00:54:52,710 --> 00:55:00,030
+正如你所看到的那样，不同的软件所有者拥有不同的组件，这就是组件供应链。           
+And as you can see, there are different components with different owners. It's a supply chain of these components.
+
+501
+00:55:00,920 --> 00:55:09,760
+这也是一个监督产品逻辑和业务结构的产品经理需要理解的。
+And that's what a product manager who oversees the logical and business structure of products needs to understand.
+
+502
+00:55:16,080 --> 00:55:22,000
+软件最终会在这里结束，软件是具有生命周期的。
+Finally coming to an end here, products have that life cycle
+
+503
+00:55:23,510 --> 00:55:28,390
+就像我说的那样，有的项目可能会生存很长时间，你可以把相关软件看作是有很多代的。
+as I said. Some projects are really long-lived, you can think of products as generational.
+
+504 
+00:55:29,430 --> 00:55:34,950
+但是这些软件是有成熟的时刻，就是高光时刻，
+Um, but there certainly is a maturity, and usually a high life or high,
+
+505
+00:55:36,010 --> 00:55:42,610
+但是这并不意味着产品可以不被改造，而是软件产品进入了一个新的生命周期。
+highest spot, which doesn't mean that the product doesn't get reinvented and enters a new basic life cycle.
+
+506
+00:55:43,000 --> 00:55:48,280
+一个基本软件的历程大致是，出生、成长、成熟、衰退、日落、死亡。
+But the basic one is, birth groth maturity, decline and adventures, sunsetting or plain death.
+
+507
+00:55:49,440 --> 00:55:57,480
+除非软件处于成熟期或者衰退期，你将会在另一个层次重构产品，这样软件产品可以经历出生、成长、成熟。
+Unless say in the middle of maturity or decline, you reinvent the product at some other level and goes through birth growth and maturity again.
+
+508
+00:55:59,860 --> 00:56:07,660
+有很多较为高级的话题我们并没有覆盖，比如，我们如何捆绑不同的产品在市场中是很重要的策略。
+There are lots of advanced topic here that we couldn't cover, how to bundle, for example, different products are important strategies in markets.
+
+509
+00:56:08,450 --> 00:56:14,570
+还如果你有两种不同的产品，它们之间是相互促进的，那么它们的销售情况如何？
+How compliments work where you have two separate products that mutually reinforce each other and their sales?
+
+510
+00:56:15,390 --> 00:56:22,710
+此外，如何与公司进行合作，在之后的课程中我们会讲到这些。
+How to partner with companies, etc, etc. We will address some of this in later segments of this course, but
+
+511
+00:56:23,560 --> 00:56:31,240
+但是如果你参加商学院的市场营销课程，你可能会了解到更多的细节。        
+you are usually better served by attending a business school, marketing class, for details of that.
+
+512
+00:56:32,560 --> 00:56:40,160
+所以，今天我把软件看作一种产品，尤其是它的知识产权是如何构成的？
+So then, today, I looked at software as a product, and in particular how its intellectual property that is structured into
+
+513
+00:56:41,120 --> 00:56:44,680
+软件包含三个发展阶段，分别是核心软件，基础软件，完整软件，
+my book, these three layers of core, basic and whole product.
+
+514
+00:56:45,690 --> 00:56:53,840
+然后我们可以看到软件供应商如何提供给你组件，从而构建产品的，
+Then we quickly looked at how
+suppliers give you components to build products from, which also implies that they
+
+516
+00:56:54,350 --> 00:57:02,150
+这也意味着他们可能会从你的收入中分一杯羹，所以要思考一下。此外，我们还研究了软件产品的生命周期， 
+Will probably take a share of your revenues, so you need to think hard about that, and we also looked at the life cycle of software products.
+
+517
+00:57:03,070 --> 00:57:07,710
+今天我就讲到这里，非常感谢大家的关注，
+That's it for me for now, um, thank you very much for your time and attention.
+
+518
+00:57:08,360 --> 00:57:13,640
+下节课我们还是会讲到软件供应商，下节课再见！
+And we will return with the lecture on software vendors next, see you then.

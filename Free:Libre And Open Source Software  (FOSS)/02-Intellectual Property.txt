@@ -1,0 +1,3017 @@
+0
+00:00:04,200 --> 00:00:11,190
+大家好，欢迎回到FLOSS，这是关于免费开源软件的课程。    
+Hello,
+everyone and welcome back to FLOSS, our course on free and open source software.
+
+2
+00:00:12,300 --> 00:00:20,760
+课程介绍就是这样，现在我们讨论一下开源软件的基本方面。
+After the introduction,
+we will now have to cover one of the two basic aspects of open source software,
+
+4
+00:00:20,761 --> 00:00:23,040
+其中之一就是开源许可，
+which are the licenses,
+
+5
+00:00:23,041 --> 00:00:28,680
+与此同时还有与开源软件许可相关的知识产权问题。就像我们之前所提到的那样，
+as well as all the intellectual property issues around open source software licenses.
+
+6
+00:00:30,240 --> 00:00:37,140
+事实上，开源给了我们很多的创新。
+In fact,
+as we already mentioned before,
+open source has given us several innovations,
+
+9
+00:00:37,141 --> 00:00:46,350
+其中之一就是在法律方面，因为开源所以造就了现存法律的创新性使用，
+and one of them is in the legal space in the form of a creative use of existing laws and particular copyright law,
+
+10
+00:00:46,351 --> 00:00:49,080
+比如版权法授予了我们开源许可，
+to give us open source licenses,
+
+11
+00:00:49,081 --> 00:00:53,790
+其中以著佐法软件许可家族最为突出。
+and specifically the copyleft family of licenses.
+
+12
+00:00:55,290 --> 00:01:06,210
+现在我们需要快速学习一些基本知识，首先我们了解一下知识产权。  
+Now we need to cover some basics first
+though.
+We talk about intellectual property and so first we need to understand property,
+
+15
+00:01:06,211 --> 00:01:33,390
+这些权利是由有形或无形实体的所有者所拥有，即是法律对于财产的一种裁判。
+which is basically some tangible or intangible entity that an owner of that property has rights to. These rights are given
+to the owner
+by way of the law,
+the legal code of the particular jurisdiction for the,
+for the property of that the property is in.
+
+20
+00:01:34,800 --> 00:01:39,120
+Intellectual property, there's a particular kind of property,
+
+21
+00:01:39,121 --> 00:01:43,890
+知识产权是一种特殊的产权，是概念性的，并非是有形的，也不是物理的，
+one which is conceptual.
+it's not tangible,
+so it's not physical,
+
+24
+00:01:43,891 --> 00:01:50,130
+你触碰不到它。并且通常情况下它是不可替代的，它不会以任何形式腐败。
+you can't touch it.
+And it's usually not fungible.
+So it doesn't rot in any form.
+
+27
+00:01:50,131 --> 00:01:55,410
+通常情况下知识产权是独一无二的，这就意味着可以多实例拷贝。  
+Also it's usually unique,
+meaning multiple instances copies.
+
+29
+00:01:55,411 --> 00:02:07,710
+两个知识产权实例算同一个，这两者是不可互换的，
+If you will of the same thing count as one,
+and so these are not interchangeable,
+so they are not interchangeable.
+
+32
+00:02:07,711 --> 00:02:18,750
+其中涉及到知识产权相关权利的授予，这就是所谓的“排他权”。
+The rights associated with property and in particular intellectual property.
+Ah,
+so called exclusion rights.
+
+35
+00:02:18,751 --> 00:02:24,960
+其实，与我们相关的权利基本上都会涉及到“排他权”，
+Okay, so that
+any rights associated those of interest to us here are usually the exclusion rights,
+
+37
+00:02:24,961 --> 00:02:35,460
+“排他权”就是所有权的所有者有权不让别人去做某事。所以你可以说你可以保留这个所有权，
+meaning that the owner of the property has the right to exclude others from doing something with these,
+with the property.
+
+39
+00:02:35,461 --> 00:02:44,400
+并且可以不让其他人使用它，这是你的权利。其他所有权的所有者也都有类似的权利，
+So you can tell, so you can keep it to yourself, and not let anyone else use it, that's your right
+as the owner of some property, be it
+
+41
+00:02:44,401 --> 00:02:47,760
+这些所有权可能是某些有形、或者无形的知识产权。
+tangible or intangible intellectual property.
+
+42
+00:02:49,140 --> 00:03:01,500
+我们即将讨论软件许可，其中涉及3种类型的知识产权。分别是版权、商标以及专利。 
+And of particular interest to the upcoming discussion of software licenses
+are these three types of intellectual property rights,
+copyright,
+trademarks and patents.
+
+46
+00:03:02,850 --> 00:03:13,500
+版权是其中的一个主题，这是“排他权”的一种，这是书面文本的特殊表达。
+So copyright is one of subjects,
+one of these exclusion rights,
+and it is about the particular expression the written text.
+
+49
+00:03:13,501 --> 00:03:19,260
+传统意义上的版权一般对应的小说、书籍的版权以及你所有的其他版权。
+Traditionally it would've the novels,
+for example,
+books,
+textbooks,
+what have you.
+
+54
+00:03:19,261 --> 00:03:23,190
+但是在软件行业中，版权对应的就是源代码，
+But in the context of software,
+it will be a source code
+
+56
+00:03:23,191 --> 00:03:29,070
+在大多书情况下也可以是图形，这也会涉及带“排他权”。
+mostly,
+but can also be graphics,
+etc.
+and again as an exclusion right,
+
+60
+00:03:29,071 --> 00:03:42,450
+这是版权所有者的权利可以防止其他人用于演示，重新发行、修改、重新发布等。  
+it's the owner's right of the copyrighted property
+to exclude anyone from use of presentation,
+reproduction,
+modification,
+redistribution,
+etc.
+
+66
+00:03:43,590 --> 00:03:52,770
+ 版权一旦过期那么该软件就会成为公共可获得的，
+Copyright does expire so the work after expiration will enter the public domain,
+
+67
+00:03:52,771 --> 00:03:59,790
+这意味着就没有了之前版权所有者的所有权的相关牵绊。
+meaning there are no owners rights associated with
+property and the lock.
+
+69
+00:04:01,050 --> 00:04:06,750
+所以对公众来说，相关的软件探索日期不断被推迟。
+The exploration date has been continuously pushed out.
+
+70
+00:04:06,751 --> 00:04:10,140
+我认为七八十年代是这种情况的开端，
+Ah,
+so it's,
+I believe,
+70, 80 years
+
+74
+00:04:10,141 --> 00:04:26,850
+这关系到版权的裁判问题，比如在美国法律下版权可以持有多长时间？
+now us from Inception and it may well, this depend on the jurisdiction or it does actually depend on the jurisdiction for how long these copyright, for how long the copyright hordes and U.S law,
+
+75
+00:04:26,851 --> 00:04:34,230
+版权是可以出售的然后其他人就会变成版权的所有者。
+the copy that has only copyright and you may sell your copyright as the owner and then someone else becomes
+the new owner.
+
+77
+00:04:34,231 --> 00:04:36,570
+在德国，除了版权之外，     
+Germany,
+in addition to copyright,
+
+79
+00:04:36,571 --> 00:04:45,060
+还有很多东西需要度过法律文件去了解，但是我仍然不太能理解其中的差异。
+has something called what he brushed even after reading
+the various legal documents I still don't quite understand the difference.
+
+81
+00:04:45,061 --> 00:04:50,190
+出于实用的目的，现存些许不理解的地方问题也不是很大。
+I think,
+for practical purposes,
+it's not so important. At this stage,
+
+84
+00:04:50,191 --> 00:04:59,910
+在这个阶段，我已经说过了，我不是一个律师，所以我所说的一些事情可能不构成法律建议。
+having said that,
+I should say that I am not a lawyer,
+meaning whatever you hear here does not constitute legal advice.
+
+87
+00:04:59,911 --> 00:05:03,630
+与此同时，也不要把我所说的一些事情作为法律建议。
+Also,
+please don't take it as such. And again,
+
+89
+00:05:03,631 --> 00:05:14,940
+在美国对于某些法律的解释可能是不同的，可能和德国有所不同，和加纳也有所不同。
+then the interpretation of these rights
+varies by jurisdiction so in the U.S,
+it might be very different from Germany and might be very different from Ghana.
+
+92
+00:05:16,050 --> 00:05:23,910
+在软件行业，用户接口设计以及源代码可能是版权的主要实体。  
+In software, again,
+using interface designs and source code are the main examples of copyright to the property.
+
+94
+00:05:25,920 --> 00:05:34,710
+版权是与软件知识产权相关的另一种类别，
+Patents are the second or are a second category of intellectual property of relevance to software.
+
+95
+00:05:34,711 --> 00:05:46,950
+专利的定义还是明显的，你所获得专利权就是一个非显然的工业创新。
+It is a patent by definition, is a non-obvious so the right to a pattern you acquire for a non-obvious industrial invention.
+
+96
+00:05:46,951 --> 00:05:51,450
+如果原来的发明者申请了专利，
+So the original inventor,
+if they go on file for a patent,
+
+98
+00:05:51,451 --> 00:06:03,270
+那么与他们就获得了专利权就可以组织其他人使用这个软件创新了。
+they gain patent rights to that particular invention again to exclude anyone else from using, from using that particular invention.
+
+99
+00:06:04,920 --> 00:06:09,720
+但是专利权和版权一样最终都会过期，
+The patent rights will eventually expire and like both copyright,
+
+100
+00:06:09,721 --> 00:06:12,660
+然后这个创新就会进入公共领域，为大家所使用。
+the invention will enter the public domain.
+
+101
+00:06:12,661 --> 00:06:27,810
+最初因为专利权和专利法其实是为了激励发明者来公开他们的创新，这样他们就可以获得专利权。
+This actually was the original motivation for the introduction of patent rights and patent law to motivate inventors to lay open their invention because in order to acquire patent rights,
+
+102
+00:06:27,811 --> 00:06:30,540
+我们必须在足够多的细节方面描述你的发明，
+we have to in sufficient detail,
+
+103
+00:06:30,541 --> 00:06:44,250
+然后你就可以获得确定年限的专利权，
+describe your invention and are for you to do that and so that it makes sense you would get these patent rights for a certain number of years. Before patent rights,
+
+104
+00:06:44,251 --> 00:06:49,650
+发明者或者创新者就会保持他们创新的秘密。
+the innovator or an inventor would keep whatever they invented secret,
+
+105
+00:06:49,651 --> 00:06:58,050
+除非有人重新发明了相似的东西否则没人会了解它，
+and so nobody would ever learn about it until perhaps someone reinvented the same thing and so the patent right,
+
+106
+00:06:58,051 --> 00:07:07,290
+所以专利权的引入就是为了让大家互相学习，并且互相激励。
+regime was introduced to allow everyone to learn from each other and possibly build on each other and to motivate inventors.
+
+107
+00:07:07,291 --> 00:07:12,240
+但是你显然要给创新者一些东西否则这些创新者可能会失去自己所保守的秘密。   
+You obviously had to give them something for
+losing that protective secrecy.
+
+109
+00:07:13,500 --> 00:07:31,620
+你在这儿可以看到很多的专利，这些专利可能有关算法、工作流程。
+You can see a couple of patent to the things here,
+the carabiner or the particular lock on the carabiner or to the right somewhat questionable software,
+algorithms or
+workflow here.
+
+113
+00:07:31,621 --> 00:07:41,130
+正如我们之后会讨论的那样，其实在软件行业中一直存在斗争，即软件算法能否申请专利。
+As we were shortly discussed,
+there this later,
+there is a struggle in the software industry as to whether software algorithms can be patentable.
+
+116
+00:07:41,131 --> 00:07:49,170
+行业软件专家可能会说在美国可能是行不通的，但是在欧洲可能就能行得通。
+Ah,
+ah,
+industry experts would like to say no and the Europe is not possible in the U.S, it is possible
+
+119
+00:07:49,171 --> 00:07:49,800
+在欧洲，
+in Europe,
+
+120
+00:07:49,801 --> 00:07:58,890
+你可能不得不绕道而行，可以将算法附加到一些物理设备上，之后就可以申请专利了，
+you may have to go a sum detour by attaching the algorithm to some physical device after which it may become patentable,
+
+121
+00:07:58,891 --> 00:08:00,690
+也只有在这种情况下可以。
+but only in that context.
+
+122
+00:08:00,691 --> 00:08:06,750
+其实这都是一些变通的方法，在我看来，我的理解可能还不是很到位。      
+So these are workarounds and the situation in my opinion or my understanding is actually somewhat unclear.
+
+123
+00:08:08,970 --> 00:08:20,250
+“排他权”与商标权也是有关的，商标权即是商标的使用权，
+Third,
+exclusion rights are
+trademark rights,
+a trademark, writers are given to the owner of that particular trademark property,
+
+127
+00:08:20,251 --> 00:08:23,970
+它可能是一个标志也可能是一个名称，
+which would be a logo or a particular name,
+
+128
+00:08:23,971 --> 00:08:29,520
+也可能是一个与众不同的东西，也有可能是标记某物的标记。
+something that is distinctive,
+a distinctive mark that marks something,
+
+130
+00:08:29,521 --> 00:08:41,010
+举个例子，你公司中有些产品，所以你可能有个商标，给你的产品使用。
+for example, your company or its products.
+So with you owning a trademark,
+for example,
+for your logo, for your products.
+
+134
+00:08:41,011 --> 00:08:47,640
+然后你就可以阻止其他人复制这个标志，因为这是你的商标，
+Ah,
+you can then exclude anyone else from copying that logo because it's your trademark.
+
+136
+00:08:47,641 --> 00:08:49,620
+你必须注册你的商标然后一直使用它直到你遗弃它， 
+You have to register your trademark,
+
+137
+00:08:49,621 --> 00:08:57,420
+只要你永远用着你的这些商标你就可以一直持有这些商标。
+and as long as you keep it an active use,
+use it or lose it as long as you keep it in active use.
+
+139
+00:08:57,421 --> 00:09:06,960
+这就是你个人的品牌，你的产品，所以你可以一直使用它。
+Ah,
+you will be able to maintain these trademark rights forever,
+so if it's your brand,
+your product,
+then you can use them,
+use it forever.
+
+145
+00:09:08,010 --> 00:09:19,170
+举个软件行业的例子，公司名称比如Microsoft，基金会名称比如FSF还有一些其他的标志。   
+Our examples from the software,
+company names like Microsoft or Foundation names like as FSF and the particular logos, a ay of typesetting,
+Ah,
+etc.
+
+149
+00:09:20,670 --> 00:09:33,180
+这有一个小测验，在这幅图中，你可以指出都有哪些不同的知识产权。
+So here then is a little quiz for class. In this picture,
+what different intellectual properties and associated rights
+can you recognize. So
+
+152
+00:09:33,181 --> 00:09:39,960
+我停顿一下，大家讨论一下，然后我会提出我的想法。
+please stop the video and discuss it with everyone,
+and then I will provide my thought.
+
+154
+00:09:46,740 --> 00:09:53,940
+我回来了，你在这可以看到版权，例如可能是以文本的形式。
+Alright, so I'm back, you can see copyright here,
+for example,
+in the form of the display text.
+
+157
+00:09:53,941 --> 00:10:00,930
+这或许是一本书或者一些故事，你可能是一个作家或者故事的所有者，
+This is maybe a book or some story,
+and as an author and an owner of that
+story
+
+160
+00:10:00,931 --> 00:10:03,630
+那么这就是关于内容的一个版权。
+and so this is a copyright of the content,
+
+161
+00:10:03,631 --> 00:10:16,590
+无论你呈现给用户的是什么格式，你都可以看到类似Kindle的这种标志，  
+whatever the format that's being presented to a user.
+You can see the kindle trademark logo on the front of the case,
+
+163
+00:10:16,591 --> 00:10:21,300
+这是亚马逊的商标。
+so this is a trademark owned by Amazon in this case,
+
+164
+00:10:21,301 --> 00:10:26,880
+所以这另一种无形的产权或者说知识产权。
+and so this is another,
+Intangible property or intellectual property.
+
+166
+00:10:27,960 --> 00:10:34,140
+最后，在这个特殊设备的构造中，会有很多的专利。
+Finally,
+in the construction of this particular device,
+there will be lots of patents.
+
+169
+00:10:34,141 --> 00:10:51,630
+举个例子，这个可能是电子墨水的专利，还有白色的显示效果，这可能是众多专利中的一个。
+For example,
+the patent for the electronic ink that is behind this
+white display,
+white low energy,
+consuming display,
+and it's this would be just one of many patents in this example.
+
+175
+00:10:55,500 --> 00:11:03,480
+知识产权受法律保护，这些项权利是产权所有者所赋予的权利。  
+Intellectual property is covered by law.
+the rights given to the owner of some property are covered by law,
+
+177
+00:11:03,481 --> 00:11:08,850
+现在知识产权所有者可能想从中获益，
+And now owners may want to benefit from the property,
+
+178
+00:11:08,851 --> 00:11:19,380
+例如，将知识产权加载给某人，然后某人可能会为此付费。
+for example, by loading the property to someone else who will then pay them for it or giving someone users rights will then pay for it,
+etc.
+
+180
+00:11:19,381 --> 00:11:30,150
+因此，我们需要在知识产权所有者以及想要使用这个知识产权的用户之间签订合同，
+So for this we need a contract between the owner of the property who now becomes the licensure and someone who wants to use the property,
+
+181
+00:11:30,151 --> 00:11:31,680
+现在就是所谓的许可声明。
+who now becomes the licensee.
+
+182
+00:11:31,681 --> 00:11:37,920
+许可方和被许可方之间的合同就是许可声明。
+The contract between a licensure and the licensee is called and license.
+
+183
+00:11:37,921 --> 00:11:46,200
+这样知识产权所有者就可以授予相关的权利给别人。
+It's a right grant in which the owner of the licensure grants the licenses some rights to the property,
+
+184
+00:11:46,201 --> 00:11:54,090
+举个例子，这些权利可能包含使用、重新发布、修改等，以及一些其他的比较特殊的操作。
+for example,
+to use,
+reproduce,
+adapt,
+modify,
+etc,
+the particular property.
+
+191
+00:11:55,080 --> 00:12:00,360
+很明显许可需要能够授予这些权利，而不单单是许可权。   
+Obviously the licensure needs to be able to grant those rights, otherwise the licenses right.
+
+192
+00:12:01,440 --> 00:12:13,170
+这些权利可能对应着许可的不同方面，合同中可以添加所设计的活动、权利等，
+The various dimensions to have these licensees,
+contracts can be structured in, all these activities, all rights
+ 
+194
+00:12:13,171 --> 00:12:15,540
+就像我刚才所讨论的那样。
+I just discussed.
+
+195
+00:12:15,541 --> 00:12:31,320
+还有很多不同的产品特性，比如许可时间，这个许可应适用于世界上的很多国家。
+And along various aspects of properties of those,
+for example,
+duration
+is it, the license
+can it be revolved what URIs diction, does it apply to just one country or the whole world, etc.
+
+200
+00:12:33,750 --> 00:12:45,600
+大多数人已经了解，这需要与知识产权的提供者签订许可协议，
+Most, everyone who watches.
+this certainly has already entered into license agreements with providers of intellectual property or just property,
+
+202
+00:12:45,601 --> 00:12:52,680
+这样通过签订最终用户许可协议来实现。即使你之前没有签署过类似的合同、许可，
+and that usually happens by way of end-user license agreements,
+even if you've never signed a contract, a license,
+Or
+
+205
+00:12:52,681 --> 00:12:55,080
+你也是已经默认了这种做法了。
+you have implicitly accepted one.
+
+206
+00:12:55,081 --> 00:13:01,740
+举个例子，当你在过去需要软件的包， 
+For example,
+when you unwrap that software packages in the old days or 
+
+208
+00:13:01,741 --> 00:13:11,160
+现在只需要进行某些点击下载某些应用程序，这样就可以将应用安装到你的手机上。
+these days more likely when you click through some download or some app install, installation for your mobile phone.
+
+209
+00:13:13,260 --> 00:13:21,120
+所以，现在你觉得软件许可到底是什么呢？可以简单讨论一下，我马上回来。
+So here,
+what do you think these license 
+terms actually mean, please have a short discussion,
+and then I'll be back.
+
+213
+00:13:27,120 --> 00:13:32,790
+好的这就是软件许可这个术语所表达的意思，
+All right,
+so that's actually what these terms say,
+perpetual means,
+
+216
+00:13:32,791 --> 00:13:39,930
+软件许可能被限制在一定的时间，可以是一年，可以是一周，
+but that's forever are limited in time, and limited in time could be anything, for one year, for one week,
+
+217
+00:13:39,931 --> 00:13:48,240
+但是你只能在周二的时候撤销软件许可。
+only on Tuesdays what have you
+can it be revoked, can the licensure revoke the license.
+
+219
+00:13:48,241 --> 00:13:54,930
+这个软件许可适用于以一个国家、一个村庄还是全世界呢？
+What does it applied for one country,
+one village, the whole world
+
+221
+00:13:54,931 --> 00:14:02,100
+软件许可就意味着免费吗？软件许可就不需要付费吗？
+is a royalty free meaning
+
+222
+00:13:56,611 --> 00:13:58,950
+the licensee, the licensee
+doesn't have to pay or it's the 
+
+224
+00:14:02,101 --> 00:14:08,820
+软件许可可能会授予一些权利，付费才能使用，也可能是为“排他权”授予软件许可，
+grand rights, grant to be paid for, also does the license for receive exclusive rights,
+
+225
+00:14:08,821 --> 00:14:10,830
+也可以是为软件或者其他的东西授予软件许可。
+or can the software or whatever.
+
+226
+00:14:10,831 --> 00:14:20,430
+软件许可在某些方面可能是并行授予权限的，私有软件一般都不是永久的，
+It is be licensed to many in parallel.
+Proprietary software usually is not perpetual or could be
+
+228
+00:14:20,431 --> 00:14:26,670
+私有软件通常也是不可撤销的，除非在某些特殊情况这种说法是不成立的。
+ah,
+it's usually irrevocable,
+except for special circumstances.
+
+231
+00:14:26,671 --> 00:14:32,970
+软件许可可能不是全球通用的，我们唯一可以确定的事情该软件许可是不可能免除版权税的，
+May or may not be worldwide, about the only thing we can be sure is that it's unlikely to be royalty free,
+
+232
+00:14:32,971 --> 00:14:34,650
+你必须为之付费。
+you have to pay for it.
+
+233
+00:14:34,651 --> 00:14:37,440
+但是软件许可的授予通常不具有“排他性”，
+And most certainly it's not going to be exclusive
+
+234
+00:14:37,441 --> 00:14:51,000
+通常情况下软件销售人员希望把产品卖给不同的消费者，所以软件许可并不具有“排他性”。
+usually either,
+because someone who is selling a software product will want to license out usage rights to many different people, any different customers.
+So it's not exclusive.
+
+237 
+00:14:53,130 --> 00:15:12,570
+软件许可是一种知识产权，可以授予你很多相关的权利，比如重新发布、修改等权限。     
+The software license again is a license for intellectual property where the rights granted to you may be any of use,
+reproduction,
+adaptation,
+modification,
+etc,
+addressing all 
+at a minimum,
+
+244
+00:15:12,571 --> 00:15:22,140
+我们所定义的是那个核心的软件产权都是有软件相关的的，
+all three core intellectual property rights that we identified that are key or relevant to software,
+
+245
+00:15:22,141 --> 00:15:23,910
+分别是版权、商标权以及专利。
+again, copyright trademarks and patents.
+
+246
+00:15:25,980 --> 00:15:40,410
+我们已经讨论过知识产权了，软件许可对应着知识产权，
+So we've discussed intellectual property rights.
+We've discussed that licenses in particular, software licenses are contract between a license from the licensee regarding this intellectual property rights,
+
+248
+00:15:40,411 --> 00:15:47,400
+现在让我们来谈一下开源软件许可，这是一种特殊的软件许可。
+and now we move on to open source software licenses,
+which are a special kind of software license.
+
+250
+00:15:48,210 --> 00:16:00,480
+大多数的软件许可都是免费的，它们通常都是结构化的，但通常会受到商人以及法律的限制。   
+While software licensees are pretty free and they're structuring and they're really only limited by the ingenuity of the business person or the law behind it.
+
+251
+00:16:00,481 --> 00:16:06,330
+免费开源软件许可实际上受到更多的限制，
+Free and open source software licenses are actually much more constrained,
+
+252
+00:16:06,331 --> 00:16:11,460
+所以这是满足特定需求的软件许可。
+so these are software licenses that fulfills certain requirements.
+
+253
+00:16:11,461 --> 00:16:19,620
+这是软件许可的一个子类，其实对于这些软件许可而言，它们都是一样的，
+They're a subspace and a subcategory of the overall set of possible licenses.
+Common to all of them,
+
+255
+00:16:19,621 --> 00:16:21,420
+无论是免费还是开放的，
+whether free or open,
+
+256
+00:16:21,421 --> 00:16:30,030
+这些软件许可刚刚那场都是“非歧视性”的。比如GNU许可不仅涉及版权，
+is that they are typically non-discriminatory and GNU license is also all address not only copyright,
+
+257
+00:16:30,031 --> 00:16:31,980
+也涉及了专利以及商标权。
+but also patents and trademarks, of course.
+
+258
+00:16:34,410 --> 00:16:42,960
+这取决于你关于软件许可的讨论，你或许会被软件许可授予相关权利，
+Depending on what license you are talking about,
+not only will you be given
+rights as a licensee,
+
+261
+00:16:42,961 --> 00:16:47,220
+但是你也会有相关的义务要去履行。
+but you will also be fined obligations put on you.
+
+262
+00:16:47,221 --> 00:16:57,240
+所以你可以构建我们的软件、特定的开源许可，与此同时你会被给予相关的权利与义务。     
+So you can structure software and particular open source licenses until the rights granted to you and the obligations put on you. 
+
+263
+00:16:57,241 --> 00:17:00,240
+只有当来两者都有效时，
+And only if both are valid,
+
+264
+00:17:00,241 --> 00:17:09,570
+我们可以查看一下软件许可之间的合同，就像ULIS以及最终用户协议那样。
+do we look at a valid contract between a license or the licensee.
+Again,
+like with ULIS or end-user license agreements,
+
+267
+00:17:09,571 --> 00:17:17,550
+其实我们没有必要签署任何协议，开源软件就生效了，然后你就可以使用它。
+There is no need for any signed contract, open
+source software comes in effect,
+and you actually use it,
+
+270
+00:17:17,551 --> 00:17:22,050
+你需要确保你符合合同中的相关许可，那就是软件许可的相关组成部分。
+and then you need to make sure you're compliant with the license of the contract, that is
+
+271
+00:17:24,150 --> 00:17:34,260
+所以现在我们需要讨论一些限制以及什么构成了开源许可，
+what constitutes. So we will now discuss the constraints or what makes up free liberal
+open source licenses,
+
+273
+00:17:34,261 --> 00:17:40,410
+为了解这些，我们需要了解一下开源软件许可方面的代理人。
+and for this we need to know that there are two caretakers of these.
+
+274
+00:17:40,411 --> 00:17:43,020
+其中一个是Free Software Foundation，   
+There's on the one hand,
+the Free Software Foundation,
+
+276
+00:17:43,021 --> 00:17:52,260
+它将自由软件许可列为free and the open source initiative，
+which defines and lists free software licenses of classifiers, software licenses as free and the open source initiative,
+
+277
+00:17:52,261 --> 00:18:02,670
+这就意味着你可以得到一个软件许可然后被认证为开源软件许可。
+which clarifies or which you can turn to get a software license
+approved as an open source license.
+
+279
+00:18:02,671 --> 00:18:10,290
+实际上并不是这样，你必须去权威机构进行认证。
+These are actually not
+bodies of authority where you absolutely have to go to.
+
+281
+00:18:12,840 --> 00:18:19,830
+其实这样就会比较符合实用主义，
+But it's basically pragmatics which will make you go to the open source initiative to ask them
+
+282
+00:18:19,831 --> 00:18:23,160
+你可以去open source initiative让他们为你授予开源软件许可，
+would you consider my license an open source initiative,
+
+283
+00:18:23,161 --> 00:18:33,240
+然后你的请求可能就通过了，你的软件许可就会被作为一个有效的开源许可展示在网上。
+an open source license and you get that approval by the open source initiative put in your license by name on the website as a valid open source license.
+
+284
+00:18:35,550 --> 00:18:47,760
+让我们从自由软件开始讲述，自由软件背后有四个动机，     
+Let's start with free software.
+The motivation for free software is listed here in the form of the four freedoms that if as a user,
+
+286
+00:18:47,761 --> 00:18:51,120
+这可能比软件许可的自由空间还大，
+you have these four freedoms than the license,
+
+287
+00:18:51,121 --> 00:18:59,700
+则四个自由权有时候也会被认为就是一个免费的软件许可。这就是自由权，
+which gives you these four freedoms that's considered a free software license.
+It's the right freedom here
+
+289
+00:18:59,701 --> 00:19:04,590
+如果你愿意，无论你是处于什么目的，你都可以按照自己的意愿运行程序。
+if you will.
+It's the right to run the program as you wish,
+or for any purpose.
+
+292
+00:19:05,460 --> 00:19:22,140
+与此同时，你还可以访问源代码，程序，以及可以转让软件的副本，从而重新发行初始软件。
+Also,
+the right to a study, the program,
+which requires that you have access to the source code,
+the right finally to give pass on copies of the software to redistribute the original software.
+
+296
+00:19:22,141 --> 00:19:27,300
+最后，你还就有转让修改后软件的权利。
+And finally,
+the right to pass on a modified version of the software.
+
+298
+00:19:29,730 --> 00:19:37,080
+这是一哲学声明式的表述，这不是一个具体的软件许可。   
+The way how it's written here is a philosophy statement.
+This is not are not really a specific license,
+
+300
+00:19:37,081 --> 00:19:52,470
+使用免费的开源软件许可可以应对不同的审查，
+and it's also sufficiently way to serve as an interpretation for a vehicle of a checklist to see whether particular licenses, a free software license,
+
+301
+00:19:52,471 --> 00:19:56,910
+但无论如何你都可以依靠free software foundation来为你做决定。
+but in any case,
+you simply have a free software foundation
+to make that decision for you.
+
+304
+00:19:58,080 --> 00:20:12,750
+FSF肯跟会为其用户提供自由权，然后free software foundation会提供软件许可。
+Here is perhaps the most well-known example of a software license that in the interpretation of the free software foundation with the FSF provides
+these for freedom to its users.
+
+306
+00:20:12,751 --> 00:20:19,860
+这就是GNU公共协议2.0版本，就像之前讨论的那样，这是一个很长的法律文本。
+It's the GNU public license version 2,
+as discussed in the prior session
+and it's a lengthy legal text,
+
+310
+00:20:19,861 --> 00:20:30,180
+所以，你不能仅仅从法律的角度讨论这四个软件自由权，这在法庭上是站不住脚的。
+so you cannot just take the four freedoms and say they apply to my software from a legal perspective that is too big, that they will not hold up in court,
+
+311
+00:20:30,181 --> 00:20:46,530
+但是你需要一个合适的软件许可，比如GPL。GPL v2是一个著佐权协议，这是一种互惠的软件许可。
+but rather you need a proper software license likely GPL.
+The GPL v2 is a copyleft license, sometimes also called reciprocal or with a connotation，
+
+313
+00:20:46,531 --> 00:20:55,350
+我们来聊一下Biron软件许可，这是一个带有哲学意味的软件许可，   
+I guess Biron software license,
+and it is basically a software license with a philosophy at heart
+
+315
+00:20:55,351 --> 00:21:09,030
+其可以通过著佐权策略来实现这四个自由权。特别地，你需要确保没有软件被锁定，
+or with a copyright based strategy to fulfill
+these four freedoms. In particular, to make sure that no software gets locked in.
+
+317
+00:21:09,031 --> 00:21:11,220
+这就是自由的概念。
+That's the notion of free here.
+
+318
+00:21:11,221 --> 00:21:17,130
+这个软件不能被任何接收和传递它的人所阻挡。
+The software cannot be held back by anyone who receives it and pass it on.
+
+319
+00:21:18,300 --> 00:21:34,350
+所以在著佐权中，有一个原始授权人在著佐权下将软件授权给了GPL v2。
+So in copyleft based licensing,
+there's an original licensor  who provides the software under a copyleft license back to GPL v2,
+to a licensee V
+in this example here,
+
+323
+00:21:34,351 --> 00:21:47,580
+此时我们就只能在GPL v2软件许可下使用软件，
+And now,
+the licensee,
+We can only use the software under the GPL v2
+license and say about products, if
+
+327
+00:21:47,581 --> 00:21:56,940
+如果你想把软件传递给另一个用户的时候，用户需要索取源代码。
+when they pass it on to any user, you, that user then, and that user then asks for the source code.
+
+328
+00:21:56,941 --> 00:22:13,500
+用户在软件修改版本中提供源代码，作为最终产品的一部分。    
+They provide that source code of the original code or in its modified version or even in, as part of the overall product or they then may have to provide the
+overall product.
+
+330
+00:22:13,501 --> 00:22:19,110
+所以软件供应商，会将软件与软件著佐权进行组合，
+So vendor,
+these software proprietary software ask combined with
+
+332
+00:22:20,280 --> 00:22:34,620
+软件供应商从编程人员手中会获取软件，我们可能要关注软件与众不同的方面。
+the copyleft license, and software they received from P, programmer I say may because various tricky aspects to it that we were covered.
+
+333
+00:22:37,320 --> 00:22:41,940
+我不知道这是否算是一个小测试？
+So I don't know he is a short quiz are from what I told you so far,
+
+334
+00:22:41,941 --> 00:22:48,780
+你在为某人授予软件著佐权之前是否可以对其收费？
+do you think that you can charge someone before you give them access to a copyleft
+license software?
+
+336
+00:22:49,590 --> 00:23:00,420
+可以讨论这个话题，答案当然是肯定的，可以收费。在为某人授予软件著佐权之前，
+Please stopped shortly and discuss this.
+So the answer is yes,
+
+338
+00:23:00,421 --> 00:23:14,670
+这个软件著佐权可能是针对软件的，也可能是关于源代码的二进制文件，你可以收费。
+you can charge. Nothing in the in the for freedom says that you may not ask for money before you give someone copyleft license to software, other binary on source code.
+
+339
+00:23:14,671 --> 00:23:20,280
+一旦你在软件著佐权的要求下给了他们软件，
+However,
+once you gave them the software under a copyleft license,
+
+341
+00:23:20,281 --> 00:23:21,930
+你可以给这些用户一个二进制文件，
+if you only gave them a binary,
+
+342
+00:23:21,931 --> 00:23:30,270
+如果这些用户来索取源代码，你只需要按照最初的规定提供源代码即可，
+if they then come asking
+for the source code,
+you have to provide it still for the original provision,
+
+345
+00:23:30,271 --> 00:23:32,280
+你也是可以收费的。
+or you may charge the money.
+
+346
+00:23:32,281 --> 00:23:40,770 
+这样收费会带来一个问题，因为你所出售的不是一个物理的东西所以持有部分资产是有些问题的。   
+The problem with that is why charging money won't really hold up unless it's for like a physical box or something.
+ah,
+
+348
+00:23:40,771 --> 00:23:49,950
+一旦有人收到了你的这个产品，
+There's simply that anyone who receives it for you by way of the license can now make it available at a lower price or zero euros
+
+349
+00:23:49,951 --> 00:23:50,970
+只要你愿意，那么你的用户就可以以更低的价格使得这个软件产品为别人所获得，
+if you will.
+
+350
+00:23:50,971 --> 00:23:54,540
+所以这个软件的利润很快就会降到零。
+So any margin is driven to zero quickly,
+
+351
+00:23:54,541 --> 00:23:59,160
+这就是为什么人们会觉得您不应该对著佐权代码进行收费，
+which is why people generally think you can't really 
+charge for copyleft code.
+
+353
+00:23:59,161 --> 00:24:09,480
+简单来说，你可能发现不会有人为它付钱，因为人们可以在别处免费得到这个代码。
+But at least legally speaking,
+you can, you may just not find anyone to pay because they'll get it elsewhere for free.
+Copyleft,
+
+356
+00:24:09,481 --> 00:24:18,270
+用哲学的说法就是，这是人们的羽毛或者是其他人的羽毛，其他人可能会因此取笑它。
+and the rhetoric and the philosophy referred.
+People's feathers or at least some people's feathers,
+and so they poked fun at it.
+
+359
+00:24:18,271 --> 00:24:33,180
+请大家注意这种方式，许可是软件产品、服务的作者定义了一个许可，      
+Here is one such way,
+be aware,
+license were the author of this license define the license to allow people simply to do what they want
+
+362
+00:24:33,181 --> 00:24:39,600
+允许人们使用源代码去做自己想做的事情。作者可能会以戏谑或者开玩笑的口吻说到，
+with the source code licensed under the be aware license. And for fun and kicks,
+
+363
+00:24:39,601 --> 00:24:43,530
+他们应该这样去做啊，
+the author said that they should,
+
+364
+00:24:43,531 --> 00:24:50,220
+不管谁使用源代码，也可能是用到了一篇论文，他们都应该为之买单。
+whoever uses a source code then they should simply a paper, pay for a beer.
+
+365
+00:24:51,660 --> 00:24:56,790
+我认为这并不是一个有资质的开源软件许可,
+I don't think there's qualifies as a free or open source
+software license properly,
+
+367
+00:24:56,791 --> 00:24:58,440
+但是它确实存在比较有意思的方面。
+but it's certainly a fun, fun aspect.
+
+368
+00:25:00,180 --> 00:25:10,140
+open source initiative作为第二代基金会，也它是有开源软件所组成的，
+So then,
+the open source initiative as a second
+foundation to govern what constitutes open source software
+
+371
+00:25:10,141 --> 00:25:17,310
+它提出了比四项自由权更准确的权利，该基金会定义了10项标准，
+was a bit more precise than the four freedoms and defined ten criteria for
+
+372
+00:25:17,311 --> 00:25:22,470
+这些标准决定了一个软件许可是不是一个开源软件许可。
+which determine whether a particular software license is actually an open source
+software license.
+
+374
+00:25:23,610 --> 00:25:30,930
+这些标准中的一些方面还是比较实用的，其中就包含了软件许可。    
+And some of these criteria pragmatics, some are more fundamental among the more fundamental aspects,
+
+375
+00:25:30,931 --> 00:25:36,840
+所以这个软件许可就是一个开源软件许可，
+is that any license. So, that for a license to be an open-source software license,
+
+376
+00:25:36,841 --> 00:25:39,450
+它必须允许再次分配。
+it must allow for redistribution.
+ 
+377
+00:25:39,451 --> 00:25:51,990
+如果你在开源许可下或许了某种产品或者服务，你一定可以免费这些软件。与之类似，
+So if you get something under an open source license and you must be allowed to redistribute the software for free. Same thing,
+
+378
+00:25:51,991 --> 00:26:06,750
+如果你在开源许可下获得产品、服务，你可以再次获取它。修改后的产品以及衍生产品也可以。
+if you receive it under an open source license then you must be able to receive or you must in the source code, must be included. Same thing, as modifications and derived Burg,
+
+379
+00:26:06,751 --> 00:26:16,080
+所以你作为软件许可的接受者，你一定可以进行修改等操作。
+so you may,
+as a recipient as the licensee,
+you must be allowed to make modifications,
+et cetera,
+et cetera.
+
+384
+00:26:16,081 --> 00:26:24,240
+其实在开源许可中，也存在着“非歧视”相关的方面，这还是比较有意思的地方，     
+Only then is the license,
+an open source license,
+Of interest is also the non-discrimination aspect,
+
+387
+00:26:24,241 --> 00:26:35,490
+因为某些软件供应商，以及持有软件许可的软件提供者可能会因为某些原因限制软件的使用。
+because that's something people often stumble across of fall over, in that they may try to restrict the use of the software for whatever purposes.
+
+388
+00:26:35,491 --> 00:26:38,760
+所以如果你不喜欢军队使用你的软件，因为这样你可能会很累。
+So if you don't like the military,
+you may be in tired.
+
+390
+00:26:38,761 --> 00:26:49,020
+你的想法就是你的软件除了军事用途，你想让每个人都能够从你的软件中获益。
+You may feel like you want to allow everyone to benefit from your software for free,
+except for any military purposes
+not allowed,
+
+393
+00:26:49,021 --> 00:27:00,330
+如果因为你的软件被用于军事的话，软件就不是开源软件，因为你不能对用户有歧视。
+and then your software cannot be an open source software because criterion six ESS that you cannot discriminate against any fears of endeavor,
+
+394
+00:27:00,331 --> 00:27:04,800
+你不能说除了军队每个人都有这个权利，
+you cannot say these are the rights for everyone,
+except for the military,
+
+396
+00:27:04,801 --> 00:27:07,200
+如果你这样做的话，你的软件许可就不是一个真正的开源许可了。
+Not an open source license,
+If you do that.
+
+398
+00:27:09,090 --> 00:27:17,460
+还有一些较为古老的许可，比如Apache Software license。   
+And some other things. Here is one of the oldest license,
+the Apache Software license again.
+
+400
+00:27:17,461 --> 00:27:32,760
+某些冗长的法律文本包含这些标准，在标准中可以使用软件，这里的软件就是一个开源软件，
+Somewhat lengthy legal text written to include all these criteria in such a way that people can use the software and the software is an open-source software,
+
+401
+00:27:32,761 --> 00:27:35,160
+因为这个软件对应着开源许可证。
+because this is an open source license.
+
+402
+00:27:37,380 --> 00:27:43,590
+现在有很多事物都与这些许可相关，
+Now then,
+there are lots of pragmatics associated with these licenses for one,
+
+404
+00:27:43,591 --> 00:27:52,230
+当你想为你所写的代码申请许可的时候，你需要正确地去走这个申请流程。
+as you try to as a license or as you try to license out some program code you write.
+Ah,
+you need to do it right.
+
+407
+00:27:52,231 --> 00:28:03,840
+有相关的许可证文档会告诉你应该怎么去做，相关文档会告诉你如何把你的软件卖出去？
+So,
+and you often the license actually tells you or points to by a way of associated pragmatic documents tells you how you should,
+
+409
+00:28:03,841 --> 00:28:12,360
+在相关文档的指导下软件许可才能被添加到你的软件上。
+should license out of the software properly, so that the license really is clearly and cleanly attached to your software.
+
+411
+00:28:12,361 --> 00:28:21,330
+举个例子，在根目录中我们所经常谈论的就是基于文本或者基于文件的源代码，    
+For example,
+in the root directory,
+we are usually talking about a text-based file-based source code
+here in the root directory,
+
+415
+00:28:21,331 --> 00:28:26,190
+如果你想申请使用这些源代码，你应该持有软件许可。
+you should have the license
+you want to apply. Any term,
+
+417
+00:28:26,191 --> 00:28:34,470
+你要知道，作为一个程序员你不能自己创造开源许可，你只能去使用现有的许可，
+remember are recognized as a set of open source licenses
+and as a programmer you don't invent your own,
+you take just one of the existing licenses,
+
+420
+00:28:34,471 --> 00:28:41,520
+所以你拿着法律文本，举个例子，Apache Software License v2。
+so you take that legal text and,
+for example,
+the Apache Software License v2,
+
+423
+00:28:41,521 --> 00:28:46,320
+然后你把文本副本放到了你项目的根目录中，
+and then you put a copy of that text into the root directory of your project.
+
+424
+00:28:47,700 --> 00:28:54,660
+你是可以去做这些事情的，这些许可文本你都是可以免费使用的。
+For you to be able to do that, these license texts which are legal texts, are made available to you for free.
+
+425
+00:28:54,661 --> 00:29:00,990
+你不需要向任何人支付使用许可证的费用，    
+So while they are actually not,
+you don't have to pay anyone for the use of the license.
+
+427
+00:29:00,991 --> 00:29:09,990
+你拷贝整个许可证文本到你的根目录中，这就成为了一个叫做许可的独立文件。
+And you copy, you
+copy that full license text,
+usually into your root directory as a separate file called license,
+or something.
+
+431
+00:29:11,160 --> 00:29:19,680
+你或许会被别人提醒，你需要在文件的开头列出许可信息，实际上你也必须这么去做。
+You may also have to, you may be highly recommended that you mark each file with a file header that lists the license. So,
+
+432
+00:29:19,681 --> 00:29:25,290
+举个例子，在文本文件中你可以看到一些Java代码，
+for example,
+you can see here in a text file for,
+say,
+some Java Code
+
+436
+00:29:25,291 --> 00:29:34,740
+你必须在文本中提供这些Java代码，这就是提供给用户的许可。
+you may have to provide, you may want to provide
+that header that
+make it very clear under license, this
+particular file that's provided to its users.
+
+440
+00:29:34,741 --> 00:29:41,850
+在之后的管理课程中我们可能还会进行相关讨论。   
+And then a couple of others
+we may revisit that later in the governance part of this course.
+
+442
+00:29:44,700 --> 00:29:55,110
+如果你在特定许可证下接收开放源代码，那么这个情况就会更加复杂了。
+It gets even more difficult if now you are someone the licensor who receives some open source code under a particular license.
+
+443
+00:29:55,111 --> 00:30:02,550
+你需要做什么来履行你的义务？这就是所谓的“许可证兼容”，
+What do you need to do in order to fulfill any obligations put on you?
+It's called license compliant,
+
+445
+00:30:02,551 --> 00:30:07,440
+这可以保证你的的行为符合许可证兼容，
+only if you behave in a license compliant way,
+
+446
+00:30:07,441 --> 00:30:14,190
+以及审查你收否履行了相关义务？某些权利是否可以在许可中被授予呢？
+do you fulfill the obligations and actually can grant the rights spell out in the license lab.
+
+447
+00:30:14,191 --> 00:30:19,380
+其实我们可以使用修改版的产品、服务，我们也是可以将其继续传递的。
+We use modifications allowed passing it on.
+
+448
+00:30:19,381 --> 00:30:23,970
+所以为了正确使用产品或服务，这也就意味着要满足“许可兼容”，
+So in order to properly use, meaning being license
+compliant,
+
+450
+00:30:23,971 --> 00:30:28,620
+你可能需要展示原始的版权声明，
+you may have to display the original copyright notice,
+
+451
+00:30:28,621 --> 00:30:37,710
+你或许还必须要包含免责声明，免责声明即使关于你或其他人没有对软件的使用做任何的担保。
+you may have to include any disclaimers about warranties not given to you or any other user.
+you passed us on,
+etc.
+
+455
+00:30:37,711 --> 00:30:46,470
+事实上，许可证兼容是一个深刻而棘手的问题。     
+In fact,
+license compliance is deep and tricky subject and its own business software vendors,
+
+457
+00:30:46,471 --> 00:30:54,660
+其商业软件供应商，供应商咨询公司在将会帮助你，毕竟他们收取了一大笔费用。
+their vendors consulting companies who help you with it and they are charged a pretty penny because it's not trivial.
+
+458
+00:30:56,580 --> 00:30:57,840
+更有意思的是，
+For kicks and fun,
+
+459
+00:30:57,841 --> 00:31:03,360
+这里还有一个其他的软件许可。
+here is yet another license, a bit more strong
+word,
+
+461
+00:31:03,361 --> 00:31:17,550
+软件许可由其它最基础的许可组成，所以它可以识别版本信息。
+and you can see what constitutes the most basic license is a name so it can be identified the name of the version perhaps,
+then the actual then.
+
+463
+00:31:17,551 --> 00:31:22,590
+软件许可就是一段法律文本信息，那么它应该怎样用呢?
+and since the license is a legal text or how it can be used in this case,
+
+464
+00:31:22,591 --> 00:31:28,650
+软件许可是有自己的知识产权的，所以我们需要许可，。
+so the license as its own intellectual property needs the license,
+
+465
+00:31:28,651 --> 00:31:32,280
+软件许可做了你想做的事情，
+here also do what you want and then finally,
+
+466
+00:31:32,281 --> 00:31:43,620
+软件许可会尽可能简单地表达你想用软件许可做什么。
+the actual license text as it applies to what the license contact content.
+And here it's as simple as early as possible to what you want with it.
+
+468
+00:31:44,880 --> 00:31:53,310
+还有其他术语，以及开放性场景，比如软件许可所授予的拷贝，分发，修改等操作。       
+These are the terms, open conditions for copying,
+distribution and modification of the work that is being licensed by this.
+
+470
+00:31:54,300 --> 00:31:58,320
+大多数时候我们都是在许可下使用产品、服务，
+Under this license,
+in the most, so
+
+472
+00:31:58,321 --> 00:32:03,030
+我们也是一直在讨论免费与开源，所以这两者一样吗？
+since we are always discussing free versus open
+is the same or not.
+
+474
+00:32:03,031 --> 00:32:08,610
+我发现最简单解释两者差异的办法就是自由著佐权，
+The simplest way I found to explain the difference again
+is that copyleft type of freedom,
+
+476
+00:32:08,611 --> 00:32:18,270
+Stallman所提出的4个自由权，更关注软件的免费。
+the original four freedoms by Stallman, care about the freedom of the software
+primarily, from which a couple of freedoms derive for the user.
+
+478
+00:32:19,380 --> 00:32:25,020
+无论是open source initiative的许可自由还是Apache license，
+While the permissive freedom of the open source initiative or ought to say the Apache license,
+
+479
+00:32:25,021 --> 00:32:31,980
+其实都是为了给开发者最大可能的自由度。
+is to give the developer the largest possible degree of freedom.
+
+480
+00:32:31,981 --> 00:32:40,650
+在著佐权中，自由是关于实体，比如产品的，因为你会限制开发人员要做的事，
+I say in copyleft,
+the freedom is about the entity,
+the artifact because you restrict what the developer can do in particular,
+
+483
+00:32:40,651 --> 00:32:48,000
+开发人员是无法隐藏这一点的。
+they cannot hide it, the intention is to prevent them from hiding and closing the software.
+
+484
+00:32:48,001 --> 00:32:53,520
+虽然许可自由允许开发者随心所欲地去工作。   
+While the permissive freedom simply allows the developer to do just that if they want to,
+
+485
+00:32:53,521 --> 00:33:01,800
+一个有见识的软件开发人员可能会努力思考为他们的工作留下专利。
+I don't have two. And an enlightened software developer will think hard about what they want to keep proprietary and whatnot.
+
+486
+00:33:01,801 --> 00:33:06,450
+无论如何，这些开发者不是被迫去买著佐权自由，
+But in any case,
+they are not forced to buy the copyleft
+freedom, tries to force developers.
+
+489
+00:33:09,180 --> 00:33:16,320
+著佐权的强迫是另一个深层次的讨论。
+This forcing or this copyleft effect is another deep discussion.
+
+490
+00:33:16,321 --> 00:33:25,890
+这就是许可兼容的复杂之处，其所带来的后果就是施加到用户身上的义务和责任。
+It's certainly hinges and this is the whole trickiness of license compliance and what the consequences are the obligations put on the user
+
+491
+00:33:25,891 --> 00:33:28,530
+在著佐权许可的例子中，
+in the case of copyleft sized licenses.
+
+492
+00:33:28,531 --> 00:33:45,510
+在美国，这取决于版权法。其实所有的许可都是在美国构思的，然后才传递开来。
+It hinges on copyright law,
+in particular U.S.
+copyright law says,
+the licenses were all originally conceived in the United States and have spread since then. And U.S.
+copyright law,
+
+497
+00:33:45,511 --> 00:33:54,030
+有两个术语同样适用于软件那么两者就是版权相关的，这就是协同工作与衍生工作。   
+there are two terms that then would also apply to software,
+were copyright relevant,
+which is collective work and derivative rock.
+
+500
+00:33:55,560 --> 00:34:03,150
+最初的著佐权影响施加到衍生作品中，
+And the original copyleft effect applied to the derivative works,
+
+501
+00:34:03,151 --> 00:34:04,950
+但这不是协同工作。
+but not collective works.
+
+502
+00:34:04,951 --> 00:34:09,270
+你需要把协同工作想做是组件的集合，
+Collective works you need to imagine as a collection of components,
+
+503
+00:34:09,271 --> 00:34:19,380
+如果组件之间是独立的，然后在著佐权许可下的另一个被认证许可的组件就不会受影响。
+not strongly related or independent if you will and then having one of the components being licensed under a copyleft license will not affect.
+
+504
+00:34:21,510 --> 00:34:26,310
+为什么一个组件会被认为是一个衍生工作？
+While a component which is considered a derivative work,
+
+505
+00:34:26,311 --> 00:34:35,880
+我们不得不使用著佐权许可，在那种情况下，还必须在副本下被认证许可。
+we'll have to, will fall under a copyleft license and may have to be
+licensed under copyleft well, and in that case, 
+
+508
+00:34:35,881 --> 00:34:45,750
+在最简洁方式中的衍生工作就是获取著佐权许可，然后去修改原始文件。
+the derivative work in the most cleanest way,
+is you taking some copyleft license code and modifying changing the original files.
+
+510
+00:34:47,100 --> 00:34:51,780
+一个文件变成了一个新文件，一个产品或服务的修改产品以及衍生出产品，   
+A file to be some new file,
+a modified version and at them is a derivative.
+
+512
+00:34:53,070 --> 00:34:56,490
+按照我的描述听起来可能很直观，
+What may sound intuitive as I described it,
+
+513
+00:34:56,491 --> 00:34:58,110
+但是实践才是王道。
+and practice is everything,
+
+514
+00:34:58,111 --> 00:35:10,620
+简单来说就是软件组件之间有什么联系，对于这些问题可能会有不同的解释。
+but
+it's completely, it's
+simply spoken
+there are different interpretations of how to software components relate to each other and 
+ 
+518
+00:35:10,621 --> 00:35:13,650
+它们构成了一个协作作品还是衍生作品？
+whether they constitute a collective work or a derivative work.
+
+519
+00:35:14,520 --> 00:35:20,610
+通常情况下，用户会说，这是一个协作工作因为他们想剔除产品或服务的缺点。
+Usually,
+the user once said claims, it's a collective work because they don't want their downsides.
+
+521
+00:35:20,611 --> 00:35:28,140
+对于著佐权许可，因为这是一个初始的软件许可，所以许可所有者会争论这是一个衍生品。
+the copyleft effect of a copyleft license,
+while the original license so the owner will argue that so derivative work
+
+523
+00:35:29,130 --> 00:35:37,350
+你可以在网络上进行相关查阅，两个组件是静态地、还是动态地连接在了一起？
+you can read up on it on the web,
+whether,
+for example,
+two components statically linked to each other or dynamically linked to each other,
+
+527
+00:35:37,351 --> 00:35:44,100
+还是两者对应的应用程序服务连接在了一起？这样是否真的造就了一个衍生工作？
+or dynamically linked to each other
+or linked to each other program services 
+cause really constitute a derivative work.
+
+532
+00:35:44,101 --> 00:35:47,880
+所有这些的困难来自Linux内核，    
+The difficulty with all of this comes from the Linux kernel,
+
+533
+00:35:47,881 --> 00:35:51,870
+因为Linux内核在GPL v2版本下是许可的，这是一个著佐权许可。
+because the Linux kernel is licensed under the GPL v2,
+
+534
+00:35:51,871 --> 00:36:03,060
+所以任何软件组件都会依附于Linux内核，无论它是衍生作品还是协作作品。
+a copyleft license. So any, any software component that attaches to the Linux kernel,
+is it a derivative or collective work.
+
+536
+00:36:03,061 --> 00:36:10,170
+Torvalds最初的意图就是如果某些东西处于用户空间而不是内核空间，
+The original intention of Torvalds was if something is in user space rather than in kernel space.
+
+537
+00:36:10,171 --> 00:36:13,920
+那么这就属于协作工作，著佐权不再适用。
+It's a collective work,
+copyleft does not apply,
+
+539
+00:36:13,921 --> 00:36:21,780
+但是这样的话，情况就变得困难了，这些东西与Linux内核的关系有多亲密呢？
+but already with drivers it becomes difficult and how closely linked early to the kernel.
+
+540
+00:36:21,781 --> 00:36:29,850
+也有一些优秀的诉讼正在解决这个问题，但是我并没有觉得情况是这样。
+Also there are basically outstanding
+lawzuits
+trying to settle that,
+but I don't think it's ever been for this.
+
+544
+00:36:29,851 --> 00:36:33,690
+在任何情况下，许可协议一个挨着一个，    
+In any case,
+putting next to each other,
+
+546
+00:36:33,691 --> 00:36:44,940
+GPL v2和Apache License 2.0是两个较老的但是被广泛使用的许可，这是许可类别的代表。
+the GPL v2 and the Apache License 2.0 as two of the older and widely used licenses that are nice representatives on the category.
+
+547
+00:36:44,941 --> 00:36:48,510
+你可以看到GPL v2许可，
+You can see how GPL v2,
+
+548
+00:36:48,511 --> 00:36:52,950
+其会对某些事情授予权限，也会要求去做某些事情，可能也会禁止去做某些事情。
+gives permits certain things and requires certain things and forbid other things.
+
+549
+00:36:52,951 --> 00:37:01,290
+实际的软件许可也是如此，所以GPL v2许可允许免费使用软件。
+And so does the actual software license. 
+So the GPL v2
+permits the use of the software for free,
+etc.
+
+553
+00:37:01,291 --> 00:37:03,810
+Apache License 2.0也会允许这么去做，
+And the Apache License 2.0 also does so
+
+554
+00:37:03,811 --> 00:37:09,510
+也会允许非开源情况下的产品、服务的重新分发与修改。
+and it also allows redistribution of modification without open sourcing,
+
+555
+00:37:09,511 --> 00:37:15,360
+这意味着你可以在协作协作工作与衍生工作中使用Apache License代码，
+meaning you can use Apache License code in a collective or derivative work
+
+556
+00:37:16,260 --> 00:37:28,350
+你的私有代码放在Apache License代码的上面，然后你就可以向别人传递你的代码了，
+with your proprietary code on top and then you can pass it on, without you being having to provide the software under the Apache software license
+
+557
+00:37:28,351 --> 00:37:34,410
+而无需在Apache软件许可下提供软件，你可以选择仅仅在专有软件许可下提供软件。
+to anyone who comes asking, you can choose to only provide it under a proprietary license.
+
+558
+00:37:35,640 --> 00:37:47,250
+所以就消除了软件著佐权的的影响。如果你为新的软件提供了GPL v2许可，  
+So no copyleft effect here.
+That's,
+of course, what the GPL v2 requires if you provided it to someone new software,
+
+561
+00:37:47,251 --> 00:37:57,630
+那么这个软件就是GPL v2的衍生作品，那么如果有人像你索取软件代码的话，
+and it is a derivative work of some GPL v2, licensed software code, then if anyone comes asking who you gave it to,
+
+562
+00:37:57,631 --> 00:38:01,020
+你必须要为其提供软件源代码。
+you may have to provide the source code and you may 
+
+563
+00:38:01,021 --> 00:38:11,220
+如果你想要实现许可兼容性的话，你也需要提供源代码，
+have to, not only may you, you must provide it or must provide the source code if you want to be compliant to the license,
+and also you need to,
+
+565
+00:38:11,221 --> 00:38:18,540
+这样你就必须在著佐权许可下为用户授予相同的源代码。
+and you also have to grant the user the same the source code on others or under the copyleft license.
+
+566
+00:38:20,640 --> 00:38:30,150
+两者对于用户都会有某些需求以及义务，以及正确的归属，包括产品许可以及产品发行。
+Both them again have some same requirements,
+obligations put on the user,
+proper attribution,
+inclusion of the license and distribution,
+etc.
+
+571
+00:38:30,151 --> 00:38:39,780
+所以这意味着什么呢？什么软件被包括在内呢？相关保证也需要被声明。    
+So that it's marked what,
+what,
+what,
+what software is included,
+and also warranties that is claimed,
+etc.
+
+577
+00:38:41,010 --> 00:38:54,420
+你没有声明支持的权利，你也从来没有使用组织商标的权利。
+You never get the right to claim any endorsement and you never usually, never always get the right to use any of the trademarks of the organizations behind the licenses.
+
+578
+00:38:57,720 --> 00:39:07,830
+我们将会看到很多开源许可，在是否包含著佐权方面有所差异。
+We will see in a bit that there are many open source licenses and they all differ along these dimensions whether they include copyleft or not
+
+579
+00:39:07,831 --> 00:39:11,820 
+那么衍生以及衍生工作到底是什么呢？
+what exactly derivative or derived work is,
+
+580
+00:39:11,821 --> 00:39:19,770
+举个例子，什么是web服务调用呢？这是协作作品还是衍生作品呢？
+for example,
+what about web services calls,
+this collector or derivative works,
+etc, that's it.
+
+584
+00:39:21,720 --> 00:39:28,620
+这有个小测试，我们讨论一下。在一个项目中你使用文件X，  
+So here is a quiz let's try discuss this in a project you use file X,
+
+585
+00:39:28,621 --> 00:39:31,200
+其使用了GPL v2许可，
+which is GPL v2 license,
+
+586
+00:39:31,201 --> 00:39:32,760
+现在你也确实做了一些事情，
+and now you do certain things,
+
+587
+00:39:32,761 --> 00:39:39,510
+这是你工作的输出，那么讨论一下这属于协作工作还是衍生工作呢？
+and this is the result of your work, a collective or a derivative work,
+
+588
+00:39:39,511 --> 00:39:48,300
+我希望你们的讨论富有成果。
+please discuss.
+I hope you had a fruitful discussion,
+
+590
+00:39:48,301 --> 00:39:58,200
+在第一种情况下，你可以把文件X变成文件X+，什么是文件X+呢？
+so case one or you change file X to become X prime,
+what X prime?
+
+592
+00:39:58,201 --> 00:40:03,780
+所以这就是一个衍生工作，因为这是改变文件X后的文件。
+So this is probably a derivative work because it changed the file.
+
+593
+00:40:03,781 --> 00:40:13,830
+这就是一个文件修改。你创建了一个类A，然后文件Y是文件X的一个子类。
+So that really is a pretty clean-cut modification.
+You create a class A,
+and file Y which subclasses are a file from File X.
+
+596
+00:40:13,831 --> 00:40:14,130
+好吧
+OK,
+
+597
+00:40:14,131 --> 00:40:22,890
+所以你现在没有接触到相同的源代码，你现在可能在挖掘它们之间的静态联系。     
+so you're not touching the same source code now,
+but you're really hooking into
+and then all likelihood this is a static linked connection between them.
+
+600
+00:40:22,891 --> 00:40:28,950
+free software foundation自由软件基金会将会清楚地声明这是一个衍生工作，
+Then the free software foundation clearly and cleanly is claiming it's a derivative work,
+
+601
+00:40:28,951 --> 00:40:35,790
+你可能不同意这个说法，在你上法庭之前你可能是理解不了的。
+but you may disagree and as long as you don't go in front of a court,
+you will not know.
+
+603
+00:40:35,791 --> 00:40:44,310
+你创建了代码以及文件Z，像之前的例子一样，使用了文件X的代码，
+Ah,
+you create code and file Z,
+which uses code from file X like the previous case, there's
+
+606
+00:40:46,380 --> 00:40:50,820
+这就是所谓的调用，可能涉及到了连接机制。
+call, probably involved here depends on the linking mechanism,
+
+607
+00:40:50,821 --> 00:41:00,450
+Free Software Foundation狭义地将其定义为了衍生工作。
+the Free Software Foundation,
+which pretty, narrowly well actually would put it broadly defines
+derivative, pretty much want everything to be 
+
+610
+00:41:00,451 --> 00:41:04,650
+我们将会认为这就是一份衍生工作，除非你上法庭，
+a derivative. We'll argue that it's a derivative work,
+
+611
+00:41:04,651 --> 00:41:06,300
+否则你不知道这到底不是不是一个衍生工作。
+but unless you go to court,
+
+612
+00:41:06,301 --> 00:41:19,800
+静态连接，将文件链接到文件A，可能是那么也可能不是衍生作品了。不确定。    
+you won't know. Statically linked,
+linked to files to give it to A, may or may not be derivative, we don't know
+probably is derivative. So dynamically linked
+
+615
+00:41:19,801 --> 00:41:26,730
+动态链接的情况可能并非如此，动态连接到静态的代码是完全开放的，
+this may not be,
+it's completely out open
+whether dynamically linked to statically linked
+code,
+
+619
+00:41:26,731 --> 00:41:36,780
+无止境的衍生工作或者协作工作。创建文件B，其中的代码用户进行web服务调用。
+countless derivative or collective code create file B,
+code of which makes a web service call.
+
+621
+00:41:36,781 --> 00:41:47,580
+这个解释可能是很清楚的，web服务调用并不会导致这个工作成为一个衍生工作，
+So for most,
+interpretation or actually this one is actually clear.
+the web services call does not make it a derivative work,
+
+624
+00:41:47,581 --> 00:41:53,280
+然后我们就可以得出结论，因为我们要覆盖这种特殊情况，
+and we can conclude that because to cover this particular situation,
+
+625
+00:41:53,281 --> 00:42:08,730
+Free Software Foundation发明了一个新的许可，它不想衍生网络服务被使用。
+the Free Software Foundation invented a new license because it actually did not want the GPL v2 and the later GPL v3 to make anything connected for web services called derivative.
+
+626
+00:42:08,731 --> 00:42:20,640
+所以作为GPL v3许可，我们也知道GPL v2软件许可。   如 
+So for that,
+as the GPL v3,
+also then we know GPL v2,
+is not assuming that's something that makes Web services called for GPL v2 license
+
+630
+00:42:20,641 --> 00:42:26,580
+web服务调用是衍生工作而不是协作工作。
+component. It's a derivative work rather to the collective work.
+
+631
+00:42:28,890 --> 00:42:40,770
+果你是一位工程师，你可能会思考，是不是某些组件服从著佐权许可。
+Well,
+if you're an engineer,
+ah,
+you probably thought,
+so what if they're some,
+some component that is copyleft license.
+
+637
+00:42:40,771 --> 00:42:50,010
+我将介绍一个名称为Shim的中间层，Shim可以实现我的私有代码以及著佐权代码的解耦。
+I will just introduce an intermediate layer called Shim and that Shim will decouple my Proprietary Code from the Copyleft Code.
+
+638
+00:42:50,011 --> 00:43:01,650
+因为我们的客户看到了著佐权代码，所以他们可能会过来问，  
+And so if anyone comes asking,
+because our customers saw that there is 
+Copyleft Code and I come
+asking not about the source code you give them,
+
+642
+00:43:01,651 --> 00:43:03,930
+你给他们的源代码以及Shim，但是没有询问私有代码。 
+the Shim, but not
+the Proprietary Code.
+
+644
+00:43:04,800 --> 00:43:13,050
+因此我们将私有代码以及著佐权代码实现解耦，然后它们可以和谐共存。
+And so we decouple Proprietary from copyleft license code and live happily ever after.
+
+645
+00:43:15,120 --> 00:43:21,480
+所以你不禁想知道，这怎么可能呢？这其实是一个小技巧，你看到了吗？
+So you may actually wonder,
+how is that possible?
+That's a small trick here.
+Do you see it?
+
+649
+00:43:23,820 --> 00:43:24,180
+Well,
+
+650
+00:43:24,181 --> 00:43:33,750
+小技巧就是私有代码的拥有者需要成为Shim的拥有者，   
+the trick is that for this to work.
+The owner of the proprietary code also needs to be the owner of the Shim,
+
+652
+00:43:33,751 --> 00:43:39,480
+然后Shim的拥有者也需要是某些知识产权软件的所有者，
+and then the owner of the Shim also the owner of some intellectual property software,
+
+653 
+00:43:39,481 --> 00:43:44,940
+该软件有权将多个软件许可放在一些组件上。
+has a right to put multiple licenses onto some component.
+
+654
+00:43:44,941 --> 00:43:56,400
+Shim将会被交给任何前来询问的人，但是它仍然是是属于私有代码所有者的。
+So here then the Shim will be given to whoever comes asking under a Copyleft Code.
+But since it's still owned by the Proprietary Code owner.
+
+656
+00:43:56,401 --> 00:43:57,600
+这些人根本就不在乎，
+They just don't care,
+
+657
+00:43:57,601 --> 00:44:06,690
+他们还维护私有代码许可，所以Shim不会传播到私有代码中。这就是一个小技巧。
+they also maintain the proprietary code license,
+and so it doesn't actually propagate into the proprietary code.
+That's a trick.
+
+660
+00:44:07,980 --> 00:44:15,090
+不管怎么说，GPL许可还是很重要的，其中主要是因为Linux内核，这是一个许可簇。   
+Anyway,
+so the GPL licenses are important,
+mostly because of the Linux kernel,
+and they are whole family.
+
+664
+00:44:15,091 --> 00:44:21,930
+GPL学科不只是一个软件许可，原来是v1版本的许可，但是现在已经无关紧要了，
+They are not just one license, that is the original v1 generation which is irrelevant now,
+
+665
+00:44:21,931 --> 00:44:29,220
+现在主要是GPL v2许可了，这是相关的。
+mostly,
+there's the GPL v2
+family,
+which is very relevant,
+
+669
+00:44:29,221 --> 00:44:35,880
+GPL v2与Linux内核是相关的，因为Linux内核在这种种许可下被授予许可。
+certainly the GPL v2 is very relevant because the Linux kernel is licensed under this license.
+
+670
+00:44:37,020 --> 00:44:45,990
+还有其他的软件许可存在，当然这些软件许可可能没有被很好地使用起来。     
+There was or there still is all these license,
+it exists,
+of course,
+they're just not and may or may not
+be good right use.
+
+675
+00:44:47,100 --> 00:44:53,670
+LGPL是一个特殊的许可，其对图书馆、库有特别的规定。
+The LGPL going to
+which is a special, has a special provision for libraries
+is being discouraged.
+
+678
+00:44:53,671 --> 00:44:56,190
+LGPL许可现在也是很重要的，因为dilib C是在在LGPL许可下认证的许可。该许可不怎么受欢迎。
+So while it is still important
+
+679
+00:44:56,191 --> 00:45:02,340
+mostly, because the dilib C is licensed under it. It has been discouraged, so
+
+680
+00:45:02,341 --> 00:45:12,420 
+但是该许可存在兼容性问题，所以我们不推荐使用它。
+there is,
+I believe there is for compatibility reasons and another v3,
+but it's not really encouraged to be used.
+
+683
+00:45:12,421 --> 00:45:18,540
+所以GPL v2是一个很重要的许可，因为这是Linux内核许可，    
+So the GPL v2 is the important one because that's the Linux kernel license,
+
+684
+00:45:18,541 --> 00:45:27,480
+现在是GPL v3许可，因为GPL v2是在1974到1991之间使用的，
+and now there is a GPL v3 and the reason is that GPL v2 was done in the early 1974 to 1991,
+
+685
+00:45:27,481 --> 00:45:30,630
+GPL v3是比较新的许可，
+GPL v3 is quite recent,
+
+686
+00:45:30,631 --> 00:45:36,510
+在2013，2014，2015年使用这样。
+2013, 14, 15 something like that. And fixes
+
+687
+00:45:36,511 --> 00:45:46,080
+GPL v3许可确实解决了很多问题，特别是在GPL v2中没有考虑到的一些东西。
+a lot of the issues,
+and particularly the emergence of things that were just not considered in v2.
+
+689
+00:45:46,081 --> 00:45:51,780
+这有一些样例模式，比如web服务调用等。
+which are
+for example patterns,
+but also things like Web service calls.
+
+692
+00:45:52,710 --> 00:45:57,000
+因为我们目前生活在一个联系更加紧密的世界，
+Because we now live in a much more interconnected world
+
+693
+00:45:57,001 --> 00:46:05,700
+所以web服务调用不会触发GPL v3许可中的著佐权部分，
+web services calls, not triggering the copyleft aspects of GPL v3,
+
+695
+00:46:05,701 --> 00:46:15,750
+这种情况已经被考虑到一个新的许可，AGPL v3许可中，
+But rather this has been factored into a new license,
+the AGPL v3,
+AGPL v3,
+
+699
+00:46:15,751 --> 00:46:17,580
+这是一个类似于GPL v3许可的软件许可。
+which is like the GPL v3,
+
+700
+00:46:17,581 --> 00:46:25,620
+其进行了web服务调用，也决定了web服务调用，并使得某些组合工作变成了衍生工作。
+except that it makes Web services calls or determines that the web services calls and make the combined work derivatives block.
+
+701
+00:46:26,820 --> 00:46:31,770
+所以你可以看到许可证是如何演变的，并且实际上它们被称为许可证家族。    
+So you can see how licenses evolve and they're really called a licensed family.
+
+702
+00:46:33,360 --> 00:46:42,990
+这些许可证中的大部分许可可能会和一些未知的许可联合起来解决某些问题，
+Most of these licenses also now allow the fixing of problems with these licenses that were unknown,
+
+703
+00:46:42,991 --> 00:46:52,470
+虽然许可是通过声明创建的，这个声明允许软件在之后的许可下可以重新进行许可认证。
+while the license was created by way of a clause where it allows the license software to relicense under later license,
+
+704
+00:46:52,471 --> 00:47:13,830
+有一个条款，条款中描述了任何代码在这个许可或者在之后的某个许可下进行认证。
+So there's a clause and there where it says any code is licensed under this license or a later one and the family, giving the owners of the license family and opportunity to adjust, to create new license versions later license versions that fixed some of the problems.
+
+705
+00:47:13,831 --> 00:47:15,240
+这样就给了许可簇的所有者调整的机会，可以创建新的许可版本，可用于解决某些问题。
+Sadly again,
+
+706
+00:47:15,241 --> 00:47:17,850
+Linux内核获得了许可，不仅仅是在GPL v2许可下，
+the Linux kernel is licensed,
+
+707
+00:47:17,851 --> 00:47:25,170
+其中特殊版本的GPL v2许可是由Linus Torvalds所创建的。
+not only under GPL v2 but under a special version of GPL v2, created by Linus Torvalds,
+
+708
+00:47:25,171 --> 00:47:34,590
+之后Linus Torvalds又将Linux内核从GPL v2许可之后的版本许可拿掉了，
+which, in which he took out that under a later version. So in all likelihood, the Linux kernel will always remain under GPL v2,
+
+709
+00:47:34,591 --> 00:47:35,310
+所以Linux内核很大可能还是保存在GPL v2许可下。
+
+710
+00:47:35,311 --> 00:47:38,280
+因为不可能将GPL v2许可升级为之后的版本。
+because it's not possible to upgrade it to a later version.
+
+711
+00:47:40,860 --> 00:47:42,210
+我已经讨论过v3版本许可了，  
+I already discussed it the v3
+
+712
+00:47:42,211 --> 00:47:54,750
+基于专利问题，我们会讨论一些整个GPL许可簇与其他许可之间的兼容性问题，
+generation, addresses patterns will try to talk about that and also made the whole GPL family more compatible with other licenses.
+
+713
+00:47:54,751 --> 00:47:55,290
+可惜的是，
+Sadly,
+
+714
+00:47:55,291 --> 00:48:01,620
+GPL v2许可与Apache software license许可因为专利的问题不兼容。
+GPL v2 is not compatible with the Apache software license for patent reasons.
+
+715
+00:48:03,840 --> 00:48:07,890
+这里有个小测试，
+So here's a little small quiz.
+
+716
+00:48:07,891 --> 00:48:17,400
+曾经有个名称为Google Code的software forge，
+So they used to be a software forge called Google Code and Google only allowed,
+
+717
+00:48:17,401 --> 00:48:25,770
+Google只使用最初9种类型的许可。
+initially they only allowed for nine licensees or they only gave here drop-down for nine licensees.
+and that's it.
+
+719
+00:48:25,771 --> 00:48:32,160
+在接下来的几张幻灯片中我们将看到，目前有70多种开源许可，并且许可数量还在增长。
+We will see in a few slides that they actually 70 something open source licenses and growing.
+
+720
+00:48:32,161 --> 00:48:33,660
+那么Google为什么还是只允许9种许可呢？
+So why only nine?
+
+721
+00:48:33,661 --> 00:48:34,320
+你怎么认为呢？
+What do you think?
+
+722
+00:48:39,330 --> 00:48:49,920
+Google声称是开源许可太多了，很有可能会使消费者混淆，
+Well,
+so Google argued that there were just too many open source licenses out there,
+and it completely confused
+
+725
+00:48:49,921 --> 00:48:58,500
+此外，许可证扩散可能是一件坏事，所以应为用户提供有限的许可证选择。
+users, so the so called license proliferation as a bad thing and hence uses could be, should be given only limited choice.
+
+726
+00:49:00,120 --> 00:49:11,190
+这就是为什么Google只有很少的许可被展示的原因，尽管你可以提供自己的许可，  
+And as such,
+this is the reason why there are only a few licenses being shown,
+and while it was possible to provide your own license,
+
+729
+00:49:11,191 --> 00:49:14,310
+你可以输入它而不是从下拉菜单中选择它。
+you really have to type it in rather than choose it from a drop-down menu.
+
+730
+00:49:15,990 --> 00:49:27,750
+这还有一位行业专家相信还有其他的原因，当看到下拉菜单的时候，AGPL许可不见了。
+Here's an industry pundit who believes there was another reason and in particular,
+when he looked at the drop-down menu,
+he saw that the AGPL license was missing.
+
+733
+00:49:28,950 --> 00:49:41,670
+Google允许GPL认证，但是Google并没有为你展示AGPL选项。
+And so Google Code provided to you by Google.
+the company allowed for
+GPL license code,
+but did not really show you the AGPL option.
+
+737
+00:49:41,671 --> 00:49:51,570
+谷歌几乎完全面向网络服务，谷歌喜欢各种开源软件，
+And naturally since Google is an almost exclusively web services based business smaller,
+Google likes all kinds of open source
+
+739
+00:49:51,571 --> 00:50:01,950
+除非它是一个著佐权影响的衍生物，会影响web服务调用。
+unless it's the derivative of a copyleft effects, kick in the form of web services
+calls are present.
+
+741
+00:50:01,951 --> 00:50:10,980
+所以Phipps相信Google试图让AGPL许可远离开源，     
+So this guy believed, that Phipps believed that open source that Google perhaps deliberately
+
+742
+00:50:10,981 --> 00:50:18,090
+tried to keep away the AGPL license from open source programs.
+
+743
+00:50:19,740 --> 00:50:35,190
+我对此的看法就是，这是一个商业策略，所以这家公司会做出最有利于它们的选择，
+And that would be my point here is, it's a business strategy and so a company makes choices naturally that are best for them and so so Phipps believed or argued that Google made a choice that was best for them, not unnecessarily obvious.
+
+744
+00:50:35,191 --> 00:50:37,920
+所以Phipps相信Google做出了最有利于它们的选择，只是Google表现的不太明显而已。
+
+745
+00:50:39,750 --> 00:50:47,760
+到目前为止我们讨论了很多版权，所以也是涉及了很多版权。
+So we talked about copyright so far and may now have to cover and have to cover patents.
+
+746
+00:50:47,761 --> 00:50:53,220
+这是开源软件许可另一个重要的方面。
+Another big,
+big aspect of open source software licenses.
+
+748
+00:50:54,420 --> 00:50:59,610
+Apache software license具有专利权，
+The Apache software license has patents, rights, 
+
+749
+00:50:59,611 --> 00:51:04,590
+所以说如果你在Apache software license许可下对某件产品、服务授予了许可，
+which says that if you license something under the Apache software license,
+
+750
+00:51:04,591 --> 00:51:08,130
+那你就是授予了每个人都可以使用软件的权利，
+then you grant everyone a right to use the software,
+
+751
+00:51:08,131 --> 00:51:16,530
+包括专利权，以及你想有的其他权利，所以这种形式的专利权授予是免费的。
+including any patents, in there that you may have rights too.
+So there's an implied patent rights granted for free,
+etc.
+
+754
+00:51:16,531 --> 00:51:32,040
+比如版权，可能更有意思，有一种所谓的“专利反击条款”，假如你是许可的接收者，   
+Likewise
+copyright.
+And more even more interestingly,
+there's a so-called patent retaliation clause,
+assuming that you as the recipient the licensee,
+ah,
+
+760
+00:51:32,041 --> 00:51:38,370
+并且你在Apache许可下获得了某些开源组件，然后你在你的产品中使用这些组件。
+who received some open source component under the Apache license and are using it in your product.
+
+761
+00:51:38,371 --> 00:51:52,260
+如果因为你在修改后的产品中放了某些代码那么你可能会陷入与某人的诉讼中，
+If you now bring a lawsuit against someone else or patents in this open source software because you put some code there into a modified version and now you're suing someone,
+
+762
+00:51:52,261 --> 00:51:56,880
+ 现在可能你正在和某人打官司，可能会要求别人为专利付费，
+then you actually for you're asking someone to pay a patent.
+
+763
+00:51:56,881 --> 00:51:58,530
+实际上这就是为专利打官司。
+Actually there's patent litigation,
+
+764
+00:51:58,531 --> 00:52:07,710
+所以起诉某人是为你的专利代码支付费用，
+so it's suing someone for, to pay for
+that the use of your patented code,
+
+766
+00:52:07,711 --> 00:52:09,240
+然后对于Apache software license许可下的开源软件许可下的开源软件，
+then and only,
+
+767
+00:52:09,241 --> 00:52:19,410
+你可能会失去使用这些软件的权利。这就是所谓的“专利反击条款”。
+and then you lose the right to use the software under the open source software license under the Apache software license,
+patent retaliation.
+
+769
+00:52:19,411 --> 00:52:26,280
+如果你想强化专利，即别人所授予你的权利，然后使用其他人的专利被撤销了， 
+If you try to enforce patents,
+the rights given to you, to use somebody else's
+
+771
+00:52:26,281 --> 00:52:27,720
+这就是专利反击。
+patents are revoked, 
+
+772
+00:52:27,721 --> 00:52:29,250
+patent retaliation.
+
+773
+00:52:29,251 --> 00:52:41,520
+软件社区或者开源社区会尽力确保软件专利不为商业所用，
+The way of how the software community or the open source community at least,
+is trying to make sure that software patents are basically taken out of business.
+
+775
+00:52:44,040 --> 00:52:50,130
+所以这是“专利反击”强化后的不同变体，
+And so 
+they're very different variants of a different variants of strength of patent retaliation,
+
+777
+00:52:50,131 --> 00:52:53,460
+或者它们被限制在不同的开源组件上。
+or there may be limited to the particular open source component they may or 
+
+778
+00:52:53,461 --> 00:53:04,830
+我们要论了著佐权许可，许可证，
+I may much more broadly.
+So we discussed,
+copyleft licenses we discussed, permissive licenses,
+
+781
+00:53:04,831 --> 00:53:19,770
+在两者之间还有其它的东西，可适用于文件的修改，组合工作可以被证明是正确的。
+there's something in between were really the copyleft
+effect applies only to modifications of files
+to believe, but the
+combined work can be provided right.
+
+786
+00:53:22,170 --> 00:53:28,980
+目前有50个开源学科被Open Source Initiative所通过，  
+Today there are more than 50 approved by the Open Source Initiative,
+active open source license,
+
+788
+00:53:28,981 --> 00:53:33,660
+其中大约有20，30个退休许可。
+some 20, 30 considered retired licenses,
+etc.
+
+790
+00:53:33,661 --> 00:53:41,220
+你不能担保任何东西,它们全都需要一种传统。
+Coming to them all of courses, you're just given no warranties whatsoever.
+They all require a tradition.
+
+792
+00:53:41,221 --> 00:53:51,390
+这些许可不让你使用商标吗，
+They all require that you may not use any trademarks,
+original creators of foundation.
+
+795
+00:53:52,560 --> 00:53:53,700
+在2009年，你可以看到开源许可列表，
+In 2009,
+
+796
+00:53:53,701 --> 00:54:06,330
+该列表中开源学科许可排名的，并且根据在开源领域中的使用情况对开源许可进行排名。
+you could see, you can see a list here of open source licenses and ordered rank, ordered by use in open source projects and you can see how the GPL v2
+
+797
+00:54:08,100 --> 00:54:13,890
+你可以看到GPL v2许可被超过一半的开源项目所使用。
+is used by more than half of all
+the open source projects. So it's leading by a wide margin.
+
+799
+00:54:14,730 --> 00:54:21,990
+在2015年，如你所见，GPL的使用下降到25%，   这
+In 2015,
+as you can see here,
+the GPL was down to 25%,
+
+802
+00:54:21,991 --> 00:54:33,510
+所以开源项目中有一个大的搜索，不如之前在GPL许可下的项目多。
+so there was a huge search and open source projects and
+not nearly as much as many as before were licensed under the GPL
+
+804
+00:54:33,511 --> 00:54:44,040
+MIT，Apache，BSD的许可都是宽松的，
+rather,
+the MIT Apache BSD license are permissive
+licenses were climbing and used and 
+
+807
+00:54:44,041 --> 00:54:47,130
+我认为这些开源项目目前都是使用GPL许可。
+I think,
+by now even have overtaken the GPL.
+
+809
+00:54:48,750 --> 00:54:58,260
+一些属性好像已经参与到了公司的增长中，
+This has not gone unnoticed by industry and some attribute had actually tour the increased involvement of
+
+810
+00:54:59,250 --> 00:55:10,800
+些公司因开源软件而相互合作，而不是竞争性地对待好的开源软件，除此之外就是成本问题了。
+companies collaborating for on an open source Software not competitively differentiating open source office software that needs to be good,
+
+811
+00:55:10,801 --> 00:55:33,060
+这些软件组件使用了开源供应商的许可产品，我们也是看到了GPL许可使用的下滑。  
+but otherwise it's just a cost issue and that these software components,
+because they used some products,
+usually licensed
+permissibly,
+one of the vendors in this space analyzed that and saw that notice how the GPL the use of the GPL
+has been declining ever since.
+
+817
+00:55:34,530 --> 00:55:40,860
+我们对于许可增长做了相关分析，
+We did some analysis of the growth of permissive licenses,
+
+818
+00:55:40,861 --> 00:56:01,290
+我们将许可放在时间框架中，在早期的2000年，这需要商业崩溃去考虑。
+and we put it to the time frame in the,
+in the 2000s,
+early 2000,
+2001, 2022.
+So right
+after the dot-com crash and associated businesses crashing,
+
+824
+00:56:01,291 --> 00:56:16,170
+我们注意到软件许可突然增长，并且非许可的著佐权许可在数量上也开始增长，  
+we noticed how permissive licensee suddenly started growing stronger and non-permissive
+copyleft licenses started also growing in total numbers
+
+826
+00:56:16,171 --> 00:56:18,840
+虽然增长速率低但是数量多。
+but added much but at a slower rate,
+
+827
+00:56:18,841 --> 00:56:30,210
+这是贡献的主要来源，
+and the permissive licenses.
+So here is a Chris once more provenance of contributions,
+
+829
+00:56:30,211 --> 00:56:42,810
+所以如果你是一名软件开发人员，请告诉我在接下来的情节中每个人都持有什么权利,
+so you're a software developer and please tell me about each of the following scenarios who holds what rights and who has to sign off on what.
+
+830
+00:56:43,920 --> 00:56:45,090
+每个人需要签署什么许可? 可以讨论一下。
+So please discuss.
+
+831
+00:56:50,610 --> 00:56:54,600
+在公司上班时间你对Linux内核做出了贡献，
+So on company time you make a contribution to the Linux kernel,
+
+832
+00:56:54,601 --> 00:56:56,160
+这是什么意思呢？
+What does that mean?
+
+833
+00:56:56,161 --> 00:57:04,740
+你对项目进行贡献的权利由公司所持有，所以公司会为你的工作支付报酬，
+Well,
+the rights to your contribution are held by your company, know, so they pay you for your work and
+
+835
+00:57:07,410 --> 00:57:16,830
+你为Linux内核做出了贡献，所以很有可能你需要在GPL v2许可下获得许可，
+as you,
+as I've argued here,
+it's being contributed to the Linux kernel, so 
+in all likelihood,
+you have to license it under so your employer,
+
+840
+00:57:16,831 --> 00:57:17,430
+所以你的雇主、你的公司拥有相关的知识产权，
+your company,
+
+841
+00:57:17,431 --> 00:57:21,810
+该知识产权需要在GPL v2许可下有Linux内核的源代码。
+company has to license the intellectual property, it owns
+
+842
+00:57:21,811 --> 00:57:28,710
+说句题外话，对Linux内核贡献代码也不是那么容易的。   
+the source code under GPL v2. The side remark is not easy to contribute to the Linux kernel.
+
+843
+00:57:28,711 --> 00:57:32,820
+如果你是新人，那么贡献代码几乎是不可能的，以上的一切都只能是假设。
+In fact,
+it's almost impossible if you're a newcomer so these are hypotheticals.
+
+845
+00:57:33,990 --> 00:57:37,440
+还有第二种情况，你在私人时间做出了贡献。
+So a second case in your private time you make a contribution,
+
+846
+00:57:37,441 --> 00:57:46,740
+在这种情况下，你是拥有者，你有权决定为软件授许可。通常你需要GPL v2许可，
+well, in this case, you are the owner, you decide that you want to license the software. It's required to license the software that the GPL v2 running to trade your patch,
+
+847
+00:57:46,741 --> 00:57:48,180
+并使得许可对Linux有效。
+make it into the Linux kernel.
+
+848
+00:57:49,680 --> 00:57:53,970
+你可能从网上找了一段代码然后贡献给了Linux内核，
+You just add some code from the web and contributed to the Linux kernel.
+
+849
+00:57:53,971 --> 00:57:57,900
+这样网上可能就会存在该代码的原作者。
+Well,
+there's an original owner of the code on the web.
+
+851
+00:57:57,901 --> 00:58:04,440
+所以你能否做到这里所描述的这些,我们不知道，
+So whether you can actually do what is described here,
+we don't know,
+
+853
+00:58:04,441 --> 00:58:11,460
+因为许可规定了源代码可以用来做什么，根据你的做法，
+because what is the license that this original code is licensed under that determines what can be done with it.
+
+854
+00:58:11,461 --> 00:58:18,330
+你可能是违法的。你并没有处在有效的许可环境。
+It might just be illegal, what you just did,
+meaning not needing to not available license situation.
+
+856
+00:58:19,530 --> 00:58:24,450
+所以你实现了一个新的密码算法并为Linux内核做出了贡献，   
+So you implemented a new cryptography algorithm and contributed.
+
+857
+00:58:24,451 --> 00:58:33,390
+该算法依赖于你使用了多长时间，这是一种密码学相关的算法。
+That's either case one or two,
+depending on whose time you implemented the algorithm and for the source code,
+
+859
+00:58:33,391 --> 00:58:41,190
+其背后隐含的问题不重要，其背后的专利才更重要。
+or that it's in an a cryptography algorithm. It doesn't matter the implied question here
+is the patent behind it.
+
+861
+00:58:41,191 --> 00:58:48,030
+这种问题可能就比较棘手了，因为你为Linux内核做出了贡献，
+Well,
+then,
+it may be tricky because if you contributed to the Linux kernel or the GPL v2
+
+864
+00:58:48,031 --> 00:58:51,750
+但是GPL v2许可没有提到专利，
+doesn't say anything about patents,
+
+865
+00:58:51,751 --> 00:58:53,640
+所以你可能会卡在那儿。
+so you might get it in there.
+
+866
+00:58:54,570 --> 00:59:03,570
+现在因为你有一个专利，所以你可以看得到每个人，我们之后就不再他要论这个了。
+Well,
+and now you could see everyone because you own a patent and we won't discuss this further.
+
+868
+00:59:03,571 --> 00:59:14,280
+这个行业反击专利创建、专利的方式有很多。
+There are ways of how the industry fights back with a patent invention,
+patents,
+etc.
+
+871
+00:59:14,281 --> 00:59:18,210
+但是有的专利只是把公司当作诱饵，涉及空壳公司然后为自己的提起诉讼，   
+But patent trolls companies,
+shell companies set up only to
+
+873
+00:59:20,340 --> 00:59:26,010
+然后为专利费提出诉讼。
+litigate to own patents and litigate for license fees.
+
+874
+00:59:26,880 --> 00:59:42,090
+无论如何，前进的路上总要克服一些问题，从使用许可到一个法律协调的社区。
+Anyway,
+moving on,
+in order to overcome some of the problems that you get from just using licenses to a legally coordinated community,
+
+877
+00:59:42,091 --> 00:59:50,460
+开源基金会发展于贡献者许可协议以及贡献者协议。
+Open source Foundation started with inventing the notion of a contribution license agreement or a contributor agreement.
+
+878
+00:59:50,461 --> 01:00:09,300
+这是另一个法律文本，一份由你负责担保的合同，该合同使得基金会管理你的项目。
+That is another legal text,
+A contract in which you are the person who underwrites the
+contract, actually spells out the rights that you give to the foundation that is managing your project.
+
+881
+01:00:10,320 --> 01:00:18,240
+所以这不仅仅是为开源项目做贡献，还有一个公共许可。你同意软件许可吗？
+So not only by contributing to an open source project and the license on particular given license.
+do you agree to the license?
+
+883
+01:00:18,241 --> 01:00:20,610
+项目贡献者出租许可协议，
+These contributors lease license agreements.
+
+884
+01:00:20,611 --> 01:00:21,900
+此外，
+In addition,
+
+885
+01:00:21,901 --> 01:00:24,240
+他们可能还会要求你签字转让版权，
+make you sign over your copyright,
+
+886
+01:00:24,241 --> 01:00:27,480
+举个例子，将你对于软件的版权转移到开源基金会。
+for example,
+to the open Source Foundation.
+
+888
+01:00:27,481 --> 01:00:30,720
+这就是Apache软件基金会所做的事，   
+That is what the Apache Software Foundation does,
+
+889
+01:00:30,721 --> 01:00:37,650
+也是Eclipse基金会以及Free software foundation为项目所做的，
+the eclipse foundation does, even the Free software foundation for projects under their hood,
+
+890
+01:00:37,651 --> 01:00:40,350
+这意味着这些基金会是官方的，
+meaning where they are the official,
+
+891
+01:00:40,351 --> 01:00:44,070
+它们是该软件的官方守护者。
+but they are the official caretaker of the software.
+
+892
+01:00:45,420 --> 01:00:49,020
+你不必签署贡献者许可协议就可以使用该软件，
+You don't have to sign a contributor license agreement to use the software,
+
+893
+01:00:49,021 --> 01:00:56,100
+你也不需要签署贡献者许可协议对软件进行修改。
+you don't have to sign it to modify the software you just don't get your contribution until their space.
+
+894
+01:00:56,101 --> 01:01:00,150
+你总是可以对Apache的项目进行fork，然后做自己的事情。
+You can always fork Apache projects and do your own thing,
+
+895
+01:01:00,151 --> 01:01:06,540
+但是如果你不签署贡献者许可协议，你的代码就不放到Apache代码库中。
+but you will not get it into the Apache code repositories if you don't sign the contributor license agreement.
+
+896
+01:01:07,860 --> 01:01:18,300
+这其中还会涉及一个版权转移的问题，有时可能还要为软件重新设置相关许可，
+The two variants of it, there's the full blown copyright transfer where you transfer really, your copyright and then there's the relicensing rights grant or you grant
+
+897
+01:01:18,301 --> 01:01:23,220
+你可能要为基金会授予相关权利才能实现这个软件。
+the foundation of the rights to realize this software.
+
+898
+01:01:24,120 --> 01:01:50,460
+协议让基金会可以充当项目的所有者，在法庭上代表开源项目，而不是把开发者聚集起来。
+The purpose of these agreements is such that the foundation can act as the owner and represent the open source projects in court rather than having to draw on all thousands potentially developers to come together and agree on a strategy in contrast and caught, for example. So pretty much
+
+899
+01:01:50,461 --> 01:01:57,390
+所有的开源基金会都会在你为项目做出贡献之前要求你签署这个开源贡献者协议。
+all open source foundations require that you sign this
+contributor agreement before you can make a contribution.
+
+901
+01:01:58,680 --> 01:02:05,310
+因为现在存在着很多贡献者协议，所以有人试图把它们统一起来，
+Because there are so many contributor agreements out there,
+there was an attempt to unify them,
+
+903
+01:02:05,311 --> 01:02:07,350
+尽管我认为最终肯定会失败。
+and I think that failed though.
+
+904
+01:02:09,450 --> 01:02:13,170
+一些人认为只要有开源软件许可就足够了，   
+And some argue that the open source software license should be enough.
+
+905
+01:02:13,171 --> 01:02:19,920
+这些人也认为单一的法律实体不应该充当单一实体。 
+There should not be a single entity that can act as a single legal entity,
+
+906
+01:02:19,921 --> 01:02:22,020
+其他人明显不同意。
+but others obviously disagree.
+
+907
+01:02:22,021 --> 01:02:35,820
+Linux内核是在Linux基金会之外被开发出来的，是Linux开发好久之后Torvalds才被雇佣了。
+So then the Linux kernel because it was developed outside a foundation originally the Linux Foundation, Torvalds is now employed,
+came only much later after the Linux kernel development started.
+
+909
+01:02:37,140 --> 01:02:44,010
+Linux内核的开发使用了一种不同的贡献方式，其需要所谓的原始开发者证书，
+The Linux kernel uses a different approach that requires a so called developer certificate of origin,
+
+910
+01:02:44,011 --> 01:02:56,430
+开发者所做的贡献均与这个开发者证书联系起来了，
+but everything in the contribution by a developer is linked to this developer certificate and 
+
+911
+01:02:56,431 --> 01:02:57,390
+并且是电子版的开发者证书。
+electronically.
+
+912
+01:02:57,391 --> 01:03:11,220
+也就是意味着开发者对这些东西有一定贡献能力。
+The developer certifies that this holds true,
+meaning the developer actually programmed
+what they did have the rights to it and
+etc,
+etc.
+
+917
+01:03:11,221 --> 01:03:19,680
+然后在Linux内核中有一个进程，需要人们在其上签字。Linux内核中的补丁接收者，   
+And then there's a process in the Linux kernel where people sign off on this,
+ah,
+the recipient of the patch,
+
+920
+01:03:19,681 --> 01:03:21,870
+也可能是Linux内核的维护者，
+who may be a maintainer of the Linux kernel,
+
+921
+01:03:21,871 --> 01:03:26,370
+对于一些特定的职位，可能需要从项目的原始创建者那里获取。
+and some position,
+receiving it from the original creator,
+etc.
+
+924
+01:03:28,740 --> 01:03:35,790
+最后我想指出，软件许可是在不断发展的，
+All right, so finally,
+finally,
+there's to note that licenses evolve,
+
+927
+01:03:35,791 --> 01:03:43,980
+这里有GPL许可簇的例子，有很多的事情需要考虑。
+we have the example of the GPL family,
+and there are various things to consider.
+
+929
+01:03:43,981 --> 01:03:54,180
+之后你会有一个条款，条款将会允许你像Wikipedia实例那样解决问题而不是开源实例，  
+It's important that you have this later clause in there, because it allows you to fix problems as the Wikipedia case or not an open source case,
+
+930
+01:03:54,181 --> 01:03:56,790
+Wikipedia将会对这些实例重新进行许可认证。
+but as the Wikipedia relicensing case shows.
+
+931
+01:03:59,010 --> 01:04:00,870
+就像前面所叙述的那样，
+As noted already, you, 
+
+932
+01:04:00,871 --> 01:04:01,680
+你作为一个开源项目的所有者，
+as an owner,
+
+933
+01:04:01,681 --> 01:04:08,160
+你可以使用多许可的源码，这对于一个特定的商业模式来说非常重要，
+you can multiple license source code,
+and that will become important for a particular business model,
+
+935
+01:04:08,161 --> 01:04:11,700
+就像之后会提及的单一商业模型以及开源商业模型。
+the single and the open source business model
+later on.
+
+937
+01:04:14,460 --> 01:04:15,780
+我们之后会讨论未来课程的版本，比如许多组组件如何构成软件？
+You also didn't discuss,
+
+938
+01:04:15,781 --> 01:04:33,960
+拥有组合许可意味着什么？其中组合许可就是针对不同软件组件的不同许可。
+but we'll discuss in future versions of any future sessions, how software is built from many components and then what it means that you have to combine licenses, different licenses potentially for different software components,
+
+939
+01:04:33,961 --> 01:04:35,880
+你可以看到一个简单的例子，
+so you can see a simple example,
+
+940
+01:04:35,881 --> 01:04:47,520
+是一个简化的例子，你会看到开源组件Jetty, PostgresSQL，还有一个开放的JDK。
+here simplifying strongly, simplifying example,
+and you see free open source components Jetty, PostgresSQL,
+an open JDK or license differently,
+
+943
+01:04:47,521 --> 01:04:58,770
+应用程序之外有我一些开源组件，这些开源组件都是在许可之下的，你必须组合它们，   
+and one originally now also open source components outside an application that I built, licensed under yet for license and you have to combine them,
+
+944
+01:04:58,771 --> 01:05:00,300
+这样做可能有用也可能没用。
+and it may or may not work.
+
+945
+01:05:00,301 --> 01:05:09,480
+例如，Apache software license因为版权的问题就不能和GPL v2许可进行整合。
+For example,
+the Apache software license,
+cannot be integrated with
+GPL v2 to code for patent,
+
+949
+01:05:09,481 --> 01:05:13,770
+如果它是一个衍生工作，
+claws, reasons. If it was a derivative work,
+
+950
+01:05:13,771 --> 01:05:16,830
+但是这里没有，这个工作是稳定的，我认为它是协作工作。
+which it's not here,
+it's constant,
+I considered the collective work.
+
+953
+01:05:20,460 --> 01:05:29,880
+这里列出了最重要的一些许可，你可以看到它们之间的兼容性，   
+The most important licenses are listed here and you can see how there's compatibility between them,
+
+954
+01:05:29,881 --> 01:05:34,470
+可以了解到MIT许可是如何被纳入BSD许可中的？
+and we can see how MIT can be included in BSD,
+
+955
+01:05:34,471 --> 01:05:38,700
+现在BSD许可可以包含到Apache许可中，
+new BSD work
+can be included in Apache, the Apache work,
+
+957
+01:05:38,701 --> 01:05:50,340
+Apache许可可以包含到LGPL v3许可以及GPL v3许可中。
+license work
+can be included in LGPL license rock about v3 and GPL v3,
+etc.
+
+961
+01:05:50,341 --> 01:05:57,870
+但是这些许可之间的包含关系不能反过来，你只能顺着箭头走，你也不能反对。
+but it cannot go the other way around.
+You only can follow of the arrows here,
+you can't go against the else.
+
+964
+01:05:59,820 --> 01:06:03,450
+我要讲的就这么多，非常感谢你们听了这么久的讨论， 
+That's it for me,
+for now.
+Thank you very much for this lengthy
+
+967
+01:06:03,451 --> 01:06:10,560
+这个关于知识产权的讨论也是有些许冗长的。
+and probably not for listening in on this lengthy and probably not so easy intellectual property discussion,
+
+968
+01:06:10,561 --> 01:06:17,700
+但是，总的来说理解这些方面对于理解开源还是很有帮助的，
+but it is important to understand these aspects in General to understand
+open source and in particular,
+
+970
+01:06:17,701 --> 01:06:23,160
+之后的某些讲座我们仍会涉及到这些方面，
+to understand the various aspects and future lectures that we were touched upon,
+
+971
+01:06:23,161 --> 01:06:25,860
+可能会从工程流程到协作流程，然后到达商业模型，商业策略，商业策略打磨着商业行业。
+and they range from engineering processes,
+
+972
+01:06:25,861 --> 01:06:33,870
+collaboration processes all the way to the business models and business strategies that are now shaping the software industry.
+
+973
+01:06:33,871 --> 01:06:36,030
+再次感谢你，再见。
+Thank you again and see you in a bit.

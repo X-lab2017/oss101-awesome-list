@@ -1,0 +1,2850 @@
+0
+00:00:02,670 --> 00:00:13,770
+欢迎回到我们的课程，此课程是关商业业开源软件创业以及如何将其从大学教育中抽离出来。
+Hello,
+everyone and welcome to our course on commercial open source software startups and how to spin off such a startup from university.
+
+2
+00:00:13,771 --> 00:00:24,180
+我们现在是这门课的开始，正如课程主要有3个部分，其中主要的的部分是关于软件行业的。 
+We are at the beginning of the lectures for this course.
+The course has three main parts of which this one is about the software industry.
+
+4
+00:00:24,181 --> 00:00:28,200
+第一节课，就像你看到的那样，是关于软件行业的，
+The first lecture,
+as you can see,
+is exactly about the software industry,
+
+7
+00:00:28,201 --> 00:00:33,360
+然后是关于软件产品,然后是软件供应商的一门课程。
+followed by a lecture on some of the products then on software vendors.
+
+8
+00:00:33,361 --> 00:00:42,990
+最后是关于另一个话题，即关于软件供应商和相关公司的业务模型。
+And finally on another topic,
+specifically the business models underlying software vendors and related companies.
+
+10
+00:00:42,991 --> 00:00:47,310
+我是Dirk Riehle,我负责这门课程。
+My name is
+Dirk Riehle.
+I am your host and the creator of this course.
+
+13
+00:00:48,810 --> 00:00:54,090
+所以在第一阶段，持续时间大约是一个小时，我会澄清说明什么是软件。
+So in this first session of about an hour,
+we will clarify what software,
+
+15
+00:00:54,091 --> 00:00:57,540
+软件行业是怎样的？然后我们会了解下软件行业的历史，    
+what the software industry is. Look at its history,
+
+16
+00:00:57,541 --> 00:01:04,170
+这很有趣,然后我们会讨论在软件行业比较受欢迎的主要参与者。
+which is intriguing and then at the main players that populate this industry.
+
+17
+00:01:04,171 --> 00:01:14,520
+然后我们将软件产品看作这个行业的主要创造，其中也包含运营产品的相关服务。
+Then we will look at software products as the main creation or main creation of this industry
+including services to operate products.
+
+19
+00:01:14,521 --> 00:01:23,970
+我们将着眼于一种核心战略软件平台，以及软件生态体系所必需的必要支持。
+And we will look at two core or one core strategy software platforms and the necessary support they need by way of software ecosystems.
+
+20
+00:01:25,590 --> 00:01:30,030
+那么什么是软件呢？我确定你是有自己的想法的，
+So what is software?
+Ah,
+I'm pretty sure you have an idea.
+
+23
+00:01:30,031 --> 00:01:33,120
+特别是你们中的大多数人都是有工科背景的。
+In particular,
+most of you will have an engineering background,
+
+25
+00:01:33,121 --> 00:01:37,920
+从技术角度考虑，所以你可能会认为软件就是一系列指令集，  
+so you're probably thinking about software
+from a technical perspective,
+
+27
+00:01:37,921 --> 00:01:51,210
+就是其源代码的书写形式，其也可以被编译成二进制，以此可以指出计算机应该做些什么。
+It's instructions to make computer do something, can be an texture written form then its source code can be compiled than its binary bits,
+instructing a computer what to do.
+
+29
+00:01:52,200 --> 00:01:56,640
+这是很重要的想法，因为这算是比较相关的性质。
+And that is important because these properties will be relevant,
+
+30
+00:01:56,641 --> 00:02:00,510
+其实，软件是有很多组件组成的，
+later on. Software is built from components,
+
+31
+00:02:00,511 --> 00:02:07,560
+你把很多组件组合在一起，以此可以形成更大的程序以及服务等。
+you put components together to assemble larger and have a larger programs and services,
+and so forth.
+
+33
+00:02:09,300 --> 00:02:18,420
+接下来是工程学的技术定义，软件也是一个经济实体。   
+Next to this engineering perspective for technical definition,
+software is also an economic entity,
+
+35
+00:02:18,421 --> 00:02:26,490
+ 具体来说，我们称之为数字产品，其是一种可以买卖的产品，
+and specifically we call it a digital good and as a good it can be bought and sold,
+
+36
+00:02:26,491 --> 00:02:30,360
+软件产业基础的重要组成部分。
+which is a big part of the foundation of the software industry.
+
+37
+00:02:32,190 --> 00:02:36,300
+我不知道该怎么想你描述软件的重要性。
+I'm not sure I need to tell you much about the significance of software.
+
+38
+00:02:36,301 --> 00:02:39,420
+如今，它几乎无处不在。
+It's pretty much everywhere today.
+
+39
+00:02:39,421 --> 00:02:41,460
+软件不一定是可见的，
+Ah,
+it's not necessarily visible.
+
+41
+00:02:41,461 --> 00:02:50,490
+它可以存在于具体的物理设备之中，也可能就是软件在操纵者你汽车的中控平台。
+It's inside physical devices, it's in the infotainment stack that software that operates the center console of your car,
+
+42
+00:02:50,491 --> 00:02:57,060
+软件也可能操纵着你的移动电话，也可能操纵着运行医疗设备的工厂。
+or it's a mobile phone so it operates factories that operates medical devices.
+
+43
+00:02:57,061 --> 00:03:01,560
+所以说，软件在物理世界无处不在。
+All of these so software's everywhere in the physical world,
+
+44
+00:03:01,561 --> 00:03:06,810
+一个软件也可能是某个软件的组成部分，以及我们或许要去探索一下物质世界是如何运转的？  
+an integral part of how software
+how the physical world operates.
+
+46
+00:03:06,811 --> 00:03:15,870
+软件可以运行在电脑上，你可以为满足自己的某些需求而运行软件。
+Software is, its own thing in that it runs on computers and you run it for its own purpose,
+
+47
+00:03:15,871 --> 00:03:18,720
+如，你可以使用电子表格来进行统计计算的工作。
+so you run spreadsheets to do calculations,
+
+48
+00:03:18,721 --> 00:03:22,290
+软件也无需绑定在具体的物理设备上，
+and they don't need, they're not tied to physical device,
+
+49
+00:03:22,291 --> 00:03:26,730
+除非你在你自己的笔记本电脑或者工作站上运行相关软件。
+except that you run it on your laptop
+or some workstation.
+
+51
+00:03:26,731 --> 00:03:32,850
+现在，越来越多的软件被当作服务使用，
+And also
+increasingly software is operated as a service for you,
+
+53
+00:03:32,851 --> 00:03:41,190
+所以你无需把软件我在手中使用，其他人会帮你操作软件，你只需通过互联网访问软件即可。
+so you don't even hold that software in your hand any longer, someone else does that for you and lets you access it through the Internet.
+
+54
+00:03:41,191 --> 00:03:47,460
+所以这将是各种各样的服务，从电子邮件、社交媒体到游戏，   
+So that would be all kinds of services from emails for social media through games.
+
+55
+00:03:47,461 --> 00:03:49,140
+诸如此类。
+And as such,
+
+56
+00:03:49,141 --> 00:03:56,490
+软件是具有一定经济价值的，所以人们为它付费，人们可能会花费很多钱。
+it is economically valuable because people pay for it, pay
+significant amounts of money for it.
+
+58
+00:03:56,491 --> 00:03:58,050
+所以，渐渐地，
+So increasingly,
+
+59
+00:03:58,051 --> 00:04:02,970
+我们不仅使用软件，我们还生活在一个由软件住在的世界里。
+we not only using that we are living in a world dominated by software,
+
+60
+00:04:02,971 --> 00:04:09,240
+如果软件不能完成它应该做的事情 那么一切都会嘎然而止。
+where everything would come to a screeching halt if the software wouldn't do what it's supposed to do.
+
+61
+00:04:11,280 --> 00:04:18,990
+从商业角度考虑，软件的某种商业被称为软件供应商，  
+And so comes in the business perspective.
+Business says some type of business
+called vendors,
+
+64
+00:04:18,991 --> 00:04:21,360
+我们将看到那些被销售的产品。
+we will see that sell products.
+
+65
+00:04:22,200 --> 00:04:28,290
+所以软件首先是一种产品，这个产品是人造的，
+So software can be a product, first,
+a product is a man-made artifact,
+
+67
+00:04:28,291 --> 00:04:33,930
+我们以某种方式创造了这个软件产品，然后我们就可以在市场上把软件卖给客户。
+so we created somehow and then we sell it to customers in a market.
+
+68
+00:04:35,100 --> 00:04:38,880
+所以说，没有客户，就没有软件。
+Without customers,
+No product.
+
+70
+00:04:38,881 --> 00:04:41,610
+因为没有客户的话，你就不知道你的产品应该卖给谁，你也不能获取到相关产品了。
+If you don't have anyone to sell to,
+you don't have a product.
+
+72
+00:04:42,600 --> 00:04:53,460
+市场可以构建客户，对于很多产品而言，可能有不同类型的用户，所以销售方式就不同。
+Markets are already a way of structuring customers because there might be different types of customers in the products, may have to look differently depending on who you're selling to.
+
+73
+00:04:55,080 --> 00:04:59,490
+很重要的一个概念就是产品是具有生命周期的。
+Products, this is important later on, have a life cycle,
+
+74
+00:04:59,491 --> 00:05:03,900
+产品一经诞生，这样该产品就有了开始日期，
+which means they are born,
+so there's a start date for the product.
+
+76
+00:05:03,901 --> 00:05:07,140
+产品会不断成长，然后成熟，直至最后的消亡。
+They grow and mature and they may eventually die,
+
+77
+00:05:07,141 --> 00:05:10,350
+但是我们不知道该软件产品具体消亡的时间。
+but we don't know when they will die.
+
+78
+00:05:10,351 --> 00:05:19,350
+每个产品都承载着希望，最典型的情况是它可能需要尽可能长的时间才能收回最初的投资。  
+The hope,
+typically for every product is that, is that it's as long-lived as possible to recoup any investment into creating it in the first place.
+
+80
+00:05:19,351 --> 00:05:23,550
+因此，很少有公司在产品上注明终止日期。
+So rarely do companies put end dates on products.
+
+81
+00:05:25,590 --> 00:05:29,070
+一个软件产品，也就是一个产品。
+A software product,
+then is that, a product.
+
+83
+00:05:29,071 --> 00:05:35,100
+但是软件具体的形式明显不同于物理设备，
+But the specific properties,
+most notably, unlike say a physical device,
+ 
+85
+00:05:35,101 --> 00:05:44,100
+比如咖啡杯，它就可被当作一个产品进行出售。并且，百货商店让那件产品都是可见的。
+like a coffee mug that could be sold together as a product and department stores and software product is virtual,
+
+86
+00:05:44,101 --> 00:05:47,370
+软件产品具有知识产权，并不是物理上的。
+its intellectual properties,
+so it's not physical,
+
+88
+00:05:47,371 --> 00:05:49,170
+其实在某种意义上这也是一件好事。
+which in some sense is good.
+
+89
+00:05:49,171 --> 00:05:54,840
+比如软件产品就不会腐烂。
+No,
+it does not rot,
+that does not decay,
+or it is weird.
+
+93
+00:05:54,841 --> 00:06:07,470
+你几乎可以零成本创建软件产品副本，花费主要是第一份拷贝的花费，以及投资开发软件的花费。  
+You can create copies of software products at near zero cost. The cost is to get to that first copy of the software, the investment into developing the software.
+
+94
+00:06:07,471 --> 00:06:11,970
+但一旦你有了第一个人软件副本，再创造一个软件副本就不难了。
+But once you have that first copy creating, another copy is not that hard.
+
+95
+00:06:13,800 --> 00:06:19,920
+软件具有极强的可塑，改变起来相对容易，
+And software is also extremely malleable, can be changed comparatively easily,
+
+96
+00:06:19,921 --> 00:06:25,560
+我们之后可以根据自己的喜好修改软件产品。
+and that has its own consequences that are of interest to us later on.
+
+97
+00:06:32,040 --> 00:06:38,610
+那么，自然而然，软件产业是创造软件或将其转化为产品的地方，
+So then,
+the software industry that's the place that creates software or turns it into a product,
+
+99
+00:06:38,611 --> 00:06:42,630
+一旦软件产品出售后，会附带着提供产品相关的服务。
+sells it to you, provides services around these products.
+
+100
+00:06:43,800 --> 00:06:51,060
+软件行业是为你提供软件产品、相关服务的所有商业的集合，
+The software industry is the set of all businesses that provide you with these software products, provide you with these services,
+
+101
+00:06:51,061 --> 00:06:55,890
+与软件相关的服务可能是不同类型的。
+and these services around software can be of different type.
+
+102
+00:06:55,891 --> 00:07:04,500
+这些软件服务在替你操作软件，此外可以根据你的需要定制软件。
+Ah,
+they could be operating the software for you.
+There could be customizing the software for your needs,
+etc.
+
+106
+00:07:04,501 --> 00:07:17,340
+软件行业的参与者为自己都是这样做的，
+And the software industry or the players in the software industry do that,
+ah,
+for themselves
+as much as they do it for other industries that are not the software industry.
+
+110
+00:07:17,341 --> 00:07:22,140
+他们对于石油、天然气等能源、物流的行业都是这样服务的，
+Other industries are oil and gas so energy or logistics
+
+111
+00:07:22,141 --> 00:07:27,930
+对于广告行业以及其他行业也是如此。
+or automotive or advertising agencies that are other industries.
+
+112
+00:07:29,310 --> 00:07:32,940
+我们回过头来讨论一下软件行业，并不是我刚才所提及的其他行业，  
+The software industry,
+unlike some of the others I just mentioned,
+
+114
+00:07:32,941 --> 00:07:42,060
+软件行业于其他行业有所不同，其有自己的特性。
+is also different again or not so different in that simply has properties that not everyone has. Specifically,
+
+115
+00:07:42,061 --> 00:07:44,670
+比如软件行业具有高度集中化、高度国际化的特性，
+it's highly concentrated and highly internationalized.
+
+116
+00:07:44,671 --> 00:07:51,810
+这就导致了所谓的赢家的诞生，其可以对软件行业施以影响。
+So there is a so-called winner takes all effect that is happening.
+
+117
+00:07:51,811 --> 00:07:56,220
+如果你的软件或者软件公司的体量很大的话，
+It's if you are the big gorilla.
+
+118
+00:07:56,221 --> 00:08:08,340
+那么就很难与你竞争了，根据你现在的能力与职位，你将会得到越来越多的收入，
+Ah,
+then it's really hard to compete with you and you will increasingly the money the revenues flow to you just because of your power and position and ah,
+
+120
+00:08:08,341 --> 00:08:11,880
+这会让你立刻容光焕发。
+and that makes you immediately a glow or easily
+
+121
+00:08:11,881 --> 00:08:19,770
+作为一个全球化的国际运营公司，你不会被限制在一个特定的监管环境中。     
+a global
+internationally operating company,
+you're not tied down into a specific regulatory environment,
+
+124
+00:08:19,771 --> 00:08:31,170
+这就意味着在某些国家，尤其是一些小国家，软件的更新应该是很快的。
+meaning countries or even smaller demographics. Software's also quick to change,
+which means it has a high speed of innovation,
+
+126
+00:08:31,171 --> 00:08:39,570
+对软件进行修改和发展，你就会得到上一个软件的衍生品，变化很快。
+as a first derivative of modifying or developing software, it can change quickly.
+
+127
+00:08:39,571 --> 00:08:41,370
+因此，你可以快速创新。
+Hence you can innovate quickly.
+
+128
+00:08:42,630 --> 00:08:51,270
+我们也看到软件确实扩张到了一些新的领域。
+And also we see that software really is creeping or well expanding into new domains.
+
+129
+00:08:51,271 --> 00:09:05,010
+一直以来，你可以争辩说，你通常认为行业是相互毗邻的, 并且你可以把世界划分成某些不同的大行业。
+Ah,
+all the time and you can argue that while you usually think of industries as standing kind of next to each other ，and you segment the world into these big different industries,
+
+131
+00:09:05,011 --> 00:09:14,340
+你可以说，软件在其他所有行业中都起着越来越重要的基础性作用，
+you can argue that software is in every other industry and has a kind of foundational role increasingly. For these other industries,
+
+132
+00:09:14,341 --> 00:09:18,750
+正是这样才造就了软件行业这一与众不同的行业。
+which makes it a very unique and very different industry.
+
+133
+00:09:21,030 --> 00:09:32,190
+衡量企业规模的一个重要方法是了解一个行业在产品和服务上花了多少钱，   
+It's big, the way to look at size is to ask how much money is spent on products and services from an industry.
+
+134
+00:09:32,191 --> 00:09:38,460
+从外部视角来看，软件行业就是IT行业，
+The outside perspective on what I call here,
+the software industry is IT.
+
+136
+00:09:38,461 --> 00:09:43,530
+所以如果你不是来自软件行业的话，你可以了解一下，你绝对不会后悔。
+So
+if you are not from the software industry,
+you look at it,
+but you're an outsider.
+
+140
+00:09:43,531 --> 00:09:50,700
+软件行业通常被称为IT信息技术。所以对一家公司而言你应该有一定的预算。
+You look at the software industry and call them IT on information technology,
+and so you have a budget as a company,
+
+142
+00:09:50,701 --> 00:09:53,730
+比如一家金融服务公司，就比如银行，
+let's say a financial service company like a bank.
+
+143
+00:09:53,731 --> 00:10:03,810
+你在可以在IT方面估计一个预算，然后统计整个公司的累积预算，
+You have a budget to spend on IT and the accumulated budgets of all companies across this planet and consumers across this planet,
+
+144
+00:10:03,811 --> 00:10:10,440
+累计预算反应了软件行业的规模。
+the accumulated budget is the total market size of the software industry and its huge.
+
+145
+00:10:10,441 --> 00:10:22,620
+如你所见，全球金融服务公司的总花费是总花费是4000亿美元比2021年的预算花费要高。      
+As you can see here,
+the total spending in billion is 4,000 more than 4,000 billion US dollar expected 
+in 2021,
+
+148
+00:10:22,621 --> 00:10:25,980
+依据行业的说法，
+according to one industry
+player called Gartner,
+
+150
+00:10:25,981 --> 00:10:34,290
+其在脚注中提供了相关信息。 
+see the footnote who is a provider of materials information about this,
+
+151
+00:10:34,291 --> 00:10:37,110
+在软件行业以及其他行业之间，软件行业扮演着和弦的角色，
+the software industry and other industries.
+
+152
+00:10:37,111 --> 00:10:46,620
+所以说软件行业规模是巨大的，并且还处于不断增长的过程中。
+So it is huge and it keeps growing.
+These are pre-corona data.
+But if there was a ban,
+
+155
+00:10:46,621 --> 00:10:51,270
+有些行业从Corona品牌中获益，软件行业也实现了获益。    
+some industry that benefited from corona then it's the software industry,
+
+156
+00:10:51,271 --> 00:10:53,310
+因此软件行业的发展不会减速，
+so this will not have slowed down
+
+157
+00:10:53,311 --> 00:10:54,120
+恰恰相反，
+quite the opposite.
+
+158
+00:10:57,480 --> 00:11:08,760
+软件是非常重要的一个词语，也非常容易被记住，你或许刚从我这里听到“软件”这一概念。
+And this idea that you've just been hearing from me, that software is super important was nicely put or put in words that are easy to remember
+
+159
+00:11:08,761 --> 00:11:10,680
+在这个硅谷
+by this Silicon Valley,
+
+160
+00:11:10,681 --> 00:11:13,440
+AEG称呼Marc Andreesse，
+AEG had called Marc Andreessen,
+
+161
+00:11:13,441 --> 00:11:16,530
+其中Marc Andreesse是Andreessen Horowitz基金会的风险投资人，
+a venture capitalist of Andreessen Horowitz,
+
+162
+00:11:16,531 --> 00:11:22,920
+他特别难过的是，在2011年软件正在吞噬世界。
+and he notably said in 2011, software is eating the world.
+
+163
+00:11:22,921 --> 00:11:26,220
+他所要表达的与我前几页幻灯片所要阐述的类似。
+By that he meant what I said a few slides earlier,
+
+164
+00:11:26,221 --> 00:11:30,000
+软件可以应用到其他所有产品中，
+software makes it into every other product.
+
+165
+00:11:30,001 --> 00:11:34,740
+所以无论其他软件是什么，其可以作为一个软件的组件。
+So whatever the other product is,
+there is a software component to it,
+
+167
+00:11:34,741 --> 00:11:41,880
+因此来自另一个行业的产品如果被出售了，那么软件行业就会赚钱。
+and hence the software industry is earning money,
+if that other product from another industry is being sold.
+
+169
+00:11:41,881 --> 00:11:45,990
+软件无处不在，软件正在吞噬世界。    
+Software is everywhere, 
+software is eating the world.
+
+171
+00:11:47,490 --> 00:11:52,110
+但是也有一些来自传统公司的比较相反的观点，
+The inverse perspective comes from traditional companies who then realize,
+
+172
+00:11:52,111 --> 00:11:56,640
+我们不仅需要软件来运作我们的产品、服务，
+oh,
+not only do we need software for our operations,
+
+174
+00:11:56,641 --> 00:12:03,960
+我们还要将软件作为我们商业模式中不可或缺的一部分，我们并不是一家软件公司。
+you really need to make them an integral part of our business model.
+We cannot not be a software company,
+
+176
+00:12:03,961 --> 00:12:11,040
+Jeff Immelt，前通用电气前首席执行官曾这样表示，
+that's Jeff Immelt, now the former CEO of General Electric,
+
+177
+00:12:11,041 --> 00:12:19,560
+我们公司需要成为一家信息化公司，更明确地表述就是我们需要成为一家软件公司。
+saying that,
+needs to be an information business and later on saying very explicitly,
+
+179
+00:12:19,561 --> 00:12:24,780
+当然，我们也有自己的传统产品，    
+it needs to be a software company as well. Next to, of course,
+having its tradition products
+
+181
+00:12:24,781 --> 00:12:35,820
+这也要求公司成长为一家软件公司，地球上的每一家大公司都是如此。
+but it also needs to be a software company,
+and that is true for about every large company on this planet
+more or less these days.
+
+184
+00:12:35,821 --> 00:12:42,060
+德国最近的一个例子就是volkswagen，该公司为了软件发展因此创立了相关业务部门。
+Recent example of Germany is volkswagen,
+creating its own business unit just for software development.
+
+186
+00:12:43,020 --> 00:12:51,210
+所以他们意识到他们必须要从软件的角度来思考汽车。
+And so they realized that they need, they have to think the car as you as they say from the software perspective.
+
+187
+00:12:54,030 --> 00:13:04,020
+这就是看到软件正在吞噬一切后的一个衍生想法，有可能在一个产品中不止一个软件。
+There's the first derivative of this observation that software is eating everything,
+which is that not only a software in every product.
+
+189
+00:13:05,640 --> 00:13:13,470
+软件也不同于该产品的其他部分，其实数字化的，可见的，   
+Software is also different from the other parts of that product,
+then in that its digital virtual
+
+191
+00:13:13,471 --> 00:13:16,770
+就像我之前所解释的那样。伴随着较高的软件创新速度，
+and as I explained,
+comes with this high innovation speed.
+
+193
+00:13:18,270 --> 00:13:27,900
+你可以思考一下物理设备是如何运行相关电路的，设计一个电脑，并使这个物理设备成熟。
+Think about some physical device doing whatever circuits,
+designing a circuit, manufacturing the thing,
+
+195
+00:13:27,901 --> 00:13:33,810
+把该产品推向市场取决于这个产品本身，可能需要几周的时间走向市场，
+putting it out into the market depends on the device but weeks
+
+196
+00:13:33,811 --> 00:13:37,110
+也可能需要几个月，也可能需要几年。
+certainly more likely month,
+sometimes years.
+
+198
+00:13:38,310 --> 00:13:49,440
+而对于软件而言，只需按下一个按钮，软件就可以在几分钟甚至几秒钟内编译并部署到产品中。
+Software at the push of a button can be compiled and deployed to a product within minutes and sometimes seconds.
+
+199
+00:13:49,441 --> 00:13:58,200
+因此软件有一个更高的交付速度，你可以更快地进行创新。
+Software has thereby a higher,
+much much higher delivery speed,
+so you can innovate much much faster.
+
+202
+00:13:59,280 --> 00:14:05,820
+因此，我们的软件不仅被应用到所有这些产品中。   
+As a consequence,
+not only is software making it into all these products.
+
+204
+00:14:05,821 --> 00:14:09,240
+软件也正在从这些现有的产品中被排挤出来，
+Software is pushing out of these existing products
+
+205
+00:14:09,241 --> 00:14:17,010
+因为之前的很多功能都是在硬件中实现的，而硬件的更新是很慢的。
+traditional features that were done in
+hardware, because hardware was so much slower to change.
+
+207
+00:14:17,011 --> 00:14:19,920
+因此如果你想保持创新的速度，
+If you need to keep up the speed of innovation,
+
+208
+00:14:19,921 --> 00:14:31,920
+你就要替换传统的物理组件，就像你为产品购买软件一样，可以使用“隔空升级”的方式，
+you will replace your old traditional physical components in a product，as much as you can by software, because using over-the-air updates or any form of on-demand
+
+209
+00:14:31,921 --> 00:14:34,350
+或者根据需求持续部署、持续交付，
+deployment or continuous delivery
+
+210
+00:14:34,351 --> 00:14:36,030
+你可以使用任何一种形式。
+using any of these forms,
+
+211
+00:14:36,031 --> 00:14:41,490
+这样你可以加速产品创新，因为某些产品正在为客户提供服务。
+you can speed up the innovation in your products out there as they are doing the services' customers.
+
+212
+00:14:41,491 --> 00:14:46,440
+我称之为对于Andreason引言的第一次衍生，  
+I call this the first derivative of Andreason's quote of software is
+
+213
+00:14:46,441 --> 00:14:51,240
+软件正在吞噬世界，软件也在淘汰部分现有产品，
+eating the world. Software is kicking out parts of existing products
+
+214
+00:14:51,241 --> 00:15:02,250
+或者取代部分现有产品。因为软件具有独特的特性，软件更容易修改、更容易部署和交付。
+replacing it because of its unique property to be so much easier to change, so much easier to deploy, so much easier to deliver.
+
+215
+00:15:02,251 --> 00:15:08,340
+软件的经济价值来自于开发阶段对于软件的投资，
+The economic value are from any investments among programming that went into this.
+
+216
+00:15:11,250 --> 00:15:12,300
+除此之外
+And beyond that,
+
+217
+00:15:12,301 --> 00:15:19,500
+我们已经知道软件不仅仅是重要的，它还是一个重要的社会工具。
+we know, we already know all of this software is not just important,
+it's in society that
+
+219
+00:15:20,580 --> 00:15:24,990
+它就像是一把双刃剑，既可以做好事，也可用来做坏事。
+it is a tool like a tool that can be used for good or bad.
+
+220
+00:15:24,991 --> 00:15:34,590
+软件可以赋予你很多力量，软件可以赋予你宗教领袖般的权利，它让你充满能量。
+It can empower you and it can put you into a gurus,
+it can put you into a strait jacket.
+
+222
+00:15:34,591 --> 00:15:39,960
+因为软件的存在，你可以拥有高效的金融服务系统。     
+You can have the highly efficient financial services system because of software,
+
+223
+00:15:39,961 --> 00:15:53,580
+把你放在社会信用体系下，可以阻止你获取银行贷款。软件在践行自己的路线，其融入了社会。
+and we can also put you under a social credit system which prevents that you'll ever get a bank loan if you needed. So it is really making its way, has made its way into society,
+
+224
+00:15:53,581 --> 00:15:59,250
+软件也可以用于实现人们之间的联系与隔离。
+but can be used for better good to connect people and to isolate people,
+
+225
+00:15:59,251 --> 00:16:05,310
+软件可以让人们互相了解彼此，但是也可以将人们相互隔离开来，
+to let people learn about other human fellow beings and to put people into a bubble
+
+226
+00:16:05,311 --> 00:16:12,150
+隔离阶段的人们不会收到来自他们所厌恶的某些人的信息。
+where they never hear anything from,
+unlike those from anyone else who has not like them.
+
+228
+00:16:13,830 --> 00:16:17,370
+在我看来，有一点很重要，
+Ah,
+ah,
+one important thing to say here in my opinion,
+
+231
+00:16:17,371 --> 00:16:24,300
+在工作中我们所使用的东西比如互联网和电子邮件已经成为了基本的工具，
+is that all of this to work on things like internet and email have become basic utilities,
+
+232
+00:16:24,301 --> 00:16:30,120
+就像是电和煤气一样，这些资源为你家供能。
+just like electricity and gas,
+or so to power your home.
+
+234
+00:16:37,170 --> 00:16:50,160
+相比较而言，软件行业并没有那么衰老，“软件”这一个属于第一次提及是在1959年，   
+The software industry is comparatively speaking,
+not so old.
+The term "software" was first mentioned in 1959 and software
+
+237
+00:16:51,150 --> 00:16:58,440
+软件作为独立实体走进人们的视野是在1969年。
+has its own independent entity came into being or into the minds of people in 1969
+
+239
+00:16:58,441 --> 00:17:09,630
+那一年，美国司法部宣布了一个具有里程碑纪念意义的事件，就是把硬件和软件分离开来。
+when the US Department of Justice are cast
+a landmark decision which separated hardware from software. Until then,
+
+241
+00:17:09,631 --> 00:17:12,990
+直到当时，硬件和软件还被任务是不可分割的。
+hardware and software were viewed as inseparable.
+
+242
+00:17:12,991 --> 00:17:23,250
+这一决定之后，硬件和软件就是两个分离的组件并且可以独立出售，
+After that decision,
+people realized that these are two separable components that can be sold individually and in
+
+244
+00:17:23,251 --> 00:17:29,400
+并且在某些情况下，这两个组件不需单独出售，否则就违背了“反垄断诉讼”法。
+some cases,
+must be sold individually to avoid
+ah,
+antitrust lawsuits.
+
+248
+00:17:30,510 --> 00:17:41,610
+在接下来的几十年里，我们看到了软件的快速发展，直至今天的云计算。   
+Over the course of the next decades,
+we then saw the rapid development of software on all the way to today's cloud computing.
+
+250
+00:17:41,611 --> 00:17:52,320
+我们看到不同的架构主导了这个行业，以及产品是怎样分割并出售给用户的。
+We saw that different course architectures dominated the industry and how products were cut and sold to customers.
+
+251
+00:17:52,321 --> 00:17:57,570
+在80年代，我们最初的想法就是是纵向整合。
+In the 80s, we've had initially is something called Vertical integration,
+
+252
+00:17:57,571 --> 00:18:09,930
+然后公司构建了一整套所谓的客户解决方案，这就变成了一种横向整合的最佳状况。
+where companies built complete stacks of a so-called customer solution.
+and that changed to a best of breed situation where there was horizontal integration.
+
+254
+00:18:09,931 --> 00:18:14,430
+之后我们将会讨论不同软件供应商的组件。
+Layers of components from different vendors I'll discussed that in a bit.
+
+255
+00:18:15,300 --> 00:18:22,890
+我们看到了“垄断者”的出现，例如Miscrosoft的windos系统，
+We also saw the emergence of monopolists,
+at least for a bit and most
+notably windows of Microsoft's Windows,
+
+258
+00:18:22,891 --> 00:18:26,730
+其是90年代的主流操作系统。
+as a dominant operating system in the 90s.
+
+259
+00:18:26,731 --> 00:18:33,180
+但是在2000年的时候我们再次看到了开源软件的多元化以及开源软件的增长，  
+But in the 2000s already
+we saw more of diversification again and the growth of open source software.
+
+261
+00:18:35,310 --> 00:18:45,030
+自2010年到2020年，我们已经看到云计算是如何吞噬世界的。
+In the 2010s or going into the 2020s,
+we see how cloud computing is eating the world,
+
+263
+00:18:45,031 --> 00:18:51,390
+这似乎是一种复古的潮流，至少目前的开源软件的一部分遵从上世纪80年代的垂直一体化。
+which brings back,
+at least in parts the vertical integration of the 1980s.
+
+265
+00:18:51,391 --> 00:18:54,510
+那么这意味着什么呢？
+So what does that mean?
+
+266
+00:18:54,511 --> 00:19:05,100
+其实，真正重要的是代大型软件是如何执行任务的？以及这个大型软件是如何构建的？
+It's actually important to understand how large software systems that do a job for a user are structured,
+
+267
+00:19:05,101 --> 00:19:11,160
+特别地，我们需要理解垂直整合和水平整合之间的区别。
+and in particular,
+we need to understand the difference between vertical and horizontal integration.
+
+269
+00:19:11,161 --> 00:19:21,510
+在过去，在1980年左右，     
+In the olden days,
+so in until the 1980s roughly or into the 80s as well.
+
+271
+00:19:21,511 --> 00:19:33,150
+软件供应商IBM，国际商业机器公司，以及DEC，数字设备公司，都想为客户提供解决方案。
+Product vendors like IBM, International Business Machines and DEC, digital equipment corporation would provide complete solutions to customers.
+
+272
+00:19:33,151 --> 00:19:36,630
+解决方案就是此处组合的一些事情，
+The solution is this combined thing here,
+
+273
+00:19:36,631 --> 00:19:41,370
+它能满足顾客的一切需求，然后他们就完全满足了顾客需求。
+which does everything the customer wants,
+and then they are fully satisfied,
+they don't need anything else.
+
+276
+00:19:42,240 --> 00:19:50,370
+这样的解决方案包括许多组成部分，每个工作在上面的人员都可以看到。
+Such a solution consisted of many components logically that was visible to everyone who worked on it,
+
+277
+00:19:50,371 --> 00:20:02,940
+比如，你如何创建不同的团队因为你需要不同的技能来构建硬件而不是构建计算机硬件？
+because that's,
+for example,
+how you would create different teams because you would need different skills to build hardware not to build the computer hardware.
+
+280
+00:20:02,941 --> 00:20:06,900
+对此，你需要一套技能，主要是电气工程技能。
+Ah,
+you needed one set of skills,
+mostly electrical engineering skills,
+
+283
+00:20:06,901 --> 00:20:14,250
+并且你还需要操作系统以及编程相关的技能。
+but then you would also need an operating system so you need programming skills, systems
+programming skills but then 
+
+285
+00:20:14,251 --> 00:20:19,020
+你还需要一个真正为客户服务的业务应用程序，
+you also needed a business applications that actually do something for the customer,
+
+286
+00:20:19,021 --> 00:20:20,580
+这就是软件应用开发技能，
+and so that would be application
+
+287
+00:20:20,581 --> 00:20:25,230
+与此同时你还应该了解消费者客户的商业需求。
+development skills and understanding of business needs of customers,
+etc.
+
+289
+00:20:25,231 --> 00:20:27,750
+所以你需要有这些技能。
+So you'd have these layers.
+
+290
+00:20:27,751 --> 00:20:30,660
+所以软件供应商等公司可以把这些技能整合在一起，  
+But they would all be put together.
+
+291 
+00:20:30,661 --> 00:20:39,690
+然后通过同一家软件供应商进行整合，组合成一个软件安装包，然后卖给消费者。
+and developed and put together by the same vendor into one coherent package that was being sold to customers. As a consequence,
+
+292
+00:20:39,691 --> 00:20:46,050
+在80年代早期，IBM和DEC实惠相互竞争，
+in front of a customer in the 80s,
+still,
+IBM and DEC would just compete.
+
+295
+00:20:46,051 --> 00:20:50,970
+要们全卖，要么全不卖。
+And it would be all or nothing on sale.
+
+296
+00:20:50,971 --> 00:20:51,510
+在这一点上
+In that,
+
+297
+00:20:51,511 --> 00:20:56,730
+所以一个顾客可能会说，我要么去IBM，我要么去DEC，当时的情况就是这样，
+the customer would say I go with IBM, I go with Digital Equipment Corporation,
+and that's it.
+
+299
+00:20:57,690 --> 00:21:07,680
+但是在90年代，事情就发生变化了，用户和客户不再喜欢原来的垂直集成，   
+Now that changed in the 90s when
+users and customers didn't like the original vertical integration any longer.
+
+301
+00:21:07,681 --> 00:21:14,130
+也就是用户不在喜欢纵向整合的产品，
+What they didn't like is that in vertical integration,
+
+302
+00:21:14,131 --> 00:21:17,580
+即所有东西都必须来自同一家供应商。
+everything had to be from the same vendor.
+
+303
+00:21:17,581 --> 00:21:28,620
+一切东西都必须是最好的，这就意味着IBM或者DEC在这些所谓的技术栈上需要变得更好。
+All right,
+and everything had to be good,
+so that meant that IBM or DEC needed to be good really
+on all these layers of the so-called technology stack,
+
+307
+00:21:28 ,621 --> 00:21: 39,780
+他们需要开发从不出错或很少出错的优秀硬件 需要使操作系统不会死机。
+they needed to develop great hardware that never fails or rarely fails and needed to develop a superb operating system that wouldn't stop applications dead in their tracks.
+
+308
+00:21:39,781 --> 00:21:42,990
+与此同时，这些软件供应商还应该了解客户对应用程序的需求，
+They would need to understand the customer needs for the application.
+
+309
+00:21:42,991 --> 00:21:47,190
+即消费者同情心，如果你之前没有建立的话你现在是没有这个品质的。
+So custom empathy which you usually don't have if you're building,
+
+310
+00:21:47,191 --> 00:21:49,980
+其中，这些软件供应商主要是做硬件之类的。
+but mostly doing hardware and so forth.
+
+311
+00:21:49,981 --> 00:22:12,420
+所有技能都集中在公司中非常困难，在90年代已经验证过了，所以替代方案就是水平集成。       
+So having all these skills in one building in one company is actually really hard as a consequence in the 90s, an alternative solution developed so called horizontal integration were the vendors started to specialize on the different layers of this stack.
+
+312
+00:22:12,421 --> 00:22:23,640
+可以看到层次结构，硬件是一层，操作系统一层，应用程序又是一层，定制服务又是另一层。
+So you really can see the layers here where hardware is one layer, operating system is one layer, application is one layer and then actually customization services on top of it are yet another layer.
+
+313
+00:22:25,110 --> 00:22:37,260
+水平集成意味着你必须在这些层之间引入定义好的接口，
+And horizontal integration meant that you had to introduce defined interfaces between these layers so that a different vendor,
+
+314
+00:22:37,261 --> 00:22:44,820
+这样就使得不同的软件供应商、不同的公司可以在不同公司的硬件上构建操作系统，
+a different company,
+could build an operating system on the hardware different from the company,
+
+316
+00:22:44,821 --> 00:22:46,230
+这些公司创建了硬件。
+which created the hardware.
+
+317
+00:22:46,231 --> 00:22:53,340
+这样Miscrosoft就可以为不同的硬件开发操作系统，
+So Microsoft could develop an operating system for hardware produced,
+
+318
+00:22:53,341 --> 00:22:57,960
+这些可以是IBM生产的，也可以是DEC生产的，甚至可以是Samsung生成的。
+created and produced by IBM or DEC,
+or even Samsung,
+possibly today.
+
+321
+00:22:58,950 --> 00:23:10,170
+这是唯一被定义的很好的接口，这些接口很好理解。然后微软就可以成为了专门开发操作系统的公司， 
+And this was only possible was nicely defined interfaces that were well understood,
+and then Microsoft could become the company that specialized in developing an operating system.
+
+323
+00:23:11,820 --> 00:23:19,830
+这就是所谓的“最佳品类法”，因为现在消费者可以逐层选择每一层的服务，
+And that's the so-called best of breed approach because now a customer can chose in each of the layer,
+
+324
+00:23:19,831 --> 00:23:22,020
+可以是软件、也可以是产品，
+the software or the product,
+
+325
+00:23:22,021 --> 00:23:26,280
+也可以是用户所偏好的硬件。
+the hardware that they like best. So they could,
+ 
+327
+00:23:26,281 --> 00:23:38,970
+然后用户就可以在自己的电脑上，比如windows系统上运行word软件，可以说是量身定做。
+could use Microsoft word on Windows running on their computers,
+and then there were high Accenture to customize it for their needs maybe. So,
+
+329
+00:23:38,971 --> 00:23:49,650
+这些东西的最终堆栈组合是从用户需求出发的，
+this way,
+the resulting stack combination of these things would be really,
+really good on each layer are at least according to customers and their needs.
+
+332
+00:23:49,651 --> 00:23:53,250
+这其中也是蕴涵了很多的挑战，这就可能导致最终的集成效果不好。
+But of course there was the challenge that may be
+the integration didn't quite work out,
+
+334
+00:23:53,251 --> 00:23:56,040
+这就是为什么接下来我还有服务要去讲。
+so well which is why I still have services.
+
+335
+00:23:57,540 --> 00:24:03,990
+我们可以看到，在每层之间，
+And we see actually,
+that this back and forth between on each layer,
+
+337
+00:24:03,991 --> 00:24:07,560
+我想要的是最好的水平整合，
+I want the best that would be horizontal integration.
+
+338
+00:24:07,561 --> 00:24:13,080
+我需要一切组件协同配合，这就是所谓的“纵向整合”。
+And then I also need everything to work together smoothly,
+that would be vertical integration.
+
+340
+00:24:13,081 --> 00:24:16,380
+现在注意存在着些许的摆动，   
+That attention is right now
+
+341
+00:24:16,381 --> 00:24:26,730
+因为“云计算”使用了些许“纵向整合”, 然后你就可以看到所谓的“超级学者”，
+making the pendulum swing back at least a little vertical integration with cloud computing, so you can see how the so-called hyperscholars,
+
+342
+00:24:26,731 --> 00:24:30,210
+这就是云计算服务提供商。
+meaning cloud computing services provider,
+
+343
+00:24:30,211 --> 00:24:40,110
+从硬件开始，我们就可以构建更多垂直集成的产品，这些产品不一定会延伸到应用程序中去。
+starting from the hardware are building up more vertically integrated products that don't necessarily reach into the applications,
+
+344
+00:24:40,111 --> 00:24:46,380
+虽然Google也是这样做的，但是Google知识覆盖了较低层，
+though some of Google does but clearly cover the lower layers,
+
+345
+00:24:46,381 --> 00:24:49,260
+比如基础设施平台层。
+so infrastructure platforms,
+
+346
+00:24:49,261 --> 00:24:50,220
+在某种程度上，软件就是所谓的服务。这在现实生活中可能是非常复杂的，   
+and to some extent 
+
+347
+00:24:50,221 --> 00:24:53,430
+also software, as a service, as it's called then.
+
+348
+00:24:55,200 --> 00:24:58,980
+The complexity of this in real life is amazing.
+
+349
+00:24:58,981 --> 00:25:00,510
+正如你在这里所看到的，
+What you can see here，
+
+350
+00:25:00,511 --> 00:25:09,660
+这张图片来自Computing Foundation基金会的Cloud native网站，
+it was taken from Mars from the website of the Cloud native of Foundation Computing Foundation,
+
+351
+00:25:09,661 --> 00:25:18,150
+从不同方面描绘了不同的组件。
+a show-and-tell picture of the different components for different aspects of maintaining a cloud computing stack.
+
+352
+00:25:18,151 --> 00:25:19,230
+如你所见，
+And as you can see,
+
+353
+00:25:19,231 --> 00:25:25,860
+这个技术栈包含几百个组成任务，这还是不完整的。你其实可以对其进行进一步的分解，
+it's just hundreds of components.
+this is not complete and you can break it down further,
+
+355
+00:25:25,861 --> 00:25:31,470
+所以将这些组件组合起来是一项非常复杂的任务。
+so it's just a large,
+complex undertaking to put all of this together.
+
+357
+00:25:31,471 --> 00:25:37,230
+其实现实情况要比我那些简化幻灯片上说明的情况复杂得多，  
+Reality is always a much more complicated than my simplifying slides can illustrate.
+
+358
+00:25:39,870 --> 00:25:50,100
+当你回顾经济发展的历史时，一开始可能是红利，
+And when you look about the, look back on the economic history of the It industry,
+we need to take note of
+A bust while initially a boom,
+
+361
+00:25:50,101 --> 00:26:05,730
+然后就变成了泡沫，在2000难早期人们才真正广泛地意识到这个事实。
+so that turned into a bubble that then burst, the so-called dot-com bubble in the late 90s and early 2000s, people back then for the first time
+really realized broadly,
+ 
+363
+00:26:05,731 --> 00:26:15,840
+这意味着故事已经注意到了普通民众，IT行业已经出的了很大胜利，
+meaning stock markets took notice for regular people that the IT industry is winning.
+
+364
+00:26:15,841 --> 00:26:21,930
+并且伴随着互联网的诞生，软件正在成为新兴事物。
+big and so with the Internet being the new thing on the block.
+
+365
+00:26:21,931 --> 00:26:37,410
+人们疯狂地投资，最终变得相当狂热，人们没有基于现实，然后其他投资泡沫的破灭接踵而来。
+People invested, invested like crazy until eventually became so overheated that people realized that this may not actually be based in reality and other investment bubble burst.
+
+366
+00:26:37,411 --> 00:26:50,040
+你可以看到这张纳斯达克综合指数总市值的图表，你看一下由软件行业所组成的股票指数，   
+You can see here a chart of the total capitalization of the NASDAQ Composite Index and
+stock index consisting of of software industry
+players mostly.
+
+369 
+00:26:50,041 --> 00:27:02,940
+你可以看到2000年或近2000年纳斯达克综合指数在5000左右，
+You can see in 2000 or near 2000 at the height of the bubble, the value of the NASDAQ was composite index was at around 5000,
+
+370
+00:27:02,941 --> 00:27:06,000
+三年后其下降到了1000，
+and then it fell to 1000 three years later.
+
+371
+00:27:07,530 --> 00:27:20,370
+20年后，其又变成了12000。所以你可以看到它已经从破裂的泡沫中恢复过来了。
+Twenty years later,
+it's a twelve thousand or rough nearly at twelve thousand,
+and so you can see it has recovered nicely from the dot-com bubble,
+and burst,
+
+375
+00:27:20,371 --> 00:27:30,210
+而在2008年到2008年之间又出现了一次经济衰退，但是此时IT软件行业已经卷土重来了。 
+there was another recession in between around 2008.
+But IT or the software industry has come back really well,
+really nicely.
+
+378
+00:27:31,260 --> 00:27:51,060
+在图表的右边你可以看到这个行业的主要参与者，那么谁是主要的参与者呢？
+And here on the right,
+you can also see the main players of that of that industry.
+of that in that index not of that industry.
+So who are then the main players?
+
+382
+00:27:51,061 --> 00:27:58,110
+我先对它们进行分类，其中包含标准化产品的供应商，
+Let me first classify them.
+So there are the providers of standardized products.
+
+384
+00:27:58,980 --> 00:28:05,940
+这意味着他们向市场出售相同的东西。
+And what that means is they are selling the same thing to a market, more or less the same thing to a market.
+
+385
+00:28:07,770 --> 00:28:14,400
+其中一部分是所谓的独立软件供应商，
+And one part of these are the so-called independent software vendors,
+
+386
+00:28:14,401 --> 00:28:21,450
+所以软件供应商就是软件的开发者，然后这些软件供应商再把软件卖给顾客。
+so software vendors are the developers of software.
+Ah,
+ah,
+which they then sell on to customers,
+
+390
+00:28:21,451 --> 00:28:23,910
+还有其他的标准化产品供应商，   
+the other standardized product providers,
+
+391
+00:28:23,911 --> 00:28:35,580
+比如云服务提供商。通常情况下你可以订阅这个服务，然后你就可以使用软件、服务了。
+are cloud service providers who operate software, so you typically these days subscribe to that service and then you can use,
+ah,
+use that service
+and the software.
+
+395
+00:28:36,570 --> 00:28:38,460
+他们有时被称为互联网公司，
+They are sometimes called the Internet companies.
+
+396
+00:28:38,461 --> 00:28:45,210
+反正有很多名称，所以有时候对于这些产品供应商的叫法可能不是很清楚。
+There's a lot of names going around and not always clear.
+
+397
+00:28:45,211 --> 00:28:54,000
+由于云服务提供商通常是自己开发软件，因此相互依赖关系很强。
+There is obviously strong interdependence because cloud service providers often or usually these days develop their own software.
+
+398
+00:28:54,001 --> 00:28:59,130
+所以这些服务很有能被合并给独立软件开发商或者云服务提供商。
+So it's merged at the hip to be both ISV,
+and a cloud service provider.
+
+400
+00:29:00,480 --> 00:29:06,270
+除了提供这些标准化的产品之外，也包含一些定制化的产品， 
+Next to the provision of these standardized products,
+there are customized products,
+
+402
+00:29:06,271 --> 00:29:12,300
+这意味着为客户做的产品服务是针对客户的。
+meaning work done for customers that's specific to the customers.
+
+403
+00:29:12,301 --> 00:29:16,020
+主要是两种类型，总的来说这些都是软件咨询公司。
+And there are two types,
+so in general these are the software consulting firms,
+
+405
+00:29:16,021 --> 00:29:36,510
+分别是“软件开发公司”，进行定制化的软件开发；其次就是“实施服务公司”，调整现有软件。
+and then there are two types which other development services firms and so they develop custom software, and then then the implementation services firms, these are firms that take an existing standard product and make it work, adjust it for the customer.
+
+406
+00:29:37,680 --> 00:29:49,620
+下一个就是核心软件咨询公司，世界上存在着很多的非盈利组织，   
+Next to
+these core companys' product vendors,
+consulting firms,
+there are non-profit organizations that make the world turn,
+
+410
+00:29:49,621 --> 00:29:55,260
+这是带来规范和标准的某些组织。
+and these are Standards
+organizations which bring us norms and standards.
+
+412
+00:29:55,261 --> 00:30:00,810
+监管机构的主要职责就是监管市场，
+The Regulatory bodies which regulate the market,
+
+413
+00:30:00,811 --> 00:30:08,760
+通常这是一个政府机构和或者政府认证机构，这些认证机构会定义一些认证项目，
+usually these are governmental agencies and then there are Certification agencies who define certification programs,
+
+414
+00:30:08,761 --> 00:30:11,760
+这也通常是基于标准组织的相关输出来进行认证的。
+usually based on the output of the Standards
+organizations.
+
+416
+00:30:13,080 --> 00:30:22,410
+这里是维基百科上的相关清单，其列出了十大最大的独立软件供应商。  
+So here are by a list from Wikipedia,
+the top 10 largest independent software vendors.
+
+418
+00:30:22,411 --> 00:30:33,090
+所以那些持有传统产品并将其卖给消费者的公司，如你所见，基本都是美国的公司。
+So companies
+who have traditional software products they sell to customers and,
+as you can see,
+it's strongly dominated by American companies.
+
+422
+00:30:33,091 --> 00:30:35,940
+美国的Microsoft公司就在其中。
+Microsoft of these American companies here.
+
+423
+00:30:35,941 --> 00:30:45,480
+其中有七八家公司都位于美国硅谷。所以你可以这样说，
+So in these 10 of these 10,
+there are eight American companies of these eight seven are based in the Silicon Valley. So you can argue it's 
+
+425
+00:30:45,481 --> 00:30:49,860
+不是美国，实际上是硅谷，掌控着这里的世界。
+not
+U
+U.S., 
+it's actually Silicon Valley,
+which runs the world here,
+
+430
+00:30:49,861 --> 00:30:58,710
+除了微软，其实微软来自Seattle，但是围绕在硅谷有个子公司。  
+with the exception,
+maybe of Microsoft,
+who is based out of a Seattle but of course,
+has a subsidiary in Silicon Valley.
+
+434
+00:31:00,120 --> 00:31:12,780
+里不包括像IBM这样拥有强大咨询机构的公司，这些公司可能专注于云计算。
+Not included here are companies with a strong consulting arm like IBM,
+or the Internet companies meaning
+those who focus on cloud computing.
+
+437
+00:31:12,781 --> 00:31:22,620
+这这也会涉及到一个分类问题，互联网公司并不小，你可以看到右边的几个例子。
+That's a classification problem.
+These internet companies are not small,
+you can see some examples on the right here.
+
+440
+00:31:22,621 --> 00:31:27,240
+比如谷歌和Facebook，并非总是使用Amazon的网络服务，
+So Google and Facebook and not always use Amazon Web services,
+
+441
+00:31:27,241 --> 00:31:35,910
+这里我就选择了阿里巴巴。云计算是阿里巴巴的子业务。
+I chose Alibaba.come here.
+So the cloud computing
+arm of Alibaba.
+
+444
+00:31:35,911 --> 00:31:40,380
+互联网公司比如软件供应商，现在也是比较成熟的，其体量也是比较大的。 Microsoft, Oracle, SAP和Adobe。他们都是传统的软件供应商，它们将为软件产品授予许可，但是目前它们都已经转向了云计算。
+These Internet companies are by now equally big 
+like vendors,
+
+446
+00:31:40,381 --> 00:31:50,070
+但是他们的产品是作为一种服务来提供的，所以我们需要了解一下传统标准化产品，
+but their product is provided as a service, so kind of need to realize how standardized products
+
+447
+00:31:51,210 --> 00:31:56,700
+它们是如何被作为所谓的许可认证进行售卖的？下一节课我们将讨论这个问题。
+traditionally have been sold as a so-called license sale we'll look at that next time.
+
+448
+00:31:56,701 --> 00:32:05,250
+但现在都是使用订阅模式的，你可以按月或其他时间段付费。你在软件中操作会产生数据，
+But now are being provided using a subscription model where you pay on a monthly or some other time period basis,
+
+449
+00:32:05,251 --> 00:32:11,610
+但是你永远也得不到最完整的数据集。以下有几个例子，
+and you never get a whole hand on the actual software operated for you in the Providers dataset.
+
+450
+00:32:15,210 --> 00:32:20,640
+下面有几个例子，比如Microsoft，Oracle，SAP，Adobe
+And these are examples for that.
+So Microsoft, Oracle, SAP and Adobe,
+
+452
+00:32:20,641 --> 00:32:27,930
+其是一家传统的软件供应商，列出了自己的产品，目前其已经转向云计算了
+a classic traditional software vendors,
+who license out an artifact but have turned to a cloud computing now as well.
+
+454
+00:32:27,931 --> 00:32:31,110
+然后就是云计算提供商，  
+And then there are the cloud computing providers,
+
+455
+00:32:31,111 --> 00:32:43,200
+服务提供商从没有给你经典的许可销售，因为它们所销售的软件、服务均是在云端，
+the service providers who never in the past really provided you with a classic license sale they were always in the cloud.
+
+456
+00:32:43,201 --> 00:32:50,340
+右边的服务提供商比左边的软件提供商有更多的服务频率，
+So there are more recent than the service providers on the right as companies are more recent than the vendors on the left.
+
+457
+00:32:51,960 --> 00:32:57,720
+它们交互并交织在一起。
+And they interact,
+so it's all intertwined.
+
+459
+00:32:57,721 --> 00:33:01,380
+如果你有一个可以买到的软件产品，  
+If you have a software product that you can buy,
+
+460
+00:33:01,381 --> 00:33:08,730
+这并不意味着它已经可以很好地为你服务，特别是企业软件。
+it doesn't mean that it already will do a good job for you. In particular, enterprise software,
+
+461
+00:33:08,731 --> 00:33:15,390
+比如SAP开箱即用的组合套装没能满足你的需求，
+let's say SAP's business suite out of the box won't do you any good.
+
+462
+00:33:15,391 --> 00:33:27,840
+那么你通常需要将标准化产品进行转化，转化为满足你需求的服务。
+You typically need services which turn that generic standardized product into something that fits your needs and fulfills,
+say your business processes.
+
+464
+00:33:27,841 --> 00:33:34,560
+因此，如果你正在使用SAP这样的软件进行部署，你所充当的角色就是消费者，   
+So as a consequence,
+if you take something large like a SAP,
+deployment or a customer.
+
+467
+00:33:34,561 --> 00:33:39,960
+比如对于一家大型银行，或者一些石油天然气公司、能源公司，
+let's say a big bank or let's say some oil and gas company energy company.
+
+468
+00:33:39,961 --> 00:33:46,170
+它们或许会购买SAP软件，这意味着购买了使用许可证。
+They might buy SAP,
+which means purchase licenses for use.
+
+470
+00:33:46,171 --> 00:33:57,420
+但是与此同时他们可能还会需要一家咨询公司，这样就能针对它们特定的行业增添业务流程。
+But then they would need another company,
+a consultancy
+to adjust ah,
+or to add for their particular industry
+
+474
+00:33:57,421 --> 00:34:07,380
+SAP软件的应用是非常广泛的，它包含了各种各样的库，并可以扩展到不同的行业中。   
+the needed business processes. SAP's business feed is very broad,
+and it has all kinds of libraries and extensions into different industries.
+
+476
+00:34:07,381 --> 00:34:15,570
+但是SAP也并没有覆盖全部的行业，比如Tata、Accenture和IBM
+But it doesn't cover all. These large consultancies like Tata or Accenture or IBM.
+
+477
+00:34:15,571 --> 00:34:18,150
+它们都有自己的SAP软件，
+They have their own SAP code
+
+478
+00:34:18,151 --> 00:34:29,760 
+这些公司使用APAB编程语言设计SAP。SAP被带入进公司的任务中，并卖给消费者。
+written in this funny programming language called APAB. For the various industries which they take into a job and sell to customers.
+
+479
+00:34:29,761 --> 00:34:38,160
+对于石油、天然气公司而言，SAP的代码是极其通用的。
+because SAP's code base is too generic for the specific oil and gas company that just purchased SAP.
+
+480
+00:34:38,161 --> 00:34:50,370
+所以在客户真正需要的功能出现之前还有很多额外的开发工作，然后就是第三步了。   
+So there's a lot of extra development until the functionality that the customer needs is actually there.
+And then in the third step,
+
+482
+00:34:50,371 --> 00:34:56,820
+Accenture的SAP软件，该SAP软件实际上应该投身于生产，
+here,
+accenture,
+the SAP software,
+actually needs to be put into production somewhere.
+
+486
+00:34:58,200 --> 00:35:02,700
+就意味着定制，建立用户，
+And that means customization,
+setting up users,
+
+488
+00:35:02,701 --> 00:35:08,880
+建立该SAP软件的各种属性，这并且需要将该SAP软件与基础设施做好匹配。
+setting up all kinds of properties and attributes until it works well with some particular infrastructure.
+
+489
+00:35:10,440 --> 00:35:13,500
+然后基础设施需要运行起来。
+And then that infrastructure needs to be operated so,
+
+490
+00:35:13,501 --> 00:35:20,520
+举个例子，一家名称为Tsystems的公司，是一家云服务提供商，  
+for the example,
+sake,
+there's yet another company here TSystems,
+so the cloud service provider.
+
+494
+00:35:20,521 --> 00:35:24,480
+他们可能为用户运行SAP软件。
+They will then possibly run SAP for the customer.
+
+495
+00:35:25,740 --> 00:35:33,750
+所以，你可以看到一个软件供应商，两家咨询公司，以及一个云服务提供商。
+So you can see there's one vendor,
+two consulting firms and a cloud service provider here.
+
+497
+00:35:33,751 --> 00:35:37,260
+在现实中，你需要尽量避免这种复杂性，
+In reality,
+you will try to avoid this complexity,
+
+499
+00:35:37,261 --> 00:35:48,150
+比如这家公司会进行定制化软件开发以及咨询使用软件等，这可能与云服务提供商相同。
+meaning you will probably make the company
+who does the custome development and the implementation be the same.
+Possibly it would be the same as the cloud service provider.
+
+502
+00:35:48,151 --> 00:35:58,800
+为了向你们展示企业软件的这些不同步骤，产品公司和咨询公司会不断交互。
+Ah,
+but to show you these different steps of how in enterprise software,
+the product and consulting firms interact,
+a kind of broke it out like this.
+
+506
+00:36:01,680 --> 00:36:09,540
+所以除了软件供应商，除了标准化产品供应商和咨询公司，你还有非营利组织。
+So,
+in addition to vendors,
+in addition to standardized product providers and consulting firms,
+you have these non-profits.
+
+510
+00:36:09,541 --> 00:36:27,570
+标准组织之间会有一个交汇点。那是一中立点，用户对于软件产品的感受刚好合适。
+One are the standards organization, they are a meeting point.
+a neutral meeting point where you're not fighting or trying to fight less or significantly less than you would in front of a customer if you're competing for their business.
+
+512
+00:36:27,571 --> 00:36:35,250
+这就是行业需要定义标准的地方，让事情变得具有可操作性。
+This is where industry meets to define standards to make things interoperable,
+etc,
+etc,
+
+515
+00:36:35,251 --> 00:36:44,370
+甚至可以协商或者使用专利来打开某些市场或领域，   
+maybe even to negotiate the use of availability of necessary patents to open up some market or domain.
+
+516
+00:36:45,420 --> 00:36:47,640
+这儿有大量的例子。
+There are plenty of examples,
+
+517
+00:36:47,641 --> 00:36:59,910
+最常见的就是国际标准组织ISO，它产生了大量的规范来使得很多事情共同协作。
+the most common ones, the International Standards Organization ISO. ISO, which produces a large number of norms for all things to work together.
+
+518
+00:36:59,911 --> 00:37:06,210
+在德国，这些人就是制定标准的人，
+Well, in Germany,
+we have the foggiest idea and thought the R and many others as well.
+
+520
+00:37:06,211 --> 00:37:21,090
+他们把行业参与者聚集在一起一同制定标准。
+接下来的标准管理机构通常都是政府机构。
+So these are the folks who standardize things or bring industry players together to jointly standardize things.
+the standards bodies, there are regulatory bodies are usually governmental agencies,
+
+523
+00:37:21,091 --> 00:37:38,160
+这些组织发布指令或建议制定法律，这些指令可以管控行业运作，也可以预防不良行为。
+which issue directives or suggest laws that are then put into place, so that the directives can be issued which regulates how the industry works. They are trying to prevent undesired behavior,
+
+524
+00:37:38,161 --> 00:37:42,900
+举个例子，为了防止典型垄断的发生，
+for example,
+prevent typically monopolies from happening,
+
+526
+00:37:42,901 --> 00:37:54,570
+这些组织期望加强行业的期望行为，比如一场为客户所着想的竞争，即客户隐私权的保护。
+and they're trying to enforce desired behavior,
+for example,
+a competition for the customer's sake,
+protection of privacy rights and so forth.
+
+530
+00:37:54,571 --> 00:38:05,760
+所以在欧盟内部，例如，欧盟委员会发布了数据保护指令 并由信息专员办公室执行。 
+And so,
+within the European Union,
+for example,
+the European Commission issued the data protection directives and it's enforced by the Information Commissioner's office.
+
+534
+00:38:05,761 --> 00:38:17,520
+这就是GDPR谁保护条例。在美国，可能有有各种各样的联邦机构，比如我们的贸易委员会等等。
+So that's the GDPR and all of it. In the U.S.
+you have various federal agencies, Federal Trade Commission and so forth,
+
+537
+00:38:17,521 --> 00:38:28,440
+在美国，医药行业和农业，具体我也不是很确定。会有负责监管的机构。
+The FDA drug, and administer drug and
+agriculture,
+I am not even sure. Agency,
+which regulates,
+
+541
+00:38:28,441 --> 00:38:33,450
+比如，让疫苗进入市场，  
+for example,
+access of vaccines to market all of these.
+
+543
+00:38:33,451 --> 00:38:39,390
+因此相关机构发布了相关指令，试图规范社会，通过指令来改善社会。
+So they issue the directives and try to regulate everything for the betterment of society.
+
+544
+00:38:41,010 --> 00:38:43,530
+最后，也会存在很多认证机构，
+And finally,
+you have certification agencies,
+
+546
+00:38:43,531 --> 00:38:56,370
+如果监管机构需要你向他们的医疗设备供应商证明医生办公室的使用是安全的，
+if directive by a regulatory body says you need to show their provider of medical equipment that this is safe to use in a doctor's office,
+
+547
+00:38:56,371 --> 00:39:03,060
+你可能需要出示产品认证，产品认证来自于标准的认证机构。
+then you may have to pass or show a product certification, certification according to standard
+
+548
+00:39:03,061 --> 00:39:17,130
+这些认证机构会检查你目前的所有物，以及验证你是否符合标准，最终才允许你到市场上销售。
+and there are agencies who basically certify that you have, that you fulfill those standards and thereby are allowed to sell into a market.
+
+549
+00:39:17,131 --> 00:39:31,380
+所以我们可以联想一下美国的保险实验室。所以，标准机构和认证机构显然是相互作用的。
+So think underwriters laboratory in the U.S
+or tooth to floor, to suit in Germany.
+And
+so the certification agency in the standards body obviously interact.
+
+553
+00:39:31,381 --> 00:39:33,360
+除此之外，你通常还需要一个教练，   
+In addition,
+you usually need a trainer,
+
+555
+00:39:33,361 --> 00:39:39,990
+实际上是一家商业服务咨询公司，可以帮助你理解认证和实现认证。
+but that's a consulting services firm who helps you understand a certification and achieve it.
+
+556
+00:39:46,500 --> 00:39:55,710
+因为这门课是关于创业的，所以我们应该把注意力集中在软件产品上。
+All right,
+so since this course is about startups,
+or we need to zero in on software products. Here
+
+559
+00:39:55,711 --> 00:40:05,130
+这可能是你们对于软件产品的第一次体验，所以，接下来我将会讲述软件产品，之后是软件供应商。
+you will only get a first taste because the whole next session is about software products and after that about software vendors.
+
+560
+00:40:05,131 --> 00:40:11,760
+首先从一个软件行业的角度来看，我们已经给你的产品是什么？
+The first take from a software industry's perspective.
+at what a product is we already gave you. Now,
+
+562
+00:40:11,761 --> 00:40:17,610
+现在我想讨论一下你想卖给谁，产品总是针对每个用户群体设计的。
+I want to talk about who you are selling to.
+So products are always made for someone.
+
+564
+00:40:18,750 --> 00:40:32,010
+这里所要立即的最基本的区别就是你是要把商品卖给消费者还是企业，     
+And the most basic distinction here to understand is that you are, that you are selling either to consume us,
+my enterprises.
+
+566
+00:40:32,011 --> 00:40:37,200
+要么是消费者，要么是企业客户。
+So there's either a consumer or an enterprise customer.
+
+567
+00:40:37,201 --> 00:40:40,650
+消费者又是后也被称为零售商，有时候我会交互使用这两个称呼。
+Consumers also sometimes called retail.
+I use it interchangeably,
+
+569
+00:40:40,651 --> 00:40:45,360
+所以零售用户与企业用户相比，就是B2C的业务。
+so retail customers versus Enterprise customers also called B2C,
+
+570
+00:40:45,361 --> 00:40:46,860
+所以你是一个软件供应商，
+so you're a vendor, you're the business
+
+571
+00:40:46,861 --> 00:40:52,980
+面向消费者会者企业的销售就不是b2b2业务，b2b业务是企业之间的交互。
+selling to consumers or to enterprises isn't b2b, business to business.
+
+572
+00:40:52,981 --> 00:41:00,840
+这门课程的分类些许粗糙，但是它有一个很重要的方面，是消费者还是零售商？     
+This course,
+this classification is very coarse,
+but it has one key aspect to it,
+
+575
+00:41:00,841 --> 00:41:06,030
+零售商经常乐意使用他们的时间作为筹码去赚钱，
+which is consumers or retail
+customers usually are willing to trade their time for money,
+
+577
+00:41:06,031 --> 00:41:13,920
+所以价格是产品的关键。企业用户通常会在那段时间看到更高的价值，
+so price is key of a product. Enterprise
+customers often see a higher value in their time,
+
+579
+00:41:13,921 --> 00:41:16,020
+因此他们愿意用金钱来换取时间。
+and hence they are willing to trade money for time.
+
+580
+00:41:16,021 --> 00:41:19,020
+对于企业用户来说，价格固然重要，但价格只是诸多标准中的一个。
+Price is important,
+but it's just one of multiple criteria.
+
+582
+00:41:20,820 --> 00:41:25,290
+消费品产品与企业产品相比较的话，就如同刚才所提到的那样，     
+So consumer products versus enterprise products,
+as just mentioned.
+
+584  
+00:41:25,291 --> 00:41:30,270
+对于消费者来说，价格才是关键，因为会更加地便宜。
+for consumers,
+prices is key, usually it's cheap.
+
+586
+00:41:30,271 --> 00:41:35,250
+然而企业用户通常会为该产品投入上百万欧元。
+While enterprise products can easily go into the millions of euro or for a product.
+
+587
+00:41:37,200 --> 00:41:46,380
+课程被分成了两部分，消费者包含独立的消费者以及企业消费者，  
+You segment
+these two course,
+grain markets into market segments,
+consumers since it's individual people,
+
+591
+00:41:46,381 --> 00:41:58,470
+不同类型的消费者可能会被水平结构和垂直结构分开，我马上会讲到。
+usually use split by say
+demographics and enterprise customers
+you split by horizontal versus vertical structures,
+which I come to in a second.
+
+595
+00:41:58,471 --> 00:42:04,920
+如果你的产品不能开箱即用，消费者就会很生气，这些消费者个体可能需要大量的个性化定制。    
+Consumers
+
+597
+00:42:04,921 --> 00:42:21,510
+但是企业可能已经习惯了，企业通常会雇佣顾问来协助他们的工作。
+And they need substantial customization but enterprises and used to things not working out of the box and that they need to hire consultants to make them work. Actually 
+
+598
+00:42:21,511 --> 00:42:26,100
+消费者领域是有很多产品存在的，其中你可能需要为某些服务付费。
+in the consumer space,
+there are lots of product where you know that you have to pay for services.
+
+600
+00:42:26,101 --> 00:42:32,340
+在除此之外，总的来说，人比企业要挑剔的多。
+In addition,
+but in general,
+people are much more picky than enterprises.
+
+603
+00:42:32,341 --> 00:42:38,730
+那么如何看待消费市场呢，或许，你可以按照年龄进行划分。  
+So here's how to look at a consumer market.
+You may,
+for example,
+segments it by age.
+
+607
+00:42:39,870 --> 00:42:44,640
+这就很明显了，你可以把你的产品卖给一个孩子、青少年、单身成年人、
+That's an obvious one, you selling to kids or to teenagers or to sing adult or
+
+608
+00:42:44,641 --> 00:42:54,180
+卖给已婚没有孩子的成年人、父母、祖父母等。所以年龄是你定制化你的产品的关键区别。
+married with no kids or parents or grandparents. So age could be a key distinction in how you customize a product,
+
+609
+00:42:54,181 --> 00:42:57,600
+那么你如何通过你的渠道进入市呢？   
+how you go to market with your channels are,
+etc.
+
+611
+00:42:59,250 --> 00:43:05,340
+在企业和软件领域，你的架构可以是水平的，也可以是垂直的，
+And in the enterprise and software world,
+you structure,
+by horizontal or vertical,
+
+614
+00:43:06,540 --> 00:43:15,030
+这就意味着你可以谈论横向行业或纵向行业。
+which means you call, you talk about either about horizontal industries or vertical industries,
+
+615
+00:43:15,031 --> 00:43:19,170
+这意味着这只是行业内的一个协议，
+and what that means is it's just an agreement in the industry.
+
+616
+00:43:19,171 --> 00:43:22,560
+有可能是某人所编造的术语。
+It's just terminology that someone sometime made up.
+
+617
+00:43:22,561 --> 00:43:31,290
+“水平”则意味着我们所讨论的业务功能，比如，客户关系管理的业务功能，
+Horizontal means
+the business function, we talking about.
+For example,
+the business function of customer relationship management.
+
+621
+00:43:31,291 --> 00:43:33,990
+这不仅关乎销售和市场。
+That's more than sales and marketing,
+
+622
+00:43:33,991 --> 00:43:43,560
+我们继续讨论供应商关系管理SRM，其中最关键的商业功能就是HRM，即人力资源管理等。  
+we talking about,
+supplier relationship management SRM, that's the key business function HRM,
+human resource management,
+etc.
+
+626
+00:43:43,561 --> 00:43:50,370
+每个公司并非都必须如此，每个公司都有自己的供应商，
+Every company needs that no. So every company wants to say, sell every company has suppliers.
+
+627
+00:43:50,371 --> 00:43:56,400
+这些需求应该被管理以及成本应该被压低。每个公司都有人力资源部门。
+somehow that needs to be managed and costs
+need to be kept down. Every company
+has an HR department.
+
+631
+00:43:57,570 --> 00:44:04,980
+从纵向上考虑，你或许可以把你的产品卖给不同的行业，
+And then,
+thinking about it vertically,
+ah,
+you have the different industries you might be selling to.
+
+635
+00:44:04,981 --> 00:44:16,080
+比如金融服务、医疗保健方面的银行、保险等，新能源汽车也是可以的，这都是不同的行业。
+So on healthcare of financial services like banking or insurance,
+energy automotive,
+these are all different,
+distinct industries.
+
+639
+00:44:16,081 --> 00:44:18,930
+但是呢，这些行业也都有自己的需求，   
+that have their own requirements.
+
+641
+00:44:19,920 --> 00:44:28,530
+他们都需要销售流程和人力资源部门，通常也需要工程部门。
+All of them have need for sales processes and human resource departments and usually also engineering.
+
+642
+00:44:28,531 --> 00:44:29,700
+那么你呢？
+And what have you,
+
+643
+00:44:29,701 --> 00:44:34,830
+这就是为什么你得到了这个不错的矩阵，你得到这些列，
+which is why you get this nice matrix well,
+you get the columns,
+
+645
+00:44:34,831 --> 00:44:45,330
+将行业按列分类；将商业功能按行分类。你可以在能源领域研究如何使用CRM。
+the verticals by industry and you get the horizontals the roles by business function and you could specialize on CRM
+in the energy industry.
+
+647
+00:44:46,740 --> 00:44:51,900
+如果你想拓宽视野，你应该去了解CRM,金融服务，能源相关以及自动驾驶。
+If you want to go broader,
+you go for CRM and financial services and energy and automotive.
+
+649
+00:44:53,550 --> 00:44:59,430
+当然，最终你可能还是会选择无处不在的CRM。   
+But of course,
+in the end you might go for CRM
+everywhere,
+
+652
+00:44:59,431 --> 00:45:07,980
+Salesforce试图提供客户关系管理软件即CRM，其他行业也是可以使用的，
+So that would be Salesforce trying to provide customer relationship management software,
+increasing. Other stuff as well to pretty much every industry,
+
+654
+00:45:07,981 --> 00:45:17,760
+这就是为什么大多数公司会选择一个商业功能或者水平架构的行业焦点。
+which is why most companies choose to have a business function or horizontal industries
+focus.
+
+656
+00:45:19,620 --> 00:45:27,780
+大多数公司采取横向关注，只有少数采取纵向关注。
+Most companies take this horizontal focus only if you try to take a purely vertical one.
+
+657
+00:45:27,781 --> 00:45:35,220
+这里有一个从根本上聚焦的例子，该公司就是avalor，这就是银行软件Swiss的服务提供商。
+Here's one example for a radically focused,
+a company called avalor, that's a Swiss provider of banking software.
+
+659
+00:45:35,221 --> 00:45:46,860
+他们专注于银行业务，并且他们试图为银行的各个业务提供业务提供支持。
+so they are focused on the banking industry and they will try to provide to banks software for every aspect of the business.
+
+660
+00:45:46,861 --> 00:45:49,620
+这是一种不寻常的软件变体。
+But that's the unusual variant,
+
+661
+00:45:49,621 --> 00:46:03,630
+通常情况下，新的公司出现在传统的公司之上，现有的公司都集中在了水平焦点上。  
+usually.
+New companies come up or traditional companies have focused on, existing companies have focused on this horizontal because it's probable,
+
+663
+00:46:03,631 --> 00:46:10,260
+其实我也不是很确定，我觉得它很有可能是CRM的要求。
+I'm not entirely sure I think it's probably because it's simply he requirements for CRM,
+
+664
+00:46:10,261 --> 00:46:19,410
+新的公司无需在垂直领域做太大的改变，而是要理解每个业务的功能。
+don't change that significantly across verticals while understanding each business function just for say
+
+665
+00:46:19,411 --> 00:46:21,270
+对于银行来说可能就比较困难了。
+banking is much harder.
+
+666
+00:46:22,440 --> 00:46:34,050
+如果你是一家银行，你可能会喜欢这个想法，这会位银行的运作提供全部的软件。
+But if you're a bank,
+maybe you like the idea of that one.
+Ah,
+one stop shop of our log,
+which gives you all the software you need for you
+for the operations of your bank.
+
+672
+00:46:36,120 --> 00:46:48,120
+早些时候，我其实已经习惯这种模式了，这是“销售演讲”相关的概念，这很常见，但是需要理解。  
+Earlier,
+I already used to term that I wanted to clarify called the solution, that's Sales speak if you will,
+but it's common and needs to be understood.
+
+675
+00:46:48,121 --> 00:47:00,990
+在本次课程中，我将谈论产品供应商所构建或者销售的产品，以及云提供商为你创建或者操纵的产品。
+In this course,
+I will talk about products that vendors build and sell or that cloud computing service providers build and operate for you.
+
+677
+00:47:00,991 --> 00:47:20,010
+在横向整合的阶段，如果消费者知晓了“最佳品类”方案给了他们所有的较好的组件，
+Customers really,
+stopped liking or the term product when they realized,
+in the days of horizontal integration,
+that a best of breed approach gives them all these great components,
+
+681
+00:47:20,011 --> 00:47:23,190
+但是不能保证下这些组件协作使用，那么消费者可能就不会在喜欢Product这个术语了。
+but no guarantee that they work together well.
+
+683
+00:47:24,240 --> 00:47:33,930
+为了让这些不同的组件协同工作，比如使得硬件、数据库中的操作系统和应用程序要协同工作，  
+For these different components to work together and say the hardware and the operating system in the database and the application for all of that to work together well,
+
+684
+00:47:33,931 --> 00:47:40,170
+你需要雇佣另一家公司来进行整合，
+you needed to hire yet another services company which integrated those ironed out 
+
+685
+00:47:40,171 --> 00:47:45,480
+整合的过程中可可能会出现很多错误以及整合的问题。这个最终较为完善的包,
+any bugs and any integration problems would have you. And this whole package,
+
+686
+00:47:46,800 --> 00:47:52,320
+通过使用该服务就可以使得不同组件协调工作。
+the different components with the services that made it work out well and nicely.
+
+687
+00:47:52,321 --> 00:48:01,410
+这就是顾客想买的东西，他们将其称之为“解决需求、问题”的方法，
+That's usually what customers want to buy,
+and they call it there for a solution to their needs are to their problems,
+
+689
+00:48:01,411 --> 00:48:07,350
+而不是他们所购买的那个产品，是解决问题的办法。
+not products they buy,
+but rather a solution to their problems.
+
+691
+00:48:07,351 --> 00:48:13,320
+当然，无论这里的解决方案是什么，你仍然可以卖给消费者，  
+Of course,
+whatever solution is there,
+you can still sell customers well maybe not for too long,
+
+694
+00:48:13,321 --> 00:48:15,390
+但是重点是，这仅仅是一个术语。
+but the point is,
+it's just a term,
+
+696
+00:48:15,391 --> 00:48:21,990
+听起来倒是蛮好的，但是顾客解决了问题，与所购买的产品没啥关系。
+but it sounds so much nicer in customers ears that they get the problem solved rather than product sold.
+
+697
+00:48:28,530 --> 00:48:31,530
+所以你可能想知道为什么会出现这种问题？
+So you may have wondered why there are,
+
+698
+00:48:33,990 --> 00:48:35,310
+为什么会在IT行业中出现了这个问题呢？
+why the IT industry?
+
+699
+00:48:35,311 --> 00:48:38,220
+为什么软件行业会如此庞大和富有？
+why the software industry is so big and so rich,
+
+700
+00:48:38,221 --> 00:48:50,070
+为什么有些公司会有那么大的市值呢？这些市值都来源于哪里呢？
+and why some companies where there are some companies that we all know and that have this huge market capitalizations?
+So where is it coming from that?
+
+702
+00:48:50,071 --> 00:49:03,060
+IT行业的网络效应是"赢家通吃",你会变得非常强大，以至于很难被取代。  
+This industry has these network effects where winner takes all,
+ah,
+plays out and you can become very big and very hard to displace.
+
+705
+00:49:04,050 --> 00:49:09,090
+其中一个关键的方面就是关于“软件平台”的概念，
+And the key aspect of that is the idea of a software platform.
+
+706
+00:49:09,091 --> 00:49:18,390
+我们已经讨论了产品，还讨论了为客户提供价值的商业应用程序。
+So we've talked about products and maybe also business applications that provide value to customers,
+
+707
+00:49:18,391 --> 00:49:28,500
+所以当顾客想买这个解决方案时，这个解决方案更多地是关于实际的商业应用程序。
+so customers when they want to buy the solution then they think
+mostly about the actual business applications that lets them do stuff.
+
+709
+00:49:28,501 --> 00:49:33,660
+如果你是一家银行，你需要一个应用程序来管理分发给客户的贷款，  
+If you're a bank,
+you need an application to manage the loans you give out to customers.
+
+711
+00:49:33,661 --> 00:49:35,430
+同时，这也是你最关心的。
+Also,
+that's what you care about.
+
+713
+00:49:35,431 --> 00:49:43,590
+你无需关心数据中心软件，以及其背后的操作系统，但你很快意识到你必须关心它。
+You
+don't care about the data
+soft center software,
+the operating system behind it.
+Well, you quickly realize you have to care about it,
+
+718
+00:49:43,591 --> 00:49:51,240
+但这并不是你购买软件的首要原因，您希望该业务应用程序可用于贷款管理。
+but it's not why you're buying software in the first place.
+You want that business application for loan management.
+
+720
+00:49:52,590 --> 00:49:56,490
+然而，考虑到软件的复杂性.我们都知道,
+However,
+given the complexity of software,
+
+722
+00:49:56,491 --> 00:50:08,220
+构建垂直集成的技术栈需要耗费大量的工作，其实我们是有不同的供应商专门负责不同组件的。
+we all know that we're building vertically integrated stacks there's a lot of work, and rather we have different vendors specializing in different components of the stacks.
+
+723
+00:50:08,221 --> 00:50:15,930
+所以有些公司比较喜欢商业应用，   
+So there are companies like other log which will provide a business application.
+
+724
+00:50:15,931 --> 00:50:21,810
+但之后它们会基于其他人的软件，比如Microsoft的操作系统继续进行构建工作，
+But then they will build on other people's software like an operating system by Microsoft,
+
+725
+00:50:21,811 --> 00:50:26,010
+这就是所谓的平台。
+and that would then be a platform so called platform
+they belong.
+
+727
+00:50:28,260 --> 00:50:35,130
+对于建立在软件平台之上的应用程序，软件平台会赋予该应用程序必要的功能，
+This platform gives all the applications built on top of it,
+or whatever builds on top of it,
+
+729 
+00:50:35,131 --> 00:50:42,750
+这比应用程序自己去搭建平台要快得多。
+the necessary functions to be quick to market than if they had to build the platform themselves.
+
+730
+00:50:42,751 --> 00:50:50,460
+但是软件平台从来就不是顶层，这从来都不是消费者购买的首要原因。
+But the platform is never the top layer,
+and it's never why customers buy in the first place.
+
+732
+00:50:50,461 --> 00:50:58,170
+客户总是会购买对他们有用的应用程序，而不是因为软件平台支持这些应用程序。
+Customers always buy because they're applications that do them good and not because they are platforms supporting applications.
+
+733
+00:50:58,171 --> 00:51:08,610
+然而，如果你考虑创业，或者你听过人们的交谈，人们可能都在谈论股票市场。  
+Yet,
+if you've ever thought about being a startup,
+or if you've listened to people or if you listen to market speak
+the stock market being talked about,
+
+737
+00:51:08,611 --> 00:51:25,020
+每个人都想和平台建立关系，如果消费者打开的自己的钱包，就知道自己需要和平台建立联系。
+you probably know that everyone wants to be a platform.
+Just why does every one want to be a platform if that's not why customers open their wallets, well to understand that you need to see the relationship.
+
+739
+00:51:25,021 --> 00:51:29,370
+我们理解平台和建立在平台之上的应用程序之间的关系。
+We understand the relationship between the platform and the applications built on top of it.
+
+740
+00:51:30,600 --> 00:51:37,890
+这个平台承载着许多应用，平台与应用之间是一对多的关系。
+And that relationship is of one too many, one platform,
+many applications.
+
+742
+00:51:37,891 --> 00:51:42,660
+结果，如果应用提供商售卖一个软件许可给它的消费者，
+As a consequence,
+if application vendor one
+
+744  
+00:51:42,661 --> 00:51:52,080
+消费者应为想要商业应用程序因此消费者会去购买应用程序。
+sells a license to a customer of its product and customers buy because they want that application，
+business application.
+
+746
+00:51:52,081 --> 00:51:55,560
+然后应用程序所在的平台也必须被购买。
+Then the platform also has to be bought.
+
+747
+00:51:55,561 --> 00:52:00,840
+所以应用程序供应商基本上也一直在销售平台，
+So the application vendors are basically also always selling the platform,
+
+748
+00:52:00,841 --> 00:52:06,510
+一般是软件供应商所支持的应用平台或者是他们的应用所依赖的应用平台。
+at least those platforms they are supporting or that their application relies on.
+
+749
+00:52:06,511 --> 00:52:09,990
+这不仅仅是软件供应商所提供的一个应用，
+And then it's not just one application by one vendor,
+
+750
+00:52:09,991 --> 00:52:13,230
+还有其他软件供应商所提供的产品。
+it is all the applications by all the other vendors
+
+751
+00:52:14,910 --> 00:52:18,660
+其他的软件供应商也在销售产品，他们也关注到了这个软件平台。
+who are selling their products,
+who then also saw the platform,
+
+753
+00:52:18,661 --> 00:52:23,460
+整个市场的一端就是软件供应商，但是这个软件平台每次都在售卖。   
+the application vendors get one nth of the total market.
+but the platform is
+
+755
+00:52:23,461 --> 00:52:29,010
+每当软件被卖出，软件许可也同时销售出去了，
+sold every time. So for every application that's sold, license is sold that is sold,
+
+756
+00:52:29,011 --> 00:52:32,550
+即平台许可被销售出去了。
+the platform,
+a platform license is sold. In real life,
+
+758
+00:52:32,551 --> 00:52:35,520
+在现实生活中，这可能有点儿复杂，但这就是我的想法。
+it's a little bit more complicated.
+But that's the idea,
+
+760
+00:52:35,521 --> 00:52:41,520
+一个软件平台和软件，软件在收入的另一端，平台管控着所有软件。
+one platform and applications,
+the application
+get one nth end the revenue,
+the platform gets the full.
+
+764
+00:52:44,730 --> 00:53:03,300
+软件平台是这个软件、应用程序的基础，软件平台有助于简化软件的开发，
+So then a software platform is the underlying base of this application and needs to and can only win if it makes those applications easy to develop, so that the application vendors come and use that platform rather than the other one use windows,
+
+765
+00:53:03,301 --> 00:53:04,320
+这样的话软件供应商都可以使用这个平台而不是使用windows系统或者Mac OS系统，
+rather than Mac OS,
+or Linux,
+or use Linux rather than I don't know,
+use Android rather than IOS,
+or iphones.
+
+770
+00:53:14,490 --> 00:53:20,070
+再次强调一下，软件和软件平台是共生的。  
+And ah again,
+it is symbiotic because
+
+772
+00:53:21,090 --> 00:53:25,800
+因为对于软件供应商来说，如果他们想要快速进入市场构建高质量软件的话，
+the application vendors to be fast to market to build higher quality software.
+
+773
+00:53:25,801 --> 00:53:27,510
+他们就需要这些软件平台。
+They need those platforms.
+
+774
+00:53:28,500 --> 00:53:34,050
+但是，话说回来，平台供应商也是需要这些软件的，因为没有软件的话那么平台就毫无用处了，
+And the platform vendors need these applications because without these applications the platform is useless,
+
+775
+00:53:34,051 --> 00:53:36,180
+那么就没有消费者会购买这个平台。
+no customer just buys the platform.
+
+776
+00:53:38,910 --> 00:53:50,310
+但是软件平台还是很有价值的，应为它们可以让你更加快速的进入市场。
+But then platforms are valuable because they make it so easy or much easier to get to market for the application vendors.
+
+777
+00:53:50,311 --> 00:53:52,200
+一旦大家认识到软件和软件平台的这种共生关系，
+Once that took hold,
+
+778
+00:53:52,201 --> 00:54:02,070
+那么软件平台就会变成明确的购买对象，因为大公司的IT部门可能会表示，
+platforms also became an explicit object of buying as the IT department of large companies looked at it and said
+
+779
+00:54:02,071 --> 00:54:08,850
+你可能会为你的商业用户儿购买这些软件，
+OK,
+ah,
+you want to buy all these applications for your business line of business user.
+
+782
+00:54:08,851 --> 00:54:15,000
+但是我们必须对这些软件进行操作，所以我们需要对你所购买的软件平台有发言权。
+Ah,
+but we need to operate it for you.
+So we want to have a say in what platforms you buy.
+
+785
+00:54:15,001 --> 00:54:25,260
+这有一个较为常见的问题，软件平台只是软件生态中的一部分，或大或小的一部分也并不是很重要。  
+The most common concern usually is.
+it doesn't matter which platform just one piece as long as the platform works more or less just one.
+
+787
+00:54:25,261 --> 00:54:35,790
+所以IT部门通常会担心因为很多软件在平台之上，所以用户会选择使用很多不同的软件平台。
+So the main fear of an IT department is that the users want all kinds of different platforms because of the applications on top of it.
+
+788
+00:54:35,791 --> 00:54:45,060
+所以IT部门通常会贯彻"一个平台"的原则，
+So the IT departments usually enforced.
+One platform only policies,
+
+790
+00:54:45,061 --> 00:54:48,450
+这可能是Microsoft软件供应商的平台，也可能是Linux软件供应商的平台，
+so it could only be Microsoft vendors,
+or it could only be Linux,
+
+792
+00:54:48,451 --> 00:54:49,410
+但不能两者兼而有之。
+but not both.
+
+793
+00:54:50,790 --> 00:54:58,860
+然后你就会看到软件生态系统，之后，你可能会提出疑问，钱让谁赚了？  
+And that led to the what, as you'll see,
+ecosystem was in a bit.
+Now then,
+who makes what money? 
+
+797
+00:54:58,861 --> 00:55:00,810
+那么，如果只是一个消费者购买一个软件、应用程序，
+Well, if it was a simple
+
+798
+00:55:00,811 --> 00:55:12,210
+那么软件供应商和软件平台供应商就是混合搭配的，两个供应商之间没有联系。
+as one customer buying an application well, then the platform vendor and the application vendor would both be in the mix and not knowing anything.
+
+799
+00:55:12,211 --> 00:55:14,580
+它们两者之间只是单纯的分享利润，
+They were just split the revenue.
+
+800
+00:55:14,581 --> 00:55:20,370
+因为在软件平台上会有很多的软件应用。
+But of course,
+as there are many more applications
+on top of it,
+
+803
+00:55:20,371 --> 00:55:28,770
+所以你建立了这些技术栈的分层，最终构成了技术栈。
+you build these layers and the further down in the technology stack you go, so again this is the stacked layers
+
+804
+00:55:28,771 --> 00:55:42,960
+但是也是存在些许可替代的选择的，这有Microsoft, Windows， Linux, IOS等，  
+are called the technology stack. The less alternative there,
+so there's Microsoft,
+windows and then there's Linux and maybe there's iOS or so.
+
+807
+00:55:42,961 --> 00:55:51,090
+但是没有Mac OS系统，在系统上的层次，你可能会需要一个数据库。
+But
+Whatever the Mac OS or so,
+and but already the next higher level you need a database.
+
+810
+00:55:51,091 --> 00:55:57,210
+数据库领域也有很多产品，不如数据库系统Oracle也有自己的平台。
+There are many more complete competitors by the database system like Oracle is its own platform as well.
+
+811
+00:55:57,211 --> 00:56:01,410
+然后你可能还会需要网络应用服务。
+And then you need webs,
+and you need a web application
+service,
+etc.
+
+815
+00:56:01,411 --> 00:56:05,790
+有在这些服务的层级之上才会有实际的应用程序，
+Only on top of that may actually have the actual applications,
+
+816
+00:56:05,791 --> 00:56:18,120
+所以消费者购买应用程序，这些钱都花在不同软件供应商身上了。
+and so the actual purchasing of the money that a customer spends, has to be distributed to the different vendors in the stack.
+
+817
+00:56:18,121 --> 00:56:31,230
+在技术栈的地步总是会有一个操作系统，让我们来看一下软件生态的价值。   
+And if there's only always one operating system at the bottom, then they were on nicely
+how much. Well, let's take a look at the value of software ecosystems.
+
+819
+00:56:36,210 --> 00:56:43,050
+软件平台要么成功，要么失败。
+So software platforms become successful or they fail,
+
+820
+00:56:43,051 --> 00:56:54,750
+如果构建了一个工作高效、规模庞大的软件生态，那么该软件平台一定会成功。
+they become successful if they succeed in building a well-working active and ideally,
+or necessarily large,
+so-called ecosystem.
+
+823
+00:56:55,920 --> 00:56:59,280
+软件生态在软件平台之上，包括软件平台。
+On top of the platform,
+including the platform,
+
+825
+00:56:59,281 --> 00:57:04,350
+所以软件平台是所有参与者、所有商业、所有个体用户的总和。
+So a software ecosystem is the totality of actors,
+all the businesses,
+
+827
+00:57:04,351 --> 00:57:29,940
+这些软件活跃者、个体用户使用这个软件平台，或者为软件平台构建应用程序，并且在软件平台上不停忙碌，  
+all the individuals that use that platform， that build applications for it，that somehow are busy and related to that platform to make it work out. And what it means in terms of earning money and establishing a dominant platform is that the larger the platform,
+
+828
+00:57:29,941 --> 00:57:33,120
+那意味着软件平台在赚钱，并且大家都在努力构建规模更大、主导权更强的软件平台，应用程序就会越多。
+the more applications are on top of it,
+
+829
+00:57:33,121 --> 00:57:39,690
+那么就会有越来越多的客户使用这个软件平台，而并不是更多的竞争对手在使用这个平台。
+the more the user's customers come to that platform rather than to the competitor,
+
+830
+00:57:39,691 --> 00:57:43,500
+这样一来，你就会赚钱。所以在左边你可能会看到两个同等规模的软件平台在竞争，
+and hence the more money you are making. So on the left side,
+
+831
+00:57:43,501 --> 00:58:00,450
+两者软件生态规模大致相似。并且软件生态都是软件平台与软件的组合，消费者可能会问，
+you see two platforms of equal size competing and the relevant size is the ecosystem, and the ecosystem is the combination of platform plus applications on top of it, and customers look at it and say and ask themselves.
+
+832
+00:58:00,451 --> 00:58:12,480
+这个软件生态中有我所需要的应用程序，我可以用吗？这样软件生态就可以提供我应用程序了。
+Thus this ecosystem have the applications that I need, and can I operate it and in the future, will provide all the new applications that I need.
+
+833
+00:58:14,520 --> 00:58:20,880
+那么这就对应了左边的第一种状态，两个软件生态在竞争，两者规模不相上下， 
+And so in the first state on the left side,
+they seem to be of equal size and they're competing.
+
+835
+00:58:20,881 --> 00:58:26,400
+但是事情发生了变化，其中一个平台获胜了，
+But then somehow things shift,
+so one platform is winning,
+
+837
+00:58:26,401 --> 00:58:31,470
+那么这就意味着在该软件平台之上将会有更多的应用程序。
+which means that there are more applications on top of it.
+
+838
+00:58:31,471 --> 00:58:39,840
+随着事情的发展，更多的客户也涌向了右边的第二个生态系统。
+And as this dynamic takes hold,
+more customers also flock to that second ecosystem on the right.
+
+840
+00:58:39,841 --> 00:58:41,940
+ 其实，创造这样的生态系统是很困难的，
+Creating that ecosystem is hard.
+
+841
+00:58:41,941 --> 00:58:53,190
+平台供应商必须卑躬屈膝，并还要支持和控制软件开发者以及软件平台，
+It's the platform vendor who has to bow and to pronounce， and support and control the application,
+developers
+
+843
+00:58:53,191 --> 00:59:01,470
+其实软件开发者和软件平台都是刚起步，所以这两者加入了软件系统，这就使得该软件生态更加丰富。
+vendors and particular platforms only starting out so that they joined this ecosystem and make it richer as a whole.
+
+844
+00:59:01,471 --> 00:59:05,790
+你一旦进入了该软件生态系统，这就会促使你继续成长，  
+But there is an incentive that once you are in the ecosystem,
+
+845
+00:59:05,791 --> 00:59:07,170
+you wanted to keep growing,
+
+846
+00:59:07,171 --> 00:59:14,520
+因为消费者最终总归是要选择一个生态系统的。
+because as customers choose an ecosystem ultimately,
+over the other,
+
+848
+00:59:14,521 --> 00:59:22,500
+只有当你处在正确的生态系统中你才能成为这些消费者的潜在供应商，
+ah,
+you only become a potential supplier to these customers if you are in the right ecosystem.
+
+850
+00:59:22,501 --> 00:59:26,340
+ 当然，你可以提供一个应用程序和多个强大的生态系统。
+Of course you can have an application and provide it and multiple ecosystems,
+
+851
+00:59:26,341 --> 00:59:35,790
+但是这比你仅仅使用一个软件生态的成本要高很多，
+but that's then often double the cost are significantly more cost than if you are only in one ecosystem but it's the one ecosystem that's winning.
+
+852
+00:59:35,791 --> 00:59:44,160
+所以创造软件生态系统对于软件平台的成功非常重要。
+So creating ecosystems is important for platforms to succeed and will substantially
+
+853
+00:59:44,161 --> 00:59:50,880
+如果软件生态做得好，那么便能够成功地提高收益。
+if it's done right and you actually succeed with substantially drive up revenues,
+
+854
+00:59:50,881 --> 00:59:55,350
+这对于软件、应用程序也是有好处的。但是最终受益的确实是软件平台。
+it's also good for the applications.
+But the one to benefit is indeed the platform.
+
+856
+00:59:56,520 --> 01:00:04,770
+当我们研究软件策略时，我们会重新审视所有这些产品策略。  
+We will revisit all of that, when we look at a software strategies,
+product strategies,
+
+858
+01:00:04,771 --> 01:00:12,090
+之后我们将会从一个开源的角度以及商业开源的角度来观察供应商。
+vendors all of this again from an open source perspective and the commercial open source perspective later on.
+
+859
+01:00:12,091 --> 01:00:18,960
+所以今天我谈到了软件行业并简要介绍了它的历史，以及软件行业的主要参与者。
+So today I talked about the software industry and gave a short rundown of its history and who the main players are.
+
+860
+01:00:18,961 --> 01:00:21,030
+我们探索软件产品，
+We looked at software
+
+861
+01:00:21,031 --> 01:00:32,220
+这一核心主题会让我们在接下来的课程中继续忙碌，相关的课题还有软件平台、软件生态的相关策略。
+products, the key thing that will keep us busy in the rest of this course as well, as well as associated strategies for platforms and ecosystems.
+
+862
+01:00:32,221 --> 01:00:43,290
+今天我就讲到这儿，非常感谢你们，我希望你们喜欢这次课程。接下来我将探讨“软件产品”。
+That's it from me today.
+Thank you very much and I hope you enjoyed this talk and you will be back for more lectures of this kind.
+Next up will be software products.
