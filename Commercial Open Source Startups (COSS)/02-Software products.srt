@@ -1,4 +1,8 @@
 0
+00:00:00,010 --> 00:00:02,000
+翻译者.
+
+1
 00:00:02,010 --> 00:00:11,190
 大家好,欢迎回到我们的课程，此课程是关商业业开源软件创业以及如何将其从大学教育中抽离出来。
 Hello, everyone, and welcome back to course, our course on commercial open source software startups and how to spin off such a startup from university.
@@ -518,7 +522,7 @@ The first one is copyright, that's your right to a texture or other artistic exp
 00:12:30,460 --> 00:12:36,940
 在软件领域，版权通常意味着源代码，这也意味着接口设计等。
 And in software that usually means source code, but it could also mean user interface designs anything.
- 
+
 119
 00:12:37,830 --> 00:12:42,870
 这也算是一个特殊的表达形式，它是平凡的、不明显的，需要花费一定时间去创建的。
@@ -886,7 +890,7 @@ chapter one, so most likely that presented book
 00:21:21,780 --> 00:21:27,780
 是某人受版权保护的一本书。正是这个特定文本信息就是没人所拥有的知识版权。
 is copyrighted by someone. It's that specific text that is the intellectual property that someone owns.
- 
+
 199
 00:21:29,590 --> 00:21:32,430
 专利，专利是什么呢？你是否看到相关专利了呢？
@@ -1293,7 +1297,7 @@ And it's a balance to strike. You don't want to exhaust them, you don't want the
 00:31:46,980 --> 00:31:52,940
 这或许就是你的软件的锁定机制。但是愤怒的客户、愤怒的消费者从来都不是友好的。
 which may be a function of the lock-in into your software. But angry users, customers are never good.
- 
+
 291
 00:31:53,640 --> 00:32:02,120
 但是从最基本的层面来定义收费，比如价格表，用户、顾客可以看到变化或者他们可以买些什么。
