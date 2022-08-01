@@ -8,5 +8,5 @@ Agenda:  [agenda.md](agenda.md)
 
 ## awesome course list
 
-- Free/Libre And Open Source Software (FOSS)
+- Free and Open Source Software (FOSS)
 - Commercial Open Source Startups (COSS)
