@@ -1,0 +1,2729 @@
+1
+00:00:01,920 --> 00:00:06,640
+hello everyone, and welcome back to cos our course on
+大家好，欢迎回到我们的课程中来
+
+2
+00:00:06,640 --> 00:00:14,000
+commercial open source software startups and how to spin off such a startup from university.
+我们的课程是关于商业化的开源软件初创公司，以及如何从大学中分拆出这样的初创公司
+
+3
+00:00:14,000 --> 00:00:19,039
+today's topic is assorted commercial open source strategies,
+今天的主题是各种各样的商业开源策略
+
+4
+00:00:19,039 --> 00:00:26,080
+in particular because this is most important these days cloud service strategies.
+尤其是近期最为重要的云服务商业策略
+
+5
+00:00:26,080 --> 00:00:33,280
+we are with this lecture at the end of the middle part about open source and commercial open source,
+我们正处于这次商业开源策略课程中间部分的尾声
+
+6
+00:00:33,280 --> 00:00:44,079
+and after this lecture was the next lecture, we will turn towards startup life, how startups work, how to spin one off from university.
+在这个讲座之后的下一个讲座，我们将转向初创企业的生活，初创企业如何运作，以及他们是如何从大学里拆分出来的
+
+7
+00:00:44,079 --> 00:00:47,360
+but today it is still commercial open source strategies.
+但今天，我们的主题仍然是商业的开源战略
+
+8
+00:00:47,360 -->00:01:04,319
+we will first have to discuss the idea of feature differentiation to solve the problem of converting users to paying customers,
+我们首先要讨论功能差异化的想法，以解决将用户转化为付费客户的问题。
+
+9
+00:01:04,319 --> 00:01:08,560
+which will involve a lot of different fine-grained strategies.
+这将涉及很多不同的细化策略。
+
+10
+00:01:08,560 --> 00:01:15,600
+then we will look at how it all moved into the cloud over the last 10 years and what that means,
+然后我们将看看在过去的10年里，它是如何全部转移到云中的，以及这意味着什么。
+
+11
+00:01:15,600 --> 00:01:27,840
+and finally, we will look at some established techniques and review them in light of the cloud and recent developments.
+最后，我们将看看一些既定的技术，并根据云和最近的发展对它们进行审查。
+
+12
+00:01:28,479 --> 00:01:34,880
+so, let's talk about feature differentiation,
+首先，让我们来谈谈功能差异化
+
+13
+00:01:34,880 --> 00:01:44,320
+which is the solution to the core challenge product management challenge or commercial open source challenge that I previously introduced.
+这是对我之前介绍的核心挑战产品管理挑战或商业开源挑战的解决方案
+
+14
+00:01:44,320 --> 00:01:48,479
+that challenge is for the product manager mostly to solve,
+这个挑战主要是由产品经理来解决的。
+
+15
+00:01:49,439 --> 00:01:55,040
+and it asks how do you structure your product and services,
+这个挑战关于你要如何构造你的产品和服务
+
+16
+00:01:55,040 --> 00:02:00,880
+so that you maximize that conversion of free loading user to paying customer,
+以保证你能最大限度地将免费加载的用户转换为付费客户
+
+17
+00:02:00,880 --> 00:02:04,880
+while doing a couple of other things right as well.
+同时也做了一些其他正确的事情
+
+18
+00:02:04,880 --> 00:02:15,120
+here now we will look at the incentives first of why someone should pay you money,
+在这里，我们将首先看一下激励措施，为什么有人要给你钱
+
+19
+00:02:15,120 --> 00:02:19,520
+if that open source software that you're providing is already that good.
+如果你提供的开源软件已经很好了
+
+20
+00:02:19,520 --> 00:02:21,280
+why, why would anyone buy
+为什么还会有人花钱购买它
+
+21
+00:02:21,280 --> 00:02:27,040
+and that is a question of as I said feature differentiation
+这就是我说的特征分化的问题
+
+22
+00:02:27,040 --> 00:02:32,640
+so again, here you have the basic setup of commercial open source.
+所以在这里你又有了商业开放源码的基本设置
+
+23
+00:02:32,640 --> 00:02:37,280
+you have the core software as open source that's the community edition,
+你有核心软件作为开放源码，这是社区版
+
+24
+00:02:37,280 --> 00:02:40,400
+and then you have a company the commercial open source firm
+然后你有一个商业开放源码公司
+
+25
+00:02:40,400 --> 00:02:44,560
+which creates at least a commercial edition of that
+它至少创造了一个商业版本的
+
+26
+00:02:44,560 --> 00:02:51,120
+same software but then extended and enhanced with all the features, all the bells and whistles,
+同样的软件，但然后扩展和增强其所有的功能，所有华而不实的东西
+
+27
+00:02:51,120 --> 00:02:54,560
+that we've talked about in the past.
+这是我们在之前的课程所谈到的
+
+28
+00:02:54,560 --> 00:03:01,840
+that turn some basic piece of software into a basic product and the whole product.
+如何把一些基本的软件变成一个基本的产品和整个产品线
+
+29
+00:03:01,840 --> 00:03:10,080
+when I say feature here it's synonymous with piece of functionality that creates value for customers basically.
+当我在这里说到特征的时候，它是功能的同义词，意味着能够为客户创造价值
+
+30
+00:03:10,080 --> 00:03:16,720
+Features. the general term, you can call it requirements or functionality or whatever.
+特征，这个术语，你也可以称它为需求或功能或其他
+
+31
+00:03:16,720 --> 00:03:26,400
+so how do you drive this conversion to understand the answers to this question,
+所以，你要如何推动这种转换，去了解这个问题的答案?
+
+32
+00:03:26,400 --> 00:03:31,040
+you need to look at the value of features
+你需要看一下特征的价值
+
+33
+00:03:31,040 --> 00:03:39,519
+and I use this the following differentiation of three categories of features,
+我把特征划分成以下三种
+
+34
+00:03:39,519 --> 00:03:43,120
+so there are the non-differentiating features.
+首先，有非分化的特征
+
+35
+00:03:43,120 --> 00:03:51,760
+this is functionality that everyone has that's readily available with anything,
+这是每个人都有的，任何东西都可以随时使用
+
+36
+00:03:51,760 --> 00:03:58,959
+in that domain you're talking about that really may be needed so it's a necessary feature,
+在你所说的那个领域，真的可能需要，所以这是一个必要的功能
+
+37
+00:03:58,959 --> 00:04:04,799
+but really doesn't distinct your product at all from other products.
+但实际上，这并不能够使你的产品和其他产品区别开来
+
+38
+00:04:04,799 --> 00:04:12,439
+for example, if it was a word processor being able to save your work so that's just obviously necessary
+例如，如果它是一个文字处理器，能够保存你的工作，这显然是必要的
+
+39
+00:04:12,439 --> 00:04:19,358
+and it's not competitively differentiating your software from any competitors one.
+而这并不能使你的软件与任何竞争对手的软件有竞争性的区别
+
+40
+00:04:19,358 --> 00:04:26,080
+then you have reason to use as i call them features.
+那么你就有理由使用我所说的特征
+
+41
+00:04:26,080 --> 00:04:33,360
+these are the features why users come to your software rather than a competing one.
+这些都是用户来到你的软件，而不是竞争者的软件的理由
+
+42
+00:04:33,360 --> 00:04:38,240
+that feature may exist elsewhere but it's probably not ubiquitous,
+这种特征可能存在于其他地方，但它可能不是无处不在的
+
+43
+00:04:38,240 --> 00:04:42,639
+also, the combination of reason to use features
+这也是把这些特征
+
+44
+00:04:42,639 --> 00:04:48,639
+and the quality with which you've been providing it in your open source software
+和你的开源软件中提供的质量结合的理由
+
+45
+00:04:48,639 --> 00:04:59,919
+in your open source software is why users choose your open source software over any competing open or closed product.
+在你的开源软件中，为什么用户选择你的开源软件而不是其他竞争的开放或封闭的产品
+
+46
+00:04:59,919 --> 00:05:04,560
+here is where the first part of value creation is happening,
+这里是价值创造的第一部分发生的地方
+
+47
+00:05:04,560 --> 00:05:12,400
+meaning you are doing something that's new and novel and innovative and valuable to your users,
+这意味着你正在做一些新的、新颖的、创新的、对你的用户有价值的事情
+
+48
+00:05:12,400 --> 00:05:19,840
+you're creating value for them because they're using the open source software.
+你正在为他们创造价值，因为他们正在使用你的开源软件
+
+49
+00:05:19,840 --> 00:05:24,720
+so then to appropriate that value or capture that value,
+因此，我们要适当地利用或捕捉这个价值
+
+50
+00:05:24,720 --> 00:05:31,520
+you now need to make them buy so separately from the non-differentiating.
+你现在需要让他们与无差别的人分开购买
+
+51
+00:05:31,520 --> 00:05:35,360
+you must have them but everyone has them features
+你必须拥有这些客户，但每个人都有它们的特征
+
+52
+00:05:35,360 --> 00:05:39,360
+and the reason to use, why your users are coming features.
+和使用软件的原因，为什么用户想要用你提供的功能
+
+53
+00:05:39,360 --> 00:05:46,960
+you need reason to buy features so that your users become paying customers,
+你需要购买功能的理由，使你的用户成为付费客户
+
+54
+00:05:46,960 --> 00:05:52,000
+and you appropriate some of the value that you're creating for your users.
+你利用了一些价值，你正在创造你的用户
+
+55
+00:05:52,000 --> 00:06:03,520
+so, you need to determine what those reason to buy features are that let you upgrade or convert users to paying customers.
+所以你需要确定这些购买的理由是什么，让你升级或转换用户为付费客户
+
+56
+00:06:03,520 --> 00:06:08,479
+you can view it in kind of layers in your technology or in your software,
+你可以在你的技术或你的软件中以一种层次来看待它
+
+57
+00:06:08,479 --> 00:06:18,160
+the non-differentiating features everyone has these maybe even open source libraries that competing products are using as well as yours.
+每个人都有这些无差别的特征，可能是竞争产品使用的和你一样的开源库
+
+58
+00:06:18,160 --> 00:06:25,440
+then you have your reason to use features which are available in this form only in your product but they're open source,
+那么你就有理由使用那些只在你的产品中以这种形式存在的功能，但它们是开源的
+
+59
+00:06:25,440 --> 00:06:34,720
+and they are free to use and on top of that you have your reason to buy features my customers are paying.
+而且它们是免费使用的，除此之外，你还有理由购买客户正在支付的功能
+
+60
+00:06:34,720 --> 00:06:43,639
+and to understand how to get to those reason to pay features you need to think about complementarity,
+而要了解如何获得这些付费的理由，你需要思考互补性
+
+61
+00:06:43,639 --> 00:06:55,599
+what is it that you should not make available for free without stifling your product.
+什么是你不应该在不扼杀你的产品的情况下提供免费的服务
+
+62
+00:06:55,599 --> 00:06:59,120
+what is it that you are not making available for free
+什么是你不能免费提供的
+
+63
+00:06:59,120 --> 00:07:05,360
+and that is so valuable for users that they come and buy and pay.
+而这对用户来说是如此有价值，以至于他们来购买和支付
+
+64
+00:07:05,360 --> 00:07:16,720
+and we will see there are lots of these complementary features and complementary definition differentiations.
+我们将看到有很多这些互补的功能和互补的定义的差异
+
+65
+00:07:16,720 --> 00:07:24,639
+here are two example ones so for one as you segment your market you may distinguish between consumer and enterprise,
+这里有两个例子，对于一个人来说，当你细分你的市场时，你可能会区分消费者和企业
+
+66
+00:07:24,639 --> 00:07:29,440
+and hence you may argue or see that there's functionality of feature,
+因此，你可能会争论或看到，一些功能性的特征
+
+67
+00:07:29,440 --> 00:07:34,319
+which are not relevant for consumers but are needed by the enterprise.
+是与消费者不相关，但是企业所需要的
+
+68
+00:07:34,319 --> 00:07:38,000
+so you do not make those enterprise readiness features available,
+所以你不要让这些企业准备的功能可用。
+
+69
+00:07:38,000 --> 00:07:45,759
+and so these would be features of functionality within the application domain
+这些将是应用领域内的功能特点
+
+70
+00:07:45,759 --> 00:07:52,319
+and hence they are just extensions of the basic product
+它们只是基本产品的延伸
+
+71
+00:07:52,319 --> 00:07:57,360
+or the core product with additional functionality in that application domain.
+或核心产品的附加功能，在该应用领域
+
+72
+00:07:57,360 --> 00:08:05,360
+you could also cross domains from application into technical domain,
+你也可以从应用领域跨越到技术领域
+
+73
+00:08:05,360 --> 00:08:11,599
+most notably operate the software at scale for customers so the customer might get
+最值得一提的是，为客户大规模地操作软件，这样客户就可以得到
+
+74
+00:08:11,599 --> 00:08:20,000
+the full set of business domain functionality application domain functionality features.
+全套业务领域的功能应用领域的功能特点
+
+75
+00:08:20,000 --> 00:08:27,759
+but not the technology to really operate it safely and reliably or as reliably as you can do it in your own cloud
+但这种技术并不真正安全可靠，或像你在自己的云中来操作它那样可靠
+
+76
+00:08:27,759 --> 00:08:35,360
+and hence the customer might decide that before they invest in their own operations and have costs there.
+客户可能会决定，在他们投资于自己的运营和成本之前
+
+77
+00:08:35,360 --> 00:08:42,240
+they just pay you for you operating the software for them
+他们只是支付你为他们操作软件的费用
+
+78
+00:08:42,240 --> 00:08:52,800
+and then of course you can do both and create even more incentive to go from the free version to the 4k version.
+当然，你可以同时做这两件事，并创造更多的动力，从免费版本到4K版本
+
+79
+00:08:52,800 --> 00:09:01,839
+so here you can see it with an example that I like to use the yugabyte database.
+因此，在这里你可以看到一个例子，我喜欢使用yuga的字节数据库
+
+80
+00:09:01,839 --> 00:09:12,880
+it turns out that yugabyte as a database provides as of today the whole database functionality for free,
+事实证明，Yugabyte作为一个数据库，免费提供整个数据库的功能
+
+81
+00:09:12,880 --> 00:09:18,320
+so they are not making a distinction between consumer and enterprise features.
+所以他们没有区分消费者和企业的特征
+
+82
+00:09:18,320 --> 00:09:24,399
+they are not withholding anything but they are withholding the software,
+他们没有扣留任何东西，但他们扣留的是软件
+
+83
+00:09:24,399 --> 00:09:32,800
+that is needed to operate the database yugabyte operated by the company of the same name in the cloud.
+那是需要操作由同名公司在云端运作的数据库yugabyte
+
+84
+00:09:32,800 --> 00:09:39,360
+so yugabyte does not distinguish or differentiate along the lines of the market segments consumer versus enterprise,
+所以Yugabyte不区分或区分沿线的细分市场消费者与企业
+
+85
+00:09:39,360 --> 00:09:46,640
+but along the application domain databases and technical domain operations in the cloud.
+但沿着应用领域的数据库和技术领域的操作都是在云上的
+
+86
+00:09:46,640 --> 00:09:50,080
+so they are banking or they are betting,
+因此，他们是在赌
+
+87
+00:09:50,080 --> 00:09:56,080
+that they are the only ones who can operate the database at scale,
+赌他们是唯一能够大规模操作数据库的人
+
+88
+00:09:56,080 --> 00:10:00,720
+meaning cost efficiency and at higher quality of service than anyone else.
+这意味着它的成本效率和服务质量比其他人都高
+
+89
+00:10:00,720 --> 00:10:10,399
+and that this is what users or customers want to buy for，want to pay for.
+而这正是用户或客户想要购买的，想要支付的
+
+90
+00:10:10,399 --> 00:10:15,120
+so that was a first impression of how the cloud comes into the play,
+因此，这是一个第一印象，云是如何进入市场的
+
+91
+00:10:15,120 --> 00:10:25,839
+but let's withhold that and pick it up with a vengeance actually later on.
+但让我们暂且不谈这个，以后再说吧
+
+92
+00:10:25,839 --> 00:10:33,040
+so now we need to think a bit more generally about the feature differentiation,
+现在我们需要更普遍思考一下特征的区分
+
+93
+00:10:33,040 --> 00:10:38,320
+cloud is really just one aspect of it for an important one.
+云真的只是它的一个方面，对于一个重要的方面
+
+94
+00:10:38,320 --> 00:10:49,920
+in general, or the most common underlying pattern of feature differentiation is so called ip modularity.
+在一般情况下，或最常见的基础模式的功能区分是所谓的IP模块化
+
+95
+00:10:49,920 --> 00:10:58,560
+the idea that you can split your intellectual property into separate modules of different licenses.
+你有一个可以把你的知识产权分割成不同许可的独立模块的想法
+
+96
+00:10:58,560 --> 00:11:03,440
+so first of all, you need to look at your intellectual property and split it accordingly,
+首先你需要看看你的知识产权，并相应地分割它
+
+97
+00:11:03,440 --> 00:11:10,000
+so that these components that the resulting components are mutually exclusive.
+这些组件，所产生的组件是相互排斥的
+
+98
+00:11:10,000 --> 00:11:15,839
+they can't overlap they need to be neatly separated and then you can if it's for example software,
+他们不能重叠，他们需要被整齐地分开，然后你可以，例如
+
+99
+00:11:15,839 --> 00:11:20,480
+two pieces of software you can license them out differently.
+有两种软件，你可以以不同的方式许可它们
+
+100
+00:11:20,480 --> 00:11:29,120
+you can make one software component available under an open source license and always a commercial license too,
+你可以让一个软件组件在一个开源许可证下可用，并且总是一个商业许可
+
+101
+00:11:29,120 --> 00:11:34,880
+and the other complementary component that adds functionality and features
+如果还有其他能够增加功能和特点的组件
+
+102
+00:11:34,880 --> 00:11:38,800
+and possibly creates value for users or customers,
+并且这些组件可能为用户或客户创造价值
+
+103
+00:11:38,800 --> 00:11:43,279
+then that component you do not make available for free under an open source license,
+那么这个组件你就不能在开放源码许可下免费提供
+
+104
+00:11:43,279 --> 00:11:46,480
+it's only available under commercial license
+它只在商业许可下可用
+
+105
+00:11:46,480 --> 00:11:55,760
+this very general description is kept that journal because that modularity can be many different things.
+这是一个非常概括性的描述，因为模块化可以是许多不同的东西
+
+106
+00:11:55,760 --> 00:11:59,519
+here I will walk you through a couple of examples.
+在这里，我将向你介绍几个例子
+
+107
+00:11:59,519 --> 00:12:06,160
+the modularity might apply to just software as illustrated just a bit ago.
+模块化可能只适用于软件，就像刚才说明的那样
+
+108
+00:12:06,160 --> 00:12:16,000
+just software means for example that you could have a business intelligence report editor,
+只是软件意味着，例如，你可以有一个商业智能报告编辑器
+
+109
+00:12:17,600 --> 00:12:21,200
+which is available for free on an open source license.
+这是在一个开放源码许可证上免费提供的
+
+110
+00:12:21,200 --> 00:12:27,920
+and that editor lets you create nicely some instructions for some business intelligence report generator,
+而那个编辑器可以让你很好地创建一些商业智能报告生成器的指令
+
+111
+00:12:27,920 --> 00:12:32,480
+but you don't make that generator available for free,
+但你不能让这个生成器免费使用
+
+112
+00:12:32,480 --> 00:12:36,079
+you make it to pay for only so it's closed.
+你让它需要付费，所以它是封闭的
+
+113
+00:12:36,079 --> 00:12:43,360
+and then users who like to use your editor or may have to or may want to buy the report generator,
+然后那些喜欢使用你的编辑器的用户，或可能必须使用，或可能想要购买报告生成器的用户
+
+114
+00:12:43,360 --> 00:12:50,800
+because otherwise or maybe because it's the best way of getting the value out of the report definitions,
+也许这是定义报告价值的最佳方式
+
+115
+00:12:50,800 --> 00:12:57,920
+as you want to run them against your internal sales databases.
+当你想对你的内部销售数据库运行它们时
+
+116
+00:12:57,920 --> 00:13:05,519
+and the ip modularity here applies to the source code so that's copyright as the underlying exclusion right,
+知识产权的模块化在这里适用于源代码，这是版权作为基础的排除权
+
+117
+00:13:05,519 --> 00:13:09,040
+and it might also involve patterns that are implemented,
+这也可能涉及到被实施的模式
+
+118
+00:13:09,040 --> 00:13:16,720
+or that have been granted to the company which implemented them in the report generator the runtime if you will.
+或者已经被授予在报告生成器中实施这些模式的公司，或者运行时间，如果你愿意的话
+
+119
+00:13:16,720 --> 00:13:21,519
+another example would be a hardware software split.
+另一个例子是一个硬件软件分割
+
+120
+00:13:21,519 --> 00:13:30,959
+TensorFlow, for example, Google’s machine learning software, is software open source freely available.
+例如，TensorFlow，谷歌的机器学习软件，是开源，免费提供的
+
+121
+00:13:30,959 --> 00:13:33,839
+but google, I believe they have, or they could at least have hardware,
+但谷歌，我相信他们有，或者他们至少可以有硬件
+
+122
+00:13:35,839 --> 00:13:45,680
+that lets you run TensorFlow the software particularly efficiently faster than with generic hardware,
+能够比通用硬件让你运行TensorFlow更有效率
+
+123
+00:13:45,680 --> 00:13:58,079
+But, of course that hardware is only available through the services so the access to the hardware is closed both the layout of the chips or so.
+但当然，硬件只能通过服务来获得，所以对硬件的访问是封闭的，无论是芯片的布局还是其它
+
+124
+00:13:58,079 --> 00:14:06,399
+so, the ip that lets google create dedicated hardware as well as the manufactured and operated hardware.
+所以，让谷歌创建专用硬件的IP，以及制造和运营的硬件
+
+125
+00:14:06,399 --> 00:14:15,760
+that is a nice complementarity between software that everyone can use and can get value out reason to use,
+这是一个很好的互补性的软件，每个人都可以使用，并且有很大的原因来使用它
+
+126
+00:14:15,760 --> 00:14:20,560
+and a particularly efficient execution of that software faster than your competition,
+这也是一个特别有效的特征，你拥有比你的竞争对手执行该软件更快的速度
+
+127
+00:14:20,560 --> 00:14:30,560
+then, which would be a reason to buy into google services so that you could use dedicated TensorFlow hardware,
+那么，这将是一个理由，买到谷歌的服务，这样你就可以使用专用的TensorFlow硬件
+
+128
+00:14:30,560 --> 00:14:35,120
+which operates TensorFlow the software so much faster.
+运作TensorFlow的软件要快得多
+
+129
+00:14:35,120 --> 00:14:41,199
+and of course, our service as well as we already illustrated with the yugabyte example.
+当然，我们的服务也是如此，我们已经用yugabyte的例子说明了这一点
+
+130
+00:14:41,199 --> 00:14:46,880
+you could provide database software so databases are the application domain,
+你可以提供数据库软件，数据库是应用程序的领域
+
+131
+00:14:46,880 --> 00:14:54,399
+and then you have closed next to the open source databases
+然后，你有封闭的开源数据库
+
+132
+00:14:54,399 --> 00:15:01,279
+you have the cloud operations software the management of the database in the cloud and so forth.
+你有云操作软件，能够在云中管理数据库等等
+
+133
+00:15:01,279 --> 00:15:06,160
+so, in all cases, in this case also copyright and patents come into play in the case of hardware.
+所以在这种情况下，版权和专利也会在硬件的情况下发挥作用
+
+134
+00:15:06,160 --> 00:15:14,800
+it would be patterns and probably a lot of trade secrets of how to manufacture that hardware and get it into your data center,
+这将是一种模式，可能还有很多关于如何制造该硬件并将其放入数据中心的商业秘密
+
+135
+00:15:14,800 --> 00:15:21,839
+so the idea of ip modularity says there's something which is a reason to use,
+而知识产权模块化的想法说，有一些东西是有理由使用的
+
+136
+00:15:21,839 --> 00:15:27,680
+and that is available for free under an open source license,
+而且在开源许可下可以免费使用
+
+137
+00:15:27,680 --> 00:15:37,440
+and then there's complementary reason to buy hardware software services that are not free but that customers have to pay for.
+然后有补充的理由购买硬件软件服务，这些服务不是免费的，而是客户必须付费的
+
+138
+00:15:37,440 --> 00:15:45,600
+but that they are willingly paying for because it increases the value they're getting out of the open source software,
+但他们愿意为之付费，因为这增加了他们从开源软件中获得的价值
+
+139
+00:15:45,600 --> 00:15:50,480
+that they're already using and that they've come to like.
+他们已经在使用，而且他们已经开始喜欢了
+
+140
+00:15:52,480 --> 00:16:00,480
+in the commercial open source space when you talk to practitioners they will likely talk about the open core model.
+在商业开源领域，当你与从业者交谈时，他们可能会谈论开放的核心模式
+
+141
+00:16:00,480 --> 00:16:08,480
+the open core model is just a particular form of ip modularity,
+开放的核心模型只是IP模块化的一种特殊形式
+
+142
+00:16:08,480 --> 00:16:15,600
+where the modular parts are both software parts,
+其中的模块化部分都是软件部分
+
+143
+00:16:15,600 --> 00:16:28,959
+and where the open core is open source licensed software and then a closed belt or closed set of extensions, closed source software.
+开放核心是开放源码许可的软件，然后是封闭带或封闭的扩展集，封闭源码软件
+
+144
+00:16:28,959 --> 00:16:35,440
+these are the extensions of a basic piece of software with additional functionality,
+这些都是一个基本的软件的扩展与额外的功能
+
+145
+00:16:35,440 --> 00:16:38,320
+that certain customers need but that are not given to them for free,
+某些客户需要，但不是免费提供给他们的
+
+146
+00:16:38,320 --> 00:16:42,880
+hence the core the base functionality is open,
+核心的基本功能是开放的
+
+147
+00:16:42,880 --> 00:16:47,519
+but as soon as a company needs more advanced features,
+但只要公司需要更多的高级功能
+
+148
+00:16:47,519 --> 00:16:55,440
+some of them or all of them will be closed and hence you have to pay for it.
+他们中的一些人或所有的人将无法使用它，因此，你必须为它付费。
+
+149
+00:16:55,440 --> 00:17:03,360
+so open core means software split like an ip modularity but it's software components only.
+因此，开放的核心意味着像IP模块化一样的软件分割，但它只是软件组件。
+
+150
+00:17:03,360 --> 00:17:13,199
+open core has been getting a pretty bad rep in recent years.
+近几年来，开放核心得到了一个相当糟糕的评价
+
+151
+00:17:13,199 --> 00:17:21,919
+because it's obvious that users may worry that in order to upsell them to paying customers which they may not want.
+原因很明显，用户可能会担心，为了使他们成为付费客户，他们需要支付一些他们并不想要的东西
+
+152
+00:17:21,919 --> 00:17:30,559
+the vendor will be turning the right now useful good open source software into something less useful in the future.
+厂商会把现在有用的好的开源软件变成未来不太有用的东西
+
+153
+00:17:30,559 --> 00:17:40,160
+so users of open source software, that they recognize as commercial open source software based on an open core model,
+因此，开源软件的用户，他们担心自己承认的基于开放的核心模型的商业开源软件
+
+154
+00:17:40,160 --> 00:17:46,080
+will worry that the vendor over time will withhold critical features,
+随着时间的推移，可能会被厂商扣留关键功能
+
+155
+00:17:46,080 --> 00:17:54,880
+that they might play games like stopping to update old features not provide bug fixes quickly enough,
+他们可能会玩一些把戏，比如停止更新旧的功能，而不是快速提供错误修复
+
+156
+00:17:54,880 --> 00:18:04,240
+deliver new features not fast enough or first to customers and to the open source users only much later,
+以及提供新功能的速度不够快，或者先提供给付费客户，而给开源用户的时间要晚很多
+
+157
+00:18:04,240 --> 00:18:08,320
+that they will make upgrading hard and so forth.
+他们会使升级变得困难等等
+
+158
+00:18:08,320 --> 00:18:15,360
+commercial open source has a problem which is that because it's commercial,
+商业开放源代码有一个问题，那就是因为它是商业的
+
+159
+00:18:15,360 --> 00:18:20,320
+users may not trust it to be done right by,
+用户可能不相信它是正确的
+
+160
+00:18:20,320 --> 00:18:26,160
+users may worry that if there's not a very clear delineation,
+用户可能会担心，如果没有一个非常明确的划分
+
+161
+00:18:26,160 --> 00:18:30,320
+what is for free and will be high quality for free forever.
+什么是免费的，并且将永远是高质量的免费的
+
+162
+00:18:30,320 --> 00:18:36,960
+there's not a clear delineation between what's for free and what's to pay for,
+哪些是免费的，哪些是需要付费的，这两者之间没有一个明确的界限
+
+163
+00:18:36,960 --> 00:18:40,480
+that they will be dragged into paying even if they don't want to.
+即使他们不愿意，也会被拉去付款
+
+164
+00:18:40,480 --> 00:18:42,000
+that is the main theory of users
+这就是用户的主要理论
+
+165
+00:18:42,000 --> 00:18:53,120
+and why there is and should be always hesitation or at least consideration before yourself start using commercial open source software,
+而这也是为什么在你开始使用商业开源软件之前，总是要犹豫不决或者至少要考虑一下
+
+166
+00:18:53,120 --> 00:18:55,520
+and lock yourself into that software.
+才能真正投入到该软件中
+
+167
+00:18:55,520 --> 00:19:05,039
+I have an answer to that very, I haven't seen any company do it yet but I think it makes sense,
+我有一个答案，我还没有看到任何公司这样做，但我认为这很有意义
+
+168
+00:19:05,039 --> 00:19:14,640
+which is that the in order to overcome that trust challenge the commercial open source firm needs to create that trust,
+这就是，为了克服这种信任的挑战，商业开源公司需要创造这种信任
+
+169
+00:19:14,640 --> 00:19:20,880
+or at least believably promise that they will always do right by the users,
+或者至少是可信的承诺，他们将永远为用户做正确的事
+
+170
+00:19:20,880 --> 00:19:24,320
+and so I call it that the commercial open source vendor,
+所以我称它为商业开源供应商
+
+171
+00:19:24,320 --> 00:19:28,880
+if they want to and if they want to overcome this trust problem.
+如果他们想克服这个信任问题
+
+172
+00:19:28,880 --> 00:19:35,919
+that they should have a pledge in which they are very explicit about their future behavior,
+他们应该承诺，关于他们的未来行为，他们是非常明确的
+
+173
+00:19:35,919 --> 00:19:39,919
+and what users can rely on and can't rely on.
+并说清楚用户可以依赖和不可以依赖的东西
+
+174
+00:19:39,919 --> 00:19:46,799
+for example, if you want if you're a commercial open source vendor a single vendor open source firm,
+例如，如果你是一个商业的开源供应商，一个单一的供应商开源公司
+
+175
+00:19:46,799 --> 00:19:52,000
+and you intend to play any of these games that I just mentioned,
+且你打算玩我刚才提到的这些把戏
+
+176
+00:19:52,000 --> 00:19:58,720
+well then maybe you should say so or at least not promise you don't,
+或许应该这么说，至少没有保证你不玩
+
+177
+00:19:58,720 --> 00:20:06,240
+because even worse than doing unwanted things is breaking any promises you have.
+因为比做不想要的事情更糟糕的是打破你的任何承诺
+
+178
+00:20:06,240 --> 00:20:10,880
+so if you want to create such a pledge I’m linking here to an example pledge
+所以，如果你想创建这样一个承诺，我在这里有一个承诺的例子
+
+179
+00:20:10,880 --> 00:20:14,880
+then you will have to address a couple of things like will it always be open source
+那么你就必须解决一些问题，比如它是否永远是开源的？
+
+180
+00:20:14,880 --> 00:20:20,159
+or will you stop developing open source software what type of license are you using
+或者你是否会停止开发开源软件，你使用的是什么类型的许可证？
+
+181
+00:20:20,159 --> 00:20:27,960
+will you allow for competition or are you trying to keep competition out and so forth?
+你会允许竞争，还是说你想把竞争排除在外？
+
+182
+00:20:27,960 --> 00:20:30,960
+so these are things which if you discuss them explicitly,
+这些东西，如果你能够明确地讨论它们
+
+183
+00:20:30,960 --> 00:20:36,240
+i believe would create more trust among your users and thereby drive adoption in the market,
+我相信这会使你在你的用户中创造更多的信任，从而推动市场的采用
+
+184
+00:20:36,240 --> 00:20:42,240
+which is why you do open commercial open source in the first place.
+这就是为什么你应该在第一时间采取开放的商业开放源码
+
+185
+00:20:43,679 --> 00:20:59,760
+beyond trust, the best solution to having a successful commercial open source firm is always to really have a good complement,
+除了信任，拥有一个成功的商业开源公司的最佳解决方案始终是拥有一个真正良好的补充
+
+186
+00:20:59,760 --> 00:21:04,799
+that users want to pay for, and happily pay for.
+读者希望为之付费，并乐于为之付费
+
+187
+00:21:04,799 --> 00:21:10,400
+and the best complements are those that have high value to users,
+而最好的补充是那些对用户有高价值的补充
+
+188
+00:21:10,400 --> 00:21:12,080
+so that actually means you can charge a lot
+这实际上意味着你可以有很高的经济收益
+
+189
+00:21:12,080 --> 00:21:18,880
+so that's beneficial to both users who get a lot and the company which can charge appropriately,
+这对收益良多的用户和可以适当收费的公司都有好处
+
+190
+00:21:18,880 --> 00:21:26,360
+and where it is apparent to users is that this particular feature can not be free.
+而对用户来说，明显的是，这个特殊的功能不可能是免费的
+
+191
+00:21:26,360 --> 00:21:37,280
+the problem is the open core model again is that if you are withholding software but you are providing other software available for free.
+开放核心模型的问题再次出现了，如果你是扣留软件，但你提供其他软件免费使用。
+
+192
+00:21:37,280 --> 00:21:45,360
+the users will ask why are you withholding this particular software while you're making that other software available for free.
+用户会问，为什么你扣留了这个特定的软件，而你却让其他的软件免费使用
+
+193
+00:21:45,360 --> 00:21:50,960
+you may think, well, somehow i need to earn money, but to users that is not obvious,
+你可能会想，好吧，我需要挣钱，但对用户来说，这并不明显
+
+194
+00:21:50,960 --> 00:21:56,960
+if you can make one piece of software available for free why can't you make the others available for free.
+如果你能让一个软件免费使用，为什么你不能让其他软件免费使用
+
+195
+00:21:56,960 --> 00:22:07,919
+so then, if what you're withholding from users is obviously cannot be freely available because it costs you the vendor money,
+所以，如果你对用户隐瞒的东西显然不能免费提供，因为它要花你这个卖家的钱
+
+196
+00:22:07,919 --> 00:22:15,280
+then a user will have a much better acceptance or understanding of why you are charging for it.
+那么用户将会更好的接受或理解为什么你要收取这笔费用
+
+197
+00:22:15,280 --> 00:22:21,840
+and so that then is not software because with software you've set the precedent that it could be open source.
+因此，这就不是软件，因为对于软件，你已经开创了它可以开放源代码的先例
+
+198
+00:22:21,840 --> 00:22:24,880
+it would then be, for example, hardware.
+但它也可能是，例如，硬件
+
+199
+00:22:24,880 --> 00:22:29,200
+because manufacturing and maintaining hardware costs money,
+因为制造和维护硬件要花钱
+
+200
+00:22:29,200 --> 00:22:35,640
+and it could be a cloud service because operating the cloud computing facilities also cost money.
+它还可能是一种云服务，因为操作云计算设施也要花钱
+
+201
+00:22:35,640 --> 00:22:41,679
+hardware and the cloud are the best complements you can have today as a commercial open source vendor,
+硬件和云是今天作为一个商业开源供应商，你可以有的最好的补充
+
+202
+00:22:41,679 --> 00:22:49,919
+and users understand that they can't get hardware and cloud operations for free because it costs you money,
+而用户也明白，他们不可能免费获得硬件和云操作，因为这要花钱
+
+203
+00:22:49,919 --> 00:22:55,840
+and if you will to provide it for free you would be broke pretty soon.
+而如果你愿意免费提供，你很快就会破产
+
+204
+00:22:55,840 --> 00:23:01,600
+and that is also understood as not in the interest of users.
+而这也被理解为不符合用户的利益
+
+205
+00:23:06,720 --> 00:23:15,840
+so, then it's one thing to know what it is that you are making freely available and what you're withholding.
+所以，知道你免费提供的是什么，你扣留的又是什么，是很重要的一件事
+
+206
+00:23:15,919 --> 00:23:20,080
+in order to get users and drive adoption in the market,
+为了获得用户和推动市场的采用
+
+207
+00:23:20,080 --> 00:23:23,520
+which you want, which is why you're going the open source way route,
+这是你想要的，这也是为什么你要走开源路线
+
+208
+00:23:23,520 --> 00:23:34,640
+you now have to worry about other companies taking the open source software that you developed,
+你现在不得不担心其他公司会拿走你开发的开源软件
+
+209
+00:23:34,640 --> 00:23:38,960
+and servicing them operating them in the cloud for example.
+并为用户提供服务，例如在云中操作他们
+
+210
+00:23:38,960 --> 00:23:46,640
+and thereby competing with you driving down prices, making you lose sales and so forth.
+同时与你竞争，推动价格下降，使你失去销量等等
+
+211
+00:23:46,640 --> 00:23:51,279
+so that is part of the product management challenge.、
+因此，这是产品管理挑战的一部分
+
+212
+00:23:51,279 --> 00:23:58,480
+it's one thing to drive conversion but how do you do so it's driving adoption in the market,
+它是一件事，以推动转换，但你怎么做是很重要的，它是在市场上推动采用
+
+213
+00:23:58,480 --> 00:24:04,000
+but how do you do so without allowing competition in.
+但你如何在不允许竞争的情况下做到这一点
+
+214
+00:24:04,000 --> 00:24:08,240
+you may wonder do I need to disallow or prevent competition,
+你可能想知道我是否需要禁止或防止竞争
+
+215
+00:24:08,240 --> 00:24:13,760
+some companies may be fine with competition I think this is almost a philosophical question,
+有些公司可能会很喜欢竞争，我认为这几乎是一个哲学问题
+
+216
+00:24:13,760 --> 00:24:22,480
+but most companies do not want competition they want to be able to charge monopoly rents if you will,
+但大多数公司并不希望有竞争，如果你愿意的话，他们甚至希望能够收取垄断租金
+
+217
+00:24:22,480 --> 00:24:28,080
+that doesn't mean it won't happen if you provide something as open source,
+即使你提供的东西是开源的，这种情况也可能会发生
+
+218
+00:24:28,080 --> 00:24:34,480
+well, you just gave the world user trites in a very clearly defined way,
+你刚刚以一种非常明确的方式区分了世界上不同的用户特质
+
+219
+00:24:34,480 --> 00:24:40,960
+and that world might turn on you if they feel like you're not doing right by them.
+他们可能会背叛你，如果他们觉得你并没有向他们提供他们想要的东西
+
+220
+00:24:40,960 --> 00:24:47,760
+here are three examples where exactly that happened, meaning a commercial fork,
+这里有三个例子，正是发生了这种情况，也就是商业分叉
+
+221
+00:24:47,760 --> 00:24:51,840
+so a fork was created of some commercial open source software,
+分叉从一些商业化的开源软件中出现
+
+222
+00:24:51,840 --> 00:25:02,159
+and that fork became commercial meaning it became commercially supported software itself.
+这个叉子变成了商业性的，也就是说，它变成了商业支持的软件本身
+
+223
+00:25:02,159 --> 00:25:08,960
+one of the oldest examples is Compiere, which I think has been dead for 15 years now
+最古老的例子之一是Compiere，我想它已经死了15年了
+
+224
+00:25:08,960 --> 00:25:16,240
+it was an early attempt at an open source ERP software like sap is business suite.
+它是一个早期的尝试，在一个开源的ERP软件，如SAP是商业套件
+
+225
+00:25:16,240 --> 00:25:19,440
+Compiere was great software well done,
+Compiere是一个伟大的软件，它做得很好
+
+226
+00:25:19,440 --> 00:25:35,760
+but the main people while they were good engineers did not have a good hand at managing or maintaining a community and keeping the community.
+但主要好的人是工程师，在管理或维护社区和保持社区方面并没有好手
+
+227
+00:25:35,760 --> 00:25:40,120
+Compiere actually was innovative and how i tried to upsell our people,
+Compiere实际上是创新的，我试图向我们的人推销
+
+228
+00:25:40,120 --> 00:25:45,600
+but if you hear it in a second you will understand how it could be upsetting to people,
+但是，如果你听到下面的话，你就会明白为什么用户不喜欢它
+
+229
+00:25:45,600 --> 00:25:51,440
+so what Compiere it was it provided its software for free as open source software all right,
+Compiere提供了它作为免费的开源软件所有的权利
+
+230
+00:25:51,440 --> 00:25:58,159
+but if users wanted to upgrade to the next major version of the software
+但如果用户想升级到软件的下一个主要版本
+
+231
+00:25:58,159 --> 00:26:05,919
+the upgrade scripts that would upgrade the evolve the database schema,
+升级脚本，将升级进化的数据库模式
+
+232
+00:26:05,919 --> 00:26:10,400
+and adjust the data to go from the old version to the new version,
+并调整数据，从旧版本到新版本
+
+233
+00:26:10,400 --> 00:26:13,600
+they would not be available for free.
+这样的话，他们将不能免费使用这款软件
+
+234
+00:26:13,600 --> 00:26:21,440
+so Compiere decided that it needed hyper modularity using software only,
+Compiere决定，它需要超模块化，只使用软件
+
+235
+00:26:21,440 --> 00:26:23,919
+and arguably it was an open core model,
+可以说这是一个开放的核心模型
+
+236
+00:26:23,919 --> 00:26:32,120
+where core function, where key functionality nevertheless was withheld from the main open source version,
+同时，核心功能，关键功能被扣留在主要的开放源码版本中
+
+237
+00:26:32,120 --> 00:26:36,960
+unfortunately affecting everyone who wanted to upgrade.
+遗憾的是影响了所有想升级的人
+
+238
+00:26:36,960 --> 00:26:48,640
+and, well, it was so annoying to so many people that an Adam Pierre fork successfully was created and was able to be sustained.
+以至于亚当-皮埃尔的叉子成功地被创造出来，并且能够被维持下去时，很多人都感到非常恼火
+
+239
+00:26:48,640 --> 00:26:52,400
+Compiere doesn't exist any longer as far as I know but other empire does.
+据我所知，Compiere已经不存在了，但其他帝国还存在
+
+240
+00:26:52,400 --> 00:26:59,600
+so the commercial fork supported by companies are now multiple companies survived,
+所以由公司支持的商业分叉现在有多家公司存活
+
+241
+00:26:59,600 --> 00:27:05,120
+because that fork could only use the open source license.
+因为那个分叉只能使用开放源代码许可证
+
+242
+00:27:05,120 --> 00:27:08,640
+it did not acquire the original copyright,
+它并没有获得原始的版权
+
+243
+00:27:08,640 --> 00:27:16,159
+cannot do a license for multi-license and hence it is actually now supported by multiple companies.
+不能做一个许可证的多许可证，因此，它实际上现在是由多个公司支持
+
+244
+00:27:16,159 --> 00:27:19,360
+another maybe more well-known example is MySQL,
+另一个也许更著名的例子是MySQL
+
+245
+00:27:19,360 --> 00:27:26,559
+when then acquired by oracle but managed so badly or not managed well at all.
+被oracle收购，但管理如此糟糕
+
+246
+00:27:26,559 --> 00:27:34,640
+that the original creators of MySQL decided to fork their own code but now owned by oracle into MariaDB.
+MySQL的原始创造者决定将他们自己的代码分叉，但现在由oracle拥有，变成MariaDB
+
+247
+00:27:34,640 --> 00:27:45,559
+and so now MariaDB is a competing open source database, competing with its progenitor MySQL.
+所以现在MariaDB是一个竞争性的开源数据库，与它的祖先MySQL竞争
+
+248
+00:27:45,559 --> 00:27:59,679
+and then Nagios which i like to pick data center monitoring software was forked when Nagios the people behind Argus were too slow to respond to user requests,
+然后Nagios，我喜欢挑选数据中心监控软件，当Nagios背后的Argus太慢，无法回应用户的要求时，Nagios被分叉
+
+249
+00:27:59,679 --> 00:28:10,880
+was forked by Nuremberg local netways to become ICINCA, now managed by ICINCA.
+被纽伦堡本地网络分叉，成为ICINCA，现在由ICINCA管理
+
+250
+00:28:10,880 --> 00:28:14,159
+so that is a successful fork and by now,
+这是一个成功的分叉，直到现在
+
+251
+00:28:14,159 --> 00:28:22,120
+i believe a complete rewrite of a once successful roster successful original commercial open source software Nagios here.
+我相信在Nagios这里，只有完整重写一个曾经成功的原始商业开源软件
+
+252
+00:28:22,120 --> 00:28:28,159
+so these forks happen and the fork can be successful,
+这些分叉发生后才会成功
+
+253
+00:28:28,159 --> 00:28:36,880
+and can be sustained by other companies sometimes a set of companies sometimes just a single company.
+并且会被许多其他公司支出，有时是一组公司，有时是一个单一的公司
+
+254
+00:28:38,399 --> 00:28:46,679
+to prevent these things, you may remember the ip rights management strategies i talked about,
+为了防止这些事情，你可能还记得我说过的IP权限管理策略
+
+255
+00:28:46,679 --> 00:28:58,039
+or the intellectual property rights imperative that if you're a single vendor open source firm who wants to be the only one, who keeps competition away,
+或知识产权的必要性，如果你是一个想要成为唯一供应商，并远离竞争的开源公司
+
+256
+00:28:58,039 --> 00:29:04,799
+then you should be the only one, who can multi-license and that will give you a competitive advantage.
+那么你应该是唯一的一个，可以多许可证的公司，这将给你一个竞争优势
+
+257
+00:29:04,799 --> 00:29:12,240
+you need to maintain your right of multi-licensing by beyond the open source license,
+你需要通过扩展开源许可来保持你的多重许可的权利
+
+258
+00:29:12,240 --> 00:29:17,760
+by acquiring any rights to contributions if you accept outside contributions,
+如果你接受外界的贡献，你需要接收这些贡献的权限
+
+259
+00:29:17,760 --> 00:29:22,240
+and you do that by way of a contributor agreement.
+你需要通过贡献者协议的方式来约束这些贡献
+
+260
+00:29:22,240 --> 00:29:26,480
+I think we discussed that that contributor agreement now.
+我想我们已经讨论过了，现在的贡献者协议
+
+261
+00:29:26,480 --> 00:29:35,520
+let’s you now that you have the rights and at least the re-licensing rights to any outside contributions
+对于任何外部的贡献，协议让你有权利和至少有重新授权的权利
+
+262
+00:29:35,520 --> 00:29:45,679
+that lets you keep doing dual licensing of the product or even multi-licensing meaning three or even more licenses.
+你可以继续做产品的双重许可，甚至是多重许可，也可以是三个甚至更多的许可
+
+263
+00:29:45,679 --> 00:29:49,120
+that's what's called dual licensing or multi-licensing.
+这就是所谓的双重许可或多重许可
+
+264
+00:29:49,120 --> 00:29:55,360
+in commercial open source, in particular single vendor open source.
+在商业开源，特别是单一供应商的开源公司
+
+265
+00:29:55,360 --> 00:30:00,960
+there's at least the open source license for the core piece of software as open source,
+至少有一个有开源许可证的核心软件作为开源
+
+266
+00:30:00,960 --> 00:30:09,120
+and the commercial license that you're selling as part of your commercial edition to your customers.
+商业许可证作为你卖给你的客户的商业版本的一部分
+
+267
+00:30:09,120 --> 00:30:15,840
+the question then becomes which open source license should we use? does it matter?
+那么问题来了，我们应该使用哪种开源许可证？
+
+268
+00:30:15,840 --> 00:30:24,320
+and the answer is it matters very much because that is the way how you keep competition away.
+这答案非常重要，因为这是你保持竞争的方式
+
+269
+00:30:24,320 --> 00:30:33,919
+why? well, you want to make it unpleasant to competitors to use that open source software against you,
+为什么？好吧，假设你想让用开源软件来对付你的竞争对手不高兴
+
+270
+00:30:33,919 --> 00:30:36,200
+and you make it unpleasant to competitors,
+你要让竞争对手感到不愉快
+
+271
+00:30:36,200 --> 00:30:44,880
+if you make your software available under an open source license that has a copyleft clause.
+如果你让你的软件在一个开放源码许可证下可用，同时它有一个复制权条款
+
+272
+00:30:44,880 --> 00:30:56,080
+because if it has a copy left clause then the competitor cannot build on that software,
+如果它有一个复制许可条款，那么竞争对手就不能在该软件上建立
+
+273
+00:30:56,080 --> 00:31:04,399
+and have its own additions or extensions like in the open core model,
+或有自己的补充或扩展，就像在开放的核心模式上
+
+274
+00:31:04,399 --> 00:31:09,360
+because of the copyleft clause it would have to lay those extensions open,
+如果没有复制权条款，它必须将这些扩展开放
+
+275
+00:31:09,360 --> 00:31:14,399
+so basically, by using copyleft license open source,
+因此，基本上通过使用copyleft许可开放源代码
+
+276
+00:31:14,399 --> 00:31:19,840
+you are preventing that your competitors could play the open core model,
+这是在防止你的竞争者可以发挥开放的核心模式
+
+277
+00:31:19,840 --> 00:31:30,000
+are one of the dominant ways of separating reason to use from reason to buy features.
+是将使用理由和购买理由分开的主要方式之一
+
+278
+00:31:30,000 --> 00:31:34,399
+and as you will see in a bit it's not just the open core it's ip modularity,
+正如你将看到，它不只是开放的核心，它是IP模块化
+
+279
+00:31:34,399 --> 00:31:36,399
+in general, that is affected by the license choice.
+在一般情况下，这是由许可证的选择影响
+
+280
+00:31:36,399 --> 00:31:45,559
+so, in general use the aggressively most aggressive copyleft open source license
+所以在一般情况下，使用最积极的copyleft开放源代码许可证
+
+281
+00:31:45,559 --> 00:31:52,880
+that makes it really unpleasant to competitors and curtails restricts the potential business models
+这让竞争者很不高兴，并限制了潜在的商业模式
+
+282
+00:31:52,880 --> 00:32:01,840
+and revenue sources they can generate from the open source software that they would have to use when they try to compete with you.
+和收入来源，当他们试图与你竞争时，他们将不得不使用他们可以产生的开源软件
+
+283
+00:32:03,039 --> 00:32:09,159
+to see how this plays out or has played out in industry,
+下面让我们来看看这在工业界是如何发挥的
+
+284
+00:32:09,159 --> 00:32:15,200
+we need to take a step back and distinguish which may be obvious,
+我们需要退一步，区分哪些可能是明显的
+
+285
+00:32:15,200 --> 00:32:23,360
+but it makes a difference in the market distinguish between full-blown application software like enterprise software,
+在市场上是有区别的，要区分全面的应用软件，如企业软件
+
+286
+00:32:23,360 --> 00:32:29,200
+and components that developers use to embed them in their own products.
+和开发者用来嵌入他们自己的产品的组件
+
+287
+00:32:29,200 --> 00:32:35,960
+so full-blown application is something that a user can use out of the box for their business purpose,
+完整的应用程序是一个用户可以使用开箱即用的东西，用于他们的商业目的
+
+288
+00:32:35,960 --> 00:32:39,679
+could be customer relationship management software.
+可能是客户关系管理软件
+
+289
+00:32:39,679 --> 00:32:43,600
+it could be a build system for developers.
+可能是开发人员使用的系统构建软件
+
+290
+00:32:43,600 --> 00:32:46,640
+it's a full-blown application,
+但它总归是一个完整的应用程序
+
+291
+00:32:46,640 --> 00:32:55,799
+and we saw that this was what dominated the second wave of open source in the 2000s.
+我们看看，是什么主导了2000年的第二波开源运动
+
+292
+00:32:55,799 --> 00:33:03,200
+different from applications are components of building blocks for other software,
+与应用程序不同的是，这次是其他软件的构件组件
+
+293
+00:33:03,200 --> 00:33:09,039
+which developers would pick up to build their own products.
+开发者会选择其中的一部分用来建立他们自己的产品
+
+294
+00:33:09,039 --> 00:33:15,519
+so a component, a library is a piece of software that needs to be integrated with other components,
+所以一个组件，一个库是一个软件的一部分，需要与其他组件集成
+
+295
+00:33:15,519 --> 00:33:22,720
+and there it does its service and components,
+并在那里实现它的服务和组件功能
+
+296
+00:33:22,720 --> 00:33:27,440
+they dominate the current and third wave of commercial open source.
+他们主导了当前和第三波的商业开源
+
+297
+00:33:27,440 --> 00:33:36,240
+so 10 years ago, we still saw applications today we mostly see infrastructure components that are integrated,
+10年前，我们仍然看到应用程序，今天我们主要看到基础设施组件，是集成的
+
+298
+00:33:36,240 --> 00:33:43,919
+and the difference is in who you are selling to ultimately with applications it's the end user.
+差异在你是卖应用程序给的最终用户
+
+299
+00:33:43,919 --> 00:33:46,000
+with components it's the developer.
+这是最终用户与组件，与开发人员
+
+300
+00:33:46,000 --> 00:33:54,320
+the developer chooses which component is right for the system they are themselves building.
+开发者会选择哪个组件是适合他们自己建立的系统的
+
+301
+00:33:54,720 --> 00:33:59,679
+and this led to different licensing structures.
+而这导致了不同的许可结构
+
+302
+00:34:00,399 --> 00:34:07,919
+so with an application like a CRM software or you would do a license,
+对于像CRM软件这样的应用程序，你会做一个许可证
+
+303
+00:34:07,919 --> 00:34:11,359
+and you would follow the copyleft strategy that i outlined.
+你会遵循我所概述的复制许可策略
+
+304
+00:34:11,359 --> 00:34:17,320
+you would to paying customers make the software available under commercial license,
+你会向付费客户提供商业许可下的软件
+
+305
+00:34:17,320 --> 00:34:30,639
+and to the open source community you would make the software available under a strong copyleft license like the gpl version 2 or the agpl version 3.
+而对于开源社区，你将在一个强大的版权许可下提供该软件，如GPL版本2或AGPL版本3
+
+306
+00:34:30,639 --> 00:34:40,000
+the agpl version 3 which I’m using here is a copyleft license where a stands for affero and the rest is gpl the new public license,
+我在这里使用的agpl第3版是一个版权许可，其中a代表affero，其余的是gpl，即新公共许可
+
+307
+00:34:40,000 --> 00:34:46,519
+and the affero part means that even if it's just a web service the copyleft clause applies,
+而affero部分意味着即使它只是一个网络服务，也适用于copyleft条款
+
+308
+00:34:46,520 --> 00:34:51,839
+so even if the user is just using the software through a web service,
+因此，即使用户只是通过网络服务使用该软件
+
+309
+00:34:51,839 --> 00:34:59,280
+the distribution is taking place that makes the developer of the service,
+分发正在发生，使服务的开发者
+
+310
+00:34:59,280 --> 00:35:06,800
+which includes the agpl version 3 license component, means the they are passing it on.
+其中包括agpl第3版许可组件，意味着他们正在传递它
+
+311
+00:35:06,800 --> 00:35:15,040
+a distribution is taking place and hence they have to license the whole software under the open source license,
+一个分发正在发生，因此他们必须在开源许可证下许可整个软件
+
+312
+00:35:15,040 --> 00:35:25,040
+hence nobody would pick for example, SugarCRM, the CRM software provided under an agpl version 3 license,
+因此，没有人会选择例如SugarCRM，在agpl版本3许可下提供的CRM软件
+
+313
+00:35:25,040 --> 00:35:34,000
+but then would take it, enhance it and offer it to clients because these enhancements would have to be made available for free as well.
+但会采取它，增强它，并提供给客户，因为这些增强功能也必须是免费提供的
+
+314
+00:35:34,000 --> 00:35:40,720
+well, some companies did but they were clearly at a disadvantage to the original sugarCRM company,
+有些公司做了，但他们显然是处于不利地位的原始CRM公司
+
+315
+00:35:40,720 --> 00:35:43,480
+which could keep functionality separate.
+它可以保持功能独立
+
+316
+00:35:43,480 --> 00:35:53,520
+and because it owned the copyright would not have to make its extensions available for free under the agpl version 3 license.
+而且因为它拥有版权，就不必在agpl第三版许可下免费提供其扩展功能
+
+317
+00:35:53,520 --> 00:35:56,720
+but its competitors would have to.
+但它的竞争对手必须这样做
+
+318
+00:35:56,720 --> 00:36:03,359
+that's applications. now let's turn to components so let's assume
+这就是应用，现在让我们转向组件，让我们假设
+
+319
+00:36:03,359 --> 00:36:08,119
+there's a component could be for example cloud database.
+有一个组件可能是,例如云数据库
+
+320
+00:36:08,119 --> 00:36:24,400
+so, you're making available a database and users can use them and developers can use it to build an application, and run it in their own data center.
+你正在提供一个数据库，用户可以使用它们，开发人员可以使用它来建立一个应用程序，并在他们自己的数据中心运行它
+
+321
+00:36:24,400 --> 00:36:32,720
+now you don't want those to possibly compete with you so you choose the agpl version 3 license,
+现在你不希望那些人可能与你竞争，所以你选择了AGPL第三版的许可证
+
+322
+00:36:32,720 --> 00:36:37,359
+but users as developers are smart,
+但作为开发者的用户是聪明的
+
+323
+00:36:37,359 --> 00:36:47,119
+they look at it and they see, oh i have to apply now the agpl, the copyleft license to my own product,
+他们看到，哦，我现在必须应用AGPL，复制许可到我自己的产品
+
+324
+00:36:47,119 --> 00:36:53,400
+that I’m building on top of the database because the database is agpl version 3 licensed.
+我在数据库的基础上建立的，因为数据库是agpl第三版许可的
+
+325
+00:36:53,400 --> 00:37:00,920
+I don't want that, I want to earn money with my product i don't want to be bound by the agpl version 3 license.
+我不想这样，我想用我的产品挣钱，我不想受agpl第三版许可的约束
+
+326
+00:37:00,920 --> 00:37:06,079
+so, either I go straight for the commercial license and never touch the open source version,
+所以，要么我就直接去申请商业许可，永远不碰开源版本
+
+327
+00:37:06,079 --> 00:37:15,440
+but then the commercial open source vendor loses the whole benefit of driving adoption, or by way of an open source strategy.
+但这样一来，商业开源供应商就失去了推动采用的全部好处，或者通过开源战略的方式
+
+328
+00:37:15,440 --> 00:37:22,320
+all right as speaking as the user again or I just don't touch it at all.
+好吧，作为用户来说，我根本就不碰它
+
+329
+00:37:22,320 --> 00:37:28,880
+so developers would not touch a pure agpl version 3 licensed component.
+开发人员不会去碰一个纯AGPL第三版许可的组件
+
+330
+00:37:28,880 --> 00:37:33,280
+in fact, the rules of any vendor are integrating components into their products,
+事实上，任何厂商的规则都是将组件整合到他们的产品中
+
+331
+00:37:33,280 --> 00:37:37,520
+as discussed under open source governance a couple of lectures ago.
+正如几个讲座前在开放源码治理下所讨论的
+
+332
+00:37:37,520 --> 00:37:42,560
+the rule would always be do not include copyleft licensed in your code.
+规则是永远不要在你的代码中包括版权许可
+
+333
+00:37:42,560 --> 00:37:45,760
+hence the vendor the commercial open source vendor,
+因此，供应商，商业开放源码的供应商
+
+334
+00:37:45,760 --> 00:37:54,400
+who wanted to drive adoption in the market, would on the one hand want to use agpl to keep competition away,
+一方面想在市场上推动采用，将一方面想使用agpl来阻止竞争
+
+335
+00:37:54,400 --> 00:37:59,760
+but because that also kept developers who were the customers away.
+但这也让作为客户的开发者们望而却步
+
+336
+00:37:59,760 --> 00:38:08,640
+because of that the original vendor would have to protect the developers from the effects of the copyleft license,
+因为这样，原来的供应商将不得不保护开发者，使其免受复制许可的影响
+
+337
+00:38:08,640 --> 00:38:19,280
+and they would usually do that by shims or protection layers around the agpl version 3 licensed core of a software.
+他们通常会通过垫片或保护层来保护软件的agpl 3版许可核心
+
+338
+00:38:19,280 --> 00:38:31,359
+so, for a while, we saw a lot of commercial open source software, which its core was agpl licensed or copyleft licensed,
+所以有一段时间，我们看到很多商业开源软件，其核心是AGPL许可或复制许可
+
+339
+00:38:31,359 --> 00:38:41,680
+and then at its outer rims were the code of developers who were just using these components in their own products.
+然后在其外部边缘是开发人员的代码，他们只是在自己的产品中使用这些组件
+
+340
+00:38:41,680 --> 00:38:51,040
+they were that user code touched the otherwise copyleft license component,
+用户代码触及了本来属于版权许可的组件
+
+341
+00:38:51,040 --> 00:39:02,960
+that shim so called shim would be permissively licensed and thereby shield the user code from the copyleft effect.
+那个叫shim的东西会被许可使用，从而使用户代码免受版权保护的影响
+
+342
+00:39:02,960 --> 00:39:09,599
+so actually, commercial open source vendors, trying to drive adoption in the market,
+因此，实际上商业开源供应商，试图推动市场的采用
+
+343
+00:39:09,599 --> 00:39:13,280
+would lessen the copyleft effect by protecting those,
+试图通过保护这些东西来减少复制权的影响
+
+344
+00:39:13,280 --> 00:39:23,200
+who programmed against the commercial open source software by protecting them through intermediate layers or shims as they are called,
+那些针对商业开源软件编程的人，通过中间层或所谓的垫片来保护他们
+
+345
+00:39:23,200 --> 00:39:30,079
+and using a permissive license like the MIT license,
+并使用像MIT许可证这样的许可性许可
+
+346
+00:39:30,079 --> 00:39:37,520
+and that kind of worked for a bit, so until 2016, 2018
+而这种做法在一段时间内是有效的，所以直到2016年，2018年
+
+347
+00:39:37,520 --> 00:39:46,400
+we saw how these third wave commercial open source vendors singles.
+我们看到了这些第三波商业开源供应商是如何唱戏的
+
+348
+00:39:46,400 --> 00:40:00,560
+single vendor open source firms kept driving kept using the copyleft strategy because it was all moving into the cloud, and deployment was in the cloud.
+单一供应商的开源公司不断推动保持使用复制权的策略，因为它将所有移动到云，部署在云上
+
+349
+00:40:00,560 --> 00:40:08,319
+eventually they would use the agpl if it was only on premise the plane gpl would have been sufficient and so forth.
+最终，他们将使用agpl，如果它是唯一的前提下，平面gpl将是足够的，等等
+
+350
+00:40:08,319 --> 00:40:15,040
+so for that reason you would first saw the agpl version pop up,
+出于这个原因，你会首先看到agpl版本的出现
+
+351
+00:40:15,040 --> 00:40:20,079
+then vendors realized that they needed that developers weren't buying because of the copyleft effect
+然后供应商意识到他，由于复制权的影响，开发者并不买账
+
+352
+00:40:20,079 --> 00:40:30,079
+so they would lessen the impact by adding shims for the cloud for any cloud use on the agpl, and thereby drove adoption.
+所以他们会通过为ag平台上的任何云计算使用添加垫片来减少影响，从而推动了采用
+
+353
+00:40:30,079 --> 00:40:39,839
+and that kind of worked out until the hyperscale’s came along.
+在超大规模的出现之前，这种做法是可行的
+
+354
+00:40:43,520 --> 00:40:50,720
+so the hyper scalers are amazon web services, Microsoft azure, google cloud, and so forth.
+因此，超大规模的是亚马逊网络服务，微软Azure，谷歌云，等等
+
+355
+00:40:50,720 --> 00:40:56,079
+it's the large data center operators with highly efficient hardware,
+它是大型的数据中心运营商与高效率的硬件
+
+356
+00:40:56,079 --> 00:41:01,800
+and software infrastructure that you can run your applications in the cloud.
+和软件基础设施，你可以在云中运行你的应用程序
+
+357
+00:41:01,800 --> 00:41:13,599
+it's a major shift as we are all aware of in the industry, the tectonic shift, if you will everything's moving into the cloud.
+这是一个重大的转变，因为我们都知道在行业内，如果你愿意把一切都移动到云，这是一个构造的转变，
+
+358
+00:41:13,599 --> 00:41:25,599
+and as we will see that in a second this was a serious problem for the single vendor open source firms,
+我们将看到，第二个严重的问题，对于单一供应商的开源公司
+
+359
+00:41:25,599 --> 00:42:38,640
+because these hyper scalers allowed users to operate your software, the vendor software at scale in the cloud.
+因为这些超级扩展器允许用户操作你的软件，供应商的软件在云中的规模
+
+360
+00:42:38,640 --> 00:41:43,200
+because with the hyper scalers it was just easily possible.
+因为有了超级扩展器，它只是很容易实现
+
+361
+00:41:43,200 --> 00:41:55,119
+they were able to optimize infrastructure so well that operating an open source database in the cloud did not need the original vendor behind the open source database,
+他们能够很好地优化基础设施，在云中操作一个开源数据库，不需要开源数据库背后的原始供应商
+
+362
+00:41:55,119 --> 00:42:04,640
+because running it on amazon or in azure or google cloud also was really good enough.
+因为在亚马逊或蔚蓝或谷歌云上运行它也确实足够好
+
+363
+00:42:04,640 --> 00:42:14,160
+so, we will look at this in a second because that really is a major tectonic shift.
+所以，我们将在接下来看到，这真的是一个重大的构造性转变
+
+364
+00:42:14,160 --> 00:42:25,119
+we will see how mongoDB, for example, a successful database complained that amazon was eating its business,
+我们将看到MongoDB，例如，一个成功的数据库抱怨说，亚马逊正在吞噬它的业务
+
+365
+00:42:25,119 --> 00:42:36,090
+because mongoDB, the NoSQL database that you could run yourself as open source,
+因为mongoDB，这个NoSQL数据库，你可以自己作为开放源码运行
+
+366
+00:42:37,280 --> 00:42:54,960
+argued that AWS could operate it and would compete with them easily cost efficiently and hence mongoDB didn't like it.
+MongoDB声称AWS可以操作它，并且可以很容易地与他们竞争，成本效益高，因此MongoDB不喜欢它
+
+367
+00:42:54,960 --> 00:43:04,240
+the idea again of single vendor open source is you remain the only vendor who can successfully at scale operate your software.
+单一供应商开放源码的想法是，你仍然是唯一的供应商，可以成功地在规模上操作你的软件
+
+368
+00:43:04,240 --> 00:43:11,359
+so, these vendors who saw a threat by these hyper scalers reacted with a license.
+这些厂商看到了这些超大规模者的威胁，就用许可证做出了反应
+
+369
+00:43:11,359 --> 00:43:23,200
+again, the threat is and the problem is anyone who wants to be a successful commercial open source firm needs to understand that they really need two competencies.
+威胁是任何人谁想要成为一个成功的商业开源公司需要明白的问题，他们真的需要两个能力
+
+370
+00:43:23,200 --> 00:43:33,359
+the competencies are in the original business domain the software itself, whether it's a banking application needs to do, what banks need,
+竞争力是在原始业务领域的软件本身，无论是一个银行应用程序需要做的，银行需要什么
+
+371
+00:43:33,359 --> 00:43:41,200
+but then also you need that second ability to operate the software in the cloud，
+但是，你也需要第二种能力，在云中操作软件
+
+372
+00:43:41,200 --> 00:43:54,079
+that's a completely different dimension from the business functionality now to operate the software at scale cost efficiently reliably in the cloud.
+这是一个完全不同的维度，从现在的业务功能，以成本效益可靠地在云中操作软件的规模
+
+373
+00:43:54,079 --> 00:44:00,560
+and this second dimension was done really well by the hyper scalers,
+而这第二个维度是由超规模的人做得非常好的
+
+374
+00:44:00,560 --> 00:44:13,119
+while the business application focused vendor originally usually grew through understanding customer needs really well, but not the cloud services needs.
+而专注于商业应用的供应商最初通常是通过对客户需求的理解而增长的，但不是对云服务的需求
+
+375
+00:44:13,119 --> 00:44:21,599
+anyway, you need these two abilities and if you make a vendor makes their software available for free under open source.
+总之，你需要这两种能力，如果你让一个供应商在开源下免费提供他们的软件
+
+376
+00:44:21,599 --> 00:44:28,640
+the hyper scalers could just come in use that software and compete with the original vendor.
+超规模可以直接进来使用该软件，并与原始供应商竞争
+
+377
+00:44:28,720 --> 00:44:41,200
+so in response to this, the vendors, the commercial open source vendors invented a new category of licenses called source available licenses,
+因此，为了应对这种情况，供应商，商业开放源代码供应商发明了一种新的许可证类别，称为源代码可用许可证
+
+378
+00:44:41,200 --> 00:44:47,240
+arguably these are licensees which are like the open source licenses,
+可以说，这些都是像开放源代码许可证的许可证
+
+379
+00:44:47,240 --> 00:44:54,640
+but they then spell out that you do not have the usage rights if you're competing with the original owner,
+但他们声称你没有使用权，如果你与原始所有者竞争
+
+380
+00:44:54,640 --> 00:45:04,240
+so we are like open source but if you compete with us we don't like you and you can't use the software period.
+所以我们喜欢开源，但如果你与我们竞争，我们不喜欢你，你不能使用该软件
+
+381
+00:45:04,240 --> 00:45:13,359
+so I’m of course simplifying it is straight to the point though what is supposed to be achieved， keep the competition away.
+我当然是简化了它，什么是应该实现的，让竞争对手远离是直截了当的
+
+382
+00:45:13,359 --> 00:45:20,520
+and so then since 2016 or so i think first was MariaDB.
+因此，自2016年以来，我认为第一个是MariaDB
+
+383
+00:45:20,520 --> 00:45:25,240
+we saw the creation of these source available licenses,
+我们看到了这些来源可用的许可证的创建
+
+384
+00:45:25,240 --> 00:45:31,560
+because what they said is here's the source code and again it's like open source unless you want to compete with us.
+因为他们说的是这是源代码和它像开放源码，除非你想与我们竞争
+
+385
+00:45:31,560 --> 00:45:38,800
+so we saw an introduction of new licensees that were source available licensees,
+因此，我们看到了一个新的被许可人的介绍，是源代码可用的被许可人
+
+386
+00:45:38,800 --> 00:45:47,760
+perhaps the most well-known one is the server-side public license introduced by mongoDB, but there are several others as well.
+也许最著名的一个是由mongoDB引入的服务器端公共许可证，但也有其他几个
+
+387
+00:45:47,760 --> 00:45:50,160
+there's an attempt to standardize those
+有一个尝试，以标准化的那些
+
+388
+00:45:50,160 --> 00:45:56,000
+so that many different commercial open source firms, single vendor open source firms can use this license,
+因此，许多不同的商业开放源码公司，单一供应商的开放源码公司可以使用这个许可证
+
+389
+00:45:56,000 --> 00:46:03,200
+and that's the polyform project which uses these, which provides these.
+而这就是使用这些的polyform项目，它提供这些许可证
+
+390
+00:46:03,200 --> 00:46:10,400
+this is basically a home for configurable source available licenses,
+这基本上是一个可配置的源码可用许可证的家
+
+391
+00:46:10,400 --> 00:46:20,960
+and these vendors were trying to get the benefits of open source driving adoption without actually allowing competition in.
+这些供应商试图获得开源的好处，推动采用，而实际上不允许竞争进入
+
+392
+00:46:20,960 --> 00:46:30,480
+as a consequence, the source available licenses obviously discriminate.
+作为一个结果，来源可用的许可证显然是歧视性的
+
+393
+00:46:30,480 --> 00:46:37,520
+they discriminate against competition meaning they discriminate or disallow a certain use of the software,
+他们对竞争的歧视意味着他们歧视或不允许某种软件的使用
+
+394
+00:46:37,520 --> 00:46:44,480
+and thereby fail the definition of open source by the open source initiative.
+并因此不符合开源倡议对开放源码的定义
+
+395
+00:46:44,480 --> 00:46:51,520
+most realized or most knew that in the beginning already.
+大多数人在一开始就已经意识到或知道这件事
+
+396
+00:46:51,520 --> 00:46:57,359
+however at least for better or worse, I think it's actually good.
+然而，不管是好是坏，至少我认为这其实是好事
+
+397
+00:46:57,359 --> 00:47:06,880
+mongoDB try to get their license accepted as an open source license by the open source initiative.
+mongoDB试图让他们的许可证被开放源码倡议接受为开放源码许可证
+
+398
+00:47:06,880 --> 00:47:11,280
+they failed, it was rejected exactly for the reason I just gave you,
+他们失败了，它被拒绝了，正是因为我刚才给你的理由
+
+399
+00:47:11,280 --> 00:47:22,800
+that discriminating against a certain use including certainly, including competition just made it not open source in the eyes of the open source initiative.
+歧视某种用途，当然，包括竞争，只是让它在开源倡议的眼中不是开源
+
+400
+00:47:22,800 --> 00:47:34,000
+in the sense also of the open source definition meaning the 10 criteria of the open source license definition by the osi,
+在这个意义上也是开放源码定义的意思是由OSI定义的开放源码许可证的10个标准
+
+401
+00:47:34,000 --> 00:47:41,280
+and we don't know yet whether that's the last word on this.
+我们还不知道这是否是这个问题的最后一句话
+
+402
+00:47:41,280 --> 00:47:45,359
+some are calling to revise the open source definition.
+一些人正在呼吁修改开放源码的定义
+
+403
+00:47:45,359 --> 00:47:53,359
+i don't think that would be wise, i don't think you should weaken the definition of anything, you should strengthen the definition,
+我不认为那是明智的，我不认为你应该削弱任何东西的定义，你应该加强这个定义
+
+404
+00:47:53,359 --> 00:48:01,839
+and include open collaborative behavior meaning the process next to the legal definition.
+并包括开放的合作行为，这意味着接近法律定义的过程
+
+405
+00:48:02,880 --> 00:48:07,440
+what it meant in the case of mongoDB is that they re-licensed
+在mongoDB的案例中，它意味着他们重新授权了
+
+406
+00:48:07,440 --> 00:48:17,440
+they had started out with the copyleft strategy that i explained and they changed to the source available licenses
+他们一开始采用了我解释过的版权策略，然后他们改用了可用的源代码许可
+
+407
+00:48:17,440 --> 00:48:18,559
+so what did they do?
+所以他们做了什么？
+
+408
+00:48:18,559 --> 00:48:28,400
+mongoDB originally had the core software the community server available to the world under the agpl version 3 license that's the copyleft strategy.
+mongoDB最初有核心软件，社区服务器在agpl第三版许可下向世界提供，这就是复制许可策略
+
+409
+00:48:28,400 --> 00:48:35,280
+then they realized users wouldn't touch it, unless they were protected from the copyleft effects.
+然后他们意识到用户不会去碰它，除非他们被保护免受复制权的影响
+
+410
+00:48:35,280 --> 00:48:41,200
+and that's why connectors and drivers were made available under a permissive license.
+这就是为什么连接器和驱动程序是在一个许可的许可证下提供的
+
+411
+00:48:41,200 --> 00:48:51,240
+the apache 2.0 license hence now users could use mongoDB in their applications operated themselves and be happy and merry
+通过Apache 2.0许可证，现在用户可以在他们的应用程序中使用mongoDB，自己很开心地操作
+
+412
+00:48:51,240 --> 00:48:58,880
+and then mongoDB tried to upsell them into their own cloud atlasDB.
+然后MongoDB试图向他们兜售自己的云图集数据库
+
+413
+00:48:58,880 --> 00:49:11,839
+and that operation in the cloud was always commercial only no open source there and that was reserved basically for mongoDB.
+而在云端的操作一直都是商业化的，没有开源的，这基本上是为mongoDB保留的
+
+414
+00:49:12,000 --> 00:49:23,440
+and then of course amazon came along and allowed users to operate mongoDB in on amazon on aws.
+然后当然亚马逊出现了，并允许用户在亚马逊的AWS上操作mongoDB
+
+415
+00:49:23,440 --> 00:49:29,040
+as it turns out amazon actually I had to look it up because these were heated debates.
+事实上我不得不去查，因为这些都是激烈的争论
+
+416
+00:49:29,040 --> 00:49:33,800
+amazon never operated mongoDB themselves as an out of the box service,
+亚马逊从来没有把mongoDB作为一个开箱即用的服务来运营
+
+417
+00:49:33,800 --> 00:49:47,440
+but they let users operate mongoDB and apparently operating mongoDB themselves by users, who uploaded it to aws was already that good.
+他们让用户操作mongoDB，显然，用户自己操作mongoDB，并将其上传到aws已经很不错了
+
+418
+00:49:47,440 --> 00:49:55,000
+that mongoDB, the company thought it was a competition by a successful competition.
+mongoDB，该公司认为这是一个成功的竞争
+
+419
+00:49:55,000 --> 00:50:07,040
+in any way, mongo wanted to prevent that amazon smartness up and integrated mongoDB into its service offering and to achieve that.
+在任何情况下，mongo都想防止亚马逊的智能化，集成mongoDB到它的服务产品，并实现这一点
+
+420
+00:50:07,599 --> 00:50:12,240
+and that would have been possible with the from license situation the middle column here,
+而这将有可能与从许可证的情况下，这里的中间列
+
+421
+00:50:12,240 --> 00:50:26,319
+because amazon was also protected like developers from the agpl copyleft effects by way of the intermediary shims permissively licensed shims,
+因为亚马逊也像开发人员一样，通过中介垫片许可的垫片的方式来保护AGPL平台的复制权效应
+
+422
+00:50:26,319 --> 00:50:33,520
+and hence mongoDB decided it needed to protect itself from such competition,
+因此，mongoDB决定它需要保护自己免受这种竞争
+
+423
+00:50:33,520 --> 00:50:43,359
+and re-license the core of mongo away from the open agpl version 3, open source license into the source available ssp,
+并将mongo的核心部分从开放的agpl版本3，开源许可重新授权给可用的SSP源代码
+
+424
+00:50:43,359 --> 00:50:46,319
+or server-side public license that they invented,
+或他们发明的服务器端公共许可证
+
+425
+00:50:46,319 --> 00:50:53,359
+and with that license, amazon cannot use at least legally in the eyes of mongoDB,
+因为这个许可证，亚马逊不能使用，至少在法律上不能使用mongoDB的代码
+
+426
+00:50:53,359 --> 00:51:00,040
+cannot use this so licensed code any longer and compete with mongo as well.
+不能再使用这个许可的代码，也不能再与mongo竞争
+
+427
+00:51:00,040 --> 00:51:07,200
+the old agpl version 3 code will still be a gpa version 3 code but of course the software is always rapidly evolving.
+旧的agpl第三版代码仍将是gpa第三版代码，但当然，软件总是在快速发展
+
+428
+00:51:07,200 --> 00:51:13,520
+so all new versions going forward will be spliced understand.
+所以往后所有的新版本拼接都会被理解
+
+429
+00:51:13,520 --> 00:51:17,760
+so amazon is not touching it,
+所以亚马逊是不会碰它的
+
+430
+00:51:17,760 --> 00:51:28,800
+amazon actually has a, as they say drop-in replacement so it's interface compatible, api compatible but not actually mongoDB, which they're operating for customers.
+实际上，亚马逊有一个，正如他们所说的drop-in的替代品，它的接口兼容api，他们正在为客户设计，但这实际上不是mongoDB
+
+431
+00:51:28,800 --> 00:51:35,200
+mongo was not the only one to use source available licenses like that.
+mongo不是唯一一个像这样使用源码可用许可证的人
+
+432
+00:51:35,839 --> 00:51:49,440
+MariaDB, I think were the first one who introduced such a source available license, the bsl for a component, they made available separately from the main database.
+MariaDB我想是第一个引入这样的源码可用许可证的人，组件的BSL，他们与主数据库分开提供
+
+433
+00:51:49,440 --> 00:51:59,280
+MariaDB as you may remember is the commercial fork of MySQL by the original developers,
+MariaDB，你可能还记得，它是MySQL的商业分叉，由原始开发者开发
+
+434
+00:51:59,280 --> 00:52:04,800
+and as such they don't own the copyright to the core database,
+因此他们并不拥有核心数据库的版权
+
+435
+00:52:04,800 --> 00:52:15,680
+but they own the copyright to what's max called max scale, a proxy server separate from the core of the database,
+但他们拥有的版权，所谓最大的规模，是一个代理服务器独立于数据库的核心
+
+436
+00:52:15,680 --> 00:52:20,040
+and critical for operating it efficiently in the cloud.
+而且对于在云中有效地操作它至关重要
+
+437
+00:52:20,040 --> 00:52:30,240
+and they licensed that away from the copyleft gpl version 2 license to the source available bsl license.
+他们把这个许可从copyleft gpl第二版许可转到了source available bsl许可
+
+438
+00:52:30,240 --> 00:52:36,319
+and so the confluent with its extensions and Redis labs with its extensions
+因此，confluent及其扩展和Redis labs及其扩展
+
+439
+00:52:36,319 --> 00:52:46,079
+they're all licensed away from an open source license to a source available license which would say no competition please
+他们都被从一个开放源码许可证到一个源码可用许可证授权，这将使他们没有竞争
+
+440
+00:52:46,079 --> 00:52:54,319
+the reality of that is always complicated and I’m simplifying of course for the purposes of discussion.
+现实总是很复杂的，为了讨论的目的，我简化了
+
+441
+00:52:54,480 --> 00:53:09,280
+all these software components libraries have multiple components themselves and a more complex licensing regime if you will.
+所有这些软件组件库，如果你愿意的话，将有多个组件，和一个更复杂的许可制度
+
+442
+00:53:09,280 --> 00:53:28,640
+but in the end, they still can be distinguished into these three parts which again is the functionality that is either competitively non-differentiating,
+但最终，他们仍然可以被区分为这三个部分，这要么是功能，要么是竞争性的非差异化
+
+443
+00:53:28,640 --> 00:53:41,680
+and then it's permissively licensed or can be permissively licensed or the reason to use feature which used to be copyleft license and it's now source available license.
+然后它被允许许可，可以被允许许可或使用功能的原因，这曾经是copyleft许可，但现在是源代码可用许可
+
+444
+00:53:41,680 --> 00:53:48,400
+and that's what you want to protect even though you make it open source or kind of open source.
+而这就是你想保护的东西，即使你使它成为开放源码或开放源码的一种
+
+445
+00:53:48,400 --> 00:53:58,480
+almost open source and the reason to buy features which are purely commercial and not available for free.
+这几乎是开源的，而购买功能的原因是这项功能是纯商业的，不能免费使用的
+
+446
+00:53:58,480 --> 00:54:08,160
+and this are three parts that you pretty much always have and that you need to express in the licensing scheme that you're using.
+这是三部分，你几乎总是有，你正在使用，你需要表达的许可计划
+
+447
+00:54:08,160 --> 00:54:18,160
+in the public debates there was a lot of pushback against the companies who used these source available licenses to prevent competition.
+在公开辩论中，有很多人反对那些使用这些来源可用的许可证的公司，以防止竞争
+
+448
+00:54:18,160 --> 00:54:23,559
+open source enthusiasts railed against it because it was breaking the open source spirit,
+开源爱好者对它进行了抨击，因为它破坏了开放源码精神
+
+449
+00:54:23,559 --> 00:54:34,680
+and they ensured like in the case of mongoDB that the licensees, these source available licenses were not accepted as open source licenses.
+他们确保像在mongoDB的情况下，这些许可证，这些来源可用的许可证将不会被接受为开放源码的许可证
+
+450
+00:54:34,680 --> 00:54:46,160
+I think that's actually possible to maintain open source street credibility by not doing what these vendors are currently doing,
+我认为这其实是可以通过不做这些供应商目前所做的事情来维持开源道路的信誉
+
+451
+00:54:46,160 --> 00:54:57,040
+which is dual licensing shown on the left where you have the usual commercial license and then not the copyleft license but rather source available license only.
+这是在左边显示的双重许可，在那里你有通常的商业许可，不是版权许可，而是只有源代码可用的许可
+
+452
+00:54:57,040 --> 00:55:05,200
+you can do better than that in my book and which would be to switch from dual licensing to triple licensing.
+你可以做得更好，在我的书中，这将是从双重许可切换到三重许可
+
+453
+00:55:05,200 --> 00:55:16,319
+meaning you allow those of your user base who really care about the open source aspects of it.
+这意味着你允许那些真正关心开源方面的用户群
+
+454
+00:55:16,319 --> 00:55:22,160
+those you give a full blown all the way agpl version 3 license.
+那些你给一个完整的所有方式的AGPL版本3许可证的用户
+
+455
+00:55:22,160 --> 00:55:26,520
+so, you can argue this is open source code properly done
+你可以说这是开源的正确做法
+
+456
+00:55:26,520 --> 00:55:34,480
+and then those developers who are pragmatists, who are not going to compete with you but want to use you,
+然后那些实用主义者的开发者，他们不打算和你竞争，但想使用你的软件
+
+457
+00:55:34,480 --> 00:55:38,040
+as if it was open source and decide later whether they want to buy.
+就像它是开源的一样，以后再决定他们是否要购买
+
+458
+00:55:38,040 --> 00:55:43,359
+to those you explain and give the software under source available license.
+对于那些人，你解释并给他们提供有在源头可用的许可证的软件
+
+459
+00:55:43,359 --> 00:55:48,319
+this way with this triple licensing scheme as shown on the right here.
+这种方式与这个三重许可计划，在这里显示在右边
+
+460
+00:55:48,319 --> 00:55:55,760
+you can maintain the open source credibility it is open source license while you explain.
+你可以在你解释的时候保持开源的可信度，它是开源的许可
+
+461
+00:55:55,760 --> 00:56:02,559
+and it is being understood to developers while you're also providing the source available license.
+这样开发人员能够理解，而你也提供了来源可用的许可证
+
+462
+00:56:02,559 --> 00:56:13,359
+and in a sense, this is fair because certainly developers understand that eventually you will want to earn money,
+而在某种意义上，这是很公平的，因为开发者当然明白，最终你会想赚钱
+
+463
+00:56:13,359 --> 00:56:23,040
+and hence that your commercial undertaking with that your strategies are transparent and you're still trying to do right by the open source world.
+因此，你的商业承诺与你的战略是透明的，你仍然试图做正确的开源世界
+
+464
+00:56:26,880 --> 00:56:34,880
+after this, total force through the licensing strategies in the cloud.
+在这之后，通过云端的许可策略，总的来说是力挽狂澜
+
+465
+00:56:34,880 --> 00:56:46,559
+i would like to scale back a little bit quickly go over how commercial open source utilizes the previously introduced control mechanisms,
+我想把规模缩小一点，快速地去看看商业开放源码如何利用以前介绍的控制机制
+
+466
+00:56:46,559 --> 00:56:54,319
+and then i will also talk a little bit about developers so it's assorted topics now.
+然后我还会谈一点关于开发者的问题，所以现在是其他主题了
+
+467
+00:56:55,040 --> 00:57:07,359
+in community open source we had the original non-organized in the sense of an organizational structure incorporation traditional community open source,
+在社区开放源码中，我们有原始的非组织的意义上的组织结构纳入传统的社区开放源码
+
+468
+00:57:07,359 --> 00:57:13,280
+where you would have usually distributed copyright control.
+在那里你通常会有分布式的版权控制
+
+469
+00:57:13,280 --> 00:57:20,319
+for example, you would have some people in charge and if something happened to these people you would have a problem,
+例如，你会有一些人负责，如果这些人发生了一些事情，你会有一个问题
+
+470
+00:57:20,319 --> 00:57:28,000
+and that's why we got foundations where the foundations acquired the copyright could possibly change the license,
+这就是为什么我们得到了基金会，基金会获得的版权可能会改变许可证
+
+471
+00:57:28,000 --> 00:57:35,359
+could possibly replace the people in charge if really necessary even though that rarely happens.
+如果真的有必要，可能会取代负责的人，尽管这很少发生
+
+472
+00:57:35,359 --> 00:57:45,119
+all based on bylaws and transparent processes that people in particular companies could agree to.
+这都是基于特定公司的人可以同意的章程和透明程序
+
+473
+00:57:45,119 --> 00:58:01,119
+perhaps most interesting about this is that the social leadership in foundation led open source projects was always distributed like in the traditional community projects,
+也许最有趣的是，在基金会主导的开源项目中，社会领导力总是像传统的社区项目一样，是分布式的
+
+474
+00:58:01,119 --> 00:58:12,960
+and that you would become a leader because you earned it over time by working hard and the project that really really is all very different with commercial open source.
+而你会成为一个领导者，因为你通过努力工作赢得了它，而这个项目与商业开源真的非常不同
+
+475
+00:58:12,960 --> 00:58:20,880
+the company giveth, the company take, and that would be the social leadership.
+公司给予，公司采取，这将是社会的领导
+
+476
+00:58:20,880 --> 00:58:28,480
+the developers who contribute are company employees and hence the company owns what they do.
+贡献的开发者是公司的雇员，因此公司拥有他们的工作成果
+
+477
+00:58:28,480 --> 00:58:36,000
+they maintain copyright that way and they could take away your contribution rights to the code base.
+他们以这种方式维护版权，他们可以拿走你对代码库的贡献权
+
+478
+00:58:36,000 --> 00:58:46,240
+Certainly, they would do so as soon as you leave the company, but also maybe if you were demoted you would lose these rights as well.
+只要你一离开公司，他们就会这样做，但如果你被降职，你也会失去这些权利
+
+479
+00:58:46,240 --> 00:58:52,079
+and so, you were assigned committer rights rather than you earned them.
+因此，你被分配了贡献的权利，而不是你赢得了贡献的权利
+
+480
+00:58:52,079 --> 00:59:05,839
+Basically, in commercial open source it's the company all the way who runs and owns the established control and steering mechanisms that I talked about before.
+基本上，在商业开放源码中，就像我之前谈到的，一直是公司在运行和拥有既定的控制和指导机制，
+
+481
+00:59:09,520 --> 00:59:12,640
+so finally let's look at developer careers.
+最后，让我们来看看开发者的职业生涯
+
+482
+00:59:12,640 --> 00:59:19,839
+labor economics is a big word for what I basically want to discuss here as developer careers.
+劳动经济学是一个大词，我基本上想在这里讨论的是开发人员的职业
+
+483
+00:59:19,839 --> 00:59:28,640
+as we know, there is a path for a developer and they could start out as a user, become a contributor, a committer.
+正如我们所知，开发人员有一个路径，他们可以从用户开始，成为贡献者，提交者。
+
+484
+00:59:28,640 --> 00:59:41,359
+if it's a foundation run project they might become even project management, committee members, or leaders or maybe even foundation members with broad oversight and coaching responsibility,
+如果它是一个基金会运行的项目，他们甚至可能成为项目管理，委员会成员，或领导者，甚至可能是具有广泛监督和辅导责任的基金会成员
+
+485
+00:59:41,359 --> 00:59:55,920
+and arguably these career steps signal they definitely show increasing status but also increasing power associated with it.
+可以说，这些职业步骤标志着，他们显示出越来越多的地位，但也越来越多的权力与此相关
+
+486
+00:59:55,920 --> 01:00:00,240
+you can think about it from an employer's perspective perhaps.
+你可以从雇主的角度考虑一下，也许
+
+487
+01:00:00,240 --> 01:00:09,200
+if you're an employer and you look at a software developer and the developer is busy and open source.
+如果你是一个雇主，你看一个软件开发人员和开发人员是忙碌和开放源码
+
+488
+01:00:09,200 --> 01:00:13,359
+this means a lot potentially to the employer.
+这对雇主来说意味着很多潜在的东西
+
+489
+01:00:13,359 --> 01:00:17,520
+first of all, in a hiring discussion.
+首先，在招聘的讨论中
+
+490
+01:00:17,520 --> 01:00:30,160
+the employer will see that you are a technically competent person, you're active in open source the employer can look at the code you have been writing in public,
+雇主会看到你是一个有技术能力的人，你在开源方面很活跃，雇主可以看到你在公开场合写的代码
+
+491
+01:00:30,160 --> 01:00:39,760
+that's much better than if they have to believe you that you write great code but they can't see it because it's hidden behind your current or former employer's firewall.
+这比他们不得不相信你写了很好的代码，但他们不能看到它，因为它隐藏在你现在或以前的雇主的防火墙后面要好得多
+
+492
+01:00:39,760 --> 01:00:52,640
+so if you're busy in open source to an employer it means they can verify your technical skills in general, or maybe even for a project they might be interested in.
+所以，如果你忙于开源，对雇主来说，这意味着他们可以在一般情况下验证你的技术能力，甚至可能是对他们可能感兴趣的项目
+
+493
+01:00:52,640 --> 01:00:57,000
+because as we know software's built from open source components.
+因为我们知道软件是由开放源码的组件建立的
+
+494
+01:00:57,000 --> 01:01:03,599
+if you are working on the right open source components that the employer needs in their products,
+如果你的工作恰好在一个在雇主的产品中需要的开源组件
+
+495
+01:01:03,599 --> 01:01:10,000
+then maybe that particular product or project skills are important for the employer.
+那个特定的产品或项目技能对雇主来说是很重要的
+
+496
+01:01:10,000 --> 01:01:21,280
+beyond the technical abilities you need to realize that open source projects are social systems and that there are peers,
+在技术能力之外，你需要认识到，开源项目是社会系统，有同行的存在
+
+497
+01:01:21,280 --> 01:01:28,079
+if, for example, they accept your contributions, well, that makes you a contributor,
+如果，比如说，他们接受你的贡献，那么，你就成了贡献者
+
+498
+01:01:28,079 --> 01:01:31,680
+there was someone who signed off on your work,
+有一个人在你的作品上署名
+
+499
+01:01:31,680 --> 01:01:35,359
+so, if you can point an employer to your contributions.
+所以，如果你能让雇主意识到你的贡献
+
+500
+01:01:35,359 --> 01:01:40,480
+you can tell them the people in that project who really care about their project,
+你可以告诉那个项目中的人，谁真正关心他们的项目
+
+501
+01:01:40,480 --> 01:01:52,720
+confirmed that my work is good you get peer confirmation as opposed to you just put code somewhere and want the let the employer analyze it.
+证实我的工作是好的，你得到了同行的确认，而不是你只是把代码放在某个地方，想让雇主分析它
+
+502
+01:01:52,280 --> 01:01:58,640
+moreover, if you actually make it from contributor to committer for example,
+此外，如果你真的能从贡献者变成提交者，例如
+
+503
+01:01:58,640 --> 01:02:11,319
+um then the implication to an employer is, oh, this person gets along with other people so there is a peer confirmation of social competencies that you have.
+对雇主的暗示是，哦，这个人和其他人相处得很好，所以你的社会能力有一个同行的确认
+
+504
+01:02:11,319 --> 01:02:18,119
+and if you actually take a leadership role in an open source project it's a peer confirmation of that leadership competencies,
+如果你真的在一个开源项目中担任领导角色，这也是同行对你的领导能力的确认
+
+505
+01:02:18,119 --> 01:02:27,599
+all of which makes you much more likely than the average person to be a competent future employee.
+所有这些都使你比一般人更有可能成为一个合格的未来雇员
+
+506
+01:02:27,599 --> 01:02:36,920
+employers look at these peer confirmations and realize, wow, these are important skills to have.
+雇主看着这些同行对你的肯定，意识到，哇，这些都是重要的技能
+
+507
+01:02:36,599 --> 01:02:42,920
+we get them confirmed here and that takes out uncertainty in hiring discussions.
+我们让他们在这里得到确认，这就消除了招聘讨论中的不确定性
+
+508
+01:02:42,920 --> 01:02:54,079
+finally, if the open source project that you're working on and in which you have or a developer has a position of power and influence
+最后，如果你所从事的开源项目，以及你或你的开发者在其中有权力和影响力的地位，那么
+
+509
+01:02:54,079 --> 01:02:59,760
+then of course the employer could possibly use that to channel their own contributions into that project, influence the project direction etc.
+雇主当然可以利用这一点来引导他们自己对项目的贡献，影响项目的方向等等
+
+510
+01:03:03,680 --> 01:03:11,839
+reach the community, steer the community as a resource to where the employer would like them to go.
+达成社区，将社区作为一种资源引导到雇主希望他们去的地方
+
+511
+01:03:11,839 --> 01:03:18,640
+all through you as the conduit because of your position of power and influence in the project.
+所有通过你作为渠道，因为你在项目中的权力和影响力的地位
+
+512
+01:03:18,640 --> 01:03:24,720
+you are unlikely to abuse it but if your employer is paying you,
+你不太可能滥用它，但如果你的雇主给你钱的话
+
+513
+01:03:24,720 --> 01:03:31,079
+or if the employer which is going to hire you will be paying you to keep working on that open source project,
+如果即将雇用你的雇主会付钱给你，让你继续在那个开放源码项目上工作
+
+514
+01:03:31,079 --> 01:03:38,319
+it is understood by the community that oh wait a second that employer is paying a core member,
+它被社区理解为，哦，等一下，那个雇主正在支付一个核心成员
+
+515
+01:03:38,319 --> 01:03:42,640
+a person in position of power and influence and hence it's benefiting the project.
+一个有权力和影响力的人，因此它对项目有好处
+
+516
+01:03:42,640 --> 01:03:55,720
+and so, it's probably somewhat acceptable if this way the employer influences the project's direction.
+所以，如果雇主以这种方式影响项目的方向，这可能是有点可以接受的
+
+517
+01:03:55,720 --> 01:04:00,640
+not everyone will agree to it, but there is a give and take that people are investing with the money.
+不是每个人都会同意的，但人们用钱投资是有付出和回报的
+
+518
+01:04:00,640 --> 01:04:05,920
+it's benefiting the project so they get a say and where it's going.
+这对项目有好处，所以他们有发言权，也有发言权的归属
+
+519
+01:04:05,920 --> 01:04:20,400
+and you turn it around then, not only if the employer derives value from the developer having demonstrated competencies peer confirmed competencies and being in a position of power that the employer can use,
+相反，不仅是雇主从开发者有证明能力的同行确认的能力和处于雇主可以使用的权力地位中获得价值
+
+520
+01:04:20,400 --> 01:04:28,720
+then the developer can turn it around and negotiate a better position, negotiate a higher salary.
+开发人员也可以相反得，谈判一个更好的位置，谈判一个更高的薪水
+
+521
+01:04:28,720 --> 01:04:41,680
+for example, with the potential new employer probably have a better job security and a richer job experience as they are shuttling back and forth between open source and the products of the employer.
+例如，潜在的新雇主可能有更好的工作保障和更丰富的工作经验，因为他们在开源和雇主的产品之间来回穿梭
+
+522
+01:04:41,680 --> 01:04:49,760
+so, being a successful open source developer is beneficial to your career in many different ways.
+所以，成为一个成功的开源开发者对你的职业生涯有很多不同方面的好处
+
+523
+01:04:53,039 --> 01:04:59,760
+so, finally, let me take a look at how single vendor open source firms are doing.
+所以，最后，让我们看一下单一供应商的开源公司是如何做的
+
+524
+01:04:59,760 --> 01:05:03,680
+it's straightforward they have a life cycle like every other company.
+它是直截了当的，他们有一个生命周期，像其他公司一样
+
+525
+01:05:03,680 --> 01:05:11,079
+either as a company itself or for their main products from launch growth maturity and eventual sun setting
+无论是作为一个公司本身还是他们的主要产品，从推出到成长到成熟再到最终日落，都是如此
+
+526
+01:05:11,079 --> 01:05:26,480
+what is interesting beyond this generic chart is how feature differentiation works out over time and that is a question of market penetration.
+除了这个一般的图表之外，有趣的是，随着时间的推移，功能差异化是如何实现的，这是一个市场渗透率的问题
+
+527
+01:05:26,480 --> 01:05:35,680
+if the company is new, if the product is new, if all you care about is driving adoption in the marketplace
+如果公司是新的，如果产品是新的，如果你所关心的是在市场上推动采用，那么，你就会发现
+
+528
+01:05:35,680 --> 01:05:44,680
+you will not hold back any innovation, you will make it rapidly and freely available as open source to drive adoption
+你不会保留任何创新，你会让它迅速地、免费地作为开放源码来推动采用
+
+529
+01:05:44,680 --> 01:05:58,559
+as maybe your growth continues and you certainly aren't satiating but your growth in terms of market adoption is slowing down
+因为也许你的增长仍在继续，你当然不会满足，但你在市场采用方面的增长正在放缓
+
+530
+01:05:58,559 --> 01:06:11,760
+maybe then an adoption by non-paying users is slowing down maybe then you want to invest more in converting those users into paying customers,
+也许，非付费用户的采用正在放缓，也许你想在将这些用户转化为付费用户方面投入更多的资金
+
+531
+01:06:11,760 --> 01:06:19,760
+so you increase the incentives to go from the free version from the community edition to the commercial edition,
+所以你要增加激励措施，让他们从社区版的免费版本转到商业版
+
+532
+01:06:19,760 --> 01:06:29,520
+but that is will only take place after you've driven adoption, so open comes first close comes later or second.
+但这是只有在你推动了采用之后才会发生的，所以开放是第一位的，关闭是第二位的
+
+533
+01:06:29,520 --> 01:06:37,280
+it is aligned with what in future lectures we will see is the startup lifecycle i've kind of sketched it out here.
+这与我们在今后的讲座中所看到的初创企业的生命周期是一致的，我在这里把它勾勒出来了
+
+534
+01:06:37,280 --> 01:06:47,440
+how being open switching over to being more closed over time is aligned with the different stages of a startup from project inception.
+随着时间的推移，从开放到封闭是如何与初创企业的不同阶段保持一致的
+
+535
+01:06:47,440 --> 01:06:51,680
+through problem solution fit to product market to channel product fit,
+从问题解决方案到产品市场再到渠道产品的契合
+
+536
+01:06:51,680 --> 01:06:58,799
+but we will see all that in the next set of lectures on startups.
+我们将在下一组关于初创企业的讲座中看到这一切
+
+537
+01:06:58,799 --> 01:07:06,079
+summarizing that you can argue that in the early years, you are as a single vendor open source firm a full and fair open source play.
+综上所述，你可以认为，在早期，你是作为一个单一的供应商开源公司一个完整的和公平的开源平台
+
+538
+01:07:06,079 --> 01:07:11,760
+during the growth years you probably still are a fair and full open source play,
+在成长的几年里，你可能仍然是一个公平和全面的开源平台
+
+539
+01:07:11,760 --> 01:07:19,839
+but we've seen repeatedly now that as the company matures it will increasingly close down the product.
+但我们现在已经多次看到，随着公司的成熟，它将越来越多地关闭产品
+
+540
+01:07:19,839 --> 01:07:34,400
+and that is in order to convert or basically milk the market and that of course only happens if the market actually is closing down rather than keeping growing.
+而这是为了转换或基本上榨取市场，当然，只有在市场确实在关闭而不是保持增长的情况下才会发生
+
+541
+01:07:34,400 --> 01:07:40,599
+but that is the reality of it and users should be aware of it.
+但这是它的现实，用户应该意识到这一点
+
+542
+01:07:40,599 --> 01:07:45,440
+but at that point in time they have maybe already a decade of beneficial use of free and open source software,
+但在这一点上，他们也许已经有一个十年的自由和开源软件的有益使用
+
+543
+01:07:45,440 --> 01:07:53,599
+so maybe that's acceptable to them, with that we talked about multiple topics of interest.
+所以，也许这对他们来说是可以接受的，与此同时，我们谈到了多个感兴趣的话题
+
+544
+01:07:53,599 --> 01:08:01,440
+in commercial open source how to feature differentiate to solve the product management challenge of commercial open source.
+在商业开放源码中，如何通过功能区分来解决商业开放源码的产品管理是一个难题
+
+545
+01:08:01,440 --> 01:08:11,200
+how it all plays out in the cloud in particular from the licensing strategy perspective and then we talked about some of the more established topics.
+这一切是如何在云中进行的，特别是从许可策略的角度来看，然后我们谈到了一些更成熟的话题
+
+546
+01:08:11,200 --> 01:08:25,279
+that's it from me today thank you very much for your attention and we will talk about startups next time.
+我今天就讲到这里，非常感谢大家的关注，我们下次再谈创业
