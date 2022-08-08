@@ -5,7 +5,7 @@
 | time  | lecturer       | topic                                       | host | origin video | subtitle | Slides | bilibili url |
 | ----- | -------------- | ------------------------------------------- | ---- | ------------ | -------- | ------ | ------------ |
 | 08-08 | 夏小雅、宁泽欣 | Overview and History、Intellectual Property |      |   [B02](https://www.youtube.com/watch?v=icORK-MbZdg&list=PLQ2ODVSeOYlXtMfsO-JrL--lnFRbAaLHL&index=2)       |          |    [B02](https://github.com/dirkriehle/foss-course/blob/main/Generated/Lecture%20slides/FOSS%20B02%20-%20Intellectual%20Property.pdf)    |              |
-| 08-09 | 顾叶鸣、伍泰炜 | Corporate Governance、Project Communities   |      |              |          |        |              |
+| 08-09 | 顾业鸣、伍泰炜 | Corporate Governance、Project Communities   |      |              |          |        |              |
 | 08-10 | 伍泰炜、史经犇 | Engineering Processes、Development Tooling  |      |              |          |        |              |
 | 08-11 | 杨鸣、张翔宇   | The software industry、Developer Foundation |      |              |          |        |              |
 | 08-12 | 张翔宇、张欣然 | User Foundation、Labor economics            |      |              |          |        |              |
