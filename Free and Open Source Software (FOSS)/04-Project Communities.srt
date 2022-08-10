@@ -1,0 +1,6640 @@
+1
+00:00:02,840 --> 00:00:05,940
+hello everyone and welcome again to
+大家好，欢迎再次
+
+2
+00:00:05,940 --> 00:00:10,700
+floss our course on open source software
+我们 floss 的开源软件课程
+
+3
+00:00:10,700 --> 00:00:14,059
+in this session we will look at the
+参加本次会议的开源软件课程，我们将研究
+
+4
+00:00:14,059 --> 00:00:16,939
+processes and practices of open source
+开源项目社区的流程和实践，
+
+5
+00:00:16,939 --> 00:00:21,359
+project communities and for this we will
+为此我们将
+
+6
+00:00:21,359 --> 00:00:23,699
+look at the structure of projects the
+研究项目的结构
+
+7
+00:00:23,699 --> 00:00:25,589
+roles people play in the career path
+人们在职业道路上扮演的角色
+
+8
+00:00:25,589 --> 00:00:29,160
+they can have and then we look at what I
+他们可以有，然后我们看看我
+
+9
+00:00:29,160 --> 00:00:31,880
+call the three four five model of open
+称之为开放
+
+10
+00:00:31,880 --> 00:00:35,280
+communities or project communities which
+社区或项目社区的三四五模式，它们
+
+11
+00:00:35,280 --> 00:00:38,250
+are the principles of three principles
+是本课程开头提到
+
+12
+00:00:38,250 --> 00:00:41,060
+of open collaboration for practices of
+的开放式协作交流实践的三个原则
+
+13
+00:00:41,060 --> 00:00:44,460
+communication and five stages of open
+和开源志愿服务的五个阶段的原则
+
+14
+00:00:44,460 --> 00:00:48,210
+source volunteering as mentioned in the
+
+15
+00:00:48,210 --> 00:00:51,150
+beginning of this course open source is
+
+16
+00:00:51,150 --> 00:00:54,120
+highly innovative meaning in this case
+在这种情况下
+
+17
+00:00:54,120 --> 00:00:57,540
+on the domain or the aspects of process
+，源在领域或流程创新的方面具有高度创新的含义，
+
+18
+00:00:57,540 --> 00:01:00,330
+innovation open source community
+开源社区
+
+19
+00:01:00,330 --> 00:01:03,930
+processes are quite different from what
+流程与
+
+20
+00:01:03,930 --> 00:01:06,680
+we are used to say from within companies
+我们过去在公司内部所说的完全不同，
+
+21
+00:01:06,680 --> 00:01:09,650
+so open source has brought us new
+因此开源为我们带来了新
+
+22
+00:01:09,650 --> 00:01:12,690
+processes of collaboration and here
+的协作流程，
+
+23
+00:01:12,690 --> 00:01:16,410
+specifically of community-based project
+特别是社区 - 基于项目
+
+24
+00:01:16,410 --> 00:01:21,420
+collaboration it helps to contrast this
+协作，它有助于对比这一点
+
+25
+00:01:21,420 --> 00:01:25,200
+to make sure we understand how this is
+，以确保我们了解这是如何
+
+26
+00:01:25,200 --> 00:01:26,550
+different and we are deepen that
+不同的 t，我们加深了
+
+27
+00:01:26,550 --> 00:01:28,140
+understanding about how it's different
+对公司内部发生的事情在第一步中的不同之处的理解，
+
+28
+00:01:28,140 --> 00:01:29,909
+in the first step for what happens
+
+29
+00:01:29,909 --> 00:01:33,690
+within firms so within a firm you have a
+因此在公司内部你有一个
+
+30
+00:01:33,690 --> 00:01:37,229
+project structure such that the firm a
+项目结构，这样
+
+31
+00:01:37,229 --> 00:01:40,770
+company owns the project and the
+公司拥有项目和
+
+32
+00:01:40,770 --> 00:01:43,350
+intellectual property with it and also
+知识产权，
+
+33
+00:01:43,350 --> 00:01:46,260
+you also can fully determine any project
+你也可以完全 确定任何项目的
+
+34
+00:01:46,260 --> 00:01:50,190
+structures its the firm or the CEO of
+结构 它的公司或公司的 CEO
+
+35
+00:01:50,190 --> 00:01:52,860
+the firm ultimately who determines how
+最终决定
+
+36
+00:01:52,860 --> 00:01:56,490
+things work inside an open source
+开源项目或开源项目内部的运作
+
+37
+00:01:56,490 --> 00:01:58,890
+project or an open source project it's
+
+38
+00:01:58,890 --> 00:02:02,940
+the community which holds the software
+
+39
+00:02:02,940 --> 00:02:06,150
+by way of a license and a community
+方式 是通过许可证持有软件的
+
+40
+00:02:06,150 --> 00:02:09,360
+which decides on how the project is
+社区和决定项目如何运作的社区
+
+41
+00:02:09,360 --> 00:02:12,150
+conducted and the community is not a
+进行并且社区不是
+
+42
+00:02:12,150 --> 00:02:15,300
+legal entity so it is
+法律实体，因此是
+
+43
+00:02:15,300 --> 00:02:19,130
+group of people that collaborates and
+一群人协作并
+
+44
+00:02:19,130 --> 00:02:21,860
+forwar a decision-making and all of that
+推动决策制定，所有这些
+
+45
+00:02:21,860 --> 00:02:25,800
+is the result of sort of consensus
+都是建立共识过程的结果
+
+46
+00:02:25,800 --> 00:02:27,990
+building process and that's very
+，这与公司非常
+
+47
+00:02:27,990 --> 00:02:31,920
+different from companies so in this
+不同，因此在本
+
+48
+00:02:31,920 --> 00:02:33,480
+session we will be talking about
+次会议中，我们将
+
+49
+00:02:33,480 --> 00:02:35,820
+community open source projects again
+再次谈论社区开源
+
+50
+00:02:35,820 --> 00:02:37,620
+projects owned and run by a community
+项目 由社区拥有和运营的项目
+
+51
+00:02:37,620 --> 00:02:41,100
+I'm saying this because later it will
+我这么说是因为以后会变得很
+
+52
+00:02:41,100 --> 00:02:44,100
+become become apparent that open source
+明显 源代码
+
+53
+00:02:44,100 --> 00:02:47,430
+could also not be community oriented so
+也可能不是面向社区的，因此
+
+54
+00:02:47,430 --> 00:02:50,970
+we will distinguish between commercial
+我们将区分商业
+
+55
+00:02:50,970 --> 00:02:53,460
+and community open source it's not quite
+和社区开源它不太
+
+56
+00:02:53,460 --> 00:02:56,220
+accurate or say commercial here but
+准确或在这里说商业但
+
+57
+00:02:56,220 --> 00:02:57,900
+we'll see the differences in later
+我们将在以后的会议中看到差异，
+
+58
+00:02:57,900 --> 00:03:02,060
+sessions but for that purpose or
+但出于此目的或
+
+59
+00:03:02,060 --> 00:03:04,530
+commercial open source projects are
+商业开源项目
+
+60
+00:03:04,530 --> 00:03:07,320
+those controlled by a company and
+是由公司控制的项目 并且
+
+61
+00:03:07,320 --> 00:03:09,090
+there's that one legal entity
+有一个法律实体
+
+62
+00:03:09,090 --> 00:03:11,550
+controlling the software and the project
+控制该软件和该项目
+
+63
+00:03:11,550 --> 00:03:15,330
+an example suffering the other Sugar CRM
+一个示例遭受其他
+
+64
+00:03:15,330 --> 00:03:17,700
+software for customer relationship
+用于客户关系
+
+65
+00:03:17,700 --> 00:03:20,690
+management or the
+管理的 Sugar CRM 软件或由 Red Hat 控制的
+
+66
+00:03:20,990 --> 00:03:23,970
+Linux distribution Red Hat Enterprise
+Linux 发行版 Red Hat Enterprise
+
+67
+00:03:23,970 --> 00:03:26,640
+Linux distribution which is controlled
+Linux 发行版，而不是
+
+68
+00:03:26,640 --> 00:03:30,290
+by Red Hat as opposed to that there are
+
+69
+00:03:30,290 --> 00:03:35,400
+community software software's projects
+社区软件软件的项目，
+
+70
+00:03:35,400 --> 00:03:37,410
+like the Linux kernel which is solely
+例如 完全基于社区的 Linux 内核
+
+71
+00:03:37,410 --> 00:03:39,780
+community based or the Debian
+或 Debian
+
+72
+00:03:39,780 --> 00:03:42,540
+distribution also I made a distinction
+发行版 我在这里已经做了区分
+
+73
+00:03:42,540 --> 00:03:45,240
+here already in that there can be very
+，因为开源项目的结构可能有非常
+
+74
+00:03:45,240 --> 00:03:48,060
+different types of open-source projects
+不同的类型
+
+75
+00:03:48,060 --> 00:03:51,660
+by structure and I made a distinction
+，我在
+
+76
+00:03:51,660 --> 00:03:54,000
+here between single components or
+这里对单个组件或
+
+77
+00:03:54,000 --> 00:03:57,540
+applications or whole distributions
+应用程序或整个发行版进行了区分
+
+78
+00:03:57,540 --> 00:04:00,630
+where the community puts together some
+，其中 社区汇集
+
+79
+00:04:00,630 --> 00:04:03,570
+of the all of the many different pieces
+了所有的一些 许多不同的部分，
+
+80
+00:04:03,570 --> 00:04:06,240
+and makes it work together that's the
+并使其协同工作，这就是
+
+81
+00:04:06,240 --> 00:04:09,420
+distribution alright so let's talk now
+分布，所以现在让我们
+
+82
+00:04:09,420 --> 00:04:12,270
+about how open source project
+谈谈开源项目
+
+83
+00:04:12,270 --> 00:04:15,660
+communities function here is a classic
+社区如何在这里运作，这
+
+84
+00:04:15,660 --> 00:04:19,230
+model of different roles that people
+是人们扮演的不同角色的经典模型，
+
+85
+00:04:19,230 --> 00:04:24,960
+play and also what power this gives them
+以及这在项目中赋予他们什么权力，
+
+86
+00:04:24,960 --> 00:04:27,750
+within a project so you could have
+所以你可以
+
+87
+00:04:27,750 --> 00:04:29,100
+someone simply
+简单地拥有某人
+
+88
+00:04:29,100 --> 00:04:31,760
+reading up on a project number one here
+
+89
+00:04:31,760 --> 00:04:34,170
+using the software but not saying
+使用该软件阅读此处的第一个项目，但不说
+
+90
+00:04:34,170 --> 00:04:36,540
+anything being a passive user then
+任何内容作为被动用户然后
+
+91
+00:04:36,540 --> 00:04:38,700
+perhaps becoming a back reporter by
+可能通过
+
+92
+00:04:38,700 --> 00:04:41,580
+reporting a back maybe has a developer
+报告背部而成为背部记者可能会让开发人员
+
+93
+00:04:41,580 --> 00:04:44,700
+becoming a back fixer then making the
+成为背部修复者，然后
+
+94
+00:04:44,700 --> 00:04:46,700
+occasional episodic or peripheral
+
+95
+00:04:46,700 --> 00:04:48,990
+contribution as a peripheral developer
+作为外围开发人员偶尔做出偶发性或外围贡献
+
+96
+00:04:48,990 --> 00:04:51,630
+here or becoming an active regular
+或成为积极的定期
+
+97
+00:04:51,630 --> 00:04:54,240
+contributor finally becoming a comment
+贡献者最终成为评论
+
+98
+00:04:54,240 --> 00:04:56,700
+or a project leader this model is called
+或项目负责人此模型
+
+99
+00:04:56,700 --> 00:04:59,460
+the onion model because it's not only a
+称为洋葱模型，因为它不仅是
+
+100
+00:04:59,460 --> 00:05:02,820
+set of roles that people can play but it
+人们可以扮演的一组角色，而且
+
+101
+00:05:02,820 --> 00:05:05,310
+also suggests that there's a succession
+还表明这里正在进行继任
+
+102
+00:05:05,310 --> 00:05:08,400
+or a project immigration model going on
+或项目移民模型，
+
+103
+00:05:08,400 --> 00:05:11,190
+here but you have to take on these roles
+但是 你必须承担这些角色
+
+104
+00:05:11,190 --> 00:05:16,140
+and steps now I've color-coded these
+和步骤现在我已经对这些
+
+105
+00:05:16,140 --> 00:05:19,260
+rings or of the onion if you will
+环或洋葱进行了颜色编码，如果你 将
+
+106
+00:05:19,260 --> 00:05:23,880
+already into three main categories which
+已经分为三个主要类别，这
+
+107
+00:05:23,880 --> 00:05:26,850
+is a simplification but a good enough
+是一种简化，但已经足够好了
+
+108
+00:05:26,850 --> 00:05:29,430
+one where we can see that we distinguish
+
+109
+00:05:29,430 --> 00:05:32,310
+between people using the software people
+
+110
+00:05:32,310 --> 00:05:34,770
+are contributing to the software and
+
+111
+00:05:34,770 --> 00:05:39,090
+people leading the software also being
+
+112
+00:05:39,090 --> 00:05:43,340
+called committer very big project so
+
+113
+00:05:43,340 --> 00:05:48,690
+that actually is simplifying leads to
+导致某人
+
+114
+00:05:48,690 --> 00:05:51,210
+the basic career path that someone can
+
+115
+00:05:51,210 --> 00:05:53,580
+have in an open-source project they
+在开源项目中可以拥有的基本职业道路他们
+
+116
+00:05:53,580 --> 00:05:57,300
+start out as a user they might make a
+以用户身份开始，他们可能
+
+117
+00:05:57,300 --> 00:06:00,690
+contribution to the project and that if
+为项目做出贡献，如果
+
+118
+00:06:00,690 --> 00:06:02,670
+that contribution gets accepted they
+该贡献被接受，他们
+
+119
+00:06:02,670 --> 00:06:04,650
+implicitly promoted to become a
+隐含地
+
+120
+00:06:04,650 --> 00:06:07,560
+contributor to that project can call
+提升为该项目的贡献者可以称
+
+121
+00:06:07,560 --> 00:06:09,600
+themselves that sometimes also simply
+自己 有时也简称
+
+122
+00:06:09,600 --> 00:06:09,990
+called
+为
+
+123
+00:06:09,990 --> 00:06:13,530
+developer and if they do so regularly
+开发人员，如果他们定期
+
+124
+00:06:13,530 --> 00:06:16,710
+and in a sustained and quality way then
+并以持续和优质的方式这样做，那么
+
+125
+00:06:16,710 --> 00:06:19,280
+they might be appointed by the existing
+他们可能会被现有
+
+126
+00:06:19,280 --> 00:06:22,200
+committees and project leaders to become
+委员会和项目负责人任命为项目
+
+127
+00:06:22,200 --> 00:06:25,050
+a core member or committee of the
+的核心成员或委员会
+
+128
+00:06:25,050 --> 00:06:27,630
+project and that is usually an explicit
+，这通常是委员会的明确
+
+129
+00:06:27,630 --> 00:06:30,120
+promotion the committee is someone who
+晋升 是
+
+130
+00:06:30,120 --> 00:06:33,450
+has changed rights to the software
+更改了软件
+
+131
+00:06:33,450 --> 00:06:36,300
+project and the contributor does not
+项目权利且贡献者
+
+132
+00:06:36,300 --> 00:06:39,450
+have changed rights so a contributor
+没有权限的人 获得了权利，因此贡献者
+
+133
+00:06:39,450 --> 00:06:42,870
+submits two core memos
+提交了两个核心备忘录
+
+134
+00:06:42,870 --> 00:06:45,570
+committers and he suggested change what
+提交者，他建议更改
+
+135
+00:06:45,570 --> 00:06:47,460
+gets reviewed and put into action
+被审查的内容并付诸行动，
+
+136
+00:06:47,460 --> 00:06:49,350
+meaning the code repository by the
+这意味着提交者的代码存储库
+
+137
+00:06:49,350 --> 00:06:54,690
+committer only if it's considered a good
+只有在它被认为是好的
+
+138
+00:06:54,690 --> 00:06:57,810
+contribution so contributors depend on
+贡献时，所以贡献者依赖于
+
+139
+00:06:57,810 --> 00:07:01,500
+committees and as implied review process
+委员会，并且作为隐含的审查过程
+
+140
+00:07:01,500 --> 00:07:04,080
+which is also a critical part of the
+，这也是一个关键 作为
+
+141
+00:07:04,080 --> 00:07:05,910
+Quality Assurance and open source
+质量保证和开源
+
+142
+00:07:05,910 --> 00:07:09,360
+projects everyone can become a
+项目的一部分，每个人都可以
+
+143
+00:07:09,360 --> 00:07:10,980
+contributor by simply making a
+通过简单的
+
+144
+00:07:10,980 --> 00:07:13,380
+contribution becoming a committer is a
+贡献成为贡献者 成为提交者是一个
+
+145
+00:07:13,380 --> 00:07:16,470
+much more important event and while you
+更重要的事件，而当你
+
+146
+00:07:16,470 --> 00:07:18,810
+implicitly become a contributor or
+隐含地成为贡献者或
+
+147
+00:07:18,810 --> 00:07:20,490
+becoming a committer is typically
+成为提交者时，通常
+
+148
+00:07:20,490 --> 00:07:22,650
+something that will be announced was
+会被宣布为
+
+149
+00:07:22,650 --> 00:07:26,220
+quite something far on the mailing lists
+相当远的事情 在项目的邮件
+
+150
+00:07:26,220 --> 00:07:28,530
+of the project or whatever way the
+列表或项目沟通的任何方式上，
+
+151
+00:07:28,530 --> 00:07:31,770
+project communicates committees are
+委员会很
+
+152
+00:07:31,770 --> 00:07:33,600
+important because they lead the
+重要，因为他们领导
+
+153
+00:07:33,600 --> 00:07:37,110
+direction of the project there may be a
+项目的方向，可能有一个
+
+154
+00:07:37,110 --> 00:07:40,050
+dedicated project leader or it may be a
+专门的项目负责人，或者可能
+
+155
+00:07:40,050 --> 00:07:44,160
+circle of our group of equal peers that
+是我们一群平等的同行，他们
+
+156
+00:07:44,160 --> 00:07:47,670
+are commuters and consensually lead the
+是通勤者并自愿领导
+
+157
+00:07:47,670 --> 00:07:51,230
+project all of that are various variants
+项目所有这些都是各种变体
+
+158
+00:07:51,230 --> 00:07:54,780
+fountain open source projects now this
+喷泉开源项目 现在这
+
+159
+00:07:54,780 --> 00:07:57,960
+is the basic simplified model also the
+是基本的简化模型，也是
+
+160
+00:07:57,960 --> 00:08:01,770
+onion model but the emergence of open
+洋葱模型，但是
+
+161
+00:08:01,770 --> 00:08:05,280
+source software foundations has led to a
+开源软件基金会的出现导致了
+
+162
+00:08:05,280 --> 00:08:08,010
+more elaborate one so after this basic
+一个更复杂的模型，所以在这个基本
+
+163
+00:08:08,010 --> 00:08:11,820
+career you can have extended or software
+职业之后，你可以扩展或者软件
+
+164
+00:08:11,820 --> 00:08:13,650
+developers can have an extended of them
+开发人员可以扩展他们的
+
+165
+00:08:13,650 --> 00:08:18,480
+sauce career well the project's now part
+职业生涯，项目现在
+
+166
+00:08:18,480 --> 00:08:21,300
+of an open source foundation are managed
+开源基金会的一部分
+
+167
+00:08:21,300 --> 00:08:24,780
+ultimately by or governed are governed
+最终
+
+168
+00:08:24,780 --> 00:08:27,060
+by the open source foundation and its
+由开源基金会及其
+
+169
+00:08:27,060 --> 00:08:30,450
+roots so the open source foundations
+根源管理或管理，因此开源
+
+170
+00:08:30,450 --> 00:08:34,700
+have set up project management committee
+基金会设立了项目管理委员会
+
+171
+00:08:34,700 --> 00:08:37,169
+membership so as a project management
+成员资格，因此作为一个项目管理
+
+172
+00:08:37,169 --> 00:08:39,990
+committee which has members and a leader
+委员会，有成员和领导者
+
+173
+00:08:39,990 --> 00:08:43,710
+and these and the pmc in the project
+，这些和 项目
+
+174
+00:08:43,710 --> 00:08:45,780
+management committee is responsible for
+管理委员会
+
+175
+00:08:45,780 --> 00:08:49,380
+eternity managing the direction of a
+中的 pmc 负责永久管理
+
+176
+00:08:49,380 --> 00:08:51,750
+patek a component or open source project
+百达翡丽组件或开源项目的方向
+
+177
+00:08:51,750 --> 00:08:54,720
+this goes beyond what a committed us who
+这超出了
+
+178
+00:08:54,720 --> 00:08:56,760
+has right rights change
+
+179
+00:08:56,760 --> 00:08:58,380
+rights to the court repository or
+对法院存储库或
+
+180
+00:08:58,380 --> 00:09:00,780
+relevant artifacts this is really now
+相关工件具有正确权利更改权利的承诺我们现在实际上是
+
+181
+00:09:00,780 --> 00:09:03,660
+about the strategic leadership of some
+关于战略领导 一些
+
+182
+00:09:03,660 --> 00:09:06,270
+open source project and in fact the
+开源项目，事实上
+
+183
+00:09:06,270 --> 00:09:08,100
+reasons why open source foundations
+开源基金会
+
+184
+00:09:08,100 --> 00:09:09,900
+exist and we'll see that in a later
+存在的原因 我们将在稍后的
+
+185
+00:09:09,900 --> 00:09:13,230
+session is to make economically
+会议上看到，使经济上
+
+186
+00:09:13,230 --> 00:09:16,800
+important open source projects long term
+重要的开源项目长期
+
+187
+00:09:16,800 --> 00:09:19,590
+viable to give them a home to make them
+可行，为它们提供一个可持续发展的家园，
+
+188
+00:09:19,590 --> 00:09:23,430
+sustainable but an open source
+但是开源
+
+189
+00:09:23,430 --> 00:09:26,580
+foundation can host many projects of
+基金会可以托管许多具有
+
+190
+00:09:26,580 --> 00:09:29,640
+high economic significance and so
+高度经济意义的项目，
+
+191
+00:09:29,640 --> 00:09:32,460
+there's usually one step more possible
+因此通常还有一步 可能
+
+192
+00:09:32,460 --> 00:09:35,370
+beyond being the leader of project
+超越成为项目管理委员会的领导者，
+
+193
+00:09:35,370 --> 00:09:36,780
+management committee that would only be
+这将是
+
+194
+00:09:36,780 --> 00:09:40,920
+one project one component and you could
+一个项目的一个组成部分，您可以
+
+195
+00:09:40,920 --> 00:09:43,500
+become a director or a member of the
+成为基金会的董事或成员
+
+196
+00:09:43,500 --> 00:09:45,860
+foundation the different stages of how
+
+197
+00:09:45,860 --> 00:09:50,160
+natural people can become members of a
+自然人如何成为
+
+198
+00:09:50,160 --> 00:09:54,630
+foundation and exert influence beyond a
+基金会成员并在单个项目之外施加影响的不同阶段
+
+199
+00:09:54,630 --> 00:09:57,930
+single project that they are on so
+他们在，所以
+
+200
+00:09:57,930 --> 00:10:00,210
+that's the extended career path what it
+这就是扩展的职业道路，这
+
+201
+00:10:00,210 --> 00:10:02,460
+means for software developers and in
+对软件开发人员意味着什么，
+
+202
+00:10:02,460 --> 00:10:04,830
+terms of the career we will also look at
+就职业而言，我们还将
+
+203
+00:10:04,830 --> 00:10:08,670
+a later session on neighbor economics so
+关注稍后关于邻居经济学的会议，所以
+
+204
+00:10:08,670 --> 00:10:11,580
+this is now an extension of the onion
+现在这是洋葱模型的扩展，
+
+205
+00:10:11,580 --> 00:10:14,190
+model which did not include anything
+它不包括任何
+
+206
+00:10:14,190 --> 00:10:17,160
+about a career beyond to singer project
+关于职业的内容 超越歌手项目
+
+207
+00:10:17,160 --> 00:10:20,130
+as illustrated here a career as part of
+，如此处所示，作为
+
+208
+00:10:20,130 --> 00:10:23,390
+an open source foundation and as
+开源基金会的一部分，作为开源基金会的一部分，
+
+209
+00:10:23,390 --> 00:10:26,400
+indicated open source foundation saw the
+开源基金会看到了
+
+210
+00:10:26,400 --> 00:10:29,160
+home for the economically important open
+经济上重要的
+
+211
+00:10:29,160 --> 00:10:31,170
+source projects that is the platforms
+开源项目的所在地，这
+
+212
+00:10:31,170 --> 00:10:34,980
+that we all build on here you can see
+是我们所有人都建立的平台在这里你可以
+
+213
+00:10:34,980 --> 00:10:38,370
+the full path it's really a six step if
+看到完整的路径如果
+
+214
+00:10:38,370 --> 00:10:39,270
+you will
+你要
+
+215
+00:10:39,270 --> 00:10:42,180
+six stages or six step career model
+六个阶段或六步职业模型，这实际上是一个六步
+
+216
+00:10:42,180 --> 00:10:45,630
+usually developers can't jump any of
+通常开发人员不能跳过任何
+
+217
+00:10:45,630 --> 00:10:47,940
+these steps they take them one after
+这些步骤他们 把它们一个接
+
+218
+00:10:47,940 --> 00:10:53,490
+another now beyond this career we have
+一个地拿走，现在超越这个职业，我们
+
+219
+00:10:53,490 --> 00:10:55,740
+to look at how people work with each
+必须看看人们如何相互合作
+
+220
+00:10:55,740 --> 00:10:58,760
+other and set open source projects and
+并设置开源项目，
+
+221
+00:10:58,760 --> 00:11:02,550
+many projects have found ways of
+许多项目已经找到了
+
+222
+00:11:02,550 --> 00:11:05,580
+describing it perhaps the most prominent
+描述它的方法，也许最突出的
+
+223
+00:11:05,580 --> 00:11:09,330
+one is the Apache way a codification one
+一种是 Apache 方式，一个
+
+224
+00:11:09,330 --> 00:11:10,290
+word hope of
+词希望
+
+225
+00:11:10,290 --> 00:11:12,750
+how the Apache Software Foundation rocks
+如何 Apache Software Foundation 非常棒
+
+226
+00:11:12,750 --> 00:11:15,389
+and how its project work if you go to
+，以及它的项目是如何运作的
+
+227
+00:11:15,389 --> 00:11:18,209
+the website you will find this as the
+
+228
+00:11:18,209 --> 00:11:22,019
+description of the Apache way that it's
+
+229
+00:11:22,019 --> 00:11:23,639
+got to be collaborative software
+
+230
+00:11:23,639 --> 00:11:26,279
+development that they are friendly to
+
+231
+00:11:26,279 --> 00:11:28,199
+commercial use of the software they
+
+232
+00:11:28,199 --> 00:11:32,880
+develop high quality security etc so
+等等，所以
+
+233
+00:11:32,880 --> 00:11:35,069
+it's a little bit of it's important
+它有点重要的
+
+234
+00:11:35,069 --> 00:11:37,079
+criteria but so it's a little bit of a
+标准，但它有点像
+
+235
+00:11:37,079 --> 00:11:40,949
+laundry list here is another way of
+洗衣单，这是另一种
+
+236
+00:11:40,949 --> 00:11:44,040
+looking at it this is the interpretation
+看待它的方式，这就是解释
+
+237
+00:11:44,040 --> 00:11:47,550
+or explanation of the Apache way by one
+或其中
+
+238
+00:11:47,550 --> 00:11:53,040
+of its members shane crew and he tried
+一位成员 Shane 工作人员
+
+239
+00:11:53,040 --> 00:11:55,769
+to explain the apache way using these
+对 Apache 方式的解释，他试图使用所提供的这
+
+240
+00:11:55,769 --> 00:12:01,980
+four five six aspects offered and while
+四个五个六个方面来解释 Apache 方式，虽然
+
+241
+00:12:01,980 --> 00:12:06,540
+helpful to mention all of this it's not
+有助于提及所有这些，但它并不是
+
+242
+00:12:06,540 --> 00:12:09,389
+really practical and that it guides you
+真正实用的，它引导你
+
+243
+00:12:09,389 --> 00:12:14,220
+and to my academic mind it's also again
+和我的学术思想 这
+
+244
+00:12:14,220 --> 00:12:16,279
+a little bit of a laundry list so these
+也是一个小清单，所以这些
+
+245
+00:12:16,279 --> 00:12:18,870
+things that simply don't belong in the
+东西根本不属于
+
+246
+00:12:18,870 --> 00:12:22,649
+same category yeah so categorical for
+同一类别，是的，因为
+
+247
+00:12:22,649 --> 00:12:25,889
+that reason uh I developed this simple
+这个原因，所以很明确，嗯，我开发了这个简单的
+
+248
+00:12:25,889 --> 00:12:28,319
+three four five model of open project
+三四五开放项目
+
+249
+00:12:28,319 --> 00:12:32,100
+communities where we characterize open
+社区模型，我们在其中描述开放
+
+250
+00:12:32,100 --> 00:12:35,250
+projects and the communities using the
+项目和社区 使用
+
+251
+00:12:35,250 --> 00:12:37,560
+three principles of open collaboration
+开放式协作的三个原则
+
+252
+00:12:37,560 --> 00:12:40,980
+the four practices of communication and
+沟通的四个实践和
+
+253
+00:12:40,980 --> 00:12:44,130
+the five stages of project volunteering
+项目志愿服务的五个阶段
+
+254
+00:12:44,130 --> 00:12:47,670
+it's also a simplification but it's easy
+这也是一个简化但很
+
+255
+00:12:47,670 --> 00:12:52,290
+to remember so then the three principles
+容易记住
+
+256
+00:12:52,290 --> 00:12:54,329
+of open Kellogg collaboration already
+的开放式 Kellogg 协作的三个原则，
+
+257
+00:12:54,329 --> 00:12:56,220
+mentioned in earlier lectures are that
+在前面的讲座中已经提到过，
+
+258
+00:12:56,220 --> 00:12:58,560
+collaboration is egalitarian
+协作是平等的
+
+259
+00:12:58,560 --> 00:13:02,279
+meritocratic and self-organizing here
+精英和自我 - 在这里组织
+
+260
+00:13:02,279 --> 00:13:04,410
+you can see it compared to traditional
+你可以看到它与
+
+261
+00:13:04,410 --> 00:13:07,680
+work typically inside companies well
+通常在公司内部的传统工作
+
+262
+00:13:07,680 --> 00:13:11,279
+traditional work is hierarchical and
+相比 理想的工作是分层的，
+
+263
+00:13:11,279 --> 00:13:13,350
+hence you're somewhere in the hierarchy
+因此您处于分层结构中的某个位置，
+
+264
+00:13:13,350 --> 00:13:15,839
+and that a net determines what you can
+并且网络决定了您可以
+
+265
+00:13:15,839 --> 00:13:18,630
+see a modular access to open
+看到的内容 模块化访问开放式
+
+266
+00:13:18,630 --> 00:13:21,480
+collaboration is egalitarian it does not
+协作是平等主义的 它不
+
+267
+00:13:21,480 --> 00:13:23,329
+exclude anyone anyone can
+排除任何人都可以
+
+268
+00:13:23,329 --> 00:13:25,610
+contribute we are all on equal footing
+做出贡献 我们都是平等的
+
+269
+00:13:25,610 --> 00:13:29,029
+and will not be a priori are excluded
+，不会是先验 被排除
+
+270
+00:13:29,029 --> 00:13:32,809
+from project projects decision-making in
+在项目项目之外
+
+271
+00:13:32,809 --> 00:13:35,329
+companies is usually status oriented
+公司的决策通常是以地位为导向的，
+
+272
+00:13:35,329 --> 00:13:38,629
+with higher status of winning who gets
+具有更高的获胜地位 谁
+
+273
+00:13:38,629 --> 00:13:43,189
+to make a decision and in open sauce its
+可以做出决定，并且公开地说，它的
+
+274
+00:13:43,189 --> 00:13:45,619
+decisions are based on the merits of the
+决定是基于论点的优点，这
+
+275
+00:13:45,619 --> 00:13:46,629
+argument
+
+276
+00:13:46,629 --> 00:13:49,069
+meaning the better argument ultimately
+意味着如果不是这样，更好的论点最终会
+
+277
+00:13:49,069 --> 00:13:51,649
+wins if that was not the case people
+获胜 如果人们
+
+278
+00:13:51,649 --> 00:13:53,480
+would leave the project because they
+会离开这个项目，因为他们
+
+279
+00:13:53,480 --> 00:13:56,709
+feel that they are not taken serious
+觉得他们没有被认真对待，
+
+280
+00:13:56,709 --> 00:13:58,879
+meritocracy is also what the Apache
+精英管理也是 Apache
+
+281
+00:13:58,879 --> 00:14:02,029
+Software Foundation says it is based on
+软件基金会所说的，
+
+282
+00:14:02,029 --> 00:14:05,649
+here I frame it a bit more narrowly as
+这里我把它作为一个更狭隘的框架，作为
+
+283
+00:14:05,649 --> 00:14:10,610
+the key of how decisions are made or in
+决策的关键，或者作为
+
+284
+00:14:10,610 --> 00:14:13,279
+companies then as part of a hierarchy
+公司的一部分 等级制度中的
+
+285
+00:14:13,279 --> 00:14:17,179
+not only do you do you are you limited
+你 不仅你做 你
+
+286
+00:14:17,179 --> 00:14:21,170
+in what you can see you are also priests
+在你能看到的东西上受到限制 你也是牧师
+
+287
+00:14:21,170 --> 00:14:23,629
+in a prescribed situation occur tasks
+在规定的情况下 发生
+
+288
+00:14:23,629 --> 00:14:25,610
+assigned you get allocated to a project
+分配的任务 你得到所有 位于一个项目
+
+289
+00:14:25,610 --> 00:14:28,549
+there is no choice for you or process to
+中，
+
+290
+00:14:28,549 --> 00:14:31,970
+follow as you develop software now an
+当您开发软件时，您或流程别无选择 现在一个
+
+291
+00:14:31,970 --> 00:14:34,279
+open collaboration projects that is
+开放的协作项目是
+
+292
+00:14:34,279 --> 00:14:36,379
+different because these are self
+不同的，因为这些是自
+
+293
+00:14:36,379 --> 00:14:40,999
+organizing projects people choose the
+组织项目 人们选择
+
+294
+00:14:40,999 --> 00:14:45,649
+processes choose their project they self
+流程 选择他们自组织的项目
+
+295
+00:14:45,649 --> 00:14:48,619
+organize that is quite the different
+，这
+
+296
+00:14:48,619 --> 00:14:51,290
+stark difference to companies who want
+完全不同 希望
+
+297
+00:14:51,290 --> 00:14:54,259
+developers to be more like cogs and a
+开发人员更像齿轮和
+
+298
+00:14:54,259 --> 00:14:57,350
+machine so that no project depends too
+机器的公司，以便没有项目
+
+299
+00:14:57,350 --> 00:15:00,169
+much on a particular person open
+过于依赖特定的人开放
+
+300
+00:15:00,169 --> 00:15:01,939
+collaboration projects or source
+协作项目或源
+
+301
+00:15:01,939 --> 00:15:04,699
+projects try to work with the strength
+项目尝试
+
+302
+00:15:04,699 --> 00:15:07,610
+of individual people such that they can
+利用个人的力量，以便他们可以
+
+303
+00:15:07,610 --> 00:15:09,589
+get the most out of those who are
+从那些
+
+304
+00:15:09,589 --> 00:15:12,889
+willing to contribute to a project so we
+愿意为一个项目做出贡献，所以我们
+
+305
+00:15:12,889 --> 00:15:14,769
+have these three principles of
+有这三个
+
+306
+00:15:14,769 --> 00:15:17,540
+egalitarian everyone can contribute an
+平等主义原则每个人都可以贡献一个
+
+307
+00:15:17,540 --> 00:15:19,699
+hour to critique decisions are based on
+小时来批评决定是基于
+
+308
+00:15:19,699 --> 00:15:21,850
+the merits of the argument and
+论点和
+
+309
+00:15:21,850 --> 00:15:24,619
+self-organization people organize and
+自组织的优点人们组织和
+
+310
+00:15:24,619 --> 00:15:26,689
+determine their own processes which
+确定他们自己的过程，这
+
+311
+00:15:26,689 --> 00:15:30,079
+really make open-source projects take it
+真正让开源项目接受它
+
+312
+00:15:30,079 --> 00:15:33,019
+the way they do and the reason why I'm
+他们这样做的方式以及为什么我
+
+313
+00:15:33,019 --> 00:15:36,169
+not giving you here as a process or a
+不把你作为一个过程或开源作品在这里给你的原因
+
+314
+00:15:36,169 --> 00:15:36,700
+works
+
+315
+00:15:36,700 --> 00:15:39,610
+of open-source projects is because there
+项目是因为
+
+316
+00:15:39,610 --> 00:15:42,520
+is no such thing the best we can do is
+没有这样的事情我们能做的最好的就是
+
+317
+00:15:42,520 --> 00:15:45,310
+come up with these principles from our
+从我们
+
+318
+00:15:45,310 --> 00:15:49,360
+analysis of open source projects to tell
+对开源项目的分析中拿出这些原则来
+
+319
+00:15:49,360 --> 00:15:52,030
+everyone tell you how these are similar
+告诉大家这些原则有
+
+320
+00:15:52,030 --> 00:15:54,310
+and what makes the category of open
+什么相似之处以及是什么让
+
+321
+00:15:54,310 --> 00:15:58,770
+source software projects in addition to
+开源软件项目的类别除了
+
+322
+00:15:58,770 --> 00:16:02,320
+collaboration or collaboration is a
+协作或 协作是
+
+323
+00:16:02,320 --> 00:16:05,770
+necessity based on communication which
+基于沟通的必要性，
+
+324
+00:16:05,770 --> 00:16:07,630
+in the case of open source projects has
+在开源项目的情况下，必须
+
+325
+00:16:07,630 --> 00:16:10,570
+to be open communication and it's only
+
+326
+00:16:10,570 --> 00:16:13,690
+good open communication if that
+是开放式沟通，如果该
+
+327
+00:16:13,690 --> 00:16:16,330
+communication is public not hidden
+沟通是公开的而不是
+
+328
+00:16:16,330 --> 00:16:19,480
+behind doors it's written typically by
+隐藏在门后，它通常是通过
+
+329
+00:16:19,480 --> 00:16:22,560
+email or sometimes also in forums and
+电子邮件或有时也在论坛中编写的，并且
+
+330
+00:16:22,560 --> 00:16:25,270
+it's complete so you're not hiding
+它是完整的，所以你 '没有隐藏
+
+331
+00:16:25,270 --> 00:16:28,270
+anything because that public written
+任何东西，因为公开的书面
+
+332
+00:16:28,270 --> 00:16:30,580
+communication has to be the complete
+交流必须是相关内容的完整
+
+333
+00:16:30,580 --> 00:16:32,770
+record of what's of relevance and if
+记录，如果
+
+334
+00:16:32,770 --> 00:16:35,050
+it's not been written down in email and
+它没有在电子邮件中写下来并
+
+335
+00:16:35,050 --> 00:16:37,720
+made public it has not been said that's
+公开，那就没有说这
+
+336
+00:16:37,720 --> 00:16:38,770
+how the saying goes
+就是俗话说的那样
+
+337
+00:16:38,770 --> 00:16:41,710
+and then finally it will always get
+，然后最后它总是会被
+
+338
+00:16:41,710 --> 00:16:45,010
+archived so this is also in stark
+存档 所以这也
+
+339
+00:16:45,010 --> 00:16:48,010
+contrast to how companies work because
+与公司的运作方式形成鲜明对比，因为
+
+340
+00:16:48,010 --> 00:16:51,400
+first of all in companies communication
+首先在公司中，沟通
+
+341
+00:16:51,400 --> 00:16:53,530
+is not public it's behind the company
+是不公开的 在公司
+
+342
+00:16:53,530 --> 00:16:56,380
+doors and sometimes locked down within a
+门后，有时被锁定在一个
+
+343
+00:16:56,380 --> 00:16:58,720
+project often it's not written because
+项目中，通常没有写出来，因为
+
+344
+00:16:58,720 --> 00:17:03,010
+nobody wants to be exposed to what they
+没有人愿意接触他们
+
+345
+00:17:03,010 --> 00:17:04,630
+have said in the past because they might
+过去所说的话，因为他们可能
+
+346
+00:17:04,630 --> 00:17:07,599
+want to change their opinion it's not
+想
+
+347
+00:17:07,599 --> 00:17:11,230
+often not complete maybe hidden agendas
+
+348
+00:17:11,230 --> 00:17:13,930
+and suddenly it's not archived because
+改变自己的看法 因为
+
+349
+00:17:13,930 --> 00:17:16,990
+again people don't want to be on to have
+再一次，如果人们不得不改变他们的观点，人们又不想
+
+350
+00:17:16,990 --> 00:17:19,869
+a fire and have their feet held to fire
+着火，也不想让他们的脚
+
+351
+00:17:19,869 --> 00:17:22,800
+if they have to change their opinion
+
+352
+00:17:22,800 --> 00:17:25,300
+anyway so let's walk through that a
+着火，所以让我们
+
+353
+00:17:25,300 --> 00:17:29,650
+little bit what it means for open source
+稍微了解一下这对开源项目意味着什么，
+
+354
+00:17:29,650 --> 00:17:32,770
+projects so public communication is
+所以公共交流就是
+
+355
+00:17:32,770 --> 00:17:35,080
+communication that's visible to everyone
+交流 每个人都可以看到
+
+356
+00:17:35,080 --> 00:17:38,350
+and thereby it creates trust and
+，从而建立信任和
+
+357
+00:17:38,350 --> 00:17:41,170
+credibility so everyone can draw and
+可信度，所以每个人都可以画画，
+
+358
+00:17:41,170 --> 00:17:45,340
+everyone can participate and so you
+每个人都可以参与，所以你
+
+359
+00:17:45,340 --> 00:17:48,310
+usually do that on mailing lists your
+通常在邮件列表上这样做你的
+
+360
+00:17:48,310 --> 00:17:50,260
+void private emails
+无效私人电子邮件
+
+361
+00:17:50,260 --> 00:17:53,260
+certainly don't use the phone etc if you
+当然不要使用电话等如果你
+
+362
+00:17:53,260 --> 00:17:54,850
+have to do something in private
+必须私下做某事，
+
+363
+00:17:54,850 --> 00:17:57,070
+you typically summarize it then and put
+你通常会总结 然后将
+
+364
+00:17:57,070 --> 00:17:59,430
+it in writing to the mailing list
+其以书面形式写入邮件列表
+
+365
+00:17:59,430 --> 00:18:03,570
+written again communication means it
+再次写入 通信意味着它首先
+
+366
+00:18:03,570 --> 00:18:07,380
+increases the reach of communication
+增加了通信的范围
+
+367
+00:18:07,380 --> 00:18:11,190
+first of all you reach people who aren't
+
+368
+00:18:11,190 --> 00:18:13,650
+there when you were communicating
+当您以其他方式进行交流时不在场的人，
+
+369
+00:18:13,650 --> 00:18:18,610
+otherwise and that helps if people
+如果人们
+
+370
+00:18:18,610 --> 00:18:20,920
+aren't in the same room or at the same
+不在同一个房间或同一
+
+371
+00:18:20,920 --> 00:18:25,390
+time zone etc etc also for non-native
+时区等，这对非
+
+372
+00:18:25,390 --> 00:18:27,310
+speakers it really makes it easier to
+母语人士也有帮助
+
+373
+00:18:27,310 --> 00:18:30,790
+slowly sometimes read what's been said
+
+374
+00:18:30,790 --> 00:18:33,070
+and try to understand an ongoing
+并尝试理解正在进行的
+
+375
+00:18:33,070 --> 00:18:37,240
+conversation such written communication
+对话，这样的书面交流
+
+376
+00:18:37,240 --> 00:18:39,360
+creates transparency transparency
+创造了透明度透明度
+
+377
+00:18:39,360 --> 00:18:42,250
+combined with archiving traceability and
+与存档可追溯性和历史记录相结合，
+
+378
+00:18:42,250 --> 00:18:44,430
+history that really makes communication
+这确实使交流
+
+379
+00:18:44,430 --> 00:18:50,620
+easier and creates also - helps create
+更容易，也创造了 - 有助于建立
+
+380
+00:18:50,620 --> 00:18:52,840
+that trust that makes people want to
+让人们想要
+
+381
+00:18:52,840 --> 00:18:56,350
+join because the project is honest and
+加入的信任，因为项目是诚实和
+
+382
+00:18:56,350 --> 00:19:00,580
+open writing emails is actually
+开放的，写电子邮件实际上是
+
+383
+00:19:00,580 --> 00:19:03,100
+surprisingly hard we will look at that a
+令人惊讶的 很难，我们稍后会
+
+384
+00:19:03,100 --> 00:19:06,460
+little bit later again here's some very
+再看一下这里有一些非常
+
+385
+00:19:06,460 --> 00:19:09,940
+basic practices like email should have
+基本的做法，比如电子邮件应该有
+
+386
+00:19:09,940 --> 00:19:14,920
+one purpose and if you have multiple
+一个目的，如果你有多个
+
+387
+00:19:14,920 --> 00:19:18,610
+things put them into different emails so
+东西把它们放在不同的电子邮件中，
+
+388
+00:19:18,610 --> 00:19:20,740
+that the subject line actually is
+这样主题行实际上是
+
+389
+00:19:20,740 --> 00:19:23,710
+descriptive of the email then there are
+对电子邮件的描述，那么就
+
+390
+00:19:23,710 --> 00:19:26,230
+debatable practices top quoting what
+有争议的做法顶部 引用什么
+
+391
+00:19:26,230 --> 00:19:30,430
+encoding etc things like that to
+编码之类的东西来
+
+392
+00:19:30,430 --> 00:19:34,510
+consider fine third our communication
+考虑第三个我们的交流
+
+393
+00:19:34,510 --> 00:19:37,120
+open communication and projects
+开放交流 ion and projects
+
+394
+00:19:37,120 --> 00:19:39,300
+open-source projects should be complete
+开源项目应该是完整的，
+
+395
+00:19:39,300 --> 00:19:44,200
+so if it's complete again everyone can
+所以如果它再次完成，每个人都可以
+
+396
+00:19:44,200 --> 00:19:48,550
+participate and also it really helps
+参与，而且它真的可以帮助
+
+397
+00:19:48,550 --> 00:19:52,420
+people who are new to the project to
+刚接触该项目的人
+
+398
+00:19:52,420 --> 00:19:54,910
+more easily get up to speed and again
+更容易上手，
+
+399
+00:19:54,910 --> 00:19:56,770
+this way it creates more trust and
+这样它会创造更多的信任和
+
+400
+00:19:56,770 --> 00:20:00,670
+credibility and finally open-source
+可信度并最终开放 -源
+
+401
+00:20:00,670 --> 00:20:03,929
+communication or open communications
+通信或开放式通信
+
+402
+00:20:03,929 --> 00:20:07,409
+craft that has some practical benefits
+技术具有一些实际好处，
+
+403
+00:20:07,409 --> 00:20:10,169
+like an immediate documentation of what
+例如立即记录
+
+404
+00:20:10,169 --> 00:20:13,470
+has been going on but also it actually
+正在发生的事情，但
+
+405
+00:20:13,470 --> 00:20:15,659
+disciplines communication if you know
+如果您
+
+406
+00:20:15,659 --> 00:20:17,789
+what you're saying or writing to a
+知道自己在说什么或写信到
+
+407
+00:20:17,789 --> 00:20:20,789
+mailing list will be archived forever
+邮件列表，它实际上会规范沟通，
+
+408
+00:20:20,789 --> 00:20:25,259
+you will be rather low-key on offending
+您将永远存档 冒犯
+
+409
+00:20:25,259 --> 00:20:27,629
+people and you will be focused on the
+别人时低调，你将专注于
+
+410
+00:20:27,629 --> 00:20:31,220
+content of the arguments rather than
+争论的内容而不是
+
+411
+00:20:31,220 --> 00:20:35,070
+offending other people so that also that
+冒犯其他人，这样
+
+412
+00:20:35,070 --> 00:20:38,639
+increased discipline creates more trust
+增加的纪律也为项目创造了更多的信任
+
+413
+00:20:38,639 --> 00:20:42,360
+and credibility for the projects this
+和可信度，
+
+414
+00:20:42,360 --> 00:20:45,210
+way actually open source projects found
+实际上开源项目找到
+
+415
+00:20:45,210 --> 00:20:50,159
+a way to to document themselves
+了一种方法来记录
+
+416
+00:20:50,159 --> 00:20:54,019
+everyone knows how hard and how poor the
+每个人 知道
+
+417
+00:20:54,019 --> 00:20:57,059
+documentation of almost all software
+几乎所有软件
+
+418
+00:20:57,059 --> 00:21:02,299
+projects is open-source a lot and by
+项目的文档都是开源的有多难和多差，并且
+
+419
+00:21:02,299 --> 00:21:06,149
+requiring written and archived public
+需要 g
+
+420
+00:21:06,149 --> 00:21:07,889
+within our public complete with an
+在我们的公众中书面和存档的公众完成
+
+421
+00:21:07,889 --> 00:21:12,809
+archived document communication open
+存档文档通信
+
+422
+00:21:12,809 --> 00:21:15,090
+source projects literally document
+开源项目从字面上记录
+
+423
+00:21:15,090 --> 00:21:17,519
+themselves because all important
+自己，因为所有重要的
+
+424
+00:21:17,519 --> 00:21:20,190
+decisions need to go through the mailing
+决定通常都需要通过邮件
+
+425
+00:21:20,190 --> 00:21:22,980
+list typically and will be archived and
+列表并且将被存档，并且
+
+426
+00:21:22,980 --> 00:21:25,289
+the discipline of such communication
+此类通信的纪律
+
+427
+00:21:25,289 --> 00:21:28,080
+means that at the end of some discussion
+意味着在一些讨论结束时
+
+428
+00:21:28,080 --> 00:21:31,080
+when a decision is being made there will
+当做出决定时，将会
+
+429
+00:21:31,080 --> 00:21:34,200
+be a summary email of the person asking
+有一封询问并最终做出最终摘要的人的摘要电子邮件，
+
+430
+00:21:34,200 --> 00:21:37,289
+and making ultimately the final summary
+最终摘要
+
+431
+00:21:37,289 --> 00:21:40,200
+has to make a summary of that decision
+必须对该决定进行摘要
+
+432
+00:21:40,200 --> 00:21:42,330
+and it will go to the mailing next arc
+，并将发送到邮件下一个弧形
+
+433
+00:21:42,330 --> 00:21:44,730
+mailing is archived and thereby there is
+邮件被存档，因此
+
+434
+00:21:44,730 --> 00:21:47,700
+now a documented thread with a
+现在有一个记录的线程 关于
+
+435
+00:21:47,700 --> 00:21:50,340
+conclusion as to why a particular
+为什么做出特定
+
+436
+00:21:50,340 --> 00:21:53,220
+decision was cast this is a good way of
+决定的结论，这是一种自我记录的好方法，
+
+437
+00:21:53,220 --> 00:21:56,129
+self documenting which actually happens
+它实际上发生
+
+438
+00:21:56,129 --> 00:21:59,519
+in the act and thereby is helpful to the
+在行为中，从而有助于
+
+439
+00:21:59,519 --> 00:22:01,529
+engineers to the developers as they go
+工程师对开发人员
+
+440
+00:22:01,529 --> 00:22:03,960
+about the daily business which is so
+进行日常业务，这
+
+441
+00:22:03,960 --> 00:22:05,610
+much better than trying to document
+比尝试
+
+442
+00:22:05,610 --> 00:22:09,389
+things after the fact and you actually
+事后记录事情，你实际上
+
+443
+00:22:09,389 --> 00:22:11,639
+have no incentive or motivation to do
+没有动机或动机去做
+
+444
+00:22:11,639 --> 00:22:14,580
+that documentation so open source
+那些文件，所以公开酸 ce
+
+445
+00:22:14,580 --> 00:22:16,710
+projects in some sense
+项目在某种意义上
+
+446
+00:22:16,710 --> 00:22:19,429
+correct a key aspect of a good
+纠正了一个好的文档的一个关键方面，
+
+447
+00:22:19,429 --> 00:22:23,760
+documentation that usually is something
+这通常
+
+448
+00:22:23,760 --> 00:22:27,539
+that developers don't like to do and
+是开发人员不喜欢做的事情，
+
+449
+00:22:27,539 --> 00:22:29,970
+again communication is so important
+而且沟通是如此重要，
+
+450
+00:22:29,970 --> 00:22:32,190
+there are lots and lots of practices to
+这里有很多很多的实践可以
+
+451
+00:22:32,190 --> 00:22:35,309
+follow here I think from the Fogle book
+遵循我认为来自 Fogle 书
+
+452
+00:22:35,309 --> 00:22:40,049
+and some others and we will look at some
+和其他一些 在合作之后，我们现在也会看看其中
+
+453
+00:22:40,049 --> 00:22:44,840
+of those nature as well now after
+的一些性质
+
+454
+00:22:44,840 --> 00:22:47,370
+collaboration the three principles of
+
+455
+00:22:47,370 --> 00:22:49,080
+open collaboration and the four
+开放式协作的三个原则和
+
+456
+00:22:49,080 --> 00:22:52,049
+practices of open communication the five
+开放式沟通的四个实践
+
+457
+00:22:52,049 --> 00:22:55,350
+stages of volunteering here is bill and
+这里志愿服务的五个阶段
+
+458
+00:22:55,350 --> 00:23:00,960
+offs model of project integration and he
+是项目整合的账单和关闭模式，他
+
+459
+00:23:00,960 --> 00:23:03,510
+sees the argues that it's this increment
+认为这是这种增量
+
+460
+00:23:03,510 --> 00:23:07,549
+incremental step wise engagement of
+
+461
+00:23:07,549 --> 00:23:10,350
+users and developers with a project
+用户和开发人员逐步逐步参与项目
+
+462
+00:23:10,350 --> 00:23:13,830
+where they have some initial need or
+，他们有一些初始需求或
+
+463
+00:23:13,830 --> 00:23:16,590
+actual problem they're trying to fix and
+他们试图解决的实际问题，
+
+464
+00:23:16,590 --> 00:23:20,090
+then they escalate and stages and
+然后他们升级和分阶段，
+
+465
+00:23:20,090 --> 00:23:22,140
+potentially in the end they become a
+最终他们可能成为
+
+466
+00:23:22,140 --> 00:23:24,809
+leader of the project so as part of
+项目的领导者，作为
+
+467
+00:23:24,809 --> 00:23:27,570
+solving their own problem engaged with
+解决他们的一部分 自己的问题
+
+468
+00:23:27,570 --> 00:23:31,890
+the project build rapport all in love
+与项目建立融洽关系是否热爱
+
+469
+00:23:31,890 --> 00:23:33,899
+with the project or not the Syndicates
+项目辛迪加
+
+470
+00:23:33,899 --> 00:23:36,029
+not contributing all the way to
+没有为
+
+471
+00:23:36,029 --> 00:23:40,020
+potentially leading the project now I
+潜在的贡献 y 现在领导该项目，我
+
+472
+00:23:40,020 --> 00:23:43,500
+will recast that as the five star
+将把它改写为五星级
+
+473
+00:23:43,500 --> 00:23:46,230
+overcast that s the five stages of
+阴天，这是
+
+474
+00:23:46,230 --> 00:23:48,390
+applesauce volunteering to make it much
+苹果酱自愿使其更
+
+475
+00:23:48,390 --> 00:23:52,830
+simpler and we will describe these I
+简单的五个阶段，我们将描述这些我
+
+476
+00:23:52,830 --> 00:23:55,110
+will describe these five stages using
+将使用
+
+477
+00:23:55,110 --> 00:23:57,090
+the best practices that are being
+
+478
+00:23:57,090 --> 00:24:01,080
+applied as part of these five five
+作为其中一部分应用的最佳实践来描述这五个阶段 五个五个
+
+479
+00:24:01,080 --> 00:24:03,929
+stages where best practice is basically
+阶段，最佳实践基本上
+
+480
+00:24:03,929 --> 00:24:06,659
+a broadly accepted often informally
+是一种被广泛接受的通常非正式
+
+481
+00:24:06,659 --> 00:24:08,429
+defined method for achieving something
+定义的方法，用于实现某
+
+482
+00:24:08,429 --> 00:24:12,990
+doing something and yeah so we should
+事做某事，是的，所以我们应该
+
+483
+00:24:12,990 --> 00:24:16,590
+have seen here our here we go
+在这里看到我们的这里我们开始
+
+484
+00:24:16,590 --> 00:24:19,409
+our five stages of open source
+我们的开源
+
+485
+00:24:19,409 --> 00:24:22,529
+volunteering and here you can see those
+志愿服务的五个阶段，在这里你可以看到这
+
+486
+00:24:22,529 --> 00:24:27,450
+five stages what's noteworthy is that it
+五个阶段值得注意的是 它
+
+487
+00:24:27,450 --> 00:24:28,940
+takes a dual or comp
+需要志愿者的双重或组合
+
+488
+00:24:28,940 --> 00:24:34,540
+entry view of the volunteer has a broad
+条目视图在
+
+489
+00:24:34,540 --> 00:24:39,200
+broad brush stroke role here and the
+这里具有广泛的笔触角色和
+
+490
+00:24:39,200 --> 00:24:41,870
+project view and we can see how a
+项目视图，我们可以看到
+
+491
+00:24:41,870 --> 00:24:44,090
+volunteer goes through the five stages
+志愿者如何经历
+
+492
+00:24:44,090 --> 00:24:47,600
+of finding a project for that problem
+为该问题找到项目的五个阶段
+
+493
+00:24:47,600 --> 00:24:50,060
+understanding the project engaging with
+了解项目
+
+494
+00:24:50,060 --> 00:24:52,430
+the project working with the project and
+与项目的互动 与项目一起工作，
+
+495
+00:24:52,430 --> 00:24:54,290
+finally becoming a leader of the project
+最终成为项目
+
+496
+00:24:54,290 --> 00:24:57,680
+themselves and the project view where
+本身和
+
+497
+00:24:57,680 --> 00:25:00,110
+the project needs or wants to find
+项目需要或想要的项目视图的领导者 找到
+
+498
+00:25:00,110 --> 00:25:02,570
+volunteers and work with them so the
+志愿者并与他们一起工作，因此志愿者
+
+499
+00:25:02,570 --> 00:25:05,270
+project view for each of the stages of
+每个阶段的项目视图
+
+500
+00:25:05,270 --> 00:25:08,120
+the volunteer needs to be available to
+需要首先通过营销项目向他们提供，
+
+501
+00:25:08,120 --> 00:25:11,000
+them first by marketing the project
+
+502
+00:25:11,000 --> 00:25:13,550
+explaining the project engaging with a
+解释项目与
+
+503
+00:25:13,550 --> 00:25:15,740
+volunteer working with a contributor and
+志愿者与贡献者一起工作，
+
+504
+00:25:15,740 --> 00:25:18,710
+then enabling a career as a project
+然后成为项目
+
+505
+00:25:18,710 --> 00:25:23,660
+leader so these five stages we will look
+负责人 我们将详细介绍这五个阶段
+
+506
+00:25:23,660 --> 00:25:28,550
+at in detail so here is stage stage one
+，所以
+
+507
+00:25:28,550 --> 00:25:31,790
+for the volunteer from the volunteers
+从志愿者的
+
+508
+00:25:31,790 --> 00:25:34,700
+perspective they want to find a project
+角度来看，这是志愿者的第一阶段，他们想要找到一个项目，
+
+509
+00:25:34,700 --> 00:25:36,200
+so they have that edge they have that
+所以他们有优势，他们有这个
+
+510
+00:25:36,200 --> 00:25:40,250
+problem and they want to find a matching
+问题，他们想要找到一个匹配的
+
+511
+00:25:40,250 --> 00:25:44,930
+project and the two best practices if
+项目和两个最佳实践 如果
+
+512
+00:25:44,930 --> 00:25:47,930
+you will are that they simply by lucky
+您会认为他们只是
+
+513
+00:25:47,930 --> 00:25:51,560
+chance stumble on the project also
+偶然偶然发现了该项目，那
+
+514
+00:25:51,560 --> 00:25:53,930
+that's just lucky chance or maybe they
+也只是幸运的机会，或者他们
+
+515
+00:25:53,930 --> 00:25:56,330
+hear about it all because they
+听说这一切是因为他们
+
+516
+00:25:56,330 --> 00:25:58,940
+deliberately want to fix or solve the
+故意想修复或解决
+
+517
+00:25:58,940 --> 00:26:00,920
+problem they actively search for it
+问题，他们会
+
+518
+00:26:00,920 --> 00:26:03,620
+using some such engine so this is simply
+使用某些此类引擎积极搜索它，所以这只是
+
+519
+00:26:03,620 --> 00:26:06,470
+things that volunteers do not
+事情 志愿者
+
+520
+00:26:06,470 --> 00:26:08,390
+necessarily with the goal in mind of
+不一定以
+
+521
+00:26:08,390 --> 00:26:10,760
+joining the project just with the goal
+加入项目为目标
+
+522
+00:26:10,760 --> 00:26:14,780
+of fixing their particular problem now
+，只是为了解决他们现在的特定问题
+
+523
+00:26:14,780 --> 00:26:19,220
+for this to work the project are and the
+，以使其发挥作用 项目是，其
+
+524
+00:26:19,220 --> 00:26:21,440
+project leaders behind it or the current
+背后的项目负责人或
+
+525
+00:26:21,440 --> 00:26:23,840
+team of the software of the open-source
+开源项目的当前软件团队
+
+526
+00:26:23,840 --> 00:26:27,500
+project needs to make that possible so
+需要使这成为可能，因此
+
+527
+00:26:27,500 --> 00:26:31,280
+it needs to enable stumbling upon the
+它需要能够偶然发现
+
+528
+00:26:31,280 --> 00:26:33,550
+project it needs to make the project
+项目，它需要
+
+529
+00:26:33,550 --> 00:26:36,080
+findable through general or
+通过通用或
+
+530
+00:26:36,080 --> 00:26:39,590
+domain-specific search engines so the
+特定领域的搜索引擎找到该项目 所以这个
+
+531
+00:26:39,590 --> 00:26:42,290
+project for that needs to be prepared
+项目需要准备，
+
+532
+00:26:42,290 --> 00:26:44,990
+we found it needs to perform active
+我们发现它需要进行积极的
+
+533
+00:26:44,990 --> 00:26:48,410
+outreach which has basic best practices
+外展，这有基本的最佳实践，
+
+534
+00:26:48,410 --> 00:26:52,010
+like having a good name understanding
+比如有一个好的名字，
+
+535
+00:26:52,010 --> 00:26:54,140
+the channels or the ways of how
+了解渠道或志愿者喜欢项目的方式，以及
+
+536
+00:26:54,140 --> 00:26:56,300
+volunteers like the project and being
+
+537
+00:26:56,300 --> 00:27:01,730
+active on those channels etc so here are
+在这些渠道上的活跃等等，所以这里有
+
+538
+00:27:01,730 --> 00:27:04,190
+a couple of channels of how projects may
+一个 项目如何
+
+539
+00:27:04,190 --> 00:27:08,530
+market themselves there are is the basic
+推销自己的几个渠道
+
+540
+00:27:08,530 --> 00:27:11,150
+website for the project that can get
+项目的基本网站可以
+
+541
+00:27:11,150 --> 00:27:15,170
+picked up by search engines so search
+被搜索引擎收录，因此搜索
+
+542
+00:27:15,170 --> 00:27:17,890
+engine optimization plays a role then
+引擎优化发挥作用，然后
+
+543
+00:27:17,890 --> 00:27:21,320
+projects can put up large projects
+项目可以提出大型项目
+
+544
+00:27:21,320 --> 00:27:25,580
+important projects can show up at
+重要项目可以出现
+
+545
+00:27:25,580 --> 00:27:27,320
+conferences where they prevent
+在他们阻止的会议上
+
+546
+00:27:27,320 --> 00:27:29,540
+themselves or in the case of foundations
+他们自己，或者在基金会的情况下，
+
+547
+00:27:29,540 --> 00:27:35,530
+even have their own conferences such
+甚至有自己的会议，这样的
+
+548
+00:27:35,530 --> 00:27:38,030
+projects may announce anything they have
+项目可能会宣布他们必须说的任何事情，
+
+549
+00:27:38,030 --> 00:27:40,280
+to say not only on their own channels
+不仅 在他们自己的渠道（
+
+550
+00:27:40,280 --> 00:27:42,110
+like our mailing list but going through
+例如我们的邮件列表）上，但通过已
+
+551
+00:27:42,110 --> 00:27:46,370
+established channels like I can use or
+建立的渠道（例如我可以使用或
+
+552
+00:27:46,370 --> 00:27:50,960
+reddit also priming those and/or using
+reddit 也启动这些渠道和/或使用
+
+553
+00:27:50,960 --> 00:27:54,250
+Twitter etc so this is literally
+Twitter 等），所以这实际上
+
+554
+00:27:54,250 --> 00:27:57,830
+marketing marketing channels as we know
+是我们所知道的营销渠道
+
+555
+00:27:57,830 --> 00:28:00,530
+it and open source projects have to do
+，开源项目必须这样
+
+556
+00:28:00,530 --> 00:28:05,540
+that - so you're a banette need a
+做 - 所以你 '是一个班内特需要一个
+
+557
+00:28:05,540 --> 00:28:07,910
+project needs to be active about
+项目需要积极
+
+558
+00:28:07,910 --> 00:28:10,820
+marketing it and it also needs to deal
+营销它，它还需要
+
+559
+00:28:10,820 --> 00:28:15,070
+with the potential inflow now of of
+处理感兴趣的各方现在的潜在流入
+
+560
+00:28:15,070 --> 00:28:19,990
+interested parties and that's a passive
+，这是一种被动
+
+561
+00:28:19,990 --> 00:28:24,710
+inflow where again they need to register
+流入，他们需要再次注册
+
+562
+00:28:24,710 --> 00:28:27,550
+themselves so that they can be found
+自己，以便可以找到他们
+
+563
+00:28:27,550 --> 00:28:29,810
+register themselves on all relevant
+注册自己 所有相关的
+
+564
+00:28:29,810 --> 00:28:33,640
+places so such relevant places are
+地方，所以这些相关的地方
+
+565
+00:28:33,640 --> 00:28:37,330
+basically poets like
+基本上是像
+
+566
+00:28:37,330 --> 00:28:44,000
+ollo or open half the former ollo and
+ollo 这样的诗人或打开前 ollo 的一半
+
+567
+00:28:44,000 --> 00:28:46,610
+some of us many of these portals these
+，我们中的一些人这些
+
+568
+00:28:46,610 --> 00:28:49,040
+days are actually defunct so they were
+天实际上已经
+
+569
+00:28:49,040 --> 00:28:52,010
+not particularly strong didn't have a
+不存在了，所以它们不是特别强大没有
+
+570
+00:28:52,010 --> 00:28:55,100
+good business model but say github would
+良好的商业模式，但说 github 会
+
+571
+00:28:55,100 --> 00:28:55,410
+for
+
+572
+00:28:55,410 --> 00:28:57,950
+well even if you're not actually doing
+好吧，即使您实际上并没有在
+
+573
+00:28:57,950 --> 00:29:01,370
+github development on github
+github 上进行 github 开发，
+
+574
+00:29:01,370 --> 00:29:08,780
+so we will look at tooling later on how
+所以我们稍后将研究工具，了解
+
+575
+00:29:08,780 --> 00:29:12,600
+open-source innovation also applied to
+开源创新如何也应用于
+
+576
+00:29:12,600 --> 00:29:15,570
+software tooling and we just say here
+软件工具，我们 只是在这里
+
+577
+00:29:15,570 --> 00:29:20,070
+that software forges our tool invention
+说软件通过开源社区的开源伪造了我们的工具发明
+
+578
+00:29:20,070 --> 00:29:22,920
+by open source by the open source
+，
+
+579
+00:29:22,920 --> 00:29:27,930
+community at large and that these forges
+并且这些伪造
+
+580
+00:29:27,930 --> 00:29:32,060
+support this particular process of a
+支持
+
+581
+00:29:32,060 --> 00:29:35,450
+marketer marketing outreach and be
+营销人员营销推广的特定过程，并
+
+582
+00:29:35,450 --> 00:29:38,220
+accepting or being prepared for passive
+接受或准备被动
+
+583
+00:29:38,220 --> 00:29:44,670
+inflow and we'll see that later so then
+流入，我们稍后会看到
+
+584
+00:29:44,670 --> 00:29:51,270
+in a second step the volunteer who
+在第二步中，志愿者
+
+585
+00:29:51,270 --> 00:29:53,970
+somehow now found a project they are
+现在不知何故找到了一个他们
+
+586
+00:29:53,970 --> 00:29:55,980
+interested in our cut out of curiosity
+对我们感兴趣的项目，
+
+587
+00:29:55,980 --> 00:29:59,670
+or because it's also fixes a particular
+或者因为它也为他们解决了一个特定
+
+588
+00:29:59,670 --> 00:30:02,640
+problem for them the volunteer finds a
+问题，志愿者发现
+
+589
+00:30:02,640 --> 00:30:06,300
+project lab in itself does not mean much
+项目实验室本身并没有多大意义，
+
+590
+00:30:06,300 --> 00:30:08,550
+because now the volunteer is staring at
+因为现在志愿者正在盯着
+
+591
+00:30:08,550 --> 00:30:11,520
+some website and needs to understand the
+一些网站，需要了解该
+
+592
+00:30:11,520 --> 00:30:13,290
+project so they want to read up on it
+项目，因此他们想阅读它
+
+593
+00:30:13,290 --> 00:30:17,580
+that's the goal for that to work the
+这是该项目工作的目标，该
+
+594
+00:30:17,580 --> 00:30:20,640
+project needs to explain itself how to
+项目需要解释自己如何
+
+595
+00:30:20,640 --> 00:30:23,280
+do that right is again a set of best
+做到这一点再次是一组最佳
+
+596
+00:30:23,280 --> 00:30:25,980
+practices for example to have a clear
+实践，例如有一个明确的
+
+597
+00:30:25,980 --> 00:30:28,800
+mission statement that explains what the
+使命宣言 解释
+
+598
+00:30:28,800 --> 00:30:31,980
+project is about it needs to provide
+项目是关于它需要提供
+
+599
+00:30:31,980 --> 00:30:34,440
+examples and screenshots to create some
+示例和屏幕截图以创建一些
+
+600
+00:30:34,440 --> 00:30:37,050
+intuition state the license and the
+直觉状态许可证和
+
+601
+00:30:37,050 --> 00:30:40,800
+terms of the project make it simple to
+项目的条款使其变得简单
+
+602
+00:30:40,800 --> 00:30:44,550
+download things etc etc simply making it
+下载东西等等 只是
+
+603
+00:30:44,550 --> 00:30:48,720
+easy really easy to the potential
+让潜在的志愿者很容易
+
+604
+00:30:48,720 --> 00:30:51,720
+volunteer the visitor perhaps only at
+访问者可能只有在
+
+605
+00:30:51,720 --> 00:30:56,460
+this stage to learn what the project is
+这个阶段才能了解项目的
+
+606
+00:30:56,460 --> 00:31:00,600
+all about so that the visitor can
+全部内容，以便访问者有
+
+607
+00:31:00,600 --> 00:31:02,610
+potentially become a volunteer well
+可能成为一名志愿者，
+
+608
+00:31:02,610 --> 00:31:04,650
+first of all just perhaps a user and
+首先可能只是一个用户，
+
+609
+00:31:04,650 --> 00:31:07,800
+then a volunteer for volunteering of
+然后是一名志愿者 对于志愿服务，
+
+610
+00:31:07,800 --> 00:31:09,589
+course
+
+611
+00:31:09,589 --> 00:31:12,289
+the project needs to state its rules of
+项目当然需要说明其参与规则，
+
+612
+00:31:12,289 --> 00:31:14,629
+engagement which is part of explaining
+这是
+
+613
+00:31:14,629 --> 00:31:17,149
+how that particular project community
+解释特定项目社区如何
+
+614
+00:31:17,149 --> 00:31:23,209
+works here you can see a project
+运作的一部分在这里你可以看到一个项目
+
+615
+00:31:23,209 --> 00:31:26,929
+homepage where you can see the name the
+主页，在那里你可以看到名称
+
+616
+00:31:26,929 --> 00:31:30,709
+license some social aspects of heard how
+许可证的一些社会方面听说
+
+617
+00:31:30,709 --> 00:31:33,199
+it's been ranked and rated all
+它是如何排名和评级的 所有
+
+618
+00:31:33,199 --> 00:31:35,719
+screenshots making it really easy to
+屏幕截图使下载软件变得非常容易
+
+619
+00:31:35,719 --> 00:31:40,909
+download the software etc alright so the
+等等好吧，所以
+
+620
+00:31:40,909 --> 00:31:45,289
+volunteer now wants to engage with the
+志愿者现在想要参与该
+
+621
+00:31:45,289 --> 00:31:48,589
+project so they found a project and they
+项目，所以他们找到了一个项目并
+
+622
+00:31:48,589 --> 00:31:52,519
+read up on it and so they like what they
+阅读了它，所以他们喜欢他们
+
+623
+00:31:52,519 --> 00:31:57,919
+see and use want to use the project if
+看到和使用的东西，如果
+
+624
+00:31:57,919 --> 00:32:00,079
+the project was set up properly then
+该项目想要使用该项目 设置正确，然后
+
+625
+00:32:00,079 --> 00:32:02,479
+using the software shouldn't be too hard
+使用该软件应该不会太难，
+
+626
+00:32:02,479 --> 00:32:05,690
+but maybe they're things that are not
+但也许它们是不
+
+627
+00:32:05,690 --> 00:32:09,289
+easily done or not that they'll explain
+容易完成的事情，或者他们不会解释，
+
+628
+00:32:09,289 --> 00:32:11,539
+so it might be that the volunteer has to
+所以它可能 是志愿者必须
+
+629
+00:32:11,539 --> 00:32:14,779
+ask a question about how to use the
+问一个关于如何使用该
+
+630
+00:32:14,779 --> 00:32:17,659
+software for that the volunteer can of
+软件的问题，因为志愿者
+
+631
+00:32:17,659 --> 00:32:21,679
+course just ask that question but a good
+当然可以只问这个问题，但是一个好的
+
+632
+00:32:21,679 --> 00:32:24,529
+volunteer will actually do the homework
+志愿者实际上会先做功课
+
+633
+00:32:24,529 --> 00:32:25,249
+first
+
+634
+00:32:25,249 --> 00:32:34,299
+and communicate well how what what the
+并很好地交流什么
+
+635
+00:32:34,809 --> 00:32:37,699
+will communicate well what the problem
+会很好地交流什么问题
+
+636
+00:32:37,699 --> 00:32:45,699
+is and we look at that in a second so
+是什么 我们很快就会看到这
+
+637
+00:32:45,699 --> 00:32:50,209
+for that the reason why a volunteer
+一点，因此志愿者
+
+638
+00:32:50,209 --> 00:32:52,249
+cannot just barge in demand attention
+不能只是强行要求关注
+
+639
+00:32:52,249 --> 00:32:57,139
+and be satisfied is why would they why
+并感到满意的原因是，他们为什么
+
+640
+00:32:57,139 --> 00:33:00,049
+would the project help the potential
+要该项目帮助
+
+641
+00:33:00,049 --> 00:33:03,739
+volunteer they have no incentive unless
+他们没有动力的潜在志愿者，除非
+
+642
+00:33:03,739 --> 00:33:06,559
+they really believe that person will be
+他们真的相信那个人会有所
+
+643
+00:33:06,559 --> 00:33:09,229
+helpful to the project at all the
+帮助 对于项目一
+
+644
+00:33:09,229 --> 00:33:11,059
+beginning that we adjust the distraction
+开始，我们会调整分心
+
+645
+00:33:11,059 --> 00:33:13,449
+and in fact as we will see in a bit
+，事实上，正如我们将看到的那样，
+
+646
+00:33:13,449 --> 00:33:17,389
+most people who ask questions will just
+大多数提出问题的人只会
+
+647
+00:33:17,389 --> 00:33:20,209
+consume time and effort and there won't
+消耗时间和精力，并且不会
+
+648
+00:33:20,209 --> 00:33:21,800
+be any payback for the part
+有任何回报，
+
+649
+00:33:21,800 --> 00:33:26,179
+so a volunteer or smart person who wants
+所以志愿者或聪明人
+
+650
+00:33:26,179 --> 00:33:30,440
+to ask questions about the project does
+谁想询问有关该
+
+651
+00:33:30,440 --> 00:33:33,140
+so in a way that it indicates they're
+项目的问题，这表明他们是
+
+652
+00:33:33,140 --> 00:33:36,100
+honest and open and put in some legwork
+诚实和开放的，并且自己进行了一些跑腿工作
+
+653
+00:33:36,100 --> 00:33:39,350
+themselves and are not just stealing the
+，而不仅仅是在窃取
+
+654
+00:33:39,350 --> 00:33:42,770
+existing developers time so for that the
+现有的开发人员 现在是时候了，
+
+655
+00:33:42,770 --> 00:33:44,750
+volunteer obviously need to browser on
+志愿者显然需要
+
+656
+00:33:44,750 --> 00:33:47,240
+the website typically understand a
+浏览网站，通常了解
+
+657
+00:33:47,240 --> 00:33:49,040
+little bit about the practices for
+一些关于战争的做法
+
+658
+00:33:49,040 --> 00:33:51,350
+example war and how to ask a question
+以及如何提出问题，
+
+659
+00:33:51,350 --> 00:33:56,120
+and be willing to accept any guidance as
+并愿意在
+
+660
+00:33:56,120 --> 00:34:00,020
+they ask a question for example so
+他们提出问题时接受任何指导，所以
+
+661
+00:34:00,020 --> 00:34:02,540
+here's a typical way of doing that I
+这是一种典型的方式 我
+
+662
+00:34:02,540 --> 00:34:05,360
+just picked it from a random open source
+只是从一个随机的开源
+
+663
+00:34:05,360 --> 00:34:07,940
+project someone is asking a question I
+项目中挑选它有人在问一个问题我
+
+664
+00:34:07,940 --> 00:34:10,310
+have a problem is using the software
+有一个问题是使用该软件
+
+665
+00:34:10,310 --> 00:34:14,239
+it's the typical request for help as you
+这是典型的帮助请求，因为你
+
+666
+00:34:14,239 --> 00:34:18,619
+can see that person asks troubles a
+可以看到那个人
+
+667
+00:34:18,619 --> 00:34:21,080
+little bit while not brothers but points
+虽然不是兄弟但会提出一些麻烦但
+
+668
+00:34:21,080 --> 00:34:22,790
+out okay I'm here for the first time
+指出好的 我是第一次来这里，
+
+669
+00:34:22,790 --> 00:34:24,649
+please forgive me if I'm making a
+如果我犯了错误，请原谅我，
+
+670
+00:34:24,649 --> 00:34:25,070
+mistake
+
+671
+00:34:25,070 --> 00:34:27,409
+but then actually follows a reasonable
+但实际上是遵循合理的
+
+672
+00:34:27,409 --> 00:34:31,280
+email it's first of our description so
+电子邮件，这是我们的第一个描述，
+
+673
+00:34:31,280 --> 00:34:34,460
+it's clear they have a problem it's
+所以很明显他们有问题
+
+674
+00:34:34,460 --> 00:34:37,609
+clear from the subject line then they
+从主题行中很明显，然后他们
+
+675
+00:34:37,609 --> 00:34:40,219
+say ok I'm here for the first time then
+说好的，我是 第一次在这里，然后
+
+676
+00:34:40,219 --> 00:34:43,219
+they describe the situation and then
+他们描述情况，然后
+
+677
+00:34:43,219 --> 00:34:45,168
+they describe the problem with the
+他们
+
+678
+00:34:45,168 --> 00:34:50,179
+situation in a descriptive positive way
+以描述性积极的方式描述情况的问题，
+
+679
+00:34:50,179 --> 00:34:53,030
+they simply say what the setup is and
+他们简单地说设置是什么，
+
+680
+00:34:53,030 --> 00:34:56,719
+then what they do and the outcome they
+然后他们做了什么以及结果t 嘿，
+
+681
+00:34:56,719 --> 00:34:58,369
+get from it and why it's not the
+从中得到，为什么这不是
+
+682
+00:34:58,369 --> 00:35:01,609
+expected outcome there's no complaining
+预期的结果，这里没有抱怨
+
+683
+00:35:01,609 --> 00:35:04,070
+here for example how crappy the software
+，例如软件有多糟糕
+
+684
+00:35:04,070 --> 00:35:08,180
+is that it leads to a problem obviously
+，它会导致问题
+
+685
+00:35:08,180 --> 00:35:12,859
+that would be would lead the questioner
+显然会导致
+
+686
+00:35:12,859 --> 00:35:14,750
+the person asking the question to
+提问者提出问题的
+
+687
+00:35:14,750 --> 00:35:17,540
+remediate to being ignored immediately
+人立即被忽略，
+
+688
+00:35:17,540 --> 00:35:19,880
+so this is a reasonable email asking for
+所以这是 一封合理的寻求
+
+689
+00:35:19,880 --> 00:35:23,119
+help and asking questions has really
+帮助和提问的电子邮件确实
+
+690
+00:35:23,119 --> 00:35:25,460
+taught that easy well it is easy once
+教会了你很容易，一旦
+
+691
+00:35:25,460 --> 00:35:27,920
+you know how to do it but if you've
+你知道怎么做就很容易，但是如果你
+
+692
+00:35:27,920 --> 00:35:31,010
+swaggered with a problem for too long
+对一个问题大摇大摆太久，
+
+693
+00:35:31,010 --> 00:35:33,920
+you're easily tempted to not write a
+你很容易不想写一个
+
+694
+00:35:33,920 --> 00:35:35,270
+good question
+好问题
+
+695
+00:35:35,270 --> 00:35:37,430
+so at that time you need to take a step
+所以在 那个时候你需要退后一步
+
+696
+00:35:37,430 --> 00:35:41,780
+back and ask maybe crew down and then
+，问一下船员，然后
+
+697
+00:35:41,780 --> 00:35:43,580
+ask the question properly so here's a
+正确地问这个问题，所以这里有一个
+
+698
+00:35:43,580 --> 00:35:47,619
+simple way how to ask a question
+简单的方法来问
+
+699
+00:35:47,619 --> 00:35:50,720
+suggested to by my one reader of our
+我的一位读者建议的
+
+700
+00:35:50,720 --> 00:35:53,180
+work and he said like you should first
+问题，他说你应该先
+
+701
+00:35:53,180 --> 00:35:55,970
+say what you want I would like to do X
+说你想要什么 我想做X
+
+702
+00:35:55,970 --> 00:36:01,490
+then what you tried to achieve that that
+然后你试图实现的那
+
+703
+00:36:01,490 --> 00:36:02,990
+already might be an indicator to a
+可能已经向
+
+704
+00:36:02,990 --> 00:36:04,730
+reader that you're that you're trying
+读者表明你正在
+
+705
+00:36:04,730 --> 00:36:09,800
+the wrong thing perhaps and then what
+尝试错误的事情，然后
+
+706
+00:36:09,800 --> 00:36:11,930
+happened and perhaps why it's not the
+发生了什么，也许为什么它不是你的
+
+707
+00:36:11,930 --> 00:36:14,990
+thing you expected to happen in addition
+事情 你预计还会发生，
+
+708
+00:36:14,990 --> 00:36:16,910
+since usually this is some sort of
+因为通常这是
+
+709
+00:36:16,910 --> 00:36:18,770
+debugging going on through a mailing
+通过邮件
+
+710
+00:36:18,770 --> 00:36:21,080
+list make sure that you include all
+列表进行的某种调试确保您包含所有
+
+711
+00:36:21,080 --> 00:36:23,570
+relevant information or operating system
+相关信息或
+
+712
+00:36:23,570 --> 00:36:26,980
+you're running in the oceans etc etc
+您在海洋中运行的操作系统等等等，
+
+713
+00:36:26,980 --> 00:36:30,110
+this guy also says no attachments that's
+这家伙还说没有附件
+
+714
+00:36:30,110 --> 00:36:32,090
+not a good thing for the typical open
+不好 典型的
+
+715
+00:36:32,090 --> 00:36:35,180
+source mailing lists and really really
+开源邮件列表的东西，真的
+
+716
+00:36:35,180 --> 00:36:37,670
+make it short long emails usually don't
+让它很短很长的电子邮件通常不会
+
+717
+00:36:37,670 --> 00:36:41,590
+get read TLDR as you probably know
+被阅读 TLDR，因为你可能知道
+
+718
+00:36:41,590 --> 00:36:46,640
+here's another article from the web by
+这是 Raymond 和 Lauren 的另一篇来自网络的文章，
+
+719
+00:36:46,640 --> 00:36:49,810
+Raymond and Lauren on how to ask
+关于如何以
+
+720
+00:36:49,810 --> 00:36:54,050
+questions the smart way this collection
+聪明的方式提问这个集合
+
+721
+00:36:54,050 --> 00:36:59,060
+is of advice is interesting in that it's
+是建议 有趣的是它
+
+722
+00:36:59,060 --> 00:37:01,280
+rather rude as the open source
+相当粗鲁，因为开源
+
+723
+00:37:01,280 --> 00:37:03,140
+communities sometimes in the
+社区有时在
+
+724
+00:37:03,140 --> 00:37:05,859
+communication at all can be quite rude
+交流中可能非常粗鲁
+
+725
+00:37:05,859 --> 00:37:08,350
+and you can see how it's very
+，你可以看到它是如何非常
+
+726
+00:37:08,350 --> 00:37:12,020
+detail-oriented but practical practical
+注重细节但实用的实用
+
+727
+00:37:12,020 --> 00:37:15,560
+advice I'm not going into every little
+建议我不会深入到
+
+728
+00:37:15,560 --> 00:37:18,770
+aspect of this year you can read it up
+今年的每一个小方面你可以 阅读它
+
+729
+00:37:18,770 --> 00:37:22,160
+just go to the literature section of the
+只需转到课程的文献部分
+
+730
+00:37:22,160 --> 00:37:27,560
+course look up RM 14 and read up on some
+查找 RM 14 并阅读其中的
+
+731
+00:37:27,560 --> 00:37:32,650
+of this advice if you like to so
+一些建议，如果你愿意的话
+
+732
+00:37:32,650 --> 00:37:35,090
+communication of mailing lists is so
+，邮件列表的沟通是如此
+
+733
+00:37:35,090 --> 00:37:40,430
+important that that some foundations of
+重要 一些
+
+734
+00:37:40,430 --> 00:37:44,300
+projects have literally set up etiquette
+项目的基础实际上已经在礼仪上设置了礼仪
+
+735
+00:37:44,300 --> 00:37:49,160
+on etiquette for how to act properly
+，从如何正确行事一直
+
+736
+00:37:49,160 --> 00:37:53,089
+all the way down to how to format
+到如何格式化主题
+
+737
+00:37:53,089 --> 00:37:56,750
+subjects how to format the emails all
+如何格式化电子邮件一直
+
+738
+00:37:56,750 --> 00:38:00,260
+the way to styles of writing we
+到写作风格我们众所
+
+739
+00:38:00,260 --> 00:38:04,190
+well-known netiquette um this doesn't
+周知的网络礼仪嗯这实际
+
+740
+00:38:04,190 --> 00:38:08,329
+actually begin and end with open source
+上并不 以开源项目开始和结束
+
+741
+00:38:08,329 --> 00:38:11,059
+projects really all open collaboration
+真的所有的开放协作
+
+742
+00:38:11,059 --> 00:38:13,700
+projects are like that
+项目都是这样的
+
+743
+00:38:13,700 --> 00:38:16,520
+here's advice from the former director
+这里是来自
+
+744
+00:38:16,520 --> 00:38:18,619
+executive director of the Wikimedia
+维基媒体基金会前执行董事的建议
+
+745
+00:38:18,619 --> 00:38:22,940
+Foundation sue Gardner on on how to
+sue Gardner 关于如何
+
+746
+00:38:22,940 --> 00:38:26,420
+communicate with a community of within
+与社区内的
+
+747
+00:38:26,420 --> 00:38:30,950
+community and this advice is actually
+社区进行交流，这个建议实际上是
+
+748
+00:38:30,950 --> 00:38:34,849
+very good advice and you can read up
+非常好的建议，你 也可以
+
+749
+00:38:34,849 --> 00:38:40,809
+under the reference g16 about it are too
+在参考 g16 下阅读有关它的信息
+
+750
+00:38:40,809 --> 00:38:44,559
+so then back to stage 3 where we are
+，然后回到第 3 阶段，我们正在
+
+751
+00:38:44,559 --> 00:38:48,230
+engaging with a volunteer this is the
+与志愿者互动，这是
+
+752
+00:38:48,230 --> 00:38:50,960
+project perspective so there is now that
+项目视角，所以现在有
+
+753
+00:38:50,960 --> 00:38:54,410
+visitor who or potential volunteer and
+访客或潜在志愿者，
+
+754
+00:38:54,410 --> 00:38:57,589
+they asked the question perhaps so how
+他们可能问了这个问题，所以
+
+755
+00:38:57,589 --> 00:39:00,890
+do you engage with that person first of
+你如何参与 首先，
+
+756
+00:39:00,890 --> 00:39:02,720
+all you need to make it possible that
+你需要让
+
+757
+00:39:02,720 --> 00:39:05,420
+the person asks that question so you
+那个人问那个问题成为可能，这样你就
+
+758
+00:39:05,420 --> 00:39:08,569
+make clear or explicit how they can ask
+可以清楚或明确地说明他们如何问
+
+759
+00:39:08,569 --> 00:39:10,940
+questions how you can be reached what is
+问题 关于如何联系到您 什么
+
+760
+00:39:10,940 --> 00:39:12,529
+the appropriate mailing list or the
+是适当的邮件列表或
+
+761
+00:39:12,529 --> 00:39:18,039
+appropriate forum since the goal is to
+适当的论坛，因为目标是
+
+762
+00:39:18,039 --> 00:39:21,829
+acquire people as volunteers you need to
+招募志愿者作为志愿者，您需要
+
+763
+00:39:21,829 --> 00:39:24,619
+make them feel at home so you might want
+让他们有宾至如归的感觉，所以
+
+764
+00:39:24,619 --> 00:39:27,049
+to welcome them if they register for a
+如果他们注册一个项目，您可能想要欢迎他们
+
+765
+00:39:27,049 --> 00:39:29,779
+project maybe they have a person
+也许他们有一个 个人
+
+766
+00:39:29,779 --> 00:39:32,329
+specific website leave a small note
+特定网站在那里留下一个小便条
+
+767
+00:39:32,329 --> 00:39:34,460
+there like the Wikipedia community does
+，就像维基百科社区确实
+
+768
+00:39:34,460 --> 00:39:36,380
+leave a small note there welcoming that
+在那里留下一个小便条欢迎那
+
+769
+00:39:36,380 --> 00:39:40,970
+person to the community in general don't
+个人加入社区一般
+
+770
+00:39:40,970 --> 00:39:43,309
+be rude which is a particular challenge
+不要粗鲁，这是一个特别的挑战
+
+771
+00:39:43,309 --> 00:39:47,049
+open source projects which are based on
+开源项目基于
+
+772
+00:39:47,049 --> 00:39:51,589
+which are not necessarily strong on
+它不一定在
+
+773
+00:39:51,589 --> 00:39:54,980
+social graces just look at the iron 14
+社交方面很强大 优雅只看前面的 Iron 14
+
+774
+00:39:54,980 --> 00:39:59,109
+example from earlier and the general
+示例
+
+775
+00:39:59,109 --> 00:40:01,490
+aspects of open communication apply
+，开放式沟通的一般方面适用，
+
+776
+00:40:01,490 --> 00:40:03,140
+avoid private
+避免私人
+
+777
+00:40:03,140 --> 00:40:07,489
+Cashion's etc etc still you will have to
+Cashion 等，你仍然必须
+
+778
+00:40:07,489 --> 00:40:09,650
+accept some redundancy so if someone
+接受一些冗余，所以如果有人
+
+779
+00:40:09,650 --> 00:40:13,549
+asks the same question that others have
+问其他人问过的相同问题，
+
+780
+00:40:13,549 --> 00:40:16,430
+asked don't be rude
+不要
+
+781
+00:40:16,430 --> 00:40:21,799
+like RTFM them or tell them to simply
+像 RTFM 那样粗鲁他们 或者告诉他们简单的
+
+782
+00:40:21,799 --> 00:40:25,099
+plain D and frankly I'll point them to
+D 坦率地说，我会把他们
+
+783
+00:40:25,099 --> 00:40:26,839
+the mailing list archives where maybe
+指向邮件列表档案，在那里可能
+
+784
+00:40:26,839 --> 00:40:30,609
+the question has been answered before
+已经回答了这个问题，
+
+785
+00:40:30,609 --> 00:40:32,539
+since you're also thinking about
+因为你也是 考虑
+
+786
+00:40:32,539 --> 00:40:35,269
+potentially acquiring volunteers and
+潜在的招募志愿者，
+
+787
+00:40:35,269 --> 00:40:37,509
+only might you answer their questions
+只有你能回答他们的问题，
+
+788
+00:40:37,509 --> 00:40:41,390
+you should also make very visible simple
+你还应该做一些非常明显的简单
+
+789
+00:40:41,390 --> 00:40:44,630
+basic tasks that someone could pick up
+基本任务，有人可以接受
+
+790
+00:40:44,630 --> 00:40:47,059
+who is grateful for having received good
+那些对收到好的答案表示感谢的人，
+
+791
+00:40:47,059 --> 00:40:49,430
+answers for example to the problem to
+例如为项目做出贡献的问题，
+
+792
+00:40:49,430 --> 00:40:52,160
+make a contribution to the project so
+所以
+
+793
+00:40:52,160 --> 00:41:00,799
+basic practices on on on how to glue
+基本的实践 关于如何将人员粘合
+
+794
+00:41:00,799 --> 00:41:05,269
+people on board so since they're
+在一起，因此由于他们是
+
+795
+00:41:05,269 --> 00:41:07,249
+different volunteers potential
+不同的志愿者，
+
+796
+00:41:07,249 --> 00:41:09,019
+volunteers or contributors there might
+因此可能是潜在的志愿者或贡献者，可能
+
+797
+00:41:09,019 --> 00:41:11,900
+be the non-technical person who could
+会有非技术人员可以
+
+798
+00:41:11,900 --> 00:41:13,749
+help with marketing and bug reports
+帮助进行营销和错误报告
+
+799
+00:41:13,749 --> 00:41:15,920
+there also of course there are the
+，当然还有
+
+800
+00:41:15,920 --> 00:41:18,769
+technical people developers so for those
+技术人员开发人员，因此对于那些
+
+801
+00:41:18,769 --> 00:41:21,019
+technical people you need extra best
+技术人员 您需要额外的最佳
+
+802
+00:41:21,019 --> 00:41:24,049
+practices you need to provide tool
+实践 您需要为他们提供工具
+
+803
+00:41:24,049 --> 00:41:27,829
+access for them to them you may give
+访问权限 您可以授予
+
+804
+00:41:27,829 --> 00:41:30,950
+them some access rights to the bug
+他们对错误跟踪器的一些访问权限，
+
+805
+00:41:30,950 --> 00:41:33,410
+trackers so to file a bug if you didn't
+以便提交错误，如果您没有
+
+806
+00:41:33,410 --> 00:41:36,079
+make it public from the get-go you show
+从一开始就将其公开 您向
+
+807
+00:41:36,079 --> 00:41:38,710
+them the project roadmap and the
+他们展示项目路线图 以及
+
+808
+00:41:38,710 --> 00:41:42,319
+requirements etc etc and suddenly you
+需求等，突然你
+
+809
+00:41:42,319 --> 00:41:44,960
+need to provide some documentation even
+需要提供一些文档，
+
+810
+00:41:44,960 --> 00:41:47,900
+if it's just a wiki with the links in to
+即使它只是一个包含
+
+811
+00:41:47,900 --> 00:41:53,180
+all the main decisions are as as derived
+所有主要决策链接的 wiki 就像
+
+812
+00:41:53,180 --> 00:41:58,190
+in communication on a mailing list okay
+邮件列表上的交流一样，
+
+813
+00:41:58,190 --> 00:42:01,730
+so the project is preparing itself to
+所以该项目正在准备自己
+
+814
+00:42:01,730 --> 00:42:04,789
+potentially acquire volunteers but that
+可能获得志愿者，但这
+
+815
+00:42:04,789 --> 00:42:10,299
+is hard there's quite a gap from between
+很难，从
+
+816
+00:42:10,299 --> 00:42:13,279
+asking a question and becoming someone
+提出问题到成为
+
+817
+00:42:13,279 --> 00:42:15,079
+who spends their time on helping a
+花时间帮助
+
+818
+00:42:15,079 --> 00:42:15,670
+project
+项目的人之间存在相当大的差距
+
+819
+00:42:15,670 --> 00:42:19,600
+so in order to motivate people one needs
+，以便激励 人们
+
+820
+00:42:19,600 --> 00:42:23,020
+to understand their motivations there's
+需要了解他们的动机
+
+821
+00:42:23,020 --> 00:42:25,570
+a fair bit of research out there why
+有大量的研究 为什么
+
+822
+00:42:25,570 --> 00:42:28,420
+people are participate on open-source
+人们会参与开源
+
+823
+00:42:28,420 --> 00:42:31,810
+projects is a collection of key
+项目 关键动机的集合
+
+824
+00:42:31,810 --> 00:42:34,110
+motivations there's the original
+有问题的原始
+
+825
+00:42:34,110 --> 00:42:36,700
+technical motivation the person has a
+技术动机
+
+826
+00:42:36,700 --> 00:42:38,770
+problem is looking for a solution in the
+正在寻找
+
+827
+00:42:38,770 --> 00:42:42,210
+form of software typically there is
+软件形式的解决方案 通常有
+
+828
+00:42:42,210 --> 00:42:45,400
+economic motivation at least
+经济动机 至少
+
+829
+00:42:45,400 --> 00:42:49,090
+hypothesized economic motivation develop
+假设的经济动机 产生
+
+830
+00:42:49,090 --> 00:42:52,000
+a signal there are capabilities to the
+一个信号
+
+831
+00:42:52,000 --> 00:42:54,910
+labor market for future employment
+劳动力市场有能力为未来的就业提供
+
+832
+00:42:54,910 --> 00:42:57,400
+perhaps so they simply show how capable
+可能，所以他们只是展示了
+
+833
+00:42:57,400 --> 00:43:01,750
+they are and as we will also see later a
+他们的能力，正如我们稍后会看到的
+
+834
+00:43:01,750 --> 00:43:04,660
+subset of developers smart developers
+一部分开发人员聪明的开发人员
+
+835
+00:43:04,660 --> 00:43:08,170
+see open-source work as a career path
+看到开源工作 作为
+
+836
+00:43:08,170 --> 00:43:11,110
+for a stronger economic negotiation
+
+837
+00:43:11,110 --> 00:43:14,680
+position with employees as well the
+与员工和
+
+838
+00:43:14,680 --> 00:43:16,990
+social motivation might go beyond the
+社会加强经济谈判地位的职业道路 l 动机可能超越
+
+839
+00:43:16,990 --> 00:43:19,270
+technical motivation be the most
+技术动机，
+
+840
+00:43:19,270 --> 00:43:22,120
+important one people like working in
+
+841
+00:43:22,120 --> 00:43:25,120
+communities if they feel valued if they
+如果他们觉得自己的贡献会有所作为，那么他们会觉得在社区中工作是最重要的动机，
+
+842
+00:43:25,120 --> 00:43:27,610
+think their contributions make a
+
+843
+00:43:27,610 --> 00:43:30,280
+difference so some people feel validated
+所以
+
+844
+00:43:30,280 --> 00:43:32,230
+if you're good about being in a
+如果你擅长在
+
+845
+00:43:32,230 --> 00:43:34,840
+community simply enjoy the work with
+社区中工作，那么一些人会觉得得到了认可
+
+846
+00:43:34,840 --> 00:43:39,460
+other people they like and that is what
+他们喜欢的其他人，这就是
+
+847
+00:43:39,460 --> 00:43:41,320
+you need to utilize or what a project
+你需要利用的东西，或者项目
+
+848
+00:43:41,320 --> 00:43:43,570
+needs to utilize to get to that first
+需要利用的东西来获得第一个
+
+849
+00:43:43,570 --> 00:43:45,370
+contribution that's the first major
+贡献，这是第一个主要的
+
+850
+00:43:45,370 --> 00:43:48,670
+horror how do you get how do you get
+恐怖你如何得到你如何让
+
+851
+00:43:48,670 --> 00:43:51,730
+someone to spend their personal time
+某人通常花费他们的个人时间
+
+852
+00:43:51,730 --> 00:43:57,250
+typically to contribute to a project so
+来为项目做出贡献
+
+853
+00:43:57,250 --> 00:43:59,830
+the most basic thing to get right is to
+所以最基本的事情是
+
+854
+00:43:59,830 --> 00:44:02,140
+make it easy to have a make a first
+让第一次
+
+855
+00:44:02,140 --> 00:44:05,590
+contribution make the bug tracker open
+贡献变得容易 让错误跟踪器打开
+
+856
+00:44:05,590 --> 00:44:09,190
+so if someone wants to file a bug then
+所以如果有人想提交错误，那么
+
+857
+00:44:09,190 --> 00:44:11,710
+they wouldn't they shouldn't have to ask
+他们就不会，他们不应该让不认识
+
+858
+00:44:11,710 --> 00:44:14,800
+an unknown person to get access to the
+的人得到 访问
+
+859
+00:44:14,800 --> 00:44:16,540
+backtrack I simply allow people to
+回溯我只是让人们在
+
+860
+00:44:16,540 --> 00:44:20,560
+firebox period make it open available
+火箱期间让它
+
+861
+00:44:20,560 --> 00:44:24,070
+for everyone then as you perhaps lay out
+对所有人开放然后你可能
+
+862
+00:44:24,070 --> 00:44:26,530
+in a document of the roadmap of the
+在项目路线图的文件中列出
+
+863
+00:44:26,530 --> 00:44:28,990
+project there should be super town
+应该有超级
+
+864
+00:44:28,990 --> 00:44:32,410
+as mentioned already but also make these
+城镇 已经提到过，但也使这些
+
+865
+00:44:32,410 --> 00:44:34,000
+contributions and simple tasks
+贡献和简单任务
+
+866
+00:44:34,000 --> 00:44:36,100
+incremental in that they build on each
+递增，因为它们相互建立
+
+867
+00:44:36,100 --> 00:44:39,340
+other and people can go from smaller to
+，人们可以从较小的贡献变成
+
+868
+00:44:39,340 --> 00:44:44,410
+larger contributions so this way anyone
+更大的贡献，所以这样
+
+869
+00:44:44,410 --> 00:44:46,720
+who has time to spare who thinks this
+任何有时间空闲的人认为这个
+
+870
+00:44:46,720 --> 00:44:48,970
+project might be good for them and wants
+项目可能对他们有好处并
+
+871
+00:44:48,970 --> 00:44:51,970
+to contribute finds that easy to
+想要贡献发现
+
+872
+00:44:51,970 --> 00:44:56,260
+contribute in addition to bringing those
+除了让那些自己管理项目负责人的人参与进来之外，这很容易做出贡献，
+
+873
+00:44:56,260 --> 00:44:58,890
+on board who by themselves steward a
+
+874
+00:44:58,890 --> 00:45:01,990
+project leader the project might also
+该项目还可能会
+
+875
+00:45:01,990 --> 00:45:04,540
+call out laureates from the shadows so
+从阴影中召集获奖者，这样
+
+876
+00:45:04,540 --> 00:45:06,580
+you can actively on the mailing list ask
+您就可以积极地在邮件列表中
+
+877
+00:45:06,580 --> 00:45:09,640
+for help by pointing out that simple
+通过指出需要完成简单的任务来寻求帮助，
+
+878
+00:45:09,640 --> 00:45:11,560
+tasks need to be done and whether there
+并且 是否
+
+879
+00:45:11,560 --> 00:45:13,930
+wouldn't be anyone who's been benefiting
+不会有人
+
+880
+00:45:13,930 --> 00:45:16,869
+from the project and likes the project
+从该项目中受益并喜欢该项目
+
+881
+00:45:16,869 --> 00:45:18,850
+and that's maybe why they on the mailing
+，这可能就是为什么他们在邮件
+
+882
+00:45:18,850 --> 00:45:21,760
+list but hasn't done anything yet so you
+列表中但还没有做任何事情所以你
+
+883
+00:45:21,760 --> 00:45:24,700
+call them out from the shadows the so
+把他们从阴影中
+
+884
+00:45:24,700 --> 00:45:26,410
+called lockers to call them out and
+叫出来所谓的储物柜叫他们出来
+
+885
+00:45:26,410 --> 00:45:28,930
+maybe that's how they get to make the
+也许这就是他们做出
+
+886
+00:45:28,930 --> 00:45:35,920
+first contribution so again for just
+第一个贡献的方式，所以再次
+
+887
+00:45:35,920 --> 00:45:39,460
+make it really easy to support that
+让支持变得非常容易，
+
+888
+00:45:39,460 --> 00:45:41,980
+it's how the tooling of open-source
+这就是开源
+
+889
+00:45:41,980 --> 00:45:45,940
+software development supports the
+软件开发人员的工具 t 支持
+
+890
+00:45:45,940 --> 00:45:48,280
+processes in particular the engineering
+流程，特别是流程的工程
+
+891
+00:45:48,280 --> 00:45:51,010
+aspects of the processes to make that
+方面，以使
+
+892
+00:45:51,010 --> 00:45:53,080
+open collaboration happen easily and
+开放式协作轻松
+
+893
+00:45:53,080 --> 00:45:59,320
+smoothly the volunteer let's assume
+顺利地进行 志愿者让我们假设
+
+894
+00:45:59,320 --> 00:46:01,690
+they've made the first contribution and
+他们已经做出了第一个贡献
+
+895
+00:46:01,690 --> 00:46:03,820
+the second or third contribution and
+和第二个或第三个贡献，
+
+896
+00:46:03,820 --> 00:46:08,020
+maybe they are so-called peripheral or
+也许他们是所谓的外围或
+
+897
+00:46:08,020 --> 00:46:10,240
+episodic volunteer or maybe they are a
+偶发志愿者或 也许他们现在是一名
+
+898
+00:46:10,240 --> 00:46:13,780
+regular volunteer now I just have fun
+普通的志愿者我只是玩得开心
+
+899
+00:46:13,780 --> 00:46:16,359
+maybe it's some spare time maybe it's
+也许这是一些业余时间也许
+
+900
+00:46:16,359 --> 00:46:19,300
+actually paid time to be a good
+实际上是有偿成为一名优秀的
+
+901
+00:46:19,300 --> 00:46:23,260
+volunteer you need to be responsive and
+志愿者您需要在做出贡献时反应迅速且
+
+902
+00:46:23,260 --> 00:46:26,020
+reliable as you contribute as we
+可靠，因为我们
+
+903
+00:46:26,020 --> 00:46:27,340
+contribute that's of course the
+做出了贡献这当然是
+
+904
+00:46:27,340 --> 00:46:30,760
+essential aspect if you don't you fall
+必不可少的方面 如果您
+
+905
+00:46:30,760 --> 00:46:33,160
+by the wayside and reliability again
+再次陷入困境和可靠性，
+
+906
+00:46:33,160 --> 00:46:37,060
+then perhaps the ignored the project or
+那么也许被忽视的项目
+
+907
+00:46:37,060 --> 00:46:42,580
+the project leaders really need to keep
+或项目负责人真的需要继续
+
+908
+00:46:42,580 --> 00:46:46,770
+knighting that that fire or keep people
+为那场火灾或让人们
+
+909
+00:46:46,770 --> 00:46:50,530
+motivated to contribute and again it
+有动力做出贡献，这再次
+
+910
+00:46:50,530 --> 00:46:53,230
+means that the software or the project
+意味着软件或项目
+
+911
+00:46:53,230 --> 00:46:54,850
+has to be structured in a way that it's
+的结构必须以一种方式 很
+
+912
+00:46:54,850 --> 00:46:57,960
+easy to keep people involved and
+容易让人们参与并
+
+913
+00:46:57,960 --> 00:47:00,670
+involved in their various best practices
+参与他们的各种最佳实践，
+
+914
+00:47:00,670 --> 00:47:04,150
+to follow one perhaps debatable question
+以遵循一个可能有争议的问题
+
+915
+00:47:04,150 --> 00:47:07,150
+is that the project should have a
+是 p  roject 应该有一个
+
+916
+00:47:07,150 --> 00:47:09,670
+component oriented set up so that there
+面向组件的设置，以便
+
+917
+00:47:09,670 --> 00:47:12,550
+is ownership and that it's clear who to
+有所有权，并且很清楚要
+
+918
+00:47:12,550 --> 00:47:14,950
+ask that everyone will agree because
+问谁，每个人都会同意，因为
+
+919
+00:47:14,950 --> 00:47:17,770
+they add a development which is more
+他们添加了一个更面向未来的开发，
+
+920
+00:47:17,770 --> 00:47:19,930
+future oriented will say well everyone
+会说每个人都
+
+921
+00:47:19,930 --> 00:47:21,700
+can change and everything and we take a
+可以改变和一切，我们采用
+
+922
+00:47:21,700 --> 00:47:23,980
+feature of functional antic perspective
+功能性的特性
+
+923
+00:47:23,980 --> 00:47:27,070
+so open-source will have to combine that
+因此，开源项目必须将其结合起来，
+
+924
+00:47:27,070 --> 00:47:29,950
+by historically open source projects
+从历史上看，开源项目
+
+925
+00:47:29,950 --> 00:47:32,350
+have always been component oriented
+一直是面向组件的，
+
+926
+00:47:32,350 --> 00:47:36,730
+mostly because my relief originally most
+主要是因为我松了一口气，最初大多数
+
+927
+00:47:36,730 --> 00:47:38,520
+open source projects have been
+开源项目都已
+
+928
+00:47:38,520 --> 00:47:40,930
+distributed to nature and if you are
+分发给大自然，如果您
+
+929
+00:47:40,930 --> 00:47:43,240
+distributed working in a distributed
+以分布式方式进行分布式工作，
+
+930
+00:47:43,240 --> 00:47:46,510
+fashion you simply divvy up work in such
+您只需将工作分配给 这样
+
+931
+00:47:46,510 --> 00:47:47,830
+a way that people have clear
+一种方式，人们有明确的
+
+932
+00:47:47,830 --> 00:47:51,310
+responsibilities and that's usually most
+责任，通常最
+
+933
+00:47:51,310 --> 00:47:53,580
+easily done by aligning people's
+容易通过将人们的
+
+934
+00:47:53,580 --> 00:47:55,450
+responsibilities with technical
+责任与
+
+935
+00:47:55,450 --> 00:47:58,690
+component of boundaries nevertheless in
+边界的技术部分保持一致来完成。然而，
+
+936
+00:47:58,690 --> 00:48:00,330
+order to get work done and keep
+为了完成工作并保持
+
+937
+00:48:00,330 --> 00:48:05,620
+motivated work keep keep people
+积极的工作，保持人们的
+
+938
+00:48:05,620 --> 00:48:07,750
+motivated you should give them features
+积极性，你应该给他们特性，
+
+939
+00:48:07,750 --> 00:48:10,900
+even if those features mean that the
+即使这些特性意味着
+
+940
+00:48:10,900 --> 00:48:12,580
+developer has to touch multiple
+开发人员必须
+
+941
+00:48:12,580 --> 00:48:17,890
+components as if that person the
+像那个人一样触摸多个组件
+
+942
+00:48:17,890 --> 00:48:20,170
+developer here is still a volunteer was
+这里的开发人员仍然是一名志愿者，他们
+
+943
+00:48:20,170 --> 00:48:22,390
+contributing what actually can't change
+贡献了实际上无法
+
+944
+00:48:22,390 --> 00:48:25,240
+the codebase they may have to touch
+更改代码库的内容，他们可能不得不接触
+
+945
+00:48:25,240 --> 00:48:28,260
+different components and submit to the
+不同的组件，并向
+
+946
+00:48:28,260 --> 00:48:32,260
+different component owners the
+不同的组件所有者
+
+947
+00:48:32,260 --> 00:48:34,030
+committees for those components their
+提交这些组件的委员会，他们
+
+948
+00:48:34,030 --> 00:48:36,520
+particular suggested changes that can be
+提出的特定更改可能
+
+949
+00:48:36,520 --> 00:48:38,350
+quite tricky because you need to
+非常棘手，因为您需要
+
+950
+00:48:38,350 --> 00:48:41,530
+coordinate all these changes ideally
+协调 理想情况下，所有这些更改都很
+
+951
+00:48:41,530 --> 00:48:45,790
+it's simple and one person can enact all
+简单，一个人可以制定所有
+
+952
+00:48:45,790 --> 00:48:48,220
+those changes even if they if it
+这些更改，即使它们
+
+953
+00:48:48,220 --> 00:48:53,490
+requires review by different people so
+需要由不同的人进行审查，所以
+
+954
+00:48:53,490 --> 00:48:56,200
+here's a little bit of a distinction
+这里有一点
+
+955
+00:48:56,200 --> 00:49:00,099
+the project wants to work with the new
+区别，项目希望与新
+
+956
+00:49:00,099 --> 00:49:02,170
+contributors or someone making their
+贡献者或做出
+
+957
+00:49:02,170 --> 00:49:05,440
+first contribution where is this little
+第一次贡献的人一起工作这是哪里 一个小
+
+958
+00:49:05,440 --> 00:49:07,450
+blip that this person who's making
+问题，这个做出
+
+959
+00:49:07,450 --> 00:49:10,329
+contribution might be someone to be
+贡献的人可能会在
+
+960
+00:49:10,329 --> 00:49:13,599
+there longer time no you don't know so
+那里待更长时间，不，你不知道，所以
+
+961
+00:49:13,599 --> 00:49:15,460
+you don't want to make life hard for
+你不想让他们的生活变得艰难，
+
+962
+00:49:15,460 --> 00:49:18,220
+them as they are the link to spend some
+因为他们是花一些时间的纽带，
+
+963
+00:49:18,220 --> 00:49:22,569
+time so very basic react speedily thank
+所以非常基本的快速反应谢谢
+
+964
+00:49:22,569 --> 00:49:25,150
+them and we Expedia to whatever
+他们 我们 Expedia
+
+965
+00:49:25,150 --> 00:49:27,369
+contribution they are making certainly
+对他们所做的任何贡献当然
+
+966
+00:49:27,369 --> 00:49:30,760
+don't sit on say patches that they've
+不会坐以待毙，说
+
+967
+00:49:30,760 --> 00:49:32,980
+been provided that doesn't mean you need
+他们提供的补丁并不意味着你
+
+968
+00:49:32,980 --> 00:49:35,559
+to be thankful and the sense of simply
+
+969
+00:49:35,559 --> 00:49:37,359
+accepting anything that comes along by
+
+970
+00:49:37,359 --> 00:49:40,299
+the opposite as the project as a project
+作为项目
+
+971
+00:49:40,299 --> 00:49:41,829
+leader or committer you have a
+负责人或提交者，您有
+
+972
+00:49:41,829 --> 00:49:44,440
+responsibility to maintain the quality
+责任保持质量，
+
+973
+00:49:44,440 --> 00:49:46,930
+and effectively you actually need to
+并且您实际上需要
+
+974
+00:49:46,930 --> 00:49:52,619
+guide any new contributor so to make any
+指导任何新的贡献者，以便在项目中做出任何
+
+975
+00:49:52,619 --> 00:49:55,780
+contributions in the best possible way
+贡献。 最好的
+
+976
+00:49:55,780 --> 00:49:57,700
+that actually means you have to guide
+方法实际上意味着您必须指导
+
+977
+00:49:57,700 --> 00:50:00,760
+them for example to accept basic
+他们，例如接受
+
+978
+00:50:00,760 --> 00:50:03,069
+programming guidelines that the project
+项目同意的基本编程指南，
+
+979
+00:50:03,069 --> 00:50:05,619
+has agreed to if they ignore those well
+如果他们忽略了那些
+
+980
+00:50:05,619 --> 00:50:07,569
+a good volunteer would have read up on
+好的志愿者会阅读
+
+981
+00:50:07,569 --> 00:50:09,609
+the project it will have chosen the
+该项目，它将选择
+
+982
+00:50:09,609 --> 00:50:11,950
+proper programming guidelines but if
+正确的编程指南，但如果
+
+983
+00:50:11,950 --> 00:50:14,349
+they didn't then it's got to be a back
+他们没有那么它必须
+
+984
+00:50:14,349 --> 00:50:17,319
+and forth and guidance by the project
+是项目负责人的来回和指导，以
+
+985
+00:50:17,319 --> 00:50:21,190
+leaders that guides the new contributor
+指导新
+
+986
+00:50:21,190 --> 00:50:23,619
+to understand the ways of the project
+贡献者了解项目的方式
+
+987
+00:50:23,619 --> 00:50:27,400
+and address to that for that reason
+并解决这个问题，因此
+
+988
+00:50:27,400 --> 00:50:30,760
+basically contributions need to be
+基本上贡献需要在
+
+989
+00:50:30,760 --> 00:50:35,280
+charted conversations between the
+
+990
+00:50:36,780 --> 00:50:40,030
+contributor and the receiving committee
+贡献者和
+
+991
+00:50:40,030 --> 00:50:42,790
+who engages with the contributor to make
+与贡献者合作以
+
+992
+00:50:42,790 --> 00:50:46,750
+sure things fit small patches usually
+确保内容适合小补丁的接收委员会
+
+993
+00:50:46,750 --> 00:50:49,240
+get in pretty easily large patches are a
+通常很容易进入 大补丁是个
+
+994
+00:50:49,240 --> 00:50:51,160
+bad idea so there are lots of best
+坏主意，所以有很多
+
+995
+00:50:51,160 --> 00:50:54,400
+practices of how a smart contributor
+关于聪明的贡献者
+
+996
+00:50:54,400 --> 00:50:57,760
+works with the project for example by
+如何与项目合作的最佳实践，例如
+
+997
+00:50:57,760 --> 00:50:59,710
+first discussing what they want to do on
+首先讨论他们想在邮件列表上做什么，
+
+998
+00:50:59,710 --> 00:51:02,770
+the mailing list basically then raising
+然后
+
+999
+00:51:02,770 --> 00:51:04,869
+the hand that they're telling the world
+举手告诉
+
+1000
+00:51:04,869 --> 00:51:07,329
+that they're going to do this and then
+全世界他们 '要这样做，然后
+
+1001
+00:51:07,329 --> 00:51:09,519
+incrementally working on it
+逐步进行工作，
+
+1002
+00:51:09,519 --> 00:51:13,659
+and gathering feedback from the rest of
+并从团队其他成员那里收集反馈，
+
+1003
+00:51:13,659 --> 00:51:16,059
+the team that's how you get larger
+这就是你如何
+
+1004
+00:51:16,059 --> 00:51:19,209
+changes into a project because you don't
+在项目中进行更大的更改，因为你不会
+
+1005
+00:51:19,209 --> 00:51:21,189
+suddenly surprise everyone with one
+突然用一个大补丁让每个人都感到惊讶，
+
+1006
+00:51:21,189 --> 00:51:24,039
+large patch that it's just too large to
+因为它太大而不能
+
+1007
+00:51:24,039 --> 00:51:29,979
+leave you and again project leaders who
+离开你 再次考虑项目
+
+1008
+00:51:29,979 --> 00:51:34,539
+have the longevity and quality of the
+的寿命和质量的
+
+1009
+00:51:34,539 --> 00:51:36,819
+project in mind are more likely to
+项目负责人更有可能
+
+1010
+00:51:36,819 --> 00:51:39,759
+reject any large patch and a large
+拒绝任何
+
+1011
+00:51:39,759 --> 00:51:43,169
+contribution that I can't quality assess
+我无法质量评估的大补丁和大贡献，
+
+1012
+00:51:43,169 --> 00:51:46,239
+and rather than accept it
+而不是接受它，
+
+1013
+00:51:46,239 --> 00:51:50,109
+so contributions need to be high quality
+因此贡献需要高质量，
+
+1014
+00:51:50,109 --> 00:51:52,319
+otherwise they simply get rejected
+否则他们只会得到
+
+1015
+00:51:52,319 --> 00:51:55,119
+anyway so again going back to the
+无论如何都被拒绝了，所以再次回到
+
+1016
+00:51:55,119 --> 00:51:57,549
+project as it is working with a new
+项目，因为它正在与新的
+
+1017
+00:51:57,549 --> 00:52:01,329
+contributor the project the key
+贡献者合作项目关键
+
+1018
+00:52:01,329 --> 00:52:03,249
+developers core committers
+开发人员核心提交者
+
+1019
+00:52:03,249 --> 00:52:06,939
+etc they need to react speedily they
+等他们需要快速反应他们
+
+1020
+00:52:06,939 --> 00:52:08,969
+need to create communication and
+需要 创建交流和
+
+1021
+00:52:08,969 --> 00:52:11,769
+contribution will enter conversation and
+贡献将进入对话，
+
+1022
+00:52:11,769 --> 00:52:14,319
+I need to provide code review and
+我需要提供代码审查和
+
+1023
+00:52:14,319 --> 00:52:16,359
+feedback until the contributions right
+反馈，直到贡献正确
+
+1024
+00:52:16,359 --> 00:52:19,029
+usually it's not right right file right
+通常它不正确
+
+1025
+00:52:19,029 --> 00:52:22,089
+from the get-go they need to provide
+从一开始就提交文件，他们需要提供
+
+1026
+00:52:22,089 --> 00:52:24,880
+credit so the developer the new
+信用，因此新
+
+1027
+00:52:24,880 --> 00:52:26,979
+contributor now commits are now a
+贡献者现在提交的开发人员现在是
+
+1028
+00:52:26,979 --> 00:52:30,969
+contributor and the former user now in
+贡献者 前用户现在在
+
+1029
+00:52:30,969 --> 00:52:34,089
+new countries then a new contributor
+新的国家 然后是新的贡献者
+
+1030
+00:52:34,089 --> 00:52:36,399
+one-step submission the tasks are
+一步提交 任务被
+
+1031
+00:52:36,399 --> 00:52:37,209
+accepted
+接受
+
+1032
+00:52:37,209 --> 00:52:39,609
+they want to see credit that makes them
+他们希望看到让他们
+
+1033
+00:52:39,609 --> 00:52:42,339
+feel good that creates that potential
+感觉良好的功劳 创造
+
+1034
+00:52:42,339 --> 00:52:44,409
+enjoyment of participating in the
+参与
+
+1035
+00:52:44,409 --> 00:52:48,669
+project and etc so this is a way of how
+项目的潜在乐趣等等 所以这是一种
+
+1036
+00:52:48,669 --> 00:52:53,069
+you bring you new contributors on board
+方式 现在为您带来新的贡献者
+
+1037
+00:52:53,069 --> 00:52:56,289
+now a new contributor will challenge
+新的贡献者将
+
+1038
+00:52:56,289 --> 00:52:59,499
+regular contributor over time about
+随着时间的推移挑战常规贡献者 关于
+
+1039
+00:52:59,499 --> 00:53:03,130
+Samba not bats are Sundra and those who
+Samba 不是蝙蝠是 Sundra 以及那些
+
+1040
+00:53:03,130 --> 00:53:06,819
+become regular contributors as a project
+成为常规贡献者作为项目
+
+1041
+00:53:06,819 --> 00:53:09,759
+leader you have to track their interests
+负责人的人 您必须跟踪他们的兴趣
+
+1042
+00:53:09,759 --> 00:53:12,759
+you can pull them out you can assign to
+您可以将他们拉出来 您可以分配给
+
+1043
+00:53:12,759 --> 00:53:16,899
+them perhaps some tasks etc there's a
+他们 也许一些 任务等这里发生了
+
+1044
+00:53:16,899 --> 00:53:19,839
+subtle shift going on here a new
+微妙的转变，一个新的
+
+1045
+00:53:19,839 --> 00:53:23,320
+contributor probably is making
+贡献者可能正在
+
+1046
+00:53:23,320 --> 00:53:25,360
+contribution with respect to the thing
+对这件事做出贡献
+
+1047
+00:53:25,360 --> 00:53:29,410
+that was their problem to begin with so
+帽子是他们一开始的问题，所以
+
+1048
+00:53:29,410 --> 00:53:33,250
+maybe the project solved their problem
+也许项目解决了他们的问题，
+
+1049
+00:53:33,250 --> 00:53:35,440
+but only 80 percent so they programmed
+但只有 80%，所以他们自己编程
+
+1050
+00:53:35,440 --> 00:53:40,080
+the missing 20% themselves the initial
+了缺失的 20%
+
+1051
+00:53:40,080 --> 00:53:42,210
+connection with a project is always
+
+1052
+00:53:42,210 --> 00:53:46,840
+almost always specific to the problem at
+
+1053
+00:53:46,840 --> 00:53:47,380
+hand
+
+1054
+00:53:47,380 --> 00:53:50,530
+why any later engagement if there is
+
+1055
+00:53:50,530 --> 00:53:53,560
+loyalty with the project may well go
+这个项目很可能会
+
+1056
+00:53:53,560 --> 00:53:56,230
+beyond the specific problem they
+超越他们
+
+1057
+00:53:56,230 --> 00:54:00,610
+initially had to a broader support of
+最初遇到的具体问题，而是更广泛地
+
+1058
+00:54:00,610 --> 00:54:03,640
+the project that is also not only how
+支持项目，这不仅
+
+1059
+00:54:03,640 --> 00:54:05,500
+the project leaders come about who we
+是项目负责人如何产生我们
+
+1060
+00:54:05,500 --> 00:54:08,350
+talk about but simply how long-term
+谈论的人，而且仅仅是长期
+
+1061
+00:54:08,350 --> 00:54:11,590
+volunteers are come about who do things
+志愿者如何产生谁做的
+
+1062
+00:54:11,590 --> 00:54:14,620
+that are not necessarily fun and that
+事情 不一定很有趣，
+
+1063
+00:54:14,620 --> 00:54:16,750
+don't necessarily fix their actual
+也不一定能解决他们手头的实际
+
+1064
+00:54:16,750 --> 00:54:18,610
+problem at hand but are simply good and
+问题，但对于项目来说只是好和
+
+1065
+00:54:18,610 --> 00:54:21,070
+important for the project like cleaning
+重要，比如
+
+1066
+00:54:21,070 --> 00:54:23,080
+up a wiki or sometimes going to a
+清理 wiki 或有时去参加
+
+1067
+00:54:23,080 --> 00:54:25,870
+conference and marketing being a booth
+会议和营销作为展位
+
+1068
+00:54:25,870 --> 00:54:28,360
+or marketing the project things like
+或营销项目
+
+1069
+00:54:28,360 --> 00:54:30,610
+that that don't actually have much to do
+这样的事情 实际上
+
+1070
+00:54:30,610 --> 00:54:33,700
+anything any longer was their original
+，他们不再有太多事情
+
+1071
+00:54:33,700 --> 00:54:37,150
+motivation to join the project anyway so
+
+1072
+00:54:37,150 --> 00:54:40,210
+you work with a regular contributor you
+
+1073
+00:54:40,210 --> 00:54:42,160
+track the interests and you try to meet
+要做了 ests 并且您尝试满足
+
+1074
+00:54:42,160 --> 00:54:44,620
+the interests so that they have fun
+他们的兴趣，以便他们有乐趣
+
+1075
+00:54:44,620 --> 00:54:48,460
+contributing you also slowly start
+做出贡献您也慢慢开始
+
+1076
+00:54:48,460 --> 00:54:50,440
+sharing with them not only technical
+与他们分享不仅是技术
+
+1077
+00:54:50,440 --> 00:54:53,560
+work but that's managerial work and as
+工作，而且是管理工作，当
+
+1078
+00:54:53,560 --> 00:54:56,470
+you work with them you demonstrate that
+您与他们一起工作时，您证明了
+
+1079
+00:54:56,470 --> 00:54:58,360
+as a project either you demonstrate that
+作为一个项目，您要么证明
+
+1080
+00:54:58,360 --> 00:55:02,050
+you're serious about it which means you
+您是认真的 这意味着
+
+1081
+00:55:02,050 --> 00:55:04,600
+follow up if they accepted a task but
+如果他们接受了一项任务但
+
+1082
+00:55:04,600 --> 00:55:05,740
+nothing is happening
+什么都没有发生，
+
+1083
+00:55:05,740 --> 00:55:08,380
+you follow up and you ask why nothing is
+你会跟进你跟进，你问为什么什么都没有
+
+1084
+00:55:08,380 --> 00:55:11,290
+happening and if it all fails that means
+发生，如果一切都失败了，这意味着
+
+1085
+00:55:11,290 --> 00:55:13,390
+you will have to a little bit
+你将不得不有点
+
+1086
+00:55:13,390 --> 00:55:16,450
+embarrassed and then pull out so that's
+尴尬然后退出，
+
+1087
+00:55:16,450 --> 00:55:21,460
+that's how it is so you now have regular
+这就是它的样子 所以你现在有固定的
+
+1088
+00:55:21,460 --> 00:55:22,810
+contributors and they should be
+贡献者，他们应该
+
+1089
+00:55:22,810 --> 00:55:25,630
+participating in the America kradic
+参与项目的美国 kradic
+
+1090
+00:55:25,630 --> 00:55:29,340
+decision-making process of the project
+决策过程，
+
+1091
+00:55:29,340 --> 00:55:33,100
+because they are capable they actively
+因为他们有能力
+
+1092
+00:55:33,100 --> 00:55:34,720
+working on the project so they have some
+积极参与项目，所以他们有一些
+
+1093
+00:55:34,720 --> 00:55:35,940
+understanding and they can
+理解，他们可以
+
+1094
+00:55:35,940 --> 00:55:38,700
+a contribution on the mailing lists as
+在与邮件列表相关的邮件列表
+
+1095
+00:55:38,700 --> 00:55:42,000
+it pertains to perhaps unimportant soft
+中做出贡献 也许需要做出不重要的软
+
+1096
+00:55:42,000 --> 00:55:44,810
+architecture decisions to be made and
+决策，那就
+
+1097
+00:55:44,810 --> 00:55:49,020
+that is there are lots and lots of best
+是有很多很多的最佳实践
+
+1098
+00:55:49,020 --> 00:55:54,690
+practices ideally it's a discussion with
+，理想情况下这是一个带有
+
+1099
+00:55:54,690 --> 00:55:56,880
+a conclusion based on the merits of the
+结论基础的讨论 d 基于论证的优点，
+
+1100
+00:55:56,880 --> 00:55:58,410
+argument where everyone on the end
+最后每个人都
+
+1101
+00:55:58,410 --> 00:56:02,120
+agrees yes that's the best solution and
+同意，是的，这是最好的解决方案，
+
+1102
+00:56:02,120 --> 00:56:05,060
+these discussions can be lengthy you
+这些讨论可能很长，你
+
+1103
+00:56:05,060 --> 00:56:08,790
+need to try to keep ego out and really
+需要尽量保持自我，并真正
+
+1104
+00:56:08,790 --> 00:56:11,490
+make sure it's not about the egos of the
+确保它不是关于人们的自我，
+
+1105
+00:56:11,490 --> 00:56:14,070
+people sometimes I'm easy but rather
+有时我很容易但
+
+1106
+00:56:14,070 --> 00:56:17,070
+it's about the technical content of the
+而是关于问题的技术内容
+
+1107
+00:56:17,070 --> 00:56:18,870
+question and the potential problem
+和潜在的问题
+
+1108
+00:56:18,870 --> 00:56:23,190
+solution now ideally you achieve
+解决方案，现在理想情况下，您可以
+
+1109
+00:56:23,190 --> 00:56:28,500
+consensus for people accustomed or the
+为习惯的人或
+
+1110
+00:56:28,500 --> 00:56:31,650
+ways companies do it these discussions
+公司的做法达成共识。这些讨论
+
+1111
+00:56:31,650 --> 00:56:34,620
+can be rather lengthy but again you
+可能会相当冗长，但您
+
+1112
+00:56:34,620 --> 00:56:36,930
+don't want say the project leader to
+又不想说项目负责人
+
+1113
+00:56:36,930 --> 00:56:39,900
+come down with a hammer because if they
+得出一个 锤子，因为如果他们
+
+1114
+00:56:39,900 --> 00:56:42,330
+do that too often people will leave so
+经常这样做，人们会离开，所以
+
+1115
+00:56:42,330 --> 00:56:45,450
+you need to tolerate you need to
+你需要容忍你需要
+
+1116
+00:56:45,450 --> 00:56:47,520
+tolerate lengthy discussions and hope
+容忍冗长的讨论，并
+
+1117
+00:56:47,520 --> 00:56:49,050
+that at the end everyone will be
+希望最后每个人都会被
+
+1118
+00:56:49,050 --> 00:56:52,020
+convinced or at least remain friendly
+说服或至少保持友好
+
+1119
+00:56:52,020 --> 00:56:53,730
+and supportive of the project because
+和支持该项目，因为
+
+1120
+00:56:53,730 --> 00:56:56,280
+that may take the series as a postal
+这可能会将这个系列作为一个 邮政
+
+1121
+00:56:56,280 --> 00:56:59,460
+address being told how the world is so
+地址被告知世界如何如此
+
+1122
+00:56:59,460 --> 00:57:01,290
+ideally there's consensus at the end if
+理想，如果绝对没有共识让人们投票，那么最后就会
+
+1123
+00:57:01,290 --> 00:57:03,210
+there absolutely is no consensus to be
+达成共识，
+
+1124
+00:57:03,210 --> 00:57:06,360
+had people vote it's a very
+这是一种非常
+
+1125
+00:57:06,360 --> 00:57:08,910
+idiosyncratic way of how decisions are
+特殊的方式 如何做出决定
+
+1126
+00:57:08,910 --> 00:57:12,590
+made some votes are cast to believe
+一些投票人相信
+
+1127
+00:57:12,590 --> 00:57:15,960
+shall we do this yes or no so people
+我们是否应该
+
+1128
+00:57:15,960 --> 00:57:20,420
+will go to +1 for agreement or a 0 for
+
+1129
+00:57:20,420 --> 00:57:24,150
+with withholding or withdrawal and a
+
+1130
+00:57:24,150 --> 00:57:26,820
+minus one affair that set against it now
+
+1131
+00:57:26,820 --> 00:57:29,970
+if in such a world there is a - while
+这样做 是 - 虽然
+
+1132
+00:57:29,970 --> 00:57:32,850
+there is no veto right it might still be
+没有否决权，但它仍然可能被
+
+1133
+00:57:32,850 --> 00:57:34,860
+considered a veto because again you
+视为否决权，因为你
+
+1134
+00:57:34,860 --> 00:57:37,980
+really want what consensus so you dig
+真的想要什么共识，所以你深入
+
+1135
+00:57:37,980 --> 00:57:40,770
+into why is someone so dead-set that
+研究为什么有人如此死心塌地以至于
+
+1136
+00:57:40,770 --> 00:57:42,480
+they are not just silent but rather
+他们不仅保持沉默，而是
+
+1137
+00:57:42,480 --> 00:57:45,620
+explicitly argue this is not a good idea
+明确地争辩这不是一个好主意
+
+1138
+00:57:45,620 --> 00:57:48,270
+anyway I ultimately a decision has to be
+无论如何，我最终必须做出决定，并且做出决定的
+
+1139
+00:57:48,270 --> 00:57:49,380
+made and
+
+1140
+00:57:49,380 --> 00:57:53,160
+way it's made is as mentioned before by
+方式如前所述，通过
+
+1141
+00:57:53,160 --> 00:57:56,490
+writing a summary email that goes Center
+写一封摘要电子邮件将中心
+
+1142
+00:57:56,490 --> 00:58:00,150
+data sent out of mailing lists where it
+数据发送到邮件列表中，
+
+1143
+00:58:00,150 --> 00:58:03,150
+can be read read widely and will also be
+可以广泛阅读并且也将被
+
+1144
+00:58:03,150 --> 00:58:05,790
+archived so that in the future you can
+存档，以便将来您可以
+
+1145
+00:58:05,790 --> 00:58:08,550
+reference that may email on the mailing
+邮件列表存档中可能通过电子邮件发送的参考资料
+
+1146
+00:58:08,550 --> 00:58:13,440
+list archive are for everyone to see so
+供每个人查看，因此
+
+1147
+00:58:13,440 --> 00:58:17,100
+let's take a look here at at some
+让我们在这里看一下
+
+1148
+00:58:17,100 --> 00:58:21,560
+numbers in an illustration really of
+插图中的
+
+1149
+00:58:21,560 --> 00:58:24,780
+some numbers in a well working
+一些数字，这些数字实际上是一个运行良好
+
+1150
+00:58:24,780 --> 00:58:26,790
+open-source project for every committee
+的开源项目中的一些数字，适用于每个委员会
+
+1151
+00:58:26,790 --> 00:58:28,890
+that may well be ten to a hundred
+，可能是十到一个 一百个
+
+1152
+00:58:28,890 --> 00:58:35,190
+contributors and also for each committee
+贡献者，以及每个委员会
+
+1153
+00:58:35,190 --> 00:58:37,470
+that may easily be ten thousands of
+可能很容易拥有一万个
+
+1154
+00:58:37,470 --> 00:58:39,660
+users so you can see how these are
+用户，因此您可以看到这些是
+
+1155
+00:58:39,660 --> 00:58:42,870
+orders of magnitudes difference between
+
+1156
+00:58:42,870 --> 00:58:44,310
+differences between committees our
+委员会之间差异之间的数量级差异我们的
+
+1157
+00:58:44,310 --> 00:58:46,670
+project leaders contributors are
+项目负责人贡献者是
+
+1158
+00:58:46,670 --> 00:58:52,730
+developers and actual users hence
+开发人员和实际用户，因此
+
+1159
+00:58:52,730 --> 00:58:55,800
+deciding how to spend time to acquire
+决定如何花时间获得
+
+1160
+00:58:55,800 --> 00:58:59,400
+volunteers is not easy what if your what
+志愿者不是 很容易，
+
+1161
+00:58:59,400 --> 00:59:01,170
+if you're spending time on the wrong
+如果你把时间花在错误的
+
+1162
+00:59:01,170 --> 00:59:06,240
+people and it never pans out so you have
+人身上并且永远不会成功，
+
+1163
+00:59:06,240 --> 00:59:09,330
+to think about this as you go about it
+那么你必须在做这件事时考虑这一点
+
+1164
+00:59:09,330 --> 00:59:13,650
+and the right thing to realize is that
+，正确的事情是要意识到
+
+1165
+00:59:13,650 --> 00:59:17,330
+time is just gaseous resource and that
+时间只是气态资源，
+
+1166
+00:59:17,330 --> 00:59:19,800
+recruiting will take away from that time
+招聘将需要 远离那段时间
+
+1167
+00:59:19,800 --> 00:59:21,750
+that you could otherwise spend on
+，否则你可以花在
+
+1168
+00:59:21,750 --> 00:59:24,960
+developing the software so the best way
+开发软件上，所以最好的方法
+
+1169
+00:59:24,960 --> 00:59:28,470
+and this is how full bill costs it is to
+，这就是将招聘视为一项投资的全部费用，这是
+
+1170
+00:59:28,470 --> 00:59:31,800
+view recruiting as an investment it's a
+
+1171
+00:59:31,800 --> 00:59:34,740
+time your investment and so you've got a
+你的投资时间，所以你有一个
+
+1172
+00:59:34,740 --> 00:59:36,990
+critically absorbent you make
+批判性的吸收能力，你可以采取
+
+1173
+00:59:36,990 --> 00:59:40,350
+incremental moves and you watch and
+渐进式的行动 然后你观察和
+
+1174
+00:59:40,350 --> 00:59:43,230
+review the feedback or the reactions you
+审查你得到的反馈或反应，
+
+1175
+00:59:43,230 --> 00:59:45,300
+get and based on that you incrementally
+并在此基础上逐步
+
+1176
+00:59:45,300 --> 00:59:48,870
+steer whether you invest more time I've
+控制你是否投入更多时间我
+
+1177
+00:59:48,870 --> 00:59:50,670
+gotta be open and welcoming in the
+必须开放 并在一
+
+1178
+00:59:50,670 --> 00:59:52,620
+beginning but you should not be spending
+开始就欢迎，但你不应该花费
+
+1179
+00:59:52,620 --> 00:59:55,770
+extra time unless you see how that
+额外的时间，除非你看到那
+
+1180
+00:59:55,770 --> 00:59:59,130
+person is willing to engage and willing
+个人愿意参与并且愿意
+
+1181
+00:59:59,130 --> 01:00:02,430
+and helpful here means
+和乐于助人，这
+
+1182
+01:00:02,430 --> 01:00:06,150
+that they read up on how you tell them
+意味着他们阅读了你如何告诉他们
+
+1183
+01:00:06,150 --> 01:00:07,859
+that they should be engaging with the
+如果他们只是绊倒他们应该参与这个
+
+1184
+01:00:07,859 --> 01:00:10,349
+project if they just stumble into the
+项目 进入
+
+1185
+01:00:10,349 --> 01:00:14,130
+forums ask questions in a poor way which
+论坛以一种糟糕的方式提问，这
+
+1186
+01:00:14,130 --> 01:00:15,660
+shows that they haven't read up on
+表明他们没有阅读
+
+1187
+01:00:15,660 --> 01:00:19,700
+anything it suggests that they're not
+任何内容，这表明他们不是
+
+1188
+01:00:19,700 --> 01:00:23,730
+particularly reliable and probably not
+特别可靠，
+
+1189
+01:00:23,730 --> 01:00:25,530
+that interested in the project if they
+如果他们确实使用过这个项目，可能对项目没有那么感兴趣
+
+1190
+01:00:25,530 --> 01:00:27,660
+did use and that little time figuring
+，而且几乎没有时间
+
+1191
+01:00:27,660 --> 01:00:31,680
+figuring out how it works and hence you
+弄清楚它是如何使用的 工作，因此你
+
+1192
+01:00:31,680 --> 01:00:35,819
+might just limit whatever time you're
+可能只是限制你花在这些人身上的任何时间，
+
+1193
+01:00:35,819 --> 01:00:40,470
+spending on these guys so view
+所以将
+
+1194
+01:00:40,470 --> 01:00:43,530
+recruiting as investment of your time
+招聘视为你的时间投资
+
+1195
+01:00:43,530 --> 01:00:50,030
+and walk with it so then any volunteer
+并与它同行，这样任何
+
+1196
+01:00:50,030 --> 01:00:52,650
+who is long enoug grew up with the
+长期与该项目一起长大的志愿者
+
+1197
+01:00:52,650 --> 01:00:54,599
+project will have loyalty to that
+都会对该项目有忠诚度
+
+1198
+01:00:54,599 --> 01:00:55,550
+project
+
+1199
+01:00:55,550 --> 01:00:58,970
+has that investment in the project and
+在项目中，
+
+1200
+01:00:58,970 --> 01:01:03,690
+may ultimately and suddenly Webb gray
+可能最终突然间韦伯·
+
+1201
+01:01:03,690 --> 01:01:07,109
+has at its heart of the interests of the
+格雷将项目利益置于其核心，
+
+1202
+01:01:07,109 --> 01:01:09,270
+project and may ultimately become a
+并可能最终
+
+1203
+01:01:09,270 --> 01:01:11,099
+project leader themselves that's the
+自己成为项目负责人，这是
+
+1204
+01:01:11,099 --> 01:01:14,130
+step from a contributor to a committer
+从合作伙伴迈出的一步 提交者的贡献者
+
+1205
+01:01:14,130 --> 01:01:16,890
+and as a leader of the project they
+和作为项目的领导者，他们
+
+1206
+01:01:16,890 --> 01:01:18,839
+really need to show that by taking
+确实需要通过承担
+
+1207
+01:01:18,839 --> 01:01:21,540
+responsibility and that really like
+责任来表明，真正像
+
+1208
+01:01:21,540 --> 01:01:25,170
+leadership typically is is social walk
+领导力一样通常是社交活动
+
+1209
+01:01:25,170 --> 01:01:28,020
+of sorts so they need to if I hadn't
+，所以如果我之前没有
+
+1210
+01:01:28,020 --> 01:01:31,609
+done that before really be praising
+这样做，他们需要真正表扬
+
+1211
+01:01:31,609 --> 01:01:34,799
+other people providing positive social
+其他人提供 积极的社会
+
+1212
+01:01:34,799 --> 01:01:37,109
+feedback really making become helping
+反馈真正让
+
+1213
+01:01:37,109 --> 01:01:41,119
+the community feel whole and the people
+社区感觉完整，人们
+
+1214
+01:01:41,119 --> 01:01:44,819
+welcomed within that community the
+在社区内受到欢迎
+
+1215
+01:01:44,819 --> 01:01:47,760
+leaders here I'll only praise they
+这里的领导者我只会称赞他们
+
+1216
+01:01:47,760 --> 01:01:51,119
+acknowledge they provide credit etc they
+承认他们提供了信用等，他们
+
+1217
+01:01:51,119 --> 01:01:54,690
+may even go outside the project or say
+甚至可能会离开项目，或者说
+
+1218
+01:01:54,690 --> 01:01:56,819
+provide positive feedback about a
+
+1219
+01:01:56,819 --> 01:01:59,700
+developer to their manager within
+向他们的经理提供关于开发人员的积极反馈 在公司内部，
+
+1220
+01:01:59,700 --> 01:02:03,030
+companies if that person is working on
+如果该人
+
+1221
+01:02:03,030 --> 01:02:06,270
+the project on company time or simply
+在公司时间从事项目或只是
+
+1222
+01:02:06,270 --> 01:02:08,549
+show give provide simple tokens of
+展示 给予 提供简单的
+
+1223
+01:02:08,549 --> 01:02:11,250
+appreciation it's amazing how far
+感谢信 令人惊讶的是
+
+1224
+01:02:11,250 --> 01:02:14,490
+t-shirts for example can go to keep
+，例如 T 恤可以在多大程度上保持
+
+1225
+01:02:14,490 --> 01:02:15,869
+people motivated
+人们的积极性
+
+1226
+01:02:15,869 --> 01:02:21,930
+contributing finally this five stages of
+最后贡献
+
+1227
+01:02:21,930 --> 01:02:24,240
+engagement that we are discussing are
+我们正在讨论的这五个参与阶段是
+
+1228
+01:02:24,240 --> 01:02:27,359
+some sort of basic career but then
+一些 一种基本的职业，但
+
+1229
+01:02:27,359 --> 01:02:30,660
+there's also the more elaborate career
+还有
+
+1230
+01:02:30,660 --> 01:02:34,140
+that I mentioned before that within the
+我之前提到的更复杂的
+
+1231
+01:02:34,140 --> 01:02:38,069
+community and within the foundation the
+职业 社区和基金会内，
+
+1232
+01:02:38,069 --> 01:02:39,630
+project leader will make that very
+项目负责人将非常
+
+1233
+01:02:39,630 --> 01:02:41,880
+explicit will give people a terminology
+明确地为人们提供
+
+1234
+01:02:41,880 --> 01:02:44,880
+on how to talk about the roles they have
+有关如何谈论
+
+1235
+01:02:44,880 --> 01:02:49,130
+a curious stages they are in etc and a
+他们所处的好奇阶段等角色的术语，
+
+1236
+01:02:49,130 --> 01:02:52,499
+critical part here of a project leaders
+项目负责人
+
+1237
+01:02:52,499 --> 01:02:54,779
+work is of course to determine whether
+工作的关键部分当然是确定是否
+
+1238
+01:02:54,779 --> 01:02:58,109
+the promotion of a regular contributor
+有必要提拔
+
+1239
+01:02:58,109 --> 01:03:02,069
+to a project leader or committee is
+项目负责人或委员会的定期贡献者
+
+1240
+01:03:02,069 --> 01:03:04,890
+warranted and that is one of the few
+，这是少数
+
+1241
+01:03:04,890 --> 01:03:07,470
+things that may not be done in public
+可能不会在公开场合做的事情之一，
+
+1242
+01:03:07,470 --> 01:03:11,039
+because it's so socially sensitive if
+因为如果
+
+1243
+01:03:11,039 --> 01:03:14,220
+someone's accepted for for committee
+某人被接受担任委员会
+
+1244
+01:03:14,220 --> 01:03:17,190
+post position then of course the
+职位，这对社会非常敏感，那么
+
+1245
+01:03:17,190 --> 01:03:19,619
+existing project leaders will have to
+现有的项目负责人当然会 必须
+
+1246
+01:03:19,619 --> 01:03:22,980
+make that very clear announce it visibly
+非常清楚地宣布它
+
+1247
+01:03:22,980 --> 01:03:27,420
+and welcome that person to the ranks of
+并欢迎该人加入委员会的行列，
+
+1248
+01:03:27,420 --> 01:03:31,289
+committee for their well-done continued
+因为他们对项目的出色持续
+
+1249
+01:03:31,289 --> 01:03:36,980
+contributions to the project alright so
+贡献好吧，所以
+
+1250
+01:03:36,980 --> 01:03:39,239
+we are not going to watch it in this
+我们不会在本次讲座中观看它，
+
+1251
+01:03:39,239 --> 01:03:42,569
+lecture but there is a very nice video
+但那里有一个非常好的
+
+1252
+01:03:42,569 --> 01:03:45,720
+out there on dealing with difficult
+视频 与难相处的
+
+1253
+01:03:45,720 --> 01:03:49,829
+people and open source projects called
+人和开源项目打交道被称为
+
+1254
+01:03:49,829 --> 01:03:53,369
+dealing with poisonous people because
+与毒人打交道，因为
+
+1255
+01:03:53,369 --> 01:03:55,769
+the wrong people in your project might
+你项目中的错误人可能
+
+1256
+01:03:55,769 --> 01:03:58,230
+really poison poison it and not only
+真的会毒害pois 这样做，不仅
+
+1257
+01:03:58,230 --> 01:04:02,039
+waste your time but really ruin ruin the
+浪费你的时间，而且真的会毁了这个
+
+1258
+01:04:02,039 --> 01:04:04,980
+project if they're smart and divisive
+项目
+
+1259
+01:04:04,980 --> 01:04:06,960
+whatever might be driving them you don't
+
+1260
+01:04:06,960 --> 01:04:09,450
+have to assume that there's deliberate
+
+1261
+01:04:09,450 --> 01:04:11,759
+mischief at work they're just not a good
+
+1262
+01:04:11,759 --> 01:04:13,920
+match and thereby may be poisonous to
+对项目有毒，
+
+1263
+01:04:13,920 --> 01:04:17,579
+the project so the wrong people may be
+所以错误的人可能会
+
+1264
+01:04:17,579 --> 01:04:19,650
+wasting your time but might even split
+浪费你的时间，但
+
+1265
+01:04:19,650 --> 01:04:24,239
+the project if I've not stopped so this
+如果我没有停止，甚至可能会拆分项目，所以这个
+
+1266
+01:04:24,239 --> 01:04:27,569
+particular video suggests the four-step
+特定的视频建议了四步
+
+1267
+01:04:27,569 --> 01:04:29,050
+process for
+过程，
+
+1268
+01:04:29,050 --> 01:04:34,150
+you need to understand the poisonous
+你需要了解有毒的
+
+1269
+01:04:34,150 --> 01:04:37,080
+people come from and then identify them
+人来自哪里，然后识别他们
+
+1270
+01:04:37,080 --> 01:04:42,370
+since the best defense is being prepared
+由于正在准备最好的防御措施，
+
+1271
+01:04:42,370 --> 01:04:47,200
+you need to have your community if you
+
+1272
+01:04:47,200 --> 01:04:49,740
+will be healthy so that there is no
+因此如果您保持健康，就需要拥有自己的社区，这样对于
+
+1273
+01:04:49,740 --> 01:04:52,120
+leverage point for anyone who
+
+1274
+01:04:52,120 --> 01:04:54,520
+deliberately are not deliberately might
+故意不
+
+1275
+01:04:54,520 --> 01:04:57,430
+want to harm the community so building a
+故意伤害社区的任何人都没有杠杆点，因此建立一个
+
+1276
+01:04:57,430 --> 01:04:59,220
+healthy community is the main
+健康的社区是主要的
+
+1277
+01:04:59,220 --> 01:05:01,870
+preparatory measure and something you
+准备措施和一些东西
+
+1278
+01:05:01,870 --> 01:05:03,730
+want to do anyway so that goes
+无论如何，您都想这样做，以便
+
+1279
+01:05:03,730 --> 01:05:07,410
+hand-in-hand nicely part of that is
+很好地携手并进，其中一部分
+
+1280
+01:05:07,410 --> 01:05:08,770
+again
+再次
+
+1281
+01:05:08,770 --> 01:05:12,880
+public written archived complete and
+公开书面存档
+
+1282
+01:05:12,880 --> 01:05:15,190
+archived communication for all the
+，所有
+
+1283
+01:05:15,190 --> 01:05:17,530
+decisions are being documented so
+决定的完整和存档通信都被记录在案 d 所以
+
+1284
+01:05:17,530 --> 01:05:20,350
+leaving no room for conspiracy
+没有为阴谋论留出空间
+
+1285
+01:05:20,350 --> 01:05:25,030
+conspiracy theories so but let's assume
+所以但是让我们
+
+1286
+01:05:25,030 --> 01:05:28,090
+that now is a difficult person or
+假设现在是一个难相处的人或
+
+1287
+01:05:28,090 --> 01:05:30,880
+poisonous person how do you detect them
+有毒的人 你如何
+
+1288
+01:05:30,880 --> 01:05:34,450
+well simple things give them away like
+很好地发现他们
+
+1289
+01:05:34,450 --> 01:05:36,580
+they don't show respect they don't
+
+1290
+01:05:36,580 --> 01:05:40,200
+actually read up on how the project
+项目
+
+1291
+01:05:40,200 --> 01:05:42,940
+wants people to behave because that's
+希望人们表现出来，因为这是
+
+1292
+01:05:42,940 --> 01:05:45,120
+their community rules and guidelines
+他们的社区规则和准则，
+
+1293
+01:05:45,120 --> 01:05:47,620
+because I clueless because they're
+因为我一无所知，因为
+
+1294
+01:05:47,620 --> 01:05:50,050
+already emotional etc they make sweeping
+他们已经情绪化等等
+
+1295
+01:05:50,050 --> 01:05:52,840
+claims they're probably lots of ways of
+
+1296
+01:05:52,840 --> 01:05:56,770
+how you recognize someone doesn't
+
+1297
+01:05:56,770 --> 01:05:58,720
+necessarily necessarily have to be a
+
+1298
+01:05:58,720 --> 01:06:01,390
+ but simply will be a difficult
+
+1299
+01:06:01,390 --> 01:06:04,440
+person in this project in this context
+在这种情况下，在这个项目中将是一个困难的人，
+
+1300
+01:06:04,440 --> 01:06:10,270
+so dealing with them now is well one way
+所以现在与他们打交道是一种很好的
+
+1301
+01:06:10,270 --> 01:06:14,140
+of doing it with all a suddenly open
+方式，所有突然的
+
+1302
+01:06:14,140 --> 01:06:15,520
+source project have their share of
+开源项目都有他们
+
+1303
+01:06:15,520 --> 01:06:20,110
+experiences with trolls which is to not
+与巨魔的经验，那就是不要
+
+1304
+01:06:20,110 --> 01:06:27,930
+feed them an energy beast in the video
+在视频中给他们喂食能量野兽
+
+1305
+01:06:27,930 --> 01:06:31,420
+don't feed the troll I don't give them
+'不要喂巨魔我不会
+
+1306
+01:06:31,420 --> 01:06:33,970
+energy by responding to them rather than
+通过回应他们来给他们能量，而不是
+
+1307
+01:06:33,970 --> 01:06:37,420
+silently go away if you ignore if you
+如果你忽略，如果你
+
+1308
+01:06:37,420 --> 01:06:40,030
+absolutely they absolutely don't leave
+绝对他们绝对不会离开
+
+1309
+01:06:40,030 --> 01:06:42,580
+and somehow are able
+并且以某种方式能够
+
+1310
+01:06:42,580 --> 01:06:46,900
+- able to engage people and trigger
+- abl  e 吸引人们并触发
+
+1311
+01:06:46,900 --> 01:06:51,250
+people's hot buttons so that those
+人们的热键，以便这些
+
+1312
+01:06:51,250 --> 01:06:54,220
+people do respond and feed them well
+人做出回应并很好地喂他们
+
+1313
+01:06:54,220 --> 01:06:56,560
+apparently sometimes you can't help it
+显然有时你无法帮助
+
+1314
+01:06:56,560 --> 01:06:58,630
+but you have to boot them which means
+但你必须启动他们，这意味着
+
+1315
+01:06:58,630 --> 01:07:00,220
+you just remove them from the mailing
+你只需将他们从邮件
+
+1316
+01:07:00,220 --> 01:07:04,660
+lists and block them from disturbing the
+列表中删除并阻止他们干扰
+
+1317
+01:07:04,660 --> 01:07:07,860
+project communication and collaboration
+项目 沟通和协作
+
+1318
+01:07:07,860 --> 01:07:10,840
+all right so I walked you through these
+都很好，所以我带你完成
+
+1319
+01:07:10,840 --> 01:07:13,870
+five stages of open source volunteering
+了开源志愿服务的这五个阶段，
+
+1320
+01:07:13,870 --> 01:07:17,460
+where the volunteer initially a seeker
+其中志愿者最初是一个寻求
+
+1321
+01:07:17,460 --> 01:07:23,260
+visitor potential user for volunteer and
+访问者，志愿者和
+
+1322
+01:07:23,260 --> 01:07:26,110
+project leader really engages with the
+项目负责人的潜在用户真正参与到
+
+1323
+01:07:26,110 --> 01:07:27,880
+project and how the project needs to
+项目中，以及项目需要如何
+
+1324
+01:07:27,880 --> 01:07:30,670
+match the interests of the volunteer by
+通过营销来匹配志愿者的兴趣
+
+1325
+01:07:30,670 --> 01:07:33,490
+marketing explaining the project
+解释
+
+1326
+01:07:33,490 --> 01:07:35,890
+engaging with the volunteer working with
+与与他们一起工作的志愿者参与的项目
+
+1327
+01:07:35,890 --> 01:07:41,070
+them and and enabling a career for them
+，并为他们创造职业生涯，
+
+1328
+01:07:41,070 --> 01:07:45,100
+so that's that for this session we
+这就是本次会议的内容，我们
+
+1329
+01:07:45,100 --> 01:07:47,320
+looked at open source projects and
+研究了开源项目和
+
+1330
+01:07:47,320 --> 01:07:49,300
+community open source projects in
+社区开源项目
+
+1331
+01:07:49,300 --> 01:07:52,210
+general the project roles that people
+，人们拥有的项目角色
+
+1332
+01:07:52,210 --> 01:07:54,550
+have and the career stages that are
+和可用的职业阶段
+
+1333
+01:07:54,550 --> 01:07:56,770
+available to members of open source
+开源
+
+1334
+01:07:56,770 --> 01:07:59,650
+projects and then the three four five
+项目成员再三四五
+
+1335
+01:07:59,650 --> 01:08:02,550
+model of open project communities
+模式开源项目社区
+
+1336
+01:08:02,550 --> 01:08:05,050
+consisting of the three principles of
+包括开放式沟通
+
+1337
+01:08:05,050 --> 01:08:07,900
+local collaboration for practices of
+实践的本地合作的三个原则
+
+1338
+01:08:07,900 --> 01:08:11,170
+open communication and five stages of a
+和一个
+
+1339
+01:08:11,170 --> 01:08:14,230
+sauce volunteer that's it from me for
+酱汁志愿者的五个阶段，这就是我
+
+1340
+01:08:14,230 --> 01:08:15,550
+now thank you very much for your
+现在的内容，非常感谢
+
+1341
+01:08:15,550 --> 01:08:18,339
+attention and I see you in the next
+您的关注，我们下期再见
+
+1342
+01:08:18,339 --> 01:08:21,330
+session
